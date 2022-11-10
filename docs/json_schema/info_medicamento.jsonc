@@ -1,0 +1,86 @@
+// Protótipo Informação do Medicamento
+// Baseado na informação disponível em https://www.medicines.org.uk/emc/browse-medicines
+{
+	// Atribuir um identificador único
+	"medicine_id": "xxxxxxxxxxxxxxxxxxxxxxxx",
+	"metadata": {
+		// Ponto 1.
+		"name": "Medicamento 1",
+		// Ponto 2.
+		"composition": "Contém x mg de y de princício ativo",
+		// Ponto 3 indica a forma dos comprimidos e pode ter a indicação sobre a subdivisão desse comprimido (ver se é relevante)
+		// "form": "",
+		// Ponto 4 representa a informação clínica.
+		"clinical_particulars": {
+			// Ponto 4.1 indica para tratamento o medicamento é usado e também algumas informações iniciais sobre pré condições em que pode (ou não) ser aplicado.
+			"terapeutical_indications": {
+				"treating_diseases": "doença x, doença y, etc.",
+				"patient_pre_conditions": "Devem ser feitos exames para ver detalhe x, se for apresentado não é aconselhada a administração...",
+			},
+			// Ponto 4.2 indica como deve ser tomado o medicamento e as dosagens apropriadas para cada tipo de população indicado.
+			"posology_method_administration": {
+				// Talvez separar em campos separados caso seja semelhante a estruturação.
+				"general_conditions": "Pode ser tomado com ou sem comida, não deve ser mastigado, etc.",
+				// Uma entrada para cada tipo de população (se for o caso se ser geral apenas terá uma entrada)
+				"particular_conditions": [
+					{
+						"groupname": "adultos, adolescentes, crianças acima de 25 kg",
+						"posology": "x mg por dia"
+					},
+					{
+						"groupname": "crianças menos 3 meses",
+						"posology": "y mg por dia"
+					}
+				]
+			},
+			// Nos pontos 4.3 a 4.8 (ou 4.9) poderiam ser englobados num só talvez (ver se é relevante)
+			// Ponto 4.3 indica as contraindicações do medicamento em questão. Outras informações estão presentes em 4.4, 4.8 e 6.1 (será relevante juntar essa informação?)
+			"contraindications": "Hipersensibilidade a algum dos componentes",
+			// Ponto 4.4 indica os alertas especiais e precauções com a utilização do medicamento
+			"special_warnings_precautions": [
+				{
+					"name": "Doença X",
+					"description": "Foram relatados casos da doença X mas não foi encontrada relação"
+				},
+			],
+			// Ponto 4.5 indica a interação com outros medicamentos
+			"medicine_interactions": [
+				{
+					"medicine_name": "Medicamento xpto",
+					"description": "O metabolismo é alterado, sendo a absorção do medicamento pricipal "
+				}
+			],
+			// Ponto 4.6 indica os impactos em fertilidade, gravidez e amamentação
+			"fertility_pregnancy_lactation": [
+				{
+					"name": "Gravidez",
+					"description": "Reduz o risco de transmissão ao feto"
+				}
+			],
+			// Ponto 4.7 indica as alterações na condução ou operação de máquinas
+			"driving_machine_operation": "Não foram encotradas evidências que alterem a capacidade de condução ou operação de máquinas",
+			// Ponto 4.8 indica os efeitos não desejados
+			"undesirable_effects": [
+				{
+					"effect": "Efeito x",
+					"description": "Descrição do efeito x"
+				}
+			],
+			// Ponto 4.9 indica o efeito da sobredosagem 
+			"overdose": "Consequências...",
+			// No Ponto 5 temos muita propriedade farmacêutica, mas não sei até que ponto contribui para uma futura recomendação
+			//Ponto 6 indica dados farmacêuticos
+			"pharmaceutical_particulars": {
+				// Ponto 6.1
+				"excipients": [
+					"Excipiente 1",
+					"Excipiente 2"
+				],
+				// Ponto 6.2 mostra as incompatibilidades deste medicamento
+				"incompatibilies": []
+			},
+			// Ponto 10 indica a revisão do texto, onde podem ter sido alteradas ou enriquecidas as informações do princípio ativo em questão (útil para saber se a informação já foi processada)
+			"revision_date": "11/10/2021"
+		}
+	}
+}
