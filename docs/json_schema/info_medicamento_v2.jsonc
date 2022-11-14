@@ -1,0 +1,29 @@
+// Based on medicine information from https://www.medicines.org.uk/emc/browse-medicines
+{
+	"medicine_id": "ATC code",
+	"metadata": {
+		"name": "<medicine name>",
+		"composition": "<active principle with amount>",
+		"clinical_particulars": {
+			"terapeutical_indications": "<terapeutical indications for usage>",
+			"contraindications": {
+				"disease": [
+					{
+						"name": "<disease name>",
+						"description": "<description of disease interaction>"
+					}
+				],
+				"fertility_pregnancy_lactation": [
+					{
+						"name": "<Fertility | Pregnancy | Lactation>",
+						"description": "<interaction description for given condition>"
+					}
+				],
+				"driving_machine_operation": "<description for driving and operating machines under medicine effect>",
+				"excipients": "<comma separated excipients present in medicine>",
+				"incompatibilies": "<comma separated medicine names that are imcompatible with this medicine>"
+			}
+		},
+		"revision_date": "<revision date with format yyyy-mm-dd>"
+	}
+}
