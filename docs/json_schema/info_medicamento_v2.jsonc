@@ -5,7 +5,7 @@
 		"name": "<medicine name>",
 		"composition": "<active principle with amount>",
 		"clinical_particulars": {
-			"terapeutical_indications": "<terapeutical indications for usage>",
+			"therapeutic_indications": "<therapeutic indications for usage>",
 			"contraindications": {
 				"disease": [
 					{
@@ -13,15 +13,16 @@
 						"description": "<description of disease interaction>"
 					}
 				],
-				"fertility_pregnancy_lactation": [
+				/*"fertility_pregnancy_lactation": [
 					{
 						"name": "<Fertility | Pregnancy | Lactation>",
 						"description": "<interaction description for given condition>"
 					}
-				],
-				"driving_machine_operation": "<description for driving and operating machines under medicine effect>",
-				"excipients": "<comma separated excipients present in medicine>",
-				"incompatibilies": "<comma separated medicine names that are imcompatible with this medicine>"
+				],*/
+				"pregnancy": "<interaction description for given condition>",
+				"machine_ops": "<description for driving and operating machines under medicine effect>",
+				"excipients": "<semicollon separated excipients present in medicine>",
+				"incompatibilities": "<semicollon separated medicine names that are imcompatible with this medicine>"
 			}
 		},
 		"revision_date": "<revision date with format yyyy-mm-dd>"
