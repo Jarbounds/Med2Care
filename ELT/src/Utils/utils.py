@@ -14,6 +14,7 @@
 #                                                                             #  
 ###############################################################################
 
+'''
 import os
 from pathlib import Path
 from urllib.parse import quote
@@ -29,7 +30,17 @@ from spacy.tokenizer import Tokenizer
 from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
 
 # --------------------------------------------------------------------------- #
+'''
 
+
+def verify_word(word: str, wordlist: list[str]) -> bool:
+    for w in wordlist:
+        if w.lower() in word.lower():
+            return False
+    return True
+
+
+"""
 def custom_tokenizer(nlp):
     infix_re = re.compile(r'''[.\,\?\:\;\...\‘\’\`\“\”\"\'~]''')
     prefix_re = compile_prefix_regex(nlp.Defaults.prefixes)
@@ -41,7 +52,8 @@ def custom_tokenizer(nlp):
                                 token_match=None)
 
 # --------------------------------------------------------------------------- #
-
+"""
+'''
 def new_folder(path):
 
     try:
@@ -63,11 +75,11 @@ def new_file(file):
 # --------------------------------------------------------------------------- #
 
 def get_blacklist(file):
-    '''
+    """
     Return all articles to be removed, due some errors found there
     :param  file: name of file where the list will be found
     :return lst_articles: list of articles
-    '''
+    """
 
     lst_articles = []
     if os.path.isfile(file):
@@ -80,14 +92,14 @@ def get_blacklist(file):
 # --------------------------------------------------------------------------- #
 
 def set_blacklist(file, line):
-    '''
+    """
     This function receives the article to and saves them in the
     blacklist file. The backlist contains all invalid articles, such
     as non-authors, non-entities, and others
     :param  filename: name of txt file
             line: all content
     :return none        
-    '''
+    """
 
     new_folder(os.path.dirname(file))
     new_file(file)
@@ -114,12 +126,12 @@ def save_final_data(data, path):
 # --------------------------------------------------------------------------- #
 
 def save_metadata(file, line):
-    '''
+    """
     This function will save all metadata about the process in txt file
     :param  filename: name of txt file
             line: all content
     :return none        
-    '''
+    """
 
     if not os.path.exists(os.path.dirname(file)):
         Path(os.path.dirname(file)).mkdir(parents=True, exist_ok=True) 
@@ -135,7 +147,7 @@ def save_metadata(file, line):
 # ---------------------------------------------------------------------------------------- # 
 
 def transfer_file(lst_files, src, dst, flag):
-    '''
+    """
     Copy or move files from one folder to another, based on list of files. 
     The source folder will be deleted at the end
 
@@ -148,7 +160,7 @@ def transfer_file(lst_files, src, dst, flag):
     E.g. 
     File copied successfully.
     ../data/document_parses/pdf_json/3e7204f7030a9956a95b58d84d283d85229cc117.json
-    '''
+    """
    
     new_folder(dst)
 
@@ -172,7 +184,7 @@ def transfer_file(lst_files, src, dst, flag):
 # --------------------------------------------------------------------------- #
 
 def transfer_metadata(file, src, dst, flag):
-    '''
+    """
     Copy or move metadata from one folder to another
 
     :param  file: single file
@@ -181,7 +193,7 @@ def transfer_metadata(file, src, dst, flag):
             flag: constant value 'copy' or 'move'
     :return none        
     
-    '''    
+    """    
     new_folder(dst)
 
     print(f'{flag} file!')
@@ -204,12 +216,12 @@ def transfer_metadata(file, src, dst, flag):
 # ---------------------------------------------------------------------------------------- #
 
 def valid_names(data):
-    '''
+    """
     This function will validate names of a person, and return them if any 
     Name must include surname  
     :param  data: list with all authors names in the article
     :return list with valid name
-    '''
+    """
     nlp = spacy.load("xx_ent_wiki_sm")
     nlp.tokenizer = custom_tokenizer(nlp)
     
@@ -233,5 +245,5 @@ def hasSpaceAndAlpha(string):
 
 def hasDashCharacter(string):
     return bool(re.match("^[A-Za-z-]", string))
-
+'''
       
