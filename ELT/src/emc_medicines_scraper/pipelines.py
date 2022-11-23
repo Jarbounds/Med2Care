@@ -5,9 +5,19 @@
 
 
 # useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
+# from itemadapter import ItemAdapter
+
+import jsonpickle
+from . import Medicine
 
 
 class EmcMedicinesScraperPipeline:
-    def process_item(self, item, spider):
+    custom_settings: dict = {
+        'base_dir': '../data/json/'
+    }
+
+    def process_item(self, item: Medicine, spider):
+        medicine_id = item.medicine_id
+        with open(f'{self.custom_settings["base_dir"]}{medicine_id}.json', 'w', encoding='utf-8') as file:
+            file.write(jsonpickle.encode(item, unpicklable=False, indent=4))
         return item
