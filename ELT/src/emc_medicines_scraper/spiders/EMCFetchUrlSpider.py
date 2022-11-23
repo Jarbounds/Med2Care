@@ -1,26 +1,27 @@
-from copy import deepcopy
 
-import scrapy
 import re
+from scrapy import Spider
+from copy import deepcopy
 from scrapy.http import Request, Response
 
 
-class EMCFetchUrlCrawler(scrapy.Spider):
+def is_discontinued(medicine_selector) -> bool:
+    r"""
+    Utility function for checking if a medicine entry is discontinued
+    :param medicine_selector: The selector that contains the medicine result.
+    """
+    icon_selector_list = medicine_selector.css('img')
+    if len(icon_selector_list) == 0:
+        return False
+    for attribute in icon_selector_list.attrib.values():
+        if 'discontinue' in attribute:
+            return True
+    return False
+
+
+class EMCFetchUrlCrawler(Spider):
     name: str = 'EMCFetchUrlCrawler'
     allowed_domains: list[str] = ['www.medicines.org.uk']
-
-    def is_discontinued(self, medicine_selector) -> bool:
-        r"""
-        Utility function for checking if a medicine entry is discontinued
-        :param medicine_selector: The selector that contains the medicine result.
-        """
-        icon_selector_list = medicine_selector.css('img')
-        if len(icon_selector_list) == 0:
-            return False
-        for attribute in icon_selector_list.attrib.values():
-            if 'discontinue' in attribute:
-                return True
-        return False
 
     def start_requests(self):
         # Request search for obtaining number of results
@@ -54,7 +55,7 @@ class EMCFetchUrlCrawler(scrapy.Spider):
         results_box = response.css('div.search-results')
         results = results_box.css('div.data-row')
         for result in results:
-            if self.is_discontinued(result):
+            if is_discontinued(result):
                 continue
             link_list_div = result.css('div.col-sm-3')[0]
             link_list = link_list_div.css('ul')[0]
@@ -66,4 +67,3 @@ class EMCFetchUrlCrawler(scrapy.Spider):
                         'url': link.css('a::attr(href)').get()
                     }
                     break
-
