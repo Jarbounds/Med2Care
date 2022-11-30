@@ -1,7 +1,17 @@
 import re
-from scrapy import Spider, Selector
+from scrapy import Spider
 from scrapy.http import Request, HtmlResponse
+from bs4 import BeautifulSoup, Tag, NavigableString
 from .. import Medicine, Metadata, ClinicalParticulars, ContraIndications, Pregnancy
+
+
+def extract(anchor_id: str, parser: BeautifulSoup, return_element: bool = False) -> str | Tag:
+    match = parser.find('a', attrs={'id': anchor_id})
+    content_div = match.find_next('div', attrs={'class': 'sectionWrapper'})
+    if return_element:
+        return content_div
+    text = content_div.text.strip()
+    return text
 
 
 class EMCMedicineInfoCrawler(Spider):
@@ -15,112 +25,66 @@ class EMCMedicineInfoCrawler(Spider):
         for url in urls:
             yield Request(url, callback=self.parse, dont_filter=True)
 
-    def __parse_medicine_name(self, response: HtmlResponse) -> str:
-        # Get selector for HTML element that contains the medicine name
-        medicine_name_selector: Selector = response.xpath('//*[@id="smpc"]/main/div/div/div[3]')
-        # Gets the medicine name from selector
-        medicine_name = medicine_name_selector.css('p::text').get()
+    def __parse_medicine_name(self, parser: BeautifulSoup) -> str:
+        medicine_name = extract('PRODUCTINFO', parser)
         return medicine_name
 
-    def __parse_composition(self, response: HtmlResponse) -> str:
-        # Get selector for HTML element that contains the composition
-        composition_selector: Selector = response.xpath('//*[@id="smpc"]/main/div/div/div[5]')
-        # Gets the composition from selector
-        composition = composition_selector.css('p::text').get()
+    def __parse_composition(self, parser: BeautifulSoup) -> str:
+        composition = extract('COMPOSITION', parser)
         return composition
 
-    def __parse_therapeutic_indications(self, response: HtmlResponse) -> str:
-        # Get selector for HTML element that contains the therapeutic indications
-        therapeutic_indications_selector: Selector = response.xpath('//*[@id="smpc"]/main/div/div/div[11]')
-        # Gets the therapeutic indications from selector
-        therapeutic_indications_list: list[str] = [
-            indication.get() for indication in therapeutic_indications_selector.css('p::text')
-        ]
-        # Converts to single str
-        therapeutic_indications: str = '\n'.join(therapeutic_indications_list)
+    def __parse_therapeutic_indications(self, parser: BeautifulSoup) -> str:
+        therapeutic_indications = extract('INDICATIONS', parser)
         return therapeutic_indications
 
-    # TODO: If there are more paragraphs here see how to process
-    def __parse_disease_contraindications(self, response: HtmlResponse) -> list:
-        # Gets selector for HTML element that contains the contraindications associated with disease
-        disease_contraindications_selector: Selector = response.xpath('//*[@id="smpc"]/main/div/div/div[15]')
-        # Gets the disease contraindications from selector
-        disease_contraindications: list = [dc.get() for dc in disease_contraindications_selector.css('p::text')]
+    def __parse_disease_contraindications(self, parser: BeautifulSoup) -> list:
+        disease_contraindications = extract('CONTRAINDICATIONS', parser).split('\n')
         return disease_contraindications
 
-    def __parse_pregnancy_contraindications(self, response: HtmlResponse) -> list[Pregnancy]:
-        # Gets selector for HTML element that contains the pregnancy contraindications
-        pregnancy_selector: Selector = response.xpath('//*[@id="smpc"]/main/div/div/div[21]')
-        # Gets the pregnancy condition names from selector
-        names = [name.get().strip() for name in pregnancy_selector.css('u::text,i::text,b::text')]
-        # Gets the pregnancy condition descriptions from selector
-        descriptions = [description.get() for description in pregnancy_selector.css('p::text')]
+    # Todo: Problems found here, so much incoherence with this section text... :(
+    def __parse_pregnancy_contraindications(self, parser: BeautifulSoup) -> str:
+        pregnancy_contraindications = extract('PREGNANCY', parser)
+        return pregnancy_contraindications
 
-        current_description = ''
-        current_index = 0
-        pregnancy_list: list[Pregnancy] = []
-        # Parse all the names and descriptions into a dict
-        for name in names:
-            current_description = ''
-            for i in range(current_index, len(descriptions)):
-                if not descriptions[i].isprintable():
-                    if len(current_description) != 0:
-                        pregnancy_list.append(
-                            Pregnancy(
-                                name=name,
-                                description=current_description.strip()
-                            )
-                        )
-                        current_index = i
-                        break
-                else:
-                    current_description = f'{current_description}\n{descriptions[i]}'
-        if len(current_description) != 0:
-            pregnancy_list.append(
-                Pregnancy(
-                    name=names[-1],
-                    description=current_description.strip()
-                )
-            )
-        return pregnancy_list
-
-    def __parse_machine_ops_contraindications(self, response: HtmlResponse) -> str:
-        # Gets selector for HTML element that contains the machine ops contraindications
-        machine_ops_selector: Selector = response.xpath('//*[@id="smpc"]/main/div/div/div[23]')
-        # Gets machine ops contraindications from selector
-        machine_ops_list: list = [
-            machine_op.get().strip() for machine_op in machine_ops_selector.css('p::text')
-        ]
-        # Converts to single str
-        machine_ops: str = '\n'.join(machine_ops_list)
+    def __parse_machine_ops_contraindications(self, parser: BeautifulSoup) -> str:
+        machine_ops = extract('MACHINEOPS', parser)
         return machine_ops
 
-    def __parse_excipients(self, response: HtmlResponse) -> str:
-        # Gets selector for HTML element that contains the excipients
-        excipient_selector = response.xpath('//*[@id="smpc"]/main/div/div/div[39]')
-        # Gets excipients from selector
-        excipients_list: list = [
-            excipient.get() for excipient in filter(
-                lambda ex: ex.get().isprintable(), excipient_selector.css('p::text')
-            )
+    def __parse_excipients(self, parser: BeautifulSoup) -> str:
+        excipients = extract('EXCIPIENTS', parser)
+        to_rem = [
+            'core',
+            'capsule',
+            'coating'
         ]
-        excipients: str = ';'.join(excipients_list)
-        return excipients
+        excipients_list = [
+            excipient.strip() for excipient in excipients.split('\n') if len(excipient) != 0
+        ]
+        cleaned_excipients: list = []
+        for excipient in excipients_list:
+            to_add: bool = True
+            for rem in to_rem:
+                if rem in excipient.lower():
+                    to_add = False
+                    break
+            if to_add:
+                cleaned_excipients.append(excipient)
 
-    def __parse_incompatibilities(self, response: HtmlResponse):
-        incompatibilities_selector: Selector = response.xpath('//*[@id="smpc"]/main/div/div/div[41]')
-        incompatibilities_list: list = [
-            incompatibility.get() for incompatibility in incompatibilities_selector.css('p::text')
-        ]
-        incompatibilities: str = ';'.join(incompatibilities_list)
+        joined = ';'.join(cleaned_excipients)
+        return joined
+
+    def __parse_incompatibilities(self, parser: BeautifulSoup):
+        incompatibilities_list = extract('INCOMPATIBILITIES', parser).split('\n')
+        incompatibilities = ';'.join(incompatibilities_list)
         return incompatibilities
 
     def __parse_contraindications(self, response: HtmlResponse) -> ContraIndications:
-        disease_contraindications = self.__parse_disease_contraindications(response)
-        pregnancy_contraindications = self.__parse_pregnancy_contraindications(response)
-        machine_ops_contraindications = self.__parse_machine_ops_contraindications(response)
-        excipients = self.__parse_excipients(response)
-        incompatibilities = self.__parse_incompatibilities(response)
+        parser = BeautifulSoup(response.body, features='lxml')
+        disease_contraindications = self.__parse_disease_contraindications(parser)
+        pregnancy_contraindications = self.__parse_pregnancy_contraindications(parser)
+        machine_ops_contraindications = self.__parse_machine_ops_contraindications(parser)
+        excipients = self.__parse_excipients(parser)
+        incompatibilities = self.__parse_incompatibilities(parser)
 
         contraindications: ContraIndications = ContraIndications(
             disease=disease_contraindications,
@@ -133,7 +97,8 @@ class EMCMedicineInfoCrawler(Spider):
         return contraindications
 
     def __parse_clinical_particulars(self, response: HtmlResponse) -> ClinicalParticulars:
-        indications = self.__parse_therapeutic_indications(response)
+        parser = BeautifulSoup(response.body, features='lxml')
+        indications = self.__parse_therapeutic_indications(parser)
         contraindications = self.__parse_contraindications(response)
 
         clinical_particulars: ClinicalParticulars = ClinicalParticulars(
@@ -142,19 +107,17 @@ class EMCMedicineInfoCrawler(Spider):
         )
         return clinical_particulars
 
-    def __parse_revision_date(self, response: HtmlResponse) -> str:
-        # Gets selector for HTML element that contains the revision_date
-        revision_date_selector: Selector = response.xpath('//*[@id="smpc"]/main/div/div/div[57]')
-        # Gets the revision date from selector
-        revision_date = revision_date_selector.css('p::text').get().strip().replace('/', '-')
+    def __parse_revision_date(self, parser: BeautifulSoup) -> str:
+        revision_date = extract('DOCREVISION', parser)
         return revision_date
 
     def parse(self, response: HtmlResponse, **kwargs):
-        medicine_id: str = str(re.findall('[0-9]+', response.request.url)[0])
-        medicine_name = self.__parse_medicine_name(response)
-        composition = self.__parse_composition(response)
+        parser = BeautifulSoup(response.body, features='lxml')
+        medicine_id: str = str(re.findall('[0-9]+', response.url)[0])
+        medicine_name = self.__parse_medicine_name(parser)
+        composition = self.__parse_composition(parser)
         clinical_particulars = self.__parse_clinical_particulars(response)
-        revision_date = self.__parse_revision_date(response)
+        revision_date = self.__parse_revision_date(parser)
 
         medicine: Medicine = Medicine(
             medicine_id=medicine_id,
