@@ -34,7 +34,11 @@ def main():
     process.crawl(fetch_urls_crawler, kwargs={
         'emc_search_url': f'{emc_base_search_url}?{partial_atc_code_query}&{healthcare_information_filter_query}',
         'base_offset': 1,
-        'limit': 200
+        'limit': 200,
+        'excluded_acs': [
+            'entecavir',
+            'telbivudine'
+        ]
     })
 
     process.start()

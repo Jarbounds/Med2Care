@@ -1,6 +1,6 @@
 
 import re
-from scrapy import Spider
+from scrapy import Spider, Selector
 from copy import deepcopy
 from scrapy.http import Request, Response
 
@@ -15,6 +15,14 @@ def is_discontinued(medicine_selector) -> bool:
         return False
     for attribute in icon_selector_list.attrib.values():
         if 'discontinue' in attribute:
+            return True
+    return False
+
+
+def is_excluded(active_principle: Selector, to_exclude: list) -> bool:
+    ac = active_principle.css('h3::text').get()
+    for exclude in to_exclude:
+        if ac in exclude or exclude in ac:
             return True
     return False
 
@@ -56,6 +64,8 @@ class EMCFetchUrlCrawler(Spider):
         results = results_box.css('div.data-row')
         for result in results:
             if is_discontinued(result):
+                continue
+            if is_excluded(result, self.kwargs.get('excluded_acs')):
                 continue
             link_list_div = result.css('div.col-sm-3')[0]
             link_list = link_list_div.css('ul')[0]
