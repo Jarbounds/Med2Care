@@ -9,6 +9,7 @@
 
 import jsonpickle
 from . import Medicine
+from .spiders import EMCMedicineInfoCrawler
 
 
 class EmcMedicinesScraperPipeline:
@@ -17,7 +18,8 @@ class EmcMedicinesScraperPipeline:
     }
 
     def process_item(self, item: Medicine, spider):
-        medicine_id = item.medicine_id
-        with open(f'{self.custom_settings["base_dir"]}{medicine_id}.json', 'w', encoding='utf-8') as file:
-            file.write(jsonpickle.encode(item, unpicklable=False, indent=4))
+        if isinstance(spider, EMCMedicineInfoCrawler):
+            medicine_id = item.medicine_id
+            with open(f'{self.custom_settings["base_dir"]}{medicine_id}.json', 'w', encoding='utf-8') as file:
+                file.write(jsonpickle.encode(item, unpicklable=False, indent=4))
         return item
