@@ -1,8 +1,8 @@
 import re
 from scrapy import Spider
 from scrapy.http import Request, HtmlResponse
-from bs4 import BeautifulSoup, Tag, NavigableString
-from .. import Medicine, Metadata, ClinicalParticulars, ContraIndications, Pregnancy
+from bs4 import BeautifulSoup, Tag
+from .. import Medicine, Metadata, ClinicalParticulars, ContraIndications
 
 
 def extract(anchor_id: str, parser: BeautifulSoup, return_element: bool = False) -> str | Tag:

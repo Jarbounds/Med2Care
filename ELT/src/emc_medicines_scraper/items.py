@@ -7,16 +7,16 @@ from dataclasses import dataclass, field
 import scrapy
 
 
-@dataclass
-class Pregnancy:
-    name: str = field(init=True, default_factory=str)
-    description: str = field(init=True, default_factory=str)
+# @dataclass
+# class Pregnancy:
+#     name: str = field(init=True, default_factory=str)
+#     description: str = field(init=True, default_factory=str)
 
 
 @dataclass
 class ContraIndications:
     disease: list = field(init=True, default_factory=list)
-    pregnancy: list[Pregnancy] = field(init=True, default_factory=list)
+    pregnancy: str = field(init=True, default_factory=str)
     machine_ops: str = field(init=True, default_factory=str)
     excipients: str = field(init=True, default_factory=str)
     incompatibilities: str = field(init=True, default_factory=str)
