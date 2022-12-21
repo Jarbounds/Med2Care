@@ -1,3 +1,4 @@
+<!--
 # Cleaning-Extract-and-Knowledge-of-CORD-19
 Knowledge extraction of CORD-19 (COVID-19 Open Research Dataset)
 
@@ -15,3 +16,17 @@ Modules:
 
 
 More information can be found inside the directory of each module.
+-->
+
+# Med2Care - New Therapeutics Recommendation
+
+## Modules:
+- Extract, Loading and Transform
+  - Preprocessing of EMC (Electronic Medicine Compendium) medicine data
+
+- Entity extraction
+  - Based on the merpy library
+  - [MER](https://github.com/lasigeBioTM/merpy): Francisco Couto and Andre Lamurias. 2018. MER: a shell script and annotation server for minimal named entity recognition and linking. Journal of Cheminformatics, vol. 10, no. 58, pp. 1--10
+
+
+ 
