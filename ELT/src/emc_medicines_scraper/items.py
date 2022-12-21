@@ -15,7 +15,7 @@ import scrapy
 
 @dataclass
 class ContraIndications:
-    disease: list = field(init=True, default_factory=list)
+    disease: str = field(init=True, default_factory=str)
     pregnancy: str = field(init=True, default_factory=str)
     machine_ops: str = field(init=True, default_factory=str)
     excipients: str = field(init=True, default_factory=str)

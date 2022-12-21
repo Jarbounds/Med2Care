@@ -1,1 +1,1 @@
-from .items import Medicine, Metadata, ClinicalParticulars, ContraIndications, Pregnancy
+from .items import Medicine, Metadata, ClinicalParticulars, ContraIndications

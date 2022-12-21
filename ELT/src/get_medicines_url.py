@@ -13,7 +13,8 @@ medicines_base_url: str = 'https://www.medicines.org.uk'
 
 
 def handle_url_scraped(item: dict):
-    medicine_urls.append(f'{medicines_base_url}{item["url"]}')
+    # Todo: Change item["url"] to item["uri"] for more correctness (change on Spider also)
+    medicine_urls.append(f'{medicines_base_url}{item["uri"]}')
 
 
 def main():
@@ -31,6 +32,7 @@ def main():
     # Show only medicines with health professional information
     healthcare_information_filter_query = 'filters=attributes[spc]'
 
+    # Todo: Revise this "blacklisting" method for active principles inside a given ATC code range
     process.crawl(fetch_urls_crawler, kwargs={
         'emc_search_url': f'{emc_base_search_url}?{partial_atc_code_query}&{healthcare_information_filter_query}',
         'base_offset': 1,

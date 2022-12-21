@@ -73,7 +73,8 @@ class EMCFetchUrlCrawler(Spider):
             for link in links:
                 text: str = link.css('a::text').get()
                 if text.lower() == 'smpc':
+                    uri: str = link.css('a::attr(href)').get()
                     yield {
-                        'url': link.css('a::attr(href)').get()
+                        'uri': uri
                     }
                     break

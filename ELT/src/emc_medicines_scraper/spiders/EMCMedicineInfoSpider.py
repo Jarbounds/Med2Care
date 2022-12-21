@@ -37,8 +37,8 @@ class EMCMedicineInfoCrawler(Spider):
         therapeutic_indications = extract('INDICATIONS', parser)
         return therapeutic_indications
 
-    def __parse_disease_contraindications(self, parser: BeautifulSoup) -> list:
-        disease_contraindications = extract('CONTRAINDICATIONS', parser).split('\n')
+    def __parse_disease_contraindications(self, parser: BeautifulSoup) -> str:
+        disease_contraindications = extract('CONTRAINDICATIONS', parser)
         return disease_contraindications
 
     # Todo: Problems found here, so much incoherence with this section text... :(

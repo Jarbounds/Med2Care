@@ -12,7 +12,7 @@ from . import Medicine
 from .spiders import EMCMedicineInfoCrawler
 
 
-class EmcMedicinesScraperPipeline:
+class EMCMedicinePipeline:
     custom_settings: dict = {
         'base_dir': '../data/json/'
     }
@@ -22,4 +22,5 @@ class EmcMedicinesScraperPipeline:
             medicine_id = item.medicine_id
             with open(f'{self.custom_settings["base_dir"]}{medicine_id}.json', 'w', encoding='utf-8') as file:
                 file.write(jsonpickle.encode(item, unpicklable=False, indent=4))
+
         return item

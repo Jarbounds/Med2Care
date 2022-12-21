@@ -1,6 +1,5 @@
 from scrapy.crawler import Crawler, CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from scrapy import signals
 from emc_medicines_scraper.spiders import EMCMedicineInfoCrawler
 
 

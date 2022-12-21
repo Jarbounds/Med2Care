@@ -72,7 +72,7 @@ CONCURRENT_REQUESTS_PER_IP = 2
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'emc_medicines_scraper.pipelines.EmcMedicinesScraperPipeline': 300,
+    'emc_medicines_scraper.pipelines.EMCMedicinePipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
