@@ -1,4 +1,3 @@
-
 ###############################################################################
 #                                                                             #  
 # @author: Matilde Pato (Adapted from André Lamurias)                         #  
@@ -20,15 +19,18 @@
 
 import sys
 import os
-if os.path.isdir( "merpy" ):
+
+if os.path.isdir("merpy"):
     pass
-sys.path.insert( 1, '/NER/merpy/merpy' )
+sys.path.insert(1, '/NER/merpy/merpy')
 import merpy
 
 ## --- tokens
-import nltk 
+import nltk
+
 nltk.download('punkt')
 from nltk.corpus import stopwords
+
 nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 
@@ -36,35 +38,36 @@ from nltk.tokenize import word_tokenize
 # --------------------------------------------------------------------------- #
 
 def update_mer(lexicon):
-    '''
+    """
     Update MER ontologies
-    '''
+    """
     print("Download latest obo files and process lexicons")
-    #merpy.download_mer()
+    # merpy.download_mer()
     if len(lexicon) == 0:
-        lexicon = ["doid", "go", "hpo", "chebi", "taxon", "cido"] 
+        lexicon = ["doid", "go", "hpo", "chebi", "taxon", "cido"]
     for l in lexicon:
         if l == 'doid':
             merpy.download_lexicon("http://purl.obolibrary.org/obo/doid.owl", "do", ltype="owl")
-            
+
             merpy.process_lexicon("do", ltype="owl")
             merpy.delete_obsolete("do")
 
-        if l == 'go':    
+        if l == 'go':
             merpy.download_lexicon("http://purl.obolibrary.org/obo/go.owl", "go", ltype="owl")
             merpy.process_lexicon("go", ltype="owl")
             merpy.delete_obsolete("go")
-        if l == 'hp':    
+        if l == 'hp':
             merpy.download_lexicon("http://purl.obolibrary.org/obo/hp.owl", "hpo", ltype="owl")
             merpy.process_lexicon("hpo", ltype="owl")
             merpy.delete_obsolete("hpo")
             merpy.delete_entity("protein", "hpo")
             merpy.delete_entity_by_uri("http://purl.obolibrary.org/obo/PATO_0000070", "hpo")
         if l == 'chebi':
-            merpy.download_lexicon("http://purl.obolibrary.org/obo/chebi/chebi_lite.owl",#"ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl",
-                "chebi",
-                ltype="owl",
-            )
+            merpy.download_lexicon("http://purl.obolibrary.org/obo/chebi/chebi_lite.owl",
+                                   # "ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl",
+                                   "chebi",
+                                   ltype="owl",
+                                   )
             merpy.process_lexicon("chebi", ltype="owl")
             merpy.delete_obsolete("chebi")
             merpy.delete_entity("protein", "chebi")
@@ -77,44 +80,45 @@ def update_mer(lexicon):
             merpy.delete_entity("data", "taxon")
         if l == 'cido':
             merpy.download_lexicon("https://raw.githubusercontent.com/CIDO-ontology/cido/master/src/ontology/cido.owl",
-                "cido",
-                "owl",
-            )
+                                   "cido",
+                                   "owl",
+                                   )
             merpy.process_lexicon("cido", "owl")
             merpy.delete_obsolete("cido")
             merpy.delete_entity("protein", "cido")
 
+
 # --------------------------------------------------------------------------- #
 
 def items_in_blacklist(doc, lexicon):
-    '''
-    Clear words from document that may distort the 
+    """
+    Clear words from document that may distort the
     classification of the ontologies
     :param  doc: document
             lexicon: prefix of the ontology
-    :return doc       
-    '''
+    :return doc
+    """
     black_list = []
-    
-    # Removing stop words with NLTK  and aditional text
+
+    # Removing stop words with NLTK and additional text
     all_stopwords = stopwords.words('english')
-    filename =''
+    filename = ''
     if lexicon == 'chebi':
         filename = 'chebi.txt'
     elif lexicon == 'doid':
         filename = 'doid.txt'
     elif lexicon == 'go':
-        filename = 'go.txt'        
+        filename = 'go.txt'
     elif lexicon == 'hp':
         filename = 'hp.txt'
-   
-    if os.path.isfile(os.path.join('../data/blacklists/',filename)):  
-        with open(os.path.join('../data/blacklists/',filename), 'r') as file:
-            black_list = [content.rstrip() for content in file.readlines()]
-        all_stopwords.extend(black_list)    
 
-    # Tokenize and remove stop words 
+    if os.path.isfile(os.path.join('../data/blacklists/', filename)):
+        with open(os.path.join('../data/blacklists/', filename), 'r') as file:
+            black_list = [content.rstrip() for content in file.readlines()]
+        all_stopwords.extend(black_list)
+
+        # Tokenize and remove stop words
     doc_tokens = word_tokenize(doc)
     doc_tokens_sw = [word for word in doc_tokens if not word in all_stopwords]
-    
-    return (' ').join(doc_tokens_sw)
+
+    return ' '.join(doc_tokens_sw)

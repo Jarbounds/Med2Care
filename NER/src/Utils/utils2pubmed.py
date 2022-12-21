@@ -17,7 +17,7 @@
 ### -- PMID
 from metapub import PubMedFetcher
 from Bio import Entrez
-Entrez.email = <ENTER YOUR EMAIL HERE>
+Entrez.email = 'renato.marcelo99@gmail.com'
 
 # --------------------------------------------------------------------------- #
 
