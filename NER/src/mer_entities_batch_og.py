@@ -28,30 +28,31 @@
 import os
 import shutil
 import multiprocessing
-import configparser
-import tempfile
-
 from collections import Counter
 from itertools import chain
 from datetime import datetime
 from tracemalloc import stop
+import configparser
+import tempfile
+
+global_entities = Counter()
+
 from Utils.utils import create_entities_folder, save_metadata
 from Utils.utils2mer import *
 from Utils.utils2pubmed import *
 from mer_entities import process_doc
 
-global_entities = Counter()
-
 
 # --------------------------------------------------------------------------- #
 
 def main():
-    """E.g. CORD-19: cord-19_2020-05-19.tar.gz
+
+    '''E.g. CORD-19: cord-19_2020-05-19.tar.gz
     input:
-    {"paper_id": "0a00a6df208e068e7aa369fb94641434ea0e6070",
+    {"paper_id": "0a00a6df208e068e7aa369fb94641434ea0e6070", 
         "metadata": {
-            "title": "BMC Genomics Novel genome polymorphisms in BCG vaccine strains and impact on efficacy",
-            "authors":
+            "title": "BMC Genomics Novel genome polymorphisms in BCG vaccine strains and impact on efficacy", 
+            "authors": 
             ...}
         "abstract": [{
             "text": "Bacille Calmette-Gurin (BCG) is an attenuated strain of Mycobacterium bovis currently used (...)
@@ -75,14 +76,14 @@ def main():
                 ]
             ]
         }
-    }
-    """
+    }    
+    '''
     import time
     start_time = datetime.now()
-
+    
     config = configparser.ConfigParser()
     config.read('config.ini')
-    splited_size = int(config['SAMPLE']['splitedSize'])
+    splitedSize = int(config['SAMPLE']['splitedSize'])
 
     # update MER with all entities on only specified by the user
     # available entities: {"do", "go", "hpo", "chebi", "taxon", "cido"}
@@ -90,30 +91,29 @@ def main():
     # split if there is a list of entities
     if active_lexicons != 'all':
         active_lexicons = active_lexicons.replace(' ', '').split(',')
-
+    
     if config['ONTO']['update'] == '1':
         if active_lexicons == 'all':
-            update_mer(lexicon='')
+            update_mer(lexicon='')      
         update_mer(lexicon=active_lexicons)
-
+    
     doc_entities = []
-
+    
     # read the path where files are in system
     input_dir, output_dir = create_entities_folder(src=config['PATH']['path_to_original_json'])
-
+    
     list_of_json_files = os.listdir(input_dir)
-    list_of_lists = [list_of_json_files[i: i + splited_size] for i in range(0, len(list_of_json_files), splited_size)]
+    list_of_lists = [list_of_json_files[i: i + splitedSize] for i in range(0, len(list_of_json_files), splitedSize) ]
 
     for lst in list_of_lists:
         new_lst = ','.join(lst)
-
+     
         temp_dir = tempfile.TemporaryDirectory()
         for d in new_lst.split(","):
-            shutil.copy(os.path.join(input_dir, d), os.path.join(temp_dir.name, d))
+            shutil.copy(os.path.join(input_dir,d),os.path.join(temp_dir.name,d))
 
-        with multiprocessing.Pool(processes=50) as pool:
-            doc_entities = pool.starmap(
-                process_doc,
+        with multiprocessing.Pool(processes=50) as pool:          
+            doc_entities = pool.starmap(process_doc,
                 [
                     (temp_dir.name + "/" + d, active_lexicons, output_dir)
                     for d in os.listdir(temp_dir.name)
@@ -123,12 +123,14 @@ def main():
             pool.close()
             pool.join()
 
+         
         for entities in doc_entities:
-            global_entities.update(entities)
-
+            global_entities.update(entities) 
+        
         print(len(doc_entities))
         print("global top", global_entities.most_common(10))
         print("total", sum(global_entities.values()))
+    
 
     # --------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
@@ -137,10 +139,9 @@ def main():
                 Ontologies: {active_lexicons}\n\
                 No. articles: {len(doc_entities)}\n\
                 '
-    save_metadata(file=config['PATH']['path_to_info'], line=metadata)
-
+    save_metadata(file=config['PATH']['path_to_info'], line=metadata)  
 
 # --------------------------------------------------------------------------- #
 
 if __name__ == '__main__':
-    main()
+     main()

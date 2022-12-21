@@ -1,4 +1,3 @@
-
 ###############################################################################
 #                                                                             #  
 # @author: Matilde Pato (Adapted from André Lamurias)                         #  
@@ -26,44 +25,83 @@
 # version 1.1:
 # python3 mer_entities.py 
 
-import os
-import sys
 import json
 import re
-import multiprocessing
-from collections import Counter
-from itertools import chain
 from datetime import datetime
-import merpy
-import configparser
 
-global_entities = Counter()
-
-from Utils.utils import create_entities_folder, save_metadata, set_blacklist
+from Utils.utils import create_entities_folder, save_metadata, set_blacklist, create_output_folder
 from Utils.utils2mer import *
-from Utils.utils2pubmed import *
+from Utils.json_member_utils import get_member_recursive
+
 
 # --------------------------------------------------------------------------- #
 
-def json_entities(original):
 
-    entities_json = {
-        "id": original["paper_id"],
-        "entities": {},
-        "sections": {"title": [], "abstract": [], "body": [], "captions": []},
+def member_lexicons(member: str) -> list:
+    chebi_lexicon = 'chebi'
+    disease_lexicon = 'do'
+    lexicons_relation = {
+        'composition': [chebi_lexicon],
+        'therapeutic_indications': [disease_lexicon],
+        'disease': [disease_lexicon],
+        'pregnancy': [disease_lexicon],
+        'machine_ops': [disease_lexicon],
+        'excipients': [chebi_lexicon],
+        'incompatibilities': [chebi_lexicon]
+    }
+    return lexicons_relation.get(member, [])
+
+
+def json_entities(original):
+    entities_json: dict = {
+        'name': original['metadata']['name'],
+        'composition': [],
+        'therapeutic_indications': [],
+        'disease': [],
+        'pregnancy': [],
+        'machine_ops': [],
+        'excipients': [],
+        'incompatibilities': [],
+        'date': ''
     }
     return entities_json
+
 
 # --------------------------------------------------------------------------- #
 
 def abstract_dict(original):
+    # abstract=[ { "text": a } for a in text]
+    return [{"text": a} for a in original]
 
-    #abstract=[ { "text": a } for a in text] 
-    return [ { "text" : a } for a in original] 
 
 # --------------------------------------------------------------------------- #
 
-def process_doc(doc_file, lexicons, output_dir, blacklist):
+
+def find_entities(doc: str, lexicons: list):
+    output_entities = []
+
+    print(lexicons)
+
+    doc = re.sub(r"[^A-Za-z0-9 ]", repl, doc)
+
+    doc_results = []
+    for lexicon in lexicons:
+        doc = items_in_blacklist(doc, lexicon)
+        doc_results += merpy.get_entities(doc, lexicon)
+
+    for e in doc_results:
+        if len(e) > 2:
+            entity = [int(e[0]), int(e[1]), e[2]]
+            if len(e) > 3:  # URI
+                entity.append(e[3])
+            if entity not in output_entities:
+                output_entities.append(entity)
+    #print(output_entities)
+    #input()
+    return output_entities
+
+
+def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
     """
     Open one json file with one doc, run merpy with lexicons and write results to external file
     :param doc_file: name of the document
@@ -73,131 +111,88 @@ def process_doc(doc_file, lexicons, output_dir, blacklist):
     :return doc_counter: the 10 most common list of entities
     """
 
-    with open(doc_file, "r") as f_in:
-        doc = json.load(f_in)
-        
-    new_doc = json_entities(original=doc)
+    with open(doc_file, "r", encoding='utf-8') as f_in:
+        doc: dict = json.load(f_in)
 
-    #
-    ## Annotate the Title
-    #
-    # iterate through title, abtract and section
-    title = doc["metadata"]["title"] 
-    print('doc: ', doc["paper_id"], ' title: ', title)
-    # with open(output_dir + doc_file.split("/")[-1].split(".")[0] + "_entities.json", "w") as f_out:
-    #     json.dump(title, f_out, indent=4)
-    
-    #print('title ', title)
-    if "title" in doc["metadata"]:
-        new_doc["sections"]["title"] = process_multiple_docs_lexicons_sp(captions, lexicons)
-        new_doc["sections"]["title"] = new_doc["sections"]["title"][0]   
-    else:
-        if doc["paper_id"].startswith('PMC'):
-            # convert str to a dict
-            try:
-                print(f'Find title, now with metapub.')              
-                title = get_title_by_metapub(pmcid=doc["paper_id"]) 
-                print('title Meta: ', title) 
-            except Exception as e: 
-                    try:                    
-                        print(f'Find title, now with Bio. Error message {e}') 
-                        title = get_title_by_bio(pmid=get_pmid(pmcid=doc["paper_id"])) 
-                        print('title Bio: ', title)  
-                    except Exception as e:  
-                        print(f'No title. Error message {e}')     
-            new_doc["sections"]["title"] = process_multiple_docs_lexicons_sp(captions, lexicons)
-            new_doc["sections"]["title"] = new_doc["sections"]["title"][0]
-        else:
-            print('wo title')
-            set_blacklist(file=blacklist, line=doc["paper_id"])      
+    new_doc: dict = json_entities(original=doc)
 
-    #
-    ## Annotate the Abstract
-    #
-    # #if key: 'abstract' exist in json
-    if 'abstract' in doc:
-        abstract = [p["text"] for p in doc["abstract"]] 
-        print('abstract1: ')   
-        new_doc["sections"]["abstract"] = process_multiple_docs_lexicons_sp(captions, lexicons)   
-    else:
-        if doc["paper_id"].startswith('PMC'):
-            try:
-                # convert str to a dict
-                abstract= get_abstract_by_bio(pmid=get_pmid(pmcid=doc["paper_id"]))
-                #abstract_dic = abstract_dict(original=abstract_str.split('. '))
-                #abstract = [ p["text"] for p in abstract_dic]
-                # print('abstract PMC: ', type(abstract))
-                # split abstract by '.' delimeter
-                new_doc["sections"]["abstract"] = process_multiple_docs_lexicons_sp(captions, lexicons)
-                new_doc["sections"]["abstract"] = new_doc["sections"]["abstract"][0]
-            except Exception as e: 
-                print(f'Without abstract. Error: {e}')                
-        else:
-            new_doc["sections"]["abstract"] = []  
+    print(f"doc: {doc['medicine_id']}")
 
+    # for member in new_doc.keys():
+    #     value: str = get_member_recursive(doc, member)
+    #     if value:
+    #         current_member_lexicons: list = member_lexicons(member)
+    #         if len(current_member_lexicons) == 0:
+    #             new_doc[member] = value
+    #         else:
+    #             l_value: list = process_multiple_doc_lexicons_sp([value], current_member_lexicons)
+    #             new_doc[member] = l_value[0]
     #
-    ## Annotate the Body text
-    #        
-    if 'body_text' in doc:
-        body = [p["text"] for p in doc["body_text"]]
-        # print(body)
-        new_doc["sections"]["body"] = process_multiple_docs_lexicons_sp(captions, lexicons)
-    else:
-        print('body: ', title, ' + ', doc["paper_id"])
-        new_doc["sections"]["body"] = [] 
+    # print(new_doc)
 
-    #
-    ## Annotate the Ref_entries: figures and tables
-    #
-    if 'ref_entries' in doc:
-        # ref_entries includes figures and tables
-        captions = [doc["ref_entries"][p]["text"] for p in doc["ref_entries"]]
-        # print(captions)
-        new_doc["sections"]["captions"] = process_multiple_docs_lexicons_sp(captions, lexicons)
-    else:
-        print('ref_entries', title, ' + ', doc["paper_id"])
-        new_doc["sections"]["captions"] = []
-    
-    # # count all URI
-    all_uris = []
-    try:
-        all_uris = [e[3] for e in new_doc["sections"]["title"] if len(e) > 3]  
-        all_uris += [e[3] for e in chain.from_iterable(new_doc["sections"]["abstract"]) if len(e) > 3]
-        all_uris += [e[3] for e in chain.from_iterable(new_doc["sections"]["body"]) if len(e) > 3]
-        all_uris += [e[3] for e in chain.from_iterable(new_doc["sections"]["captions"]) if len(e) > 3]
-    except Exception as e:
-        print(f'No values. Error: {e}')
-    
-    # # Count URIs frequencies and sort them
-    doc_counter = Counter(all_uris)
-    
-    new_doc["entities"] = {
-        k: v
-        for k, v in sorted(doc_counter.items(), key=lambda item: item[1], reverse=True)
-    }
+    composition = get_member_recursive(doc, 'composition')
+    therapeutic_indications = get_member_recursive(doc, 'therapeutic_indications')
+    disease = get_member_recursive(doc, 'disease')
+    pregnancy = get_member_recursive(doc, 'pregnancy')
+    machine_ops = get_member_recursive(doc, 'machine_ops')
+    excipients = get_member_recursive(doc, 'excipients')
+    incompatibilities = get_member_recursive(doc, 'incompatibilities')
+    revision_date = get_member_recursive(doc, 'revision_date')
 
-    ## find the most common list of entities
-    print('document: ', doc_file)
-    print("top doc", doc_counter.most_common(10))
-    
+    if composition:
+        # print('composition')
+        l_composition: list = find_entities(composition, member_lexicons('composition'))
+        new_doc['composition'] = l_composition
+    if therapeutic_indications:
+        # print('therapeutic_indications')
+        l_therapeutic_indications: list = find_entities(therapeutic_indications, member_lexicons('therapeutic_indications'))
+        new_doc['therapeutic_indications'] = l_therapeutic_indications
+    if disease:
+        # print('disease')
+        l_disease: list = find_entities(disease, member_lexicons('disease'))
+        new_doc['disease'] = l_disease
+    # Todo: Check pregnancy in another form
+    # if pregnancy:
+    #     print('pregnancy')
+    #     l_pregnancy: list = find_entities(pregnancy, member_lexicons('pregnancy'))
+    #     new_doc['pregnancy'] = l_pregnancy
+    # Todo: Check machine_ops in another form
+    # if machine_ops:
+    #     print('machine_ops')
+    #     l_machine_ops: list = find_entities(machine_ops, member_lexicons('machine_ops'))
+    #     new_doc['machine_ops'] = l_machine_ops
+    if excipients:
+        # print('excipients')
+        l_excipients: list = find_entities(excipients, member_lexicons('excipients'))
+        new_doc['excipients'] = l_excipients
+    if incompatibilities:
+        # print('incompatibilities')
+        l_incompatibilities: list = find_entities(incompatibilities, member_lexicons('incompatibilities'))
+        new_doc['incompatibilities'] = l_incompatibilities
+    if revision_date:
+        # print('revision_date')
+        new_doc['date'] = revision_date
+
     # Serializing json 
-    json_object = json.dumps(new_doc, indent = 4, ensure_ascii=False)   
+    json_object = json.dumps(new_doc, indent=4, ensure_ascii=False)
 
-    with open(output_dir + doc_file.split("/")[-1].split(".")[0] + "_entities.json", "w") as f_out:
+    output_file = f'{output_dir}/{doc_file.split("/")[-1].split(".")[0]}_entities.json'
+
+    with open(output_file, "w", encoding='utf-8') as f_out:
         f_out.write(json_object)
         f_out.close()
-      
-    return doc_counter
+
 
 # --------------------------------------------------------------------------- #
 
 def repl(m):
     # replace all matches with "a"
-    return "a" * len(m.group())
+    return " " * len(m.group())
+
 
 # --------------------------------------------------------------------------- #
 
-def process_multiple_docs_lexicons_sp(docs, lexicons):
+def process_multiple_doc_lexicons_sp(docs, lexicons):
     """
     Iterate through list of doc directories
     :param doc_file: name of the document
@@ -205,24 +200,26 @@ def process_multiple_docs_lexicons_sp(docs, lexicons):
     :return output_entities: dataframe with entities names
     """
     # create one empty list for each doc
-    #doc_dict = {i: d for i, d in enumerate(docs)}
-    
-    output_entities = [[]] * len(docs)
+    # doc_dict = {i: d for i, d in enumerate(docs)}
+
+    output_entities = [[]]
     doc_results = []
     for idoc, doc in enumerate(docs):
         if sum(map(str.isalnum, doc)) < 5:  # must have at least 5 alnum
             print("no words", doc)
-            continue  
+            continue
 
-        doc = re.sub(r"[^A-Za-z0-9 ]{2,}", repl, doc)
+        # doc = re.sub(r"[^A-Za-z0-9 ]{2,}", repl, doc)
 
-        #check 
+        # check
         # Apply MER to the preprocessed title, abstract, ... in order to recognize 
         # entities and to link them to the concepts:
         for l in lexicons:
             doc = items_in_blacklist(doc, l)
             doc_results += merpy.get_entities(doc, l)
-        
+
+        print(f'doc_results: {doc_results}')
+
         for e in doc_results:
             # doc_entities = merpy.get_entities_mp(doc_dict, lex, n_cores=10)
             # for e in l_entities:
@@ -231,24 +228,27 @@ def process_multiple_docs_lexicons_sp(docs, lexicons):
                 if len(e) > 3:  # URI
                     entity.append(e[3])
                 if entity not in output_entities[idoc]:
-                    output_entities[idoc].append(entity)            
-    
+                    output_entities[idoc].append(entity)
+
     for i in range(len(output_entities)):
         output_entities[i] = sorted(output_entities[i])
-    
+
+    print(output_entities)
+
+    input()
+
     return output_entities
 
 
 # --------------------------------------------------------------------------- #
 
 def main():
-
-    '''E.g. CORD-19: cord-19_2020-05-19.tar.gz
+    """E.g. CORD-19: cord-19_2020-05-19.tar.gz
     input:
-    {"paper_id": "0a00a6df208e068e7aa369fb94641434ea0e6070", 
+    {"paper_id": "0a00a6df208e068e7aa369fb94641434ea0e6070",
         "metadata": {
-            "title": "BMC Genomics Novel genome polymorphisms in BCG vaccine strains and impact on efficacy", 
-            "authors": 
+            "title": "BMC Genomics Novel genome polymorphisms in BCG vaccine strains and impact on efficacy",
+            "authors":
             ...}
         "abstract": [{
             "text": "Bacille Calmette-Gurin (BCG) is an attenuated strain of Mycobacterium bovis currently used (...)
@@ -272,62 +272,71 @@ def main():
                 ]
             ]
         }
-    }    
-    '''
+    }
+    """
     import time
+    from configparser import ConfigParser
+
     start_time = datetime.now()
 
-    config = configparser.ConfigParser()
+    config: ConfigParser = ConfigParser()
     config.read('config.ini')
 
     # update MER with all entities on only specified by the user
     # available entities: {"do", "go", "hpo", "chebi", "taxon", "cido"}
-    active_lexicon = config['ONTO']['active_lexicons']
+    active_lexicons = config['ONTO']['active_lexicons']
     # split if there is a list of entities
-    if active_lexicon != 'all':
-        active_lexicon = active_lexicon.replace(' ', '').split(',')
- 
+    if active_lexicons != 'all':
+        active_lexicons = active_lexicons.replace(' ', '').split(',')
+
     if config['ONTO']['update'] == 1:
-        if active_lexicon == 'all':
-            update_mer(lexicon='')      
-        update_mer(lexicon=active_lexicon)
-    
+        if active_lexicons == 'all':
+            update_mer(lexicon='')
+        else:
+            update_mer(lexicon=active_lexicons)
+
     doc_entities = []
-    
+
     # read the path where files are in system
-    input_dir, output_dir = create_entities_folder(src=config['PATH']['path_to_original_json'])
+    input_dir: str = config['PATH']['path_to_original_json']
+    output_dir: str = config['PATH']['path_to_entities_json']
+    create_output_folder(output_dir)
     path_to_blacklist = config['PATH']['path2blacklist']
-        
-    with multiprocessing.Pool(processes=40) as pool:          
-        doc_entities = pool.starmap(process_doc,
-            [
-                (input_dir + "/" + d, active_lexicon, output_dir, path_to_blacklist)
-                for d in os.listdir(input_dir)
-            ],
-        )
-        time.sleep(0.5)
-        pool.close()
-        pool.join()
-        
-    for entities in doc_entities:
-        global_entities.update(entities) 
-    
+
+    i: list = [
+        (input_dir + "/" + d, active_lexicons, output_dir, path_to_blacklist)
+        for d in os.listdir(input_dir)
+    ]
+
+    for a in i:
+        doc_entities.append(process_doc(a[0], a[1], a[2], a[3]))
+
+    # with multiprocessing.Pool(processes=40) as pool:
+    #     doc_entities = pool.starmap(
+    #         process_doc,
+    #         [
+    #             (input_dir + "/" + d, active_lexicons, output_dir, path_to_blacklist)
+    #             for d in os.listdir(input_dir)
+    #         ],
+    #     )
+    #     time.sleep(0.5)
+    #     pool.close()
+    #     pool.join()
 
     print(len(doc_entities))
-    print("global top", global_entities.most_common(10))
-    print("total", sum(global_entities.values()))
 
     # --------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
-                Ontologies: {active_lexicon}\n\
+                Ontologies: {active_lexicons}\n\
                 No. articles: {len(doc_entities)}\n\
                 '
-    save_metadata(file=config['PATH']['path_to_info'], line=metadata)  
+    save_metadata(file=config['PATH']['path_to_info'], line=metadata)
     print("FINISHED!")
+
 
 # --------------------------------------------------------------------------- #
 
 if __name__ == '__main__':
-     main()
+    main()
