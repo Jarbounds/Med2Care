@@ -139,7 +139,7 @@ def main():
                 Ontologies: {active_lexicons}\n\
                 No. articles: {len(doc_entities)}\n\
                 '
-    save_metadata(file=config['PATH']['path_to_info'], line=metadata)  
+    save_metadata(file=config['PATH']['path_to_info'], metadata=metadata)
 
 # --------------------------------------------------------------------------- #
 

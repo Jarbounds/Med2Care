@@ -35,6 +35,7 @@ def new_file(file):
     try:
         if not os.path.isfile(file):
             f = open(file, 'w')
+            f.close()
     except OSError as error:
         print(error)
 
@@ -62,21 +63,20 @@ def set_blacklist(file, line):
 
 # --------------------------------------------------------------------------- #
 
-def save_metadata(file, line):
-    '''
+def save_metadata(file, metadata):
+    """
     This function will save all metadata about the process in txt file
-    :param  filename: name of txt file
-            line: all content
-    :return none        
-    '''
+    :param  file: name of txt file
+    :param metadata: the contents to write
+    :return None
+    """
 
     new_file(file)
     with open(file, 'r+') as f:
         content = f.read()
         f.seek(0, 0)
-        f.write(line.rstrip('\r\n') + '\n')
+        f.write(metadata.rstrip('\r\n') + '\n')
         f.write('------------------------------------------------------' + '\n' + content)
-        f.close()
 
 
 # ---------------------------------------------------------------------------------------- #

@@ -10,6 +10,36 @@ def get_member_recursive(doc: dict, member: str) -> str:
     return ''
 
 
+def json_entities(original):
+    entities_json: dict = {
+        'name': original['metadata']['name'],
+        'composition': [],
+        'therapeutic_indications': [],
+        'disease': [],
+        'pregnancy': "",
+        'machine_ops': "",
+        'excipients': [],
+        'incompatibilities': [],
+        'date': ''
+    }
+    return entities_json
+
+
+def get_member_lexicon_relations() -> dict:
+    chebi_lexicon = 'chebi'
+    disease_lexicon = 'do'
+    lexicons_relations = {
+        'composition': [chebi_lexicon],
+        'therapeutic_indications': [disease_lexicon],
+        'disease': [disease_lexicon],
+        # 'pregnancy': [disease_lexicon],
+        # 'machine_ops': [disease_lexicon],
+        'excipients': [chebi_lexicon],
+        'incompatibilities': [chebi_lexicon]
+    }
+    return lexicons_relations
+
+
 # json_doc: dict = {
 #     'key1': 'value1',
 #     'key2': 'value2',
