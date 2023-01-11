@@ -16,9 +16,10 @@
 # rocessing step is to tokenize the text and remove the stopwords. For that, 
 # we are going to import NLTK's list of english stopwords and use the NLTK 
 # tokenizer.
-
+import copy
 import sys
 import os
+import re
 
 if os.path.isdir("merpy"):
     pass
@@ -90,6 +91,18 @@ def update_mer(lexicon):
 
 # --------------------------------------------------------------------------- #
 
+def replace_problematic_chars(doc):
+    invalid_chars = ['-']
+
+    replaced_doc: str = copy.deepcopy(doc)
+    for char in invalid_chars:
+        replaced_doc = replaced_doc.replace(char, ' ')
+
+    replaced_doc = re.sub(' +', ' ', replaced_doc)
+
+    return replaced_doc
+
+
 def items_in_blacklist(doc, lexicon):
     """
     Clear words from document that may distort the
@@ -105,7 +118,7 @@ def items_in_blacklist(doc, lexicon):
     filename = ''
     if lexicon == 'chebi':
         filename = 'chebi.txt'
-    elif lexicon == 'doid':
+    elif lexicon in ['doid', 'do']:
         filename = 'doid.txt'
     elif lexicon == 'go':
         filename = 'go.txt'
@@ -116,9 +129,13 @@ def items_in_blacklist(doc, lexicon):
         with open(os.path.join('../data/blacklists/', filename), 'r') as file:
             black_list = [content.rstrip() for content in file.readlines()]
         all_stopwords.extend(black_list)
+    if os.path.isfile(os.path.join('../data/blacklists/', 'additional_words.txt')):
+        with open(os.path.join('../data/blacklists/', 'additional_words.txt'), 'r') as file:
+            black_list = [content.rstrip() for content in file.readlines()]
+        all_stopwords.extend(black_list)
 
         # Tokenize and remove stop words
     doc_tokens = word_tokenize(doc)
-    doc_tokens_sw = [word for word in doc_tokens if not word in all_stopwords]
+    doc_tokens_sw = [word for word in doc_tokens if word not in all_stopwords]
 
     return ' '.join(doc_tokens_sw)
