@@ -1,7 +1,6 @@
 #######################################################################################
 #                                                                                     #
 # @authors: Matilde Pato, Nuno Datia and Renato Marcelo (Adapted from André Lamurias) #
-# @email: matilde.pato@gmail.com                                                      #
 # @date: 21 Dec 2022                                                                  #
 # @version: 1.0                                                                       #
 #                                                                                     #
@@ -25,12 +24,12 @@ from Utils.json_member_utils import get_member_recursive, get_member_lexicon_rel
 # --------------------------------------------------------------------------- #
 
 
+
+
 def find_entities(doc: str, lexicons: list):
     output_entities = []
 
-    print(lexicons)
-
-    doc = re.sub(r"[^A-Za-z0-9 ]", repl, doc)
+    doc = re.sub(r"[^A-Za-z0-9 ]{2,}", repl, doc)
 
     doc_results = []
     for lexicon in lexicons:
@@ -42,7 +41,19 @@ def find_entities(doc: str, lexicons: list):
             entity = [int(e[0]), int(e[1]), e[2]]
             if len(e) > 3:  # URI
                 entity.append(e[3])
-            if entity not in output_entities:
+            to_add: bool = True
+            for output_entity in output_entities:
+                entity_name = entity[2]
+                entity_url = ''
+                if len(entity) > 3:
+                    entity_url = entity[3]
+                if output_entity[2] == entity_name:
+                    to_add = False
+                    break
+                if len(output_entity) > 3 and len(entity) > 3 and output_entity[3] == entity_url:
+                    to_add = False
+                    break
+            if to_add:
                 output_entities.append(entity)
     return output_entities
 
@@ -70,82 +81,15 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
 
     for member in new_doc.keys():
         value: str = get_member_recursive(doc, member)
-        if value:
-            current_member_lexicons: list = member_lexicons.get(member, None)
-            # Todo: Check for pregnancy and machine ops.
-            if current_member_lexicons is None:
-                continue
-            if len(current_member_lexicons) == 0:
+        current_member_lexicons: list = member_lexicons.get(member, [])
+        if len(current_member_lexicons) == 0:
+            new_doc[member] = value
+        else:
+            l_value: list = find_entities(value, current_member_lexicons)
+            if len(l_value) == 0:
                 new_doc[member] = value
             else:
-                l_value: list = find_entities(value, current_member_lexicons)
                 new_doc[member] = l_value
-
-    # lexicon_relations: dict = get_member_lexicon_relations()
-
-    # composition = get_member_recursive(doc, 'composition')
-    # therapeutic_indications = get_member_recursive(doc, 'therapeutic_indications')
-    # disease = get_member_recursive(doc, 'disease')
-    # pregnancy = get_member_recursive(doc, 'pregnancy')
-    # machine_ops = get_member_recursive(doc, 'machine_ops')
-    # excipients = get_member_recursive(doc, 'excipients')
-    # incompatibilities = get_member_recursive(doc, 'incompatibilities')
-    # revision_date = get_member_recursive(doc, 'revision_date')
-
-    # if composition:
-    #     # print('composition')
-    #     l_composition: list = find_entities(
-    #         composition,
-    #         lexicon_relations['composition']
-    #     )
-    #     new_doc['composition'] = l_composition
-    # if therapeutic_indications:
-    #     # print('therapeutic_indications')
-    #     l_therapeutic_indications: list = find_entities(
-    #         therapeutic_indications,
-    #         lexicon_relations['therapeutic_indications']
-    #     )
-    #     new_doc['therapeutic_indications'] = l_therapeutic_indications
-    # if disease:
-    #     # print('disease')
-    #     l_disease: list = find_entities(
-    #         disease,
-    #         lexicon_relations['disease']
-    #     )
-    #     new_doc['disease'] = l_disease
-    # Todo: Check pregnancy in another form
-    # if pregnancy:
-    #     print('pregnancy')
-    #     l_pregnancy: list = find_entities(
-    #           pregnancy,
-    #           lexicon_relations['pregnancy']
-    #     )
-    #     new_doc['pregnancy'] = l_pregnancy
-    # Todo: Check machine_ops in another form
-    # if machine_ops:
-    #     print('machine_ops')
-    #     l_machine_ops: list = find_entities(
-    #           machine_ops,
-    #           lexicon_relations['machine_ops']
-    #     )
-    #     new_doc['machine_ops'] = l_machine_ops
-    # if excipients:
-    #     # print('excipients')
-    #     l_excipients: list = find_entities(
-    #         excipients,
-    #         lexicon_relations['excipients']
-    #     )
-    #     new_doc['excipients'] = l_excipients
-    # if incompatibilities:
-    #     # print('incompatibilities')
-    #     l_incompatibilities: list = find_entities(
-    #         incompatibilities,
-    #         lexicon_relations['incompatibilities']
-    #     )
-    #     new_doc['incompatibilities'] = l_incompatibilities
-    # if revision_date:
-    #     # print('revision_date')
-    #     new_doc['date'] = revision_date
 
     # Serializing json 
     json_object = json.dumps(new_doc, indent=4, ensure_ascii=False)
@@ -161,7 +105,7 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
 
 def repl(m):
     # replace all matches with "a"
-    return " " * len(m.group())
+    return "" * len(m.group())
 
 # --------------------------------------------------------------------------- #
 
@@ -199,6 +143,7 @@ def main():
     }
     """
     import time
+    import multiprocessing
     from configparser import ConfigParser
 
     start_time = datetime.now()
@@ -232,22 +177,19 @@ def main():
         for d in os.listdir(input_dir)
     ]
 
-    for parameters in parameters_list:
-        doc_entities.append(
-            process_doc(*parameters)
-        )
-
-    # with multiprocessing.Pool(processes=40) as pool:
-    #     doc_entities = pool.starmap(
-    #         process_doc,
-    #         [
-    #             (input_dir + "/" + d, active_lexicons, output_dir, path_to_blacklist)
-    #             for d in os.listdir(input_dir)
-    #         ],
+    # for parameters in parameters_list:
+    #     doc_entities.append(
+    #         process_doc(*parameters)
     #     )
-    #     time.sleep(0.5)
-    #     pool.close()
-    #     pool.join()
+
+    with multiprocessing.Pool(processes=12) as pool:
+        doc_entities = pool.starmap(
+            process_doc,
+            parameters_list,
+        )
+        time.sleep(0.5)
+        pool.close()
+        pool.join()
 
     # --------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
