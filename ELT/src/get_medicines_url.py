@@ -39,7 +39,8 @@ def main():
         'limit': 200,
         'excluded_acs': [
             'entecavir',
-            'telbivudine'
+            'telbivudine',
+            'tenofovir disoproxil fumarate'
         ]
     })
 
