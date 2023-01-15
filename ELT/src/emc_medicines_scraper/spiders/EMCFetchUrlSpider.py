@@ -1,6 +1,6 @@
 
 import re
-from scrapy import Spider, Selector
+from scrapy import Spider
 from copy import deepcopy
 from scrapy.http import Request, Response
 
@@ -19,14 +19,6 @@ def is_discontinued(medicine_selector) -> bool:
     return False
 
 
-def is_excluded(active_principle: Selector, to_exclude: list) -> bool:
-    ac = active_principle.css('h3::text').get()
-    for exclude in to_exclude:
-        if ac in exclude or exclude in ac:
-            return True
-    return False
-
-
 class EMCFetchUrlCrawler(Spider):
     name: str = 'EMCFetchUrlCrawler'
     allowed_domains: list[str] = ['www.medicines.org.uk']
@@ -39,7 +31,10 @@ class EMCFetchUrlCrawler(Spider):
     def get_num_results(self, response: Response):
         # Parse response
         span_list = response.css('span')
-        total_results_span = [span for span in span_list if span.attrib.get('id', '') == 'SearchResultsPagingView'][0]
+        span_results: list = [span for span in span_list if span.attrib.get('id', '') == 'SearchResultsPagingView']
+        if len(span_results) == 0:
+            return
+        total_results_span = span_results[0]
         total_results = int(re.findall('[0-9]+', total_results_span.root.text)[0])
 
         current_offset: int = 1
@@ -64,8 +59,6 @@ class EMCFetchUrlCrawler(Spider):
         results = results_box.css('div.data-row')
         for result in results:
             if is_discontinued(result):
-                continue
-            if is_excluded(result, self.kwargs.get('excluded_acs')):
                 continue
             link_list_div = result.css('div.col-sm-3')[0]
             link_list = link_list_div.css('ul')[0]
