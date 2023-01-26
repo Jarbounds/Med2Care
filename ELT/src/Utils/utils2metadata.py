@@ -23,7 +23,7 @@ import re
 import pandas as pd
 import unidecode
 
-from Utils.utils import valid_names, new_folder, hasDashCharacter
+from utils import valid_names, new_folder, hasDashCharacter
 
 # ---------------------------------------------------------------------------------------- #
 

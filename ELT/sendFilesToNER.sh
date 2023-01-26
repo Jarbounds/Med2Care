@@ -1,1 +1,0 @@
-cp -r ./data/json/*.* ../NER/data/comm_use_subset/medicine_set

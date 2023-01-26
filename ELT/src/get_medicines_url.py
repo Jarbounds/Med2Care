@@ -26,7 +26,7 @@ def request_results(process, crawler, request_url: str, limit: int) -> None:
 
 def main():
     config: ConfigParser = ConfigParser()
-    config.read('config.ini')
+    config.read('../configurations/config.ini')
 
     emc_base_search_url: str = config['URL']['emc_base_search_url']
     emc_base_url: str = config['URL']['emc_base_url']
@@ -56,10 +56,10 @@ def main():
     for atc_code_list in atc_codes_by_disease.values():
         for atc_code in atc_code_list:
             fetch_urls_crawler: Crawler = configure_and_retrieve_crawler(settings, handle_url_scraped)
-            partial_atc_code_query: str = f'q={atc_code}'
+            atc_code_query: str = f'q={atc_code}'
             # Show only medicines with health professional information
             healthcare_information_filter_query = f'filters={emc_search_filters}'
-            request_url: str = f'{emc_base_search_url}?{partial_atc_code_query}&{healthcare_information_filter_query}'
+            request_url: str = f'{emc_base_search_url}?{atc_code_query}&{healthcare_information_filter_query}'
 
             request_results(process, fetch_urls_crawler, request_url, limit)
     process.start()

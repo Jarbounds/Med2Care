@@ -1,4 +1,3 @@
-
 ###############################################################################
 #                                                                             #  
 # @author: Matilde Pato                                                       #  
@@ -14,30 +13,81 @@
 #                                                                             #  
 ###############################################################################
 
-'''
 import os
-from pathlib import Path
-from urllib.parse import quote
-import unidecode
-import re
-import string
 import shutil
-
-# validate person names
-import spacy
-import xx_ent_wiki_sm
-from spacy.tokenizer import Tokenizer
-from spacy.util import compile_prefix_regex, compile_infix_regex, compile_suffix_regex
-
-# --------------------------------------------------------------------------- #
-'''
+from pathlib import Path
 
 
-def verify_word(word: str, wordlist: list[str]) -> bool:
-    for w in wordlist:
-        if w.lower() in word.lower():
-            return False
-    return True
+def new_file(file):
+
+    try:
+        if not os.path.isfile(file):
+            f = open(file, 'w')
+    except OSError as error:
+        print(error)
+
+
+def new_folder(path: str):
+    """
+    Create a new folder, if not exists; Nothing otherwise.
+
+    :param path: The path where the folder will be created
+    """
+    os.makedirs(path, exist_ok=True)
+
+
+def transfer_file(lst_files: list, src: str, dst: str, flag: str) -> None:
+    """
+    Copy or move files from one folder to another, based on list of files.
+
+    :param  lst_files: list of file names to copy or move
+    :param  src: path of source
+    :param  dst: path of destination
+    :param  flag: constant value 'copy' or 'move'
+    :return None
+
+    E.g.
+    File copied successfully.
+    ../data/document_parses/pdf_json/3e7204f7030a9956a95b58d84d283d85229cc117.json
+    """
+
+    new_folder(dst)
+
+    print(f'{flag} files!')
+    for file in lst_files:
+        if os.path.isfile(os.path.join(src, file)):
+            try:
+                if flag == 'copy':
+                    shutil.copy(os.path.join(src, file), os.path.join(dst, file))
+                elif flag == 'move':
+                    shutil.move(os.path.join(src, file), os.path.join(dst, file))
+            # For other errors
+            except:
+                print(f"Error occurred while {flag} file.")
+        else:
+            print("file does not exist: file")
+    print(f'End of {flag} successfully.')
+
+
+def save_metadata(filename: str, line: str) -> None:
+    """
+    This function will save all metadata about the process in txt file
+    :param  filename: name of txt file
+            line: all content
+    :param line: the information to save
+    :return none
+    """
+    dir_name: str = os.path.dirname(filename)
+    if not os.path.exists(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+
+    new_file(filename)
+    with open(filename, 'r+') as f:
+        content = f.read()
+        f.seek(0, 0)
+        f.write(line.rstrip('\r\n') + '\n')
+        f.write('------------------------------------------------------' + '\n' + content)
+        f.close()
 
 
 """

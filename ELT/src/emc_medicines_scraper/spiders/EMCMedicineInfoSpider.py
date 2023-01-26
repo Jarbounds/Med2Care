@@ -118,15 +118,14 @@ class EMCMedicineInfoCrawler(Spider):
     allowed_domains: list[str] = ['www.medicines.org.uk']
 
     def start_requests(self):
-        urls_filename = self.kwargs.get('urls_filename', '')
+        urls_filename = self.kwargs.get('urls_file', '')
         with open(urls_filename, 'r', encoding='utf-8') as file:
             urls: list[str] = [url.rstrip('\n') for url in file.readlines()]
         for url in urls:
             yield Request(url, callback=self.parse, dont_filter=True)
 
-    # Todo: Problems found here, so much incoherence with this section text... :(
-
     def parse(self, response: HtmlResponse, **kwargs):
+        from hashlib import sha1
         parser = BeautifulSoup(response.body, features='lxml')
         medicine_id: str = str(re.findall('[0-9]+', response.url)[0])
         medicine_name = parse_medicine_name(parser)
@@ -134,8 +133,11 @@ class EMCMedicineInfoCrawler(Spider):
         clinical_particulars = parse_clinical_particulars(response)
         revision_date = parse_revision_date(parser)
 
+        hashed_id = sha1(f'{medicine_id}{revision_date}'.encode()).hexdigest()
+
         medicine: Medicine = Medicine(
-            medicine_id=medicine_id,
+            medicine_id=hashed_id,
+            emc_id=medicine_id,
             metadata=Metadata(
                 name=medicine_name,
                 composition=composition,

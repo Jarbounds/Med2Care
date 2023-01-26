@@ -39,6 +39,7 @@ class Metadata:
 @dataclass
 class Medicine:
     medicine_id: str = field(init=True, default_factory=str)
+    emc_id: str = field(init=True, default_factory=str)
     metadata: Metadata = field(init=True, default_factory=Metadata)
 
 

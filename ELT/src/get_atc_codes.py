@@ -75,7 +75,7 @@ def retrieve_matches(driver: Chrome, search_url: str, active_principles: list[st
 def main() -> None:
     # Reads configurations
     config: ConfigParser = ConfigParser()
-    config.read('config.ini')
+    config.read('../configurations/config.ini')
 
     active_principles_dir: str = config['PATH']['active_principles_dir']
     atc_codes_dir: str = config['PATH']['atc_codes_dir']
