@@ -70,18 +70,19 @@ You must enter your email in utils2pubmed: Entrez.email = <INSERT_YOUR_EMAIL_HER
 
 # 4. Output<a name="4"></a>
 
-           user          item  rating                          item_name  year
-0             0      DOID_225       1                           syndrome  2020
-1             0     DOID_2945       1  severe acute respiratory syndrome  2020
-2             1  CHEBI_132943       1                          aspartate  2012
-3             1   CHEBI_15356       1                           cysteine  2012
-4             1   CHEBI_15841       1                        polypeptide  2012
-...         ...           ...     ...                                ...   ...
-9577659  174032      DOID_225       1                           syndrome  2020
-9577660  174032     DOID_2945       1  severe acute respiratory syndrome  2020
-9577661  174032        DOID_4       1                            disease  2020
-9577662  174032      DOID_552       1                          pneumonia  2020
-9577663  174032     DOID_9563       1                     bronchiectasis  2020
+|         | user   | item         | rating | item_name                         | year |
+|---------|--------|--------------|--------|-----------------------------------|------|
+| 0       | 0      | DOID_225     | 1      | syndrome                          | 2020 |
+| 1       | 0      | DOID_2945    | 1      | severe acute respiratory syndrome | 2020 |
+| 2       | 1      | CHEBI_132943 | 1      | aspartate                         | 2012 |
+| 3       | 1      | CHEBI_15356  | 1      | cysteine                          | 2012 |
+| 4       | 1      | CHEBI_15841  | 1      | polypeptide                       | 2012 |
+| ...     | ...    | ...          | ...    | ...                               | ...  |
+| 9577659 | 174032 | DOID_225     | 1      | syndrome                          | 2020 |
+| 9577660 | 174032 | DOID_2945    | 1      | severe acute respiratory syndrome | 2020 |
+| 9577661 | 174032 | DOID_4       | 1      | disease                           | 2020 |
+| 9577662 | 174032 | DOID_552     | 1      | pneumonia                         | 2020 |
+| 9577663 | 174032 | DOID_9563    | 1      | bronchiectasis                    | 2020 |
 
 Three csv files are saved with
 
