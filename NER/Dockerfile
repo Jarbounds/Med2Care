@@ -32,7 +32,7 @@ RUN apt-get update \
    
 
 RUN locale-gen en_US.UTF-8
-COPY ./default_locale /etc/default/locale
+#COPY ./default_locale /etc/default/locale
 RUN chmod 0755 /etc/default/locale
 
 # --------------------------------------------------------------
