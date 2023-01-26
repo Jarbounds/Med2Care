@@ -30,5 +30,5 @@ else
 echo "No such container"
 fi
 echo "Deploying the updated container" 
-sudo docker run -ti --name=$CONTAINER --link mpato-mysql:mysql  -v $VOLUME_DATA:/data -v $BASEDIR:/$ENDPATH $IMAGE
+sudo docker run -ti --name=$CONTAINER --link mysql  -v $VOLUME_DATA:/data -v $BASEDIR:/$ENDPATH $IMAGE
 echo "Deploying the container"
