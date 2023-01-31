@@ -1,0 +1,25 @@
+// Based on medicine information from https://www.medicines.org.uk/emc/browse-medicines
+{
+	"medicine_id": "<medicine_id>",
+	"emc_id": "<emc medicine_id>",
+	"metadata": {
+		"name": "<medicine name>",
+		"composition": "<active principle with amount>",
+		"clinical_particulars": {
+			"therapeutic_indications": "<therapeutic indications for usage>",
+			"contraindications": {
+				"disease": [
+					{
+						"name": "<disease name>",
+						"description": "<description of disease interaction>"
+					}
+				],
+				"pregnancy": "<interactions associated with pregnancy, lactation, fertility or related>",
+				"machine_ops": "<description for driving and operating machines under medicine effect>",
+				"excipients": "<semicollon separated excipients present in medicine>",
+				"incompatibilities": "<semicolon separated medicine names that are incompatible with this medicine>"
+			}
+		},
+		"revision_date": "<revision date with format yyyy-mm-dd>"
+	}
+}
