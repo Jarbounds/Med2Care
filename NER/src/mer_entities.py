@@ -12,18 +12,18 @@
 # Run:
 # python3 mer_entities.py 
 
+import os
 import json
 import re
 from datetime import datetime
-
-from Utils.utils import save_metadata, create_output_folder
-from Utils.utils2mer import *
-from Utils.json_member_utils import get_member_recursive, get_member_lexicon_relations, json_entities
-
-
-# --------------------------------------------------------------------------- #
-
-
+from utils.utils import save_metadata, create_output_folder
+from utils.utils2mer import \
+    merpy, \
+    update_mer, \
+    items_in_blacklist, \
+    resolve_known_missing_terms, \
+    replace_problematic_chars
+from utils.json_member_utils import get_member_recursive, get_member_lexicon_relations, json_entities
 
 
 def find_entities(doc: str, lexicons: list):
@@ -34,6 +34,8 @@ def find_entities(doc: str, lexicons: list):
     doc_results = []
     for lexicon in lexicons:
         doc = items_in_blacklist(doc, lexicon)
+        doc = replace_problematic_chars(doc)
+        doc = resolve_known_missing_terms(doc, lexicon)
         doc_results += merpy.get_entities(doc, lexicon)
 
     for e in doc_results:
@@ -56,8 +58,6 @@ def find_entities(doc: str, lexicons: list):
             if to_add:
                 output_entities.append(entity)
     return output_entities
-
-# --------------------------------------------------------------------------- #
 
 
 def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
@@ -101,47 +101,32 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
         f_out.close()
 
 
-# --------------------------------------------------------------------------- #
-
 def repl(m):
     # replace all matches with "a"
     return "" * len(m.group())
 
-# --------------------------------------------------------------------------- #
-
 
 def main():
-    """E.g. CORD-19: cord-19_2020-05-19.tar.gz
+    """
     input:
-    {"paper_id": "0a00a6df208e068e7aa369fb94641434ea0e6070",
+    {
+        "medicine_id": "2d2f07c15dad39e56224c9a1365e12fbd7db29da",
+        "emc_id": "8048",
         "metadata": {
-            "title": "BMC Genomics Novel genome polymorphisms in BCG vaccine strains and impact on efficacy",
-            "authors":
-            ...}
-        "abstract": [{
-            "text": "Bacille Calmette-Gurin (BCG) is an attenuated strain of Mycobacterium bovis currently used (...)
+            "name": "Epivir 150 mg film-coated tablets",
+            "composition": "Epivir 150 mg film coated tablets Each film...",
+            ...
+        },
+        "revision_date": "2021-08-09"
     ...
     }
     output:
     {
-    "id": "0a5b8413397c8212cd6582383a0922ccb7b77535",
-    "entities": {
-        "http://purl.obolibrary.org/obo/DOID_8469": 972,
-        "http://purl.obolibrary.org/obo/DOID_552": 347,
-        "http://purl.obolibrary.org/obo/DOID_934": 170,
-        "http://purl.obolibrary.org/obo/CHEBI_50858": 168,
-    ...
-                    [
-                        344,
-                        352,
-                        "neoplasm",
-                        "http://purl.obolibrary.org/obo/DOID_14566"
-                    ]
-                ]
-            ]
-        }
+        "medicine_id": "0a5b8413397c8212cd6582383a0922ccb7b77535",
+        ...
     }
     """
+
     import time
     import multiprocessing
     from configparser import ConfigParser
@@ -182,7 +167,7 @@ def main():
     #         process_doc(*parameters)
     #     )
 
-    with multiprocessing.Pool(processes=12) as pool:
+    with multiprocessing.Pool(processes=1) as pool:
         doc_entities = pool.starmap(
             process_doc,
             parameters_list,
@@ -191,7 +176,6 @@ def main():
         pool.close()
         pool.join()
 
-    # --------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
@@ -201,8 +185,6 @@ def main():
     save_metadata(file=config['PATH']['path_to_info'], metadata=metadata)
     print("FINISHED!")
 
-
-# --------------------------------------------------------------------------- #
 
 if __name__ == '__main__':
     main()

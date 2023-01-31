@@ -20,6 +20,7 @@ import copy
 import sys
 import os
 import re
+import time
 
 if os.path.isdir("merpy"):
     pass
@@ -92,15 +93,43 @@ def update_mer(lexicon):
 # --------------------------------------------------------------------------- #
 
 def replace_problematic_chars(doc):
-    invalid_chars = ['-']
+    with open('../data/replacers/chars.txt', 'r', encoding='utf-8') as file:
+        invalid_chars = [char.rstrip() for char in file.readlines()]
 
     replaced_doc: str = copy.deepcopy(doc)
     for char in invalid_chars:
         replaced_doc = replaced_doc.replace(char, ' ')
 
-    replaced_doc = re.sub(' +', ' ', replaced_doc)
+    replaced_doc = re.sub(r'\s+', ' ', replaced_doc)
 
     return replaced_doc
+
+
+def resolve_known_missing_terms(doc: str, lexicon: str) -> str:
+    filename: str = ''
+    if lexicon == 'chebi':
+        filename = 'chebi.txt'
+    elif lexicon in ['doid', 'do']:
+        filename = 'doid.txt'
+    elif lexicon == 'go':
+        filename = 'go.txt'
+    elif lexicon == 'hp':
+        filename = 'hp.txt'
+
+    if os.path.isfile(os.path.join('../data/replacers', filename)):
+        doc_copy = copy.deepcopy(doc)
+        with open(os.path.join('../data/replacers/', filename), 'r') as file:
+            terms_list: list = [term.rstrip().split(';') for term in file.readlines()]
+            terms: dict = dict(terms_list)
+
+        for term in terms.items():
+            print(f'Replacing {term[0]} for {term[1]}')
+            insensitive_regex = re.compile(re.escape(term[0]), re.IGNORECASE)
+            doc_copy = insensitive_regex.sub(term[1], doc_copy)
+            # print(f'doc_copy -> {doc_copy}')
+        return doc_copy
+
+    return doc
 
 
 def items_in_blacklist(doc, lexicon):
@@ -108,7 +137,7 @@ def items_in_blacklist(doc, lexicon):
     Clear words from document that may distort the
     classification of the ontologies
     :param  doc: document
-            lexicon: prefix of the ontology
+    :param  lexicon: prefix of the ontology
     :return doc
     """
     black_list = []
