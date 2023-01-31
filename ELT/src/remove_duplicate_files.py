@@ -118,20 +118,20 @@ def main():
 
     staged_data_dir: str = config['PATH']['staged_data_dir']
 
-    extracted_medicines_dir: str = config['PATH']['extracted_medicines_dir']
+    cleaned_medicines_dir: str = config['PATH']['cleaned_medicines_dir']
     processed_medicines_dir: str = config['PATH']['processed_medicines_dir']
 
     if not os.path.exists(processed_medicines_dir):
         os.makedirs(processed_medicines_dir, exist_ok=True)
 
-    total_files: int = len(os.listdir(extracted_medicines_dir))
+    total_files: int = len(os.listdir(cleaned_medicines_dir))
 
     print(f'Number of medicine files to check: {total_files}')
 
     # Find duplicates files and return a list of overlapped ids to keep and new ids to add.
     # The number of duplicates will be count
     count_duplicate, overlapped_ids_to_keep = verify_duplicate_files(
-        extracted_dir=extracted_medicines_dir,
+        extracted_dir=cleaned_medicines_dir,
         processed_dir=processed_medicines_dir
     )
 
@@ -139,14 +139,14 @@ def main():
 
     transfer_file(
         lst_files=files_to_keep,
-        src=extracted_medicines_dir,
+        src=cleaned_medicines_dir,
         dst=processed_medicines_dir,
         flag=config['TRANSFER']['option']
     )
 
     transfer_file(
         lst_files=files_to_keep,
-        src=extracted_medicines_dir,
+        src=cleaned_medicines_dir,
         dst=staged_data_dir,
         flag=config['TRANSFER']['option']
     )

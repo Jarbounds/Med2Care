@@ -24,16 +24,19 @@
 # (or, not valid), add abstract where non-found, and language is different from 
 # predefined and write the paper_id to a txt files as a blacklist
 
-# python3 cleaning_data.py 
+# python3 cleaning_data.py
 
 import os
+import re
+import copy
 import configparser
 from datetime import datetime, date
 
-from utils.utils2json import read_json_file, get_revision_date, set_revision_date, write_json_file
+from utils.utils2json import \
+    read_json_file, get_revision_date, set_revision_date, write_json_file, get_member_recursive, set_member_recursive
 
 
-def clean_date(data: dict) -> dict:
+def normalize_date(data: dict) -> dict:
     """
     Cleans revision date field from JSON file
 
@@ -58,8 +61,41 @@ def clean_date(data: dict) -> dict:
         except ValueError:
             print(f'date format "{date_format}" cannot be applied')
 
-    print('NONE OF DATE FORMATS WERE APPLIED!!!')
+    print('NONE OF DATE FORMATS WERE APPLIED!!!', revision_date)
     return data
+
+
+def all_normalizations(member: str) -> str:
+    if 'lamivudine' in member:
+        print('found')
+    member = re.sub(r'[^\w\s]', ' ', member)
+    member = re.sub(r'\n+', ' ', member)
+    member = re.sub(r'\t+', ' ', member)
+    member = re.sub(r'\r+', ' ', member)
+    member = re.sub(r'\s+', ' ', member)
+    member = member.strip()
+    return member
+
+
+def normalize_general(data: dict) -> dict:
+    normalized_data: dict = copy.deepcopy(data)
+
+    name: str = get_member_recursive(normalized_data, 'name')
+    composition: str = get_member_recursive(normalized_data, 'composition')
+    therapeutic_indications: str = get_member_recursive(normalized_data, 'therapeutic_indications')
+    disease: str = get_member_recursive(normalized_data, 'disease')
+
+    name = all_normalizations(name)
+    composition = all_normalizations(composition)
+    therapeutic_indications = all_normalizations(therapeutic_indications)
+    disease = all_normalizations(disease)
+
+    set_member_recursive(normalized_data, 'name', name)
+    set_member_recursive(normalized_data, 'composition', composition)
+    set_member_recursive(normalized_data, 'therapeutic_indications', therapeutic_indications)
+    set_member_recursive(normalized_data, 'disease', disease)
+
+    return normalized_data
 
 
 def main():
@@ -68,13 +104,15 @@ def main():
     config.read('../configurations/config.ini')
 
     input_dir = config['PATH']['extracted_medicines_dir']
+    output_dir = config['PATH']['cleaned_medicines_dir']
 
     list_of_json_files = os.listdir(input_dir)
 
     for json_file in list_of_json_files:
         medicine_json: dict = read_json_file(input_dir, json_file)
-        medicine_json = clean_date(medicine_json)
-        write_json_file(input_dir, json_file, medicine_json)
+        medicine_json = normalize_general(medicine_json)
+        medicine_json = normalize_date(medicine_json)
+        write_json_file(output_dir, json_file, medicine_json)
 
 
 if __name__ == '__main__':

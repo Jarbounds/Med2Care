@@ -11,7 +11,11 @@ def extract(anchor_id: str, parser: BeautifulSoup, return_element: bool = False)
     content_div = match.find_next('div', attrs={'class': 'sectionWrapper'})
     if return_element:
         return content_div
-    text = content_div.text.strip()
+    text: str = ''
+    for s in content_div.strings:
+        if s.isprintable():
+            text = f'{text}\n{s}'
+    text = text.strip()
     return text
 
 
@@ -50,6 +54,7 @@ def parse_machine_ops_contraindications(parser: BeautifulSoup) -> str:
 def parse_excipients(parser: BeautifulSoup) -> str:
     excipients = extract('EXCIPIENTS', parser)
     to_rem = [
+        'tablet',
         'core',
         'capsule',
         'coating'
@@ -61,10 +66,11 @@ def parse_excipients(parser: BeautifulSoup) -> str:
     for excipient in excipients_list:
         to_add: bool = True
         for rem in to_rem:
-            if rem in excipient.lower():
+            if rem.casefold() in excipient.casefold():
                 to_add = False
                 break
         if to_add:
+            excipient = excipient.strip(',')
             cleaned_excipients.append(excipient)
 
     joined = ';'.join(cleaned_excipients)
@@ -129,6 +135,8 @@ class EMCMedicineInfoCrawler(Spider):
         parser = BeautifulSoup(response.body, features='lxml')
         medicine_id: str = str(re.findall('[0-9]+', response.url)[0])
         medicine_name = parse_medicine_name(parser)
+        if medicine_id == '3834':
+            print('a')
         composition = parse_composition(parser)
         clinical_particulars = parse_clinical_particulars(response)
         revision_date = parse_revision_date(parser)
