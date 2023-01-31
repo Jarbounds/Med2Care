@@ -37,9 +37,9 @@ import tempfile
 
 global_entities = Counter()
 
-from Utils.utils import create_entities_folder, save_metadata
-from Utils.utils2mer import *
-from Utils.utils2pubmed import *
+from utils.utils import create_entities_folder, save_metadata
+from utils.utils2mer import *
+from utils.utils2pubmed import *
 from mer_entities import process_doc
 
 

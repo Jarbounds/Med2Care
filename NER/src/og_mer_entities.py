@@ -39,9 +39,9 @@ import configparser
 
 global_entities = Counter()
 
-from Utils.utils import create_entities_folder, save_metadata, set_blacklist
-from Utils.utils2mer import *
-from Utils.utils2pubmed import *
+from utils.utils import create_entities_folder, save_metadata, set_blacklist
+from utils.utils2mer import *
+from utils.utils2pubmed import *
 
 # --------------------------------------------------------------------------- #
 
