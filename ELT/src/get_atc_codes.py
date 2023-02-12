@@ -12,7 +12,10 @@ from selenium.webdriver.support.wait import WebDriverWait
 def get_disease_active_principles_dict(directory_path: str) -> dict:
     disease_active_principles: dict = {}
     for disease_filename in os.listdir(directory_path):
-        with open(os.path.join(directory_path, disease_filename), 'r', encoding='utf-8') as file:
+        file_path = os.path.join(directory_path, disease_filename)
+        if not os.path.isfile(file_path):
+            continue
+        with open(file_path, 'r', encoding='utf-8') as file:
             disease_active_principles[disease_filename] = [
                 active_principle.strip().lower() for active_principle in file.readlines()
             ]
@@ -31,7 +34,7 @@ def get_driver_instance(executable_path: str, headless: bool) -> Chrome:
 
 
 def retrieve_matches(driver: Chrome, search_url: str, active_principles: list[str], exact_match: bool) -> list[str]:
-    atc_codes: list[str] = []
+    atc_codes: set = set()
     for active_principle in active_principles:
         driver.get(search_url)
         try:
@@ -57,19 +60,21 @@ def retrieve_matches(driver: Chrome, search_url: str, active_principles: list[st
             # Finds all the results in the table (active principles matches)
             results_elem = driver.find_elements(By.CSS_SELECTOR, 'table > tbody > tr')
             for result_elem in results_elem:
+                element = result_elem.find_elements(By.CSS_SELECTOR, 'td')
                 # Get hte atc code that corresponds to the active principle
-                atc_code_elem, active_principle_elem = tuple(result_elem.find_elements(By.CSS_SELECTOR, 'td'))
+                atc_code_elem, active_principle_elem = tuple(element)
                 # Compares for an exact match
                 if exact_match and active_principle.casefold() == active_principle_elem.text.casefold():
-                    atc_codes.append(atc_code_elem.text)
-                    print(f'[Exact Match] Found ATC Code -> {atc_code_elem.text} for active principle -> {active_principle}')
-                    break
-                elif not exact_match and active_principle.casefold() in active_principle_elem.text.casefold():
-                    atc_codes.append(atc_code_elem.text)
-                    print(f'[Partial Match] Found ATC Code -> {atc_code_elem.text} for active principle -> {active_principle}')
+                    atc_codes.add(atc_code_elem.text)
+                    print(f'[Exact Match] Found ATC Code -> {atc_code_elem.text} '
+                          f'for active principle -> {active_principle}')
+                # elif not exact_match and active_principle.casefold() in active_principle_elem.text.casefold():
+                #     atc_codes.add(atc_code_elem.text)
+                #     print(f'[Partial Match] Found ATC Code -> {atc_code_elem.text} '
+                #           f'for active principle -> {active_principle}')
         except TimeoutException:
             print('[TimeoutException] could not get the page in time')
-    return atc_codes
+    return list(sorted(atc_codes))
 
 
 def main() -> None:
@@ -82,9 +87,12 @@ def main() -> None:
     atc_search_url: str = config['URL']['atc_search_url']
     exact_match: bool = config['CMP']['exact_match'].lower() == 'true'
 
+    driver_path: str = config['PATH']['driver']
+    headless: bool = config['DRIVER']['headless'].lower() == 'true'
+
     disease_active_principles: dict = get_disease_active_principles_dict(active_principles_dir)
 
-    driver: Chrome = get_driver_instance(r'../chrome_webdriver/chromedriver.exe', exact_match)
+    driver: Chrome = get_driver_instance(driver_path, headless)
 
     for disease in disease_active_principles.keys():
         active_principles: list[str] = disease_active_principles[disease]

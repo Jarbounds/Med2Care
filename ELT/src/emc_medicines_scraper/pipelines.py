@@ -9,13 +9,13 @@ import os
 
 import jsonpickle
 from . import Medicine
-from .spiders import EMCMedicineInfoCrawler
+from .spiders import EMCMedicineInfoSpider
 
 
 class EMCMedicinePipeline:
 
     def process_item(self, item: Medicine, spider):
-        if isinstance(spider, EMCMedicineInfoCrawler):
+        if isinstance(spider, EMCMedicineInfoSpider):
             path: str = spider.kwargs['output_dir']
             medicine_id: str = item.medicine_id
 

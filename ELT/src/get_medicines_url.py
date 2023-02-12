@@ -1,4 +1,5 @@
 import os
+import time
 from os import listdir
 from configparser import ConfigParser
 from typing import Any, Callable
@@ -6,19 +7,19 @@ from typing import Any, Callable
 from scrapy.crawler import Crawler, CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from scrapy import signals
-from emc_medicines_scraper.spiders import EMCFetchUrlCrawler
+from emc_medicines_scraper.spiders import EMCFetchUrlSpider
 
 
 def configure_and_retrieve_crawler(settings, callback_func: Callable) -> Any:
-    fetch_urls_crawler = Crawler(EMCFetchUrlCrawler, settings=settings)
+    fetch_urls_crawler = Crawler(EMCFetchUrlSpider, settings=settings)
     fetch_urls_crawler.signals.connect(callback_func, signal=signals.item_scraped)
 
     return fetch_urls_crawler
 
 
-def request_results(process, crawler, request_url: str, limit: int) -> None:
+def request_results(process, crawler, request_urls: list[str], limit: int) -> None:
     process.crawl(crawler, kwargs={
-        'emc_search_url': request_url,
+        'emc_search_urls': request_urls,
         'base_offset': 1,
         'limit': limit
     })
@@ -53,15 +54,18 @@ def main():
     def handle_url_scraped(item: dict):
         medicine_urls.append(f'{emc_base_url}{item["uri"]}')
 
+    fetch_urls_crawler: Crawler = configure_and_retrieve_crawler(settings, handle_url_scraped)
+    urls = []
+
     for atc_code_list in atc_codes_by_disease.values():
         for atc_code in atc_code_list:
-            fetch_urls_crawler: Crawler = configure_and_retrieve_crawler(settings, handle_url_scraped)
             atc_code_query: str = f'q={atc_code}'
             # Show only medicines with health professional information
             healthcare_information_filter_query = f'filters={emc_search_filters}'
             request_url: str = f'{emc_base_search_url}?{atc_code_query}&{healthcare_information_filter_query}'
+            urls.append(request_url)
 
-            request_results(process, fetch_urls_crawler, request_url, limit)
+    request_results(process, fetch_urls_crawler, urls, limit)
     process.start()
     process.join()
 

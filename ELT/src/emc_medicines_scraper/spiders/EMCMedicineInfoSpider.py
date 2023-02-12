@@ -1,4 +1,6 @@
 import re
+import time
+
 from scrapy import Spider
 from scrapy.http import Request, HtmlResponse
 from bs4 import BeautifulSoup, Tag
@@ -7,7 +9,7 @@ from .. import check_element_text
 
 
 def extract(anchor_id: str, parser: BeautifulSoup, return_element: bool = False) -> str | Tag:
-    match = parser.find('a', attrs={'id': anchor_id})
+    match = parser.find('summary', attrs={'id': anchor_id})
     content_div = match.find_next('div', attrs={'class': 'sectionWrapper'})
     if return_element:
         return content_div
@@ -26,6 +28,9 @@ def parse_medicine_name(parser: BeautifulSoup) -> str:
 
 def parse_composition(parser: BeautifulSoup) -> str:
     composition = extract('COMPOSITION', parser)
+    if 'excipient'.casefold() in composition.casefold():
+        ignore_case = re.compile(re.escape('excipient'), re.IGNORECASE)
+        composition = ignore_case.split(composition)[0]
     return composition
 
 
@@ -119,24 +124,23 @@ def parse_revision_date(parser: BeautifulSoup) -> str:
     return revision_date
 
 
-class EMCMedicineInfoCrawler(Spider):
+class EMCMedicineInfoSpider(Spider):
     name: str = 'EMCMedicineInfoCrawler'
     allowed_domains: list[str] = ['www.medicines.org.uk']
 
     def start_requests(self):
-        urls_filename = self.kwargs.get('urls_file', '')
-        with open(urls_filename, 'r', encoding='utf-8') as file:
-            urls: list[str] = [url.rstrip('\n') for url in file.readlines()]
+        urls = self.kwargs.get('urls_list', [])
         for url in urls:
             yield Request(url, callback=self.parse, dont_filter=True)
+            # time.sleep(self.settings.attributes['DOWNLOAD_DELAY'].value)
 
     def parse(self, response: HtmlResponse, **kwargs):
         from hashlib import sha1
+
         parser = BeautifulSoup(response.body, features='lxml')
+
         medicine_id: str = str(re.findall('[0-9]+', response.url)[0])
         medicine_name = parse_medicine_name(parser)
-        if medicine_id == '3834':
-            print('a')
         composition = parse_composition(parser)
         clinical_particulars = parse_clinical_particulars(response)
         revision_date = parse_revision_date(parser)

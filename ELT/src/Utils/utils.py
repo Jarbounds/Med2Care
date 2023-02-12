@@ -90,6 +90,19 @@ def save_metadata(filename: str, line: str) -> None:
         f.close()
 
 
+def save_to_file_lines(lines, file) -> None:
+    with open(file, 'w', encoding='utf-8') as fp:
+        for line in lines:
+            fp.write(f'{line}\n')
+
+
+def load_from_file_lines(file) -> list:
+    with open(file, 'r', encoding='utf-8') as fp:
+        return [
+            line.rstrip('\n') for line in fp.readlines()
+        ]
+
+
 """
 def custom_tokenizer(nlp):
     infix_re = re.compile(r'''[.\,\?\:\;\...\‘\’\`\“\”\"\'~]''')
@@ -296,4 +309,7 @@ def hasSpaceAndAlpha(string):
 def hasDashCharacter(string):
     return bool(re.match("^[A-Za-z-]", string))
 '''
-      
+
+
+def valid_names():
+    return None

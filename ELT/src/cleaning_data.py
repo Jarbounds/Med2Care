@@ -30,7 +30,6 @@ import os
 import re
 import copy
 import configparser
-from datetime import datetime, date
 
 from utils.utils2json import \
     read_json_file, get_revision_date, set_revision_date, write_json_file, get_member_recursive, set_member_recursive
@@ -41,33 +40,33 @@ def normalize_date(data: dict) -> dict:
     Cleans revision date field from JSON file
 
     :param  data: name of json file
-    :return publish_date
+    :return updated data dict with parsed revision date
     """
-
-    formats: list[str] = [
-        '%d/%m/%Y',
-        '%d %B %Y',
-        '%B %Y',
-        '%m/%Y',
-        '%d.%m.%Y'
-    ]
+    import dateutil.parser
 
     revision_date: str = get_revision_date(data)
 
-    for date_format in formats:
+    try:
+        revision_date = all_normalizations(revision_date)
+        # Removes unnecessary bloat
+        revision_date = ' '.join(revision_date.split(' ')[:3])
+        # Try to auto parse date from string
+        revision_date = str(dateutil.parser.parse(revision_date).date())
+        return set_revision_date(data, revision_date)
+    except Exception as date_error:
+        print('Cannot auto parse date field')
+        print('Trying particular parse')
         try:
-            date_parsed: date = datetime.strptime(revision_date, date_format).date()
-            return set_revision_date(data, str(date_parsed))
-        except ValueError:
-            print(f'date format "{date_format}" cannot be applied')
-
-    print('NONE OF DATE FORMATS WERE APPLIED!!!', revision_date)
-    return data
+            revision_date = ' '.join(revision_date.split(' ')[:2])
+            revision_date = str(dateutil.parser.parse(revision_date).date())
+            return set_revision_date(data, revision_date)
+        except Exception as date_error_part:
+            print('ERROR: There is a problem with revision date field')
+            print(date_error)
+            print(date_error_part)
 
 
 def all_normalizations(member: str) -> str:
-    if 'lamivudine' in member:
-        print('found')
     member = re.sub(r'[^\w\s]', ' ', member)
     member = re.sub(r'\n+', ' ', member)
     member = re.sub(r'\t+', ' ', member)
