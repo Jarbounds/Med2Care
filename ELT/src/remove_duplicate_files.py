@@ -38,7 +38,7 @@ from utils.utils2json import read_json_file, get_medicine_id, get_revision_date,
 def get_ids(src) -> dict[str, str]:
     """
     Get dictionary for filename and medicine id
-    :param  src: path where files is
+    :param  src: path where file is
     :return list containing the filenames and list containing the medicine ids
     """
 
@@ -50,8 +50,8 @@ def get_ids(src) -> dict[str, str]:
             medicine_id: str = get_medicine_id(medicine_json)
             emc_id: str = get_emc_id(medicine_json)
             ids[emc_id] = medicine_id
-        except Exception:
-            print(f'file {file} not found')
+        except Exception as e:
+            print(f'file {file} not found, printing exception\n{e}')
 
     return ids
 
@@ -121,8 +121,7 @@ def main():
     cleaned_medicines_dir: str = config['PATH']['cleaned_medicines_dir']
     processed_medicines_dir: str = config['PATH']['processed_medicines_dir']
 
-    if not os.path.exists(processed_medicines_dir):
-        os.makedirs(processed_medicines_dir, exist_ok=True)
+    os.makedirs(processed_medicines_dir, exist_ok=True)
 
     total_files: int = len(os.listdir(cleaned_medicines_dir))
 

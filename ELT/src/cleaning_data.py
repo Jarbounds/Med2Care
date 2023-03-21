@@ -30,6 +30,7 @@ import os
 import re
 import copy
 import configparser
+from dateutil import parser
 
 from utils.utils2json import \
     read_json_file, get_revision_date, set_revision_date, write_json_file, get_member_recursive, set_member_recursive
@@ -42,7 +43,6 @@ def normalize_date(data: dict) -> dict:
     :param  data: name of json file
     :return updated data dict with parsed revision date
     """
-    import dateutil.parser
 
     revision_date: str = get_revision_date(data)
 
@@ -51,14 +51,14 @@ def normalize_date(data: dict) -> dict:
         # Removes unnecessary bloat
         revision_date = ' '.join(revision_date.split(' ')[:3])
         # Try to auto parse date from string
-        revision_date = str(dateutil.parser.parse(revision_date).date())
+        revision_date = str(parser.parse(revision_date).date())
         return set_revision_date(data, revision_date)
     except Exception as date_error:
         print('Cannot auto parse date field')
         print('Trying particular parse')
         try:
             revision_date = ' '.join(revision_date.split(' ')[:2])
-            revision_date = str(dateutil.parser.parse(revision_date).date())
+            revision_date = str(parser.parse(revision_date).date())
             return set_revision_date(data, revision_date)
         except Exception as date_error_part:
             print('ERROR: There is a problem with revision date field')

@@ -16,6 +16,7 @@
 import os
 import shutil
 from pathlib import Path
+from typing import Iterable
 
 
 def new_file(file):
@@ -62,8 +63,9 @@ def transfer_file(lst_files: list, src: str, dst: str, flag: str) -> None:
                 elif flag == 'move':
                     shutil.move(os.path.join(src, file), os.path.join(dst, file))
             # For other errors
-            except:
+            except Exception as e:
                 print(f"Error occurred while {flag} file.")
+                print(e)
         else:
             print("file does not exist: file")
     print(f'End of {flag} successfully.')
@@ -90,13 +92,13 @@ def save_metadata(filename: str, line: str) -> None:
         f.close()
 
 
-def save_to_file_lines(lines, file) -> None:
+def save_to_file_lines(lines: Iterable, file: str) -> None:
     with open(file, 'w', encoding='utf-8') as fp:
         for line in lines:
             fp.write(f'{line}\n')
 
 
-def load_from_file_lines(file) -> list:
+def load_from_file_lines(file: str) -> list:
     with open(file, 'r', encoding='utf-8') as fp:
         return [
             line.rstrip('\n') for line in fp.readlines()

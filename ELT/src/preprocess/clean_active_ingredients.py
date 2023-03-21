@@ -1,4 +1,5 @@
 import os
+from ELT.src.utils.utils import load_from_file_lines, save_to_file_lines
 
 
 def clean_duplicates(base_dir):
@@ -6,18 +7,13 @@ def clean_duplicates(base_dir):
         file_path = os.path.join(base_dir, file)
         if not os.path.isfile(file_path):
             continue
-        with open(file_path, 'r', encoding='utf-8') as fp:
-            active_ingredients = [
-                ing.rstrip('\n') for ing in fp.readlines()
-            ]
+        active_ingredients = load_from_file_lines(file_path)
         unique = set()
         for ingredient in active_ingredients:
             ingredient = ingredient.lower()
             unique.add(ingredient)
         unique_sorted = sorted(unique)
-        with open(file_path, 'w', encoding='utf-8') as fp:
-            for ing in unique_sorted:
-                fp.write(f'{ing}\n')
+        save_to_file_lines(unique_sorted, file_path)
 
 
 def main():
