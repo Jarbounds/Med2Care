@@ -19,7 +19,7 @@ import requests
 import shutil
 from pathlib import Path
 
-from myconfiguration import MyConfiguration as cfg
+from .myconfiguration import MyConfiguration as cfg
 
 import rdflib
 from rdflib import URIRef
@@ -27,15 +27,15 @@ from rdflib import URIRef
 # --------------------------------------------------------------------------- #
 
 def get_owl(url, path):
-    '''
+    """
     Download owl file and save it in a pre-defined folder. If <path>
-    does not exist script will create it in current working directory and save 
+    does not exist script will create it in current working directory and save
     file in it
-    This is written specially to large file. The chunk size that we want to 
+    This is written specially to large file. The chunk size that we want to
     download at a time is specified
     :param url: url of the ontology
-           path: folder where owl will be save 
-    '''
+           path: folder where owl will be save
+    """
     # create folder if it does not exist
     if not os.path.exists(path):
         os.makedirs(path)  
@@ -64,12 +64,11 @@ def get_owl(url, path):
 # --------------------------------------------------------------------------- #
 
 def loading_items(is_chebi, is_do, is_go, is_hp):
-    '''
+    """
     Loading ontologies to get the entities label
-    :param is_chebi, is_do, is_go, is_hp: boolean to represent which ontologies must be
-        loading  
-    :return chebi, do, go, hp: owl graph        
-    '''
+    :param is_chebi, is_do, is_go, is_hp: boolean to represent which ontologies must be loading
+    :return chebi, do, go, hp: owl graph
+    """
     arg = cfg.getInstance()
 
     # if chebi_lite.owl does not exists
