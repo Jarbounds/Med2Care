@@ -6,8 +6,13 @@
 # @version: 1.0                                                               #  
 # Lasige - FCUL                                                               #
 # @last update:                                                               #  
-#   version 1.1:                                                              #      
-#   (author:  )                                                 # 
+#   version 1.1: 15 Feb 2023 add structural similarities: tanimoto & morgan   #      
+#   (author: Matilde Pato)                                                    #
+#   version 1.2: 21 Feb 2023 change pd.append() by pd.concat()                #      
+#   (author: Matilde Pato)                                                    # 
+#   version 1.3: 23 Feb 2023 structural similarity is removed and create a    #
+#   new script to calculate them: calculate_similarity_cord19.py              #      
+#   (author: Matilde Pato)                                                    #
 #                                                                             #   
 ###############################################################################
 #
@@ -16,9 +21,15 @@
 # add their ancestors to improve resullts
 #
 # For the CHEBI ontology and if we want to consider the structural similarity,
-# we must to include calculate_structural_sim() method in main
+# we must to include calculate_structural_sim() method in main. 
 
-# python3 calculate_similarity_cord19_recsys_ds.py   
+# Updated: Anyway, if the number of Chebi' entities is large enough, I advise 
+# you to perform this operation on the script: calculate_similarity_cord19.py
+# Then comment last lines.
+
+# Updated: structural similarity is included in the main
+
+# python3 calculate_similarity_cord19.py   
 
 # Metapub is a Python library that provides python
 
@@ -39,16 +50,12 @@ from myconfiguration import MyConfiguration as cfg
 
 from Utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
 from Utils.utils import upload_dataset, save_metadata
-from Utils.utils2database import check_database, create_table, save_to_mysql, get_values,\
-    create_table_str
-
-from bioservices import ChEBI
-from rdkit import Chem
-from rdkit.Chem import AllChem
-from rdkit import DataStructs
+from Utils.utils2database import check_database, create_table, save_to_mysql
+from calculate_structural_similarity_cord19 import calculate_structural_sim
 
 pd.set_option('display.max_columns', None)
-pd.set_option("max_rows", None)
+#pd.set_option("max_rows", None)
+pd.options.display.max_rows = 999
 
 # ---------------------------------------------------------------------------------------- #
 
@@ -61,78 +68,17 @@ def update_onto(lexicon):
     if len(lexicon) == 0:
         lexicon = ["doid", "go", "hpo", "chebi"] 
     for l in lexicon:
-        print(l)
+        #print(l)
         path_owl = get_owl_path(l)
         path_db = get_db_path(l)
         
         if os.path.isfile(path_db):
             print( f"Database ontology ``{l}.db'' file already exists" )
         else:
-            print('here')
             ssmpy.create_semantic_base( path_owl, path_db,
                                 "http://purl.obolibrary.org/obo/",
                                 "http://www.w3.org/2000/01/rdf-schema#subClassOf", "" )
 
-# ---------------------------------------------------------------------------------------- #
-
-def calculate_structural_sim(table):
-    '''
-    Calculate structural similarity, only for CHEBI ontology, and save the results in a
-    novel table.
-    :param table: name of the previous table. Assume that we have a table with other
-    methods
-    '''
-
-    def tanimoto_calc(smi1, smi2):
-        mol1 = Chem.MolFromSmiles(smi1)
-        mol2 = Chem.MolFromSmiles(smi2)
-        fp1 = AllChem.GetMorganFingerprintAsBitVect(mol1, 3, nBits=2048)
-        fp2 = AllChem.GetMorganFingerprintAsBitVect(mol2, 3, nBits=2048)
-        s = round(DataStructs.TanimotoSimilarity(fp1,fp2),7)
-        return s
-
-    # get entities from previous created table
-    # 
-    sim_df = get_values(table,sim='sim_resnik')
-    sim_df[["comp_1", "comp_2"]] = sim_df[["comp_1", "comp_2"]].astype('int') 
-
-    c = ChEBI()
-   
-    table_name='similarity_structural'
-    onto = 'chebi'
-    #create a new table with structural similarity values
-    create_table_str('_'.join([table_name,onto]))
-
-    df = pd.DataFrame()
-    count = 0
-    for i in range(sim_df.shape[0]):
-        str1= onto.upper()+':'+str(sim_df['comp_1'].values[i])
-        str2= onto.upper()+':'+str(sim_df['comp_2'].values[i])
-        if getattr(c.getCompleteEntity(str1),'smiles', None):
-            res = c.getCompleteEntity(str1) 
-            #print(res.smiles)
-            if getattr(c.getCompleteEntity(str2),'smiles', None):
-                res2=c.getCompleteEntity(str2)
-                #print(f'{i} {tanimoto_calc(res.smiles,res2.smiles)}')
-                pair = [{'comp_1':int(sim_df.at[i,'comp_1']),'comp_2':int(sim_df.at[i,'comp_2']),'sim_tanimoto':tanimoto_calc(res.smiles,res2.smiles)}]
-                #print(pair)
-                # append values from orginal dataframe
-                df = df.append(pair, ignore_index=True).reset_index(drop=True)  
-                count+=1
-    
-                if count>499: #count>499:
-                    # creation of engine to MYSQL database to insert pandas DataFrame in the database
-                    save_to_mysql( df.drop_duplicates(), '_'.join([table_name,onto]),None)
-                    # reset all values
-                    print("***** SAVE IN MYSQL ********")
-                    df = pd.DataFrame()
-                    count = 0
-    if not df.empty:
-        # creation of engine to MYSQL database to insert pandas DataFrame in the database
-        save_to_mysql( df.drop_duplicates(), '_'.join([table_name,onto]), None) 
-        # reset all values
-        df = pd.DataFrame()
-        count = 0   
 
 # ---------------------------------------------------------------------------------------- #
 
@@ -151,25 +97,27 @@ def main():
         if item.startswith('chebi'):
             is_chebi = True
         if item.startswith('doid'):
-            is_do = True
+            is_doid = True
         if item.startswith('go'):
             is_go = True
         if item.startswith('hp'):
             is_hp = True         
-    
+
     # ## updating ontologies  
     update_onto(active_lexicons)
     
     # loading ontologies   
-    chebi, do, go, hp = loading_items(is_chebi, is_do, is_go, is_hp)
+    chebi, doid, go, hp = loading_items(is_chebi, is_doid, is_go, is_hp)
     
     # ---------------------------------------------------------------------------------------- #
-    # connect to mysql table
+    # connect to mysql table and create if not exists
     check_database()
     
-    table_name = arg.tablename
-    df = pd.DataFrame()
-    count, count_item = 0, 0
+    table_name = arg.tablename 
+    cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc", \
+                         "sim_rel", "sim_jac", "sim_islch"] 
+    df = pd.DataFrame(columns=cols_name)
+    count, count_item, count_onto = 0, 0, 0
 
     for onto in active_lexicons:
         print(onto)
@@ -179,11 +127,11 @@ def main():
         df_dataset = upload_dataset(path_to_ds, onto.upper()+'_' )
         # print(df_dataset)
         list_of_entities = df_dataset.item.unique()
-
+        count_onto+=1
         for item in list_of_entities:            
             count+=1
             count_item+=1
-            print(f'{count_item}:  {item}')
+            #print(f'{count_item}:  {item}')
             item_value = item.split('_')[1]
             ancestor = ssmpy.get_ancestors(int(item_value))
             if not ancestor:
@@ -192,7 +140,7 @@ def main():
             # create a list of ancestor
             ancestor_ids = [onto.upper()+'_' + str(s) for s in ancestor] 
             # get primary id of the CHEBI entity
-            if item.startswith('CHEBI'):
+            if item.startswith('CHEBI') or item.startswith('chebi'):
                 ancestor_ids = get_primary_ids(ancestor_ids, chebi)
                 
     ## ---------- CALCULATE SEMANTIC SIMILARITY OF EACH ENTITY IN THE LIST ----------                  
@@ -208,8 +156,7 @@ def main():
     #                 df = df.append(pair, ignore_index=True)  
     ## ---------- END OF CALCULATE SEMANTIC SIMILARITY OF EACH ENTITY IN THE LIST ----------   
     #  
-            # if count>1:
-            #     break
+            
             # # join all entities with his ancestors, and after only select the 15% with higher semantic similarity
             conn = ssmpy.create_connection(get_db_path(onto))
             #df["comp_2"] = ancestor_ids.map(df.set_index('comp_1')).fillna(0) 
@@ -221,20 +168,16 @@ def main():
             
             ## ------------------------------- ALL ------------------------------ ##
             ## OLDER            
-            results1 = ssmpy.light_similarity(conn, [item], ancestor_ids, 'all', 20)
-            results1 = [item for items in results1 for item in items]
+            results = ssmpy.light_similarity(conn, [item], ancestor_ids, 'all', 20)
+            results1 = [item for items in results for item in items]
             ## NEWER 
-            results2 = new_light_similarity(conn, [item], ancestor_ids, 'all', 20)
-            results2 = [item for items in results2 for item in items]
+            results = new_light_similarity(conn, [item], ancestor_ids, 'all', 20)
+            results2 = [item for items in results for item in items]
 
-        #     ### ************* NEW  *************** ###   
-            cols_name1 = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc"]
-            sim_df1 = pd.DataFrame(results1, columns=cols_name1)
-            cols_name1 = ["comp_1", "comp_2", "sim_rel", "sim_jac", "sim_islch"]
-            sim_df2 = pd.DataFrame(results2, columns=cols_name1)
+            sim_df1 = pd.DataFrame(results1, columns=cols_name[:5])
+            sim_df2 = pd.DataFrame(results2, columns=cols_name[:2]+cols_name[5:8] )
             sim_df = sim_df1.merge(sim_df2,on=['comp_1','comp_2'])
-
-
+            
             ##  ---------- CALCULATE GEOMETRIC MEAN, RANGE (MAX-MIN), STD  ---------- ##
             # calculate geometric mean, first remove zeros if exist
             """ sims = ["sim_resnik", "sim_lin", "sim_jc"]
@@ -248,48 +191,49 @@ def main():
 
             ## remove rows where entities are equal (avoid sim = 1)
             sim_df = sim_df[sim_df['comp_1'] != sim_df['comp_2']]
-            ## drop rows where similarities are zeros
-            cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc", "sim_rel", "sim_jac", "sim_islch"]
             sim_df = sim_df.loc[~(sim_df[cols_name[2:]]==0).all(axis=1),:]
-
-            #print(sim_df)
-            df = df.append(sim_df, ignore_index=True)            
+            df = pd.concat([df, sim_df],ignore_index=True)
+            
             #check if the table end
             ##  ---------- SAVE ALL IN DB FOR EACH 500 ROWS ---------- ##
             if count>499:
                 # creation of engine to MYSQL database to insert pandas DataFrame in the database
-                save_to_mysql( df.drop_duplicates(), '_'.join([table_name,onto]), onto.upper()+'_' )
+                save_to_mysql( df.drop_duplicates(['comp_1','comp_2'], keep='first'), '_'.join([table_name,onto]), onto.upper()+'_' )
                 # reset all values
                 print("***** SAVE IN MYSQL ********")
-                df = pd.DataFrame()
+                df = pd.DataFrame(columns=cols_name)
                 sim_df = pd.DataFrame()
                 count = 0
                 # close connection
                 conn.close()
+                time.sleep(.5)
+            #  ---------- END OF SAVE ALL IN DB FOR EACH 500 ROWS ---------- ##    
             
-            # if count>1:
-            #     break
+        #     if count>1:
+        #         break
+        # if count_onto>1:
+        #     break   
+        ##  ---------- SAVE ALL REMAINING VALUES IN DB---------- ##     
         if not df.empty:
             # creation of engine to MYSQL database to insert pandas DataFrame in the database
-            save_to_mysql( df.drop_duplicates(), '_'.join([table_name,onto]), onto.upper()+'_' ) 
+            save_to_mysql( df.drop_duplicates(['comp_1','comp_2'], keep='first'), '_'.join([table_name,onto]), onto.upper()+'_' ) 
             # reset all values
-            df = pd.DataFrame()
+            df = pd.DataFrame(columns=cols_name)
             sim_df = pd.DataFrame()
             count = 0
             # close connection
-            conn.close()          
-            #  ---------- END OF SAVE ALL IN DB FOR EACH 500 ROWS ---------- ##
-        time.sleep(.5)
-
+            conn.close()                      
+         ##  ---------- END OF SAVE ALL REMAINING VALUES IN DB---------- ##     
+       
     if is_chebi:    
-        calculate_structural_sim(table_name)    
+       calculate_structural_sim('_'.join([table_name,'chebi']))  
+
     # ---------------------------------------------------------------------------------------- #
-   
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\t No. entities: {count_item}\n\
-                Results: { arg.path_to_ds_kb , path_to_ds }\n\
+                Results: { arg.path_to_kb_all, path_to_ds }\n\
                 '
     save_metadata(arg.path_to_info, metadata) 
     print("FINISHED!")

@@ -110,6 +110,50 @@ def update_onto(lexicon):
                                 "http://www.w3.org/2000/01/rdf-schema#subClassOf", "" )
    
 
+# ---------------------------------------------------------------------------------------- #
+TESTE = np.array([[1,'A Kopitar-Jerala Nata','CHEBI_132943','aspartate',1,2012],\
+[1,'A Kopitar-Jerala Nata','CHEBI_15356','cysteine',1,2012],\
+[1,'A Kopitar-Jerala Nata','CHEBI_15841','polypeptide',1,2012],\
+[1,'A Kopitar-Jerala Nata','CHEBI_16113','cholesterol',1,2012],\
+[33,'A Kopitar-Jerala Nata','CHEBI_132943','aspartate',1,2014],\
+[33,'A Kopitar-Jerala Nata','CHEBI_25016','lead atom',1,2014],\
+[174032,'yang Hui','CHEBI_24433','group',1,2020],\
+[174032,'yang Hui','CHEBI_25016','lead atom',1,2020],\
+[174032,'yang Hui','CHEBI_132943','aspartate',1,2020]])
+
+def df_column_switch(df, column1, column2):
+    i = list(df.columns)
+    a, b = i.index(column1), i.index(column2)
+    i[b], i[a] = i[a], i[b]
+    df = df[i]
+    return df
+
+def main():
+
+    df = pd.DataFrame(TESTE,columns=('user','user_name','item','item_name','rating','year'))
+    
+    df = drop_duplicate_author(df,drop_col = ['year'])
+    print(df)
+    
+    
+    import time
+    arg = cfg.getInstance()
+   
+    is_chebi, is_do, is_go, is_hp = False, False, False, False
+
+    path_to_ds = arg.path_to_ds
+
+    active_lexiconss = arg.item_prefix.replace(' ', '').split(',')
+    for item in active_lexiconss:
+        if item.startswith('chebi'):
+            is_chebi = True
+        if item.startswith('doid'):
+            is_do = True
+        if item.startswith('go'):
+            is_go = True
+        if item.startswith('hp'):
+            is_hp = True 
+
 def drop_duplicate_author(df,drop_col):
     '''
     Rewrite the dataframe where the author who writes about an entity is removed 
@@ -133,59 +177,16 @@ def drop_duplicate_author(df,drop_col):
     cols = list(df.columns)
     cols = [cols[-1]] + cols[:-1]
     df = df[cols]
-    return df       
-
-# ---------------------------------------------------------------------------------------- #
-
-TESTE = np.array([[1,'A Kopitar-Jerala Nata','CHEBI_132943','aspartate',1,2012],\
-[1,'A Kopitar-Jerala Nata','CHEBI_15356','cysteine',1,2012],\
-[1,'A Kopitar-Jerala Nata','CHEBI_15841','polypeptide',1,2012],\
-[1,'A Kopitar-Jerala Nata','CHEBI_16113','cholesterol',1,2012],\
-[33,'A Kopitar-Jerala Nata','CHEBI_132943','aspartate',1,2014],\
-[33,'A Kopitar-Jerala Nata','CHEBI_25016','lead atom',1,2014],\
-[174032,'yang Hui','CHEBI_24433','group',1,2020],\
-[174032,'yang Hui','CHEBI_25016','lead atom',1,2020],\
-[174032,'yang Hui','CHEBI_132943','aspartate',1,2020]])
-
-def df_column_switch(df, column1, column2):
-    i = list(df.columns)
-    a, b = i.index(column1), i.index(column2)
-    i[b], i[a] = i[a], i[b]
-    df = df[i]
-    return df
+    return df        
     
-def main():
-
-    df = pd.DataFrame(TESTE,columns=('user','user_name','item','item_name','rating','year'))
-    
-    df = drop_duplicate_author(df,drop_col = ['year'])
-    print(df)
 
 
-    import time
-    arg = cfg.getInstance()
-   
-    is_chebi, is_do, is_go, is_hp = False, False, False, False
-
-    path_to_ds = arg.path_to_ds
-
-    active_lexicons = arg.item_prefix.replace(' ', '').split(',')
-    for item in active_lexicons:
-        if item.startswith('chebi'):
-            is_chebi = True
-        if item.startswith('doid'):
-            is_do = True
-        if item.startswith('go'):
-            is_go = True
-        if item.startswith('hp'):
-            is_hp = True         
-    
     # item1 = ['CHEBI_15361']
     # item2 = ['CHEBI_103229', 'CHEBI_150', 'CHEBI_17818', 'CHEBI_24156', \
     # 'CHEBI_34386', 'CHEBI_50934', 'CHEBI_51286', 'CHEBI_66106', 'CHEBI_8186', 'CHEBI_88',\
     # 'CHEBI_96062', 'CHEBI_10822'] 
 
-    c = ChEBI()
+    # c = ChEBI()
     # res = c.getCompleteEntity(item1[0].replace('_',':'))  
     # print(getattr(c.getCompleteEntity(item1[0].replace('_',':')),'smiles', None))
 
@@ -197,54 +198,55 @@ def main():
     #             i+=1
     #             res2=c.getCompleteEntity(it.replace('_',':'))
     #             print(f'{i} {tanimoto_calc(res.smiles,res2.smiles)}')
-        
-    cols_name1 = ["comp_1", "comp_2", "sim_resnik"]
-    sim_df = pd.DataFrame((), columns=cols_name1)
 
-    tablename= 'similarity_chebi'
-    table_name='similarity_structural'
-    onto = 'CHEBI'
-    count=0
-    create_table('_'.join([table_name,onto]))
+    
+    # cols_name1 = ["comp_1", "comp_2", "sim_resnik"]
+    # sim_df = pd.DataFrame((), columns=cols_name1)
 
-    for s in cols_name1[2:]:
+    # tablename= 'similarity_chebi'
+    # table_name='similarity_structural'
+    # onto = 'CHEBI'
+    # count=0
+    # create_table('_'.join([table_name,onto]))
+
+    # for s in cols_name1[2:]:
         
-    #  ---------- GET ENTITIES LABELS OF THE 1st QUARTILE ---------- ## 
-        if s=='sim_resnik':       
-            sim_df = get_values(tablename,sim=s)
-            sim_df[["comp_1", "comp_2"]] = sim_df[["comp_1", "comp_2"]].astype('int')
-            #new_df = sim_df.iloc[:,:2]
-            #new_df['sim_tanimoto'] = 0
-            new_df=pd.DataFrame()
-            for i in range(sim_df.shape[0]):
-                str1= 'CHEBI:'+str(sim_df['comp_1'].values[i])
-                str2= 'CHEBI:'+str(sim_df['comp_2'].values[i])
-                if getattr(c.getCompleteEntity(str1),'smiles', None):
-                    res = c.getCompleteEntity(str1) 
-                    #print(res.smiles)
-                    if getattr(c.getCompleteEntity(str2),'smiles', None):
-                        res2=c.getCompleteEntity(str2)
-                        #print(res2.smiles)
-                        #print(f'{i} {tanimoto_calc(res.smiles,res2.smiles)}')
-                        pair = [{'comp_1':int(sim_df.at[i,'comp_1']),'comp_2':int(sim_df.at[i,'comp_2']),'sim_tanimoto':tanimoto_calc(res.smiles,res2.smiles)}]
-                        #print(pair)
-                        # append values from orginal dataframe and sort by user
-                        new_df = new_df.append(pair, ignore_index=True).reset_index(drop=True)  
-                        count+=1
+    # #  ---------- GET ENTITIES LABELS OF THE 1st QUARTILE ---------- ## 
+    #     if s=='sim_resnik':       
+    #         sim_df = get_values(tablename,sim=s)
+    #         sim_df[["comp_1", "comp_2"]] = sim_df[["comp_1", "comp_2"]].astype('int')
+    #         #new_df = sim_df.iloc[:,:2]
+    #         #new_df['sim_tanimoto'] = 0
+    #         new_df=pd.DataFrame()
+    #         for i in range(sim_df.shape[0]):
+    #             str1= 'CHEBI:'+str(sim_df['comp_1'].values[i])
+    #             str2= 'CHEBI:'+str(sim_df['comp_2'].values[i])
+    #             if getattr(c.getCompleteEntity(str1),'smiles', None):
+    #                 res = c.getCompleteEntity(str1) 
+    #                 #print(res.smiles)
+    #                 if getattr(c.getCompleteEntity(str2),'smiles', None):
+    #                     res2=c.getCompleteEntity(str2)
+    #                     #print(res2.smiles)
+    #                     #print(f'{i} {tanimoto_calc(res.smiles,res2.smiles)}')
+    #                     pair = [{'comp_1':int(sim_df.at[i,'comp_1']),'comp_2':int(sim_df.at[i,'comp_2']),'sim_tanimoto':tanimoto_calc(res.smiles,res2.smiles)}]
+    #                     #print(pair)
+    #                     # append values from orginal dataframe and sort by user
+    #                     new_df = new_df.append(pair, ignore_index=True).reset_index(drop=True)  
+    #                     count+=1
             
-                        if count>499: #count>499:
-                            # creation of engine to MYSQL database to insert pandas DataFrame in the database
-                            save_to_mysql( new_df.drop_duplicates(), '_'.join([table_name,onto]),None)
-                            # reset all values
-                            print("***** SAVE IN MYSQL ********")
-                            new_df = pd.DataFrame()
-                            count = 0
-            if not new_df.empty:
-                # creation of engine to MYSQL database to insert pandas DataFrame in the database
-                save_to_mysql( new_df.drop_duplicates(), '_'.join([table_name,onto]), None) 
-                # reset all values
-                new_df = pd.DataFrame()
-                count = 0               
+    #                     if count>499: #count>499:
+    #                         # creation of engine to MYSQL database to insert pandas DataFrame in the database
+    #                         save_to_mysql( new_df.drop_duplicates(), '_'.join([table_name,onto]),None)
+    #                         # reset all values
+    #                         print("***** SAVE IN MYSQL ********")
+    #                         new_df = pd.DataFrame()
+    #                         count = 0
+    #         if not new_df.empty:
+    #             # creation of engine to MYSQL database to insert pandas DataFrame in the database
+    #             save_to_mysql( new_df.drop_duplicates(), '_'.join([table_name,onto]), None) 
+    #             # reset all values
+    #             new_df = pd.DataFrame()
+    #             count = 0               
                 # if count>5:
                 #     break
         #print(new_df.head(10))
@@ -258,7 +260,7 @@ def main():
 
 
     # ## updating ontologies  
-    #update_onto(active_lexicons)
+    #update_onto(active_lexiconss)
     
     # loading ontologies   
     #chebi, do, go, hp = loading_items(is_chebi, is_do, is_go, is_hp)
@@ -274,7 +276,7 @@ def main():
     # df = pd.DataFrame()
     # count, count_item = 0, 0
 
-    # for onto in active_lexicons:
+    # for onto in active_lexiconss:
     #     print(onto)
     #     ssmpy.semantic_base(get_db_path(onto))
     #     create_table('_'.join([table_name,onto]))

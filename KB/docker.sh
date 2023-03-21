@@ -1,6 +1,7 @@
 #!/bin/bash
 ########################################################
 ## Shell Script to Build Docker Image 
+## e.g. bash docker.sh mpato_kb /mnt/data3/mpato/cord-19
 ########################################################
 DATE=`date +%Y.%m.%d.%H.%M`
 
@@ -30,5 +31,5 @@ else
 echo "No such container"
 fi
 echo "Deploying the updated container" 
-sudo docker run -ti --name=$CONTAINER --link mysql  -v $VOLUME_DATA:/data -v $BASEDIR:/$ENDPATH $IMAGE
+sudo docker run -ti --name=$CONTAINER --link mpato-mysql:mysql  -v $VOLUME_DATA:/data -v $BASEDIR:/$ENDPATH $IMAGE
 echo "Deploying the container"

@@ -836,7 +836,7 @@ def fast_rel_jac_islch(all_ancestors, df_entry_ancestors, df_entry_ic, it1, it2)
     :param df_entry_ic: pandas DataFrame of all entities (from table entry) with column IC
     :param it1: entity 1 (id)
     :param it2: entity 2 (id)
-    :return: list: [e1, e2, sim_rel, sim_islch]
+    :return: list: [e1, e2, sim_rel, sim_jac, sim_islch]
     """
 
     if it1 == it2:
@@ -887,8 +887,9 @@ def new_light_similarity(conn, entry_ids_1, entry_ids_2, metric, cpu_cores):
     :param entry_ids_1: list of entries 1
     :param entry_ids_2: list of entries 2
     :param cpu_cores: number of cores to be used
-    :param metric: 'rel', 'islch', 'jac', or 'all'
-    :return: list with results ([e1, e2, similarity] or [e1, e2, similarity Schlicker, similarity Jaccard, similarity Sánchez and Batet])
+    :param metric: 'rel', 'jac', 'islch' or 'all'
+    :return: list with results ([e1, e2, similarity] or 
+    [e1, e2, similarity Schlicker, similarity Jaccard, similarity Sánchez and Batet])
 
     :Example:
    

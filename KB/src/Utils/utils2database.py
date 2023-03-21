@@ -8,11 +8,13 @@
 #   (Adapted from Márcia Barros)                                              #  
 # @last update:                                                               #  
 #   version 1.1: 12 Feb 2021                                                  #      
+#   (author: Matilde Pato, matilde.pato@gmail.com)                            #
+#   version 1.2: 15 Feb 2023 add similarity columns: tanimoto & morgan        #      
 #   (author: Matilde Pato, matilde.pato@gmail.com)                            #   
 #                                                                             #  
 ###############################################################################
 
-# import sqlite3
+#import sqlite3
 from itertools import product
 from pickle import TRUE
 from sqlite3 import Error
@@ -20,11 +22,9 @@ import numpy as np
 import pandas as pd
 
 import mysql.connector as connector
-from mysql.connector import MySQLConnection
 from sqlalchemy import create_engine
 from myconfiguration import MyConfiguration as cfg
 import pymysql
-
 
 # ----------------------------------------------------------------------------------------------------- #
 
@@ -36,20 +36,14 @@ def create_default_connection_mysql():
     :param
     :return mydb: connection object
     """
-
-    # assert isinstance( arg.password,object )
-    cfg_instance = cfg.getInstance()
-    user = cfg_instance.user
-    host = cfg_instance.host
-    password = cfg_instance.password
-    mydb: MySQLConnection = connector.connect(
-        user=user,
-        password=password,
-        host=host,
-        ssl_disabled=True
+    
+    #assert isinstance( arg.password,object )
+    mydb = connector.connect(
+        host=cfg.getInstance().host,
+        user=cfg.getInstance().user,
+        password=cfg.getInstance().password
     )
     return mydb
-
 
 # ----------------------------------------------------------------------------------------------------- #
 
@@ -65,12 +59,11 @@ def create_connection_mysql():
     mydb.database = cfg.getInstance().database
     return mydb
 
-
 # # ----------------------------------------------------------------------------------------------------- #
 
 # def create_connection_sqlite(sb_file):
 #     """ 
-
+    
 #     Create a database connection to the SQLite database specified by sb_file
 #     :param sb_file: File name of database where semantic base will be stored
 #     :type sb_file: string
@@ -93,23 +86,22 @@ def create_engine_mysql():
     :param
     :return engine: connection engine object
     """
-
+    
     # in case of connection error, change the host as in the next commented code
 
-    host = cfg.getInstance().host,
-    user = cfg.getInstance().user,
-    passwd = cfg.getInstance().password
+    host=cfg.getInstance().host,
+    user=cfg.getInstance().user,
+    passwd=cfg.getInstance().password
     db_name = cfg.getInstance().database
 
-    engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
-                           .format(user=user,
-                                   pw=passwd,
-                                   host=host,
-                                   db=db_name),
-                           pool_pre_ping=True)
+    engine = create_engine( "mysql+pymysql://{user}:{pw}@{host}/{db}"
+                            .format( user=user,
+                                     pw=passwd,
+                                     host=host,
+                                     db=db_name ),
+                            pool_pre_ping=True )
 
     return engine
-
 
 # ----------------------------------------------------------------------------------------------------- #
 
@@ -120,34 +112,35 @@ def check_database():
     :param 
     :return none
     """
-
-    mydb: MySQLConnection | None = None
-    mycursor = None
+    
+    global mydb
     try:
         check = False
-        mydb: MySQLConnection = create_default_connection_mysql()
+        mydb = create_default_connection_mysql()
         mycursor = mydb.cursor()
         db_name = cfg.getInstance().database
 
-        mycursor.execute("SHOW DATABASES")
+        mycursor.execute( "SHOW DATABASES" )
         for x in mycursor:
-            if x[0] == db_name:  # scratchy
+
+            if x[0].decode( "unicode-escape" ) == db_name:  #scratchy
+            # or,
+            # if x[0].encode().decode( 'utf-8' ) == db_name: #chronos
                 check = True
-                break
 
         if not check:
-            print("Will create database")
-            mycursor.execute("CREATE DATABASE " + db_name)
-            # create_table(tablename)
+            print( "Will create database" )
+            mycursor.execute( "CREATE DATABASE " + db_name )
+            #create_table(tablename)
         else:
-            print("Database already exists")
-    except Exception as e:
-        print("Error while connecting to MySQL", e)
+            print( "Database already exists" )
+
+    except Error as e:
+        print( "Error while connecting to MySQL", e )
     finally:
-        if mydb is not None and mycursor is not None and mydb.is_connected():
+        if mydb.is_connected():
             mycursor.close()
             mydb.close()
-
 
 # ----------------------------------------------------------------------------------------------------- #
 
@@ -158,7 +151,8 @@ def check_structural_chebi(tablename):
     :param 
     :return none
     """
-
+    
+    global mydb
     try:
         mydb = create_default_connection_mysql()
         mycursor = mydb.cursor()
@@ -167,57 +161,59 @@ def check_structural_chebi(tablename):
         mycursor.execute(stmt)
         for x in mycursor:
 
-            if x[0].decode("unicode-escape") == tablename:  # scratchy
+            if x[0].decode( "unicode-escape" ) == tablename:  #scratchy
                 mycursor.close()
                 mydb.close()
                 return TRUE
 
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
     finally:
         if mydb.is_connected():
             mycursor.close()
             mydb.close()
     return False
 
+# ----------------------------------------------------------------------------------------------------- #
 
 def create_table(tablename):
     """
     
     Create a table named similarity with in mysql which columns are
-        <id, comp_1, comp_2, sim_resnik, sim_lin, sim_jc, sim_rel, sim_jac, sim_islch> 
+        <id, comp_1, comp_2, sim_resnik, sim_lin, sim_jc, sim_rel, sim_jac, sim_islch, 
+        sim_tanimoto, sim_morgan> 
     :param: none
     :return:
     """
+    global mydb
     try:
         mydb = create_connection_mysql()
 
         mycursor = mydb.cursor()
 
-        mycursor.execute("SET FOREIGN_KEY_CHECKS = 0")
-        mycursor.execute(f"DROP TABLE IF EXISTS `{tablename}`")
+        mycursor.execute( "SET FOREIGN_KEY_CHECKS = 0" )
+        mycursor.execute( f"DROP TABLE IF EXISTS `{tablename}`" )
 
         mycursor.execute(
             f" CREATE TABLE `{tablename}` (`id` INT NOT NULL AUTO_INCREMENT,"
-            "`comp_1` INT NOT NULL,"
+            "`comp_1` INT NOT NULL,"  
             "`comp_2` INT NOT NULL, "
-            "`sim_tanimoto` FLOAT NOT NULL, "
+            "`sim_resnik` FLOAT NOT NULL, "
             "`sim_lin` FLOAT NOT NULL, "
             "`sim_jc` FLOAT NOT NULL, "
             "`sim_rel` FLOAT NOT NULL,"
             "`sim_jac` FLOAT NOT NULL,"
             "`sim_islch` FLOAT NOT NULL,"
             " PRIMARY KEY (`id`), "
-            "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
-        mycursor.execute("SET FOREIGN_KEY_CHECKS = 1")
-        print("Table already exists")
+            "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB" )
+        mycursor.execute( "SET FOREIGN_KEY_CHECKS = 1" )
+        print( f"Table {tablename} already exists" )
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
     finally:
         if mydb.is_connected():
             mycursor.close()
             mydb.close()
-
 
 # ----------------------------------------------------------------------------------------------------- #
 
@@ -230,31 +226,31 @@ def add_columns(tablename):
     :param quart: quartile
     :return result: pandas DataFrame
     """
+    global mydb
     try:
         # Open database connection
         mydb = create_connection_mysql()
 
         # prepare a cursor object using cursor() method
         mycursor = mydb.cursor()
-
+        
         # Prepare SQL query to read a record into the database.        
         sql = f"ALTER TABLE {tablename} \
                     ADD COLUMN sim_resnick` FLOAT NOT NULL AFTER sim_lin, \
                     ADD COLUMN sim_jc` FLOAT NOT NULL AFTER sim_lin \
                 "
-        mycursor.execute(sql)
-
+        mycursor.execute( sql )
+       
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
     finally:
         if mydb.is_connected():
             mycursor.close()
             mydb.close()
 
-
 # ----------------------------------------------------------------------------------------------------- #
 
-def create_norm_table(tablename, sim):
+def create_norm_table(tablename,sim):
     """
     
     Create a table named norm_similarity with in mysql which columns are
@@ -262,14 +258,15 @@ def create_norm_table(tablename, sim):
     :param: none
     :return:
     """
+    global mydb
     try:
         mydb = create_connection_mysql()
 
         mycursor = mydb.cursor()
 
-        mycursor.execute("SET FOREIGN_KEY_CHECKS = 0")
-        mycursor.execute(f"DROP TABLE IF EXISTS `{tablename}`")
-
+        mycursor.execute( "SET FOREIGN_KEY_CHECKS = 0" )
+        mycursor.execute( f"DROP TABLE IF EXISTS `{tablename}`" )
+        
         mycursor.execute(
             f" CREATE TABLE `{tablename}` (`id` INT NOT NULL AUTO_INCREMENT, \
             `comp_1` INT NOT NULL, \
@@ -281,54 +278,54 @@ def create_norm_table(tablename, sim):
             `tanh` FLOAT NOT NULL,\
             `log-sig` FLOAT NOT NULL,\
              PRIMARY KEY (`id`), \
-             INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
-        mycursor.execute("SET FOREIGN_KEY_CHECKS = 1")
-        print("Table already exists")
+             INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB" )
+        mycursor.execute( "SET FOREIGN_KEY_CHECKS = 1" )
+        print( f"Table {tablename} already exists" )
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
     finally:
         if mydb.is_connected():
             mycursor.close()
             mydb.close()
 
-
 # ----------------------------------------------------------------------------------------------------- #
 
-def create_table_str(tablename):
+def create_structuraltable(tablename):
     """
     
     Create a table named similarity with in mysql which columns are
-        <id, comp_1, comp_2, sim_tanimoto> 
+        <id, comp_1, comp_2, sim_tanimoto, sim_morgan> 
     :param: none
     :return:
     """
+    global mydb
     try:
         mydb = create_connection_mysql()
 
         mycursor = mydb.cursor()
 
-        mycursor.execute("SET FOREIGN_KEY_CHECKS = 0")
-        mycursor.execute(f"DROP TABLE IF EXISTS `{tablename}`")
+        mycursor.execute( "SET FOREIGN_KEY_CHECKS = 0" )
+        mycursor.execute( f"DROP TABLE IF EXISTS `{tablename}`" )
 
         mycursor.execute(
             f" CREATE TABLE `{tablename}` (`id` INT NOT NULL AUTO_INCREMENT,"
-            "`comp_1` INT NOT NULL,"
+            "`comp_1` INT NOT NULL,"  
             "`comp_2` INT NOT NULL, "
-            "`sim_tanimoto` FLOAT NOT NULL, "
+            "`sim_tanimoto` FLOAT NULL, "
+            "`sim_morgan` FLOAT NULL, "
             " PRIMARY KEY (`id`), "
-            "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
-        mycursor.execute("SET FOREIGN_KEY_CHECKS = 1")
-        print("Table already exists")
+            "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB" )
+        mycursor.execute( "SET FOREIGN_KEY_CHECKS = 1" )
+        print( f"Table {tablename} already exists" )
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
     finally:
         if mydb.is_connected():
             mycursor.close()
             mydb.close()
 
-
 # ----------------------------------------------------------------------------------------------------- #
-
+    
 def get_column(tablename, column='sim_resnik'):
     """
 
@@ -338,34 +335,33 @@ def get_column(tablename, column='sim_resnik'):
     :param column: column
     :return result: pandas DataFrame
     """
+    global mydb, result
     try:
         # Open database connection
         mydb = create_connection_mysql()
 
         # prepare a cursor object using cursor() method
         mycursor = mydb.cursor()
-
+        
         # Prepare SQL query to read a record into the database.        
         sql = f"SELECT comp_1, comp_2, {column} FROM {tablename};"
-        mycursor.execute(sql)
-
+        mycursor.execute( sql )
+       
         result = mycursor.fetchall()
-
+                
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
     finally:
         if mydb.is_connected():
             mycursor.close()
             mydb.close()
 
     return result
-
-
 # ----------------------------------------------------------------------------------------------------- #
 
 # def create_table(tablename):
 #     """
-
+    
 #     Create a table named similarity with in mysql which columns are
 #         <id, comp_1, comp_2, sim_resnik, sim_lin, sim_jc, geom_mean, range, std> 
 #     :param: none
@@ -412,7 +408,7 @@ def get_column(tablename, column='sim_resnik'):
 #     :type name_prefix: string
 #     :return ids: ids of each row of the dataset
 #     """
-
+    
 #     if ( dataset.dtypes['item'] == np.object ):
 #         dataset.item = dataset.item.map( lambda x: x.lstrip( name_prefix ) ).astype('int64')
 #     return dataset.item.unique()
@@ -438,7 +434,7 @@ def get_column(tablename, column='sim_resnik'):
 
 #     ss2 = lists_combinations.l2.isin( pairs_from_db.comp_1.astype( 'int64' ).tolist() ) \
 #         & lists_combinations.l1.isin( pairs_from_db.comp_2.astype( 'int64' ).tolist() )
-
+        
 #     not_found_in_db = lists_combinations[ (~ss) & (~ss2) ]
 
 #     not_found_list_1 = not_found_in_db.l1.unique().tolist()
@@ -458,13 +454,14 @@ def get_similar(tablename, quart, sim):
     :param sim: similarity metric
     :return result: pandas DataFrame
     """
+    global mydb, result
     try:
         # Open database connection
         mydb = create_connection_mysql()
 
         # prepare a cursor object using cursor() method
         mycursor = mydb.cursor()
-
+        
         # Prepare SQL query to read a record into the database.        
         sql = f"SELECT comp_1, comp_2 FROM {tablename} where {sim} >= ( \
                     SELECT {sim} \
@@ -473,15 +470,15 @@ def get_similar(tablename, quart, sim):
                             ORDER BY {sim} DESC ) temp \
                     WHERE temp.row_num = ROUND({quart}* @row_num) \
                 ) "
-        mycursor.execute(sql)
-
+        mycursor.execute( sql )
+       
         result = mycursor.fetchall()
 
-        if len(result) != 0:
-            result = pd.DataFrame(np.array(result), columns=['comp_1', 'comp_2'])
+        if len( result ) != 0:
+            result = pd.DataFrame( np.array( result ), columns=['comp_1', 'comp_2'] )
 
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
     finally:
         if mydb.is_connected():
             mycursor.close()
@@ -500,37 +497,45 @@ def save_to_mysql(df, table_name, name_prefix=None):
     :param name_prefix: Prefix of the concepts to be extracted from the ontology
     :type name_prefix: string
     """
-    try:
-
+    #global mydb
+    try: 
+        
         # engine = create_engine_mysql()
         # conn = engine.connect()
-        host = '172.17.0.13'  # mpato@10.10.0.24
-        user = 'root'
-        password = '1234'
-        db_name = 'entities_sim_cord19_rs'
-
-        engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
-                               .format(user=user,
-                                       pw=password,
-                                       host=host,
-                                       db=db_name),
-                               pool_pre_ping=True)
+        # mydb = connector.connect(
+        #     host=cfg.getInstance().host,
+        #     user=cfg.getInstance().user,
+        #     password=cfg.getInstance().password,
+        #     db = cfg.getInstance().database
+        # )
+        host=cfg.getInstance().host
+        user=cfg.getInstance().user
+        passwd=cfg.getInstance().password
+        db_name = cfg.getInstance().database
+        
+        engine = create_engine( "mysql+pymysql://{user}:{pw}@{host}/{db}"
+                                .format( user=user,
+                                            pw=passwd,
+                                            host=host,
+                                            db=db_name ),
+                                pool_pre_ping=True )
 
         con = engine.connect()
+        
         # save to db with string type instead of int
         if name_prefix:
-            df.comp_1 = df.comp_1.map(lambda x: x.lstrip(name_prefix)).astype(int)
-            df.comp_2 = df.comp_2.map(lambda x: x.lstrip(name_prefix)).astype(int)
-
+            df.comp_1 = df.comp_1.map( lambda x: x.lstrip( name_prefix ) ).astype(int)
+            df.comp_2 = df.comp_2.map( lambda x: x.lstrip( name_prefix ) ).astype(int)
+       
         """if name_prefix != 'HP_':
         df.comp_1 = df.comp_1.astype( int )
         df.comp_2 = df.comp_2.astype( int )
         """
-
+        
         df.to_sql(name=table_name, con=con, if_exists='append', index=False, method='multi', chunksize=10000)
         print('end save values')
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
 
 
 # ----------------------------------------------------------------------------------------------------- #
@@ -544,27 +549,54 @@ def get_values(tablename, sim):
     :param sim: similarity metric
     :return result: pandas DataFrame
     """
+    global mydb, result
     try:
         # Open database connection
         mydb = create_connection_mysql()
 
         # prepare a cursor object using cursor() method
         mycursor = mydb.cursor()
-
+        
         # Prepare SQL query to read a record into the database.        
-        sql = f"SELECT comp_1, comp_2, {sim} FROM {tablename} "
-        mycursor.execute(sql)
-
+        sql = f"SELECT comp_1, comp_2, {sim} FROM {tablename}"
+        mycursor.execute( sql )
+       
         result = mycursor.fetchall()
 
-        if len(result) != 0:
-            result = pd.DataFrame(np.array(result), columns=['comp_1', 'comp_2', f"{sim}"])
+        if len( result ) != 0:
+            result = pd.DataFrame( np.array( result ), columns=['comp_1', 'comp_2',f"{sim}"] )
 
     except Error as e:
-        print("Error while connecting to MySQL", e)
+        print( "Error while connecting to MySQL", e )
     finally:
         if mydb.is_connected():
             mycursor.close()
             mydb.close()
 
-    return result
+    return result        
+
+# ----------------------------------------------------------------------------------------------------- #
+
+def drop_duplicates(tablename):
+    """
+    Drop duplicates from table
+    :param tablename: name of the table saved in mysql
+    """
+    global mydb
+    try:
+        # Open database connection
+        mydb = create_connection_mysql()
+        # prepare a cursor object using cursor() method
+        mycursor = mydb.cursor()
+        
+        # Prepare SQL query to read a record into the database.        
+        sql = f"delete t1 from {tablename} t1 inner join {tablename} t2 \
+            where t1.id < t2.id and t1.comp_1 = t2.comp_1 and t1.comp_2 = t2.comp_2;"
+        mycursor.execute( sql )
+        print( f"Duplicated from {tablename} were removed" )
+    except Error as e:
+        print( "Error while connecting to MySQL", e )
+    finally:
+        if mydb.is_connected():
+            mycursor.close()
+            mydb.close()

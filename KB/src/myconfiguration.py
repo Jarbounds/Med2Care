@@ -31,6 +31,7 @@ class MyConfiguration:
             p.add( "-info", "--path_to_info", required=False, help="info about process", type=str )
 
             p.add( "-n", "--n", required=False, help="n most similar items", type=float )
+            p.add( "-normalized", "--normalized", required=False, help="normalized values", type=int )
 
             p.add( "-host", "--host", required=False, help="db host", type=str )
             p.add( "-user", "--user", required=False, help="db user", type=str )
@@ -65,6 +66,7 @@ class MyConfiguration:
         else:
            
             self.n = options.n
+            self.normalized = options.normalized
             
             self.host = options.host
             self.user = options.user
