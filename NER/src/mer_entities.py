@@ -71,7 +71,11 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
     """
 
     with open(doc_file, "r", encoding='utf-8') as f_in:
-        doc: dict = json.load(f_in)
+        try:
+            doc: dict = json.load(f_in)
+        except Exception as e:
+            print(f'ERROR WITH {doc_file}')
+            print(e)
 
     new_doc: dict = json_entities(original=doc)
 
@@ -91,7 +95,7 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
             else:
                 new_doc[member] = l_value
 
-    # Serializing json 
+    # Serializing json
     json_object = json.dumps(new_doc, indent=4, ensure_ascii=False)
 
     output_file = f'{output_dir}/{doc_file.split("/")[-1].split(".")[0]}_entities.json'
@@ -134,7 +138,7 @@ def main():
     start_time = datetime.now()
 
     config: ConfigParser = ConfigParser()
-    config.read('config.ini')
+    config.read('../configurations/config.ini')
 
     # update MER with all entities on only specified by the user
     # available entities: {"do", "go", "hpo", "chebi", "taxon", "cido"}
@@ -167,7 +171,7 @@ def main():
     #         process_doc(*parameters)
     #     )
 
-    with multiprocessing.Pool(processes=1) as pool:
+    with multiprocessing.Pool(processes=8) as pool:
         doc_entities = pool.starmap(
             process_doc,
             parameters_list,
@@ -177,7 +181,7 @@ def main():
         pool.join()
 
     # save meta-information: date, time, database, dataset and ontology label in the txt file
-    metadata = f'Date: {datetime.now()} \n \
+    metadata = f'Date: {datetime.now()} \n\
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\n\
                 No. medicines: {len(doc_entities)}\n\

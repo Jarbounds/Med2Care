@@ -22,9 +22,9 @@ import os
 import re
 import time
 
-if os.path.isdir("merpy"):
-    pass
-sys.path.insert(1, '/NER/merpy/merpy')
+# if os.path.isdir("merpy"):
+#     pass
+# sys.path.insert(1, '/NER/merpy/merpy')
 import merpy
 
 ## --- tokens
@@ -164,7 +164,7 @@ def items_in_blacklist(doc, lexicon):
         all_stopwords.extend(black_list)
 
         # Tokenize and remove stop words
-    doc_tokens = word_tokenize(doc)
+    doc_tokens = word_tokenize(doc.lower())
     doc_tokens_sw = [word for word in doc_tokens if word not in all_stopwords]
 
     return ' '.join(doc_tokens_sw)

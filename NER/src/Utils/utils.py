@@ -14,12 +14,8 @@
 ###############################################################################
 
 import os
-import json
-from pathlib import Path
-from urllib.parse import quote
+import shutil
 
-
-# --------------------------------------------------------------------------- #
 
 def new_folder(path):
     try:
@@ -29,8 +25,6 @@ def new_folder(path):
         print(error)
 
 
-# --------------------------------------------------------------------------- #
-
 def new_file(file):
     try:
         if not os.path.isfile(file):
@@ -39,18 +33,16 @@ def new_file(file):
     except OSError as error:
         print(error)
 
-    # --------------------------------------------------------------------------- #
-
 
 def set_blacklist(file, line):
-    '''
+    """
     This function receives the article to and saves them in the
-    blacklist file. The backlist contains all invalid articles, such
+    blacklist file. The blacklist contains all invalid articles, such
     as non-authors, non-entities, and others
-    :param  filename: name of txt file
-            line: all content
-    :return none        
-    '''
+    :param  file: name of txt file
+    :param  line: all content
+    :return none
+    """
 
     new_file(file)
     with open(file, 'r+') as f:
@@ -60,8 +52,6 @@ def set_blacklist(file, line):
         f.write(content)
         f.close()
 
-
-# --------------------------------------------------------------------------- #
 
 def save_metadata(file, metadata):
     """
@@ -78,8 +68,6 @@ def save_metadata(file, metadata):
         f.write(metadata.rstrip('\r\n') + '\n')
         f.write('------------------------------------------------------' + '\n' + content)
 
-
-# ---------------------------------------------------------------------------------------- #
 
 def create_output_folder(dir_path):
     if not os.path.exists(dir_path):
@@ -102,8 +90,6 @@ def create_entities_folder(src):
     return input_dir, output_dir
 
 
-# ---------------------------------------------------------------------------------------- #
-
 def input_parameters(args):
     if len(args) == 2:
         return ["chebi", "do", "go", "hpo", "taxon", "cido"]
@@ -115,3 +101,36 @@ def input_parameters(args):
     # else all entities are listed    
 
     return lexicons
+
+
+def transfer_file(lst_files: list, src: str, dst: str, flag: str) -> None:
+    """
+    Copy or move files from one folder to another, based on list of files.
+
+    :param  lst_files: list of file names to copy or move
+    :param  src: path of source
+    :param  dst: path of destination
+    :param  flag: constant value 'copy' or 'move'
+    :return None
+
+    E.g.
+    File copied successfully.
+    ../data/document_parses/pdf_json/3e7204f7030a9956a95b58d84d283d85229cc117.json
+    """
+
+    new_folder(dst)
+
+    print(f'{flag} files!')
+    for file in lst_files:
+        if os.path.isfile(os.path.join(src, file)):
+            try:
+                if flag == 'copy':
+                    shutil.copy(os.path.join(src, file), os.path.join(dst, file))
+                elif flag == 'move':
+                    shutil.move(os.path.join(src, file), os.path.join(dst, file))
+            # For other errors
+            except:
+                print(f"Error occurred while {flag} file.")
+        else:
+            print("file does not exist: file")
+    print(f'End of {flag} successfully.')

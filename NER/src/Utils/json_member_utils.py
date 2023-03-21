@@ -12,6 +12,7 @@ def get_member_recursive(doc: dict, member: str) -> str:
 
 def json_entities(original):
     entities_json: dict = {
+        'medicine_id': original['medicine_id'],
         'name': original['metadata']['name'],
         'composition': [],
         'therapeutic_indications': [],
@@ -20,7 +21,7 @@ def json_entities(original):
         'machine_ops': "",
         'excipients': [],
         'incompatibilities': [],
-        'date': ''
+        'revision_date': original['metadata']['revision_date']
     }
     return entities_json
 
@@ -38,20 +39,3 @@ def get_member_lexicon_relations() -> dict:
         'incompatibilities': [chebi_lexicon]
     }
     return lexicons_relations
-
-
-# json_doc: dict = {
-#     'key1': 'value1',
-#     'key2': 'value2',
-#     'key3': {
-#         'key3_1': 'value3_1',
-#         'key3_2': 'value3_2',
-#         'key3_3': 'value3_3',
-#         'key3_4': 'value3_4',
-#     },
-#     'key4': 'value4',
-#     'key5': 'value5',
-# }
-
-# result = get_member_recursive(json_doc, 'key3_5')
-# print(result)

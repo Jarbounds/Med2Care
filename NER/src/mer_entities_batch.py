@@ -25,19 +25,15 @@
 # version 1.1:
 # python3 mer_entities_batch.py 
 
-import os
 import shutil
 import multiprocessing
 import configparser
 import tempfile
 
 from collections import Counter
-from itertools import chain
 from datetime import datetime
-from tracemalloc import stop
 from utils.utils import create_entities_folder, save_metadata
 from utils.utils2mer import *
-from utils.utils2pubmed import *
 from mer_entities import process_doc
 
 global_entities = Counter()
