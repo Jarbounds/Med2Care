@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:18.04
 LABEL Matilde Pato (matilde.pato@gmail.com)
 
 WORKDIR /

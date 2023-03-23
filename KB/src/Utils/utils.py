@@ -33,7 +33,7 @@ def upload_dataset(csv_path, name_prefix):
     matrix = pd.read_csv( csv_path, sep=',' )   
     if( len(matrix.columns) > 3 ):
         # replace column's name if you need 
-        matrix.columns = ['user', 'user_name', 'item', 'rating', 'item_name', 'year']
+        matrix.columns = ['user', 'user_name', 'item', 'item_name', 'rating', 'year']
         # select < user, item, rating > from dataframe
         # matrix = matrix[['user', 'item', 'rating']]
     else:

@@ -50,8 +50,8 @@ from rdkit import DataStructs
 
 # from scipy import stats
 
-# from Utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_entities_labels
-# from Utils.utils import upload_dataset, save_final_data
+# from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_entities_labels
+# from utils.utils import upload_dataset, save_final_data
 from Utils.utils2database import check_database, save_to_mysql, create_table, get_values
 
 # import mysql.connector as connector

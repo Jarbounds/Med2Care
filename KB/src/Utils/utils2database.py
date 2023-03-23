@@ -204,6 +204,7 @@ def create_table(tablename):
             "`sim_rel` FLOAT NOT NULL,"
             "`sim_jac` FLOAT NOT NULL,"
             "`sim_islch` FLOAT NOT NULL,"
+            "`ts` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,"
             " PRIMARY KEY (`id`), "
             "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB" )
         mycursor.execute( "SET FOREIGN_KEY_CHECKS = 1" )
@@ -526,21 +527,15 @@ def save_to_mysql(df, table_name, name_prefix=None):
         if name_prefix:
             df.comp_1 = df.comp_1.map( lambda x: x.lstrip( name_prefix ) ).astype(int)
             df.comp_2 = df.comp_2.map( lambda x: x.lstrip( name_prefix ) ).astype(int)
-       
-        """if name_prefix != 'HP_':
-        df.comp_1 = df.comp_1.astype( int )
-        df.comp_2 = df.comp_2.astype( int )
-        """
-        
+  
         df.to_sql(name=table_name, con=con, if_exists='append', index=False, method='multi', chunksize=10000)
         print('end save values')
     except Error as e:
         print( "Error while connecting to MySQL", e )
 
-
 # ----------------------------------------------------------------------------------------------------- #
 
-def get_values(tablename, sim):
+def get_dbvalues(tablename, id=None, limit=None):
     """
 
     Get the item 1, item 2 and similarity in the similarity db
@@ -557,15 +552,19 @@ def get_values(tablename, sim):
         # prepare a cursor object using cursor() method
         mycursor = mydb.cursor()
         
-        # Prepare SQL query to read a record into the database.        
-        sql = f"SELECT comp_1, comp_2, {sim} FROM {tablename}"
-        mycursor.execute( sql )
-       
+        # Prepare SQL query to read a record into the database.  
+        if id and limit:      
+            sql = f"SELECT * FROM {tablename} where id > {id} limit {limit}" #225271|226|227|228|237434  
+        else:
+            sql = f"SELECT * FROM {tablename} where id > 224271 limit 1000" #225271|226|227|228|237434 
+        #sql = f"SELECT comp_1, comp_2, {sim} FROM {tablename}"
+        mycursor.execute(sql)
         result = mycursor.fetchall()
 
-        if len( result ) != 0:
-            result = pd.DataFrame( np.array( result ), columns=['comp_1', 'comp_2',f"{sim}"] )
-
+        if len(result) != 0:
+            #result = pd.DataFrame( np.array(result), columns=['comp_1', 'comp_2',{sim}] )
+            result = pd.DataFrame( np.array(result)[:,1:3], columns=['comp_1', 'comp_2'] )
+            
     except Error as e:
         print( "Error while connecting to MySQL", e )
     finally:
@@ -575,6 +574,40 @@ def get_values(tablename, sim):
 
     return result        
 
+# ----------------------------------------------------------------------------------------------------- #
+
+def get_minmax(tablename):
+    """
+
+    Get the minimum and maximum id in a table
+
+    :param tablename: name of the table saved in mysql
+    :return result: dictionary with minimum and maximum of id in msql table
+    """
+    global mydb, result
+    try:
+        # Open database connection
+        mydb = create_connection_mysql()
+
+        # prepare a cursor object using cursor() method
+        mycursor = mydb.cursor()
+        
+        # Prepare SQL query to read a record into the database.        
+        sql = f"SELECT min(id), max(id) FROM {tablename}"  
+        mycursor.execute(sql)
+       
+        result = mycursor.fetchall()
+        if len(result) != 0:
+            result = dict({'min':[item[0] for item in result][0], 'max':[item[1] for item in result][0]})
+
+    except Error as e:
+        print( "Error while connecting to MySQL", e )
+    finally:
+        if mydb.is_connected():
+            mycursor.close()
+            mydb.close()
+
+    return result  
 # ----------------------------------------------------------------------------------------------------- #
 
 def drop_duplicates(tablename):

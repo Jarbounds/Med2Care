@@ -29,7 +29,7 @@ from myconfiguration import MyConfiguration as cfg
 
 def get_owl_path(entity):
     if entity == 'doid':
-        return cfg.getInstance().path_owl_do
+        return cfg.getInstance().path_owl_doid
     elif entity == 'chebi':
         return cfg.getInstance().path_owl_chebi
     elif entity == 'hp':
@@ -42,7 +42,7 @@ def get_owl_path(entity):
 
 def get_db_path(entity):
     if entity == 'doid':
-        return cfg.getInstance().path_db_do
+        return cfg.getInstance().path_db_doid
     elif entity == 'chebi':
         return cfg.getInstance().path_db_chebi
     elif entity == 'hp':
@@ -90,7 +90,7 @@ def get_owl(url, path):
 
 # --------------------------------------------------------------------------- #
 
-def loading_items(is_chebi, is_do, is_go, is_hp):
+def loading_items(is_chebi, is_doid, is_go, is_hp):
     '''
     Loading ontologies to get the entities label
     :param is_chebi, is_do, is_go, is_hp: boolean to represent which ontologies must be
@@ -104,9 +104,9 @@ def loading_items(is_chebi, is_do, is_go, is_hp):
         get_owl(url, path=os.path.dirname(get_owl_path('chebi')))
 
     # if doid.owl does not exists
-    if (not os.path.exists(get_owl_path('doid')) and is_do):
+    if (not os.path.exists(get_owl_path('doid')) and is_doid):
         url = " http://purl.obolibrary.org/obo/doid.owl"
-        get_owl(url, path=os.path.dirname(get_owl_path('doid')))  
+        get_owl(url, path=os.path.dirname(get_owl_path('do')))  
         
     # if go.owl does not exists
     if (not os.path.exists(get_owl_path('go')) and is_go):
@@ -119,13 +119,13 @@ def loading_items(is_chebi, is_do, is_go, is_hp):
         get_owl(url, path=os.path.dirname(get_owl_path('hp')))
 
     # create a Graph
-    chebi = do = go = hp = rdflib.Graph()
+    chebi = doid = go = hp = rdflib.Graph()
     if is_chebi:
         print('Loading ... chebi')            
         chebi = load_ontology(path=get_owl_path('chebi'))
-    if is_do:
+    if is_doid:
         print('Loading ... doid')
-        do = load_ontology(path=get_owl_path('doid'))
+        doid = load_ontology(path=get_owl_path('doid'))
     if is_go:
         print('Loading ... go')
         go = load_ontology(path=get_owl_path('go'))  
@@ -133,7 +133,7 @@ def loading_items(is_chebi, is_do, is_go, is_hp):
         print('Loading ... hp')
         hp = load_ontology(path=get_owl_path('hp'))     
     
-    return chebi, do, go, hp
+    return chebi, doid, go, hp
 
 # --------------------------------------------------------------------------- #
 
@@ -175,11 +175,11 @@ def get_primary_ids(lst, prefix_onto):
 
 # --------------------------------------------------------------------------- #
 
-def get_entities_labels(lst, prefix_chebi, prefix_do, prefix_go, prefix_hp):
+def get_entities_labels(lst, prefix_chebi, prefix_doid, prefix_go, prefix_hp):
     '''
     Get entities lables from http://purl.obolibrary.org/obo/ based on items prefix
     :param  lst: list of entities
-            chebi, do, go, hp: items prefix of entities
+            chebi, doid, go, hp: items prefix of entities
     :return label: entities label
     '''
     label = []
@@ -203,7 +203,7 @@ def get_entities_labels(lst, prefix_chebi, prefix_do, prefix_go, prefix_hp):
         elif id.startswith('HP'):
             lab = prefix_hp.label(uri)
         elif id.startswith('DOID'):
-            lab = prefix_do.label(uri)
+            lab = prefix_doid.label(uri)
         label.append(lab)
     return label
 

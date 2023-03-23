@@ -57,7 +57,7 @@ sudo docker inspect <NAME_OF_CONTAINER> | grep IPAddress
 
 sudo docker exec -it <NAME_OF_CONTAINER> bash
 
-mysql --host=172.17.0.5 --user=root --password=1234 <NAME_OF_BD>
+mysql --host=<IPAddress> --user=root --password=1234 <NAME_OF_BD>
 
 NOTE: <NAME_OF_BD> is defined in config.ini
 

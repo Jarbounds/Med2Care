@@ -48,9 +48,9 @@ import sqlite3
 from scipy import stats
 from myconfiguration import MyConfiguration as cfg
 
-from Utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
-from Utils.utils import upload_dataset, save_metadata
-from Utils.utils2database import check_database, create_table, save_to_mysql
+from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
+from utils.utils import upload_dataset, save_metadata
+from utils.utils2database import check_database, create_table, save_to_mysql
 from calculate_structural_similarity_cord19 import calculate_structural_sim
 
 pd.set_option('display.max_columns', None)
@@ -88,9 +88,9 @@ def main():
     start_time = datetime.now()
     arg = cfg.getInstance()
    
-    is_chebi, is_do, is_go, is_hp = False, False, False, False
+    is_chebi, is_doid, is_go, is_hp = False, False, False, False
 
-    path_to_ds = arg.path_to_ds #'/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
+    path2ds = arg.path2ds #'/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
 
     active_lexicons = arg.item_prefix.replace(' ', '').split(',')
     for item in active_lexicons:
@@ -102,7 +102,7 @@ def main():
             is_go = True
         if item.startswith('hp'):
             is_hp = True         
-
+    
     # ## updating ontologies  
     update_onto(active_lexicons)
     
@@ -124,14 +124,15 @@ def main():
         ssmpy.semantic_base(get_db_path(onto))
         create_table('_'.join([table_name,onto]))
         # data set contains <user, item, rating>
-        df_dataset = upload_dataset(path_to_ds, onto.upper()+'_' )
+        df_dataset = upload_dataset(path2ds, onto.upper()+'_' )
         # print(df_dataset)
         list_of_entities = df_dataset.item.unique()
+
         count_onto+=1
         for item in list_of_entities:            
             count+=1
             count_item+=1
-            #print(f'{count_item}:  {item}')
+            print(f'{count_item}:  {item}')
             item_value = item.split('_')[1]
             ancestor = ssmpy.get_ancestors(int(item_value))
             if not ancestor:
@@ -208,11 +209,7 @@ def main():
                 conn.close()
                 time.sleep(.5)
             #  ---------- END OF SAVE ALL IN DB FOR EACH 500 ROWS ---------- ##    
-            
-        #     if count>1:
-        #         break
-        # if count_onto>1:
-        #     break   
+             
         ##  ---------- SAVE ALL REMAINING VALUES IN DB---------- ##     
         if not df.empty:
             # creation of engine to MYSQL database to insert pandas DataFrame in the database
@@ -225,17 +222,17 @@ def main():
             conn.close()                      
          ##  ---------- END OF SAVE ALL REMAINING VALUES IN DB---------- ##     
        
-    if is_chebi:    
-       calculate_structural_sim('_'.join([table_name,'chebi']))  
+    # if is_chebi:    
+    #    calculate_structural_sim('_'.join([table_name,'chebi']))  
 
     # ---------------------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\t No. entities: {count_item}\n\
-                Results: { arg.path_to_kb_all, path_to_ds }\n\
+                Results: { arg.path2kb, path2ds }\n\
                 '
-    save_metadata(arg.path_to_info, metadata) 
+    save_metadata(arg.path2info, metadata) 
     print("FINISHED!")
 
 # ---------------------------------------------------------------------------------------- #

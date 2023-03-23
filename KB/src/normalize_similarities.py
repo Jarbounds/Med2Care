@@ -26,8 +26,8 @@ from datetime import datetime
 from scipy import stats
 from myconfiguration import MyConfiguration as cfg
 
-from Utils.utils2database import check_database, create_norm_table, get_column, save_to_mysql
-from Utils.utils import save_metadata
+from utils.utils2database import check_database, create_norm_table, get_column, save_to_mysql
+from utils.utils import save_metadata
 
 pd.set_option('display.max_columns', None)
 pd.set_option("max_rows", None)
@@ -63,8 +63,9 @@ def normalize(df,sim):
 # ---------------------------------------------------------------------------------------- #
     
 def database_norm(table,prefix,sim):
-    
+
     result = get_column('_'.join([table,prefix]),column= sim)
+
     if len( result ) != 0:
         table_norm = '_'.join(['norm',table,prefix,sim])
         create_norm_table(tablename=table_norm,sim=sim)
@@ -83,9 +84,9 @@ def main():
 
     # connect to mysql table
     check_database()
-    
+   
     for onto in active_lexicons:
-    
+        
         sim_name = ["sim_resnik", "sim_lin", "sim_jc", "sim_rel","sim_jac", "sim_islch"]
         if onto.startswith('chebi'):
             sim_name.extend(["sim_tanimoto", "sim_morgan"])   
@@ -93,7 +94,7 @@ def main():
         count=0         
         for s in sim_name: 
             count+=1
-            table_name = lambda i: 'similarity_structural' if (i=="sim_tanimoto" or i=="sim_morgan") else arg.tablename     
+            table_name = lambda i: 'similarity_structural' if (i=="sim_tanimoto" or i=="sim_morgan") else arg.tablename    
             df, table_norm = database_norm(table=table_name(s),prefix=onto,sim=s)
             
             if not df.empty:
@@ -110,7 +111,7 @@ def main():
                 Ontologies: {active_lexicons}\t No. entities: {df.shape[0]}\n\
                 Results: { table_norm }\n\
                 '
-    save_metadata(arg.path_to_info, metadata) 
+    save_metadata(arg.path2info, metadata) 
     print("FINISHED!")
 
 # ---------------------------------------------------------------------------------------- #

@@ -35,9 +35,9 @@ import sqlite3
 from scipy import stats
 from myconfiguration import MyConfiguration as cfg
 
-from Utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_entities_labels
-from Utils.utils import upload_dataset, save_to_csv, save_metadata
-from Utils.utils2database import check_database, get_similar, check_structural_chebi
+from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_entities_labels
+from utils.utils import upload_dataset, save_to_csv, save_metadata
+from utils.utils2database import check_database, get_similar
 
 pd.set_option('display.max_columns', None)
 pd.set_option("max_rows", None)
@@ -67,7 +67,7 @@ def update_onto(lexicon):
 
 # ---------------------------------------------------------------------------------------- #
 
-def id_to_index(df):
+def id2index(df):
     """
     maps the values to the lowest consecutive values
     :param df: pandas Dataframe with columns user, item, rating
@@ -96,26 +96,26 @@ def main():
     quartile = arg.n
     normalized = arg.normalized
 
-    is_chebi, is_do, is_go, is_hp = False, False, False, False
+    is_chebi, is_doid, is_go, is_hp = False, False, False, False
 
-    path_to_ds = arg.path_to_ds #'/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
+    path2ds = arg.path2ds #'/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
 
     active_lexicons = arg.item_prefix.replace(' ', '').split(',')
     for item in active_lexicons:
         if item.startswith('chebi'):
             is_chebi = True
         if item.startswith('doid'):
-            is_do = True
+            is_doid = True
         if item.startswith('go'):
             is_go = True
         if item.startswith('hp'):
             is_hp = True         
     
     # # ## updating ontologies  
-    #update_onto(active_lexicons)
+    update_onto(active_lexicons)
     
     # # # loading ontologies   
-    chebi, do, go, hp = loading_items(is_chebi, is_do, is_go, is_hp)
+    chebi, doid, go, hp = loading_items(is_chebi, is_doid, is_go, is_hp)
     
     # # ---------------------------------------------------------------------------------------- #
     # # connect to mysql table
@@ -136,7 +136,7 @@ def main():
             sim_table = lambda i: 'similarity_structural' if (i=="sim_tanimoto" or i=="sim_morgan") else arg.tablename     
             # ssmpy.semantic_base(get_db_path(onto))
             # data set contains <user, item, rating>
-            df_ds = upload_dataset(path_to_ds, onto.upper()+'_' )
+            df_ds = upload_dataset(path2ds, onto.upper()+'_' )
             
         #  ---------- GET ENTITIES LABELS OF THE 1st QUARTILE ---------- ## 
 
@@ -176,15 +176,14 @@ def main():
             df_ds = df_ds.sort_values(by=['user']).reset_index(drop=True)  
             
             sum_df = df_ds.groupby(['user', 'user_name', 'item', 'year']).size().reset_index().rename(columns={0: 'rating'})
-            df_id = id_to_index(sum_df)
+            df_id = id2index(sum_df)
             #print(f"df_id: {df_id.head(5)}")
             
-
             # ## ---------- get entities labels ----------
             list_of_entities = df_id.item.unique()
             # print(list_of_entities) 
 
-            entities_label = get_entities_labels(list_of_entities, chebi, do, go, hp)
+            entities_label = get_entities_labels(list_of_entities, chebi, doid, go, hp)
             df_entities = pd.DataFrame(list_of_entities, columns=["item_id"])
             df_entities["entity_name"] = np.array(entities_label)
 
@@ -192,7 +191,7 @@ def main():
             df_id["item_name"] = df_id["item"].map(df_entities.set_index('item_id')["entity_name"]).fillna(0)
 
             print('saving data')
-            path='_'.join([arg.path_to_kb_all.split('.')[0],onto,s,'.csv'])
+            path='_'.join([arg.path2kb.split('.')[0],onto,s,'.csv'])
             
             if 'year' in df_id.columns:
                 save_to_csv(df=df_id[['user','user_name', 'item', 'item_name', 'rating', 'year']], \
@@ -201,16 +200,15 @@ def main():
                 save_to_csv(df=df_id[['user', 'user_name', 'item', 'item_name', 'rating']], \
                     path=path) 
                
-
     # ---------------------------------------------------------------------------------------- #
    
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\n\
-                Results: { arg.path_to_kb_all, path_to_ds }\n\
+                Results: { arg.path2kb, path2ds }\n\
                 '
-    save_metadata(arg.path_to_info, metadata) 
+    save_metadata(arg.path2info, metadata) 
     print("FINISHED!")
 
 # ---------------------------------------------------------------------------------------- #

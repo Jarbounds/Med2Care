@@ -23,7 +23,7 @@
 #  (author: Matilde Pato, matilde.pato@gmail.com)                             #  
 #                                                                             #  
 #  Note:                                                                      #  
-# 1. You must configure dataset.py for your problem                           #
+# 1. You must to configure dataset.py for your problem                        #  
 #                                                                             #
 # 2. If is an HPO then the comp_1 and comp_2 for the similarity semantic DB   #
 # is represented in string format, elsewhere is in int type                   #   

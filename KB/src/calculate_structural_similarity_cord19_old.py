@@ -23,8 +23,8 @@ import pandas as pd
 from datetime import datetime
 from myconfiguration import MyConfiguration as cfg
 
-from Utils.utils import save_metadata
-from Utils.utils2database import check_database, save_to_mysql, get_values,\
+from utils.utils import save_metadata
+from utils.utils2database import check_database, save_to_mysql, get_values,\
     create_structuraltable
 
 from rdkit import Chem,DataStructs

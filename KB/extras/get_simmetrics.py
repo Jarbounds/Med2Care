@@ -2,7 +2,7 @@ import ssmpy
 import pandas as pd
 import numpy as np
 #import sys, os
-#sys.path.insert(1,'/KB/src/Utils/')
+#sys.path.insert(1,'/KB/src/utils/')
 from Utils.utils2ontologies import get_owl_path, get_db_path, loading_items
 import rdflib
 from rdflib import URIRef
