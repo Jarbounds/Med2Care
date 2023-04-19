@@ -12,7 +12,7 @@ Time.sleep is used to add delay in the execution of a program, because of the co
 
 We are going to use the [Disease Ontology](https://disease-ontology.org/) (DO), and the [Chemical Entities of Biological Interest](https://www.ebi.ac.uk/chebi/) (ChEBI) ontology.
 
-The next step will be create recommender system dataset in RS-Dataset folder.
+The next step will be created recommender system dataset in RS-Dataset folder.
 
 ---------------------------------------------------------
 
@@ -23,7 +23,8 @@ The next step will be create recommender system dataset in RS-Dataset folder.
   - [2.2. Batch and multiprocessing](#2.2)
 - [3. Requirements](#3)
   - [3.1. Libraries](#3.1)
-- [4. Outputs](#4)  
+- [4. Outputs](#4)
+- [5. Common Problems](#5)
 
 ---------------------------------------------------------
 
@@ -110,3 +111,15 @@ e.g.
 
 Every section except title will have multiple paragraphs, so the value of its dictionary is a list of lists
 
+# 5. Common Problems<a name="5"></a>
+
+First, we recommend to always use this module inside a container (like the one provided inside the module) to avoid most of .
+
+There have been found some problems using the nltk library. Following are some problems and possible solutions.
+
+- Errors related to ssl and certificate verification (observed on macOS)
+  - This means that the library cannot verify the machine's certificate. To resolve that execute the following command in terminal
+    ```sh
+    /Applications/Python 3.10/Install Certificates.command
+    ```
+    replacing `3.10` with the corresponding installed Python version. This should solve the problem.

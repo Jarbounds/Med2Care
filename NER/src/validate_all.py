@@ -28,7 +28,7 @@ import configparser
 
 def main():
     config = configparser.ConfigParser()
-    config.read('config.ini')
+    config.read('configurations.ini')
 
     path = config['PATH']['path_to_original_json']
     path_new = '/data/comm_use_subset_temp/'

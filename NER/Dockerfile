@@ -1,5 +1,6 @@
-FROM ubuntu:18.04
+FROM ubuntu:kinetic
 LABEL Matilde Pato (matilde.pato@gmail.com)
+LABEL Renato Marcelo (renato.marcelo99@gmail.com)
 
 WORKDIR /
 # --------------------------------------------------------------

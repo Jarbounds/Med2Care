@@ -8,7 +8,7 @@
 #                                                                             #  
 # @last update:                                                               #  
 #   version 1.1: 23 May 2022    
-#   Imput values are defined in config.ini file                               #     
+#   Imput values are defined in configurations.ini file                               #
 #   (author: matilde.pato@gmail.com)                                          #  
 #                                                                             #   
 #                                                                             #  
@@ -77,7 +77,7 @@ def main():
     start_time = datetime.now()
 
     config = configparser.ConfigParser()
-    config.read('config.ini')
+    config.read('configurations.ini')
     splited_size = int(config['SAMPLE']['splitedSize'])
 
     # update MER with all entities on only specified by the user
@@ -89,8 +89,8 @@ def main():
 
     if config['ONTO']['update'] == '1':
         if active_lexicons == 'all':
-            update_mer(lexicon='')
-        update_mer(lexicon=active_lexicons)
+            update_mer(lexicon_name_list='')
+        update_mer(lexicon_name_list=active_lexicons)
 
     doc_entities = []
 

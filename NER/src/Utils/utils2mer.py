@@ -17,54 +17,47 @@
 # we are going to import NLTK's list of english stopwords and use the NLTK 
 # tokenizer.
 import copy
-import sys
 import os
 import re
-import time
 
-# if os.path.isdir("merpy"):
-#     pass
-# sys.path.insert(1, '/NER/merpy/merpy')
 import merpy
 
 ## --- tokens
 import nltk
-
+nltk.download('stopwords')
 nltk.download('punkt')
 from nltk.corpus import stopwords
-
-nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 
 
 # --------------------------------------------------------------------------- #
 
-def update_mer(lexicon):
+def update_mer(lexicon_name_list):
     """
     Update MER ontologies
     """
     print("Download latest obo files and process lexicons")
-    # merpy.download_mer()
-    if len(lexicon) == 0:
-        lexicon = ["doid", "go", "hpo", "chebi", "taxon", "cido"]
-    for l in lexicon:
-        if l == 'doid':
+    merpy.download_mer()
+    if len(lexicon_name_list) == 0:
+        lexicon_name_list = ["doid", "go", "hpo", "chebi", "taxon", "cido"]
+    for lexicon_name in lexicon_name_list:
+        if lexicon_name == 'doid':
             merpy.download_lexicon("http://purl.obolibrary.org/obo/doid.owl", "do", ltype="owl")
 
             merpy.process_lexicon("do", ltype="owl")
             merpy.delete_obsolete("do")
 
-        if l == 'go':
+        if lexicon_name == 'go':
             merpy.download_lexicon("http://purl.obolibrary.org/obo/go.owl", "go", ltype="owl")
             merpy.process_lexicon("go", ltype="owl")
             merpy.delete_obsolete("go")
-        if l == 'hp':
+        if lexicon_name == 'hp':
             merpy.download_lexicon("http://purl.obolibrary.org/obo/hp.owl", "hpo", ltype="owl")
             merpy.process_lexicon("hpo", ltype="owl")
             merpy.delete_obsolete("hpo")
             merpy.delete_entity("protein", "hpo")
             merpy.delete_entity_by_uri("http://purl.obolibrary.org/obo/PATO_0000070", "hpo")
-        if l == 'chebi':
+        if lexicon_name == 'chebi':
             merpy.download_lexicon("http://purl.obolibrary.org/obo/chebi/chebi_lite.owl",
                                    # "ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl",
                                    "chebi",
@@ -75,12 +68,12 @@ def update_mer(lexicon):
             merpy.delete_entity("protein", "chebi")
             merpy.delete_entity("polypeptide chain", "chebi")
             merpy.delete_entity("one", "chebi")
-        if l == 'taxon':
+        if lexicon_name == 'taxon':
             merpy.download_lexicon("http://purl.obolibrary.org/obo/ncbitaxon.owl", "taxon", ltype="owl")
             merpy.process_lexicon("taxon", ltype="owl")
             merpy.delete_obsolete("taxon")
             merpy.delete_entity("data", "taxon")
-        if l == 'cido':
+        if lexicon_name == 'cido':
             merpy.download_lexicon("https://raw.githubusercontent.com/CIDO-ontology/cido/master/src/ontology/cido.owl",
                                    "cido",
                                    "owl",

@@ -10,11 +10,12 @@
 # based on python implementation of MER: Entity Extraction (Named Entity Recognition + Linking)
 #
 # Run:
-# python3 mer_entities.py 
+# python3 mer_entities.py
 
 import os
 import json
 import re
+from multiprocessing import cpu_count, Pool
 from datetime import datetime
 from utils.utils import save_metadata, create_output_folder
 from utils.utils2mer import \
@@ -29,7 +30,7 @@ from utils.json_member_utils import get_member_recursive, get_member_lexicon_rel
 def find_entities(doc: str, lexicons: list):
     output_entities = []
 
-    doc = re.sub(r"[^A-Za-z0-9 ]{2,}", repl, doc)
+    doc = re.sub(r"[^A-Za-z0-9 ]{2,}", "", doc)
 
     doc_results = []
     for lexicon in lexicons:
@@ -79,6 +80,7 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
 
     new_doc: dict = json_entities(original=doc)
 
+    print('=' * 36)
     print(f"doc: {doc['medicine_id']}")
 
     member_lexicons: dict = get_member_lexicon_relations()
@@ -87,12 +89,16 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
         value: str = get_member_recursive(doc, member)
         current_member_lexicons: list = member_lexicons.get(member, [])
         if len(current_member_lexicons) == 0:
+            print('Keeping original field')
             new_doc[member] = value
         else:
             l_value: list = find_entities(value, current_member_lexicons)
             if len(l_value) == 0:
+                print(f'{member} - No entities found')
                 new_doc[member] = value
             else:
+                print('Entities found')
+                print(l_value)
                 new_doc[member] = l_value
 
     # Serializing json
@@ -104,10 +110,7 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
         f_out.write(json_object)
         f_out.close()
 
-
-def repl(m):
-    # replace all matches with "a"
-    return "" * len(m.group())
+    print('=' * 36)
 
 
 def main():
@@ -138,7 +141,7 @@ def main():
     start_time = datetime.now()
 
     config: ConfigParser = ConfigParser()
-    config.read('../configurations/config.ini')
+    config.read('../configurations/configurations.ini')
 
     # update MER with all entities on only specified by the user
     # available entities: {"do", "go", "hpo", "chebi", "taxon", "cido"}
@@ -147,11 +150,11 @@ def main():
     if active_lexicons != 'all':
         active_lexicons = active_lexicons.replace(' ', '').split(',')
 
-    if config['ONTO']['update'] == 1:
+    if config['ONTO']['update'] == '1':
         if active_lexicons == 'all':
-            update_mer(lexicon='')
+            update_mer(lexicon_name_list='')
         else:
-            update_mer(lexicon=active_lexicons)
+            update_mer(lexicon_name_list=active_lexicons)
 
     doc_entities = []
 
@@ -166,19 +169,20 @@ def main():
         for d in os.listdir(input_dir)
     ]
 
-    # for parameters in parameters_list:
-    #     doc_entities.append(
-    #         process_doc(*parameters)
-    #     )
-
-    with multiprocessing.Pool(processes=8) as pool:
-        doc_entities = pool.starmap(
-            process_doc,
-            parameters_list,
-        )
-        time.sleep(0.5)
-        pool.close()
-        pool.join()
+    if config['MULTITHREAD']['active'] == '1':
+        with Pool(processes=cpu_count()) as pool:
+            doc_entities = pool.starmap(
+                process_doc,
+                parameters_list,
+            )
+            time.sleep(0.5)
+            pool.close()
+            pool.join()
+    else:
+        for parameters in parameters_list:
+            doc_entities.append(
+                process_doc(*parameters)
+            )
 
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n\
