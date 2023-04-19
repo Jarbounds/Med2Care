@@ -1,0 +1,62 @@
+# chebi_semantic_sim_total_cherm
+
+# external mysql
+docker run \
+--detach \
+--name=chebi-mysql \
+--env="MYSQL_ROOT_PASSWORD=1234" \
+--publish 6603:3306 \
+--volume=/home/mbarros/Desktop/db_test_mysql:/var/lib/mysql \
+mysql
+
+
+
+docker build -t "do_simmysql" .
+
+docker run -t -d --name do_simmysql_container --link chebi-mysql:mysql -v /home/mbarros/Desktop/data:/mlData -v /home/mbarros/Desktop/recsys_code/bitbucket/semanticsimdbcreator:/semanticsimdbcreator chebi_simmysql
+
+docker exec -it chebi_sim_container bash
+
+
+
+# localhost mysql
+
+docker build -t "chebi_sim" .
+docker run -t -d --name chebi_sim_container --net=host -v /home/mbarros/Desktop/data:/mlData -v /home/mbarros/Desktop/recsys_code/SemanticSimDBcreator:/SemanticSimDBCreator chebi_sim
+docker run -t -d --name chebi_sim_container --net=host -v /home/mbarros/Desktop/recsys_code/SemanticSimDBcreator:/SemanticSimDBCreator chebi_sim
+
+
+
+# scratchy
+docker run -t -d --name chebi_sim_container --net=host -v /home/mbarros/DiShin:/DiShin -v /mnt/data/mbarros_data/recSysData:/mlData -v /home/mbarros/semanticsimdbcreator:/SemanticSimDBCreator chebi_sim
+docker exec -it chebi_sim_container bash
+
+
+
+# data: /mnt/data/mbarros_data/recSysData
+# mysql: /mnt/data/mbarros_data/mysql_data
+# code: /home/mbarros/semanticsimdbcreator
+
+### run scratchy
+
+docker run \
+--detach \
+--name=chebi-mysql \
+--env="MYSQL_ROOT_PASSWORD=1234" \
+--publish 6603:3306 \
+--volume=/mnt/data/mbarros_data/mysql_data:/var/lib/mysql \
+mysql
+
+
+
+docker build -t "chebi_sim" .
+
+docker run -t -d --name chebi_sim_mysql_container --link chebi-mysql:mysql -v /home/mbarros/DiShin:/DiShin -v /mnt/data/mbarros_data/recSysData:/mlData -v /home/mbarros/semanticsimdbcreator:/SemanticSimDBCreator chebi_sim
+
+docker exec -it chebi_sim_mysql_container bash
+
+docker build -t "do_simmysql" .
+
+docker run -t -d --name do_simmysql_container --link chebi-mysql:mysql -v /home/mbarros/DiShin:/DiShin -v /mnt/data:/data -v /home/mbarros/semanticsimdbcreator_all:/SemanticSimDBCreator do_simmysql
+
+docker exec -it do_simmysql_container bash

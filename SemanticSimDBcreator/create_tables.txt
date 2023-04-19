@@ -1,0 +1,28 @@
+CREATE DATABASE chebi_semantic_sim_cherm_20_200;
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+DROP TABLE IF EXISTS `similarity`;
+CREATE TABLE `similarity` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `comp_1` INT NOT NULL,
+  `comp_2` INT NOT NULL,
+  `sim_resnik` FLOAT NOT NULL,
+  `sim_lin` FLOAT NOT NULL,
+  `sim_jc` FLOAT NOT NULL,
+  PRIMARY KEY (`id`),
+  INDEX sim (`comp_1`,`comp_2`) 
+) ENGINE=InnoDB;
+
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+
+
+docker run --net=host -v /mnt/data/mbarros_data/recSysData:/mlData -v /home/mbarros/chebi_semantic_sim/config:/config -v /home/mbarros/chebi_semantic_sim/src:/src_ semsim
+
+
+[30769]
+[21547, 17295, 17151, 30769, 16828, 76591, 72962, 17754, 17268, 17568, 15746, 4208, 72961, 21547, 49960, 17578, 16467, 15971, 4208, 15891, 18050]
+select * from similarity where comp_1 in (30769) and comp_2 in (21547, 17295, 17151, 30769, 16828, 76591, 72962, 17754, 17268, 17568, 15746, 4208, 72961, 21547, 49960, 17578, 16467, 15971, 4208, 15891, 18050);
+select * from similarity where comp_1 in  (21547, 17295, 17151, 30769, 16828, 76591, 72962, 17754, 17268, 17568, 15746, 4208, 72961, 21547, 49960, 17578, 16467, 15971, 4208, 15891, 18050) and comp_2 in (30769);
