@@ -15,7 +15,7 @@
 #   version 1.3: 27 Mar 2022 - Check date if exist, put blacklist in dict and #
 #   save at the end                                                           #    
 #   (author: matilde.pato@gmail.com  )                                        #  
-#   version 1.4: 26 May 2022 - Add config.ini file                            #    
+#   version 1.4: 26 May 2022 - Add configurations.ini file                            #
 #   (author: matilde.pato@gmail.com  )                                        #    
 #                                                                             #  
 ###############################################################################
@@ -100,7 +100,7 @@ def normalize_general(data: dict) -> dict:
 def main():
 
     config = configparser.ConfigParser()
-    config.read('../configurations/config.ini')
+    config.read('../configurations/configurations.ini')
 
     input_dir = config['PATH']['extracted_medicines_dir']
     output_dir = config['PATH']['cleaned_medicines_dir']

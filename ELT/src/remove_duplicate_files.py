@@ -7,7 +7,7 @@
 # Lasige - FCUL                                                               #
 #                                                                             #  
 # @last update:                                                               #  
-#   version 1.1: 26 May 2022 - Add config.ini file                            #    
+#   version 1.1: 26 May 2022 - Add configurations.ini file                            #
 #   (author: matilde.pato@gmail.com  )                                        #  
 #                                                                             #   
 #                                                                             #  
@@ -114,7 +114,7 @@ def main():
     start_time = datetime.now()
     
     config = configparser.ConfigParser()
-    config.read('../configurations/config.ini')
+    config.read('../configurations/configurations.ini')
 
     staged_data_dir: str = config['PATH']['staged_data_dir']
 
