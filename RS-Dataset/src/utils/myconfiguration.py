@@ -28,35 +28,120 @@ class MyConfiguration:
     __instance = None
 
     @staticmethod
-    def getInstance() -> object:
+    def get_instance() -> 'MyConfiguration':
         """ Static access method. """
         if MyConfiguration.__instance is None:
-            p: ArgParser = ArgParser(default_config_files=['../config/config.ini'])
+            p: ArgParser = ArgParser(default_config_files=['../configurations/configurations.ini'])
 
-            p.add('-mc', '--my-config', is_config_file=True, help='alternative config file path')
-
-            p.add("-oj", "--path_to_original_json_folder", required=False, help="path to original json", type=str)
-            p.add("-ej", "--path_to_entities_json_folder", required=False, help="path to entities json", type=str)
-            # p.add("-pathcord-ds", "--path_to_cord_ds", required=False, help="path to final csv", type=str)
-            # p.add("-pathuserid", "--path_to_cord_userid", required=False, help="path to final csv2: user index + author name", type=str)
-            p.add("-path_ds", "--path_ds", required=False,
-                  help="path to final csv", type=str)
-
-            p.add("-pathmeta", "--path_to_metadata", required=False, help="path to metadata", type=str)
-            p.add("-pathblack", "--path_to_blacklist", required=False, help="path to blacklist of articles", type=str)
-            p.add("-pathinfo", "--path_to_info", required=False, help="path to metadata of process", type=str)
-
-            p.add("-pathchebi", "--path_chebi", required=False, help="path to chebi ontology", type=str)
-            p.add("-pathdo", "--path_do", required=False, help="path to do ontology", type=str)
-            # p.add("-pathgo", "--path_go", required=False, help="path to go ontology", type=str)
-            # p.add("-pathhp", "--path_hp", required=False, help="path to hp ontology", type=str)
-
-            p.add("-item1", "--item_prefix1", required=False, help="1st item prefix to load", type=str)
-            p.add("-item2", "--item_prefix2", required=False, help="2nd item prefix to load", type=str)
-            # p.add("-item3", "--item_prefix3", required=False, help="3rd item prefix to load", type=str)
-            # p.add("-item4", "--item_prefix4", required=False, help="4th item prefix to load", type=str)
-
-            p.add("-path_next_stage", "--path_next_stage", required=False, help="Path to the next processing stage", type=str)
+            p.add(
+                "-author_names",
+                "--author_names",
+                required=False,
+                help='Author names'
+            )
+            p.add(
+                "-mc",
+                "--my-configurations",
+                is_config_file=True,
+                help='alternative configurations file path'
+            )
+            p.add(
+                "-oj",
+                "--path_to_original_json_folder",
+                required=False,
+                help="path to original json",
+                type=str
+            )
+            p.add(
+                "-ej",
+                "--path_to_entities_json_folder",
+                required=False,
+                help="path to entities json",
+                type=str
+            )
+            p.add(
+                "-path_ds",
+                "--path_ds",
+                required=False,
+                help="path to final csv",
+                type=str
+            )
+            p.add(
+                "-pathmeta",
+                "--path_to_metadata",
+                required=False,
+                help="path to metadata",
+                type=str)
+            p.add(
+                "-pathblack",
+                "--path_to_blacklist",
+                required=False,
+                help="path to blacklist of articles",
+                type=str
+            )
+            p.add(
+                "-pathinfo",
+                "--path_to_info",
+                required=False,
+                help="path to metadata of process",
+                type=str
+            )
+            p.add(
+                "-pathchebi",
+                "--path_chebi",
+                required=False,
+                help="path to chebi ontology",
+                type=str
+            )
+            p.add(
+                "-pathdo",
+                "--path_do",
+                required=False,
+                help="path to do ontology",
+                type=str
+            )
+            p.add(
+                "-item1",
+                "--item_prefix1",
+                required=False,
+                help="1st item prefix to load",
+                type=str
+            )
+            p.add(
+                "-item2",
+                "--item_prefix2",
+                required=False,
+                help="2nd item prefix to load",
+                type=str
+            )
+            p.add(
+                "-path_kb",
+                "--path_kb",
+                required=False,
+                help="Path to the Knowledge Graph (KB) step",
+                type=str
+            )
+            p.add(
+                "-path_algorithm",
+                "--path_algorithms",
+                required=False,
+                help="Path to recommender system algorithms",
+                type=str
+            )
+            p.add(
+                "-transfer_option",
+                "--transfer_option",
+                required=False,
+                help="Transfer option to perform (copy or move)",
+                type=str
+            )
+            p.add(
+                "-ds_name",
+                "--ds_name",
+                required=False,
+                help="Resultant dataset name",
+                type=str
+            )
 
             MyConfiguration(p.parse_args())
 
@@ -74,9 +159,6 @@ class MyConfiguration:
             self.original_json_folder = options.path_to_original_json_folder
             self.entities_json_folder = options.path_to_entities_json_folder
 
-            # self.path_to_cord_ds = options.path_to_cord_ds
-            # self.path_to_cord_userid = options.path_to_cord_userid
-            # self.path_to_cord_all = options.path_to_cord_all
             self.path_ds = options.path_ds
 
             self.path_to_metadata = options.path_to_metadata
@@ -85,16 +167,17 @@ class MyConfiguration:
 
             self.path_chebi = options.path_chebi
             self.path_do = options.path_do
-            # self.path_go = options.path_go
-            # self.path_hp = options.path_hp
 
             self.item_prefix1 = options.item_prefix1
             self.item_prefix2 = options.item_prefix2
-            # self.item_prefix3 = options.item_prefix3
-            # self.item_prefix4 = options.item_prefix4
 
             self.item_prefix = f'{self.item_prefix1},{self.item_prefix2}'
 
-            self.path_next_stage = options.pathstage
+            self.path_kb = options.path_kb
+            self.path_algorithms = options.path_algorithms
+
+            self.ds_name = options.ds_name
+
+            self.transfer_option = options.transfer_option
 
         MyConfiguration.__instance = self

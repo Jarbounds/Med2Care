@@ -3,7 +3,7 @@ from utils.utils import transfer_file
 
 
 def main():
-    config = Config.getInstance()
+    config = Config.get_instance()
 
 
 

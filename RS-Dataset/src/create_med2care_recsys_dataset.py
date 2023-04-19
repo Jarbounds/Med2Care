@@ -17,14 +17,15 @@
 # This module create CORD-19 corpus dataset as <user, item, rating, item_name, year>
 # and <user_id, author_name>. The items should be defined by user
 
-# python3 create_cord19_recsys_dataset.py   
+# python3 create_med2care_recsys_dataset.py
 
+import numpy as np
+from pandas import DataFrame
 from datetime import datetime
 from utils.myconfiguration import MyConfiguration as Config
 from utils.utils import get_blacklist, set_blacklist, save_to_csv, save_metadata
 from utils.utils2json import open_json_file, get_date
 from utils.utils2ontologies import *
-from functions import *
 
 POSITIVE_RATING = 1
 NEGATIVE_RATING = -1
@@ -83,18 +84,16 @@ def create_dataset(path_original, path_entities, path_metadata, path_blacklist):
             continue
 
         disease = get_id_name_list_entity(j_file_entities['disease'])
-        excipients = get_id_name_list_entity(j_file_entities['excipients'])
+        # excipients = get_id_name_list_entity(j_file_entities['excipients'])
         date = get_date(j_file_entities)
 
         dataset = []
 
-        for user, username in composition:
-            for item, item_name in therapeutic_indications:
+        for item, item_name in composition:
+            for user, username in therapeutic_indications:
                 dataset.append((user, username, item, item_name, POSITIVE_RATING, date))
 
-            for item, item_name in disease:
-                dataset.append((user, username, item, item_name, NEGATIVE_RATING, date))
-            for item, item_name in excipients:
+            for user, username in disease:
                 dataset.append((user, username, item, item_name, NEGATIVE_RATING, date))
 
         user_item_rating_all.append(dataset)
@@ -109,11 +108,11 @@ def create_dataset(path_original, path_entities, path_metadata, path_blacklist):
 def main():
     start_time = datetime.now()
 
-    arg: Config = Config.getInstance()
+    config: Config = Config.get_instance()
     is_chebi, is_cido, is_do, is_go, is_hp, is_taxon = False, False, False, False, False, False
 
     # if entities is defined by user then saved it in a list
-    active_lexicons = arg.item_prefix.replace(' ', '').split(',')
+    active_lexicons = config.item_prefix.replace(' ', '').split(',')
     for item in active_lexicons:
         if item.startswith('chebi'):
             is_chebi = True
@@ -126,10 +125,10 @@ def main():
 
     # create the dataset with <user, username, item, item_name, rating, year> values
     n_files, user_item_rating_all = create_dataset(
-        path_original=arg.original_json_folder,
-        path_entities=arg.entities_json_folder,
-        path_metadata=arg.path_to_metadata,
-        path_blacklist=arg.path_to_blacklist
+        path_original=config.original_json_folder,
+        path_entities=config.entities_json_folder,
+        path_metadata=config.path_to_metadata,
+        path_blacklist=config.path_to_blacklist
     )
 
     flat_list = []
@@ -139,7 +138,7 @@ def main():
 
     array = np.array(flat_list)
 
-    final_data = pd.DataFrame(
+    final_data = DataFrame(
         array,
         columns=[
             'user', 'username', 'item', 'item_name', 'rating', 'year'
@@ -150,7 +149,7 @@ def main():
     save_to_csv(
         df=final_data[['user', 'username', 'item', 'item_name', 'rating', 'year']],
         header=True,
-        path=arg.path_ds
+        path=config.path_ds
     )
 
     # save meta-information: date, time, database, dataset and ontology label in the txt file
@@ -158,9 +157,9 @@ def main():
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\n\
                 No. articles: {n_files}\n\
-                Results: {arg.path_ds}\n\
+                Results: {config.path_ds}\n\
                 '
-    save_metadata(arg.path_to_info, metadata)
+    save_metadata(config.path_to_info, metadata)
     print("FINISHED!")
 
 

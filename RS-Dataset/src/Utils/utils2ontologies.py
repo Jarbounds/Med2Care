@@ -69,7 +69,7 @@ def loading_items(is_chebi, is_do, is_go, is_hp):
     :param is_chebi, is_do, is_go, is_hp: boolean to represent which ontologies must be loading
     :return chebi, do, go, hp: owl graph
     """
-    arg = cfg.getInstance()
+    arg = cfg.get_instance()
 
     # if chebi_lite.owl does not exists
     if (not os.path.exists(arg.path_chebi) and is_chebi):
