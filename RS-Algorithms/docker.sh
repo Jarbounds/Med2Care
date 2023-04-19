@@ -12,10 +12,10 @@ VOLUME_DATA=$2
 
 result="$(sudo docker images -q "$IMAGE" ) " 
 if [[ -n "$result" ]]; then
-echo "image exists"
-sudo docker image rm --force $result
+  echo "image exists"
+  sudo docker image rm --force $result
 else
-echo "No such image"
+  echo "No such image"
 fi
 
 echo "build the docker image"
@@ -30,5 +30,5 @@ else
 echo "No such container"
 fi
 echo "Deploying the updated container"
-sudo docker run -ti --name=$CONTAINER --net=host -v $VOLUME_DATA:/data -v $BASEDIR:/$ENDPATH $IMAGE
+sudo docker run -ti --name=$CONTAINER --net=med2care-net -v $VOLUME_DATA:/data -v $BASEDIR:/$ENDPATH $IMAGE
 echo "Deploying the container"

@@ -13,8 +13,8 @@
 ###############################################################################
 #                                                                             #  
 # @author Matilde Pato                                                        #  
-# @email: matilde.pato@gmail.pt                                               #
-# @date: March, 26th 2021                                                     #
+# @email: matilde.pato@isel.pt                                                #
+# @date: February, 12th 2021                                                  #
 # @version: 1.0                                                               #  
 # @last update:                                                               #   
 #                                                                             #  
@@ -23,36 +23,117 @@
 # 
 import configargparse
 
+
 class MyConfiguration:
     __instance = None
 
     @staticmethod
-    def getInstance() -> object:
+    def get_instance() -> "MyConfiguration":
         """ Static access method. """
         if MyConfiguration.__instance is None:
-            p = configargparse.ArgParser(default_config_files=['../config/config.ini'])
+            p = configargparse.ArgParser(default_config_files=['../configurations/configurations.ini'])
 
-            p.add('-mc', '--my-config', is_config_file=True, help='alternative config file path')
+            p.add(
+                '-mc',
+                '--my-configurations',
+                is_config_file=True,
+                help='alternative configurations file path'
+            )
 
-            p.add("-oj", "--path_to_original_json_folder", required=False, help="path to original json", type=str)
-            p.add("-ej", "--path_to_entities_json_folder", required=False, help="path to entities json", type=str)
-            p.add("-pathcord-ds", "--path_to_cord_ds", required=False, help="path to final csv", type=str)
-            p.add("-pathuserid", "--path_to_cord_userid", required=False, help="path to final csv2: user index + author name", type=str)
-            p.add("-path_to_cord_all", "--path_to_cord_all", required=False, help="path to final csv2: user index + author name", type=str)
+            p.add(
+                "-ds",
+                "--path_to_dataset",
+                required=False,
+                help="path to dataset",
+                type=str
+            )
 
-            p.add("-pathmeta", "--path_to_metadata", required=False, help="path to metadata", type=str)
-            p.add("-pathblack", "--path_to_blacklist", required=False, help="path to blacklist of articles", type=str)
-            p.add("-pathinfo", "--path_to_info", required=False, help="path to metadata of process", type=str)
+            p.add(
+                "-cv",
+                "--cv",
+                required=False,
+                help="cross validation folds",
+                type=int
+            )
 
-            p.add("-pathchebi", "--path_chebi", required=False, help="path to chebi ontology", type=str)
-            p.add("-pathdo", "--path_do", required=False, help="path to do ontology", type=str)
-            p.add("-pathgo", "--path_go", required=False, help="path to go ontology", type=str)
-            p.add("-pathhp", "--path_hp", required=False, help="path to hp ontology", type=str)
+            p.add("-k", "--topk", required=False, help="k for topk", type=int)
+            p.add("-n", "--n", required=False, help="n most similar items", type=int)
 
-            p.add("-item", "--item_prefix", required=False, help="1st item prefix to load", type=str)
+            p.add(
+                "-host",
+                "--host",
+                required=False,
+                help="db host",
+                type=str
+            )
+            p.add(
+                '-port',
+                '--port',
+                required=False,
+                help='db host port',
+                type=str
+            )
+            p.add(
+                "-user",
+                "--user",
+                required=False,
+                help="db user",
+                type=str
+            )
+            p.add(
+                "-pwd",
+                "--password",
+                required=False,
+                help="db password",
+                type=str
+            )
+            p.add(
+                "-db_name",
+                "--database",
+                required=False,
+                help="db name",
+                type=str
+            )
 
+            p.add(
+                "-owl",
+                "--path_to_owl",
+                required=False,
+                help="path to owl ontology",
+                type=str
+            )
+            p.add(
+                "-db_onto",
+                "--path_to_ontology_db",
+                required=False,
+                help="path to ontology db",
+                type=str
+            )
 
-            MyConfiguration( p.parse_args() )
+            p.add(
+                "-sim_metric",
+                "--similarity_metric",
+                required=False,
+                help="similarity metric acronym db",
+                type=str
+            )
+
+            p.add(
+                "-prefix",
+                "--items_prefix",
+                required=False,
+                help="items prefix",
+                type=str
+            )
+            p.add(
+                "-n_split",
+                "--n_split_dataset",
+                required=False,
+                help="number to split the list of entities",
+                type=int
+            )
+
+            MyConfiguration(p.parse_args())
 
         return MyConfiguration.__instance
 
@@ -62,26 +143,37 @@ class MyConfiguration:
         Virtually private constructor.
         """
         if MyConfiguration.__instance is not None:
-            raise Exception( "This class is a singleton!" )
+            raise Exception("This class is a singleton!")
         else:
+            self.dataset = options.path_to_dataset
 
-            self.original_json_folder = options.path_to_original_json_folder
-            self.entities_json_folder = options.path_to_entities_json_folder
+            self.cv = options.cv
+            self.topk = options.topk
+            self.n = options.n
 
-            self.path_to_cord_ds = options.path_to_cord_ds
-            self.path_to_cord_userid = options.path_to_cord_userid
-            self.path_to_cord_all = options.path_to_cord_all
+            self.host = options.host
+            self.port = options.port
+            self.user = options.user
+            self.password = options.password
+            self.database = options.database
 
-            self.path_to_metadata = options.path_to_metadata
-            self.path_to_blacklist = options.path_to_blacklist
-            self.path_to_info = options.path_to_info
+            self.path_to_owl = options.path_to_owl
+            self.path_to_ontology = options.path_to_ontology_db
 
-            self.path_chebi = options.path_chebi
-            self.path_do = options.path_do
-            self.path_go = options.path_go
-            self.path_hp = options.path_hp
+            self.sim_metric = options.similarity_metric
 
-            self.item_prefix = options.item_prefix
-
+            self.n_split = options.n_split_dataset
+            self.item_prefix = options.items_prefix
 
         MyConfiguration.__instance = self
+
+
+if __name__ == '__main__':
+    s = MyConfiguration.get_instance()
+    print(s)
+    print(MyConfiguration.get_instance().host)
+    print(MyConfiguration.get_instance().database)
+    print(MyConfiguration.get_instance().user)
+    print(MyConfiguration.get_instance().path_to_owl)
+    print(MyConfiguration.get_instance().sim_metric)
+    print(s.database)
