@@ -69,8 +69,7 @@ def process_str_member(member, value, current_member_lexicons):
         print(f'{member} - No entities found')
         return ''
     else:
-        # print('Entities found')
-        # print(entities)
+        print(f'{member} - Entities found')
         return entities
 
 
