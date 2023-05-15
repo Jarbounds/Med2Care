@@ -30,40 +30,40 @@ import os
 import re
 import copy
 import configparser
-from multiprocessing.pool import Pool
+from dateutil import parser
 
 from utils.utils2json import \
     read_json_file, get_revision_date, set_revision_date, write_json_file, get_member_recursive, set_member_recursive
 
 
-# def normalize_date(data: dict) -> dict:
-#     """
-#     Cleans revision date field from JSON file
+def normalize_date(data: dict) -> dict:
+    """
+    Cleans revision date field from JSON file
 
-    # :param  data: name of json file
-    # :return updated data dict with parsed revision date
-    # """
+    :param  data: name of json file
+    :return updated data dict with parsed revision date
+    """
 
-    # revision_date: str = get_revision_date(data)
+    revision_date: str = get_revision_date(data)
 
-    # try:
-    #     revision_date = all_normalizations(revision_date)
-    #     # Removes unnecessary bloat
-    #     revision_date = ' '.join(revision_date.split(' ')[:3])
-    #     # Try to auto parse date from string
-    #     revision_date = str(parser.parse(revision_date).date())
-    #     return set_revision_date(data, revision_date)
-    # except Exception as date_error:
-    #     print('Cannot auto parse date field')
-    #     print('Trying particular parse')
-    #     try:
-    #         revision_date = ' '.join(revision_date.split(' ')[:2])
-    #         revision_date = str(parser.parse(revision_date).date())
-    #         return set_revision_date(data, revision_date)
-    #     except Exception as date_error_part:
-    #         print('ERROR: There is a problem with revision date field')
-    #         print(date_error)
-    #         print(date_error_part)
+    try:
+        revision_date = all_normalizations(revision_date)
+        # Removes unnecessary bloat
+        revision_date = ' '.join(revision_date.split(' ')[:3])
+        # Try to auto parse date from string
+        revision_date = str(parser.parse(revision_date).date())
+        return set_revision_date(data, revision_date)
+    except Exception as date_error:
+        print('Cannot auto parse date field')
+        print('Trying particular parse')
+        try:
+            revision_date = ' '.join(revision_date.split(' ')[:2])
+            revision_date = str(parser.parse(revision_date).date())
+            return set_revision_date(data, revision_date)
+        except Exception as date_error_part:
+            print('ERROR: There is a problem with revision date field')
+            print(date_error)
+            print(date_error_part)
 
 
 def all_normalizations(member: str) -> str:
@@ -83,45 +83,18 @@ def normalize_general(data: dict) -> dict:
     composition: str = get_member_recursive(normalized_data, 'composition')
     therapeutic_indications: str = get_member_recursive(normalized_data, 'therapeutic_indications')
     disease: str = get_member_recursive(normalized_data, 'disease')
-    pharmacodynamics: str = get_member_recursive(normalized_data, 'pharmacodynamics')
-    incompatibilities: list = get_member_recursive(normalized_data, 'incompatibilities')
-    incompatibilities = incompatibilities if incompatibilities is not None else []
 
     name = all_normalizations(name)
     composition = all_normalizations(composition)
     therapeutic_indications = all_normalizations(therapeutic_indications)
     disease = all_normalizations(disease)
-    pharmacodynamics = all_normalizations(pharmacodynamics)
-    new_incompatibilities: list[dict[str, str]] = []
-    try:
-        for incompatibility in incompatibilities:
-            drugbank_id = get_member_recursive(incompatibility, 'drugbank_id')
-            description = get_member_recursive(incompatibility, 'description')
-            new_incompatibilities.append(
-                {
-                    'drugbank-id': drugbank_id,
-                    'description': all_normalizations(description)
-                }
-            )
-        incompatibilities = new_incompatibilities
-    except Exception as e:
-        print(e)
 
     set_member_recursive(normalized_data, 'name', name)
     set_member_recursive(normalized_data, 'composition', composition)
     set_member_recursive(normalized_data, 'therapeutic_indications', therapeutic_indications)
     set_member_recursive(normalized_data, 'disease', disease)
-    set_member_recursive(normalized_data, 'pharmacodynamics', pharmacodynamics)
-    set_member_recursive(normalized_data, 'incompatibilities', incompatibilities)
 
     return normalized_data
-
-
-def process_medicine(idx, json_file, input_dir, output_dir):
-    medicine_json: dict = read_json_file(input_dir, json_file)
-    print(f'{idx+1:06} Processing {medicine_json["medicine_id"]}')
-    medicine_json = normalize_general(medicine_json)
-    write_json_file(output_dir, json_file, medicine_json)
 
 
 def main():
@@ -134,13 +107,11 @@ def main():
 
     list_of_json_files = os.listdir(input_dir)
 
-    params_list: list = [
-        (idx, json_file, input_dir, output_dir)
-        for idx, json_file in enumerate(list_of_json_files)
-    ]
-
-    with Pool(processes=8) as pool:
-        pool.starmap(process_medicine, params_list)
+    for json_file in list_of_json_files:
+        medicine_json: dict = read_json_file(input_dir, json_file)
+        medicine_json = normalize_general(medicine_json)
+        medicine_json = normalize_date(medicine_json)
+        write_json_file(output_dir, json_file, medicine_json)
 
 
 if __name__ == '__main__':

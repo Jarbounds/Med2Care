@@ -1,5 +1,4 @@
 import os
-import time
 from os import listdir
 from configparser import ConfigParser
 from typing import Any, Callable
@@ -7,7 +6,7 @@ from typing import Any, Callable
 from scrapy.crawler import Crawler, CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from scrapy import signals
-from emc_medicines_scraper.spiders import EMCFetchUrlSpider
+from emc.emc.spiders import EMCFetchUrlSpider
 
 
 def configure_and_retrieve_crawler(settings, callback_func: Callable) -> Any:
@@ -27,7 +26,7 @@ def request_results(process, crawler, request_urls: list[str], limit: int) -> No
 
 def main():
     config: ConfigParser = ConfigParser()
-    config.read('../configurations/config.ini')
+    config.read('../../configurations/configurations.ini')
 
     emc_base_search_url: str = config['URL']['emc_base_search_url']
     emc_base_url: str = config['URL']['emc_base_url']

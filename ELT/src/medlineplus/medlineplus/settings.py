@@ -12,10 +12,10 @@
 #
 # asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
-BOT_NAME = 'emc_medicines_scraper'
+BOT_NAME = 'medlineplus'
 
-SPIDER_MODULES = ['emc_medicines_scraper.spiders']
-NEWSPIDER_MODULE = 'emc_medicines_scraper.spiders'
+SPIDER_MODULES = ['medlineplus.spiders']
+NEWSPIDER_MODULE = 'medlineplus.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = \
@@ -73,7 +73,7 @@ DOWNLOAD_DELAY = 1
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'emc_medicines_scraper.pipelines.EMCMedicinePipeline': 300,
+    'medlineplus.pipelines.MedlineplusPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

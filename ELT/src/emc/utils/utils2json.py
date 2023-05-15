@@ -15,8 +15,6 @@
 
 import json
 import os
-from typing import Any
-
 import jsonpickle
 
 
@@ -49,7 +47,7 @@ def write_json_file(path: str, file: str, contents: dict) -> None:
         json_file.write(jsonpickle.encode(contents, unpicklable=False, indent=4))
 
 
-def get_member_recursive(data: dict, member: str) -> Any:
+def get_member_recursive(data: dict, member: str) -> str:
     if member in data:
         return data[member]
     for key in data.keys():
@@ -58,10 +56,10 @@ def get_member_recursive(data: dict, member: str) -> Any:
             value = get_member_recursive(item, member)
             if value:
                 return value
-    return None
+    return ''
 
 
-def set_member_recursive(data: dict, member: str, value: Any):
+def set_member_recursive(data: dict, member: str, value: str):
     if member in data:
         data[member] = value
     for key in data.keys():

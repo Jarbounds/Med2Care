@@ -23,7 +23,6 @@
 # python3 remove_duplicate_files.py
 
 import os
-import numpy as np
 import configparser
 
 import pandas as pd

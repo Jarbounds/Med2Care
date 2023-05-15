@@ -5,7 +5,7 @@ from utils.utils import transfer_file
 
 def main():
     config: ConfigParser = ConfigParser()
-    config.read('../configurations/configurations.ini')
+    config.read('../../configurations/configurations.ini')
 
     transfer_option: str = config['TRANSFER']['next_stage_option']
     src_path: str = config['PATH']['staged_data_dir']

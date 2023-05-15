@@ -1,6 +1,4 @@
-import get_atc_codes
-import get_medicines_url
-import extract_medicine_data_from_url
+from ELT.src.emc import get_medicines_url, extract_medicine_data_from_url, get_atc_codes
 import cleaning_data
 import remove_duplicate_files
 import sys

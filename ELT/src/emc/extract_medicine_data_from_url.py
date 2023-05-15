@@ -3,12 +3,12 @@ from configparser import ConfigParser
 from utils.utils import load_from_file_lines
 from scrapy.crawler import Crawler, CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from emc_medicines_scraper.spiders import EMCMedicineInfoSpider
+from emc.emc.spiders import EMCMedicineInfoSpider
 
 
 def main():
     config: ConfigParser = ConfigParser()
-    config.read('../configurations/config.ini')
+    config.read('../../configurations/configurations.ini')
 
     settings = get_project_settings()
     process = CrawlerProcess(settings)
