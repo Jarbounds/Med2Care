@@ -116,7 +116,7 @@ def resolve_known_missing_terms(doc: str, lexicon: str) -> str:
             terms: dict = dict(terms_list)
 
         for term in terms.items():
-            print(f'Replacing {term[0]} for {term[1]}')
+            # print(f'Replacing {term[0]} for {term[1]}')
             insensitive_regex = re.compile(re.escape(term[0]), re.IGNORECASE)
             doc_copy = insensitive_regex.sub(term[1], doc_copy)
             # print(f'doc_copy -> {doc_copy}')

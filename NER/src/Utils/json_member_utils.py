@@ -1,4 +1,7 @@
-def get_member_recursive(doc: dict, member: str) -> str:
+from typing import Any
+
+
+def get_member_recursive(doc: dict, member: str) -> Any:
     if member in doc:
         return doc[member]
     for key in doc.keys():
@@ -11,19 +14,22 @@ def get_member_recursive(doc: dict, member: str) -> str:
 
 
 def json_entities(original):
-    entities_json: dict = {
-        'medicine_id': original['medicine_id'],
-        'name': original['metadata']['name'],
-        'composition': [],
-        'therapeutic_indications': [],
-        'disease': [],
-        'pregnancy': "",
-        'machine_ops': "",
-        'excipients': [],
-        'incompatibilities': [],
-        'revision_date': original['metadata']['revision_date']
-    }
-    return entities_json
+    try:
+        entities_json: dict = {
+            'medicine_id': original['medicine_id'],
+            'name': original['metadata']['name'],
+            'composition': [],
+            'therapeutic_indications': [],
+            'disease': [],
+            'pregnancy': "",
+            'machine_ops': "",
+            'excipients': [],
+            'incompatibilities': [],
+            'revision_date': original['metadata']['revision_date']
+        }
+        return entities_json
+    except:
+        print(original)
 
 
 def get_member_lexicon_relations() -> dict:
@@ -33,8 +39,7 @@ def get_member_lexicon_relations() -> dict:
         'composition': [chebi_lexicon],
         'therapeutic_indications': [disease_lexicon],
         'disease': [disease_lexicon],
-        # 'pregnancy': [disease_lexicon],
-        # 'machine_ops': [disease_lexicon],
+        'pharmacodynamics': [disease_lexicon],
         'excipients': [chebi_lexicon],
         'incompatibilities': [chebi_lexicon]
     }

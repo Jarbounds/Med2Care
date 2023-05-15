@@ -61,6 +61,47 @@ def find_entities(doc: str, lexicons: list):
     return output_entities
 
 
+def process_str_member(member, value, current_member_lexicons):
+    # print(f'{member} {value} {current_member_lexicons}')
+    # input("Stopped")
+    entities: list = find_entities(value, current_member_lexicons)
+    if len(entities) == 0:
+        print(f'{member} - No entities found')
+        return ''
+    else:
+        # print('Entities found')
+        # print(entities)
+        return entities
+
+
+def process_composition(composition: str, lexicons: list):
+    return process_str_member('composition', composition, lexicons)
+
+
+def process_therapeutic_indications(therapeutic_indications: str, lexicons: list):
+    return process_str_member('therapeutic_indications', therapeutic_indications, lexicons)
+
+
+def process_disease(disease: str, lexicons: list):
+    return process_str_member('disease', disease, lexicons)
+
+
+def process_pharmacodynamics(pharmacodynamics: str, lexicons: list):
+    return process_str_member('pharmacodynamics', pharmacodynamics, lexicons)
+
+
+def process_incompatibilities(incompatibilities: list, lexicons: list):
+    print('Processing incompatibilities')
+    new_incompatibilities = []
+    for incompatibility in incompatibilities:
+        description = incompatibility.get('description', '')
+        entities = process_str_member('incompatibility_description', description, lexicons)
+        if len(entities) != 0:
+            new_incompatibilities.extend(entities)
+    return new_incompatibilities
+
+
+# TODO: Configure the config file to have a map doc_field -> lexicons
 def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
     """
     Open one json file with one doc, run merpy with lexicons and write results to external file
@@ -70,13 +111,16 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
     :param blacklist: file where all non-valid documents are registered 
     :return doc_counter: the 10 most common list of entities
     """
-
+    doc: dict = {}
     with open(doc_file, "r", encoding='utf-8') as f_in:
         try:
             doc: dict = json.load(f_in)
         except Exception as e:
             print(f'ERROR WITH {doc_file}')
             print(e)
+
+    if not doc:
+        print("There is no processing for this json, returning")
 
     new_doc: dict = json_entities(original=doc)
 
@@ -85,21 +129,31 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
 
     member_lexicons: dict = get_member_lexicon_relations()
 
-    for member in new_doc.keys():
-        value: str = get_member_recursive(doc, member)
-        current_member_lexicons: list = member_lexicons.get(member, [])
-        if len(current_member_lexicons) == 0:
-            print('Keeping original field')
-            new_doc[member] = value
-        else:
-            l_value: list = find_entities(value, current_member_lexicons)
-            if len(l_value) == 0:
-                print(f'{member} - No entities found')
-                new_doc[member] = value
-            else:
-                print('Entities found')
-                print(l_value)
-                new_doc[member] = l_value
+    composition_lexicons = member_lexicons['composition']
+    therapeutic_indications_lexicons = member_lexicons['therapeutic_indications']
+    disease_lexicons = member_lexicons['disease']
+    pharmacodynamics_lexicons = member_lexicons['pharmacodynamics']
+    incompatibilities_lexicons = member_lexicons['incompatibilities']
+
+    composition = get_member_recursive(doc, 'composition')
+    therapeutic_indications = get_member_recursive(doc, 'composition')
+    disease = get_member_recursive(doc, 'disease')
+    pharmacodynamics = get_member_recursive(doc, 'pharmacodynamics')
+    incompatibilities = get_member_recursive(doc, 'incompatibilities')
+
+    composition_entities = process_composition(composition, composition_lexicons)
+    therapeutic_indications_entities = process_therapeutic_indications(
+        therapeutic_indications, therapeutic_indications_lexicons
+    )
+    disease_entities = process_disease(disease, disease_lexicons)
+    pharmacodynamics_entities = process_pharmacodynamics(pharmacodynamics, pharmacodynamics_lexicons)
+    incompatibilities_entities = process_incompatibilities(incompatibilities, incompatibilities_lexicons)
+
+    new_doc['composition'] = composition_entities
+    new_doc['therapeutic_indications'] = therapeutic_indications_entities
+    new_doc['disease'] = disease_entities
+    new_doc['pharmacodynamics'] = pharmacodynamics_entities
+    new_doc['incompatibilities'] = incompatibilities_entities
 
     # Serializing json
     json_object = json.dumps(new_doc, indent=4, ensure_ascii=False)
@@ -108,7 +162,6 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
 
     with open(output_file, "w", encoding='utf-8') as f_out:
         f_out.write(json_object)
-        f_out.close()
 
     print('=' * 36)
 
@@ -164,9 +217,13 @@ def main():
     create_output_folder(output_dir)
     path_to_blacklist = config['PATH']['path2blacklist']
 
+    fi = [
+        ''.join(file.split('_entities')) for file in os.listdir('../data/comm_use_subset_entities')
+    ]
+
     parameters_list: list = [
         (input_dir + "/" + d, active_lexicons, output_dir, path_to_blacklist)
-        for d in os.listdir(input_dir)
+        for d in os.listdir(input_dir) if d not in fi
     ]
 
     if config['MULTITHREAD']['active'] == '1':

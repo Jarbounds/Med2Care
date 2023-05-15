@@ -5,7 +5,7 @@ from utils.utils import transfer_file
 
 def main():
     config: ConfigParser = ConfigParser()
-    config.read('../configurations/config.ini')
+    config.read('../configurations/configurations.ini')
 
     transfer_option: str = config['TRANSFER']['next_stage_option']
     src_path_entities: str = config['PATH']['path_to_entities_json']
