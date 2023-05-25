@@ -10,7 +10,7 @@
 # based on python implementation of MER: Entity Extraction (Named Entity Recognition + Linking)
 #
 # Run:
-# python3 mer_entities.py
+# python3 mer_entities_drugbank.py
 
 import os
 import json
@@ -135,7 +135,7 @@ def process_doc(doc_file, lexicons, output_dir, blacklist) -> None:
     incompatibilities_lexicons = member_lexicons['incompatibilities']
 
     composition = get_member_recursive(doc, 'composition')
-    therapeutic_indications = get_member_recursive(doc, 'composition')
+    therapeutic_indications = get_member_recursive(doc, 'therapeutic_indications')
     disease = get_member_recursive(doc, 'disease')
     pharmacodynamics = get_member_recursive(doc, 'pharmacodynamics')
     incompatibilities = get_member_recursive(doc, 'incompatibilities')

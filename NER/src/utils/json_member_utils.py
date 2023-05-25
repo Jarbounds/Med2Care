@@ -21,8 +21,8 @@ def json_entities(original):
             'composition': [],
             'therapeutic_indications': [],
             'disease': [],
-            'pregnancy': "",
-            'machine_ops': "",
+            'pregnancy': [],
+            'machine_ops': [],
             'excipients': [],
             'incompatibilities': [],
             'revision_date': original['metadata']['revision_date']

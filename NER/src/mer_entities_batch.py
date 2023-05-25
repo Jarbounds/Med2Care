@@ -34,7 +34,7 @@ from collections import Counter
 from datetime import datetime
 from utils.utils import create_entities_folder, save_metadata
 from utils.utils2mer import *
-from mer_entities import process_doc
+from mer_entities_drugbank import process_doc
 
 global_entities = Counter()
 

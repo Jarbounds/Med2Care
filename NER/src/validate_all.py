@@ -15,7 +15,7 @@
 #
 # This module this module allows you to verify that all documents have been properly
 # cataloged. Otherwise, the cataloged documents will (temporarily) move to a new 
-# folder, and then it is recommended to run mer_entities.py or mer_entities_batch.pt.
+# folder, and then it is recommended to run mer_entities_drugbank.py or mer_entities_batch.pt.
 #
 #  1. python3 validate_all.py
 
@@ -36,7 +36,7 @@ def main():
 
     #
     # 1st step: move all docs non-cataloged to a temporary folder
-    # and, after run python3 mer_entities.py or python3 mer_entities_batch.py
+    # and, after run python3 mer_entities_drugbank.py or python3 mer_entities_batch.py
     # finally, comment all this lines before 2nd step
     #
 
