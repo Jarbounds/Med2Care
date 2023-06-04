@@ -17,7 +17,7 @@ def create_default_connection_mysql():
     """
 
     Create a default connection to the mysql database specified by host, user 
-     and password defined in config.ini
+     and password defined in configurations.ini
     :param
     :return mydb: connection object
     """
@@ -37,7 +37,7 @@ def create_connection_mysql():
     """
    
    Create a connection to the mysql database specified by host, user, password and
-    database name defined in config.ini
+    database name defined in configurations.ini
    :param
    :return mydb: connection object
    """
@@ -91,7 +91,7 @@ def create_engine_mysql():
 
 def check_database():
     """
-    Check the existence of a database with the name defined in config.ini 
+    Check the existence of a database with the name defined in configurations.ini
      if none, a new is created as well as a table of similarity
     :param 
     :return none

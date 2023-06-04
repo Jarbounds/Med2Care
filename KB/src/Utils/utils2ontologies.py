@@ -21,7 +21,7 @@ from pathlib import Path
 import rdflib
 from rdflib import URIRef
 from bioservices import ChEBI
-from myconfiguration import MyConfiguration as cfg
+from .myconfiguration import MyConfiguration as cfg
 
 
 
@@ -29,26 +29,26 @@ from myconfiguration import MyConfiguration as cfg
 
 def get_owl_path(entity):
     if entity == 'doid':
-        return cfg.getInstance().path_owl_doid
+        return cfg.get_instance().path_owl_doid
     elif entity == 'chebi':
-        return cfg.getInstance().path_owl_chebi
+        return cfg.get_instance().path_owl_chebi
     elif entity == 'hp':
-        return cfg.getInstance().path_owl_hp
+        return cfg.get_instance().path_owl_hp
     elif entity == 'go':
-        return cfg.getInstance().path_owl_go    
+        return cfg.get_instance().path_owl_go
     return ''
 
 # --------------------------------------------------------------------------- #
 
 def get_db_path(entity):
     if entity == 'doid':
-        return cfg.getInstance().path_db_doid
+        return cfg.get_instance().path_db_doid
     elif entity == 'chebi':
-        return cfg.getInstance().path_db_chebi
+        return cfg.get_instance().path_db_chebi
     elif entity == 'hp':
-        return cfg.getInstance().path_db_hp
+        return cfg.get_instance().path_db_hp
     elif entity == 'go':
-        return cfg.getInstance().path_db_go   
+        return cfg.get_instance().path_db_go
     return ''
 
 # --------------------------------------------------------------------------- #

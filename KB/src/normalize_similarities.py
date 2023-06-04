@@ -24,18 +24,18 @@ import numpy as np
 from sklearn import preprocessing
 from datetime import datetime
 from scipy import stats
-from myconfiguration import MyConfiguration as cfg
+from utils.myconfiguration import MyConfiguration as cfg
 
 from utils.utils2database import check_database, create_norm_table, get_column, save_to_mysql
 from utils.utils import save_metadata
 
 pd.set_option('display.max_columns', None)
-pd.set_option("max_rows", None)
+# pd.set_option("display.max_rows", None)
+
 
 # ---------------------------------------------------------------------------------------- #
 
-def normalize(df,sim):
-
+def normalize(df, sim):
     tab = np.array(df[sim])
     norm_arr1 = preprocessing.normalize([tab], norm='l2')
 
@@ -50,72 +50,71 @@ def normalize(df,sim):
     # Tanh estimators are considered to be more efficient and robust normalization technique. It is not sensitive 
     # to outliers and it also converges faster than Z-score normalization. It yields values between -1 and 1 
     # (Xi∈[−1,1]).
-    norm_arr3 = [0.5 * np.tanh(tab - np.mean(tab))/np.std(tab)*0.01]
+    norm_arr3 = [0.5 * np.tanh(tab - np.mean(tab)) / np.std(tab) * 0.01]
 
     ## Sigmoid Normalization
-    norm_arr4 = [ 1/(1+math.exp(-i)) for i in tab]
+    norm_arr4 = [1 / (1 + math.exp(-i)) for i in tab]
 
-    pair_norm = pd.DataFrame({'l2': norm_arr1[0], 'zscore': norm_zscore, 'min-max': norm_arr2[:,0],
-        'tanh': norm_arr3[0], 'log-sig': norm_arr4})
+    pair_norm = pd.DataFrame({'l2': norm_arr1[0], 'zscore': norm_zscore, 'min-max': norm_arr2[:, 0],
+                              'tanh': norm_arr3[0], 'log-sig': norm_arr4})
     # merge both dataframes
-    return df.merge(pair_norm,left_index=True, right_index=True).reset_index(drop=True)  
+    return df.merge(pair_norm, left_index=True, right_index=True).reset_index(drop=True)
+
 
 # ---------------------------------------------------------------------------------------- #
-    
-def database_norm(table,prefix,sim):
 
-    result = get_column('_'.join([table,prefix]),column= sim)
+def database_norm(table, prefix, sim):
+    result = get_column('_'.join([table, prefix]), column=sim)
 
-    if len( result ) != 0:
-        table_norm = '_'.join(['norm',table,prefix,sim])
-        create_norm_table(tablename=table_norm,sim=sim)
-        result = pd.DataFrame( np.array( result ), columns=['comp_1', 'comp_2',sim] )
-        return normalize(result,sim=sim), table_norm
+    if len(result) != 0:
+        table_norm = '_'.join(['norm', table, prefix, sim])
+        create_norm_table(tablename=table_norm, sim=sim)
+        result = pd.DataFrame(np.array(result), columns=['comp_1', 'comp_2', sim])
+        return normalize(result, sim=sim), table_norm
+
 
 # ---------------------------------------------------------------------------------------- #
 
 def main():
-
-    import time
     start_time = datetime.now()
-    arg = cfg.getInstance()
-   
-    active_lexicons = arg.item_prefix.replace(' ', '').split(',')  
+    arg = cfg.get_instance()
+
+    active_lexicons = arg.item_prefix.replace(' ', '').split(',')
 
     # connect to mysql table
     check_database()
-   
+
     for onto in active_lexicons:
-        
-        sim_name = ["sim_resnik", "sim_lin", "sim_jc", "sim_rel","sim_jac", "sim_islch"]
+
+        sim_name = ["sim_resnik", "sim_lin", "sim_jc",]#  "sim_rel", "sim_jac", "sim_islch"]
         if onto.startswith('chebi'):
-            sim_name.extend(["sim_tanimoto", "sim_morgan"])   
-            
-        count=0         
-        for s in sim_name: 
-            count+=1
-            table_name = lambda i: 'similarity_structural' if (i=="sim_tanimoto" or i=="sim_morgan") else arg.tablename    
-            df, table_norm = database_norm(table=table_name(s),prefix=onto,sim=s)
-            
+            sim_name.extend(["sim_tanimoto", "sim_morgan"])
+
+        count = 0
+        for s in sim_name:
+            count += 1
+            table_name = lambda i: 'similarity_structural' if (
+                        i == "sim_tanimoto" or i == "sim_morgan") else arg.tablename
+            df, table_norm = database_norm(table=table_name(s), prefix=onto, sim=s)
+
             if not df.empty:
                 # creation of engine to MYSQL database to insert pandas DataFrame in the database
-                save_to_mysql( df=df.drop_duplicates(), table_name=table_norm, name_prefix='' ) 
-
+                save_to_mysql(df=df.drop_duplicates(), table_name=table_norm, name_prefix='')
 
     print('SUCCESSFULLY NORMALIZED!')
     # ---------------------------------------------------------------------------------------- #
-   
+
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\t No. entities: {df.shape[0]}\n\
-                Results: { table_norm }\n\
+                Results: {table_norm}\n\
                 '
-    save_metadata(arg.path2info, metadata) 
+    save_metadata(arg.path2info, metadata)
     print("FINISHED!")
+
 
 # ---------------------------------------------------------------------------------------- #
 
 if __name__ == '__main__':
-    main()    
-
+    main()

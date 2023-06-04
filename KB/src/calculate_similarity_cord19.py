@@ -35,27 +35,24 @@
 
 import os
 import sys
-from tracemalloc import stop
 import ssmpy
 from DiShIn.ssmpy import new_light_similarity
 import pandas as pd
-import numpy as np
 from datetime import datetime
-if os.path.isdir( "DiShIn" ):
-    pass
-sys.path.insert( 1, '/KB/src/DiShIn/sspmy/' )
-import sqlite3
-from scipy import stats
-from myconfiguration import MyConfiguration as cfg
+# if os.path.isdir( "DiShIn" ):
+#    pass
+# sys.path.insert( 1, '/KB/src/DiShIn/sspmy/' )
+from utils.myconfiguration import MyConfiguration as cfg
+from multiprocessing import cpu_count, Pool
 
 from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
 from utils.utils import upload_dataset, save_metadata
 from utils.utils2database import check_database, create_table, save_to_mysql
-from calculate_structural_similarity_cord19 import calculate_structural_sim
 
 pd.set_option('display.max_columns', None)
-#pd.set_option("max_rows", None)
+# pd.set_option("max_rows", None)
 pd.options.display.max_rows = 999
+
 
 # ---------------------------------------------------------------------------------------- #
 
@@ -64,33 +61,32 @@ def update_onto(lexicon):
     Update ontologies
     '''
     print("Download latest obo files and process lexicons")
-    
+
     if len(lexicon) == 0:
-        lexicon = ["doid", "go", "hpo", "chebi"] 
+        lexicon = ["doid", "go", "hpo", "chebi"]
     for l in lexicon:
-        #print(l)
+        # print(l)
         path_owl = get_owl_path(l)
         path_db = get_db_path(l)
-        
+
         if os.path.isfile(path_db):
-            print( f"Database ontology ``{l}.db'' file already exists" )
+            print(f"Database ontology ``{l}.db'' file already exists")
         else:
-            ssmpy.create_semantic_base( path_owl, path_db,
-                                "http://purl.obolibrary.org/obo/",
-                                "http://www.w3.org/2000/01/rdf-schema#subClassOf", "" )
+            ssmpy.create_semantic_base(path_owl, path_db,
+                                       "http://purl.obolibrary.org/obo/",
+                                       "http://www.w3.org/2000/01/rdf-schema#subClassOf", "")
 
 
 # ---------------------------------------------------------------------------------------- #
 
 def main():
-
     import time
     start_time = datetime.now()
-    arg = cfg.getInstance()
-   
+    arg = cfg.get_instance()
+
     is_chebi, is_doid, is_go, is_hp = False, False, False, False
 
-    path2ds = arg.path2ds #'/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
+    path2ds = arg.path2ds  # '/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
 
     active_lexicons = arg.item_prefix.replace(' ', '').split(',')
     for item in active_lexicons:
@@ -101,84 +97,85 @@ def main():
         if item.startswith('go'):
             is_go = True
         if item.startswith('hp'):
-            is_hp = True         
-    
-    # ## updating ontologies  
+            is_hp = True
+
+            # ## updating ontologies
     update_onto(active_lexicons)
-    
+
     # loading ontologies   
     chebi, doid, go, hp = loading_items(is_chebi, is_doid, is_go, is_hp)
-    
+
     # ---------------------------------------------------------------------------------------- #
     # connect to mysql table and create if not exists
     check_database()
-    
-    table_name = arg.tablename 
-    cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc", \
-                         "sim_rel", "sim_jac", "sim_islch"] 
+
+    table_name = arg.tablename
+    cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc",]# \
+                 # "sim_rel", "sim_jac", "sim_islch"]
     df = pd.DataFrame(columns=cols_name)
     count, count_item, count_onto = 0, 0, 0
 
     for onto in active_lexicons:
         print(onto)
         ssmpy.semantic_base(get_db_path(onto))
-        create_table('_'.join([table_name,onto]))
+        # create_table('_'.join([table_name, onto]))
         # data set contains <user, item, rating>
-        df_dataset = upload_dataset(path2ds, onto.upper()+'_' )
+        df_dataset = upload_dataset(path2ds, onto.upper() + '_')
         # print(df_dataset)
         list_of_entities = df_dataset.item.unique()
 
-        count_onto+=1
-        for item in list_of_entities:            
-            count+=1
-            count_item+=1
+        count_onto += 1
+        for item in list_of_entities:
+            count += 1
+            count_item += 1
             print(f'{count_item}:  {item}')
             item_value = item.split('_')[1]
             ancestor = ssmpy.get_ancestors(int(item_value))
             if not ancestor:
-                continue 
-               
-            # create a list of ancestor
-            ancestor_ids = [onto.upper()+'_' + str(s) for s in ancestor] 
+                continue
+
+                # create a list of ancestor
+            ancestor_ids = [onto.upper() + '_' + str(s) for s in ancestor]
             # get primary id of the CHEBI entity
             if item.startswith('CHEBI') or item.startswith('chebi'):
                 ancestor_ids = get_primary_ids(ancestor_ids, chebi)
-                
-    ## ---------- CALCULATE SEMANTIC SIMILARITY OF EACH ENTITY IN THE LIST ----------                  
-    #         for a in ancestor:
-    #             if ssmpy.ssm_resnik(item_value, str(a)) >= threshold:# and item_value != str(a): 
-    #                 pair = {'item1': item, 'item2': onto.upper()+'_'+str(a)} 
-    #                 df = df.append(pair, ignore_index=True)
-    #             if ssmpy.ssm_jiang_conrath(item_value, str(a)) >= threshold:# and item_value != str(a):
-    #                 pair = {'item1': item, 'item2': onto.upper()+'_'+str(a)} 
-    #                 df = df.append(pair, ignore_index=True)
-    #             if ssmpy.ssm_lin(item_value, str(a)) >= threshold:# and item_value != str(a):
-    #                 pair = {'item1': item, 'item2': onto.upper()+'_'+str(a)} 
-    #                 df = df.append(pair, ignore_index=True)  
-    ## ---------- END OF CALCULATE SEMANTIC SIMILARITY OF EACH ENTITY IN THE LIST ----------   
-    #  
-            
+
+            ## ---------- CALCULATE SEMANTIC SIMILARITY OF EACH ENTITY IN THE LIST ----------
+            #         for a in ancestor:
+            #             if ssmpy.ssm_resnik(item_value, str(a)) >= threshold:# and item_value != str(a):
+            #                 pair = {'item1': item, 'item2': onto.upper()+'_'+str(a)}
+            #                 df = df.append(pair, ignore_index=True)
+            #             if ssmpy.ssm_jiang_conrath(item_value, str(a)) >= threshold:# and item_value != str(a):
+            #                 pair = {'item1': item, 'item2': onto.upper()+'_'+str(a)}
+            #                 df = df.append(pair, ignore_index=True)
+            #             if ssmpy.ssm_lin(item_value, str(a)) >= threshold:# and item_value != str(a):
+            #                 pair = {'item1': item, 'item2': onto.upper()+'_'+str(a)}
+            #                 df = df.append(pair, ignore_index=True)
+            ## ---------- END OF CALCULATE SEMANTIC SIMILARITY OF EACH ENTITY IN THE LIST ----------
+            #
+
             # # join all entities with his ancestors, and after only select the 15% with higher semantic similarity
             conn = ssmpy.create_connection(get_db_path(onto))
-            #df["comp_2"] = ancestor_ids.map(df.set_index('comp_1')).fillna(0) 
-            
+            # df["comp_2"] = ancestor_ids.map(df.set_index('comp_1')).fillna(0)
+
             ## calculate semantic similarity: resnik, jiang and conrath and lin
             # results = ssmpy.light_similarity(conn, [item], ancestor_ids, 'lin', 20)
             # results = [item for items in results for item in items]
             # sim_df = pd.DataFrame( results, columns=["comp_1", "comp_2", "sim_lin"] )
-            
+
             ## ------------------------------- ALL ------------------------------ ##
             ## OLDER            
             results = ssmpy.light_similarity(conn, [item], ancestor_ids, 'all', 20)
             results1 = [item for items in results for item in items]
             ## NEWER 
-            results = new_light_similarity(conn, [item], ancestor_ids, 'all', 20)
-            results2 = [item for items in results for item in items]
+            #results = new_light_similarity(conn, [item], ancestor_ids, 'all', 20)
+            #results2 = [item for items in results for item in items]
 
             sim_df1 = pd.DataFrame(results1, columns=cols_name[:5])
-            sim_df2 = pd.DataFrame(results2, columns=cols_name[:2]+cols_name[5:8] )
-            sim_df = sim_df1.merge(sim_df2,on=['comp_1','comp_2'])
-            
+            #sim_df2 = pd.DataFrame(results2, columns=cols_name[:2] + cols_name[5:8])
+            #sim_df = sim_df1.merge(sim_df2, on=['comp_1', 'comp_2'])
+            sim_df = sim_df1
+
             ##  ---------- CALCULATE GEOMETRIC MEAN, RANGE (MAX-MIN), STD  ---------- ##
             # calculate geometric mean, first remove zeros if exist
             """ sims = ["sim_resnik", "sim_lin", "sim_jc"]
@@ -192,14 +189,15 @@ def main():
 
             ## remove rows where entities are equal (avoid sim = 1)
             sim_df = sim_df[sim_df['comp_1'] != sim_df['comp_2']]
-            sim_df = sim_df.loc[~(sim_df[cols_name[2:]]==0).all(axis=1),:]
-            df = pd.concat([df, sim_df],ignore_index=True)
-            
-            #check if the table end
+            sim_df = sim_df.loc[~(sim_df[cols_name[2:]] == 0).all(axis=1), :]
+            df = pd.concat([df, sim_df], ignore_index=True)
+
+            # check if the table end
             ##  ---------- SAVE ALL IN DB FOR EACH 500 ROWS ---------- ##
-            if count>499:
+            if count > 499:
                 # creation of engine to MYSQL database to insert pandas DataFrame in the database
-                save_to_mysql( df.drop_duplicates(['comp_1','comp_2'], keep='first'), '_'.join([table_name,onto]), onto.upper()+'_' )
+                save_to_mysql(df.drop_duplicates(['comp_1', 'comp_2'], keep='first'), '_'.join([table_name, onto]),
+                              onto.upper() + '_')
                 # reset all values
                 print("***** SAVE IN MYSQL ********")
                 df = pd.DataFrame(columns=cols_name)
@@ -209,19 +207,20 @@ def main():
                 conn.close()
                 time.sleep(.5)
             #  ---------- END OF SAVE ALL IN DB FOR EACH 500 ROWS ---------- ##    
-             
+
         ##  ---------- SAVE ALL REMAINING VALUES IN DB---------- ##     
         if not df.empty:
             # creation of engine to MYSQL database to insert pandas DataFrame in the database
-            save_to_mysql( df.drop_duplicates(['comp_1','comp_2'], keep='first'), '_'.join([table_name,onto]), onto.upper()+'_' ) 
+            save_to_mysql(df.drop_duplicates(['comp_1', 'comp_2'], keep='first'), '_'.join([table_name, onto]),
+                          onto.upper() + '_')
             # reset all values
             df = pd.DataFrame(columns=cols_name)
             sim_df = pd.DataFrame()
             count = 0
             # close connection
-            conn.close()                      
-         ##  ---------- END OF SAVE ALL REMAINING VALUES IN DB---------- ##     
-       
+            conn.close()
+            ##  ---------- END OF SAVE ALL REMAINING VALUES IN DB---------- ##
+
     # if is_chebi:    
     #    calculate_structural_sim('_'.join([table_name,'chebi']))  
 
@@ -230,10 +229,11 @@ def main():
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\t No. entities: {count_item}\n\
-                Results: { arg.path2kb, path2ds }\n\
+                Results: {arg.path2kb, path2ds}\n\
                 '
-    save_metadata(arg.path2info, metadata) 
+    save_metadata(arg.path2info, metadata)
     print("FINISHED!")
+
 
 # ---------------------------------------------------------------------------------------- #
 

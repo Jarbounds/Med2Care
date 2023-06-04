@@ -20,18 +20,18 @@ from pathlib import Path
 # --------------------------------------------------------------------------- #
 
 def upload_dataset(csv_path, name_prefix):
-    '''
+    """
 
     Upload csv dataset which format is not "standard"
     :param csv_path: <user, item, rating, ... > csv file
     :param name_prefix: Prefix of the concepts to be extracted from the ontology
     :type name_prefix: string
     :return: pandas dataframe: <user, item, rating>
-    
-    '''
+
+    """
     
     matrix = pd.read_csv( csv_path, sep=',' )   
-    if( len(matrix.columns) > 3 ):
+    if len(matrix.columns) > 3:
         # replace column's name if you need 
         matrix.columns = ['user', 'user_name', 'item', 'item_name', 'rating', 'year']
         # select < user, item, rating > from dataframe
@@ -39,7 +39,7 @@ def upload_dataset(csv_path, name_prefix):
     else:
         matrix.columns = ['user', 'item', 'rating']
 
-    if ( matrix.dtypes['item'] == np.object ):
+    if matrix.dtypes['item'] == np.object:
          # filter rows for specific ontology
         matrix = matrix[matrix['item'].str.startswith( name_prefix )]
 

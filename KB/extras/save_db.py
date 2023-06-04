@@ -90,7 +90,7 @@ def calculate_semantic_similarity_chunks(entry_ids, ancestor_ids, name_prefix ):
     # ---------------------------------------------------------------------------------------- #
    
     # get item id in the input dataset
-    items_ids = get_items_ids( df_dataset, cfg.getInstance().item_prefix )
+    items_ids = get_items_ids(df_dataset, cfg.get_instance().item_prefix)
     print( "n of ids: ", items_ids.shape )
     
     # ---------------------------------------------------------------------------------------- #
