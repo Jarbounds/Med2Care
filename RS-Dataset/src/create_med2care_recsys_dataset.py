@@ -84,7 +84,7 @@ def create_dataset(path_original, path_entities, path_metadata, path_blacklist):
             continue
 
         disease = get_id_name_list_entity(j_file_entities['disease'])
-        # excipients = get_id_name_list_entity(j_file_entities['excipients'])
+        incompatibilities = get_id_name_list_entity(j_file_entities['incompatibilities'])
         date = get_date(j_file_entities)
 
         dataset = []
@@ -144,6 +144,8 @@ def main():
             'user', 'username', 'item', 'item_name', 'rating', 'year'
         ]
     )
+
+    final_data = final_data.drop_duplicates(keep='first')
 
     print('saving data')
     save_to_csv(
