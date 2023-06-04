@@ -58,7 +58,7 @@ if __name__ == '__main__':
         items_ids,
         conn,
         engine,
-        "similarity",
+        "similarity_chebi",
         config.n_split,
         config.item_prefix
     )

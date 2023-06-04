@@ -33,7 +33,7 @@ def upload_dataset(csv_path, name_prefix):
     :return: pandas dataframe: <user, item, rating>
 
     """
-    matrix = pd.read_csv(csv_path, names=['user_name', 'item', 'rating', 'user', 'item_label'], sep=',')
+    matrix = pd.read_csv(csv_path, header=0, sep=',')
     matrix = matrix[['user', 'item', 'rating']]
     # filter rows for specific ontology
     return matrix[matrix['item'].astype(str).str.startswith(name_prefix)]

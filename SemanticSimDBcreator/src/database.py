@@ -297,7 +297,7 @@ def get_sims(entry_ids_1, entry_ids_2):
 
         format_strings1 = ','.join(['%s'] * len(entry_ids_1))
         format_strings2 = ','.join(['%s'] * len(entry_ids_2))
-        sql = "select id, comp_1, comp_2 from similarity where comp_1 in (%s) and comp_2 in (%s)"
+        sql = "select id, comp_1, comp_2 from similarity_chebi where comp_1 in (%s) and comp_2 in (%s)"
         format_strings1 = format_strings1 % tuple(entry_ids_1)
         format_strings2 = format_strings2 % tuple(entry_ids_2)
         sql = sql % (format_strings1, format_strings2)
