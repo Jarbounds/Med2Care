@@ -27,7 +27,7 @@ def create_default_connection_mysql():
         port=conf.port,
         user=conf.user,
         password=conf.password,
-        # ssl_disabled=True,
+        ssl_disabled=True,
     )
     return my_db
 
@@ -134,7 +134,36 @@ def check_database():
             my_db.close()
 
 
-def create_table():
+def table_exists(table_name: str) -> bool:
+    """
+    Checks if a MySQL table exists
+    :param table_name: the table name
+    :return true if table exists; false otherwise
+    """
+
+    my_db: MySQLConnection | None = None
+    my_cursor: MySQLCursor | None = None
+
+    try:
+        my_db = create_connection_mysql()
+        my_cursor = my_db.cursor()
+
+        query = "SELECT COUNT(*) FROM information_schema.tables WHERE table_name = %s"
+        my_cursor.execute(query, (table_name,))
+
+        result = my_cursor.fetchone()
+
+        return result[0] != 0
+    except Error as e:
+        print(e)
+    finally:
+        if my_db is not None and my_db.is_connected():
+            if my_cursor is not None:
+                my_cursor.close()
+            my_db.disconnect()
+
+
+def create_table(table_name: str):
     """
     create a table named similarity with id, comp_1, comp_2,
         sim_resnik, sim_lin, sim_jc as columns in mysql
@@ -151,7 +180,7 @@ def create_table():
         my_cursor.execute("DROP TABLE IF EXISTS `similarity`")
 
         my_cursor.execute(
-            " CREATE TABLE `similarity` (`id` INT NOT NULL AUTO_INCREMENT, `comp_1` INT NOT NULL,  `comp_2` INT NOT NULL, "
+            f" CREATE TABLE `{table_name}` (`id` INT NOT NULL AUTO_INCREMENT, `comp_1` INT NOT NULL,  `comp_2` INT NOT NULL, "
             "`sim_resnik` FLOAT NOT NULL, `sim_lin` FLOAT NOT NULL, `sim_jc` FLOAT NOT NULL, PRIMARY KEY (`id`), "
             "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
 

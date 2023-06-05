@@ -1,20 +1,15 @@
-# import git
-import sys
 import os
-import sys
 import ssmpy
 import pandas as pd
 
-# if os.path.isdir("DiShIn") == False:
-#     print("Downloading DiShIn")
-#     git.Git().clone("https://github.com/lasigeBioTM/DiShIn")
-
-# sys.path.insert(1, '/SemanticSimDBcreator/src/DiShIn')
 from calculate_simlarities import calculate_semantic_similarity_chunks
-from database import check_database, get_items_ids, create_connection_sqlite, create_engine_mysql, create_table
+from database import \
+    check_database, get_items_ids, create_connection_sqlite, create_engine_mysql, create_table, table_exists
 from datetime import datetime
 from dataset import upload_dataset
 from myconfiguration import MyConfiguration as Config
+
+SIMILARITY_CHEBI_TABLE = 'similarity_chebi'
 
 pd.set_option('display.max_columns', None)
 
@@ -48,6 +43,9 @@ if __name__ == '__main__':
     items_ids = get_items_ids(df_dataset, config.item_prefix)
     print("n of ids: ", items_ids.shape)
 
+    if not table_exists(SIMILARITY_CHEBI_TABLE):
+        create_table(SIMILARITY_CHEBI_TABLE)
+
     # connection to sqlite database
     conn = create_connection_sqlite(config.path_to_ontology)
 
@@ -58,7 +56,7 @@ if __name__ == '__main__':
         items_ids,
         conn,
         engine,
-        "similarity_chebi",
+        SIMILARITY_CHEBI_TABLE,
         config.n_split,
         config.item_prefix
     )

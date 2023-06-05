@@ -22,7 +22,10 @@
 ###############################################################################
 # 
 import ssmpy
-from database import *
+import numpy as np
+import pandas as pd
+from database import get_sims, confirm_all_test_train_similarities, save_to_mysql
+
 
 def calculate_semantic_similarity_chunks(entry_ids, conn, engine, table_name, n_split, name_prefix):
     """
@@ -45,25 +48,25 @@ def calculate_semantic_similarity_chunks(entry_ids, conn, engine, table_name, n_
     for i in aux_array:
         for n in aux_array:
             print(i, n)
-            
+
             list_1 = items_splitted[i].tolist()
             list_2 = items_splitted[n].tolist()
-            
+
             list_of_sims_from_db = get_sims(list_1, list_2)
-            
+
             list_1, list_2 = confirm_all_test_train_similarities(list_1, list_2, list_of_sims_from_db)
-            
+
             if len(list_1) | len(list_2) == 0:
                 continue
 
             list_1 = [name_prefix + str(s) for s in list_1]
             list_2 = [name_prefix + str(s) for s in list_2]
-            
+
             results = ssmpy.light_similarity(conn, list_1, list_2, 'all', 20)
             newlist = [item for items in results for item in items]
             sim_df = pd.DataFrame(newlist, columns=["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc"])
             sim_df = sim_df[sim_df.comp_1 != sim_df.comp_2]
             save_to_mysql(sim_df, engine, table_name, name_prefix)
-            
+
         mask = np.where(aux_array == i)
         aux_array = np.delete(aux_array, mask)
