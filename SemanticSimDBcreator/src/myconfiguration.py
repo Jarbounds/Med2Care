@@ -42,6 +42,8 @@ class MyConfiguration:
             self.password = options.password
             self.database = options.database
 
+            self.table_name = options.table_name
+
             self.path_to_owl = options.path_to_owl
             self.path_to_ontology = options.path_to_ontology_db
 

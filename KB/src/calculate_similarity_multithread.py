@@ -144,14 +144,13 @@ def main():
     # connect to mysql table and create if not exists
     check_database(database_name)
 
-    check_table(database_name, table_name)
-
     cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc"]
     count, count_item, count_onto = 0, 0, 0
 
     with Pool(processes=cpu_count()) as pool:
         for onto in active_lexicons:
             print(onto)
+            check_table(database_name, '_'.join([table_name, onto]))
             ssmpy.semantic_base(get_db_path(onto))
             # data set contains <user, item, rating>
             df_dataset = upload_dataset(path2ds, onto.upper() + '_')

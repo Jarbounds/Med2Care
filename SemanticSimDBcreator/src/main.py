@@ -9,7 +9,6 @@ from datetime import datetime
 from dataset import upload_dataset
 from myconfiguration import MyConfiguration as Config
 
-SIMILARITY_CHEBI_TABLE = 'similarity_chebi'
 
 pd.set_option('display.max_columns', None)
 
@@ -44,6 +43,7 @@ if __name__ == '__main__':
     print("n of ids: ", items_ids.shape)
 
     database = config.database
+    table_name = config.table_name
 
     # connection to sqlite database
     conn = create_connection_sqlite(config.path_to_ontology)
@@ -51,14 +51,14 @@ if __name__ == '__main__':
     # creation of engine to MYSQL database to insert pandas DataFrame in the database
     engine = create_engine_mysql()
 
-    if not table_exists(database, SIMILARITY_CHEBI_TABLE):
-        create_table(database, SIMILARITY_CHEBI_TABLE)
+    if not table_exists(database, table_name):
+        create_table(database, table_name)
 
     calculate_semantic_similarity_chunks(
         items_ids,
         conn,
         engine,
-        SIMILARITY_CHEBI_TABLE,
+        table_name,
         config.n_split,
         config.item_prefix
     )
