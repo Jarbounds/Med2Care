@@ -43,14 +43,16 @@ if __name__ == '__main__':
     items_ids = get_items_ids(df_dataset, config.item_prefix)
     print("n of ids: ", items_ids.shape)
 
-    if not table_exists(SIMILARITY_CHEBI_TABLE):
-        create_table(SIMILARITY_CHEBI_TABLE)
+    database = config.database
 
     # connection to sqlite database
     conn = create_connection_sqlite(config.path_to_ontology)
 
     # creation of engine to MYSQL database to insert pandas DataFrame in the database
     engine = create_engine_mysql()
+
+    if not table_exists(database, SIMILARITY_CHEBI_TABLE):
+        create_table(database, SIMILARITY_CHEBI_TABLE)
 
     calculate_semantic_similarity_chunks(
         items_ids,

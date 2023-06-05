@@ -124,7 +124,6 @@ def check_database():
         else:
             print("Will create database")
             my_cursor.execute("CREATE DATABASE " + db_name)
-            create_table()
     except Error as e:
         print("Error while connecting to MySQL", e)
     finally:
@@ -134,10 +133,11 @@ def check_database():
             my_db.close()
 
 
-def table_exists(table_name: str) -> bool:
+def table_exists(database: str, table_name: str) -> bool:
     """
     Checks if a MySQL table exists
-    :param table_name: the table name
+    :param database: database name
+    :param table_name: table name
     :return true if table exists; false otherwise
     """
 
@@ -147,6 +147,8 @@ def table_exists(table_name: str) -> bool:
     try:
         my_db = create_connection_mysql()
         my_cursor = my_db.cursor()
+
+        my_cursor.execute(f'use {database};')
 
         query = "SELECT COUNT(*) FROM information_schema.tables WHERE table_name = %s"
         my_cursor.execute(query, (table_name,))
@@ -163,7 +165,7 @@ def table_exists(table_name: str) -> bool:
             my_db.disconnect()
 
 
-def create_table(table_name: str):
+def create_table(database: str, table_name: str):
     """
     create a table named similarity with id, comp_1, comp_2,
         sim_resnik, sim_lin, sim_jc as columns in mysql
@@ -177,10 +179,10 @@ def create_table(table_name: str):
         my_cursor = my_db.cursor()
 
         my_cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
-        my_cursor.execute("DROP TABLE IF EXISTS `similarity`")
+        my_cursor.execute("DROP TABLE IF EXISTS `similarity_chebi`")
 
         my_cursor.execute(
-            f" CREATE TABLE `{table_name}` (`id` INT NOT NULL AUTO_INCREMENT, `comp_1` INT NOT NULL,  `comp_2` INT NOT NULL, "
+            f"use {database}; CREATE TABLE `{table_name}` (`id` INT NOT NULL AUTO_INCREMENT, `comp_1` INT NOT NULL,  `comp_2` INT NOT NULL, "
             "`sim_resnik` FLOAT NOT NULL, `sim_lin` FLOAT NOT NULL, `sim_jc` FLOAT NOT NULL, PRIMARY KEY (`id`), "
             "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
 
