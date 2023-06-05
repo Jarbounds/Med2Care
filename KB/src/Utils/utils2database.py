@@ -14,9 +14,6 @@
 #                                                                             #  
 ###############################################################################
 
-# import sqlite3
-from itertools import product
-from pickle import TRUE
 from sqlite3 import Error
 import numpy as np
 import pandas as pd
@@ -26,7 +23,6 @@ from mysql.connector import MySQLConnection
 from mysql.connector.cursor import MySQLCursor
 from sqlalchemy import create_engine
 from .myconfiguration import MyConfiguration as Config
-import pymysql
 
 
 def create_default_connection_mysql():
@@ -61,25 +57,6 @@ def create_connection_mysql():
     return my_db
 
 
-# # ----------------------------------------------------------------------------------------------------- #
-
-# def create_connection_sqlite(sb_file):
-#     """ 
-
-#     Create a database connection to the SQLite database specified by sb_file
-#     :param sb_file: File name of database where semantic base will be stored
-#     :type sb_file: string
-#     :return conn: connection object or none
-#     """
-#     try:
-#         conn = sqlite3.connect( sb_file )
-#         return conn
-#     except Error as e:
-#         print( e )
-
-#     return None
-
-
 def create_engine_mysql():
     """
     Create a pool and dialect together connection to provide a source of database and behavior
@@ -95,20 +72,22 @@ def create_engine_mysql():
     passwd = config.password
     db_name = config.database
 
-    engine = create_engine("mysql+pymysql://{user}:{pw}@{host}:{port}/{db}"
-                           .format(user=user,
-                                   pw=passwd,
-                                   host=host,
-                                   port=port,
-                                   db=db_name),
-                           pool_pre_ping=True)
+    engine = create_engine(
+        "mysql+pymysql://{user}:{pw}@{host}:{port}/{db}"
+        .format(
+            user=user,
+            pw=passwd,
+            host=host,
+            port=port,
+            db=db_name
+        ),
+        pool_pre_ping=True
+    )
 
     return engine
 
 
-# ----------------------------------------------------------------------------------------------------- #
-
-def check_database():
+def check_database(database: str):
     """
     Check the existence of a database with the name defined in configurations.ini
      if none, a new is created as well as a table of similarity
@@ -119,40 +98,33 @@ def check_database():
     my_db: MySQLConnection | None = None
     my_cursor: MySQLCursor | None = None
     try:
-        check = False
         my_db = create_default_connection_mysql()
         my_cursor = my_db.cursor()
-        db_name = Config.get_instance().database
 
-        my_cursor.execute("SHOW DATABASES")
-        for database_tuple in my_cursor:
-            database_name: str = database_tuple[0]
-            if database_name == db_name:  # scratchy
-                check = True
+        my_cursor.execute("show databases;")
 
-        if not check:
-            print("Will create database")
-            my_cursor.execute("CREATE DATABASE " + db_name)
-            # create_table(tablename)
-        else:
+        results = my_cursor.fetchall()
+        results = [res[0] for res in results]
+
+        if database in results:
             print("Database already exists")
-
-    except Error as e:
+        else:
+            print("Will create database")
+            my_cursor.execute(f"create database {database}")
+    except Exception as e:
         print("Error while connecting to MySQL", e)
     finally:
-        if my_db.is_connected():
-            if my_cursor is not None:
-                my_cursor.close()
+        if my_cursor is not None:
+            my_cursor.close()
+        if my_db is not None and my_db.is_connected():
             my_db.close()
 
 
-# ----------------------------------------------------------------------------------------------------- #
-
-def check_structural_chebi(table_name):
+def check_table(database_name: str, table_name: str) -> bool:
     """
-    Check the existence of a database with the name defined in configurations.ini
-     if none, a new is created as well as a table of similarity
-    :param 
+    Check the existence of table for a given database.
+    :param database_name: database name
+    :param table_name: Table name
     :return none
     """
 
@@ -161,45 +133,50 @@ def check_structural_chebi(table_name):
     try:
         my_db = create_default_connection_mysql()
         my_cursor = my_db.cursor()
-        db_name = Config.get_instance().database
-        stmt = f"SHOW TABLES FROM {db_name}"
-        my_cursor.execute(stmt)
-        for table_tuple in my_cursor:
-            table_name_str: str = table_tuple[0]
-            if table_name_str == table_name:  # scratchy
-                my_cursor.close()
-                my_db.close()
-                return True
-    except Error as e:
+
+        query = f"show tables from {database_name};"
+        my_cursor.execute(query)
+
+        results = my_cursor.fetchall()
+        results = [res[0] for res in results]
+
+        if table_name in results:
+            print(f'Table {table_name} already exists')
+        else:
+            print(f'Table {table_name} does not exist, creating')
+            create_table(table_name)
+    except Exception as e:
         print("Error while connecting to MySQL", e)
+        return False
     finally:
-        if my_db.is_connected():
+        if my_cursor is not None:
             my_cursor.close()
+        if my_db is not None and my_db.is_connected():
             my_db.close()
-    return False
 
 
 # ----------------------------------------------------------------------------------------------------- #
 
-def create_table(table_name):
+def create_table(table_name: str):
     """
-    
     Create a table named similarity with in mysql which columns are
         <id, comp_1, comp_2, sim_resnik, sim_lin, sim_jc, sim_rel, sim_jac, sim_islch, 
         sim_tanimoto, sim_morgan> 
     :param: none
     :return:
     """
+
     my_db: MySQLConnection | None = None
     my_cursor: MySQLCursor | None = None
     try:
         my_db = create_connection_mysql()
-
         my_cursor = my_db.cursor()
 
-        my_cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
-        my_cursor.execute(f"DROP TABLE IF EXISTS `{table_name}`")
+        database = Config.get_instance().database
 
+        my_cursor.execute(f'use {database}')
+
+        my_cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
         my_cursor.execute(
             f" CREATE TABLE `{table_name}` (`id` INT NOT NULL AUTO_INCREMENT,"
             "`comp_1` INT NOT NULL,"
@@ -214,12 +191,14 @@ def create_table(table_name):
             " PRIMARY KEY (`id`), "
             "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
         my_cursor.execute("SET FOREIGN_KEY_CHECKS = 1")
-        print(f"Table {table_name} already exists")
+        my_db.commit()
+        print(f"Table {table_name} created")
     except Error as e:
         print("Error while connecting to MySQL", e)
     finally:
-        if my_db.is_connected():
+        if my_cursor is not None:
             my_cursor.close()
+        if my_db is not None and my_db.is_connected():
             my_db.close()
 
 
@@ -234,27 +213,30 @@ def add_columns(tablename):
     :param quart: quartile
     :return result: pandas DataFrame
     """
-    global mydb
+    my_db: MySQLConnection | None = None
+    my_cursor: MySQLCursor | None = None
+
     try:
         # Open database connection
-        mydb = create_connection_mysql()
+        my_db = create_connection_mysql()
 
         # prepare a cursor object using cursor() method
-        mycursor = mydb.cursor()
+        my_cursor = mydb.cursor()
 
         # Prepare SQL query to read a record into the database.        
         sql = f"ALTER TABLE {tablename} \
                     ADD COLUMN sim_resnick` FLOAT NOT NULL AFTER sim_lin, \
                     ADD COLUMN sim_jc` FLOAT NOT NULL AFTER sim_lin \
                 "
-        mycursor.execute(sql)
+        my_cursor.execute(sql)
 
     except Error as e:
         print("Error while connecting to MySQL", e)
     finally:
-        if mydb.is_connected():
-            mycursor.close()
-            mydb.close()
+        if my_db is not None and my_db.is_connected():
+            if my_cursor is not None:
+                my_cursor.close()
+            my_db.close()
 
 
 # ----------------------------------------------------------------------------------------------------- #
@@ -302,7 +284,6 @@ def create_norm_table(tablename, sim):
 
 def create_structuraltable(tablename):
     """
-    
     Create a table named similarity with in mysql which columns are
         <id, comp_1, comp_2, sim_tanimoto, sim_morgan> 
     :param: none

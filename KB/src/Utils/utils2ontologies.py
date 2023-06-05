@@ -28,14 +28,15 @@ from .myconfiguration import MyConfiguration as cfg
 # --------------------------------------------------------------------------- #
 
 def get_owl_path(entity):
+    config = cfg.get_instance()
     if entity == 'doid':
-        return cfg.get_instance().path_owl_doid
+        return config.path_owl_doid
     elif entity == 'chebi':
-        return cfg.get_instance().path_owl_chebi
+        return config.path_owl_chebi
     elif entity == 'hp':
-        return cfg.get_instance().path_owl_hp
+        return config.path_owl_hp
     elif entity == 'go':
-        return cfg.get_instance().path_owl_go
+        return config.path_owl_go
     return ''
 
 # --------------------------------------------------------------------------- #
@@ -91,12 +92,12 @@ def get_owl(url, path):
 # --------------------------------------------------------------------------- #
 
 def loading_items(is_chebi, is_doid, is_go, is_hp):
-    '''
+    """
     Loading ontologies to get the entities label
     :param is_chebi, is_do, is_go, is_hp: boolean to represent which ontologies must be
-        loading  
-    :return chebi, do, go, hp: owl graph        
-    '''
+        loading
+    :return chebi, do, go, hp: owl graph
+    """
 
 
     if (not os.path.exists(get_owl_path('chebi')) and is_chebi):
@@ -138,7 +139,6 @@ def loading_items(is_chebi, is_doid, is_go, is_hp):
 # --------------------------------------------------------------------------- #
 
 def load_ontology(path):
-
     g = rdflib.Graph()
     g.load(path)
     return g
