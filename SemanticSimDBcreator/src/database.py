@@ -178,11 +178,12 @@ def create_table(database: str, table_name: str):
         my_db = create_connection_mysql()
         my_cursor = my_db.cursor()
 
+        my_cursor.execute(f'use {database};')
+
         my_cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
-        my_cursor.execute("DROP TABLE IF EXISTS `similarity_chebi`")
 
         my_cursor.execute(
-            f"use {database}; CREATE TABLE `{table_name}` (`id` INT NOT NULL AUTO_INCREMENT, `comp_1` INT NOT NULL,  `comp_2` INT NOT NULL, "
+            f"CREATE TABLE `{table_name}` (`id` INT NOT NULL AUTO_INCREMENT, `comp_1` INT NOT NULL,  `comp_2` INT NOT NULL, "
             "`sim_resnik` FLOAT NOT NULL, `sim_lin` FLOAT NOT NULL, `sim_jc` FLOAT NOT NULL, PRIMARY KEY (`id`), "
             "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
 
