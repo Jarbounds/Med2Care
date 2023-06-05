@@ -76,3 +76,5 @@ if __name__ == '__main__':
             f"Database: {config.database} \nDataset: {config.dataset} \nOntology: {config.item_prefix}\n\n"
         )
         f.close()
+
+    print("FINISHED!")

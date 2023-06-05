@@ -148,15 +148,14 @@ def table_exists(database: str, table_name: str) -> bool:
         my_db = create_connection_mysql()
         my_cursor = my_db.cursor()
 
-        my_cursor.execute(f'use {database};')
+        query = f"show tables from {database};"  # TODO: SQL Injection Problem
+        my_cursor.execute(query)
 
-        query = "SELECT COUNT(*) FROM information_schema.tables WHERE table_name = %s"
-        my_cursor.execute(query, (table_name,))
+        results = my_cursor.fetchall()
+        results = [res[0] for res in results]
 
-        result = my_cursor.fetchone()
-
-        return result[0] != 0
-    except Error as e:
+        return table_name in results
+    except Exception as e:
         print(e)
     finally:
         if my_db is not None and my_db.is_connected():
