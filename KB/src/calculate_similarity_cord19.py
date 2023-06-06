@@ -42,12 +42,12 @@ from datetime import datetime
 # if os.path.isdir( "DiShIn" ):
 #    pass
 # sys.path.insert( 1, '/KB/src/DiShIn/sspmy/' )
-from utils.myconfiguration import MyConfiguration as cfg
+from utils.myconfiguration import MyConfiguration as Config
 from multiprocessing import cpu_count, Pool
 
 from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
 from utils.utils import upload_dataset, save_metadata
-from utils.utils2database import check_database, create_table, save_to_mysql
+from utils.utils2database import check_database, save_to_mysql
 
 pd.set_option('display.max_columns', None)
 # pd.set_option("max_rows", None)
@@ -82,13 +82,13 @@ def update_onto(lexicon):
 def main():
     import time
     start_time = datetime.now()
-    arg = cfg.get_instance()
+    config = Config.get_instance()
 
     is_chebi, is_doid, is_go, is_hp = False, False, False, False
 
-    path2ds = arg.path2ds  # '/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
+    path2ds = config.path2ds  # '/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
 
-    active_lexicons = arg.item_prefix.replace(' ', '').split(',')
+    active_lexicons = config.item_prefix.replace(' ', '').split(',')
     for item in active_lexicons:
         if item.startswith('chebi'):
             is_chebi = True
@@ -105,11 +105,12 @@ def main():
     # loading ontologies   
     chebi, doid, go, hp = loading_items(is_chebi, is_doid, is_go, is_hp)
 
-    # ---------------------------------------------------------------------------------------- #
-    # connect to mysql table and create if not exists
-    check_database()
+    database = config.database
 
-    table_name = arg.tablename
+    # connect to mysql table and create if not exists
+    check_database(database)
+
+    table_name = config.tablename
     cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc",]# \
                  # "sim_rel", "sim_jac", "sim_islch"]
     df = pd.DataFrame(columns=cols_name)
@@ -154,7 +155,7 @@ def main():
             ## ---------- END OF CALCULATE SEMANTIC SIMILARITY OF EACH ENTITY IN THE LIST ----------
             #
 
-            # # join all entities with his ancestors, and after only select the 15% with higher semantic similarity
+            # # join all entities with his ancestors, and after only select the 25% with higher semantic similarity
             conn = ssmpy.create_connection(get_db_path(onto))
             # df["comp_2"] = ancestor_ids.map(df.set_index('comp_1')).fillna(0)
 
@@ -229,9 +230,9 @@ def main():
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\t No. entities: {count_item}\n\
-                Results: {arg.path2kb, path2ds}\n\
+                Results: {config.path2kb, path2ds}\n\
                 '
-    save_metadata(arg.path2info, metadata)
+    save_metadata(config.path2info, metadata)
     print("FINISHED!")
 
 
