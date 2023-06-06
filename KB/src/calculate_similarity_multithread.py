@@ -163,7 +163,6 @@ def main():
                     (item, onto, chebi, cols_name, count_item, config)
                 )
             pool.starmap(process_item, params)
-            pool.join()
 
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \

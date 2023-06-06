@@ -24,7 +24,7 @@ import numpy as np
 from sklearn import preprocessing
 from datetime import datetime
 from scipy import stats
-from utils.myconfiguration import MyConfiguration as cfg
+from utils.myconfiguration import MyConfiguration as Config
 
 from utils.utils2database import check_database, create_norm_table, get_column, save_to_mysql
 from utils.utils import save_metadata
@@ -77,12 +77,14 @@ def database_norm(table, prefix, sim):
 
 def main():
     start_time = datetime.now()
-    arg = cfg.get_instance()
+    config = Config.get_instance()
 
-    active_lexicons = arg.item_prefix.replace(' ', '').split(',')
+    active_lexicons = config.item_prefix.replace(' ', '').split(',')
+
+    database = config.database
 
     # connect to mysql table
-    check_database()
+    check_database(database)
 
     for onto in active_lexicons:
 
@@ -94,7 +96,7 @@ def main():
         for s in sim_name:
             count += 1
             table_name = lambda i: 'similarity_structural' if (
-                        i == "sim_tanimoto" or i == "sim_morgan") else arg.tablename
+                        i == "sim_tanimoto" or i == "sim_morgan") else config.tablename
             df, table_norm = database_norm(table=table_name(s), prefix=onto, sim=s)
 
             if not df.empty:
@@ -110,7 +112,7 @@ def main():
                 Ontologies: {active_lexicons}\t No. entities: {df.shape[0]}\n\
                 Results: {table_norm}\n\
                 '
-    save_metadata(arg.path2info, metadata)
+    save_metadata(config.path2info, metadata)
     print("FINISHED!")
 
 
