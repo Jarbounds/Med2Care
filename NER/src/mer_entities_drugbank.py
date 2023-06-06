@@ -232,8 +232,6 @@ def main():
                 parameters_list,
             )
             time.sleep(0.5)
-            pool.close()
-            pool.join()
     else:
         for parameters in parameters_list:
             doc_entities.append(
