@@ -3,7 +3,7 @@ from configparser import ConfigParser
 from utils.utils import load_from_file_lines
 from scrapy.crawler import Crawler, CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from emc.spiders import EMCMedicineInfoSpider
+from medlineplus.spiders import MedicineInfoSpider
 
 
 def main():
@@ -13,9 +13,9 @@ def main():
     settings = get_project_settings()
     process = CrawlerProcess(settings)
 
-    medicine_info_crawler = Crawler(EMCMedicineInfoSpider, settings=settings)
+    medicine_info_crawler = Crawler(MedicineInfoSpider, settings=settings)
 
-    urls_file: str = config['PATH']['medicine_urls_file']
+    urls_file: str = config['PATH']['medicine_urls_file_medlineplus']
     output_dir: str = config['PATH']['extracted_medicines_dir']
 
     if not os.path.exists(output_dir):

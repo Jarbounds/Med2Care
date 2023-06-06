@@ -1,5 +1,4 @@
 import re
-import time
 
 from scrapy import Spider
 from scrapy.http import Request, HtmlResponse
@@ -132,7 +131,6 @@ class EMCMedicineInfoSpider(Spider):
         urls = self.kwargs.get('urls_list', [])
         for url in urls:
             yield Request(url, callback=self.parse, dont_filter=True)
-            # time.sleep(self.settings.attributes['DOWNLOAD_DELAY'].value)
 
     def parse(self, response: HtmlResponse, **kwargs):
         from hashlib import sha1

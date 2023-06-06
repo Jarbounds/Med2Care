@@ -76,7 +76,6 @@ def is_root_child(element: Element):
 
 
 def main():
-    # Replace `path/to/drugbank.xml` with the actual path to the DrugBank XML file
     drugbank_xml: Iterator = et.iterparse('../data/full_database.xml', events=("start", "end"))
 
     drug_bank_id: str = ''
