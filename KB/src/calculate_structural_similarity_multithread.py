@@ -303,7 +303,6 @@ def main():
                 )
                 minid += limit
             pool.starmap(calculate_structural_sim, params)
-            pool.join()
     else:
         calculate_structural_sim(oldtable, newtable, minid, limit)
     # remove duplicates if any
