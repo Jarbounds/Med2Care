@@ -88,7 +88,7 @@ def main():
         for s in sim_name:
             count += 1
             table_name = get_table_name(s)
-            df, table_norm = database_norm(table=table_name(s), prefix=onto, sim=s)
+            df, table_norm = database_norm(table=table_name, prefix=onto, sim=s)
 
             if not df.empty:
                 # creation of engine to MYSQL database to insert pandas DataFrame in the database
