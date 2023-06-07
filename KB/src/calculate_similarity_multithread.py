@@ -11,7 +11,7 @@
 #   version 1.2: 21 Feb 2023 change pd.append() by pd.concat()                #      
 #   (author: Matilde Pato)                                                    # 
 #   version 1.3: 23 Feb 2023 structural similarity is removed and create a    #
-#   new script to calculate them: calculate_similarity_cord19.py              #      
+#   new script to calculate them: calculate_similarity_multithread.py              #
 #   (author: Matilde Pato)                                                    #
 #                                                                             #   
 ###############################################################################
@@ -24,12 +24,12 @@
 # we must to include calculate_structural_sim() method in main. 
 
 # Updated: Anyway, if the number of Chebi' entities is large enough, I advise 
-# you to perform this operation on the script: calculate_similarity_cord19.py
+# you to perform this operation on the script: calculate_similarity_multithread.py
 # Then comment last lines.
 
 # Updated: structural similarity is included in the main
 
-# python3 calculate_similarity_cord19.py   
+# python3 calculate_similarity_multithread.py
 
 # Metapub is a Python library that provides python
 

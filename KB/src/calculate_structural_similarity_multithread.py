@@ -19,7 +19,7 @@
 # save the results in a mysql table. The input values is stored on mysql database
 # previous saved in entities_sim_cord19_rs.similarity_chebi
 #
-# python3 calculate_structural_similarity_cord19.py   
+# python3 calculate_structural_similarity_multithread.py
 
 # Metapub is a Python library that provides python
 
