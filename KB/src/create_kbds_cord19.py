@@ -38,10 +38,7 @@ from utils.utils import upload_dataset, save_to_csv, save_metadata
 from utils.utils2database import check_database, get_similar
 
 pd.set_option('display.max_columns', None)
-# pd.set_option("max_rows", None)
 
-
-# ---------------------------------------------------------------------------------------- #
 
 def update_onto(lexicon_list):
     """
@@ -68,8 +65,6 @@ def update_onto(lexicon_list):
             )
 
 
-# ---------------------------------------------------------------------------------------- #
-
 def id2index(df):
     """
     maps the values to the lowest consecutive values
@@ -85,9 +80,6 @@ def id2index(df):
     df["index_user"] = df["user"].map(df_user_index.set_index('user')["new_index"]).fillna(0)
     # print(df)
     return df
-
-
-# ---------------------------------------------------------------------------------------- #
 
 
 def main():
@@ -116,12 +108,12 @@ def main():
             # # ## updating ontologies
     update_onto(active_lexicons)
 
-    # # # loading ontologies   
+    # loading ontologies
     chebi, doid, go, hp = loading_items(is_chebi, is_doid, is_go, is_hp)
 
-    # # ---------------------------------------------------------------------------------------- #
     # # connect to mysql table
-    check_database()
+    database = arg.database
+    check_database(database)
 
     count = 0
     for onto in active_lexicons:
@@ -133,9 +125,6 @@ def main():
             "sim_resnik",
             "sim_lin",
             "sim_jc",
-            # "sim_rel",
-            # "sim_jac",
-            # "sim_islch"
         ]
         if onto.startswith('chebi'):
             cols_name.extend(["sim_tanimoto", "sim_morgan"])
@@ -238,8 +227,6 @@ def main():
     save_metadata(arg.path2info, metadata)
     print("FINISHED!")
 
-
-# ---------------------------------------------------------------------------------------- #
 
 if __name__ == '__main__':
     main()
