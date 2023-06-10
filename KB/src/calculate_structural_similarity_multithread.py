@@ -29,7 +29,7 @@ from datetime import datetime
 
 from utils.utils import save_metadata
 from utils.utils2database import check_database, save_to_mysql, get_dbvalues, \
-    create_structuraltable, drop_duplicates, get_minmax
+    create_structural_table, drop_duplicates, get_minmax
 from utils.myconfiguration import MyConfiguration as Config
 from rdkit import Chem, DataStructs
 from rdkit.Chem import rdMolDescriptors
@@ -288,7 +288,7 @@ def main():
     newtable = '_'.join(['similarity_structural', onto])
 
     # create a new table with structural similarity values
-    create_structuraltable(newtable)
+    create_structural_table(newtable)
     # parameter for using in sql query, where we define the value of the primary key (id) mininum, and
     # the no. of rows
     limit = 1000
