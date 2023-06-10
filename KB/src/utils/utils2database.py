@@ -510,7 +510,6 @@ def dump_database(database_name: str, table_name: str, columns: str):
                         instance += f'{field},'
                     instance = instance[:-1] + '),'
                     values_str += instance
-                    print(instance)
                 insert_query += values_str[:-1] + ';' + '\n'
 
                 fp.write(insert_query)
