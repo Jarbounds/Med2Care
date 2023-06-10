@@ -307,7 +307,7 @@ if __name__ == '__main__':
         all_als_onto_resnik_m2 = calculate_dictionary_mean(all_als_onto_resnik_m2, float(cv_folds * cv_folds))
         all_bpr_onto_resnik_m2 = calculate_dictionary_mean(all_bpr_onto_resnik_m2, float(cv_folds * cv_folds))
 
-        save_final_data(all_onto_resnik, '{PATH}{str(cv_folds)}{STR_N}{str(n)}_onto_resnik.csv')
+        save_final_data(all_onto_resnik, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_onto_resnik.csv')
         save_final_data(all_als_onto_resnik_m1, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_als_onto_resnik_m1.csv')
         save_final_data(all_bpr_onto_resnik_m1, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_bpr_onto_resnik_m1.csv')
         save_final_data(all_als_onto_resnik_m2, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_als_onto_resnik_m2.csv')
