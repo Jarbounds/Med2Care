@@ -17,7 +17,7 @@
 # <user, item, rating, item_name, year>.
 # The items should be defined by user
 
-# python3 create_kbds_cord19.py   
+# python3 create_kbds.py
 
 # Metapub is a Python library that provides python
 
@@ -84,17 +84,17 @@ def id2index(df):
 
 def main():
     start_time = datetime.now()
-    arg = Config.get_instance()
+    config = Config.get_instance()
 
     # # define most common in percentage, by default is 'first quartile'
-    quartile = arg.n
-    normalized = arg.normalized
+    quartile_percentage = config.n
+    normalized = config.normalized
 
     is_chebi, is_doid, is_go, is_hp = False, False, False, False
 
-    path2ds = arg.path2ds  # '/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
+    path2ds = config.path2ds  # '/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
 
-    active_lexicons = arg.item_prefix.replace(' ', '').split(',')
+    active_lexicons = config.item_prefix.replace(' ', '').split(',')
     for item in active_lexicons:
         if item.startswith('chebi'):
             is_chebi = True
@@ -112,7 +112,7 @@ def main():
     chebi, doid, go, hp = loading_items(is_chebi, is_doid, is_go, is_hp)
 
     # # connect to mysql table
-    database = arg.database
+    database = config.database
     check_database(database)
 
     count = 0
@@ -129,11 +129,11 @@ def main():
         if onto.startswith('chebi'):
             cols_name.extend(["sim_tanimoto", "sim_morgan"])
 
+        def similarity_table(i):
+            return 'similarity_structural' if (i == "sim_tanimoto" or i == "sim_morgan") else config.tablename
+
         for s in cols_name[2:]:
             count += 1
-
-            sim_table = lambda i: 'similarity_structural' if (
-                        i == "sim_tanimoto" or i == "sim_morgan") else arg.tablename
             # ssmpy.semantic_base(get_db_path(onto))
             # data set contains <user, item, rating>
             df_ds = upload_dataset(path2ds, onto.upper() + '_')
@@ -141,10 +141,10 @@ def main():
             #  ---------- GET ENTITIES LABELS OF THE 1st QUARTILE ---------- ##
 
             if normalized:
-                sim_table = '_'.join(['norm', sim_table(s), onto, s])
-                df_similar = get_similar(sim_table, quartile, sim='l2')
+                sim_table = '_'.join(['norm', similarity_table(s), onto, s])
+                df_similar = get_similar(sim_table, quartile_percentage, sim='l2')
             else:
-                df_similar = get_similar('_'.join([sim_table(s), onto]), quartile, sim=s)
+                df_similar = get_similar('_'.join([similarity_table(s), onto]), quartile_percentage, sim=s)
 
             df_similar.comp_1 = onto.upper() + '_' + df_similar.comp_1.map(str)
             df_similar.comp_2 = onto.upper() + '_' + df_similar.comp_2.map(str)
@@ -203,7 +203,7 @@ def main():
             df_id["item_name"] = df_id["item"].map(df_entities.set_index('item_id')["entity_name"]).fillna(0)
 
             print('saving data')
-            path = '_'.join([arg.path2kb.rsplit('.', 1)[0], onto, s, '.csv'])
+            path = '_'.join([config.path2kb.rsplit('.', 1)[0], onto, s, '.csv'])
 
             if 'year' in df_id.columns:
                 save_to_csv(
@@ -222,9 +222,9 @@ def main():
     metadata = f'Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
                 Ontologies: {active_lexicons}\n\
-                Results: {arg.path2kb, path2ds}\n\
+                Results: {config.path2kb, path2ds}\n\
                 '
-    save_metadata(arg.path2info, metadata)
+    save_metadata(config.path2info, metadata)
     print("FINISHED!")
 
 
