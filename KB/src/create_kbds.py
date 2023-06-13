@@ -22,7 +22,6 @@
 # Metapub is a Python library that provides python
 
 import os
-import sys
 import ssmpy
 import pandas as pd
 import numpy as np
@@ -133,6 +132,7 @@ def main():
             return 'similarity_structural' if (i == "sim_tanimoto" or i == "sim_morgan") else config.tablename
 
         for s in cols_name[2:]:
+            print(f'Processing similarity dataset for {s}')
             count += 1
             # ssmpy.semantic_base(get_db_path(onto))
             # data set contains <user, item, rating>
@@ -141,8 +141,10 @@ def main():
             #  ---------- GET ENTITIES LABELS OF THE 1st QUARTILE ---------- ##
 
             if normalized:
+                print('Using normalized similarity')
                 sim_table = '_'.join(['norm', similarity_table(s), onto, s])
                 df_similar = get_similar(sim_table, quartile_percentage, sim='l2')
+                print('Got similar')
             else:
                 df_similar = get_similar('_'.join([similarity_table(s), onto]), quartile_percentage, sim=s)
 
@@ -162,13 +164,14 @@ def main():
 
             ## find index where item1 exist in dataframe
             for item1 in df_ds[['item']].drop_duplicates().values.tolist():
+
                 idx = df_ds.index[df_ds['item'] == ''.join(item1)].tolist()
                 # get item2 list 
                 item2 = df_similar[df_similar['comp_1'] == ''.join(item1)]['comp_2']
                 # if the entity has no ancestor, continue
                 if item2.empty:
                     continue
-
+            print('Loop completed')
             pair = pd.DataFrame(
                 [
                     {
