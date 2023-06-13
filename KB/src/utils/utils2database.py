@@ -511,7 +511,7 @@ def dump_database(database_name: str, table_name: str, columns: str):
                     instance = instance[:-1] + '),'
                     values_str += instance
                 insert_query += values_str[:-1] + ';' + '\n'
-
+                input('Result: ' + insert_query)
                 fp.write(insert_query)
     except Exception as e:
         print('Exception occurred in table dump, printing exception... ', e, sep='\n')
