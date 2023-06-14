@@ -24,7 +24,7 @@ from datetime import datetime
 from scipy import stats
 from utils.myconfiguration import MyConfiguration as Config
 
-from utils.utils2database import check_database, create_norm_table, get_column, save_to_mysql
+from utils.utils2database import check_database, check_norm_table, get_column, save_to_mysql
 from utils.utils import save_metadata
 
 pd.set_option('display.max_columns', None)
@@ -61,7 +61,7 @@ def database_norm(table, prefix, sim):
 
     if len(result) != 0:
         table_norm = '_'.join(['norm', table, prefix, sim])
-        create_norm_table(tablename=table_norm, sim=sim)
+        check_norm_table(table_name=table_norm, sim=sim)
         result = pd.DataFrame(np.array(result), columns=['comp_1', 'comp_2', sim])
         return normalize(result, sim=sim), table_norm
 
