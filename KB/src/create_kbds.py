@@ -27,11 +27,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-# if os.path.isdir("DiShIn"):
-#     pass
-# sys.path.insert(1, '/KB/src/DiShIn/sspmy/')
 from utils.myconfiguration import MyConfiguration as Config
-
 from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_entities_labels
 from utils.utils import upload_dataset, save_to_csv, save_metadata
 from utils.utils2database import check_database, get_similar
@@ -48,7 +44,6 @@ def update_onto(lexicon_list):
     if len(lexicon_list) == 0:
         lexicon_list = ["doid", "go", "hpo", "chebi"]
     for lexicon in lexicon_list:
-        # print(l)
         path_owl = get_owl_path(lexicon)
         path_db = get_db_path(lexicon)
 
@@ -77,7 +72,6 @@ def id2index(df):
     df_user_index["new_index"] = index_user
 
     df["index_user"] = df["user"].map(df_user_index.set_index('user')["new_index"]).fillna(0)
-    # print(df)
     return df
 
 
@@ -110,7 +104,7 @@ def main():
     # loading ontologies
     chebi, doid, go, hp = loading_items(is_chebi, is_doid, is_go, is_hp)
 
-    # # connect to mysql table
+    # connect to mysql table
     database = config.database
     check_database(database)
 
@@ -134,35 +128,21 @@ def main():
         for s in cols_name[2:]:
             print(f'Processing similarity dataset for {s}')
             count += 1
-            # ssmpy.semantic_base(get_db_path(onto))
             # data set contains <user, item, rating>
             df_ds = upload_dataset(path2ds, onto.upper() + '_')
 
-            #  ---------- GET ENTITIES LABELS OF THE 1st QUARTILE ---------- ##
-
+            # Get n% from all normalized similarity with l2 metric
             if normalized:
                 print('Using normalized similarity')
                 sim_table = '_'.join(['norm', similarity_table(s), onto, s])
-                df_similar = get_similar(sim_table, quartile_percentage, sim='l2')
-                print('Got similar')
+                df_similar = get_similar(sim_table, quartile_percentage, metric='l2')
             else:
-                df_similar = get_similar('_'.join([similarity_table(s), onto]), quartile_percentage, sim=s)
+                df_similar = get_similar('_'.join([similarity_table(s), onto]), quartile_percentage, metric=s)
 
             df_similar.comp_1 = onto.upper() + '_' + df_similar.comp_1.map(str)
             df_similar.comp_2 = onto.upper() + '_' + df_similar.comp_2.map(str)
-            # print(df_similar[['comp_1', 'comp_2']].head(10))
 
-            # # --- example
-            # df_ds = pd.DataFrame(np.array([[0,'CHEBI_15361', 1, 2021], [0,'CHEBI_15378', 1, 2021], [0,'CHEBI_15362', 1, 2021], \
-            #     [17,'CHEBI_15361', 1, 2021], [52,'CHEBI_15361', 1, 2021], [67,'CHEBI_15361', 1, 2021]]), columns=['user', 'item', 'rating','year'])
-            # #
-            # # item1 = 'CHEBI_15361'
-            # # item2 = ['CHEBI_103229', 'CHEBI_150', 'CHEBI_17818', 'CHEBI_24156', \
-            # #     'CHEBI_34386', 'CHEBI_50934', 'CHEBI_51286', 'CHEBI_66106', 'CHEBI_8186', 'CHEBI_88',\
-            # #     'CHEBI_96062'] 
-            # # --- end of example
-
-            ## find index where item1 exist in dataframe
+            # find index where item1 exist in dataframe
             for item1 in df_ds[['item']].drop_duplicates().values.tolist():
 
                 idx = df_ds.index[df_ds['item'] == ''.join(item1)].tolist()
@@ -184,7 +164,7 @@ def main():
                     for i in idx for c in item
                 ]
             )
-            # append values from orginal dataframe and sort by user
+            # append values from original dataframe and sort by user
             df_ds = pd.concat([df_ds, pair], ignore_index=True)
             df_ds = df_ds.sort_values(by=['user']).reset_index(drop=True)
 
@@ -192,13 +172,13 @@ def main():
                 ['user', 'user_name', 'item', 'year']
             ).size().reset_index().rename(columns={0: 'rating'})
             df_id = id2index(sum_df)
-            # print(f"df_id: {df_id.head(5)}")
 
-            # ## ---------- get entities labels ----------
+            # Get entities labels
             list_of_entities = df_id.item.unique()
             # print(list_of_entities) 
 
             entities_label = get_entities_labels(list_of_entities, chebi, doid, go, hp)
+            # entities_label = get_entities_labels(list_of_entities, None, None, None, None)
             df_entities = pd.DataFrame(list_of_entities, columns=["item_id"])
             df_entities["entity_name"] = np.array(entities_label)
 

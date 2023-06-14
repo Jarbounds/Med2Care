@@ -28,7 +28,7 @@ import pandas as pd
 from datetime import datetime
 
 from utils.utils import save_metadata
-from utils.utils2database import check_database, save_to_mysql, get_dbvalues, \
+from utils.utils2database import check_database, save_to_mysql, get_db_values, \
     create_structural_table, drop_duplicates, get_minmax
 from utils.myconfiguration import MyConfiguration as Config
 from rdkit import Chem, DataStructs
@@ -142,8 +142,8 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
         return sim_dict
 
     def get_smile(chebi_ids):
-        ''' This function return a dataframe with smile values from chebi id
-        '''
+        """ This function return a dataframe with smile values from chebi id
+        """
         smile_dic = pd.DataFrame(columns=['chebi', 'smile'])
         # Splitting list of items into multiple lists
         # splitedSize = 499
@@ -166,7 +166,7 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
 
     # get entities from previous created table    
 
-    chebi_df = get_dbvalues(simtable, minid, limit)
+    chebi_df = get_db_values(simtable, minid, limit)
 
     chebi_df[cols_name[:2]] = chebi_df[cols_name[:2]].astype('int')
     chebi_df[cols_name[0]] = 'CHEBI:' + chebi_df[cols_name[0]].astype(str).str.zfill(0)
@@ -177,8 +177,8 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
 
     chebi_unique = pd.concat([chebi_df[cols_name[0]], chebi_df[cols_name[1]]], ignore_index=True).drop_duplicates()
     # Splitting list of items into multiple lists
-    chunkSize = 1000
-    lst_chebi = [chebi_unique[i: i + chunkSize] for i in range(0, len(chebi_unique), chunkSize)]
+    chuck_size = 1000
+    lst_chebi = [chebi_unique[i: i + chuck_size] for i in range(0, len(chebi_unique), chuck_size)]
 
     for lst in lst_chebi:
         chebi_smile = pd.DataFrame()
@@ -293,7 +293,7 @@ def main():
     # parameter for using in sql query, where we define the value of the primary key (id) mininum, and
     # the no. of rows
     limit = 1000
-    minid, maxid = get_minmax(tablename=oldtable)['min'], get_minmax(tablename=oldtable)['max']
+    minid, maxid = get_minmax(table_name=oldtable)['min'], get_minmax(table_name=oldtable)['max']
     minid = 1
 
     if minid:
@@ -305,7 +305,7 @@ def main():
     else:
         calculate_structural_sim(oldtable, newtable, minid, limit)
     # remove duplicates if any
-    drop_duplicates(tablename=newtable)
+    drop_duplicates(table_name=newtable)
     # ---------------------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Calculation of structural similarity \n\

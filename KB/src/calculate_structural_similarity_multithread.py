@@ -28,7 +28,7 @@ import pandas as pd
 from datetime import datetime
 
 from utils.utils import save_metadata
-from utils.utils2database import check_database, save_to_mysql, get_dbvalues, \
+from utils.utils2database import check_database, save_to_mysql, get_db_values, \
     create_structural_table, drop_duplicates, get_minmax
 from utils.myconfiguration import MyConfiguration as Config
 from rdkit import Chem, DataStructs
@@ -166,7 +166,7 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
 
     # get entities from previous created table    
 
-    chebi_df = get_dbvalues(simtable, minid, limit)
+    chebi_df = get_db_values(simtable, minid, limit)
 
     chebi_df[cols_name[:2]] = chebi_df[cols_name[:2]].astype('int')
     chebi_df[cols_name[0]] = 'CHEBI:' + chebi_df[cols_name[0]].astype(str).str.zfill(0)
@@ -292,7 +292,7 @@ def main():
     # parameter for using in sql query, where we define the value of the primary key (id) mininum, and
     # the no. of rows
     limit = 1000
-    minid, maxid = get_minmax(tablename=oldtable)['min'], get_minmax(tablename=oldtable)['max']
+    minid, maxid = get_minmax(table_name=oldtable)['min'], get_minmax(table_name=oldtable)['max']
 
     if minid:
         with Pool() as pool:
@@ -306,7 +306,7 @@ def main():
     else:
         calculate_structural_sim(oldtable, newtable, minid, limit)
     # remove duplicates if any
-    drop_duplicates(tablename=newtable)
+    drop_duplicates(table_name=newtable)
     # ---------------------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Calculation of structural similarity \n\
