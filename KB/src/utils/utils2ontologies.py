@@ -173,15 +173,14 @@ def get_primary_ids(lst, prefix_onto):
             ids.append(id)         
     return ids
 
-# --------------------------------------------------------------------------- #
 
 def get_entities_labels(lst, prefix_chebi, prefix_doid, prefix_go, prefix_hp):
-    '''
+    """
     Get entities lables from http://purl.obolibrary.org/obo/ based on items prefix
     :param  lst: list of entities
             chebi, doid, go, hp: items prefix of entities
     :return label: entities label
-    '''
+    """
     label = []
     for id in lst: 
 
@@ -206,5 +205,3 @@ def get_entities_labels(lst, prefix_chebi, prefix_doid, prefix_go, prefix_hp):
             lab = prefix_doid.label(uri)
         label.append(lab)
     return label
-
-# --------------------------------------------------------------------------- #
