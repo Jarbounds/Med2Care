@@ -22,28 +22,13 @@
 ###############################################################################
 #
 
-""" from datetime import datetime
-import os
-import ssmpy
-
-from algorithms import *
-from cross_val import *
-from data import *
-from semsimcalculus import *
-from dataset import upload_dataset """
 import os
 import numpy as np
-# import pandas as pd
-# import scipy
-# import sklearn
-# from scipy import sparse
-# from scipy.sparse import coo_matrix
 import sys
 import ssmpy
 from myconfiguration import MyConfiguration as Config
 from data import id_to_index, three_columns_matrix_to_csr, save_final_data
 from algorithms import get_evaluation
-# from recommender_evaluation import *
 from cross_val import \
     get_shuffle_items, \
     get_shuffle_users, \
@@ -51,8 +36,6 @@ from cross_val import \
     check_items_in_model, \
     add_dict, \
     calculate_dictionary_mean
-# import cffi
-
 from datetime import datetime
 from database import check_database
 from dataset import upload_dataset
@@ -87,15 +70,12 @@ if __name__ == '__main__':
         name_prefix=config.item_prefix
     )
 
-    ratings2, original_item_id, original_user_id = id_to_index(ratings_original)  # are not unique
+    ratings, original_item_id, original_user_id = id_to_index(ratings_original)  # are not unique
 
-    # ratings = ratings2.drop(columns=["user", "item"])
-    # ratings = ratings.rename(columns={"index_item": "item", "index_user": "user"})
-
-    users_size = len(ratings2.index_user.unique())
-    items_size = len(ratings2.index_item.unique())
-    shuffle_users = get_shuffle_users(ratings2)
-    shuffle_items = get_shuffle_items(ratings2)
+    users_size = len(ratings.index_user.unique())
+    items_size = len(ratings.index_item.unique())
+    shuffle_users = get_shuffle_users(ratings)
+    shuffle_items = get_shuffle_items(ratings)
 
     count_cv = 0
 
@@ -125,19 +105,15 @@ if __name__ == '__main__':
     for test_users in np.array_split(shuffle_users, cv_folds):
         test_users_size = len(test_users)
         print("number of test users: ", test_users_size)
-        sys.stdout.flush()
 
         count_cv_items = 0
         for test_items in np.array_split(shuffle_items, cv_folds):
             # models to be used
             test_items_size = len(test_items)
             print("number of test items: ", test_items_size)
-            sys.stdout.flush()
 
             # prepare the data for implicit models
-            ratings_test, ratings_train = prepare_train_test(ratings2, test_users, test_items)
-
-            # ratings_test, ratings_train = prepare_train_test_(ratings, test_users, test_items) # removes all the ratings from the training set for the test_items # does not work
+            ratings_test, ratings_train = prepare_train_test(ratings, test_users, test_items)
 
             test_items = check_items_in_model(ratings_train.index_item.unique(), test_items)
             ratings_sparse = three_columns_matrix_to_csr(ratings_train)  # item, user, rating
@@ -155,7 +131,7 @@ if __name__ == '__main__':
                     ratings_test,
                     ratings_sparse,
                     test_items,
-                    ratings2,
+                    ratings,
                     original_item_id,
                     config.sim_metric
                 )
