@@ -389,6 +389,7 @@ def get_similar(table_name, quart, metric):
     :param metric: similarity metric
     :return result: pandas DataFrame
     """
+
     my_db: MySQLConnection | None = None
     my_cursor: MySQLCursor | None = None
     try:
@@ -402,14 +403,19 @@ def get_similar(table_name, quart, metric):
 
         my_cursor.execute(f'use {database};')
 
-        sql = f"select comp_1, comp_2 " \
-              f"from (" \
-              f"select comp_1, comp_2, {metric}, " \
-              f"row_number() over (order by {metric} desc) as row_num," \
-              f"count(*) over () as total_rows " \
-              f"from {table_name}" \
+        sql = f"with percentile as ( " \
+              f"select {metric} " \
+              f"from ( " \
+              f"select comp_1, comp_2, {metric}, @row_num :=@row_num + 1 as row_num " \
+              f"from {table_name} s, (select @row_num:=0) counter " \
+              f"order by {metric} desc " \
               f") temp " \
-              f"where row_num <= ceil({quart} * total_rows)"
+              f"where temp.row_num = round({quart} * @row_num) " \
+              f") " \
+              f"select comp_1, comp_2 " \
+              f"from {table_name} " \
+              f"join percentile on {table_name}.l2 >= percentile.l2;"
+
         my_cursor.execute(sql)
         all_results = my_cursor.fetchall()
         if len(all_results) != 0:
@@ -430,6 +436,7 @@ def save_to_mysql(df, table_name, name_prefix=None):
     :param name_prefix: Prefix of the concepts to be extracted from the ontology
     :type name_prefix: string
     """
+
     con = None
     try:
         config: Config = Config.get_instance()
