@@ -1,4 +1,5 @@
 import pandas as pd
+from pandas import DataFrame
 import numpy as np
 from itertools import product
 
@@ -10,8 +11,6 @@ import sqlite3
 from sqlite3 import Error
 from myconfiguration import MyConfiguration as Config
 
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def create_default_connection_mysql():
     """
@@ -32,8 +31,6 @@ def create_default_connection_mysql():
     return my_db
 
 
-# ----------------------------------------------------------------------------------------------------- #
-
 def create_connection_mysql():
     """ create a connection to the mysql database
        specified by host, user, password and
@@ -47,8 +44,6 @@ def create_connection_mysql():
     return my_db
 
 
-# ----------------------------------------------------------------------------------------------------- #
-
 def create_connection_sqlite(sb_file):
     """
     Create a database connection to the SQLite database
@@ -60,13 +55,11 @@ def create_connection_sqlite(sb_file):
     try:
         conn = sqlite3.connect(sb_file)
         return conn
-    except Error as e:
+    except Exception as e:
         print(e)
 
     return None
 
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def create_engine_mysql():
     """
@@ -92,8 +85,6 @@ def create_engine_mysql():
         pool_pre_ping=True
     )
 
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def check_database():
     """
@@ -136,8 +127,6 @@ def check_database():
             my_db.close()
 
 
-# ----------------------------------------------------------------------------------------------------- #
-
 def create_table():
     """
     create a table named similarity with id, comp_1, comp_2,
@@ -168,8 +157,6 @@ def create_table():
             my_cursor.close()
             my_db.close()
 
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def insert_row(it1, it2, sim_res, sim_l, sim_j):
     """
@@ -266,8 +253,10 @@ def get_items_ids(dataset, name_prefix):
 def confirm_all_test_train_similarities(list1, list2, pairs_from_db):
     # check if all item-item pair was found in the database
 
-    lists_combinations = pd.DataFrame(list(product(list1, list2)),
-                                      columns=['l1', 'l2'])
+    lists_combinations = DataFrame(
+        list(product(list1, list2)),
+        columns=['l1', 'l2']
+    )
 
     ss = lists_combinations.l1.isin(
         pairs_from_db.comp_1.astype('int64').tolist()) & lists_combinations.l2.isin(
@@ -294,7 +283,6 @@ def get_sims(entry_ids_1, entry_ids_2):
     """
     my_db: MySQLConnection | None = None
     my_cursor: MySQLCursor | None = None
-    result = None
     try:
         my_db = create_connection_mysql()
         my_cursor = my_db.cursor()
@@ -311,19 +299,20 @@ def get_sims(entry_ids_1, entry_ids_2):
         result = my_cursor.fetchall()
 
         if len(result) != 0:
-            result = pd.DataFrame(np.array(result),
-                                  columns=['id', 'comp_1', 'comp_2'])
+            result = DataFrame(
+                np.array(result),
+                columns=['id', 'comp_1', 'comp_2']
+            )
         else:
-            result = pd.DataFrame(columns=['id', 'comp_1', 'comp_2'])
-
+            result = DataFrame(columns=['id', 'comp_1', 'comp_2'])
+        return result
     except Error as e:
         print("Error while connecting to MySQL", e)
     finally:
-        if my_db.is_connected():
+        if my_cursor is not None:
             my_cursor.close()
+        if my_db is not None and my_db.is_connected():
             my_db.close()
-
-    return result
 
 
 def get_read_all(entry_ids_1, entry_ids_2):
@@ -333,8 +322,7 @@ def get_read_all(entry_ids_1, entry_ids_2):
     :param entry_ids_2: list of entries 2
     :return result: pandas Dataframe
     """
-    my_db = None
-    result = None
+    my_db: MySQLConnection | None = None
     list1 = entry_ids_1.tolist()
     list2 = entry_ids_2.tolist()
     try:
@@ -347,18 +335,13 @@ def get_read_all(entry_ids_1, entry_ids_2):
         format_strings2 = format_strings2 % tuple(list2)
         sql = sql % (format_strings1, format_strings2)
 
-        result = pd.read_sql_query(sql, con=my_db)
-
-    except Error as e:
+        return pd.read_sql_query(sql, con=my_db)
+    except Exception as e:
         print("Error while connecting to MySQL", e)
     finally:
-        if my_db.is_connected():
+        if my_db is not None and my_db.is_connected():
             my_db.close()
 
-    return result
-
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def save_to_mysql(df, engine, table_name, name_prefix):
     """
