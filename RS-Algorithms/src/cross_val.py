@@ -34,11 +34,11 @@ def divide_items_train_test(items, min_val, max_val):
     return np.array(items)[min_val:max_val]
 
 
-def calculate_dictionary_mean(dict, division):
-    for i in dict:
-        dict[i] = dict[i] / division
+def calculate_dictionary_mean(dictionary, division):
+    for i in dictionary:
+        dictionary[i] = [val / division for val in dictionary[i]]
 
-    return dict
+    return dictionary
 
 
 def prepare_train_test_(ratings, test_users, test_items):
