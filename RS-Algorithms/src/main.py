@@ -24,7 +24,6 @@
 
 import os
 import numpy as np
-import sys
 import ssmpy
 from myconfiguration import MyConfiguration as Config
 from data import id_to_index, three_columns_matrix_to_csr, save_final_data
@@ -83,20 +82,34 @@ if __name__ == '__main__':
     all_onto_lin = {}
     all_onto_resnik = {}
     all_onto_jc = {}
+
     all_als = {}
     all_bpr = {}
+    all_warp = {}
+
     all_als_onto_lin_m1 = {}
-    all_als_onto_resnik_m1 = {}
-    all_als_onto_jc_m1 = {}
     all_bpr_onto_lin_m1 = {}
+    all_warp_onto_lin_m1 = {}
+
+    all_als_onto_resnik_m1 = {}
     all_bpr_onto_resnik_m1 = {}
+    all_warp_onto_resnik_m1 = {}
+
+    all_als_onto_jc_m1 = {}
     all_bpr_onto_jc_m1 = {}
+    all_warp_onto_jc_m1 = {}
+
     all_als_onto_lin_m2 = {}
-    all_als_onto_resnik_m2 = {}
-    all_als_onto_jc_m2 = {}
     all_bpr_onto_lin_m2 = {}
+    all_warp_onto_lin_m2 = {}
+
+    all_als_onto_resnik_m2 = {}
     all_bpr_onto_resnik_m2 = {}
+    all_warp_onto_resnik_m2 = {}
+
+    all_als_onto_jc_m2 = {}
     all_bpr_onto_jc_m2 = {}
+    all_warp_onto_jc_m2 = {}
 
     cv_folds = config.cv
     n = config.n
@@ -118,12 +131,13 @@ if __name__ == '__main__':
             test_items = check_items_in_model(ratings_train.index_item.unique(), test_items)
             ratings_sparse = three_columns_matrix_to_csr(ratings_train)  # item, user, rating
 
-            onto_lin, onto_resnik, onto_jc, als, \
-                bpr, als_onto_lin_m1, als_onto_resnik_m1, \
-                als_onto_jc_m1, bpr_onto_lin_m1, bpr_onto_resnik_m1, \
-                bpr_onto_jc_m1, als_onto_lin_m2, als_onto_resnik_m2, \
-                als_onto_jc_m2, bpr_onto_lin_m2, bpr_onto_resnik_m2, \
-                bpr_onto_jc_m2 = get_evaluation(
+            onto_lin, onto_resnik, onto_jc, als, bpr, warp, \
+                als_onto_lin_m1, als_onto_resnik_m1, als_onto_jc_m1, \
+                bpr_onto_lin_m1, bpr_onto_resnik_m1, bpr_onto_jc_m1, \
+                warp_onto_lin_m1, warp_onto_resnik_m1, warp_onto_jc_m1, \
+                als_onto_lin_m2, als_onto_resnik_m2, als_onto_jc_m2, \
+                bpr_onto_lin_m2, bpr_onto_resnik_m2, bpr_onto_jc_m2, \
+                warp_onto_lin_m2, warp_onto_resnik_m2, warp_onto_jc_m2 = get_evaluation(
                     test_users,
                     test_users_size,
                     count_cv,
@@ -150,6 +164,13 @@ if __name__ == '__main__':
                 count_cv_items
             )
 
+            all_warp = add_dict(
+                all_warp,
+                warp,
+                count_cv,
+                count_cv_items
+            )
+
             if config.sim_metric in ('sim_lin', 'all'):
                 all_onto_lin = add_dict(
                     all_onto_lin,
@@ -165,12 +186,32 @@ if __name__ == '__main__':
                 )
                 all_bpr_onto_lin_m1 = add_dict(
                     all_bpr_onto_lin_m1,
-                    bpr_onto_lin_m1, count_cv,
+                    bpr_onto_lin_m1,
+                    count_cv,
                     count_cv_items
                 )
+                all_warp_onto_lin_m1 = add_dict(
+                    all_warp_onto_lin_m1,
+                    warp_onto_lin_m1,
+                    count_cv,
+                    count_cv_items
+                )
+
                 all_als_onto_lin_m2 = add_dict(
                     all_als_onto_lin_m2,
                     als_onto_lin_m2,
+                    count_cv,
+                    count_cv_items
+                )
+                all_bpr_onto_lin_m2 = add_dict(
+                    all_bpr_onto_lin_m2,
+                    bpr_onto_lin_m2,
+                    count_cv,
+                    count_cv_items
+                )
+                all_warp_onto_lin_m2 = add_dict(
+                    all_warp_onto_lin_m2,
+                    warp_onto_lin_m2,
                     count_cv,
                     count_cv_items
                 )
@@ -190,9 +231,17 @@ if __name__ == '__main__':
                 )
                 all_bpr_onto_resnik_m1 = add_dict(
                     all_bpr_onto_resnik_m1,
-                    bpr_onto_resnik_m1, count_cv,
+                    bpr_onto_resnik_m1,
+                    count_cv,
                     count_cv_items
                 )
+                all_warp_onto_resnik_m1 = add_dict(
+                    all_warp_onto_resnik_m1,
+                    warp_onto_resnik_m1,
+                    count_cv,
+                    count_cv_items
+                )
+
                 all_als_onto_resnik_m2 = add_dict(
                     all_als_onto_resnik_m2,
                     als_onto_resnik_m2,
@@ -202,6 +251,12 @@ if __name__ == '__main__':
                 all_bpr_onto_resnik_m2 = add_dict(
                     all_bpr_onto_resnik_m2,
                     bpr_onto_resnik_m2,
+                    count_cv,
+                    count_cv_items
+                )
+                all_warp_onto_resnik_m2 = add_dict(
+                    all_warp_onto_resnik_m2,
+                    warp_onto_resnik_m2,
                     count_cv,
                     count_cv_items
                 )
@@ -225,15 +280,16 @@ if __name__ == '__main__':
                     count_cv,
                     count_cv_items
                 )
-                all_als_onto_jc_m2 = add_dict(
-                    all_als_onto_jc_m2,
-                    als_onto_jc_m2,
+                all_warp_onto_jc_m1 = add_dict(
+                    all_warp_onto_jc_m1,
+                    warp_onto_jc_m1,
                     count_cv,
                     count_cv_items
                 )
-                all_bpr_onto_lin_m2 = add_dict(
-                    all_bpr_onto_lin_m2,
-                    bpr_onto_lin_m2,
+
+                all_als_onto_jc_m2 = add_dict(
+                    all_als_onto_jc_m2,
+                    als_onto_jc_m2,
                     count_cv,
                     count_cv_items
                 )
@@ -243,64 +299,93 @@ if __name__ == '__main__':
                     count_cv,
                     count_cv_items
                 )
+                all_warp_onto_jc_m2 = add_dict(
+                    all_warp_onto_jc_m2,
+                    warp_onto_jc_m2,
+                    count_cv,
+                    count_cv_items
+                )
 
-            sys.stdout.flush()
             count_cv_items += 1
-            # TO REMOVE
-            # if count_cv_items > 2:
-            #    break
 
         count_cv += 1
-        # TO REMOVE
-        # if count_cv > 2:
-        #        break
 
     # calculates mean and save to a csv file all metrics: [P, R, F, fpr, rr, nDCG, lauc] (preferencial order)
     PATH = "../mlData/results_nfolds"
     STR_N = "_nsimilar_"
-    all_als = calculate_dictionary_mean(all_als, float(cv_folds * cv_folds))
-    all_bpr = calculate_dictionary_mean(all_bpr, float(cv_folds * cv_folds))
-    save_final_data(all_als, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_ALS.csv')
-    save_final_data(all_bpr, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_BPR.csv')
+    COMPLETED_PATH = f'{PATH}{str(cv_folds)}{STR_N}{str(n)}'
+    FLOATED_FOLDS = float(cv_folds * cv_folds)
+
+    all_als = calculate_dictionary_mean(all_als, FLOATED_FOLDS)
+    all_bpr = calculate_dictionary_mean(all_bpr, FLOATED_FOLDS)
+    all_warp = calculate_dictionary_mean(all_warp, FLOATED_FOLDS)
+
+    save_final_data(all_als, f'{COMPLETED_PATH}_ALS.csv')
+    save_final_data(all_bpr, f'{COMPLETED_PATH}_BPR.csv')
+    save_final_data(all_warp, f'{COMPLETED_PATH}_WARP.csv')
 
     if config.sim_metric in ('sim_lin', 'all'):
-        all_onto_lin = calculate_dictionary_mean(all_onto_lin, float(cv_folds * cv_folds))
-        all_als_onto_lin_m1 = calculate_dictionary_mean(all_als_onto_lin_m1, float(cv_folds * cv_folds))
-        all_bpr_onto_lin_m1 = calculate_dictionary_mean(all_bpr_onto_lin_m1, float(cv_folds * cv_folds))
-        all_als_onto_lin_m2 = calculate_dictionary_mean(all_als_onto_lin_m2, float(cv_folds * cv_folds))
-        all_bpr_onto_lin_m2 = calculate_dictionary_mean(all_bpr_onto_lin_m2, float(cv_folds * cv_folds))
+        all_onto_lin = calculate_dictionary_mean(all_onto_lin, FLOATED_FOLDS)
 
-        save_final_data(all_onto_lin, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_onto_lin.csv')
-        save_final_data(all_als_onto_lin_m1, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_als_onto_lin_m1.csv')
-        save_final_data(all_bpr_onto_lin_m1, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_bpr_onto_lin_m1.csv')
-        save_final_data(all_als_onto_lin_m2, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_als_onto_lin_m2.csv')
-        save_final_data(all_bpr_onto_lin_m2, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_bpr_onto_lin_m2.csv')
+        all_als_onto_lin_m1 = calculate_dictionary_mean(all_als_onto_lin_m1, FLOATED_FOLDS)
+        all_bpr_onto_lin_m1 = calculate_dictionary_mean(all_bpr_onto_lin_m1, FLOATED_FOLDS)
+        all_warp_onto_lin_m1 = calculate_dictionary_mean(all_warp_onto_lin_m1, FLOATED_FOLDS)
+
+        all_als_onto_lin_m2 = calculate_dictionary_mean(all_als_onto_lin_m2, FLOATED_FOLDS)
+        all_bpr_onto_lin_m2 = calculate_dictionary_mean(all_bpr_onto_lin_m2, FLOATED_FOLDS)
+        all_warp_onto_lin_m2 = calculate_dictionary_mean(all_warp_onto_lin_m2, FLOATED_FOLDS)
+
+        save_final_data(all_onto_lin, f'{COMPLETED_PATH}_onto_lin.csv')
+
+        save_final_data(all_als_onto_lin_m1, f'{COMPLETED_PATH}_als_onto_lin_m1.csv')
+        save_final_data(all_bpr_onto_lin_m1, f'{COMPLETED_PATH}_bpr_onto_lin_m1.csv')
+        save_final_data(all_warp_onto_lin_m1, f'{COMPLETED_PATH}_warp_onto_lin_m1.csv')
+
+        save_final_data(all_als_onto_lin_m2, f'{COMPLETED_PATH}_als_onto_lin_m2.csv')
+        save_final_data(all_bpr_onto_lin_m2, f'{COMPLETED_PATH}_bpr_onto_lin_m2.csv')
+        save_final_data(all_warp_onto_lin_m2, f'{COMPLETED_PATH}_warp_onto_lin_m2.csv')
 
     if config.sim_metric in ('sim_resnik', 'all'):
-        all_onto_resnik = calculate_dictionary_mean(all_onto_resnik, float(cv_folds * cv_folds))
-        all_als_onto_resnik_m1 = calculate_dictionary_mean(all_als_onto_resnik_m1, float(cv_folds * cv_folds))
-        all_bpr_onto_resnik_m1 = calculate_dictionary_mean(all_bpr_onto_resnik_m1, float(cv_folds * cv_folds))
-        all_als_onto_resnik_m2 = calculate_dictionary_mean(all_als_onto_resnik_m2, float(cv_folds * cv_folds))
-        all_bpr_onto_resnik_m2 = calculate_dictionary_mean(all_bpr_onto_resnik_m2, float(cv_folds * cv_folds))
+        all_onto_resnik = calculate_dictionary_mean(all_onto_resnik, FLOATED_FOLDS)
 
-        save_final_data(all_onto_resnik, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_onto_resnik.csv')
-        save_final_data(all_als_onto_resnik_m1, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_als_onto_resnik_m1.csv')
-        save_final_data(all_bpr_onto_resnik_m1, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_bpr_onto_resnik_m1.csv')
-        save_final_data(all_als_onto_resnik_m2, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_als_onto_resnik_m2.csv')
-        save_final_data(all_bpr_onto_resnik_m2, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_bpr_onto_resnik_m2.csv')
+        all_als_onto_resnik_m1 = calculate_dictionary_mean(all_als_onto_resnik_m1, FLOATED_FOLDS)
+        all_bpr_onto_resnik_m1 = calculate_dictionary_mean(all_bpr_onto_resnik_m1, FLOATED_FOLDS)
+        all_warp_onto_resnik_m1 = calculate_dictionary_mean(all_warp_onto_resnik_m1, FLOATED_FOLDS)
+
+        all_als_onto_resnik_m2 = calculate_dictionary_mean(all_als_onto_resnik_m2, FLOATED_FOLDS)
+        all_bpr_onto_resnik_m2 = calculate_dictionary_mean(all_bpr_onto_resnik_m2, FLOATED_FOLDS)
+        all_warp_onto_resnik_m2 = calculate_dictionary_mean(all_warp_onto_resnik_m2, FLOATED_FOLDS)
+
+        save_final_data(all_onto_resnik, f'{COMPLETED_PATH}_onto_resnik.csv')
+
+        save_final_data(all_als_onto_resnik_m1, f'{COMPLETED_PATH}_als_onto_resnik_m1.csv')
+        save_final_data(all_bpr_onto_resnik_m1, f'{COMPLETED_PATH}_bpr_onto_resnik_m1.csv')
+        save_final_data(all_warp_onto_resnik_m1, f'{COMPLETED_PATH}_warp_onto_resnik_m1.csv')
+
+        save_final_data(all_als_onto_resnik_m2, f'{COMPLETED_PATH}_als_onto_resnik_m2.csv')
+        save_final_data(all_bpr_onto_resnik_m2, f'{COMPLETED_PATH}_bpr_onto_resnik_m2.csv')
+        save_final_data(all_warp_onto_resnik_m2, f'{COMPLETED_PATH}_warp_onto_resnik_m2.csv')
 
     if config.sim_metric in ('sim_jc', 'all'):
-        all_onto_jc = calculate_dictionary_mean(all_onto_jc, float(cv_folds * cv_folds))
-        all_als_onto_jc_m1 = calculate_dictionary_mean(all_als_onto_jc_m1, float(cv_folds * cv_folds))
-        all_bpr_onto_jc_m1 = calculate_dictionary_mean(all_bpr_onto_jc_m1, float(cv_folds * cv_folds))
-        all_als_onto_jc_m2 = calculate_dictionary_mean(all_als_onto_jc_m2, float(cv_folds * cv_folds))
-        all_bpr_onto_jc_m2 = calculate_dictionary_mean(all_bpr_onto_jc_m2, float(cv_folds * cv_folds))
+        all_onto_jc = calculate_dictionary_mean(all_onto_jc, FLOATED_FOLDS)
 
-        save_final_data(all_onto_jc, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_onto_jc.csv')
-        save_final_data(all_als_onto_jc_m1, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_als_onto_jc_m1.csv')
-        save_final_data(all_bpr_onto_jc_m1, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_bpr_onto_jc_m1.csv')
-        save_final_data(all_als_onto_jc_m2, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_als_onto_jc_m2.csv')
-        save_final_data(all_bpr_onto_jc_m2, f'{PATH}{str(cv_folds)}{STR_N}{str(n)}_bpr_onto_jc_m2.csv')
+        all_als_onto_jc_m1 = calculate_dictionary_mean(all_als_onto_jc_m1, FLOATED_FOLDS)
+        all_bpr_onto_jc_m1 = calculate_dictionary_mean(all_bpr_onto_jc_m1, FLOATED_FOLDS)
+        all_warp_onto_jc_m1 = calculate_dictionary_mean(all_warp_onto_jc_m1, FLOATED_FOLDS)
+
+        all_als_onto_jc_m2 = calculate_dictionary_mean(all_als_onto_jc_m2, FLOATED_FOLDS)
+        all_bpr_onto_jc_m2 = calculate_dictionary_mean(all_bpr_onto_jc_m2, FLOATED_FOLDS)
+        all_warp_onto_jc_m2 = calculate_dictionary_mean(all_warp_onto_jc_m2, FLOATED_FOLDS)
+
+        save_final_data(all_onto_jc, f'{COMPLETED_PATH}_onto_jc.csv')
+
+        save_final_data(all_als_onto_jc_m1, f'{COMPLETED_PATH}_als_onto_jc_m1.csv')
+        save_final_data(all_bpr_onto_jc_m1, f'{COMPLETED_PATH}_bpr_onto_jc_m1.csv')
+        save_final_data(all_warp_onto_jc_m1, f'{COMPLETED_PATH}_warp_onto_jc_m1.csv')
+
+        save_final_data(all_als_onto_jc_m2, f'{COMPLETED_PATH}_als_onto_jc_m2.csv')
+        save_final_data(all_bpr_onto_jc_m2, f'{COMPLETED_PATH}_bpr_onto_jc_m2.csv')
+        save_final_data(all_warp_onto_jc_m2, f'{COMPLETED_PATH}_warp_onto_jc_m2.csv')
 
     # save time process
     end_time = datetime.now()
@@ -314,4 +399,3 @@ if __name__ == '__main__':
             ds=config.dataset,
             onto=config.item_prefix)
         )
-        f.close()

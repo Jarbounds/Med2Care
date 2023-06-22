@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+from lenskit.metrics import predict
+from pandas import DataFrame
 from pathlib import Path
 from sklearn import metrics
 
@@ -31,19 +33,18 @@ def get_top_n(items_scores, n):
 # ----------------------------------------------------------------------------------------------------- #
 # Precision
 
-def precision(recomendations, relevant):
-    mask = np.isin(recomendations, relevant)
-    return len(recomendations[mask]) / len(recomendations)
+def precision(recommendations, relevant):
+    mask = np.isin(recommendations, relevant)
+    return len(recommendations[mask]) / len(recommendations)
 
 
 # ----------------------------------------------------------------------------------------------------- #
 # Recall
 
-def recall(recomendations, relevant):
-    mask = np.isin(recomendations, relevant)
+def recall(recommendations, relevant):
+    mask = np.isin(recommendations, relevant)
     if len(relevant != 0):
-        return len(recomendations[mask]) / len(relevant)
-
+        return len(recommendations[mask]) / len(relevant)
     else:
         return 0
 
@@ -58,11 +59,9 @@ def fmeasure(precision, recall):
         return 2 * ((precision * recall) / (precision + recall))
 
 
-# ----------------------------------------------------------------------------------------------------- #
-# dcg
-
-def get_real_item_rating(rank, user_ratings):
+def get_real_item_rating(rank, user_ratings: DataFrame):
     # map the items to the rating given by the user
+    # Todo: Create a new unique index
     user_ratings = user_ratings.drop_duplicates()
     rank["rating"] = rank["item"].map(user_ratings.set_index('index_item')["rating"]).fillna(0)
     return rank

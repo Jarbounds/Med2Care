@@ -44,7 +44,6 @@ from database import get_read_all
 from myconfiguration import MyConfiguration as Config
 from multiprocessing import cpu_count
 
-
 RANDOM_STATE = 123321
 
 
@@ -269,13 +268,14 @@ def get_evaluation(
     model_bayes = BayesianPersonalizedRanking(
         factors=150,
         num_threads=cpu_count(),
-        use_gpu=True,
+        use_gpu=False,
         random_state=RANDOM_STATE
     )
     model_als = AlternatingLeastSquares(
         factors=150,
         num_threads=cpu_count(),
-        use_gpu=True, random_state=RANDOM_STATE
+        use_gpu=False,
+        random_state=RANDOM_STATE
     )
     model_warp = LightFM(
         no_components=150,
