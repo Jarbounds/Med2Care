@@ -1,17 +1,18 @@
 import pandas as pd
 import numpy as np
+import sqlite3
+import mysql.connector as connector
 from itertools import product
-
 from mysql.connector import MySQLConnection
 from mysql.connector.cursor import MySQLCursor
 from sqlalchemy import create_engine
-import mysql.connector
-import sqlite3
-from sqlite3 import Error
 from myconfiguration import MyConfiguration as Config
 
 
-# ----------------------------------------------------------------------------------------------------- #
+def print_mysql_error(e: Exception):
+    print('Error during database interaction, printing exception...')
+    print(e)
+
 
 def create_default_connection_mysql():
     """
@@ -22,7 +23,7 @@ def create_default_connection_mysql():
     """
     conf = Config.get_instance()
     assert isinstance(conf.password, object)
-    my_db = mysql.connector.connect(
+    my_db = connector.connect(
         host=conf.host,
         port=conf.port,
         user=conf.user,
@@ -31,8 +32,6 @@ def create_default_connection_mysql():
     )
     return my_db
 
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def create_connection_mysql():
     """ create a connection to the mysql database
@@ -47,8 +46,6 @@ def create_connection_mysql():
     return my_db
 
 
-# ----------------------------------------------------------------------------------------------------- #
-
 def create_connection_sqlite(sb_file):
     """
     Create a database connection to the SQLite database
@@ -60,13 +57,11 @@ def create_connection_sqlite(sb_file):
     try:
         conn = sqlite3.connect(sb_file)
         return conn
-    except Error as e:
-        print(e)
+    except Exception as e:
+        print_mysql_error(e)
 
     return None
 
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def create_engine_mysql():
     """
@@ -95,8 +90,6 @@ def create_engine_mysql():
     )
 
 
-# ----------------------------------------------------------------------------------------------------- #
-
 def check_database():
     """
     check the existence of a database with the name defined in configurations.ini
@@ -124,8 +117,8 @@ def check_database():
         else:
             print("Will create database")
             my_cursor.execute("CREATE DATABASE " + db_name)
-    except Error as e:
-        print("Error while connecting to MySQL", e)
+    except Exception as e:
+        print_mysql_error(e)
     finally:
         if my_db is not None and my_db.is_connected():
             if my_cursor is not None:
@@ -156,7 +149,7 @@ def table_exists(database: str, table_name: str) -> bool:
 
         return table_name in results
     except Exception as e:
-        print(e)
+        print_mysql_error(e)
     finally:
         if my_db is not None and my_db.is_connected():
             if my_cursor is not None:
@@ -182,21 +175,27 @@ def create_table(database: str, table_name: str):
         my_cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
 
         my_cursor.execute(
-            f"CREATE TABLE `{table_name}` (`id` INT NOT NULL AUTO_INCREMENT, `comp_1` INT NOT NULL,  `comp_2` INT NOT NULL, "
-            "`sim_resnik` FLOAT NOT NULL, `sim_lin` FLOAT NOT NULL, `sim_jc` FLOAT NOT NULL, PRIMARY KEY (`id`), "
-            "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
+            f"create table `{table_name}` ( "
+            "`id` int not null auto_increment, "
+            "`comp_1` int not null, "
+            "`comp_2` int not null, "
+            "`sim_resnik` float not null, "
+            "`sim_lin` float not null, "
+            "`sim_jc` float not null, "
+            "primary key (`id`), "
+            "index sim (`comp_1`,`comp_2`) "
+            ") ENGINE = InnoDB"
+        )
 
         my_cursor.execute("SET FOREIGN_KEY_CHECKS = 1")
 
-    except Error as e:
-        print("Error while connecting to MySQL", e)
+    except Exception as e:
+        print_mysql_error(e)
     finally:
         if my_db.is_connected():
             my_cursor.close()
             my_db.close()
 
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def insert_row(it1, it2, sim_res, sim_l, sim_j):
     """
@@ -222,8 +221,8 @@ def insert_row(it1, it2, sim_res, sim_l, sim_j):
         my_cursor.execute(sql, val)
 
         my_db.commit()
-    except Error as e:
-        print("Error while connecting to MySQL", e)
+    except Exception as e:
+        print_mysql_error(e)
     finally:
         if my_db.is_connected():
             my_cursor.close()
@@ -251,8 +250,8 @@ def get_sim_where_comp(it1, it2):
         my_cursor = my_cursor.fetchall()
         len_my_cursor = len(my_cursor)
 
-    except Error as e:
-        print("Error while connecting to MySQL", e)
+    except Exception as e:
+        print_mysql_error(e)
     finally:
         if my_db.is_connected():
             my_cursor.close()
@@ -343,8 +342,8 @@ def get_sims(entry_ids_1, entry_ids_2):
         else:
             result = pd.DataFrame(columns=['id', 'comp_1', 'comp_2'])
 
-    except Error as e:
-        print("Error while connecting to MySQL", e)
+    except Exception as e:
+        print_mysql_error(e)
     finally:
         if my_db.is_connected():
             my_cursor.close()
@@ -377,16 +376,14 @@ def get_read_all(entry_ids_1, entry_ids_2):
 
         result = pd.read_sql_query(sql, con=my_db)
 
-    except Error as e:
-        print("Error while connecting to MySQL", e)
+    except Exception as e:
+        print_mysql_error(e)
     finally:
         if my_db.is_connected():
             my_db.close()
 
     return result
 
-
-# ----------------------------------------------------------------------------------------------------- #
 
 def save_to_mysql(df, engine, table_name, name_prefix):
     """
