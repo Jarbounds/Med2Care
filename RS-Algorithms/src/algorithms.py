@@ -27,7 +27,6 @@ import pandas as pd
 from pandas import DataFrame
 from implicit.bpr import BayesianPersonalizedRanking
 from implicit.als import AlternatingLeastSquares
-from lightfm import LightFM
 from recommender_evaluation import \
     get_top_n, \
     get_real_item_rating, \
@@ -50,11 +49,6 @@ RANDOM_STATE = 123321
 def recommendations_implicit(model, train_data, test_items, user):
     user_items = train_data.T.tocsr()  # user, item, rating
     return model.rank_items(userid=user, user_items=user_items, selected_items=test_items)
-
-
-def recommendations_lightfm(model: LightFM, train_data, test_items, test_user):
-    user_items = train_data.T.tocsr()
-    return model.predict_rank(test_interactions=test_items, train_interactions=user_items, num_threads=cpu_count())
 
 
 def map_original_id_to_system_id(item_score, original_item_id):
@@ -182,22 +176,29 @@ def all_evaluation_metrics(item_score, ratings_t_us, test_items, relevant, metri
         if len(metrics_dict) != k:
             metrics_dict.update(
                 {
-                    'top' + str(i):
-                        [
-                            precision_eval_metric,
-                            recall_eval_metric,
-                            f1_score_eval_metric,
-                            fpr_eval_metric,
-                            reciprocal_rank_eval_metric,
-                            ndcg_eval_metric,
-                            auc_eval_metric
-                        ]
+                    'top' + str(i): [
+                        precision_eval_metric,
+                        recall_eval_metric,
+                        f1_score_eval_metric,
+                        fpr_eval_metric,
+                        reciprocal_rank_eval_metric,
+                        ndcg_eval_metric,
+                        auc_eval_metric
+                    ]
                 }
             )
 
         else:
             old = np.array(metrics_dict['top' + str(i)])
-            new = np.array([precision_eval_metric, recall_eval_metric, f1_score_eval_metric, false_positive_rate, reciprocal_rank_eval_metric, ndcg_eval_metric, auc_eval_metric])
+            new = np.array([
+                precision_eval_metric,
+                recall_eval_metric,
+                f1_score_eval_metric,
+                fpr_eval_metric,
+                reciprocal_rank_eval_metric,
+                ndcg_eval_metric,
+                auc_eval_metric]
+            )
 
             to_update = old + new
             metrics_dict.update({'top' + str(i): to_update})
@@ -233,27 +234,22 @@ def get_evaluation(
     :return: metrics_dict* for all algorithms (and combinations) and all the metrics
     """
 
-    # CB (TODO: Is it Content Based???)
+    # CB (Content Based)
     onto_lin = {}
     onto_resnik = {}
     onto_jc = {}
 
-    # CF (TODO: Is it Collaborative Filtering???)
+    # CF (Collaborative Filtering)
     als = {}
     bpr = {}
-    warp = {}
-    # item_item = {}
 
-    # Hybrid (TODO: What is this)
+    # Hybrid
     als_onto_lin_m1 = {}
     als_onto_resnik_m1 = {}
     als_onto_jc_m1 = {}
     bpr_onto_lin_m1 = {}
     bpr_onto_resnik_m1 = {}
     bpr_onto_jc_m1 = {}
-    warp_onto_lin_m1 = {}
-    warp_onto_resnik_m1 = {}
-    warp_onto_jc_m1 = {}
 
     als_onto_lin_m2 = {}
     als_onto_resnik_m2 = {}
@@ -261,9 +257,20 @@ def get_evaluation(
     bpr_onto_lin_m2 = {}
     bpr_onto_resnik_m2 = {}
     bpr_onto_jc_m2 = {}
-    warp_onto_lin_m2 = {}
-    warp_onto_resnik_m2 = {}
-    warp_onto_jc_m2 = {}
+
+    als_onto_lin_m3 = {}
+    als_onto_resnik_m3 = {}
+    als_onto_jc_m3 = {}
+    bpr_onto_lin_m3 = {}
+    bpr_onto_resnik_m3 = {}
+    bpr_onto_jc_m3 = {}
+
+    als_onto_lin_m4 = {}
+    als_onto_resnik_m4 = {}
+    als_onto_jc_m4 = {}
+    bpr_onto_lin_m4 = {}
+    bpr_onto_resnik_m4 = {}
+    bpr_onto_jc_m4 = {}
 
     model_bayes = BayesianPersonalizedRanking(
         factors=150,
@@ -277,15 +284,9 @@ def get_evaluation(
         use_gpu=False,
         random_state=RANDOM_STATE
     )
-    model_warp = LightFM(
-        no_components=150,
-        loss='warp',
-        random_state=RANDOM_STATE
-    )
 
     model_als.fit(ratings_train_sparse_cf)
     model_bayes.fit(ratings_train_sparse_cf)
-    model_warp.fit(ratings_train_sparse_cf)
 
     progress = 0
     users_to_remove = 0
@@ -343,32 +344,38 @@ def get_evaluation(
         iscore_implicit_bpr = get_score_by_implicit(model_bayes, ratings_train_sparse_cf, test_items, t_us)
         iscore_implicit_bpr = map_system_id_to_original_id(iscore_implicit_bpr, original_item_id)
 
-        iscore_lightfm_warp = get_score_by_lightfm(model_warp, ratings_train_sparse_cf, test_items, t_us)
-        iscore_lightfm_warp = map_system_id_to_original_id(iscore_lightfm_warp, original_item_id)
-
         if metric in ('sim_lin', 'all'):
             iscore_als_onto_lin_m1 = merge_algorithms_scores(iscore_lin, iscore_implicit_als, 1)
             iscore_als_onto_lin_m2 = merge_algorithms_scores(iscore_lin, iscore_implicit_als, 2)
+            iscore_als_onto_lin_m3 = merge_algorithms_scores(iscore_lin, iscore_implicit_als, 3)
+            iscore_als_onto_lin_m4 = merge_algorithms_scores(iscore_lin, iscore_implicit_als, 4)
+
             iscore_bpr_onto_lin_m1 = merge_algorithms_scores(iscore_lin, iscore_implicit_bpr, 1)
             iscore_bpr_onto_lin_m2 = merge_algorithms_scores(iscore_lin, iscore_implicit_bpr, 2)
-            iscore_warp_onto_lin_m1 = merge_algorithms_scores(iscore_lin, iscore_lightfm_warp, 1)
-            iscore_warp_onto_lin_m2 = merge_algorithms_scores(iscore_lin, iscore_lightfm_warp, 2)
+            iscore_bpr_onto_lin_m3 = merge_algorithms_scores(iscore_lin, iscore_implicit_bpr, 3)
+            iscore_bpr_onto_lin_m4 = merge_algorithms_scores(iscore_lin, iscore_implicit_bpr, 4)
 
         if metric in ('sim_resnik', 'all'):
             iscore_als_onto_resnik_m1 = merge_algorithms_scores(iscore_resnik, iscore_implicit_als, 1)
             iscore_als_onto_resnik_m2 = merge_algorithms_scores(iscore_resnik, iscore_implicit_als, 2)
+            iscore_als_onto_resnik_m3 = merge_algorithms_scores(iscore_resnik, iscore_implicit_als, 3)
+            iscore_als_onto_resnik_m4 = merge_algorithms_scores(iscore_resnik, iscore_implicit_als, 4)
+
             iscore_bpr_onto_resnik_m1 = merge_algorithms_scores(iscore_resnik, iscore_implicit_bpr, 1)
             iscore_bpr_onto_resnik_m2 = merge_algorithms_scores(iscore_resnik, iscore_implicit_bpr, 2)
-            iscore_warp_onto_resnik_m1 = merge_algorithms_scores(iscore_resnik, iscore_lightfm_warp, 1)
-            iscore_warp_onto_resnik_m2 = merge_algorithms_scores(iscore_resnik, iscore_lightfm_warp, 2)
+            iscore_bpr_onto_resnik_m3 = merge_algorithms_scores(iscore_resnik, iscore_implicit_bpr, 3)
+            iscore_bpr_onto_resnik_m4 = merge_algorithms_scores(iscore_resnik, iscore_implicit_bpr, 4)
 
         if metric in ('sim_jc', 'all'):
             iscore_als_onto_jc_m1 = merge_algorithms_scores(iscore_jc, iscore_implicit_als, 1)
             iscore_als_onto_jc_m2 = merge_algorithms_scores(iscore_jc, iscore_implicit_als, 2)
+            iscore_als_onto_jc_m3 = merge_algorithms_scores(iscore_jc, iscore_implicit_als, 3)
+            iscore_als_onto_jc_m4 = merge_algorithms_scores(iscore_jc, iscore_implicit_als, 4)
+
             iscore_bpr_onto_jc_m1 = merge_algorithms_scores(iscore_jc, iscore_implicit_bpr, 1)
             iscore_bpr_onto_jc_m2 = merge_algorithms_scores(iscore_jc, iscore_implicit_bpr, 2)
-            iscore_warp_onto_jc_m1 = merge_algorithms_scores(iscore_jc, iscore_lightfm_warp, 1)
-            iscore_warp_onto_jc_m2 = merge_algorithms_scores(iscore_jc, iscore_lightfm_warp, 2)
+            iscore_bpr_onto_jc_m3 = merge_algorithms_scores(iscore_jc, iscore_implicit_bpr, 3)
+            iscore_bpr_onto_jc_m4 = merge_algorithms_scores(iscore_jc, iscore_implicit_bpr, 4)
 
         relevant = get_relevants_by_user(ratings_test_t_us, 0)
 
@@ -406,14 +413,6 @@ def get_evaluation(
                 bpr_onto_lin_m1
             )
 
-            warp_onto_lin_m1 = all_evaluation_metrics(
-                iscore_warp_onto_lin_m1,
-                ratings_test_t_us,
-                test_items,
-                relevant.index_item,
-                warp_onto_lin_m1
-            )
-
             # hybrid metric 2
             als_onto_lin_m2 = all_evaluation_metrics(
                 iscore_als_onto_lin_m2,
@@ -431,12 +430,38 @@ def get_evaluation(
                 bpr_onto_lin_m2
             )
 
-            warp_onto_lin_m2 = all_evaluation_metrics(
-                iscore_warp_onto_lin_m2,
+            # hybrid metric 3
+            als_onto_lin_m3 = all_evaluation_metrics(
+                iscore_als_onto_lin_m3,
                 ratings_test_t_us,
                 test_items,
                 relevant.index_item,
-                warp_onto_lin_m2
+                als_onto_lin_m3
+            )
+
+            bpr_onto_lin_m3 = all_evaluation_metrics(
+                iscore_bpr_onto_lin_m3,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                bpr_onto_lin_m3
+            )
+
+            # hybrid metric 4
+            als_onto_lin_m4 = all_evaluation_metrics(
+                iscore_als_onto_lin_m4,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                als_onto_lin_m4
+            )
+
+            bpr_onto_lin_m4 = all_evaluation_metrics(
+                iscore_bpr_onto_lin_m4,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                bpr_onto_lin_m4
             )
 
         if metric in ('sim_resnik', 'all'):
@@ -466,15 +491,7 @@ def get_evaluation(
                 bpr_onto_resnik_m1
             )
 
-            warp_onto_resnik_m1 = all_evaluation_metrics(
-                iscore_warp_onto_resnik_m1,
-                ratings_test_t_us,
-                test_items,
-                relevant.index_item,
-                warp_onto_resnik_m1
-            )
-
-            # hybrid metric 2       
+            # hybrid metric 2
             als_onto_resnik_m2 = all_evaluation_metrics(
                 iscore_als_onto_resnik_m2,
                 ratings_test_t_us,
@@ -491,12 +508,38 @@ def get_evaluation(
                 bpr_onto_resnik_m2
             )
 
-            warp_onto_resnik_m2 = all_evaluation_metrics(
-                iscore_warp_onto_resnik_m2,
+            # hybrid metric 3
+            als_onto_resnik_m3 = all_evaluation_metrics(
+                iscore_als_onto_resnik_m3,
                 ratings_test_t_us,
                 test_items,
                 relevant.index_item,
-                warp_onto_resnik_m2
+                als_onto_resnik_m3
+            )
+
+            bpr_onto_resnik_m3 = all_evaluation_metrics(
+                iscore_bpr_onto_resnik_m3,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                bpr_onto_resnik_m3
+            )
+
+            # hybrid metric 4
+            als_onto_resnik_m4 = all_evaluation_metrics(
+                iscore_als_onto_resnik_m4,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                als_onto_resnik_m4
+            )
+
+            bpr_onto_resnik_m4 = all_evaluation_metrics(
+                iscore_bpr_onto_resnik_m4,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                bpr_onto_resnik_m4
             )
 
         if metric in ('sim_jc', 'all'):
@@ -526,15 +569,7 @@ def get_evaluation(
                 bpr_onto_jc_m1
             )
 
-            warp_onto_jc_m1 = all_evaluation_metrics(
-                iscore_warp_onto_jc_m1,
-                ratings_test_t_us,
-                test_items,
-                relevant.index_item,
-                warp_onto_jc_m1
-            )
-
-            # hybrid metric 2  
+            # hybrid metric 2
             als_onto_jc_m2 = all_evaluation_metrics(
                 iscore_als_onto_jc_m2,
                 ratings_test_t_us,
@@ -551,12 +586,38 @@ def get_evaluation(
                 bpr_onto_jc_m2
             )
 
-            warp_onto_jc_m2 = all_evaluation_metrics(
-                iscore_warp_onto_jc_m2,
+            # hybrid metric 3
+            als_onto_jc_m3 = all_evaluation_metrics(
+                iscore_als_onto_jc_m3,
                 ratings_test_t_us,
                 test_items,
                 relevant.index_item,
-                warp_onto_jc_m2
+                als_onto_jc_m3
+            )
+
+            bpr_onto_jc_m3 = all_evaluation_metrics(
+                iscore_bpr_onto_jc_m3,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                bpr_onto_jc_m3
+            )
+
+            # hybrid metric 4
+            als_onto_jc_m4 = all_evaluation_metrics(
+                iscore_als_onto_jc_m4,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                als_onto_jc_m4
+            )
+
+            bpr_onto_jc_m4 = all_evaluation_metrics(
+                iscore_bpr_onto_jc_m4,
+                ratings_test_t_us,
+                test_items,
+                relevant.index_item,
+                bpr_onto_jc_m4
             )
 
     print("users size: ", test_users_size)
@@ -567,99 +628,64 @@ def get_evaluation(
 
     als = calculate_dictionary_mean(als, floated_test_users_size)
     bpr = calculate_dictionary_mean(bpr, floated_test_users_size)
-    warp = calculate_dictionary_mean(warp, floated_test_users_size)
 
     if metric in ('sim_lin', 'all'):
         onto_lin = calculate_dictionary_mean(onto_lin, floated_test_users_size)
+
         als_onto_lin_m1 = calculate_dictionary_mean(als_onto_lin_m1, floated_test_users_size)
         bpr_onto_lin_m1 = calculate_dictionary_mean(bpr_onto_lin_m1, floated_test_users_size)
-        warp_onto_lin_m1 = calculate_dictionary_mean(warp_onto_lin_m1, floated_test_users_size)
 
         als_onto_lin_m2 = calculate_dictionary_mean(als_onto_lin_m2, floated_test_users_size)
         bpr_onto_lin_m2 = calculate_dictionary_mean(bpr_onto_lin_m2, floated_test_users_size)
-        warp_onto_lin_m2 = calculate_dictionary_mean(warp_onto_lin_m2, floated_test_users_size)
+
+        als_onto_lin_m3 = calculate_dictionary_mean(als_onto_lin_m3, floated_test_users_size)
+        bpr_onto_lin_m3 = calculate_dictionary_mean(bpr_onto_lin_m3, floated_test_users_size)
+
+        als_onto_lin_m4 = calculate_dictionary_mean(als_onto_lin_m4, floated_test_users_size)
+        bpr_onto_lin_m4 = calculate_dictionary_mean(bpr_onto_lin_m4, floated_test_users_size)
 
     if metric in ('sim_resnik', 'all'):
         onto_resnik = calculate_dictionary_mean(onto_resnik, floated_test_users_size)
+
         als_onto_resnik_m1 = calculate_dictionary_mean(als_onto_resnik_m1, floated_test_users_size)
         bpr_onto_resnik_m1 = calculate_dictionary_mean(bpr_onto_resnik_m1, floated_test_users_size)
-        warp_onto_resnik_m1 = calculate_dictionary_mean(warp_onto_resnik_m1, floated_test_users_size)
 
         als_onto_resnik_m2 = calculate_dictionary_mean(als_onto_resnik_m2, floated_test_users_size)
         bpr_onto_resnik_m2 = calculate_dictionary_mean(bpr_onto_resnik_m2, floated_test_users_size)
-        warp_onto_resnik_m2 = calculate_dictionary_mean(warp_onto_resnik_m2, floated_test_users_size)
+
+        als_onto_resnik_m3 = calculate_dictionary_mean(als_onto_resnik_m3, floated_test_users_size)
+        bpr_onto_resnik_m3 = calculate_dictionary_mean(bpr_onto_resnik_m3, floated_test_users_size)
+
+        als_onto_resnik_m4 = calculate_dictionary_mean(als_onto_resnik_m4, floated_test_users_size)
+        bpr_onto_resnik_m4 = calculate_dictionary_mean(bpr_onto_resnik_m4, floated_test_users_size)
 
     if metric in ('sim_jc', 'all'):
         onto_jc = calculate_dictionary_mean(onto_jc, floated_test_users_size)
         als_onto_jc_m1 = calculate_dictionary_mean(als_onto_jc_m1, floated_test_users_size)
         bpr_onto_jc_m1 = calculate_dictionary_mean(bpr_onto_jc_m1, floated_test_users_size)
-        warp_onto_jc_m1 = calculate_dictionary_mean(warp_onto_jc_m1, floated_test_users_size)
 
         als_onto_jc_m2 = calculate_dictionary_mean(als_onto_jc_m2, floated_test_users_size)
         bpr_onto_jc_m2 = calculate_dictionary_mean(bpr_onto_jc_m2, floated_test_users_size)
-        warp_onto_jc_m2 = calculate_dictionary_mean(warp_onto_jc_m2, floated_test_users_size)
+
+        als_onto_jc_m3 = calculate_dictionary_mean(als_onto_jc_m3, floated_test_users_size)
+        bpr_onto_jc_m3 = calculate_dictionary_mean(bpr_onto_jc_m3, floated_test_users_size)
+
+        als_onto_jc_m4 = calculate_dictionary_mean(als_onto_jc_m4, floated_test_users_size)
+        bpr_onto_jc_m4 = calculate_dictionary_mean(bpr_onto_jc_m4, floated_test_users_size)
 
     del model_bayes
     del model_als
-    del model_warp
     gc.collect()
 
-    return onto_lin, onto_resnik, onto_jc, als, bpr, warp, \
+    return onto_lin, onto_resnik, onto_jc, als, bpr, \
         als_onto_lin_m1, als_onto_resnik_m1, als_onto_jc_m1, \
         bpr_onto_lin_m1, bpr_onto_resnik_m1, bpr_onto_jc_m1, \
-        warp_onto_lin_m1, warp_onto_resnik_m1, warp_onto_jc_m1, \
         als_onto_lin_m2, als_onto_resnik_m2, als_onto_jc_m2, \
         bpr_onto_lin_m2, bpr_onto_resnik_m2, bpr_onto_jc_m2, \
-        warp_onto_lin_m2, warp_onto_resnik_m2, warp_onto_jc_m2
-
-
-def get_all_metrics_by_cv_implicit(
-        test_users,
-        test_users_size,
-        count_cv,
-        count_cv_items,
-        ratings_test,
-        model_als,
-        ratings_sparse,
-        test_items,
-        train_ratings
-):
-    metrics_dict = {}
-
-    progress = 0
-    users_to_remove = 0
-    relevant_items_sum = 0
-
-    for t_us in test_users:
-
-        progress += 1
-        print(progress, ' of ', test_users_size, "cv ", count_cv, "-", count_cv_items, end="\r")
-
-        ratings_t_us = ratings_test[ratings_test.user == t_us]
-        train_ratings_t_us = train_ratings[train_ratings.user == t_us]
-
-        if np.sum(ratings_t_us.rating) == 0:
-            users_to_remove += 1
-            continue
-
-        if len(train_ratings_t_us) == 0:
-            users_to_remove += 1
-            continue
-
-        relevant = get_relevants_by_user(ratings_t_us, 0)
-        relevant_items_sum += len(relevant)
-
-        item_score = recommendations_implicit(model_als, ratings_sparse, test_items, t_us)
-        item_score = DataFrame(np.array(item_score), columns=["item", "score"])
-
-        metrics_dict = all_evaluation_metrics(item_score, ratings_t_us, test_items, relevant, metrics_dict)
-
-    return metrics_dict_aux(test_users_size, users_to_remove, relevant_items_sum, metrics_dict)
-
-
-def metrics_dict_aux(users_size, users_to_remove, relevant, metrics):
-    users_size = users_size - users_to_remove
-    return calculate_dictionary_mean(metrics, float(users_size))
+        als_onto_lin_m3, als_onto_resnik_m3, als_onto_jc_m3, \
+        bpr_onto_lin_m3, bpr_onto_resnik_m3, bpr_onto_jc_m3, \
+        als_onto_lin_m4, als_onto_resnik_m4, als_onto_jc_m4, \
+        bpr_onto_lin_m4, bpr_onto_resnik_m4, bpr_onto_jc_m4
 
 
 def get_score_by_item(test_items_onto_id, train_items_for_t_us):
@@ -683,11 +709,14 @@ def merge_algorithms_scores(iscore_ontology, iscore_implicit, metric):
 
     merged_item_scores = pd.merge(iscore_implicit, iscore_ontology, on='item')
 
-    if metric == 1:
+    if metric == 1:  # 'geometric'
         merged_item_scores['score'] = merged_item_scores.score_x * merged_item_scores.score_y
-
-    elif metric == 2:
+    elif metric == 2:  # 'arithmetic'
         merged_item_scores['score'] = (merged_item_scores.score_x + merged_item_scores.score_y) / 2
+    elif metric == 3:  # 'quadratic'
+        merged_item_scores['score'] = np.sqrt(merged_item_scores.score_x ** 2 + merged_item_scores.score_y ** 2) / 2
+    elif metric == 4:  # 'harmonic'
+        merged_item_scores['score'] = 2 / (1 / merged_item_scores.score_x + 1 / merged_item_scores.score_y)
 
     return merged_item_scores[
         ['item', 'score', 'item_' + Config.get_instance().item_prefix + 'x']
@@ -696,13 +725,6 @@ def merge_algorithms_scores(iscore_ontology, iscore_implicit, metric):
 
 def get_score_by_implicit(model, ratings_sparse, test_items, t_us):
     item_score = recommendations_implicit(model, ratings_sparse, test_items, t_us)
-    item_score = DataFrame(np.array(item_score), columns=["item", "score"])
-    item_score.item = item_score.item.astype(int)
-    return item_score
-
-
-def get_score_by_lightfm(model, ratings_sparse, test_item, test_user):
-    item_score = recommendations_lightfm(model, ratings_sparse, test_item, test_user)
     item_score = DataFrame(np.array(item_score), columns=["item", "score"])
     item_score.item = item_score.item.astype(int)
     return item_score
