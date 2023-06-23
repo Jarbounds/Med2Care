@@ -56,7 +56,7 @@ def update_onto(lexicons):
     print("Download latest obo files and process lexicons")
 
     if len(lexicons) == 0:
-        lexicons = ["doid", "go", "hpo", "chebi"]
+        lexicons = ["doid", "chebi"]
     for lexicon in lexicons:
         path_owl = get_owl_path(lexicon)
         path_db = get_db_path(lexicon)
@@ -114,7 +114,7 @@ def main():
     start_time = datetime.now()
     config = cfg.get_instance()
 
-    is_chebi, is_doid, is_go, is_hp = False, False, False, False
+    is_chebi, is_doid = False, False
 
     path2ds = config.path2ds  # '/ELT/data/results/comm_subset_cord-19_dataset_small.csv'
 
@@ -124,16 +124,12 @@ def main():
             is_chebi = True
         if item.startswith('doid'):
             is_doid = True
-        if item.startswith('go'):
-            is_go = True
-        if item.startswith('hp'):
-            is_hp = True
 
             # ## updating ontologies
     update_onto(active_lexicons)
 
     # loading ontologies
-    chebi, _, _, _ = loading_items(is_chebi, is_doid, is_go, is_hp)
+    chebi, _, _, _ = loading_items(is_chebi=is_chebi, is_doid=is_doid)
 
     database_name = config.database
     table_name = config.tablename
@@ -159,6 +155,7 @@ def main():
                 params.append(
                     (item, onto, chebi, cols_name, count_item, config)
                 )
+                count_item += 1
             pool.starmap(process_item, params)
 
     # save meta-information: date, time, database, dataset and ontology label in the txt file
@@ -170,8 +167,6 @@ def main():
     save_metadata(config.path2info, metadata)
     print("FINISHED!")
 
-
-# ---------------------------------------------------------------------------------------- #
 
 if __name__ == '__main__':
     main()
