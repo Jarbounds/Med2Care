@@ -41,10 +41,10 @@ class MyConfiguration:
             )
 
             p.add(
-                "-ds",
-                "--path_to_dataset",
+                "-ds_folder",
+                "--path_to_dataset_folder",
                 required=False,
-                help="path to dataset",
+                help="path to dataset folder",
                 type=str
             )
 
@@ -145,7 +145,7 @@ class MyConfiguration:
         if MyConfiguration.__instance is not None:
             raise Exception("This class is a singleton!")
         else:
-            self.dataset = options.path_to_dataset
+            self.dataset_folder = options.path_to_dataset_folder
 
             self.cv = options.cv
             self.topk = options.topk
