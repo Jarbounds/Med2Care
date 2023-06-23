@@ -27,27 +27,20 @@ def upload_dataset(csv_path, name_prefix):
     :param name_prefix: Prefix of the concepts to be extracted from the ontology
     :type name_prefix: string
     :return: pandas dataframe: <user, item, rating>
-
     """
-    
-    matrix = pd.read_csv( csv_path, sep=',' )   
-    if len(matrix.columns) > 3:
-        # replace column's name if you need 
-        matrix.columns = ['user', 'user_name', 'item', 'item_name', 'rating', 'year']
-        # select < user, item, rating > from dataframe
-        # matrix = matrix[['user', 'item', 'rating']]
-    else:
-        matrix.columns = ['user', 'item', 'rating']
+
+    matrix = pd.read_csv(csv_path, sep=',', header=0)
 
     if matrix.dtypes['item'] == np.object:
-         # filter rows for specific ontology
-        matrix = matrix[matrix['item'].str.startswith( name_prefix )]
+        # filter rows for specific ontology
+        matrix = matrix[matrix['item'].str.startswith(name_prefix)]
 
     return matrix
 
+
 # --------------------------------------------------------------------------- #
 
-def save_to_csv(df,path, header = False, index = False, sep = ',', verbose = False):
+def save_to_csv(df, path, header=False, index=False, sep=',', verbose=False):
     """
     Save data to csv file
     :param df: pandas Dataframe with columns <user, item, rating, ...>
@@ -59,20 +52,21 @@ def save_to_csv(df,path, header = False, index = False, sep = ',', verbose = Fal
         print("Columns in df are: {}".format(df.columns.tolist()))
 
     if not os.path.exists(os.path.dirname(path)):
-        Path(os.path.dirname(path)).mkdir(parents=True, exist_ok=True)   
-    df.to_csv(path, header = header, index = index, sep = sep)
+        Path(os.path.dirname(path)).mkdir(parents=True, exist_ok=True)
+    df.to_csv(path, header=header, index=index, sep=sep)
+
 
 # --------------------------------------------------------------------------- #
 
 def new_file(file):
-
     try:
         if not os.path.isfile(file):
             f = open(file, 'w')
     except OSError as error:
-        print(error)  
-        
-# --------------------------------------------------------------------------- #
+        print(error)
+
+    # --------------------------------------------------------------------------- #
+
 
 def save_metadata(file, line):
     '''
@@ -83,12 +77,12 @@ def save_metadata(file, line):
     '''
 
     if not os.path.exists(os.path.dirname(file)):
-        Path(os.path.dirname(file)).mkdir(parents=True, exist_ok=True) 
+        Path(os.path.dirname(file)).mkdir(parents=True, exist_ok=True)
 
-    new_file(file)    
+    new_file(file)
     with open(file, 'r+') as f:
         content = f.read()
         f.seek(0, 0)
         f.write(line.rstrip('\r\n') + '\n')
         f.write('------------------------------------------------------' + '\n' + content)
-        f.close()    
+        f.close()
