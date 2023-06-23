@@ -49,23 +49,20 @@ pd.set_option('display.max_columns', None)
 pd.options.display.max_rows = 999
 
 
-# ---------------------------------------------------------------------------------------- #
-
-def update_onto(lexicon):
+def update_onto(lexicons):
     """
     Update ontologies
     """
     print("Download latest obo files and process lexicons")
 
-    if len(lexicon) == 0:
-        lexicon = ["doid", "go", "hpo", "chebi"]
-    for l in lexicon:
-        # print(l)
-        path_owl = get_owl_path(l)
-        path_db = get_db_path(l)
+    if len(lexicons) == 0:
+        lexicons = ["doid", "go", "hpo", "chebi"]
+    for lexicon in lexicons:
+        path_owl = get_owl_path(lexicon)
+        path_db = get_db_path(lexicon)
 
         if os.path.isfile(path_db):
-            print(f"Database ontology ``{l}.db'' file already exists")
+            print(f"Database ontology ``{lexicon}.db'' file already exists")
         else:
             ssmpy.create_semantic_base(path_owl, path_db,
                                        "http://purl.obolibrary.org/obo/",
