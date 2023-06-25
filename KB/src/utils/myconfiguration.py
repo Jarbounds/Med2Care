@@ -26,6 +26,8 @@ class MyConfiguration:
             p.add("-ds", "--path2ds", required=False, help="path to dataset", type=str)
             p.add("-ds_kb", "--path2kb", required=False, help="path to kb dataset", type=str)
 
+            p.add("-db_dump", "--path2dbdump", required=False, help="path to database table dumps", type=str)
+
             p.add("-info", "--path2info", required=False, help="info about process", type=str)
 
             p.add("-n", "--n", required=False, help="n most similar items", type=float)
@@ -87,6 +89,8 @@ class MyConfiguration:
 
             self.path2ds = options.path2ds
             self.path2kb = options.path2kb
+
+            self.path2dbdump = options.path2dbdump
 
             self.path2info = options.path2info
 

@@ -511,7 +511,7 @@ def get_db_values(table_name, id=None, limit=None):
             my_db.close()
 
 
-def dump_database(database_name: str, table_name: str, columns: str):
+def dump_database(database_name: str, table_name: str, columns: str, output_dir: str):
     my_db: MySQLConnection | None = None
     my_cursor: MySQLCursor | None = None
     try:
@@ -524,7 +524,7 @@ def dump_database(database_name: str, table_name: str, columns: str):
         query = f'select {columns} from {table_name}'
         my_cursor.execute(query)
 
-        with open(f'../data/{database_name}_{table_name}_{time.time_ns()}.sql', 'w') as fp:
+        with open(f'{output_dir}/{database_name}_{table_name}_{time.time_ns()}.sql', 'w') as fp:
             while True:
                 row_set = my_cursor.fetchmany(10)
                 if len(row_set) == 0:
