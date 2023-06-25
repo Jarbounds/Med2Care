@@ -188,7 +188,6 @@ def get_entities_labels(lst, prefix_chebi, prefix_doid, prefix_go, prefix_hp):
     """
     label = []
     for id in lst:
-
         uri = URIRef('http://purl.obolibrary.org/obo/' + id)
         if id.startswith('CHEBI'):
             lab = prefix_chebi.label(uri)
@@ -208,5 +207,7 @@ def get_entities_labels(lst, prefix_chebi, prefix_doid, prefix_go, prefix_hp):
             lab = prefix_hp.label(uri)
         elif id.startswith('DOID'):
             lab = prefix_doid.label(uri)
+        else:
+            continue
         label.append(lab)
     return label

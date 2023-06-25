@@ -142,9 +142,10 @@ def main():
             df_similar.comp_1 = onto.upper() + '_' + df_similar.comp_1.map(str)
             df_similar.comp_2 = onto.upper() + '_' + df_similar.comp_2.map(str)
 
+            idx = []
+
             # find index where item1 exist in dataframe
             for item1 in df_ds[['item']].drop_duplicates().values.tolist():
-
                 idx = df_ds.index[df_ds['item'] == ''.join(item1)].tolist()
                 # get item2 list 
                 item2 = df_similar[df_similar['comp_1'] == ''.join(item1)]['comp_2']
@@ -152,24 +153,24 @@ def main():
                 if item2.empty:
                     continue
             print('Loop completed')
-            pair = pd.DataFrame(
-                [
-                    {
-                        'user': df_ds.at[i, 'user'],
-                        'user_name': df_ds.at[i, 'username'],
-                        'item': c,
-                        'rating': df_ds.at[i, 'rating'],
-                        'year': df_ds.at[i, 'year']
-                    }
-                    for i in idx for c in item
-                ]
-            )
+            # pair = pd.DataFrame(
+            #     [
+            #         {
+            #             'user': df_ds.at[i, 'user'],
+            #             'username': df_ds.at[i, 'username'],
+            #             'item': c,
+            #             'rating': df_ds.at[i, 'rating'],
+            #             'year': df_ds.at[i, 'year']
+            #         }
+            #         for i in idx for c in item
+            #     ]
+            # )
             # append values from original dataframe and sort by user
-            df_ds = pd.concat([df_ds, pair], ignore_index=True)
+            # df_ds = pd.concat([df_ds, pair], ignore_index=True)
             df_ds = df_ds.sort_values(by=['user']).reset_index(drop=True)
 
             sum_df = df_ds.groupby(
-                ['user', 'user_name', 'item', 'year']
+                ['user', 'username', 'item', 'year']
             ).size().reset_index().rename(columns={0: 'rating'})
             df_id = id2index(sum_df)
 
@@ -190,13 +191,13 @@ def main():
 
             if 'year' in df_id.columns:
                 save_to_csv(
-                    df=df_id[['user', 'user_name', 'item', 'item_name', 'rating', 'year']],
+                    df=df_id[['user', 'username', 'item', 'item_name', 'rating', 'year']],
                     header=True,
                     path=path
                 )
             else:
                 save_to_csv(
-                    df=df_id[['user', 'user_name', 'item', 'item_name', 'rating']],
+                    df=df_id[['user', 'username', 'item', 'item_name', 'rating']],
                     header=True,
                     path=path
                 )
