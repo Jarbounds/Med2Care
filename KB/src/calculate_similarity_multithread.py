@@ -38,8 +38,7 @@ import time
 import ssmpy
 import pandas as pd
 from datetime import datetime
-from utils.myconfiguration import MyConfiguration as cfg
-from multiprocessing.pool import Pool
+from utils.myconfiguration import MyConfiguration as Config
 
 from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
 from utils.utils import upload_dataset, save_metadata
@@ -69,8 +68,10 @@ def update_onto(lexicons):
                                        "http://www.w3.org/2000/01/rdf-schema#subClassOf", "")
 
 
-def process_item(item, onto, chebi, cols_name, item_idx, config):
+def process_item(item, onto, chebi, cols_name, item_idx):
     print(f'{item_idx}:  {item}')
+
+    config: Config = Config.get_instance()
     df = pd.DataFrame(columns=cols_name)
     table_name = config.tablename
     item_value = item.split('_')[1]
@@ -115,7 +116,7 @@ def process_item(item, onto, chebi, cols_name, item_idx, config):
 
 def main():
     start_time = datetime.now()
-    config = cfg.get_instance()
+    config: Config = Config.get_instance()
 
     is_chebi, is_doid = False, False
 
@@ -143,23 +144,18 @@ def main():
     cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc"]
     count, count_item, count_onto = 0, 0, 0
 
-    with Pool() as pool:
-        for onto in active_lexicons:
-            print(onto)
-            check_table(database_name, '_'.join([table_name, onto]))
-            ssmpy.semantic_base(get_db_path(onto))
-            # data set contains <user, item, rating>
-            df_dataset = upload_dataset(path2ds, onto.upper() + '_')
-            list_of_entities = df_dataset.item.unique()
+    for onto in active_lexicons:
+        print(onto)
+        check_table(database_name, '_'.join([table_name, onto]))
+        ssmpy.semantic_base(get_db_path(onto))
+        # data set contains <user, item, rating>
+        df_dataset = upload_dataset(path2ds, onto.upper() + '_')
+        list_of_entities = df_dataset.item.unique()
 
-            count_onto += 1
-            params = []
-            for item in list_of_entities:
-                params.append(
-                    (item, onto, chebi, cols_name, count_item, config)
-                )
-                count_item += 1
-            pool.starmap(process_item, params)
+        count_onto += 1
+        for item in list_of_entities:
+            process_item(item, onto, chebi, cols_name, count_item)
+            count_item += 1
 
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
