@@ -269,12 +269,12 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
 
 def main():
     start_time = datetime.now()
-    arg = Config.get_instance()
+    config = Config.get_instance()
     # ---------------------------------------------------------------------------------------- #
     # connect to mysql table and create if not exists
-    check_database()
+    check_database(config.database)
 
-    active_lexicon = arg.item_prefix
+    active_lexicon = config.item_prefix
     # split if there is a list of entities
     active_lexicon = active_lexicon.replace(' ', '').split(',')
 
@@ -282,7 +282,7 @@ def main():
     if onto not in active_lexicon:
         print("The is no CHEBI items")
         exit()
-    oldtable = '_'.join([arg.tablename, onto])
+    oldtable = '_'.join([config.tablename, onto])
     print(oldtable)
 
     onto = 'chebi'
@@ -312,7 +312,7 @@ def main():
                 Date: {datetime.now()} \n \
                 Duration: {datetime.now() - start_time} \n\
                 '
-    save_metadata(arg.path2info, metadata)
+    save_metadata(config.path2info, metadata)
     print("FINISHED!")
 
 
