@@ -11,7 +11,7 @@
 #   version 1.2: 21 Feb 2023 change pd.append() by pd.concat()                #      
 #   (author: Matilde Pato)                                                    # 
 #   version 1.3: 23 Feb 2023 structural similarity is removed and create a    #
-#   new script to calculate them: calculate_similarity.py              #
+#   new script to calculate them: calculate_similarity_multithread.py              #
 #   (author: Matilde Pato)                                                    #
 #                                                                             #   
 ###############################################################################
@@ -24,22 +24,23 @@
 # we must to include calculate_structural_sim() method in main. 
 
 # Updated: Anyway, if the number of Chebi' entities is large enough, I advise 
-# you to perform this operation on the script: calculate_similarity.py
+# you to perform this operation on the script: calculate_similarity_multithread.py
 # Then comment last lines.
 
 # Updated: structural similarity is included in the main
 
-# python3 calculate_similarity.py
+# python3 calculate_similarity_multithread.py
 
 # Metapub is a Python library that provides python
 
 import os
+from os import cpu_count
 import time
 import ssmpy
 import pandas as pd
+from multiprocessing.pool import Pool
 from datetime import datetime
 from utils.myconfiguration import MyConfiguration as Config
-
 from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
 from utils.utils import upload_dataset, save_metadata
 from utils.utils2database import check_database, save_to_mysql, check_table
@@ -144,18 +145,25 @@ def main():
     cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc"]
     count, count_item, count_onto = 0, 0, 0
 
-    for onto in active_lexicons:
-        print(onto)
-        check_table(database_name, '_'.join([table_name, onto]))
-        ssmpy.semantic_base(get_db_path(onto))
-        # data set contains <user, item, rating>
-        df_dataset = upload_dataset(path2ds, onto.upper() + '_')
-        list_of_entities = df_dataset.item.unique()
+    batch_size = cpu_count()
 
-        count_onto += 1
-        for item in list_of_entities:
-            process_item(item, onto, chebi, cols_name, count_item)
-            count_item += 1
+    with Pool() as pool:
+        for onto in active_lexicons:
+            print(onto)
+            check_table(database_name, '_'.join([table_name, onto]))
+            ssmpy.semantic_base(get_db_path(onto))
+            # data set contains <user, item, rating>
+            df_dataset = upload_dataset(path2ds, onto.upper() + '_')
+            list_of_entities = df_dataset.item.unique()
+
+            for i in range(0, len(list_of_entities), batch_size):
+                params = []
+                for item in list_of_entities[i:i + batch_size]:
+                    params.append(
+                        (item, onto, chebi, cols_name, count_item)
+                    )
+                    count_item += 1
+                pool.starmap(process_item, params)
 
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
