@@ -156,7 +156,7 @@ def main():
                 [
                     {
                         'user': df_ds.at[i, 'user'],
-                        'user_name': df_ds.at[i, 'user_name'],
+                        'user_name': df_ds.at[i, 'username'],
                         'item': c,
                         'rating': df_ds.at[i, 'rating'],
                         'year': df_ds.at[i, 'year']
