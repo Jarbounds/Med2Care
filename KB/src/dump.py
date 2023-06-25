@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     database_name = config.database
 
-    dump_path = f'{config.path2dbdump}/{database_name.lsplit("_")[0]}'
+    dump_path = f'{config.path2dbdump}/{database_name.split("_")[0]}'
 
     os.makedirs(dump_path, exist_ok=True)
 
