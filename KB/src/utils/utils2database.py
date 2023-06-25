@@ -406,7 +406,7 @@ def get_similar(table_name, quart, metric):
         sql = f"with percentile as ( " \
               f"select {metric} " \
               f"from ( " \
-              f"select comp_1, comp_2, {metric}, @row_num :=@row_num + 1 as row_num " \
+              f"select {metric}, @row_num :=@row_num + 1 as row_num " \
               f"from {table_name} s, (select @row_num:=0) counter " \
               f"order by {metric} desc " \
               f") temp " \
@@ -524,7 +524,7 @@ def dump_database(database_name: str, table_name: str, columns: str):
         query = f'select {columns} from {table_name}'
         my_cursor.execute(query)
 
-        with open(f'../data/{table_name}_{time.time_ns()}.sql', 'w') as fp:
+        with open(f'../data/{database_name}_{table_name}_{time.time_ns()}.sql', 'w') as fp:
             while True:
                 row_set = my_cursor.fetchmany(10)
                 if len(row_set) == 0:
