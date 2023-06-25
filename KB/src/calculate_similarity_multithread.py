@@ -39,7 +39,7 @@ import ssmpy
 import pandas as pd
 from datetime import datetime
 from utils.myconfiguration import MyConfiguration as cfg
-from multiprocessing import cpu_count, Pool
+from multiprocessing.pool import Pool
 
 from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
 from utils.utils import upload_dataset, save_metadata
@@ -74,6 +74,7 @@ def process_item(item, onto, chebi, cols_name, item_idx, config):
     df = pd.DataFrame(columns=cols_name)
     table_name = config.tablename
     item_value = item.split('_')[1]
+    print('Getting ancestors')
     ancestor = ssmpy.get_ancestors(int(item_value))
     if not ancestor:
         return
@@ -87,6 +88,7 @@ def process_item(item, onto, chebi, cols_name, item_idx, config):
     # join all entities with his ancestors, and after only select the 25% with higher semantic similarity
     conn = ssmpy.create_connection(get_db_path(onto))
 
+    print('Calculating similarities')
     results = ssmpy.light_similarity(conn, [item], ancestor_ids, 'all', 20)
     results1 = [item for items in results for item in items]
 
@@ -98,6 +100,7 @@ def process_item(item, onto, chebi, cols_name, item_idx, config):
     sim_df = sim_df.loc[~(sim_df[cols_name[2:]] == 0).all(axis=1), :]
     df = pd.concat([df, sim_df], ignore_index=True)
 
+    print('Saving ancestors to MySQL')
     # creation of engine to MYSQL database to insert pandas DataFrame in the database
     save_to_mysql(
         df.drop_duplicates(['comp_1', 'comp_2'], keep='first'),
@@ -140,7 +143,7 @@ def main():
     cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc"]
     count, count_item, count_onto = 0, 0, 0
 
-    with Pool(processes=cpu_count()) as pool:
+    with Pool() as pool:
         for onto in active_lexicons:
             print(onto)
             check_table(database_name, '_'.join([table_name, onto]))
