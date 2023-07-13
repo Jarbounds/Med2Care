@@ -139,7 +139,7 @@ def all_evaluation_metrics(item_score, ratings_t_us, test_items, relevant, metri
     :param test_items:
     :param relevant:
     :param metrics_dict:
-    :return: list of the top k with all metrics:
+    :return: list of the top k with all metrics in that specific order:
         precision,
         recall,
         f1_score,

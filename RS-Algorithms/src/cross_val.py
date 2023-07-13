@@ -98,5 +98,8 @@ def add_dict(dict1, dict2, count_cv, count_cv_items):
     if count_cv == 0 and count_cv_items == 0:
         return dict2
     else:
-        return {key: dict1.get(key, 0) + dict2.get(key, 0) for key in
-                set(dict1) | set(dict2)}
+        union = set(dict1) | set(dict2)
+        new_dict = {}
+        for key in union:
+            new_dict[key] = [x + y for x, y in zip(dict1[key], dict2[key])]
+        return new_dict

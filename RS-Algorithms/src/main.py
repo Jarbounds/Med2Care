@@ -23,11 +23,9 @@
 #
 
 import os
-from multiprocessing import cpu_count
 
 import numpy as np
 import ssmpy
-from multiprocessing.pool import Pool
 from myconfiguration import MyConfiguration as Config
 from data import id_to_index, three_columns_matrix_to_csr, save_final_data
 from algorithms import get_evaluation
@@ -97,7 +95,7 @@ def evaluate_dataset(config: Config, dataset_file: str):
             n_ontology_sim_metric=3,
             n_rec_algorithms=2,
             n_metrics=4
-    )
+        )
 
     for test_users in np.array_split(shuffle_users, cv_folds):
         test_users_size = len(test_users)
@@ -134,7 +132,7 @@ def evaluate_dataset(config: Config, dataset_file: str):
                     ratings,
                     original_item_id,
                     config.sim_metric
-            )
+                )
 
             param_tuple = (count_cv, count_cv_items)
 
@@ -302,7 +300,7 @@ def evaluate_dataset(config: Config, dataset_file: str):
             count_cv_items += 1
         count_cv += 1
 
-    # calculates mean and save to a csv file all metrics: [P, R, F, fpr, rr, nDCG, lauc] (preferencial order)
+    # calculates mean and save to a csv file all metrics: [P, R, F, fpr, rr, nDCG, auc] (preference order)
     path = f"../mlData/{dataset_folder}/{dataset_file.rsplit('.')[0]}"
     str_folds = f'/results_nfolds{str(cv_folds)}'
     str_n = f'_nsimilar_{str(n)}'
