@@ -98,7 +98,7 @@ def main():
         if item.startswith('hp'):
             is_hp = True
 
-            # # ## updating ontologies
+    # updating ontologies
     update_onto(active_lexicons)
 
     # loading ontologies
@@ -107,6 +107,9 @@ def main():
     # connect to mysql table
     database = config.database
     check_database(database)
+
+    def similarity_table(i):
+        return 'similarity_structural' if (i == "sim_tanimoto" or i == "sim_morgan") else config.tablename
 
     count = 0
     for onto in active_lexicons:
@@ -122,9 +125,6 @@ def main():
         if onto.startswith('chebi'):
             cols_name.extend(["sim_tanimoto", "sim_morgan"])
 
-        def similarity_table(i):
-            return 'similarity_structural' if (i == "sim_tanimoto" or i == "sim_morgan") else config.tablename
-
         for s in cols_name[2:]:
             print(f'Processing similarity dataset for {s}')
             count += 1
@@ -136,13 +136,12 @@ def main():
                 print('Using normalized similarity')
                 sim_table = '_'.join(['norm', similarity_table(s), onto, s])
                 df_similar = get_similar(sim_table, quartile_percentage, metric='l2')
+                print('Got similars')
             else:
                 df_similar = get_similar('_'.join([similarity_table(s), onto]), quartile_percentage, metric=s)
 
             df_similar.comp_1 = onto.upper() + '_' + df_similar.comp_1.map(str)
             df_similar.comp_2 = onto.upper() + '_' + df_similar.comp_2.map(str)
-
-            idx = []
 
             # find index where item1 exist in dataframe
             for item1 in df_ds[['item']].drop_duplicates().values.tolist():
@@ -152,31 +151,33 @@ def main():
                 # if the entity has no ancestor, continue
                 if item2.empty:
                     continue
-            print('Loop completed')
-            # pair = pd.DataFrame(
-            #     [
-            #         {
-            #             'user': df_ds.at[i, 'user'],
-            #             'username': df_ds.at[i, 'username'],
-            #             'item': c,
-            #             'rating': df_ds.at[i, 'rating'],
-            #             'year': df_ds.at[i, 'year']
-            #         }
-            #         for i in idx for c in item
-            #     ]
-            # )
-            # append values from original dataframe and sort by user
-            # df_ds = pd.concat([df_ds, pair], ignore_index=True)
-            df_ds = df_ds.sort_values(by=['user']).reset_index(drop=True)
+
+                pair = pd.DataFrame(
+                    [
+                        {
+                            'user': df_ds.at[i, 'user'],
+                            'username': df_ds.at[i, 'username'],
+                            'item': c,
+                            'rating': df_ds.at[i, 'rating'],
+                            'year': df_ds.at[i, 'year']
+                        }
+                        for i in idx for c in item2
+                    ]
+                )
+                print(pair)
+                # append values from original dataframe and sort by user
+                df_ds = pd.concat([df_ds, pair], ignore_index=True)
+                df_ds = df_ds.sort_values(by=['user']).reset_index(drop=True)
 
             sum_df = df_ds.groupby(
                 ['user', 'username', 'item', 'year']
             ).size().reset_index().rename(columns={0: 'rating'})
+            # TODO: Check here for the similar that have a negative rating to begin with
+            sum_df['rating'] = 1
             df_id = id2index(sum_df)
 
             # Get entities labels
             list_of_entities = df_id.item.unique()
-            # print(list_of_entities) 
 
             entities_label = get_entities_labels(list_of_entities, chebi, doid, go, hp)
             # entities_label = get_entities_labels(list_of_entities, None, None, None, None)
