@@ -164,6 +164,7 @@ def main():
                         for i in idx for c in item2
                     ]
                 )
+                print(f'{datetime.now()}')
                 print(pair)
                 # append values from original dataframe and sort by user
                 df_ds = pd.concat([df_ds, pair], ignore_index=True)
@@ -172,7 +173,6 @@ def main():
             sum_df = df_ds.groupby(
                 ['user', 'username', 'item', 'year']
             ).size().reset_index().rename(columns={0: 'rating'})
-            # TODO: Check here for the similar that have a negative rating to begin with
             sum_df['rating'] = 1
             df_id = id2index(sum_df)
 
