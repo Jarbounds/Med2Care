@@ -144,7 +144,12 @@ def main():
             df_similar.comp_2 = onto.upper() + '_' + df_similar.comp_2.map(str)
 
             # find index where item1 exist in dataframe
-            for item1 in df_ds[['item']].drop_duplicates().values.tolist():
+            total_items = df_ds[['item']].drop_duplicates().values.tolist()
+            print(f'Size of total_items: {len(total_items)}')
+            current = 1
+            for item1 in total_items:
+                print(f'Processing item number {current}: {item1}')
+                current += 1
                 idx = df_ds.index[df_ds['item'] == ''.join(item1)].tolist()
                 # get item2 list 
                 item2 = df_similar[df_similar['comp_1'] == ''.join(item1)]['comp_2']
@@ -164,10 +169,10 @@ def main():
                         for i in idx for c in item2
                     ]
                 )
-                print(f'{datetime.now()}')
-                print(pair)
                 # append values from original dataframe and sort by user
                 df_ds = pd.concat([df_ds, pair], ignore_index=True)
+                df_ds = df_ds.drop_duplicates(subset=['user', 'item'], keep='first')
+                print(f'{datetime.now()} - size:{len(df_ds)}')
                 df_ds = df_ds.sort_values(by=['user']).reset_index(drop=True)
 
             sum_df = df_ds.groupby(
