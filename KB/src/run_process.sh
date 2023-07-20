@@ -4,9 +4,9 @@
 ########################################################
 set -e
 
-python3 calculate_similarity_cord19.py 
+python3 calculate_similarity_multithread.py
 
-# python3 calculate_structural_similarity_cord19.py   
+python3 calculate_structural_similarity_multithread.py
 
 python3 normalize_similarities.py 
 
