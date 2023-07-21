@@ -148,6 +148,14 @@ def load_ontology(path):
     return g
 
 
+def get_id(entity_uri, onto):
+    # Extract the numeric part after "CHEBI_" or "DOID_" from the entity URI
+    ids = []
+    for id in entity_uri:
+        ids.append(id.split('http://purl.obolibrary.org/obo/')[1])
+    return ids
+
+
 # --------------------------------------------------------------------------- #
 
 def get_primary_ids(lst, prefix_onto):
