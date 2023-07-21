@@ -11,7 +11,7 @@
 #   version 1.2: 21 Feb 2023 change pd.append() by pd.concat()                #      
 #   (author: Matilde Pato)                                                    # 
 #   version 1.3: 23 Feb 2023 structural similarity is removed and create a    #
-#   new script to calculate them: calculate_similarity_multithread.py         #
+#   new script to calculate them: calculate_similarity.py         #
 #   (author: Matilde Pato)                                                    #
 #                                                                             #   
 ###############################################################################
@@ -24,12 +24,12 @@
 # we must to include calculate_structural_sim() method in main. 
 
 # Updated: Anyway, if the number of Chebi' entities is large enough, I advise 
-# you to perform this operation on the script: calculate_similarity_multithread.py
+# you to perform this operation on the script: calculate_similarity.py
 # Then comment last lines.
 
 # Updated: structural similarity is included in the main
 
-# python3 calculate_similarity_multithread.py
+# python3 calculate_similarity.py
 
 # Metapub is a Python library that provides python
 
@@ -38,7 +38,6 @@ from os import cpu_count
 import time
 import ssmpy
 import pandas as pd
-from multiprocessing.pool import Pool
 from datetime import datetime
 from utils.myconfiguration import MyConfiguration as Config
 from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
@@ -92,7 +91,7 @@ def process_item(item, onto, chebi, cols_name, item_idx):
     conn = ssmpy.create_connection(get_db_path(onto))
 
     print('Calculating similarities')
-    results = ssmpy.light_similarity(conn, [item], ancestor_ids, 'all', 20)
+    results = ssmpy.light_similarity(conn, [item], ancestor_ids, 'all', cpu_count())
     results1 = [item for items in results for item in items]
 
     sim_df1 = pd.DataFrame(results1, columns=cols_name[:5])
@@ -131,7 +130,7 @@ def main():
         if item.startswith('doid'):
             is_doid = True
 
-            # ## updating ontologies
+    # updating ontologies
     update_onto(active_lexicons)
 
     # loading ontologies
@@ -144,27 +143,20 @@ def main():
     check_database(database_name)
 
     cols_name = ["comp_1", "comp_2", "sim_resnik", "sim_lin", "sim_jc"]
-    count, count_item, count_onto = 0, 0, 0
+    count_item, count_onto = 0, 0
 
-    batch_size = cpu_count()
+    for onto in active_lexicons:
+        print(onto)
+        check_sim_table(database_name, '_'.join([table_name, onto]))
+        ssmpy.semantic_base(get_db_path(onto))
+        # data set contains <user, item, rating>
+        df_dataset = upload_dataset(path2ds, onto.upper() + '_')
+        list_of_entities = df_dataset.item.unique()
 
-    with Pool() as pool:
-        for onto in active_lexicons:
-            print(onto)
-            check_sim_table(database_name, '_'.join([table_name, onto]))
-            ssmpy.semantic_base(get_db_path(onto))
-            # data set contains <user, item, rating>
-            df_dataset = upload_dataset(path2ds, onto.upper() + '_')
-            list_of_entities = df_dataset.item.unique()
-
-            for i in range(0, len(list_of_entities), batch_size):
-                params = []
-                for item in list_of_entities[i:i + batch_size]:
-                    params.append(
-                        (item, onto, chebi, cols_name, count_item)
-                    )
-                    count_item += 1
-                pool.starmap(process_item, params)
+        for item in list_of_entities:
+            process_item(item, onto, chebi, cols_name, count_item)
+            count_item += 1
+        count_onto += 1
 
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Date: {datetime.now()} \n \
