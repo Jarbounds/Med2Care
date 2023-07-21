@@ -11,7 +11,7 @@
 #   version 1.2: 21 Feb 2023 change pd.append() by pd.concat()                #      
 #   (author: Matilde Pato)                                                    # 
 #   version 1.3: 23 Feb 2023 structural similarity is removed and create a    #
-#   new script to calculate them: calculate_similarity_multithread.py              #
+#   new script to calculate them: calculate_similarity_multithread.py         #
 #   (author: Matilde Pato)                                                    #
 #                                                                             #   
 ###############################################################################
@@ -43,7 +43,8 @@ from datetime import datetime
 from utils.myconfiguration import MyConfiguration as Config
 from utils.utils2ontologies import get_owl_path, get_db_path, loading_items, get_primary_ids
 from utils.utils import upload_dataset, save_metadata
-from utils.utils2database import check_database, save_to_mysql, check_table
+from utils.utils2database import check_database, save_to_mysql, check_sim_table
+from utils.sim_utils import get_ancestors
 
 pd.set_option('display.max_columns', None)
 pd.options.display.max_rows = 999
@@ -77,7 +78,7 @@ def process_item(item, onto, chebi, cols_name, item_idx):
     table_name = config.tablename
     item_value = item.split('_')[1]
     print('Getting ancestors')
-    ancestor = ssmpy.get_ancestors(int(item_value))
+    ancestor = get_ancestors(item_value, onto.upper(), chebi)
     if not ancestor:
         return
 
@@ -150,7 +151,7 @@ def main():
     with Pool() as pool:
         for onto in active_lexicons:
             print(onto)
-            check_table(database_name, '_'.join([table_name, onto]))
+            check_sim_table(database_name, '_'.join([table_name, onto]))
             ssmpy.semantic_base(get_db_path(onto))
             # data set contains <user, item, rating>
             df_dataset = upload_dataset(path2ds, onto.upper() + '_')
