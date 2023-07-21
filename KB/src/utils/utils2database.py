@@ -126,7 +126,7 @@ def check_database(database: str):
             my_db.close()
 
 
-def check_table(database_name: str, table_name: str) -> bool:
+def check_sim_table(database_name: str, table_name: str) -> bool:
     """
     Check the existence of table for a given database.
     :param database_name: database name
@@ -150,7 +150,7 @@ def check_table(database_name: str, table_name: str) -> bool:
             print(f'Table {table_name} already exists')
         else:
             print(f'Table {table_name} does not exist, creating')
-            create_table(table_name)
+            create_sim_table(table_name)
     except Exception as e:
         print("Error while connecting to MySQL", e)
         return False
@@ -161,7 +161,7 @@ def check_table(database_name: str, table_name: str) -> bool:
             my_db.close()
 
 
-def create_table(table_name: str):
+def create_sim_table(table_name: str):
     """
     Create a table named similarity with in mysql which columns are
         <id, comp_1, comp_2, sim_resnik, sim_lin, sim_jc, sim_rel, sim_jac, sim_islch, 
@@ -181,6 +181,9 @@ def create_table(table_name: str):
         my_cursor.execute(f'use {database}')
 
         my_cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
+        # "`sim_rel` FLOAT NOT NULL,"
+        # "`sim_jac` FLOAT NOT NULL,"
+        # "`sim_islch` FLOAT NOT NULL,"
         my_cursor.execute(
             f" CREATE TABLE `{table_name}` (`id` INT NOT NULL AUTO_INCREMENT,"
             "`comp_1` INT NOT NULL,"
@@ -188,12 +191,10 @@ def create_table(table_name: str):
             "`sim_resnik` FLOAT NOT NULL, "
             "`sim_lin` FLOAT NOT NULL, "
             "`sim_jc` FLOAT NOT NULL, "
-            "`sim_rel` FLOAT NOT NULL,"
-            "`sim_jac` FLOAT NOT NULL,"
-            "`sim_islch` FLOAT NOT NULL,"
-            "`ts` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,"
+            "`ts` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, "
             " PRIMARY KEY (`id`), "
-            "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB")
+            "INDEX sim (`comp_1`,`comp_2`) ) ENGINE = InnoDB"
+        )
         my_cursor.execute("SET FOREIGN_KEY_CHECKS = 1")
         my_db.commit()
         print(f"Table {table_name} created")
