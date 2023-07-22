@@ -35,7 +35,7 @@ from rdkit import Chem, DataStructs
 from rdkit.Chem import rdMolDescriptors
 
 from bioservices import ChEBI
-from multiprocessing.pool import ThreadPool
+from multiprocessing.pool import ThreadPool, Pool
 
 # from indigo import *
 
@@ -57,12 +57,12 @@ class MyFloat:
 
 
 def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
-    '''
+    """
     Calculate structural similarity, only for CHEBI ontology, and save the results in a
     novel table.
     :param table: name of the previous table. Assume that we have a table with other
     methods
-    '''
+    """
 
     """ def get_smile(str_dict):
         smile_dic={'smile1':[],'smile2':[]}
@@ -142,8 +142,8 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
         return sim_dict
 
     def get_smile(chebi_ids):
-        """ This function return a dataframe with smile values from chebi id
-        """
+        ''' This function return a dataframe with smile values from chebi id
+        '''
         smile_dic = pd.DataFrame(columns=['chebi', 'smile'])
         # Splitting list of items into multiple lists
         # splitedSize = 499
@@ -177,12 +177,13 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
 
     chebi_unique = pd.concat([chebi_df[cols_name[0]], chebi_df[cols_name[1]]], ignore_index=True).drop_duplicates()
     # Splitting list of items into multiple lists
-    chuck_size = 1000
-    lst_chebi = [chebi_unique[i: i + chuck_size] for i in range(0, len(chebi_unique), chuck_size)]
+    chunk_size = 1000
+    lst_chebi = [chebi_unique[i: i + chunk_size] for i in range(0, len(chebi_unique), chunk_size)]
 
     for lst in lst_chebi:
         chebi_smile = pd.DataFrame()
         chebi_smile = get_smile(chebi_ids=lst)
+        print(f'Processing chebi ids: {lst}')
         """ #---------
         #chebi_smile.to_csv("chebi_table1.csv",mode='a',encoding='utf-8',index=False) 
         
@@ -212,7 +213,7 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
             ['comp_1', 'comp_2']).reset_index(drop=True)
         # chebi_df2.to_csv("chebi_table2.csv",encoding='utf-8',index=False)
 
-        ## remove rows where entities are equal (avoid sim = 1)
+        # remove rows where entities are equal (avoid sim = 1)
         chebi_df2 = chebi_df2[chebi_df2[cols_name[0]] != chebi_df2[cols_name[1]]]
 
         sim_df = pd.DataFrame(columns=cols_name)
@@ -251,9 +252,6 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
         if not sim_df.empty:
             sim_df[cols_name[0]] = sim_df[cols_name[0]].str.extract('(\d+)').astype(int)
             sim_df[cols_name[1]] = sim_df[cols_name[1]].str.extract('(\d+)').astype(int)
-            # map doesn't work well
-            # sim_df[cols_name[0]]=sim_df[cols_name[0]].map(chebi_smile.set_index('smile')['chebi']).str.extract('(\d+)').astype(int)
-            # sim_df[cols_name[1]]=sim_df[cols_name[1]].map(chebi_smile.set_index('smile')['chebi']).str.extract('(\d+)').astype(int)
 
             # remove all NaN values as well as 0's
             sim_df = sim_df.dropna(subset=cols_name[2:])
@@ -265,14 +263,13 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
             print("***** SAVE IN MYSQL ********")
 
 
-# ---------------------------------------------------------------------------------------- #
-
 def main():
     start_time = datetime.now()
     config = Config.get_instance()
 
     # connect to mysql table and create if not exists
-    check_database(config.database)
+    database = config.database
+    check_database(database)
 
     active_lexicon = config.item_prefix
     # split if there is a list of entities
@@ -282,8 +279,8 @@ def main():
     if onto not in active_lexicon:
         print("The is no CHEBI items")
         exit()
-    oldtable = '_'.join([config.tablename, onto])
-    print(oldtable)
+    old_table = '_'.join([config.tablename, onto])
+    print(old_table)
 
     onto = 'chebi'
     new_table = '_'.join(['similarity_structural', onto])
@@ -293,20 +290,21 @@ def main():
     # parameter for using in sql query, where we define the value of the primary key (id) mininum, and
     # the no. of rows
     limit = 1000
-    minid, maxid = get_minmax(table_name=oldtable)['min'], get_minmax(table_name=oldtable)['max']
-    minid = 1
+    min_id, max_id = get_minmax(table_name=old_table)['min'], get_minmax(table_name=old_table)['max']
 
-    if minid:
-
-        while minid <= maxid:
-            calculate_structural_sim(oldtable, new_table, minid, limit)
-            minid += limit
-            time.sleep(0.5)
+    if min_id:
+        with Pool() as pool:
+            params = []
+            while min_id <= max_id:
+                params.append(
+                    (old_table, new_table, min_id, limit)
+                )
+                min_id += limit
+            pool.starmap(calculate_structural_sim, params)
     else:
-        calculate_structural_sim(oldtable, new_table, minid, limit)
+        calculate_structural_sim(old_table, new_table, min_id, limit)
     # remove duplicates if any
     drop_duplicates(table_name=new_table)
-    # ---------------------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Calculation of structural similarity \n\
                 Date: {datetime.now()} \n \
@@ -315,8 +313,6 @@ def main():
     save_metadata(config.path2info, metadata)
     print("FINISHED!")
 
-
-# ---------------------------------------------------------------------------------------- #
 
 if __name__ == '__main__':
     main()
