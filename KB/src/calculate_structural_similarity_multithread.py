@@ -212,7 +212,7 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
             ['comp_1', 'comp_2']).reset_index(drop=True)
         # chebi_df2.to_csv("chebi_table2.csv",encoding='utf-8',index=False)
 
-        ## remove rows where entities are equal (avoid sim = 1)
+        # remove rows where entities are equal (avoid sim = 1)
         chebi_df2 = chebi_df2[chebi_df2[cols_name[0]] != chebi_df2[cols_name[1]]]
 
         sim_df = pd.DataFrame(columns=cols_name)
@@ -281,33 +281,32 @@ def main():
     if onto not in active_lexicon:
         print("The is no CHEBI items")
         exit()
-    oldtable = '_'.join([config.tablename, onto])
-    print(oldtable)
+    old_table = '_'.join([config.tablename, onto])
+    print(old_table)
 
     onto = 'chebi'
-    newtable = '_'.join(['similarity_structural', onto])
+    new_table = '_'.join(['similarity_structural', onto])
 
     # create a new table with structural similarity values
-    create_structural_table(newtable)
+    create_structural_table(new_table)
     # parameter for using in sql query, where we define the value of the primary key (id) mininum, and
     # the no. of rows
     limit = 1000
-    minid, maxid = get_minmax(table_name=oldtable)['min'], get_minmax(table_name=oldtable)['max']
+    min_id, max_id = get_minmax(table_name=old_table)['min'], get_minmax(table_name=old_table)['max']
 
-    if minid:
+    if min_id:
         with Pool() as pool:
             params = []
-            while minid <= maxid:
+            while min_id <= max_id:
                 params.append(
-                    (oldtable, newtable, minid, limit)
+                    (old_table, new_table, min_id, limit)
                 )
-                minid += limit
+                min_id += limit
             pool.starmap(calculate_structural_sim, params)
     else:
-        calculate_structural_sim(oldtable, newtable, minid, limit)
+        calculate_structural_sim(old_table, new_table, min_id, limit)
     # remove duplicates if any
-    drop_duplicates(table_name=newtable)
-    # ---------------------------------------------------------------------------------------- #
+    drop_duplicates(table_name=new_table)
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Calculation of structural similarity \n\
                 Date: {datetime.now()} \n \
@@ -316,8 +315,6 @@ def main():
     save_metadata(config.path2info, metadata)
     print("FINISHED!")
 
-
-# ---------------------------------------------------------------------------------------- #
 
 if __name__ == '__main__':
     main()
