@@ -270,7 +270,7 @@ def calculate_structural_sim(simtable, str_simtable, minid=None, limit=None):
 def main():
     start_time = datetime.now()
     config = Config.get_instance()
-    # ---------------------------------------------------------------------------------------- #
+
     # connect to mysql table and create if not exists
     check_database(config.database)
 
@@ -286,10 +286,10 @@ def main():
     print(oldtable)
 
     onto = 'chebi'
-    newtable = '_'.join(['similarity_structural', onto])
+    new_table = '_'.join(['similarity_structural', onto])
 
     # create a new table with structural similarity values
-    create_structural_table(newtable)
+    create_structural_table(new_table)
     # parameter for using in sql query, where we define the value of the primary key (id) mininum, and
     # the no. of rows
     limit = 1000
@@ -299,13 +299,13 @@ def main():
     if minid:
 
         while minid <= maxid:
-            calculate_structural_sim(oldtable, newtable, minid, limit)
+            calculate_structural_sim(oldtable, new_table, minid, limit)
             minid += limit
             time.sleep(0.5)
     else:
-        calculate_structural_sim(oldtable, newtable, minid, limit)
+        calculate_structural_sim(oldtable, new_table, minid, limit)
     # remove duplicates if any
-    drop_duplicates(table_name=newtable)
+    drop_duplicates(table_name=new_table)
     # ---------------------------------------------------------------------------------------- #
     # save meta-information: date, time, database, dataset and ontology label in the txt file
     metadata = f'Calculation of structural similarity \n\
