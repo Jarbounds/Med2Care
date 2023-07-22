@@ -126,6 +126,29 @@ def check_database(database: str):
             my_db.close()
 
 
+def get_database_tables(database_name: str) -> list:
+    my_db: MySQLConnection | None = None
+    my_cursor: MySQLCursor | None = None
+
+    try:
+        my_db = create_default_connection_mysql()
+        my_cursor = my_db.cursor()
+
+        my_cursor.execute(f'show tables from {database_name};')
+
+        results = my_cursor.fetchall()
+        results = [res[0] for res in results]
+
+        return results
+    except Exception as e:
+        print("Error while connecting to MySQL", e)
+    finally:
+        if my_cursor is not None:
+            my_cursor.close()
+        if my_db is not None and my_db.is_connected():
+            my_db.close()
+
+
 def check_sim_table(database_name: str, table_name: str) -> bool:
     """
     Check the existence of table for a given database.
@@ -140,13 +163,9 @@ def check_sim_table(database_name: str, table_name: str) -> bool:
         my_db = create_default_connection_mysql()
         my_cursor = my_db.cursor()
 
-        query = f"show tables from {database_name};"
-        my_cursor.execute(query)
+        tables = get_database_tables(database_name)
 
-        results = my_cursor.fetchall()
-        results = [res[0] for res in results]
-
-        if table_name in results:
+        if table_name in tables:
             print(f'Table {table_name} already exists')
         else:
             print(f'Table {table_name} does not exist, creating')
@@ -323,9 +342,9 @@ def create_structural_table(table_name):
 
     my_db: MySQLConnection | None = None
     my_cursor: MySQLCursor | None = None
+
     try:
         my_db = create_connection_mysql()
-
         my_cursor = my_db.cursor()
 
         my_cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
