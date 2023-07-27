@@ -440,6 +440,7 @@ def main():
             ds=config.dataset_folder,
             onto=config.item_prefix
         ))
+    print('FINISHED')
 
 
 if __name__ == '__main__':
