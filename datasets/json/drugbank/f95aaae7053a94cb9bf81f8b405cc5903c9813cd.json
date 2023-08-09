@@ -1,0 +1,2545 @@
+{
+    "medicine_id": "f95aaae7053a94cb9bf81f8b405cc5903c9813cd",
+    "platform_id": "DB12010",
+    "metadata": {
+        "name": "Tavalisse 100 mg Tablet",
+        "composition": "100 mg Fostamatinib",
+        "clinical_particulars": {
+            "therapeutic_indications": "Fostamatinib is indicated for use in the treatment of chronic immune thrombocytopenia ITP in patients who have had insufficient response to previous therapy FDA Label",
+            "contraindications": {
+                "disease": "Neither fostamatinib or R406 were found to be carcinogenic or mutagenic FDA Label Fostamatinib can cause embryo fetal mortality or developmental abnormalities at exposures of 0 3 10 times the maximum recommended human dose Serious adverse effects include hypertension neutropenia diarrhea and hepatotoxicity FDA Label",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "The active metabolite of fostamatinib R406 inhibits signal transduction by Fc\u03b3 receptors involved in the antibody mediated destruction of platelets by immune cells in chronic ITP A32898 A32899 FDA Label This results in increased platelet counts in this population R406 produces inhibition of T and B lymphocyte activation by T cell receptors TCRs and B cell receptors BCRs respectively A32898 A32899 It can also inhibit signalling via Fc\u03b5 receptors which could have applications in treating allergic symptoms through prevention of mast cell degranulation A32899 A32903 Inhibition of Fc receptor signalling system also affected by R406 suppresses both dendritic cell maturation and antigen presentation and may contribute to the effects of fostamatinib A32904 As a knock on effect of disabling signal transduction from Fc receptors TCRs and BCRs the production of inflammatory mediators and cytokines like tumour necrosis factor \u03b1 leukotriene C4 interleukin 8 and granulocyte macrophage colony stimulating factor Fostamatinib can produce hypertension through off target effects A32906 FDA Label",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The metabolism of Eliglustat can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The metabolism of Ibrutinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00770",
+                        "description": "The risk or severity of hypotension and priapism can be increased when Fostamatinib is combined with Alprostadil"
+                    },
+                    {
+                        "drugbank-id": "DB01612",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Amyl Nitrite"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The risk or severity of orthostatic hypotension can be increased when Dapoxetine is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Fostamatinib may increase the hypotensive activities of Riociguat"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Cilostazol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The metabolism of Colchicine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The metabolism of Fentanyl can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The metabolism of Iloperidone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01256",
+                        "description": "The metabolism of Retapamulin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08895",
+                        "description": "The metabolism of Tofacitinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The metabolism of Vardenafil can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The metabolism of Eszopiclone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "The metabolism of Zopiclone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The risk or severity of neutropenia can be increased when Fostamatinib is combined with Irinotecan"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The metabolism of Lovastatin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "The metabolism of Alfuzosin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "The metabolism of Alprazolam can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The serum concentration of Warfarin can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The serum concentration of Acenocoumarol can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The serum concentration of R warfarin can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08735",
+                        "description": "The serum concentration of R S Warfarin alcohol can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08736",
+                        "description": "The serum concentration of S R Warfarin alcohol can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The serum concentration of S Warfarin can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "The serum concentration of Midazolam can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The serum concentration of Tacrolimus can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The metabolism of Atorvastatin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00360",
+                        "description": "Sapropterin may increase the hypotensive activities of Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Ethanol may increase the hypotensive activities of Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Ramipril"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Esmolol"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00212",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Remikiren"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Bethanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00226",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Guanadrel"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Isradipine"
+                    },
+                    {
+                        "drugbank-id": "DB00275",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Olmesartan"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Chlorthalidone"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Nitroprusside"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Atenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Timolol"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Treprostinil"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Amlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Nimodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Fosinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Trandolapril"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Lercanidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Benazepril"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00616",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Candoxatril"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Guanabenz"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Moexipril"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Lisinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00765",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Metyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00785",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Cryptenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Perindopril"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Candesartan cilexetil"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Fenoldopam"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Quinapril"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Omapatrilat"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Telmisartan"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Nitrendipine"
+                    },
+                    {
+                        "drugbank-id": "DB01089",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Deserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Diazoxide"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01170",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Guanethidine"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Rescinnamine"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Nadolol"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Practolol"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Cilazapril"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Saprisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Spirapril"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Pargyline"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Tienilic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Debrisoquine"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Ambrisentan"
+                    },
+                    {
+                        "drugbank-id": "DB06445",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Diethylnorspermine"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB06762",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Pinacidil"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Temocapril"
+                    },
+                    {
+                        "drugbank-id": "DB08932",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Macitentan"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB09026",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Aliskiren"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09242",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Moxonidine"
+                    },
+                    {
+                        "drugbank-id": "DB09363",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Rauwolfia serpentina root"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Enalaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Selexipag"
+                    },
+                    {
+                        "drugbank-id": "DB11720",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Angiotensin 1 7"
+                    },
+                    {
+                        "drugbank-id": "DB11738",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Rilmenidine"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Imidapril"
+                    },
+                    {
+                        "drugbank-id": "DB12054",
+                        "description": "Fostamatinib may increase the antihypertensive activities of BQ 123"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Zofenopril"
+                    },
+                    {
+                        "drugbank-id": "DB13211",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Guanoxan"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Delapril"
+                    },
+                    {
+                        "drugbank-id": "DB13374",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Vincamine"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Linsidomine"
+                    },
+                    {
+                        "drugbank-id": "DB13410",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Guanoxabenz"
+                    },
+                    {
+                        "drugbank-id": "DB13429",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Tolonidine"
+                    },
+                    {
+                        "drugbank-id": "DB13435",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Endralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13452",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Cadralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13575",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Bietaserpine"
+                    },
+                    {
+                        "drugbank-id": "DB13604",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Guanazodine"
+                    },
+                    {
+                        "drugbank-id": "DB13631",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Methoserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13779",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Guanoclor"
+                    },
+                    {
+                        "drugbank-id": "DB13801",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Muzolimine"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Benazeprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Ramiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Perindoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Quinaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Nisoldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Eplerenone"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "Fostamatinib may increase the antihypertensive activities of Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB09282",
+                        "description": "Molsidomine may increase the hypotensive activities of Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00727",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Nitroglycerin"
+                    },
+                    {
+                        "drugbank-id": "DB00883",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Isosorbide dinitrate"
+                    },
+                    {
+                        "drugbank-id": "DB01613",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Erythrityl tetranitrate"
+                    },
+                    {
+                        "drugbank-id": "DB06154",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Pentaerythritol tetranitrate"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Isosorbide"
+                    },
+                    {
+                        "drugbank-id": "DB13255",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Propatyl nitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13408",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Methylpropylpropanediol dinitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13637",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Tenitramine"
+                    },
+                    {
+                        "drugbank-id": "DB13719",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Trolnitrate"
+                    },
+                    {
+                        "drugbank-id": "DB14049",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Nitrate"
+                    },
+                    {
+                        "drugbank-id": "DB00235",
+                        "description": "The risk or severity of adverse effects can be increased when Milrinone is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The risk or severity of adverse effects can be increased when Pentoxifylline is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of adverse effects can be increased when Dipyridamole is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "The risk or severity of adverse effects can be increased when Ibudilast is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06267",
+                        "description": "The risk or severity of adverse effects can be increased when Udenafil is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The risk or severity of adverse effects can be increased when Doxofylline is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11792",
+                        "description": "The risk or severity of adverse effects can be increased when Mirodenafil is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "The risk or severity of adverse effects can be increased when Fostamatinib is combined with Tadalafil"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The risk or severity of adverse effects can be increased when Sildenafil is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06237",
+                        "description": "The risk or severity of adverse effects can be increased when Avanafil is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00692",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Phentolamine"
+                    },
+                    {
+                        "drugbank-id": "DB00797",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00925",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Phenoxybenzamine"
+                    },
+                    {
+                        "drugbank-id": "DB01162",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Terazosin"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB08950",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Indoramin"
+                    },
+                    {
+                        "drugbank-id": "DB09206",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Trimazosin"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB12661",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Urapidil"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Droperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Amoxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Trazodone"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00699",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Nicergoline"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Tamsulosin"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00777",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Propiomazine"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB06153",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Pizotifen"
+                    },
+                    {
+                        "drugbank-id": "DB06207",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Silodosin"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB12230",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Bunazosin"
+                    },
+                    {
+                        "drugbank-id": "DB12278",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Propiverine"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Bucindolol"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Trimipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Fostamatinib can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Fostamatinib can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "Fostamatinib may decrease the excretion rate of Prazosin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00158",
+                        "description": "Fostamatinib may decrease the excretion rate of Folic acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "Fostamatinib may decrease the excretion rate of Pravastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "Fostamatinib may decrease the excretion rate of Cladribine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "Fostamatinib may decrease the excretion rate of Conjugated estrogens which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "Fostamatinib may decrease the excretion rate of Gefitinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "Fostamatinib may decrease the excretion rate of Allopurinol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "Fostamatinib may decrease the excretion rate of Celecoxib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "Fostamatinib may decrease the excretion rate of Oxaliplatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "Fostamatinib may decrease the excretion rate of Fluorouracil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "Fostamatinib may decrease the excretion rate of Ivermectin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "Fostamatinib may decrease the excretion rate of Testosterone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "Fostamatinib may decrease the excretion rate of Clofarabine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "Fostamatinib may decrease the excretion rate of Sumatriptan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00698",
+                        "description": "Fostamatinib may decrease the excretion rate of Nitrofurantoin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "Fostamatinib may decrease the excretion rate of Lamivudine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "Fostamatinib may decrease the excretion rate of Riluzole which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Fostamatinib may decrease the excretion rate of Sulfasalazine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "Fostamatinib may decrease the excretion rate of Dactinomycin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "Fostamatinib may decrease the excretion rate of Glyburide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "Fostamatinib may decrease the excretion rate of Topotecan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "Fostamatinib may decrease the excretion rate of Tegaserod which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "Fostamatinib may decrease the excretion rate of Leflunomide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "Fostamatinib may decrease the excretion rate of Rosuvastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "Fostamatinib may decrease the excretion rate of Mitoxantrone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04690",
+                        "description": "Fostamatinib may decrease the excretion rate of Camptothecin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "Fostamatinib may decrease the excretion rate of Simeprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "Fostamatinib may decrease the excretion rate of Apixaban which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "Fostamatinib may decrease the excretion rate of Pitavastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "Fostamatinib may decrease the excretion rate of Teriflunomide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08916",
+                        "description": "Fostamatinib may decrease the excretion rate of Afatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08934",
+                        "description": "Fostamatinib may decrease the excretion rate of Sofosbuvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "Fostamatinib may decrease the excretion rate of Lenvatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "Fostamatinib may decrease the excretion rate of Fimasartan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "Fostamatinib may decrease the excretion rate of Ombitasvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "Fostamatinib may decrease the excretion rate of Tenofovir alafenamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "Fostamatinib may decrease the excretion rate of Velpatasvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11760",
+                        "description": "Fostamatinib may decrease the excretion rate of Talazoparib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "Fostamatinib may decrease the excretion rate of Ertugliflozin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "Fostamatinib may decrease the excretion rate of Revefenacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "Fostamatinib may decrease the excretion rate of Duvelisib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "Fostamatinib may decrease the excretion rate of Glasdegib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "Fostamatinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "Fostamatinib may decrease the excretion rate of Rucaparib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13125",
+                        "description": "Fostamatinib may decrease the excretion rate of Lusutrombopag which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "Fostamatinib may decrease the excretion rate of Pibrentasvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "Fostamatinib may decrease the excretion rate of Glecaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "Fostamatinib may decrease the excretion rate of Testosterone cypionate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "Fostamatinib may decrease the excretion rate of Testosterone enanthate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "Fostamatinib may decrease the excretion rate of Testosterone undecanoate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "Fostamatinib may decrease the excretion rate of Donepezil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "Fostamatinib may decrease the excretion rate of Darolutamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "Fostamatinib may decrease the excretion rate of Tazemetostat which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "Fostamatinib may decrease the excretion rate of Rivaroxaban which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "Fostamatinib may decrease the excretion rate of Selumetinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06813",
+                        "description": "Fostamatinib may decrease the excretion rate of Pralatrexate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "Fostamatinib may decrease the excretion rate of Ripretinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "Fostamatinib may decrease the excretion rate of Daunorubicin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "Fostamatinib may decrease the excretion rate of Fostemsavir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "Fostamatinib may decrease the excretion rate of Pralsetinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "Fostamatinib may decrease the excretion rate of Imatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The metabolism of Aripiprazole can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The metabolism of Aripiprazole lauroxil can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Fostamatinib may increase the hypotensive activities of Nicorandil"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Fostamatinib can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The metabolism of Labetalol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The metabolism of Troglitazone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The metabolism of Morphine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Acetaminophen can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The metabolism of Indomethacin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00350",
+                        "description": "The metabolism of Minoxidil can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The metabolism of Cerivastatin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00481",
+                        "description": "The metabolism of Raloxifene can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The metabolism of Zidovudine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The metabolism of Lamotrigine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The metabolism of Diclofenac can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The metabolism of Losartan can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The metabolism of Mycophenolate mofetil can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The metabolism of Furosemide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00704",
+                        "description": "The metabolism of Naltrexone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The metabolism of Flurbiprofen can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Naproxen can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Propofol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00906",
+                        "description": "The metabolism of Tiagabine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The metabolism of Zonisamide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The metabolism of Metronidazole can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Buprenorphine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00947",
+                        "description": "The metabolism of Fulvestrant can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00973",
+                        "description": "The metabolism of Ezetimibe can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Ethinylestradiol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The metabolism of Ketoprofen can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01048",
+                        "description": "The metabolism of Abacavir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The metabolism of Ibuprofen can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The metabolism of Glipizide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Fluvastatin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The metabolism of Carvedilol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The metabolism of Gemfibrozil can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The metabolism of Fusidic acid can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB03496",
+                        "description": "The metabolism of Alvocidib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The metabolism of Ezogabine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05018",
+                        "description": "The metabolism of Migalastat can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The metabolism of Indacaterol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06401",
+                        "description": "The metabolism of Bazedoxifene can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06510",
+                        "description": "The metabolism of Muraglitazar can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06741",
+                        "description": "The metabolism of Gavestinel can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06817",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The metabolism of Dolutegravir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09119",
+                        "description": "The metabolism of Eslicarbazepine acetate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Propacetamol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11799",
+                        "description": "The metabolism of Bictegravir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The metabolism of Delafloxacin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The metabolism of Elagolix can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The metabolism of Letermovir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Estradiol acetate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Estradiol dienanthate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB14575",
+                        "description": "The metabolism of Eslicarbazepine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The metabolism of Dexibuprofen can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12020",
+                        "description": "The metabolism of Tecovirimat can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01183",
+                        "description": "The metabolism of Naloxone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09101",
+                        "description": "The metabolism of Elvitegravir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The metabolism of Simvastatin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Norgestimate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The metabolism of Metoprolol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Zafirlukast"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "The metabolism of Lorazepam can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The metabolism of Phentermine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The metabolism of Azithromycin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Ticlopidine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00426",
+                        "description": "The metabolism of Famciclovir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The metabolism of Prochlorperazine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The metabolism of Cephalexin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The metabolism of Norethisterone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01411",
+                        "description": "The metabolism of Pranlukast can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "The metabolism of Allylestrenol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "The metabolism of Roflumilast can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The metabolism of Rufinamide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The metabolism of Lacosamide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The metabolism of Vorapaxar can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The metabolism of Suvorexant can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The metabolism of Nintedanib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11094",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The metabolism of Dihydroergocornine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The metabolism of Gilteritinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12515",
+                        "description": "The metabolism of 9 aminocamptothecin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12952",
+                        "description": "The metabolism of Methylprednisone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13345",
+                        "description": "The metabolism of Dihydroergocristine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The metabolism of Dihydroergocryptine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Medical Cannabis can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The metabolism of Tenofovir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The metabolism of Drospirenone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Fenofibrate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Atazanavir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The metabolism of St John s Wort can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The metabolism of Linagliptin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The metabolism of Netupitant can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The metabolism of Elexacaftor can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06717",
+                        "description": "The metabolism of Fosaprepitant can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "The metabolism of Lefamulin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "The metabolism of Methysergide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Meperidine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The metabolism of Ebastine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Terfenadine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Cisapride can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The metabolism of Isavuconazole can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The metabolism of Teniposide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The metabolism of Vincristine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The metabolism of Methotrexate can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Tamoxifen can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The metabolism of Doxorubicin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Pazopanib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The metabolism of Vemurafenib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Dabrafenib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The metabolism of Palbociclib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The metabolism of Osimertinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The metabolism of Venetoclax can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Dacomitinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The metabolism of Abemaciclib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Brigatinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The metabolism of Copanlisib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Etoposide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Enasidenib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The metabolism of Cobimetinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The metabolism of Ceritinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The metabolism of Cyclosporine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The metabolism of Dofetilide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Carbamazepine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The metabolism of Sirolimus can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The metabolism of Quinidine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "The metabolism of Busulfan can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The metabolism of Digitoxin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The metabolism of Everolimus can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The metabolism of Dronedarone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The metabolism of Temsirolimus can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The metabolism of Tianeptine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Fosphenytoin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The metabolism of Idelalisib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Nilotinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The metabolism of Dihydroergotamine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The metabolism of Nortriptyline can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "The metabolism of Ergotamine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The metabolism of Astemizole can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The metabolism of Lomitapide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The metabolism of Siponimod can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "The metabolism of Vinorelbine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The metabolism of Vinblastine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The metabolism of Docetaxel can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "The metabolism of Thiotepa can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The metabolism of Trabectedin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The metabolism of Vandetanib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11363",
+                        "description": "The metabolism of Alectinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The metabolism of Vinflunine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11703",
+                        "description": "The metabolism of Acalabrutinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB15035",
+                        "description": "The metabolism of Zanubrutinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Bortezomib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The metabolism of Cabergoline can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "The metabolism of Vindesine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Erlotinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Ifosfamide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The metabolism of Sunitinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The metabolism of Ixabepilone can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Midostaurin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The metabolism of Panobinostat can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The metabolism of Bosutinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The metabolism of Crizotinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The metabolism of Brentuximab vedotin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "The metabolism of Ruxolitinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09143",
+                        "description": "The metabolism of Sonidegib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09570",
+                        "description": "The metabolism of Ixazomib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The metabolism of Neratinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The metabolism of Erdafitinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The metabolism of Pexidartinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The metabolism of Ivosidenib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The metabolism of Conivaptan can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Clomipramine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The metabolism of Romidepsin can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The metabolism of Tolvaptan can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The metabolism of Olaparib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The metabolism of Baricitinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Cyclophosphamide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01128",
+                        "description": "The metabolism of Bicalutamide can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The metabolism of Levacetylmethadol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The metabolism of Trastuzumab emtansine can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The metabolism of Valproic acid can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "The metabolism of Mycophenolic acid can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The metabolism of Binimetinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Mefenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Diflunisal"
+                    },
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB13609",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Umifenovir"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The metabolism of Fostamatinib can be decreased when combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The metabolism of Prucalopride can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00017",
+                        "description": "The therapeutic efficacy of Salmon calcitonin can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00024",
+                        "description": "The therapeutic efficacy of Thyrotropin alfa can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00066",
+                        "description": "The therapeutic efficacy of Follitropin can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The therapeutic efficacy of Liothyronine can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00389",
+                        "description": "The therapeutic efficacy of Carbimazole can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "The therapeutic efficacy of Propylthiouracil can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The therapeutic efficacy of Liotrix can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB03374",
+                        "description": "The therapeutic efficacy of 3 5 Diiodotyrosine can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB03604",
+                        "description": "The therapeutic efficacy of Tiratricol can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05084",
+                        "description": "The therapeutic efficacy of Abaloparatide can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05829",
+                        "description": "The therapeutic efficacy of Parathyroid hormone can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06285",
+                        "description": "The therapeutic efficacy of Teriparatide can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06715",
+                        "description": "The therapeutic efficacy of Potassium Iodide can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB07637",
+                        "description": "The therapeutic efficacy of Dibromotyrosine can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09100",
+                        "description": "The therapeutic efficacy of Thyroid porcine can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09418",
+                        "description": "The therapeutic efficacy of Potassium perchlorate can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09421",
+                        "description": "The therapeutic efficacy of Protirelin can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12629",
+                        "description": "The therapeutic efficacy of 3 5 diiodothyropropionic acid can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13644",
+                        "description": "The therapeutic efficacy of Methylthiouracil can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13742",
+                        "description": "The therapeutic efficacy of Elcatonin can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13804",
+                        "description": "The therapeutic efficacy of Benzylthiouracil can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB15263",
+                        "description": "The therapeutic efficacy of Thyrotropin can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The therapeutic efficacy of Levothyroxine can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The therapeutic efficacy of Methimazole can be decreased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The serum concentration of Alpelisib can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Doxazosin"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The metabolism of Entrectinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "The risk or severity of hypertension can be decreased when Fostamatinib is combined with Phenylephrine"
+                    },
+                    {
+                        "drugbank-id": "DB14975",
+                        "description": "The serum concentration of Voxelotor can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Fostamatinib can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "The serum concentration of Levamlodipine can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "The serum concentration of Lumateperone can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The metabolism of Tramadol can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Fostamatinib may increase the vasodilatory activities of Isosorbide mononitrate"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The serum concentration of Rimegepant can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of R406 an active metabolite of Fostamatinib can be increased when used in combination with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of R406 an active metabolite of Ritonavir can be increased when used in combination with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12612",
+                        "description": "Fostamatinib may decrease the excretion rate of Ozanimod which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12893",
+                        "description": "The serum concentration of Sacituzumab govitecan can be increased when it is combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Fostamatinib can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Aldesleukin"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Streptokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Methyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Ropinirole"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Ropivacaine"
+                    },
+                    {
+                        "drugbank-id": "DB00297",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Bupivacaine"
+                    },
+                    {
+                        "drugbank-id": "DB00323",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Tolcapone"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Triamterene"
+                    },
+                    {
+                        "drugbank-id": "DB00413",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Pramipexole"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Spironolactone"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Nitric Oxide"
+                    },
+                    {
+                        "drugbank-id": "DB00484",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Nabilone"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Sotalol"
+                    },
+                    {
+                        "drugbank-id": "DB00521",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Carteolol"
+                    },
+                    {
+                        "drugbank-id": "DB00594",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Amiloride"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Thiopental"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Dexmedetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Amphotericin B"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Tizanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Methazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Sufentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Apomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Mannitol"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Isoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Tretinoin"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Bumetanide"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Remifentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Etacrynic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Levosimendan"
+                    },
+                    {
+                        "drugbank-id": "DB00964",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Apraclonidine"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Levobupivacaine"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Selegiline"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Thalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Iloprost"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01143",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Amifostine"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Diclofenamide"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Halothane"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Desflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01210",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Levobunolol"
+                    },
+                    {
+                        "drugbank-id": "DB01214",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Metipranolol"
+                    },
+                    {
+                        "drugbank-id": "DB01235",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Levodopa"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Isocarboxazid"
+                    },
+                    {
+                        "drugbank-id": "DB01282",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Carbetocin"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Rasagiline"
+                    },
+                    {
+                        "drugbank-id": "DB04899",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Nesiritide"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Rotigotine"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Dapagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08822",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Canagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Obinutuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB08941",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Isoxsuprine"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Empagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Dinutuximab"
+                    },
+                    {
+                        "drugbank-id": "DB09112",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Nitrous acid"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Arotinolol"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Barnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Cilnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Sacubitril"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Fostamatinib can be decreased when it is combined with Satralizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The serum concentration of Berotralstat can be increased when it is combined with Fostamatinib"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

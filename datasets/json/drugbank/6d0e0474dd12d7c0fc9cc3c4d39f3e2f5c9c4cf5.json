@@ -1,0 +1,781 @@
+{
+    "medicine_id": "6d0e0474dd12d7c0fc9cc3c4d39f3e2f5c9c4cf5",
+    "platform_id": "DB12329",
+    "metadata": {
+        "name": "Xerava 100 mg 1 Injection powder lyophilized for solution",
+        "composition": "100 mg 1 Eravacycline",
+        "clinical_particulars": {
+            "therapeutic_indications": "This drug is a tetracycline class antibacterial indicated for the treatment of complicated intra abdominal infections in patients 18 years of age and older FDA label",
+            "contraindications": {
+                "disease": "The most common adverse reactions incidence 3 are infusion site reactions nausea and vomiting FDA label Less common incidence 1 adverse effects are palpitations chest pain acute pancreatitis pancreatic necrosis hypocalcemia dizziness dysgeusia anxiety insomnia depression pleural effusion dyspnea rash and hyperhidrosis FDA label The following are various side effects that may occur due to eravacycline use FDA label Hypersensitivity Life threatening anaphylaxis has been reported with the administration of eravacycline Antibacterial drugs and should be avoided in patients with known hypersensitivity to tetracycline class antibacterial drugs FDA label Tooth Discoloration enamel hypoplasia The use of this drug during tooth development last half of pregnancy infancy and childhood to the age of 8 years may lead to the permanent discoloration of teeth yellow grey brown FDA label Inhibition of bone growth The use of eravacycline during the second and third trimester of pregnancy infancy and childhood until the age of 8 years old may cause reversible inhibition of bone growth All tetracyclines form a stable calcium complex in bone forming tissue FDA label Clostridium difficile Associated diarrhea Clostridium difficile associated diarrhea CDAD has been reported with use of the majority of antibacterial agents and may range in severity from mild diarrhea to fatal colitis Treatment with antibacterial agents changes the normal flora of the colon leading to an overgrowth of C difficile Tetracycline class adverse reactions This drug is structurally similar to tetracycline class antibacterial drugs and may have similar adverse reactions Adverse reactions including photosensitivity pseudotumor cerebri and anti anabolic action which has led to increased BUN azotemia acidosis hyperphosphatemia pancreatitis and abnormal liver function tests have been reported for other tetracycline class antibacterial agents and may occur with eravacycline Discontinue eravacycline if any of these adverse reactions are suspected or observed FDA label Potential for microbial overgrowth The use of eravacycline may result in overgrowth of non susceptible organisms including fungi If such infections occur discontinue eravacycline and manage with appropriate therapy FDA label Development of drug resistant bacteria Prescribing eravacycline in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and increases the risk of the development of drug resistant bacteria FDA label",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Eravacycline is an antibiotic that disrupts bacterial protein synthesis treating complicated intraabdominal infections FDA label",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Eravacycline may increase the neuromuscular blocking activities of Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB05528",
+                        "description": "Eravacycline may increase the hepatotoxic activities of Mipomersen"
+                    },
+                    {
+                        "drugbank-id": "DB00301",
+                        "description": "The therapeutic efficacy of Flucloxacillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The therapeutic efficacy of Piperacillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00415",
+                        "description": "The therapeutic efficacy of Ampicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00417",
+                        "description": "The therapeutic efficacy of Phenoxymethylpenicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00485",
+                        "description": "The therapeutic efficacy of Dicloxacillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00578",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00607",
+                        "description": "The therapeutic efficacy of Nafcillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00713",
+                        "description": "The therapeutic efficacy of Oxacillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00739",
+                        "description": "The therapeutic efficacy of Hetacillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00895",
+                        "description": "The therapeutic efficacy of Benzylpenicilloyl polylysine can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00948",
+                        "description": "The therapeutic efficacy of Mezlocillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01000",
+                        "description": "The therapeutic efficacy of Cyclacillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01060",
+                        "description": "The therapeutic efficacy of Amoxicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01061",
+                        "description": "The therapeutic efficacy of Azlocillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01147",
+                        "description": "The therapeutic efficacy of Cloxacillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01163",
+                        "description": "The therapeutic efficacy of Amdinocillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01602",
+                        "description": "The therapeutic efficacy of Bacampicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01603",
+                        "description": "The therapeutic efficacy of Meticillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01604",
+                        "description": "The therapeutic efficacy of Pivampicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01605",
+                        "description": "The therapeutic efficacy of Pivmecillinam can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01607",
+                        "description": "The therapeutic efficacy of Ticarcillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB08795",
+                        "description": "The therapeutic efficacy of Azidocillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09319",
+                        "description": "The therapeutic efficacy of Carindacillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09320",
+                        "description": "The therapeutic efficacy of Procaine benzylpenicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12127",
+                        "description": "The therapeutic efficacy of Sultamicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12343",
+                        "description": "The therapeutic efficacy of Temocillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13300",
+                        "description": "The therapeutic efficacy of Epicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13337",
+                        "description": "The therapeutic efficacy of Pheneticillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13506",
+                        "description": "The therapeutic efficacy of Carfecillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13660",
+                        "description": "The therapeutic efficacy of Propicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13686",
+                        "description": "The therapeutic efficacy of Clometocillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13693",
+                        "description": "The therapeutic efficacy of Sulbenicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13739",
+                        "description": "The therapeutic efficacy of Penamecillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13814",
+                        "description": "The therapeutic efficacy of Talampicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13816",
+                        "description": "The therapeutic efficacy of Aspoxicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13836",
+                        "description": "The therapeutic efficacy of Metampicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09275",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Bismuth subcitrate potassium"
+                    },
+                    {
+                        "drugbank-id": "DB01593",
+                        "description": "Zinc can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB02165",
+                        "description": "Zinc trihydroxide can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04249",
+                        "description": "Zinc Substituted Heme C can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09221",
+                        "description": "Polaprezinc can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09321",
+                        "description": "Zinc oxide can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09322",
+                        "description": "Zinc sulfate can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "Zinc citrate can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11175",
+                        "description": "Zinc picolinate can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11248",
+                        "description": "Zinc gluconate can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14479",
+                        "description": "Acetylcysteine zinc can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14485",
+                        "description": "Zinc ascorbate can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14487",
+                        "description": "Zinc acetate can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14493",
+                        "description": "Zinc glycinate can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14533",
+                        "description": "Zinc chloride can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14548",
+                        "description": "Zinc sulfate unspecified form can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14532",
+                        "description": "Zinc cation can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11372",
+                        "description": "The serum concentration of Altrenogest can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13230",
+                        "description": "The serum concentration of Gestonorone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13533",
+                        "description": "The serum concentration of Methylestrenolone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13563",
+                        "description": "The serum concentration of Norgestrienone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14678",
+                        "description": "The serum concentration of Norethindrone enanthate can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14679",
+                        "description": "The serum concentration of Quingestanol acetate can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Etonogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Desogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Megestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00378",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Dydrogesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Norethisterone"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Ethynodiol diacetate"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Allylestrenol"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Cyproterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB06713",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Norelgestromin"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Gestodene"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Hydroxyprogesterone caproate"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Dienogest"
+                    },
+                    {
+                        "drugbank-id": "DB09124",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Medrogestone"
+                    },
+                    {
+                        "drugbank-id": "DB09371",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Norethynodrel"
+                    },
+                    {
+                        "drugbank-id": "DB09389",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Norgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11619",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Gestrinone"
+                    },
+                    {
+                        "drugbank-id": "DB11636",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Nomegestrol"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The serum concentration of Lynestrenol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13528",
+                        "description": "The serum concentration of Chlormadinone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13602",
+                        "description": "The serum concentration of Promegestone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13685",
+                        "description": "The serum concentration of Quingestanol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13857",
+                        "description": "The serum concentration of Demegestone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13866",
+                        "description": "The serum concentration of Etynodiol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13981",
+                        "description": "The serum concentration of Nomegestrol acetate can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14570",
+                        "description": "The serum concentration of Hydroxyprogesterone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Drospirenone"
+                    },
+                    {
+                        "drugbank-id": "DB09139",
+                        "description": "Eravacycline may decrease effectiveness of Technetium Tc 99m oxidronate as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Eravacycline can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Eravacycline is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Nicotine"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Phentermine"
+                    },
+                    {
+                        "drugbank-id": "DB00397",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Phenylpropanolamine"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Linezolid"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Furazolidone"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Minaprine"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Pseudoephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Selegiline"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Moclobemide"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Isocarboxazid"
+                    },
+                    {
+                        "drugbank-id": "DB01363",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Ephedra sinica root"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with MMDA"
+                    },
+                    {
+                        "drugbank-id": "DB01472",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with 4 Methoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Metamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Pargyline"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Zimelidine"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Safinamide"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Capsaicin"
+                    },
+                    {
+                        "drugbank-id": "DB08804",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Nandrolone decanoate"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Pirlindole"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Toloxatone"
+                    },
+                    {
+                        "drugbank-id": "DB13876",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Brofaromine"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "The metabolism of Eravacycline can be decreased when combined with Iproniazid"
+                    },
+                    {
+                        "drugbank-id": "DB01390",
+                        "description": "The therapeutic efficacy of Eravacycline can be decreased when used in combination with Sodium bicarbonate"
+                    },
+                    {
+                        "drugbank-id": "DB04272",
+                        "description": "The therapeutic efficacy of Eravacycline can be decreased when used in combination with Citric acid"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "The therapeutic efficacy of Eravacycline can be decreased when used in combination with Potassium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "The therapeutic efficacy of Eravacycline can be decreased when used in combination with Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09459",
+                        "description": "The therapeutic efficacy of Eravacycline can be decreased when used in combination with L tartaric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Eravacycline can cause an increase in the absorption of Digoxin resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Eravacycline can cause an increase in the absorption of Metildigoxin resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Eravacycline can cause an increase in the absorption of Acetyldigoxin resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00162",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Vitamin A is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Bexarotene is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00459",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Acitretin is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00523",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Alitretinoin is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Tretinoin is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00799",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Tazarotene is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00926",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Etretinate is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00982",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Isotretinoin is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB02699",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when 4 Oxoretinol is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB05076",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Fenretinide is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB08455",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Ro 12 7310 is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12112",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Zuretinol acetate is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13368",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Motretinide is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB04066",
+                        "description": "The serum concentration of p Coumaric acid can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB04682",
+                        "description": "The serum concentration of Octylphenoxy polyethoxyethanol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB05830",
+                        "description": "The serum concentration of Trestolone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB06266",
+                        "description": "The serum concentration of Lonidamine can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "The serum concentration of Isosorbide can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11507",
+                        "description": "The serum concentration of Cloprostenol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12025",
+                        "description": "The serum concentration of Triptolide can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13044",
+                        "description": "The serum concentration of Gossypol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13310",
+                        "description": "The serum concentration of Ormeloxifene can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The serum concentration of Diethylstilbestrol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The serum concentration of Estradiol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The serum concentration of Mifepristone can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The serum concentration of Ethinylestradiol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The serum concentration of Mestranol can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The serum concentration of Estrone sulfate can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB08867",
+                        "description": "The serum concentration of Ulipristal can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The serum concentration of Testosterone enanthate can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The serum concentration of Estradiol benzoate can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The serum concentration of Estradiol cypionate can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The serum concentration of Estradiol valerate can be decreased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Eravacycline can cause a decrease in the absorption of Methotrexate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The risk or severity of renal failure can be increased when Methoxyflurane is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "Magnesium can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Eravacycline can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "Didanosine can cause a decrease in the absorption of Eravacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00048",
+                        "description": "The therapeutic efficacy of Collagenase clostridium histolyticum can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Eravacycline can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Satralizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

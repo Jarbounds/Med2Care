@@ -1,0 +1,29 @@
+{
+    "medicine_id": "5701a0447c7f3bda0ac23e3d0f927687be706b8a",
+    "platform_id": "DB06071",
+    "metadata": {
+        "name": "Lartruvo 10 mg 1mL Injection solution",
+        "composition": "10 mg 1mL DTS 201",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in cancer tumors unspecified",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00072",
+                        "description": "The risk or severity of cardiotoxicity can be increased when Trastuzumab is combined with DTS 201"
+                    },
+                    {
+                        "drugbank-id": "DB14967",
+                        "description": "The risk or severity of cardiotoxicity can be increased when Margetuximab is combined with DTS 201"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

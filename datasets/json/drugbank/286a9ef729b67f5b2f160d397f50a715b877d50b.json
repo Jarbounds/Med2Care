@@ -1,0 +1,993 @@
+{
+    "medicine_id": "286a9ef729b67f5b2f160d397f50a715b877d50b",
+    "platform_id": "DB06827",
+    "metadata": {
+        "name": "Rescula 1 5 mg 1mL Solution drops",
+        "composition": "1 5 mg 1mL Viomycin",
+        "clinical_particulars": {
+            "therapeutic_indications": "Viomycin is an essential component in the drug cocktail currently used to fight infections of Mycobacterium tuberculosis",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "The therapeutic efficacy of Succinylcholine can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00416",
+                        "description": "The therapeutic efficacy of Metocurine iodide can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00483",
+                        "description": "The therapeutic efficacy of Gallamine triethiodide can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00565",
+                        "description": "The therapeutic efficacy of Cisatracurium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00728",
+                        "description": "The therapeutic efficacy of Rocuronium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00732",
+                        "description": "The therapeutic efficacy of Atracurium besylate can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01135",
+                        "description": "The therapeutic efficacy of Doxacurium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01226",
+                        "description": "The therapeutic efficacy of Mivacurium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01245",
+                        "description": "The therapeutic efficacy of Decamethonium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01336",
+                        "description": "The therapeutic efficacy of Metocurine can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01337",
+                        "description": "The therapeutic efficacy of Pancuronium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01338",
+                        "description": "The therapeutic efficacy of Pipecuronium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01339",
+                        "description": "The therapeutic efficacy of Vecuronium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04834",
+                        "description": "The therapeutic efficacy of Rapacuronium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB11156",
+                        "description": "The therapeutic efficacy of Pyrantel can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB12989",
+                        "description": "The therapeutic efficacy of Neosaxitoxin can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB13295",
+                        "description": "The therapeutic efficacy of Atracurium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "The therapeutic efficacy of Gallamine can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB13648",
+                        "description": "The therapeutic efficacy of Alcuronium can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "The therapeutic efficacy of Tubocurarine can be increased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Cyclosporine is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Doxycycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00256",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Lymecycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00314",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Capreomycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Piperacillin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00452",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Framycetin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00453",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Clomocycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Quinine is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00512",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Vancomycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00560",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Tigecycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Oxytetracycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Chloroquine is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00618",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Demeclocycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Magnesium sulfate is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00684",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Tobramycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Tetracycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00798",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Gentamicin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Etacrynic acid is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Quinidine is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00931",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Metacycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00955",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Netilmicin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00994",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Neomycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Minocycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Procainamide is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01082",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Streptomycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01111",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Colistimethate is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01172",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Kanamycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Clindamycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01219",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Dantrolene is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01301",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Rolitetracycline is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Magnesium oxide is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01378",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Magnesium cation is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01421",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Paromomycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01627",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Lincomycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB03615",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Ribostamycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04263",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Geneticin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04626",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Apramycin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04729",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Gentamicin C1a is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04808",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Neamine is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06696",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Arbekacin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB08437",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Puromycin"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium hydroxide"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium trisilicate"
+                    },
+                    {
+                        "drugbank-id": "DB09407",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium chloride"
+                    },
+                    {
+                        "drugbank-id": "DB09409",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium acetate tetrahydrate"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB11110",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11189",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium glycinate"
+                    },
+                    {
+                        "drugbank-id": "DB11230",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium Aluminum Silicate"
+                    },
+                    {
+                        "drugbank-id": "DB11512",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Dihydrostreptomycin"
+                    },
+                    {
+                        "drugbank-id": "DB11520",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Hygromycin B"
+                    },
+                    {
+                        "drugbank-id": "DB12604",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Sisomicin"
+                    },
+                    {
+                        "drugbank-id": "DB12615",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Plazomicin"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium silicate"
+                    },
+                    {
+                        "drugbank-id": "DB13264",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Penimepicycline"
+                    },
+                    {
+                        "drugbank-id": "DB13359",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium aspartate"
+                    },
+                    {
+                        "drugbank-id": "DB13540",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Isepamicin"
+                    },
+                    {
+                        "drugbank-id": "DB13749",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium gluconate"
+                    },
+                    {
+                        "drugbank-id": "DB13786",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium orotate"
+                    },
+                    {
+                        "drugbank-id": "DB13862",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13996",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14077",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Viomycin is combined with Magnesium stearate"
+                    },
+                    {
+                        "drugbank-id": "DB00803",
+                        "description": "The risk or severity of neuromuscular blockade can be increased when Colistin is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00042",
+                        "description": "The risk or severity of adverse effects can be increased when Viomycin is combined with Botulinum Toxin Type B"
+                    },
+                    {
+                        "drugbank-id": "DB00083",
+                        "description": "The risk or severity of adverse effects can be increased when Viomycin is combined with Botulinum toxin type A"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The risk or severity of adverse effects can be increased when Viomycin is combined with Nicotine"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "The risk or severity of adverse effects can be increased when Viomycin is combined with Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "The risk or severity of adverse effects can be increased when Viomycin is combined with Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "The risk or severity of adverse effects can be increased when Viomycin is combined with Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "The risk or severity of adverse effects can be increased when Viomycin is combined with Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB08999",
+                        "description": "The risk or severity of adverse effects can be increased when Viomycin is combined with Cyclopentamine"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Viomycin is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Reserpine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "Ziprasidone may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00260",
+                        "description": "Cycloserine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Amitriptyline may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Protriptyline may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "Vinorelbine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "Clozapine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "Thiethylperazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "Sulpiride may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "Loxapine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "Remoxipride may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "Promazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "Prochlorperazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Teniposide may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "Droperidol may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Imipramine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "Chlorpromazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "Haloperidol may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "Triflupromazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "Cyclophosphamide may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Nortriptyline may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "Vincristine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Amoxapine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "Fluphenazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "Stavudine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "Thioridazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "Moricizine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Trimipramine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Risperidone may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "Trifluoperazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "Perphenazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "Flupentixol may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Ethanol may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "Didanosine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "Cyclobenzaprine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "Mesoridazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "Acetophenazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Promethazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "Pimozide may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Desipramine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "Paclitaxel may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "Aripiprazole may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "Chlorprothixene may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Clomipramine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "Alimemazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "Paliperidone may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01294",
+                        "description": "Bismuth subsalicylate may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "Lithium cation may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "Methotrimeprazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01598",
+                        "description": "Imipenem may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "Periciazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "Acepromazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "Aceprometazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01618",
+                        "description": "Molindone may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "Pipotiazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "Thioproperazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "Thiothixene may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "Zuclopenthixol may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Amineptine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Fluspirilene may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04872",
+                        "description": "Osanetant may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04888",
+                        "description": "Bifeprunox may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "Iloperidone may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB05316",
+                        "description": "Pimavanserin may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "BL 1020 may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "Cariprazine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "Sertindole may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Asenapine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "Amisulpride may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "Viomycin may increase the neurotoxic activities of Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "Viomycin may increase the neurotoxic activities of Perospirone"
+                    },
+                    {
+                        "drugbank-id": "DB08927",
+                        "description": "Viomycin may increase the neurotoxic activities of Amperozide"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Viomycin may increase the neurotoxic activities of Dimetacrine"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "Viomycin may increase the neurotoxic activities of Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Viomycin may increase the neurotoxic activities of Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "Viomycin may increase the neurotoxic activities of Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "Viomycin may increase the neurotoxic activities of Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Viomycin may increase the neurotoxic activities of Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09223",
+                        "description": "Viomycin may increase the neurotoxic activities of Blonanserin"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Viomycin may increase the neurotoxic activities of Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "Viomycin may increase the neurotoxic activities of Zotepine"
+                    },
+                    {
+                        "drugbank-id": "DB09226",
+                        "description": "Viomycin may increase the neurotoxic activities of Brilaroxazine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Viomycin may increase the neurotoxic activities of Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB09275",
+                        "description": "Viomycin may increase the neurotoxic activities of Bismuth subcitrate potassium"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "Viomycin may increase the neurotoxic activities of Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "Viomycin may increase the neurotoxic activities of Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Viomycin may increase the neurotoxic activities of Oxaprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB11281",
+                        "description": "Viomycin may increase the neurotoxic activities of Bismuth subcarbonate"
+                    },
+                    {
+                        "drugbank-id": "DB11376",
+                        "description": "Viomycin may increase the neurotoxic activities of Azaperone"
+                    },
+                    {
+                        "drugbank-id": "DB11537",
+                        "description": "Viomycin may increase the neurotoxic activities of Pirlimycin"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "Viomycin may increase the neurotoxic activities of Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Viomycin may increase the neurotoxic activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12273",
+                        "description": "Viomycin may increase the neurotoxic activities of Ecopipam"
+                    },
+                    {
+                        "drugbank-id": "DB12401",
+                        "description": "Viomycin may increase the neurotoxic activities of Bromperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12518",
+                        "description": "Viomycin may increase the neurotoxic activities of Raclopride"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "Viomycin may increase the neurotoxic activities of Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "Viomycin may increase the neurotoxic activities of Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB12867",
+                        "description": "Viomycin may increase the neurotoxic activities of Benperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Viomycin may increase the neurotoxic activities of Opipramol"
+                    },
+                    {
+                        "drugbank-id": "DB12958",
+                        "description": "Viomycin may increase the neurotoxic activities of Prothipendyl"
+                    },
+                    {
+                        "drugbank-id": "DB13025",
+                        "description": "Viomycin may increase the neurotoxic activities of Tiapride"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Viomycin may increase the neurotoxic activities of Amitriptylinoxide"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "Viomycin may increase the neurotoxic activities of Bismuth subnitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "Viomycin may increase the neurotoxic activities of Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Viomycin may increase the neurotoxic activities of Dibenzepin"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Viomycin may increase the neurotoxic activities of Quinupramine"
+                    },
+                    {
+                        "drugbank-id": "DB13256",
+                        "description": "Viomycin may increase the neurotoxic activities of Clothiapine"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "Viomycin may increase the neurotoxic activities of Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "Viomycin may increase the neurotoxic activities of Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Viomycin may increase the neurotoxic activities of Melitracen"
+                    },
+                    {
+                        "drugbank-id": "DB13403",
+                        "description": "Viomycin may increase the neurotoxic activities of Oxypertine"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Viomycin may increase the neurotoxic activities of Lofepramine"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "Viomycin may increase the neurotoxic activities of Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Viomycin may increase the neurotoxic activities of Iprindole"
+                    },
+                    {
+                        "drugbank-id": "DB13523",
+                        "description": "Viomycin may increase the neurotoxic activities of Veralipride"
+                    },
+                    {
+                        "drugbank-id": "DB13552",
+                        "description": "Viomycin may increase the neurotoxic activities of Trifluperidol"
+                    },
+                    {
+                        "drugbank-id": "DB13554",
+                        "description": "Viomycin may increase the neurotoxic activities of Moperone"
+                    },
+                    {
+                        "drugbank-id": "DB13557",
+                        "description": "Viomycin may increase the neurotoxic activities of Thiopropazate"
+                    },
+                    {
+                        "drugbank-id": "DB13598",
+                        "description": "Viomycin may increase the neurotoxic activities of Diethyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13665",
+                        "description": "Viomycin may increase the neurotoxic activities of Fluanisone"
+                    },
+                    {
+                        "drugbank-id": "DB13676",
+                        "description": "Viomycin may increase the neurotoxic activities of Mosapramine"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Viomycin may increase the neurotoxic activities of Imipramine oxide"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "Viomycin may increase the neurotoxic activities of Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Viomycin may increase the neurotoxic activities of Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13841",
+                        "description": "Viomycin may increase the neurotoxic activities of Clopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB13909",
+                        "description": "Viomycin may increase the neurotoxic activities of Bismuth subgallate"
+                    },
+                    {
+                        "drugbank-id": "DB13910",
+                        "description": "Viomycin may increase the neurotoxic activities of Valproate bismuth"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "Viomycin may increase the neurotoxic activities of Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "Viomycin may increase the neurotoxic activities of Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB00781",
+                        "description": "Viomycin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB15965",
+                        "description": "Viomycin may increase the neurotoxic activities of Naxitamab"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Viomycin"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

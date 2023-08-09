@@ -1,0 +1,2373 @@
+{
+    "medicine_id": "a63589d1c0780e963f575edc8925e94fcc69bfb0",
+    "platform_id": "DB11094",
+    "metadata": {
+        "name": "50 Plus 500 mg 100ml Syrup",
+        "composition": "500 mg 100ml Vitamin D",
+        "clinical_particulars": {
+            "therapeutic_indications": "Vitamin D is indicated for use in the treatment of hypoparathyroidism refractory rickets also known as vitamin D resistant rickets and familial hypophosphatemia FDA Label",
+            "contraindications": {
+                "disease": "The use of pharmacological or nutraceutical vitamin d and or even excessive dietary intake of vitamin d is contraindicated in patients with hypercalcemia malabsorption syndrome abnormal sensitivity to the toxic effects of vitamin d and hypervitaminosis D FDA Label Hypersensitivity to vitamin d is one plausible etiologic factor in infants with idiopathic hypercalcemia a case in which vitamin d use must be strictly restricted FDA Label As vitamin d intake is available via fortified foods dietary supplements and clinical drug sources serum concentrations and therapeutic dosages should be reviewed regularly and readjusted as soon as there is clinical improvement FDA Label Dosage levels are required to be individualized on an individual patient by patient basis as caution must be exercised to prevent the presence of too much vitamin d in the body and the various potentially serious toxic effects associated with such circumstances FDA Label In particular the range between therapeutic and toxic doses is quite narrow in vitamin d resistant rickets FDA Label When high therapeutic doses are used progress should be followed with frequent blood calcium determinations FDA Label When treating hypoparathyroidism intravenous calcium parathyroid hormone and or dihydrotachysterol may be required FDA Label Maintenance of normal serum phosphorus levels by dietary phosphate restriction and or administration of aluminum gels as intestinal phosphate binders in those patients with hyperphosphatemia as frequently seen in renal osteodystrophy is essential to prevent metastatic calcification FDA Label Mineral oil interferes with the absorption of lipid soluble vitamins including vitamin d preparations FDA Label The administration of thiazide diuretics to hypoparathyroid patients who are concurrently being treated with vitamin d can result in hypercalcemia FDA Label At this time no long term animal studies have been performed to evaluate vitamin potential for carcinogens mutagenesis or fertility FDA Label As various animal reproduction studies have demonstrated fetal abnormalities in several species associated with hypervitaminosis D the use of vitamin d in excess of the recommended dietary allowance during normal pregnancy should be avoided FDA Label The safety in excess of 400 USP units of vitamin d daily during pregnancy has not been established FDA Label The abnormalities observed are similar to the supravalvular aortic stenosis syndrome described in infants that is characterized by supravalvular aortic stenosis elfin facies and mental retardation FDA Label In a nursing mother given large doses of vitamin D 25 hydroxycholecalciferol appeared in the milk and caused hypercalcemia in her child Caution is subsequently required when contemplating the use of vitamin d in a nursing woman and the necessity of monitoring infants serum calcium concentration if vitamin d is administered to a breastfeeding woman FDA Label Adverse reactions associated with the use of vitamin d are primarily linked to having hypervitaminosis D occurring FDA Lanel In particular hypervitaminosis D is characterized by effects specific effects on specific organ systems At the renal system hypervitaminosis D can cause impairment of renal function with polyuria nocturne polydipsia hypercalciuria reversible asotemia hypertension nephrocalcinosis generalized vascular calcification or even irreversible renal insufficiency which may result in death FDA Label Elsewhere hypervitaminosis D can also cause CNS mental retardation FDA Label At the level of soft tissues it can widespread calcification of the soft tissues including the heart blood vessels renal tubules and lungs FDA Label In the skeletal system bone demineralization osteoporosis in adults can occur while a decline in the average rate of linear growth and increased mineralization of bones dwarfism vague aches stiffness and weakness can occur in infants and children FDA Label Finally hypervitaminosis D can also lead to nausea anorexia and constipation at the gastrointestinal level as well as mild acidosis anemia or weight loss via metabolic processes FDA Label The LD 50 in animals is unknown FDA Label",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "The in vivo synthesis of the predominant two biologically active metabolites of vitamin D occurs in two steps The first hydroxylation of vitamin D3 or D2 occurs in the liver to yield 25 hydroxyvitamin D while the second hydroxylation happens in the kidneys to give 1 25 dihydroxyvitamin D FDA Label These vitamin D metabolites subsequently facilitate the active absorption of calcium and phosphorus in the small intestine serving to increase serum calcium and phosphate levels sufficiently to allow bone mineralization FDA Label Conversely these vitamin D metabolites also assist in mobilizing calcium and phosphate from bone and likely increase the reabsorption of calcium and perhaps also of phosphate via the renal tubules FDA Label There exists a period of 10 to 24 hours between the administration of vitamin D and the initiation of its action in the body due to the necessity of synthesis of the active vitamin D metabolites in the liver and kidneys FDA Label It is parathyroid hormone that is responsible for the regulation of such metabolism at the level of the kidneys FDA Label",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "The serum concentration of Aluminum hydroxide can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01406",
+                        "description": "Danazol may increase the hypercalcemic activities of Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00364",
+                        "description": "The serum concentration of Sucralfate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01083",
+                        "description": "Orlistat can cause a decrease in the absorption of Vitamin D resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Fosphenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The serum concentration of Magnesium sulfate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "The serum concentration of Magnesium salicylate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "The serum concentration of Magaldrate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "The serum concentration of Magnesium hydroxide can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "The serum concentration of Magnesium trisilicate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09407",
+                        "description": "The serum concentration of Magnesium chloride can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "The serum concentration of Magnesium carbonate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09511",
+                        "description": "The serum concentration of Talc can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11110",
+                        "description": "The serum concentration of Magnesium citrate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "The serum concentration of Magnesium silicate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "The serum concentration of Hydrotalcite can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "The serum concentration of Magnesium peroxide can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13749",
+                        "description": "The serum concentration of Magnesium gluconate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13786",
+                        "description": "The serum concentration of Magnesium orotate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB14514",
+                        "description": "The serum concentration of Magnesium levulinate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB14515",
+                        "description": "The serum concentration of Magnesium lactate can be increased when it is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Digoxin"
+                    },
+                    {
+                        "drugbank-id": "DB00511",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Acetyldigitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB01078",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB12843",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Oleandrin"
+                    },
+                    {
+                        "drugbank-id": "DB13240",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Cymarin"
+                    },
+                    {
+                        "drugbank-id": "DB13307",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Proscillaridin"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Metildigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13467",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Lanatoside C"
+                    },
+                    {
+                        "drugbank-id": "DB13537",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Gitoformate"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Acetyldigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13756",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Peruvoside"
+                    },
+                    {
+                        "drugbank-id": "DB11057",
+                        "description": "Mineral oil can cause a decrease in the absorption of Vitamin D resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The risk or severity of hypercalcemia can be increased when Methyclothiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The risk or severity of hypercalcemia can be increased when Bendroflumethiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The risk or severity of hypercalcemia can be increased when Benzthiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The risk or severity of hypercalcemia can be increased when Cyclothiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The risk or severity of hypercalcemia can be increased when Hydroflumethiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The risk or severity of hypercalcemia can be increased when Chlorothiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of hypercalcemia can be increased when Hydrochlorothiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The risk or severity of hypercalcemia can be increased when Trichlormethiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The risk or severity of hypercalcemia can be increased when Polythiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "The risk or severity of hypercalcemia can be increased when Mebutizide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The risk or severity of hypercalcemia can be increased when Cyclopenthiazide is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00136",
+                        "description": "The risk or severity of adverse effects can be increased when Calcitriol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00146",
+                        "description": "The risk or severity of adverse effects can be increased when Calcifediol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00153",
+                        "description": "The risk or severity of adverse effects can be increased when Ergocalciferol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00169",
+                        "description": "The risk or severity of adverse effects can be increased when Cholecalciferol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00910",
+                        "description": "The risk or severity of adverse effects can be increased when Paricalcitol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01070",
+                        "description": "The risk or severity of adverse effects can be increased when Dihydrotachysterol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01436",
+                        "description": "The risk or severity of adverse effects can be increased when Alfacalcidol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB04258",
+                        "description": "The risk or severity of adverse effects can be increased when Seocalcitol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB04796",
+                        "description": "The risk or severity of adverse effects can be increased when Inecalcitol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB04891",
+                        "description": "The risk or severity of adverse effects can be increased when Becocalcidiol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB05295",
+                        "description": "The risk or severity of adverse effects can be increased when Eldecalcitol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06117",
+                        "description": "The risk or severity of adverse effects can be increased when 1alpha 24S Dihydroxyvitamin D2 is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06194",
+                        "description": "The risk or severity of adverse effects can be increased when Elocalcitol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06272",
+                        "description": "The risk or severity of adverse effects can be increased when Maxacalcitol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06410",
+                        "description": "The risk or severity of adverse effects can be increased when Doxercalciferol is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13097",
+                        "description": "The risk or severity of adverse effects can be increased when Vitamin D is combined with 1alpha Hydroxyvitamin D5"
+                    },
+                    {
+                        "drugbank-id": "DB00258",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium acetate is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00326",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glucoheptonate is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01164",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium chloride is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11126",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium gluconate is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13142",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13365",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium lactate gluconate is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13590",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium pangamate is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13800",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium levulinate is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB14577",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium cation is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB14684",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium polycarbophil is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00375",
+                        "description": "The serum concentration of Vitamin D can be decreased when it is combined with Colestipol"
+                    },
+                    {
+                        "drugbank-id": "DB00658",
+                        "description": "The serum concentration of Vitamin D can be decreased when it is combined with Sevelamer"
+                    },
+                    {
+                        "drugbank-id": "DB00930",
+                        "description": "The serum concentration of Vitamin D can be decreased when it is combined with Colesevelam"
+                    },
+                    {
+                        "drugbank-id": "DB01432",
+                        "description": "The serum concentration of Vitamin D can be decreased when it is combined with Cholestyramine"
+                    },
+                    {
+                        "drugbank-id": "DB09091",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Tixocortol"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluocortin"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluperolone"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluclorolone"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Flunisolide"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Beclomethasone dipropionate"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Betamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluocinolone acetonide"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Triamcinolone"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Prednisone"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Hydrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Prednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Methylprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Corticotropin"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Cortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Paramethasone"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluprednidene"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Meprednisone"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Dexamethasone isonicotinate"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Deflazacort"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Cortivazol"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Prednylidene"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Cloprednol"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Mometasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Hydrocortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Hydrocortisone succinate"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Prednisolone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Prednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Methylprednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Prednisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Clocortolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Melengestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Betamethasone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Cortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The therapeutic efficacy of Budesonide can be decreased when used in combination with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fludrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Trilostane"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Ciclesonide"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Aldosterone"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Melengestrol"
+                    },
+                    {
+                        "drugbank-id": "DB14541",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Hydrocortisone cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Clobetasol propionate"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluocinonide"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Hydrocortisone butyrate"
+                    },
+                    {
+                        "drugbank-id": "DB00547",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Desoximetasone"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Mometasone"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Clobetasol"
+                    },
+                    {
+                        "drugbank-id": "DB15566",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Prednisolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Fluorometholone"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The therapeutic efficacy of Vitamin D can be decreased when used in combination with Difluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Bexarotene"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00607",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Nafcillin"
+                    },
+                    {
+                        "drugbank-id": "DB00745",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Modafinil"
+                    },
+                    {
+                        "drugbank-id": "DB06414",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Etravirine"
+                    },
+                    {
+                        "drugbank-id": "DB06442",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Avasimibe"
+                    },
+                    {
+                        "drugbank-id": "DB14240",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Echinacea"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Pentobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00648",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Mitotane"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01220",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Rifaximin"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The metabolism of Vitamin D can be increased when combined with St John s Wort"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Midostaurin"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Enzalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Carbamazepine can be increased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The metabolism of Rifampicin can be increased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Fluvoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Isradipine"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Isoniazid"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Primaquine"
+                    },
+                    {
+                        "drugbank-id": "DB01110",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Miconazole"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Fusidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Zimelidine"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Milnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Simeprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Desvenlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB06731",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Seproxetine"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Linagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Indalpine"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Netupitant"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Barnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Benidipine"
+                    },
+                    {
+                        "drugbank-id": "DB14019",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Fosnetupitant"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00673",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Aprepitant"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Berotralstat"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Voriconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00705",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Delavirdine"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01183",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Naloxone"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Posaconazole"
+                    },
+                    {
+                        "drugbank-id": "DB02520",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ditiocarb"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Telaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB09101",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Elvitegravir"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Stiripentol"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11779",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Danoprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13179",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Troleandomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Methimazole"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Terfenadine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "The metabolism of Ergotamine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The metabolism of Conivaptan can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The metabolism of Tipranavir can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The metabolism of Saquinavir can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "The metabolism of Darunavir can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The metabolism of Lopinavir can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB08873",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Boceprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "The risk or severity of hypokalemia can be increased when Vitamin D is combined with Chlorthalidone"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "The risk or severity of hypokalemia can be increased when Vitamin D is combined with Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of hypokalemia can be increased when Vitamin D is combined with Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB01325",
+                        "description": "The risk or severity of hypokalemia can be increased when Vitamin D is combined with Quinethazone"
+                    },
+                    {
+                        "drugbank-id": "DB13989",
+                        "description": "The risk or severity of hypokalemia can be increased when Vitamin D is combined with Epitizide"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Vitamin D can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00615",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Rifabutin"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Genistein"
+                    },
+                    {
+                        "drugbank-id": "DB04911",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Oritavancin"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Rufinamide"
+                    },
+                    {
+                        "drugbank-id": "DB06413",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Armodafinil"
+                    },
+                    {
+                        "drugbank-id": "DB08909",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Glycerol phenylbutyrate"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09119",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Eslicarbazepine acetate"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Asunaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11767",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Sarilumab"
+                    },
+                    {
+                        "drugbank-id": "DB11560",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Lesinurad"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Esketamine"
+                    },
+                    {
+                        "drugbank-id": "DB00082",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Pegvisomant"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Butalbital"
+                    },
+                    {
+                        "drugbank-id": "DB00301",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Flucloxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Acetaminophen"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Omeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00357",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Aminoglutethimide"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00400",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Griseofulvin"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Secobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00474",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Methohexital"
+                    },
+                    {
+                        "drugbank-id": "DB00485",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Dicloxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Rofecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Thiopental"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Testosterone"
+                    },
+                    {
+                        "drugbank-id": "DB00636",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Clofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB00754",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Ethotoin"
+                    },
+                    {
+                        "drugbank-id": "DB00769",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Methylphenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Terbinafine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB01011",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Metyrapone"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Topotecan"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Sulfinpyrazone"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Thiamylal"
+                    },
+                    {
+                        "drugbank-id": "DB01201",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Rifapentine"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Ketamine"
+                    },
+                    {
+                        "drugbank-id": "DB01333",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Cefradine"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Amobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01352",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Aprobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Barbital"
+                    },
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Metamizole"
+                    },
+                    {
+                        "drugbank-id": "DB04905",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Tesmilifene"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Isavuconazonium"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06739",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Seratrodast"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Perampanel"
+                    },
+                    {
+                        "drugbank-id": "DB08905",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Formestane"
+                    },
+                    {
+                        "drugbank-id": "DB08911",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Trametinib"
+                    },
+                    {
+                        "drugbank-id": "DB09001",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Barbexaclone"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Testosterone cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Testosterone enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Testosterone undecanoate"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Estradiol benzoate"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Estradiol cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Estradiol dienanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Estradiol valerate"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Ivermectin"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Clobazam"
+                    },
+                    {
+                        "drugbank-id": "DB00273",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Topiramate"
+                    },
+                    {
+                        "drugbank-id": "DB00776",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Oxcarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB14575",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Eslicarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Colchicine"
+                    },
+                    {
+                        "drugbank-id": "DB06717",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Fosaprepitant"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Meperidine"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB01369",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Quinupristin"
+                    },
+                    {
+                        "drugbank-id": "DB01764",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Dalfopristin"
+                    },
+                    {
+                        "drugbank-id": "DB04894",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Vapreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05928",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Dovitinib"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Pasireotide"
+                    },
+                    {
+                        "drugbank-id": "DB06791",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lanreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09099",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Somatostatin"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Roxithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Buprenorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Glyburide"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cyproterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Dapoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ivacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Rucaparib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13941",
+                        "description": "The metabolism of Piperaquine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Glecaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11837",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Osilodrostat"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Rilpivirine"
+                    },
+                    {
+                        "drugbank-id": "DB04794",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Bifonazole"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Aldesleukin"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Doxycycline"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Gefitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00353",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Methylergometrine"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Mefloquine"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Nitric Oxide"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Chloramphenicol"
+                    },
+                    {
+                        "drugbank-id": "DB00481",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Raloxifene"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Zafirlukast"
+                    },
+                    {
+                        "drugbank-id": "DB00647",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Dextropropoxyphene"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Epinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Losartan"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Amphotericin B"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Diazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Metronidazole"
+                    },
+                    {
+                        "drugbank-id": "DB00954",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Dirithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Oxybutynin"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Mequitazine"
+                    },
+                    {
+                        "drugbank-id": "DB01085",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Pilocarpine"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Rabeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01152",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Candicidin"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Mitoxantrone"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB01587",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ketazolam"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Topiroxostat"
+                    },
+                    {
+                        "drugbank-id": "DB01698",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Rutin"
+                    },
+                    {
+                        "drugbank-id": "DB01873",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Epothilone D"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Resveratrol"
+                    },
+                    {
+                        "drugbank-id": "DB03010",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Patupilone"
+                    },
+                    {
+                        "drugbank-id": "DB04070",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with 6 Deoxyerythronolide B"
+                    },
+                    {
+                        "drugbank-id": "DB05482",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with 7 ethyl 10 hydroxycamptothecin"
+                    },
+                    {
+                        "drugbank-id": "DB05814",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with GPI 1485"
+                    },
+                    {
+                        "drugbank-id": "DB05903",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with KOS 1584"
+                    },
+                    {
+                        "drugbank-id": "DB06174",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Noscapine"
+                    },
+                    {
+                        "drugbank-id": "DB06233",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ridaforolimus"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06318",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with AVE9633"
+                    },
+                    {
+                        "drugbank-id": "DB06342",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Coltuximab ravtansine"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Indisulam"
+                    },
+                    {
+                        "drugbank-id": "DB06412",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Oxymetholone"
+                    },
+                    {
+                        "drugbank-id": "DB06419",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cethromycin"
+                    },
+                    {
+                        "drugbank-id": "DB06458",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Remacemide"
+                    },
+                    {
+                        "drugbank-id": "DB06469",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lestaurtinib"
+                    },
+                    {
+                        "drugbank-id": "DB06587",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Mitemcinal"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Capsaicin"
+                    },
+                    {
+                        "drugbank-id": "DB07348",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Brefeldin A"
+                    },
+                    {
+                        "drugbank-id": "DB08811",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tofisopam"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09308",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Solithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB09309",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Kitasamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11198",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Peppermint oil"
+                    },
+                    {
+                        "drugbank-id": "DB11383",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Carbomycin"
+                    },
+                    {
+                        "drugbank-id": "DB11400",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Doramectin"
+                    },
+                    {
+                        "drugbank-id": "DB11405",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Eprinomectin"
+                    },
+                    {
+                        "drugbank-id": "DB11442",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Oleandomycin"
+                    },
+                    {
+                        "drugbank-id": "DB11459",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Selamectin"
+                    },
+                    {
+                        "drugbank-id": "DB11470",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tildipirosin"
+                    },
+                    {
+                        "drugbank-id": "DB11471",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tilmicosin"
+                    },
+                    {
+                        "drugbank-id": "DB11475",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tylosin"
+                    },
+                    {
+                        "drugbank-id": "DB11554",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tylvalosin"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Elbasvir"
+                    },
+                    {
+                        "drugbank-id": "DB11752",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Bryostatin 1"
+                    },
+                    {
+                        "drugbank-id": "DB11805",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Saracatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Letermovir"
+                    },
+                    {
+                        "drugbank-id": "DB12089",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lorvotuzumab mertansine"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Triclabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB12266",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Epofolate"
+                    },
+                    {
+                        "drugbank-id": "DB12391",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Sagopilone"
+                    },
+                    {
+                        "drugbank-id": "DB12489",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Mirvetuximab Soravtansine"
+                    },
+                    {
+                        "drugbank-id": "DB12532",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Oxetacaine"
+                    },
+                    {
+                        "drugbank-id": "DB13287",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Miocamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13338",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Flurithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB13409",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Rokitamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13456",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Midecamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with WIN 55212 2"
+                    },
+                    {
+                        "drugbank-id": "DB13975",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Black cohosh"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Medical Cannabis can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01093",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Dimethyl sulfoxide"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Amprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB14635",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Curcumin sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Midazolam"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ticagrelor"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Daunorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB13633",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Mepartricin"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Venetoclax"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Alpelisib"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cyclophosphamide"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Etoposide"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ifosfamide"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Osimertinib"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Brigatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB11703",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Acalabrutinib"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cabergoline"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Teniposide"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Erlotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Doxorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Docetaxel"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Sunitinib"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Trastuzumab emtansine"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Bosutinib"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Brentuximab vedotin"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The metabolism of Cyclosporine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The metabolism of Dofetilide can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Warfarin can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The metabolism of Tacrolimus can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The metabolism of Sirolimus can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The metabolism of Quinidine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "The metabolism of Busulfan can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The metabolism of Digitoxin can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Acenocoumarol can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The metabolism of Everolimus can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The metabolism of Dronedarone can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The metabolism of Temsirolimus can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The metabolism of Tianeptine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01128",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Bicalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cobimetinib"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Palbociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Olaparib"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Dacomitinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The metabolism of Siponimod can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lomitapide"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Dihydroergotamine"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Astemizole"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The metabolism of Methotrexate can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "The metabolism of Vinorelbine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The metabolism of Vincristine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "The metabolism of Thiotepa can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The metabolism of Trabectedin can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The metabolism of Vandetanib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11363",
+                        "description": "The metabolism of Alectinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The metabolism of Vinflunine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB15035",
+                        "description": "The metabolism of Zanubrutinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Bortezomib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "The metabolism of Vindesine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The metabolism of Ixabepilone can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The metabolism of Panobinostat can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "The metabolism of Ruxolitinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The metabolism of Idelalisib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09143",
+                        "description": "The metabolism of Sonidegib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB09570",
+                        "description": "The metabolism of Ixazomib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The metabolism of Neratinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The metabolism of Entrectinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The metabolism of Copanlisib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The metabolism of Pexidartinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The metabolism of Irinotecan can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The metabolism of Romidepsin can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The metabolism of Tolvaptan can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The metabolism of Baricitinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The metabolism of Abemaciclib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The metabolism of Nortriptyline can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The metabolism of Levacetylmethadol can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Clomipramine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lorazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Phentermine"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Azithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ticlopidine"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Metoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00426",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Famciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Albendazole"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cephalexin"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Doxazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Norethisterone"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Fenofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Rosuvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01411",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Pranlukast"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Allylestrenol"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Roflumilast"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Lacosamide"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Prucalopride"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Suvorexant"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tasimelteon"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Nintedanib"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Tenofovir alafenamide"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The metabolism of Dihydroergocornine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The metabolism of Duvelisib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The metabolism of Gilteritinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12515",
+                        "description": "The metabolism of 9 aminocamptothecin can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12952",
+                        "description": "The metabolism of Methylprednisone can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13345",
+                        "description": "The metabolism of Dihydroergocristine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The metabolism of Dihydroergocryptine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The metabolism of Tenofovir can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Drospirenone"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The metabolism of Elexacaftor can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "The metabolism of Lefamulin can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The metabolism of Tazemetostat can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Methysergide"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The metabolism of Ebastine can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB00005",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Etanercept"
+                    },
+                    {
+                        "drugbank-id": "DB00026",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Anakinra"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Adalimumab"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Infliximab"
+                    },
+                    {
+                        "drugbank-id": "DB01281",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Abatacept"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Afelimomab"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Apremilast"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Canakinumab"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Tocilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB06372",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Rilonacept"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Golimumab"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Certolizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Secukinumab"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Siltuximab"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Emapalumab"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The risk or severity of adverse effects can be increased when Vitamin D is combined with Erdafitinib"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Vitamin D can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Vitamin D can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Vitamin D can be increased when it is combined with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Vitamin D can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Vitamin D can be decreased when it is combined with Satralizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "medicine_id": "ea4fbcdab66664401308aec8d3c9e42c9a29c43e",
+    "platform_id": "DB06795",
+    "metadata": {
+        "name": "Mafenide acetate 50 g 1 Powder for solution",
+        "composition": "50 g 1 Mafenide",
+        "clinical_particulars": {
+            "therapeutic_indications": "Indicated for use as an adjunctive topical antimicrobial agent to control bacterial infection when used under moist dressings over meshed autografts on excised burn wounds label",
+            "contraindications": {
+                "disease": "Since mafenide is metabolized to a carbonic anhydrase inhibitor metabolic acidosis could occur",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00750",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Mafenide is combined with Prilocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Mafenide"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Mafenide"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "Mafenide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

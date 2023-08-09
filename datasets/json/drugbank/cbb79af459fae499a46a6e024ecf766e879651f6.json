@@ -1,0 +1,785 @@
+{
+    "medicine_id": "cbb79af459fae499a46a6e024ecf766e879651f6",
+    "platform_id": "DB01319",
+    "metadata": {
+        "name": "Fosamprenavir Calcium 700 mg 1 Tablet film coated",
+        "composition": "700 mg 1 Fosamprenavir",
+        "clinical_particulars": {
+            "therapeutic_indications": "Indicated in combination with other antiretroviral agents for the treatment of human immunodeficiency virus HIV 1 infection as well as postexposure prophylaxis of HIV infection in individuals who have had occupational or nonoccupational exposure to potentially infectious body fluids of a person known to be infected with HIV when that exposure represents a substantial risk for HIV transmission The use of fosamprenavir is pending revision due to a potential association between the drug and myocardial infarction and dyslipidemia in HIV infected adults",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Fosamprenavir is hydrolyzed by cellular phosphatases to the antiretroviral protease inhibitor amprenavir This hydrolysis allows for the slow release of amprenavir reducing the number of pills a patient must take",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "The serum concentration of Alprazolam can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The serum concentration of Cisapride can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The serum concentration of Clarithromycin can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The serum concentration of the active metabolites of Cyclophosphamide can be increased when Cyclophosphamide is used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The serum concentration of the active metabolites of Fosamprenavir can be reduced when Fosamprenavir is used in combination with Methadone resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "Olanzapine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "Cimetidine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "Nizatidine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "Ranitidine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "Famotidine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "Methantheline can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Promethazine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Asenapine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08805",
+                        "description": "Metiamide can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08806",
+                        "description": "Roxatidine acetate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12770",
+                        "description": "Lafutidine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12884",
+                        "description": "Lavoltidine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13760",
+                        "description": "Niperotidine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "Epinastine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The serum concentration of Amprenavir an active metabolite of Fosamprenavir can be decreased when used in combination with Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The serum concentration of the active metabolites of Fosamprenavir can be increased when Fosamprenavir is used in combination with Voriconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00615",
+                        "description": "The serum concentration of 25 O Desacetylrifabutin an active metabolite of Rifabutin can be increased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The serum concentration of the active metabolites of Fosamprenavir can be reduced when Fosamprenavir is used in combination with Efavirenz resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The serum concentration of Warfarin can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The serum concentration of Acenocoumarol can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The serum concentration of R warfarin can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08735",
+                        "description": "The serum concentration of R S Warfarin alcohol can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08736",
+                        "description": "The serum concentration of S R Warfarin alcohol can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The serum concentration of S Warfarin can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00705",
+                        "description": "The serum concentration of Delavirdine can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The serum concentration of Paroxetine can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The serum concentration of Ketoconazole can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The serum concentration of Itraconazole can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The serum concentration of Propafenone can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The serum concentration of Flecainide can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The serum concentration of Dolutegravir can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06414",
+                        "description": "The serum concentration of the active metabolites of Fosamprenavir can be increased when Fosamprenavir is used in combination with Etravirine"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Lopinavir can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06817",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The serum concentration of Telaprevir can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB10532",
+                        "description": "Garlic can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The therapeutic efficacy of Insulin human can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The therapeutic efficacy of Insulin glargine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The therapeutic efficacy of Insulin pork can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The therapeutic efficacy of Troglitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The therapeutic efficacy of Glimepiride can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The therapeutic efficacy of Sulfisoxazole can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The therapeutic efficacy of Disopyramide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "The therapeutic efficacy of Acarbose can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The therapeutic efficacy of Sulfadiazine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The therapeutic efficacy of Rosiglitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The therapeutic efficacy of Acetohexamide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "The therapeutic efficacy of Miglitol can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The therapeutic efficacy of Chlorpropamide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The therapeutic efficacy of Nateglinide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The therapeutic efficacy of Pentamidine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The therapeutic efficacy of Mifepristone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The therapeutic efficacy of Tolazamide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The therapeutic efficacy of Repaglinide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The therapeutic efficacy of Phenformin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The therapeutic efficacy of Sulfamethoxazole can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The therapeutic efficacy of Glyburide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The therapeutic efficacy of Glipizide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The therapeutic efficacy of Gliclazide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The therapeutic efficacy of Tolbutamide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The therapeutic efficacy of Pioglitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The therapeutic efficacy of Gliquidone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The therapeutic efficacy of Mitiglinide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "The therapeutic efficacy of Exenatide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "The therapeutic efficacy of Mecasermin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "The therapeutic efficacy of Pramlintide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The therapeutic efficacy of Glisoxepide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "The therapeutic efficacy of Insulin aspart can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "The therapeutic efficacy of Insulin detemir can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The therapeutic efficacy of Insulin glulisine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "The therapeutic efficacy of Glymidine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "The therapeutic efficacy of AICA ribonucleotide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "The therapeutic efficacy of Buformin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "The therapeutic efficacy of Vildagliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "The therapeutic efficacy of Voglibose can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The therapeutic efficacy of NN344 can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "The therapeutic efficacy of NBI 6024 can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "The therapeutic efficacy of Bisegliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The therapeutic efficacy of Alogliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The therapeutic efficacy of Saxagliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "The therapeutic efficacy of Liraglutide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "The therapeutic efficacy of Gosogliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The therapeutic efficacy of Glibornuride can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "The therapeutic efficacy of Benfluorex can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The therapeutic efficacy of Empagliflozin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "The therapeutic efficacy of Albiglutide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "The therapeutic efficacy of Dulaglutide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The therapeutic efficacy of Lobeglitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The therapeutic efficacy of Netoglitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The therapeutic efficacy of Rivoglitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The therapeutic efficacy of Ciglitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "The therapeutic efficacy of Lixisenatide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The therapeutic efficacy of Insulin beef can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The therapeutic efficacy of Insulin degludec can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The therapeutic efficacy of Insulin peglispro can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The therapeutic efficacy of Insulin tregopil can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "The therapeutic efficacy of Ipragliflozin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "The therapeutic efficacy of Dutogliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "The therapeutic efficacy of Allicin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "The therapeutic efficacy of Tofogliflozin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "The therapeutic efficacy of 2 4 thiazolidinedione can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "The therapeutic efficacy of Teneligliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "The therapeutic efficacy of Omarigliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "The therapeutic efficacy of Carmegliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "The therapeutic efficacy of Gemigliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "The therapeutic efficacy of Anagliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "The therapeutic efficacy of Evogliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "The therapeutic efficacy of Sotagliflozin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The therapeutic efficacy of Balaglitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "The therapeutic efficacy of Remogliflozin etabonate can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The therapeutic efficacy of Carbutamide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "The therapeutic efficacy of Guar gum can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The therapeutic efficacy of Metahexamide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "The therapeutic efficacy of Semaglutide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "The therapeutic efficacy of Taspoglutide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "The therapeutic efficacy of Englitazone can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "The therapeutic efficacy of Tirzepatide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "The therapeutic efficacy of Gastric inhibitory polypeptide can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The therapeutic efficacy of Quinine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The therapeutic efficacy of Bromocriptine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The therapeutic efficacy of Sitagliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The therapeutic efficacy of Sunitinib can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The therapeutic efficacy of Dapagliflozin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The therapeutic efficacy of Linagliptin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The therapeutic efficacy of Canagliflozin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The therapeutic efficacy of Ertugliflozin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The serum concentration of Rilpivirine can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Fosamprenavir can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The serum concentration of Carbamazepine can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Fosamprenavir can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB10317",
+                        "description": "The therapeutic efficacy of Rubella virus vaccine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB10343",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain tice live antigen can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB10804",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain connaught live antigen can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB10805",
+                        "description": "The therapeutic efficacy of Yellow Fever Vaccine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11003",
+                        "description": "The therapeutic efficacy of Anthrax vaccine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11050",
+                        "description": "The therapeutic efficacy of Typhoid Vaccine Live can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12386",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain danish 1331 live antigen can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB14409",
+                        "description": "The therapeutic efficacy of Human adenovirus e serotype 4 strain cl 68578 antigen can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB14685",
+                        "description": "The therapeutic efficacy of Adenovirus type 7 vaccine live can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB10318",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Live attenuated can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The serum concentration of Pitavastatin can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01370",
+                        "description": "Aluminium can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "Magnesium oxide can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01390",
+                        "description": "Sodium bicarbonate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "Aluminum hydroxide can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06724",
+                        "description": "Calcium carbonate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "Magaldrate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "Magnesium hydroxide can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "Magnesium trisilicate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "Magnesium carbonate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "Bismuth subnitrate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "Magnesium silicate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "Aluminium acetoacetate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "Hydrotalcite can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "Magnesium peroxide can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "Almasilate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "Aluminium glycinate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "Aloglutamol can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13829",
+                        "description": "Calcium silicate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "Aluminium phosphate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13762",
+                        "description": "Dexrabeprazole can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB15246",
+                        "description": "Salvianolic acid A can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "Rabeprazole can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB05351",
+                        "description": "Dexlansoprazole can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "Pantoprazole can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "Omeprazole can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "Lansoprazole can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "Esomeprazole can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14048",
+                        "description": "Sodium zirconium cyclosilicate can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The therapeutic efficacy of Metformin can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The serum concentration of Rosuvastatin can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The serum concentration of Colchicine can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Fosamprenavir can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The serum concentration of Phenytoin can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The serum concentration of Fosphenytoin can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The serum concentration of Amiodarone can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of amprenavir an active metabolite of Fosamprenavir can be increased when used in combination with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Fosamprenavir can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Fosamprenavir can be decreased when it is combined with Satralizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

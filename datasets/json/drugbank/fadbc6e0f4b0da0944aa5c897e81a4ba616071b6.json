@@ -1,0 +1,2477 @@
+{
+    "medicine_id": "fadbc6e0f4b0da0944aa5c897e81a4ba616071b6",
+    "platform_id": "DB01113",
+    "metadata": {
+        "name": "Papaverine Hydrochloride 30 mg 1mL Injection solution",
+        "composition": "30 mg 1mL Papaverine",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of impotence and vasospasms",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Papaverine is a nonxanthine phosphodiesterase inhibitor for the relief of cerebral and peripheral ischemia associated with arterial spasm and myocardial ischemia complicated by arrhythmias The main actions of Papaverine are exerted on cardiac and smooth muscle Like qathidine Papaverine acts directly on the heart muscle to depress conduction and prolong the refractory period Papaverine relaxes various smooth muscles This relaxation may be prominent if spasm exists The muscle cell is not paralyzed by Papaverine and still responds to drugs and other stimuli causing contraction The antispasmodic effect is a direct one and unrelated to muscle innervation Papaverine is practically devoid of effects on the central nervous system Papaverine relaxes the smooth musculature of the larger blood vessels especially coronary systemic peripheral and pulmonary arteries",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB09083",
+                        "description": "Ivabradine may increase the QTc prolonging activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The risk or severity of orthostatic hypotension and syncope can be increased when Papaverine is combined with Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Papaverine may increase the hypotensive activities of Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01235",
+                        "description": "The therapeutic efficacy of Levodopa can be decreased when used in combination with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Nicorandil may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Amphetamine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "Linezolid may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "Furazolidone may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "Procaine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "Tranylcypromine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "Phenelzine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "Minaprine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "Selegiline may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "Procarbazine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "Moclobemide may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "Isocarboxazid may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "Rasagiline may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Pargyline may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB04017",
+                        "description": "Clorgiline may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "Iproniazid may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB04820",
+                        "description": "Nialamide may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "Safinamide may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08550",
+                        "description": "7 8 Dichloro 1 2 3 4 tetrahydroisoquinoline may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Methylene blue may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09243",
+                        "description": "Hydracarbazine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "Pirlindole may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "Toloxatone may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09246",
+                        "description": "Benmoxin may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09248",
+                        "description": "Mebanazine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09249",
+                        "description": "Octamoxin may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09250",
+                        "description": "Pheniprazine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09251",
+                        "description": "Phenoxypropazine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09252",
+                        "description": "Pivhydrazine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09253",
+                        "description": "Safrazine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09254",
+                        "description": "Caroxazone may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13875",
+                        "description": "Harmaline may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13876",
+                        "description": "Brofaromine may increase the orthostatic hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "Butalbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "Pentobarbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "Secobarbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00474",
+                        "description": "Methohexital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "Thiopental may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "Primidone may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "Methylphenobarbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "Thiamylal may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "Phenobarbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "Amobarbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "Hexobarbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "Barbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09001",
+                        "description": "Barbexaclone may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00237",
+                        "description": "Butabarbital may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Dofetilide"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Anagrelide"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Clemastine"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Ibutilide"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Grepafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Sotalol"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Erlotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Astemizole"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Cocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Procainamide"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Domperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Halofantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB04844",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Tetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Vandetanib"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Romidepsin"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Artemether"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Eliglustat"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Deutetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Macimorelin"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of QTc prolongation can be increased when Leuprolide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The risk or severity of QTc prolongation can be increased when Goserelin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Betaxolol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The risk or severity of QTc prolongation can be increased when Erythromycin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azithromycin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moxifloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ranolazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfisoxazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amitriptyline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methadone is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of QTc prolongation can be increased when Diltiazem is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clozapine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulpiride is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nimodipine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Promazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prochlorperazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of QTc prolongation can be increased when Droperidol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of QTc prolongation can be increased when Imipramine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorpromazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxaliplatin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ciprofloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluorouracil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00556",
+                        "description": "The risk or severity of QTc prolongation can be increased when Perflutren is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cinnarizine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propranolol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atropine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chloroquine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The risk or severity of QTc prolongation can be increased when Efavirenz is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Adenosine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pentamidine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00743",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gadobenic acid is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "The risk or severity of QTc prolongation can be increased when Carbinoxamine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dolasetron is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The risk or severity of QTc prolongation can be increased when Roxithromycin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nalidixic acid is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cinoxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The risk or severity of QTc prolongation can be increased when Loperamide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "The risk or severity of QTc prolongation can be increased when Granisetron is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ondansetron is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levosimendan is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mesoridazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desloratadine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The risk or severity of QTc prolongation can be increased when Telithromycin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lomefloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dimenhydrinate is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The risk or severity of QTc prolongation can be increased when Primaquine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Chlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Levofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Gemifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Flecainide"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Levacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB01599",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Probucol"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB02638",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Terlipressin"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Prenylamine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Azimilide"
+                    },
+                    {
+                        "drugbank-id": "DB05223",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Pracinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Technetium Tc 99m ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Garenoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Tedisamil"
+                    },
+                    {
+                        "drugbank-id": "DB06334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Tucidinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06402",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Telavancin"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Nemonoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Panobinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB08799",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Antazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB08903",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Bedaquiline"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Fendiline"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Benidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Dexchlorpheniramine maleate"
+                    },
+                    {
+                        "drugbank-id": "DB11640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Amifampridine"
+                    },
+                    {
+                        "drugbank-id": "DB11830",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Mocetinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Entinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Gilteritinib"
+                    },
+                    {
+                        "drugbank-id": "DB12174",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with CUDC 101"
+                    },
+                    {
+                        "drugbank-id": "DB12286",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Simendan"
+                    },
+                    {
+                        "drugbank-id": "DB12376",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Ricolinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12523",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Mizolastine"
+                    },
+                    {
+                        "drugbank-id": "DB12565",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Abexinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12877",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Oxatomide"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Sitafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Nizofenone"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Bunaftine"
+                    },
+                    {
+                        "drugbank-id": "DB13653",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Lorcainide"
+                    },
+                    {
+                        "drugbank-id": "DB13679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Dexchlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Dexverapamil"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB11718",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Encorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB01084",
+                        "description": "The risk or severity of QTc prolongation can be increased when Emedastine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Berotralstat"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00107",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxytocin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The risk or severity of QTc prolongation can be increased when Esmolol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bortezomib is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluconazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nelfinavir is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pregabalin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Benzatropine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isradipine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of QTc prolongation can be increased when Venlafaxine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atomoxetine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olanzapine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cetirizine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of QTc prolongation can be increased when Protriptyline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "The risk or severity of QTc prolongation can be increased when Alfuzosin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimethadione is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buclizine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mefloquine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxylamine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mirtazapine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The risk or severity of QTc prolongation can be increased when Timolol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The risk or severity of QTc prolongation can be increased when Treprostinil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Digoxin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sorafenib is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexbrompheniramine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hyoscyamine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triprolidine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyproheptadine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The risk or severity of QTc prolongation can be increased when Enoxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pefloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ritonavir is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The risk or severity of QTc prolongation can be increased when Foscarnet is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nortriptyline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amoxapine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lamotrigine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The risk or severity of QTc prolongation can be increased when Voriconazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ethosuximide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amodiaquine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nicardipine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "The risk or severity of QTc prolongation can be increased when Galantamine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tamoxifen is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The risk or severity of QTc prolongation can be increased when Losartan is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moricizine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moexipril is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tizanidine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibandronate is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of QTc prolongation can be increased when Apomorphine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azatadine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimipramine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isoflurane is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indapamide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rosoxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propofol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disulfiram is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of QTc prolongation can be increased when Brompheniramine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vardenafil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tacrolimus is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Terbutaline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The risk or severity of QTc prolongation can be increased when Zonisamide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amantadine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The risk or severity of QTc prolongation can be increased when Metronidazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00920",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ketotifen is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of QTc prolongation can be increased when Maprotiline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of QTc prolongation can be increased when Salmeterol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The risk or severity of QTc prolongation can be increased when Felbamate is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The risk or severity of QTc prolongation can be increased when Formoterol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydrochlorothiazide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The risk or severity of QTc prolongation can be increased when Salbutamol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfamethoxazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The risk or severity of QTc prolongation can be increased when Felodipine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ketoconazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tolterodine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gatifloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nitrendipine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of QTc prolongation can be increased when Norfloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of QTc prolongation can be increased when Promethazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mequitazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atazanavir is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Perhexiline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The risk or severity of QTc prolongation can be increased when Diphenhydramine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levocabastine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxepin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desipramine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bretylium is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cilostazol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Itraconazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of QTc prolongation can be increased when Orphenadrine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyclizine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desflurane is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "The risk or severity of QTc prolongation can be increased when Encainide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of QTc prolongation can be increased when Metoclopramide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sevoflurane is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aripiprazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorprothixene is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Alimemazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dasatinib is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lapatinib is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Posaconazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sunitinib is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The risk or severity of QTc prolongation can be increased when Arformoterol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The risk or severity of QTc prolongation can be increased when Digitoxin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methotrimeprazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ajmaline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Solifenacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxychloroquine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01620",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pheniramine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Thiothixene is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vorinostat is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fleroxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB04695",
+                        "description": "The risk or severity of QTc prolongation can be increased when Farnesyl thiopyrophosphate is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The risk or severity of QTc prolongation can be increased when Celiprolol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ezogabine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indacaterol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methsuximide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB05465",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tandutinib is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vernakalant is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levocetirizine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amisulpride is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cariporide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pasireotide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mepyramine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06699",
+                        "description": "The risk or severity of QTc prolongation can be increased when Degarelix is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buserelin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The risk or severity of QTc prolongation can be increased when Histrelin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triptorelin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB07780",
+                        "description": "The risk or severity of QTc prolongation can be increased when Farnesyl diphosphate is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB07841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Geranylgeranyl diphosphate is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bupranolol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lurasidone is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rilpivirine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Eribulin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mirabegron is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dabrafenib is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08936",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorcyclizine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indenolol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The risk or severity of QTc prolongation can be increased when Flumequine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olodaterol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vilanterol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimebutine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pinaverium is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dosulepin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aranidipine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of QTc prolongation can be increased when Efonidipine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Niguldipine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acrivastine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Coumaphos is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11397",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dichlorvos is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11408",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famphur is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11412",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fenthion is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The risk or severity of QTc prolongation can be increased when Orbifloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11448",
+                        "description": "The risk or severity of QTc prolongation can be increased when Phosmet is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sarafloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The risk or severity of QTc prolongation can be increased when Difloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bilastine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rupatadine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ebastine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The risk or severity of QTc prolongation can be increased when Talinolol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pazufloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The risk or severity of QTc prolongation can be increased when Anisodamine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11891",
+                        "description": "The risk or severity of QTc prolongation can be increased when CUDC 907 is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prulifloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The risk or severity of QTc prolongation can be increased when Delafloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tetrahydropalmatine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB12231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Temefos is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triclabendazole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB12645",
+                        "description": "The risk or severity of QTc prolongation can be increased when Givinostat is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB12712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pilsicainide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cicletanine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gallopamil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cibenzoline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bencyclane is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prajmaline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxolinic acid is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lorajmine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acetyldigoxin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13744",
+                        "description": "The risk or severity of QTc prolongation can be increased when Piromidic acid is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lidoflazine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rufloxacin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pipemidic acid is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aripiprazole lauroxil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "The risk or severity of QTc prolongation can be increased when Inotersen is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lopinavir is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clofazimine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fostemsavir is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The risk or severity of QTc prolongation can be increased when Epinastine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11853",
+                        "description": "The risk or severity of QTc prolongation can be increased when Relugolix is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "The risk or severity of adverse effects can be increased when Aldesleukin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of adverse effects can be increased when Streptokinase is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The risk or severity of adverse effects can be increased when Methyclothiazide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The risk or severity of adverse effects can be increased when Ropinirole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The risk or severity of adverse effects can be increased when Morphine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The risk or severity of adverse effects can be increased when Ropivacaine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00297",
+                        "description": "The risk or severity of adverse effects can be increased when Bupivacaine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00323",
+                        "description": "The risk or severity of adverse effects can be increased when Tolcapone is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The risk or severity of adverse effects can be increased when Triamterene is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00413",
+                        "description": "The risk or severity of adverse effects can be increased when Pramipexole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "The risk or severity of adverse effects can be increased when Spironolactone is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The risk or severity of adverse effects can be increased when Nitric Oxide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The risk or severity of adverse effects can be increased when Nabilone is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00594",
+                        "description": "The risk or severity of adverse effects can be increased when Amiloride is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The risk or severity of adverse effects can be increased when Clofarabine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The risk or severity of adverse effects can be increased when Dexmedetomidine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of adverse effects can be increased when Amphotericin B is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The risk or severity of adverse effects can be increased when Furosemide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "The risk or severity of adverse effects can be increased when Methazolamide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "The risk or severity of adverse effects can be increased when Tamsulosin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "The risk or severity of adverse effects can be increased when Sufentanil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The risk or severity of adverse effects can be increased when Mannitol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The risk or severity of adverse effects can be increased when Tretinoin is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The risk or severity of adverse effects can be increased when Conivaptan is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00883",
+                        "description": "The risk or severity of adverse effects can be increased when Isosorbide dinitrate is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of adverse effects can be increased when Bumetanide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "The risk or severity of adverse effects can be increased when Remifentanil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The risk or severity of adverse effects can be increased when Etacrynic acid is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of adverse effects can be increased when Dipyridamole is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The risk or severity of adverse effects can be increased when Levobupivacaine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "The risk or severity of adverse effects can be increased when Thalidomide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of adverse effects can be increased when Iloprost is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01143",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Amifostine"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Diclofenamide"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Halothane"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Paclitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB01282",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Carbetocin"
+                    },
+                    {
+                        "drugbank-id": "DB01612",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Amyl Nitrite"
+                    },
+                    {
+                        "drugbank-id": "DB04899",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Nesiritide"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Rotigotine"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Dapagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08822",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Canagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Obinutuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB08941",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Isoxsuprine"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Empagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Dinutuximab"
+                    },
+                    {
+                        "drugbank-id": "DB09112",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Nitrous acid"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Arotinolol"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Barnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Cilnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Fimasartan"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Sacubitril"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Ramipril"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Metoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00275",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Olmesartan"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Chlorthalidone"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Nitroprusside"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Atenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00350",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Minoxidil"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Nisoldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Prazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Fosinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Trandolapril"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Lercanidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Benazepril"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Clonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Doxazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Labetalol"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB00692",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Phentolamine"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Eplerenone"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Lisinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00727",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Nitroglycerin"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Perindopril"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Candesartan cilexetil"
+                    },
+                    {
+                        "drugbank-id": "DB00797",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Fenoldopam"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Quinapril"
+                    },
+                    {
+                        "drugbank-id": "DB00925",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Phenoxybenzamine"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Telmisartan"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Diazoxide"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01162",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Terazosin"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Nadolol"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Cilazapril"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Riociguat"
+                    },
+                    {
+                        "drugbank-id": "DB08950",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Indoramin"
+                    },
+                    {
+                        "drugbank-id": "DB09026",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Aliskiren"
+                    },
+                    {
+                        "drugbank-id": "DB09242",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Moxonidine"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Enalaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Imidapril"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The risk or severity of adverse effects can be increased when Verapamil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Amlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Papaverine may increase the hypotensive activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Ethanol may increase the hypotensive activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11637",
+                        "description": "Papaverine may increase the QTc prolonging activities of Delamanid"
+                    },
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Papaverine can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB00212",
+                        "description": "Papaverine may increase the hypotensive activities of Remikiren"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "Papaverine may increase the hypotensive activities of Bethanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00226",
+                        "description": "Papaverine may increase the hypotensive activities of Guanadrel"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "Papaverine may increase the hypotensive activities of Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Papaverine may increase the hypotensive activities of Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00616",
+                        "description": "Papaverine may increase the hypotensive activities of Candoxatril"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "Papaverine may increase the hypotensive activities of Guanabenz"
+                    },
+                    {
+                        "drugbank-id": "DB00765",
+                        "description": "Papaverine may increase the hypotensive activities of Metyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB00785",
+                        "description": "Papaverine may increase the hypotensive activities of Cryptenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "Papaverine may increase the hypotensive activities of Tadalafil"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Papaverine may increase the hypotensive activities of Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "Papaverine may increase the hypotensive activities of Omapatrilat"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Papaverine may increase the hypotensive activities of Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01089",
+                        "description": "Papaverine may increase the hypotensive activities of Deserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "Papaverine may increase the hypotensive activities of Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "Papaverine may increase the hypotensive activities of Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB01170",
+                        "description": "Papaverine may increase the hypotensive activities of Guanethidine"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "Papaverine may increase the hypotensive activities of Rescinnamine"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "Papaverine may increase the hypotensive activities of Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Papaverine may increase the hypotensive activities of Practolol"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Papaverine may increase the hypotensive activities of Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "Papaverine may increase the hypotensive activities of Saprisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "Papaverine may increase the hypotensive activities of Spirapril"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Papaverine may increase the hypotensive activities of Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "Papaverine may increase the hypotensive activities of Tienilic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "Papaverine may increase the hypotensive activities of Debrisoquine"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "Papaverine may increase the hypotensive activities of Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "Papaverine may increase the hypotensive activities of Ambrisentan"
+                    },
+                    {
+                        "drugbank-id": "DB06445",
+                        "description": "Papaverine may increase the hypotensive activities of Diethylnorspermine"
+                    },
+                    {
+                        "drugbank-id": "DB06762",
+                        "description": "Papaverine may increase the hypotensive activities of Pinacidil"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Papaverine may increase the hypotensive activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "Papaverine may increase the hypotensive activities of Temocapril"
+                    },
+                    {
+                        "drugbank-id": "DB08932",
+                        "description": "Papaverine may increase the hypotensive activities of Macitentan"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "Papaverine may increase the hypotensive activities of Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB09206",
+                        "description": "Papaverine may increase the hypotensive activities of Trimazosin"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "Papaverine may increase the hypotensive activities of Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09363",
+                        "description": "Papaverine may increase the hypotensive activities of Rauwolfia serpentina root"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "Papaverine may increase the hypotensive activities of Selexipag"
+                    },
+                    {
+                        "drugbank-id": "DB11720",
+                        "description": "Papaverine may increase the hypotensive activities of Angiotensin 1 7"
+                    },
+                    {
+                        "drugbank-id": "DB11738",
+                        "description": "Papaverine may increase the hypotensive activities of Rilmenidine"
+                    },
+                    {
+                        "drugbank-id": "DB12054",
+                        "description": "Papaverine may increase the hypotensive activities of BQ 123"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "Papaverine may increase the hypotensive activities of Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Papaverine may increase the hypotensive activities of Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Papaverine may increase the hypotensive activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12661",
+                        "description": "Papaverine may increase the hypotensive activities of Urapidil"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "Papaverine may increase the hypotensive activities of Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "Papaverine may increase the hypotensive activities of Zofenopril"
+                    },
+                    {
+                        "drugbank-id": "DB13211",
+                        "description": "Papaverine may increase the hypotensive activities of Guanoxan"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "Papaverine may increase the hypotensive activities of Delapril"
+                    },
+                    {
+                        "drugbank-id": "DB13374",
+                        "description": "Papaverine may increase the hypotensive activities of Vincamine"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "Papaverine may increase the hypotensive activities of Linsidomine"
+                    },
+                    {
+                        "drugbank-id": "DB13410",
+                        "description": "Papaverine may increase the hypotensive activities of Guanoxabenz"
+                    },
+                    {
+                        "drugbank-id": "DB13429",
+                        "description": "Papaverine may increase the hypotensive activities of Tolonidine"
+                    },
+                    {
+                        "drugbank-id": "DB13435",
+                        "description": "Papaverine may increase the hypotensive activities of Endralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "Papaverine may increase the hypotensive activities of Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13452",
+                        "description": "Papaverine may increase the hypotensive activities of Cadralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "Papaverine may increase the hypotensive activities of Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Papaverine may increase the hypotensive activities of Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13575",
+                        "description": "Papaverine may increase the hypotensive activities of Bietaserpine"
+                    },
+                    {
+                        "drugbank-id": "DB13604",
+                        "description": "Papaverine may increase the hypotensive activities of Guanazodine"
+                    },
+                    {
+                        "drugbank-id": "DB13631",
+                        "description": "Papaverine may increase the hypotensive activities of Methoserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Papaverine may increase the hypotensive activities of Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13779",
+                        "description": "Papaverine may increase the hypotensive activities of Guanoclor"
+                    },
+                    {
+                        "drugbank-id": "DB13801",
+                        "description": "Papaverine may increase the hypotensive activities of Muzolimine"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Papaverine may increase the hypotensive activities of Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "Papaverine may increase the hypotensive activities of Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "Papaverine may increase the hypotensive activities of Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Papaverine may increase the hypotensive activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "Papaverine may increase the hypotensive activities of Benazeprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "Papaverine may increase the hypotensive activities of Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "Papaverine may increase the hypotensive activities of Ramiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "Papaverine may increase the hypotensive activities of Perindoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "Papaverine may increase the hypotensive activities of Quinaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "Papaverine may increase the hypotensive activities of Levamlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trazodone is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "Papaverine may increase the QTc prolonging activities of Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "Lefamulin may increase the QTc prolonging activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxyzine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Isosorbide mononitrate may increase the vasodilatory activities of Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of QTc prolongation can be increased when Haloperidol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Fluoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The risk or severity of hypotension can be increased when Sildenafil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00235",
+                        "description": "The risk or severity of hypotension can be increased when Milrinone is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The risk or severity of hypotension can be increased when Pentoxifylline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "The risk or severity of hypotension can be increased when Ibudilast is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06237",
+                        "description": "The risk or severity of hypotension can be increased when Avanafil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB06267",
+                        "description": "The risk or severity of hypotension can be increased when Udenafil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The risk or severity of hypotension can be increased when Doxofylline is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB11792",
+                        "description": "The risk or severity of hypotension can be increased when Mirodenafil is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Papaverine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

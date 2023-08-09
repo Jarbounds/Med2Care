@@ -1,0 +1,29 @@
+{
+    "medicine_id": "034e05bd0ffb870e4815eccb1e60a43ce40fc9d6",
+    "platform_id": "DB03843",
+    "metadata": {
+        "name": "British Army Foot Pwr 2 mL 59mL Liquid",
+        "composition": "2 mL 59mL Formaldehyde",
+        "clinical_particulars": {
+            "therapeutic_indications": "Use for drying skin before or after surgical removal of warts or where dryness is required",
+            "contraindications": {
+                "disease": "Acute oral toxicity LD50 42 mg kg Mouse",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB09116",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium carbimide is combined with Formaldehyde"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The risk or severity of adverse effects can be increased when Disulfiram is combined with Formaldehyde"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

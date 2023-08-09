@@ -1,0 +1,33 @@
+{
+    "medicine_id": "b4ac446e4bb3ab3b577e85902e0a0170e5216e6b",
+    "platform_id": "DB06659",
+    "metadata": {
+        "name": "Photrex 6 mg ml Injection solution",
+        "composition": "6 mg ml Rostaporfin",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in macular degeneration",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00707",
+                        "description": "Rostaporfin may increase the photosensitizing activities of Porfimer sodium"
+                    },
+                    {
+                        "drugbank-id": "DB00460",
+                        "description": "Rostaporfin may increase the photosensitizing activities of Verteporfin"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The risk or severity of adverse effects can be increased when Tretinoin is combined with Rostaporfin"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

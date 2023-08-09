@@ -1,0 +1,2621 @@
+{
+    "medicine_id": "bc7f36bf06e743e08b3ad04ee2f2fe56e8db51d1",
+    "platform_id": "DB00825",
+    "metadata": {
+        "name": "0 Degrees Pain Relieving 5 g 100mL Gel",
+        "composition": "5 g 100mL Levomenthol",
+        "clinical_particulars": {
+            "therapeutic_indications": "Used to treat occasional minor irritation pain sore mouth and sore throat as well as cough associated with a cold or inhaled irritants",
+            "contraindications": {
+                "disease": "Menthol DL ORAL LD50 Acute 2900 mg kg Rat 3100 mg kg Mouse DERMAL LD50 Acute 5001 mg kg Rabbit",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Menthol is a covalent organic compound made synthetically or obtained from peppermint or other mint oils Menthol induces a cooling sensation on the skin upon inhalation oral ingestion or topical application by stimulating the cold sensitive receptors expressed on the skin without actually causing a drop in the skin temperature",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "Levomenthol may increase the bradycardic activities of Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB09083",
+                        "description": "Levomenthol may increase the bradycardic activities of Ivabradine"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "Ruxolitinib may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "Hyoscyamine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00521",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Carteolol"
+                    },
+                    {
+                        "drugbank-id": "DB01056",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tocainide"
+                    },
+                    {
+                        "drugbank-id": "DB01214",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Metipranolol"
+                    },
+                    {
+                        "drugbank-id": "DB01429",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Aprindine"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Xylometazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06727",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Sparteine"
+                    },
+                    {
+                        "drugbank-id": "DB08162",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Fasudil"
+                    },
+                    {
+                        "drugbank-id": "DB11699",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tropisetron"
+                    },
+                    {
+                        "drugbank-id": "DB12704",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Spiradoline"
+                    },
+                    {
+                        "drugbank-id": "DB13635",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tiracizine"
+                    },
+                    {
+                        "drugbank-id": "DB13645",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Ethacizine"
+                    },
+                    {
+                        "drugbank-id": "DB13718",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Hydroquinine"
+                    },
+                    {
+                        "drugbank-id": "DB13746",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Bioallethrin"
+                    },
+                    {
+                        "drugbank-id": "DB13863",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Fosfructose"
+                    },
+                    {
+                        "drugbank-id": "DB15300",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Hydroquinidine"
+                    },
+                    {
+                        "drugbank-id": "DB15366",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of SOR C13"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nimodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Cinnarizine"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Atropine"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Adenosine"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Levosimendan"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Flecainide"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Prenylamine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Azimilide"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tedisamil"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Fendiline"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Benidipine"
+                    },
+                    {
+                        "drugbank-id": "DB12286",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Simendan"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13546",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nizofenone"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Bunaftine"
+                    },
+                    {
+                        "drugbank-id": "DB13653",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Lorcainide"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Dexverapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Ibutilide"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Sotalol"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Procainamide"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "Isradipine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "Trimethadione may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "Amlodipine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "Lercanidipine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "Lamotrigine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "Nicardipine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "Verapamil may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "Losartan may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nitrendipine"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Perhexiline"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nimesulide"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Cyclandelate"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Flunarizine"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Methsuximide"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Seletracetam"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nylidrin"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Ziconotide"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Dotarizine"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tranilast"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Agmatine"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Trimebutine"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Pinaverium"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tolfenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nicorandil"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Barnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Aranidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Azelnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Cilnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Darodipine"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Niludipine"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Carboxyamidotriazole"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Vinpocetine"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Gallopamil"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Bencyclane"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Lidoflazine"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Caroverine"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of WIN 55212 2"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Fish oil"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Emopamil"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Lomerizine"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tetrandrine"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "Moricizine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Encainide"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Ajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Vernakalant"
+                    },
+                    {
+                        "drugbank-id": "DB06468",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Cariporide"
+                    },
+                    {
+                        "drugbank-id": "DB12712",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Pilsicainide"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Cibenzoline"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Prajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Lorajmine"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Esmolol may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "Pregabalin may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Timolol may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Digoxin may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Anisodamine"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Acetyldigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "Atenolol may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "Magnesium sulfate may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nadolol"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Practolol"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Tertatolol"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Dofetilide"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "Metoprolol may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "Nisoldipine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "Ethosuximide may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "Glimepiride may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "Mexiletine may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00511",
+                        "description": "Acetyldigitoxin may increase the arrhythmogenic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB01078",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Digitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13240",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Cymarin"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Metildigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Leuprolide"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Goserelin"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Azithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Moxifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sulpiride"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Droperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Oxaliplatin"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Fluorouracil"
+                    },
+                    {
+                        "drugbank-id": "DB00556",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Perflutren"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Chloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Pentamidine"
+                    },
+                    {
+                        "drugbank-id": "DB00743",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Gadobenic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Carbinoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Dolasetron"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Roxithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Nalidixic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Cinoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Granisetron"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ondansetron"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Desloratadine"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lomefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Dimenhydrinate"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Primaquine"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Levofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Gemifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01599",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Probucol"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB02638",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Terlipressin"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB05223",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Pracinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Technetium Tc 99m ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Garenoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Tucidinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06402",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Telavancin"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Nemonoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Panobinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08799",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Antazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB08903",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Bedaquiline"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Dexchlorpheniramine maleate"
+                    },
+                    {
+                        "drugbank-id": "DB11640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Amifampridine"
+                    },
+                    {
+                        "drugbank-id": "DB11830",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Mocetinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Entinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Gilteritinib"
+                    },
+                    {
+                        "drugbank-id": "DB12174",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with CUDC 101"
+                    },
+                    {
+                        "drugbank-id": "DB12376",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ricolinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12523",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Mizolastine"
+                    },
+                    {
+                        "drugbank-id": "DB12565",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Abexinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12877",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Oxatomide"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sitafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Dexchlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Levacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB11637",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Delamanid"
+                    },
+                    {
+                        "drugbank-id": "DB11718",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Encorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB01084",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Emedastine"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Berotralstat"
+                    },
+                    {
+                        "drugbank-id": "DB00211",
+                        "description": "Midodrine may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Bendroflumethiazide may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "Dexmedetomidine may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "Levomenthol may increase the bradycardic activities of Remifentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "Levomenthol may increase the bradycardic activities of Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB00989",
+                        "description": "Levomenthol may increase the bradycardic activities of Rivastigmine"
+                    },
+                    {
+                        "drugbank-id": "DB04897",
+                        "description": "Levomenthol may increase the bradycardic activities of Lucinactant"
+                    },
+                    {
+                        "drugbank-id": "DB06415",
+                        "description": "Levomenthol may increase the bradycardic activities of Calfactant"
+                    },
+                    {
+                        "drugbank-id": "DB06761",
+                        "description": "Levomenthol may increase the bradycardic activities of Beractant"
+                    },
+                    {
+                        "drugbank-id": "DB06791",
+                        "description": "Levomenthol may increase the bradycardic activities of Lanreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09113",
+                        "description": "Levomenthol may increase the bradycardic activities of Poractant alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "Clonidine may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "Sufentanil may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "Alfentanil may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "Fentanyl may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "Levomenthol may increase the bradycardic activities of Donepezil"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "Levomenthol may increase the bradycardic activities of Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "Levomenthol may increase the bradycardic activities of Lacosamide"
+                    },
+                    {
+                        "drugbank-id": "DB08895",
+                        "description": "Levomenthol may increase the bradycardic activities of Tofacitinib"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "Levomenthol may increase the bradycardic activities of Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08868",
+                        "description": "Levomenthol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Anagrelide"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Clemastine"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Grepafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Erlotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Cocaine"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Domperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Halofantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB04844",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Tetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Vandetanib"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Romidepsin"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Artemether"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Deutetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Macimorelin"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Astemizole"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Eliglustat"
+                    },
+                    {
+                        "drugbank-id": "DB00159",
+                        "description": "The risk or severity of hyperkalemia can be increased when Icosapent is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The risk or severity of hyperkalemia can be increased when Valsartan is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "The risk or severity of hyperkalemia can be increased when Ramipril is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "The risk or severity of hyperkalemia can be increased when Succinylcholine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00275",
+                        "description": "The risk or severity of hyperkalemia can be increased when Olmesartan is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The risk or severity of hyperkalemia can be increased when Indomethacin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The risk or severity of hyperkalemia can be increased when Triamterene is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "The risk or severity of hyperkalemia can be increased when Ardeparin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "The risk or severity of hyperkalemia can be increased when Spironolactone is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The risk or severity of hyperkalemia can be increased when Trimethoprim is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nabumetone is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The risk or severity of hyperkalemia can be increased when Ketorolac is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The risk or severity of hyperkalemia can be increased when Tenoxicam is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The risk or severity of hyperkalemia can be increased when Celecoxib is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "The risk or severity of hyperkalemia can be increased when Fosinopril is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00500",
+                        "description": "The risk or severity of hyperkalemia can be increased when Tolmetin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "The risk or severity of hyperkalemia can be increased when Trandolapril is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The risk or severity of hyperkalemia can be increased when Rofecoxib is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "The risk or severity of hyperkalemia can be increased when Benazepril is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The risk or severity of hyperkalemia can be increased when Piroxicam is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00573",
+                        "description": "The risk or severity of hyperkalemia can be increased when Fenoprofen is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The risk or severity of hyperkalemia can be increased when Valdecoxib is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The risk or severity of hyperkalemia can be increased when Enalapril is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The risk or severity of hyperkalemia can be increased when Diclofenac is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00594",
+                        "description": "The risk or severity of hyperkalemia can be increased when Amiloride is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00605",
+                        "description": "The risk or severity of hyperkalemia can be increased when Sulindac is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00698",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nitrofurantoin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The risk or severity of hyperkalemia can be increased when Flurbiprofen is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "The risk or severity of hyperkalemia can be increased when Lisinopril is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The risk or severity of hyperkalemia can be increased when Mannitol is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The risk or severity of hyperkalemia can be increased when Etodolac is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The risk or severity of hyperkalemia can be increased when Mefenamic acid is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The risk or severity of hyperkalemia can be increased when Naproxen is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "The risk or severity of hyperkalemia can be increased when Perindopril is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "The risk or severity of hyperkalemia can be increased when Candesartan cilexetil is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The risk or severity of hyperkalemia can be increased when Phenylbutazone is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "The risk or severity of hyperkalemia can be increased when Meloxicam is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00821",
+                        "description": "The risk or severity of hyperkalemia can be increased when Carprofen is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Quinapril"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Omapatrilat"
+                    },
+                    {
+                        "drugbank-id": "DB00939",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Meclofenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Telmisartan"
+                    },
+                    {
+                        "drugbank-id": "DB00991",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Oxaprozin"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Heparin"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Rescinnamine"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Enoxaparin"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Lumiracoxib"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Cilazapril"
+                    },
+                    {
+                        "drugbank-id": "DB01342",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Forasartan"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Saprisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Spirapril"
+                    },
+                    {
+                        "drugbank-id": "DB01349",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Tasosartan"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Drospirenone"
+                    },
+                    {
+                        "drugbank-id": "DB01399",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Salsalate"
+                    },
+                    {
+                        "drugbank-id": "DB01401",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Choline magnesium trisalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01419",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Antrafenine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Aminophenazone"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Antipyrine"
+                    },
+                    {
+                        "drugbank-id": "DB01600",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Tiaprofenic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB02968",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Penicillin G Acyl Serine"
+                    },
+                    {
+                        "drugbank-id": "DB03585",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Oxyphenbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB04812",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Benoxaprofen"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Metamizole"
+                    },
+                    {
+                        "drugbank-id": "DB04828",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Zomepirac"
+                    },
+                    {
+                        "drugbank-id": "DB05095",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Cimicoxib"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Sulodexide"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Lornoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB06736",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Aceclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Zaltoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Danaparoid"
+                    },
+                    {
+                        "drugbank-id": "DB06763",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Saralasin"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Dalteparin"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Tinzaparin"
+                    },
+                    {
+                        "drugbank-id": "DB07402",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Azapropazone"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Parecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB08797",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Salicylamide"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Nadroparin"
+                    },
+                    {
+                        "drugbank-id": "DB08822",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Temocapril"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Canagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08940",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Kebuzone"
+                    },
+                    {
+                        "drugbank-id": "DB08942",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Isoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB08951",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Indoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB08955",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Ibuproxam"
+                    },
+                    {
+                        "drugbank-id": "DB08976",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Floctafenine"
+                    },
+                    {
+                        "drugbank-id": "DB08981",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Fenbufen"
+                    },
+                    {
+                        "drugbank-id": "DB08984",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Etofenamate"
+                    },
+                    {
+                        "drugbank-id": "DB08991",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Epirizole"
+                    },
+                    {
+                        "drugbank-id": "DB09015",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Canrenoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09026",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Aliskiren"
+                    },
+                    {
+                        "drugbank-id": "DB09084",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Benzydamine"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Dexibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09214",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Dexketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09215",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Droxicam"
+                    },
+                    {
+                        "drugbank-id": "DB09217",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Firocoxib"
+                    },
+                    {
+                        "drugbank-id": "DB09218",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Clonixin"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Bemiparin"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Reviparin"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Parnaparin"
+                    },
+                    {
+                        "drugbank-id": "DB09261",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Certoparin"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Fimasartan"
+                    },
+                    {
+                        "drugbank-id": "DB09285",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Morniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Propacetamol"
+                    },
+                    {
+                        "drugbank-id": "DB09295",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Talniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Enalaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11455",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Robenacoxib"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Tepoxalin"
+                    },
+                    {
+                        "drugbank-id": "DB11518",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Flunixin"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Imidapril"
+                    },
+                    {
+                        "drugbank-id": "DB12097",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Mannitol busulfan"
+                    },
+                    {
+                        "drugbank-id": "DB12221",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Canrenone"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Indobufen"
+                    },
+                    {
+                        "drugbank-id": "DB13001",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Tinoridine"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Zofenopril"
+                    },
+                    {
+                        "drugbank-id": "DB13167",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Alclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB13217",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Fentiazac"
+                    },
+                    {
+                        "drugbank-id": "DB13232",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Suxibuzone"
+                    },
+                    {
+                        "drugbank-id": "DB13286",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Bumadizone"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Delapril"
+                    },
+                    {
+                        "drugbank-id": "DB13314",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Alminoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13371",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Difenpiramide"
+                    },
+                    {
+                        "drugbank-id": "DB13407",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Nifenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13432",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Lonazolac"
+                    },
+                    {
+                        "drugbank-id": "DB13481",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Tenidap"
+                    },
+                    {
+                        "drugbank-id": "DB13524",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Propyphenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13527",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Proglumetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13544",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Ethenzamide"
+                    },
+                    {
+                        "drugbank-id": "DB13629",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Mofebutazone"
+                    },
+                    {
+                        "drugbank-id": "DB13649",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Proquazone"
+                    },
+                    {
+                        "drugbank-id": "DB13657",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Benorilate"
+                    },
+                    {
+                        "drugbank-id": "DB13722",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Pirprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Acemetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13860",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Imidazole salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB14059",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with SC 236"
+                    },
+                    {
+                        "drugbank-id": "DB14060",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with NS 398"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Benazeprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Ramiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Perindoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Quinaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "The risk or severity of hyperkalemia can be increased when Mesalazine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The risk or severity of hyperkalemia can be increased when Labetalol is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The risk or severity of hyperkalemia can be increased when Sulfasalazine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Diflunisal"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Balsalazide"
+                    },
+                    {
+                        "drugbank-id": "DB01219",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Dantrolene"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Olsalazine"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Magnesium salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Bufuralol"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Bopindolol"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Arotinolol"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Levobetaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Nitroaspirin"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Bucindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Mepindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Guacetisal"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Carbaspirin calcium"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of hyperkalemia can be increased when Cyclosporine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "The risk or severity of hyperkalemia can be increased when Eplerenone is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Tolvaptan"
+                    },
+                    {
+                        "drugbank-id": "DB09212",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Loxoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Levomenthol can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Levomenthol can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluconazole is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moexipril is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00107",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxytocin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Benzatropine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atomoxetine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cetirizine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of QTc prolongation can be increased when Protriptyline is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buclizine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxylamine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The risk or severity of QTc prolongation can be increased when Treprostinil is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexbrompheniramine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triprolidine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyproheptadine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The risk or severity of QTc prolongation can be increased when Enoxacin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pefloxacin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The risk or severity of QTc prolongation can be increased when Foscarnet is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxyzine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amodiaquine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tizanidine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibandronate is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of QTc prolongation can be increased when Apomorphine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isoflurane is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rosoxacin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propofol is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Brompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Terbutaline"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Amantadine"
+                    },
+                    {
+                        "drugbank-id": "DB00920",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ketotifen"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Formoterol"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Gatifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Levocabastine"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Cyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Desflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Arformoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01620",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Pheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Vorinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Fleroxacin"
+                    },
+                    {
+                        "drugbank-id": "DB04695",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Farnesyl thiopyrophosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ezogabine"
+                    },
+                    {
+                        "drugbank-id": "DB05465",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Tandutinib"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Amisulpride"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Pasireotide"
+                    },
+                    {
+                        "drugbank-id": "DB06699",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Degarelix"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Buserelin"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Histrelin"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Triptorelin"
+                    },
+                    {
+                        "drugbank-id": "DB07780",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Farnesyl diphosphate"
+                    },
+                    {
+                        "drugbank-id": "DB07841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Geranylgeranyl diphosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Eribulin"
+                    },
+                    {
+                        "drugbank-id": "DB08936",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Chlorcyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Flumequine"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Olodaterol"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Acrivastine"
+                    },
+                    {
+                        "drugbank-id": "DB11390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Coumaphos"
+                    },
+                    {
+                        "drugbank-id": "DB11397",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Dichlorvos"
+                    },
+                    {
+                        "drugbank-id": "DB11408",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Famphur"
+                    },
+                    {
+                        "drugbank-id": "DB11412",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Fenthion"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Orbifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11448",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Phosmet"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sarafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Difloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Bilastine"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Pazufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11891",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with CUDC 907"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Prulifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB12231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Temefos"
+                    },
+                    {
+                        "drugbank-id": "DB12645",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Givinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Oxolinic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13744",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Piromidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Rufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Pipemidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Inotersen"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB00719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azatadine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olanzapine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amoxapine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimipramine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Salbutamol"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "The risk or severity of QTc prolongation can be increased when Galantamine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bortezomib is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nelfinavir is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of QTc prolongation can be increased when Venlafaxine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "The risk or severity of QTc prolongation can be increased when Alfuzosin is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mefloquine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mirtazapine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sorafenib is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nortriptyline is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The risk or severity of QTc prolongation can be increased when Voriconazole is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trazodone is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tamoxifen is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The risk or severity of QTc prolongation can be increased when Risperidone is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indapamide is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disulfiram is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Vardenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Metronidazole"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Tolterodine"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Mequitazine"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Cilostazol"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Dasatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Posaconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Sunitinib"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Solifenacin"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Hydroxychloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Indacaterol"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Levocetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Rilpivirine"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Mirabegron"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Vilanterol"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Rupatadine"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ebastine"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Delafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Triclabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Fostemsavir"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The risk or severity of QTc prolongation can be increased when Epinastine is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB11853",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Relugolix"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Levomenthol can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00761",
+                        "description": "Potassium chloride may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "Levomenthol may increase the hyperkalemic activities of Potassium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11098",
+                        "description": "Levomenthol may increase the hyperkalemic activities of Potassium bicarbonate"
+                    },
+                    {
+                        "drugbank-id": "DB14498",
+                        "description": "Levomenthol may increase the hyperkalemic activities of Potassium acetate"
+                    },
+                    {
+                        "drugbank-id": "DB09087",
+                        "description": "Potassium alum may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB09418",
+                        "description": "Potassium perchlorate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB11107",
+                        "description": "Potassium bitartrate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB13620",
+                        "description": "Potassium gluconate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB13831",
+                        "description": "Potassium permanganate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB13977",
+                        "description": "Potassium carbonate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB14492",
+                        "description": "Potassium triiodide may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB14500",
+                        "description": "Potassium may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB06715",
+                        "description": "Potassium Iodide may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB11090",
+                        "description": "Potassium nitrate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB11153",
+                        "description": "Potassium hydroxide may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB13735",
+                        "description": "Potassium guaiacolsulfonate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB09413",
+                        "description": "Monopotassium phosphate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB09414",
+                        "description": "Dipotassium phosphate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB09449",
+                        "description": "Sodium phosphate monobasic may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB09483",
+                        "description": "Potassium lactate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB14499",
+                        "description": "Potassium sulfate may increase the hyperkalemic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB01345",
+                        "description": "Levomenthol may increase the hyperkalemic activities of Potassium cation"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The therapeutic efficacy of Levomenthol can be increased when used in combination with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "Lasmiditan may increase the bradycardic activities of Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Levomenthol can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of adverse effects can be increased when Levomenthol is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Levomenthol may increase the vasodilatory activities of Isosorbide mononitrate"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Levomenthol can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Levomenthol"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The serum concentration of the active metabolites of Levomenthol can be increased when Levomenthol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Levomenthol can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Levomenthol can be decreased when it is combined with Satralizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

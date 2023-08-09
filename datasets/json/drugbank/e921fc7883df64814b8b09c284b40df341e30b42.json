@@ -1,0 +1,29 @@
+{
+    "medicine_id": "e921fc7883df64814b8b09c284b40df341e30b42",
+    "platform_id": "DB05262",
+    "metadata": {
+        "name": "Ganite 25 mg 1mL Injection solution concentrate",
+        "composition": "25 mg 1mL Oxypurinol",
+        "clinical_particulars": {
+            "therapeutic_indications": "Intended for the treatment of congestive heart failure and hyperuricemia",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "The serum concentration of the active metabolites of Azathioprine can be increased when Azathioprine is used in combination with Oxypurinol"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "The serum concentration of Didanosine can be increased when it is combined with Oxypurinol"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

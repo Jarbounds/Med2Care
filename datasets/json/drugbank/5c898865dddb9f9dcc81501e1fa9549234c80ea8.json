@@ -1,0 +1,665 @@
+{
+    "medicine_id": "5c898865dddb9f9dcc81501e1fa9549234c80ea8",
+    "platform_id": "DB01185",
+    "metadata": {
+        "name": "Androxy 10 mg 1 Tablet",
+        "composition": "10 mg 1 Fluoxymesterone",
+        "clinical_particulars": {
+            "therapeutic_indications": "In males used as replacement therapy in conditions associated with symptoms of deficiency or absence of endogenous testosterone In females for palliation of androgenresponsive recurrent mammary cancer in women who are more than one year but less than five years postmenopausal",
+            "contraindications": {
+                "disease": "Side effects include virilization masculine traits in women acne fluid retention and hypercalcemia",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Fluoxymesterone is a synthetic androgen or male hormone similar to testosterone Fluoxymesterone works by attaching itself to androgen receptors this causes it to interact with the parts of the cell involved in the making of proteins It may cause an increase in the synthesis of some proteins or a decrease in the synthesis of others These proteins have a variety of effects including blocking the growth of some types of breast cancer cells stimulating cells that cause male sexual characteristics and stimulating the production of red blood cells",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of liver damage can be increased when Fluoxymesterone is combined with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "Fluoxymesterone may increase the anticoagulant activities of S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin human"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin glargine"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin pork"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Glimepiride"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Acarbose"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Metformin"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Sulfadiazine"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Acetohexamide"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Miglitol"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Chlorpropamide"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Nateglinide"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Pentamidine"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Tolazamide"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Repaglinide"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Phenformin"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Glyburide"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Glipizide"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Gliclazide"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Tolbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Pioglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Gliquidone"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Mitiglinide"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Sitagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Sunitinib"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Exenatide"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Mecasermin"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Pramlintide"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Glisoxepide"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin aspart"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin detemir"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin glulisine"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Glymidine"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of AICA ribonucleotide"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Buformin"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Vildagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Voglibose"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of NN344"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of NBI 6024"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Bisegliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Alogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Dapagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Saxagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Liraglutide"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Gosogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Linagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Canagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Glibornuride"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Benfluorex"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Empagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Albiglutide"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Dulaglutide"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Netoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Rivoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Ciglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Lixisenatide"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin beef"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin degludec"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin peglispro"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin tregopil"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Ipragliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Dutogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Allicin"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Tofogliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Ertugliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of 2 4 thiazolidinedione"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Teneligliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Omarigliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Carmegliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Gemigliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Anagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Evogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Sotagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Balaglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Remogliflozin etabonate"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Carbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Guar gum"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Metahexamide"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Semaglutide"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Taspoglutide"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Englitazone"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Tirzepatide"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Gastric inhibitory polypeptide"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The risk or severity of fluid retention can be increased when Flunisolide is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The risk or severity of fluid retention can be increased when Beclomethasone dipropionate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The risk or severity of fluid retention can be increased when Betamethasone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The risk or severity of fluid retention can be increased when Fluticasone propionate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The risk or severity of fluid retention can be increased when Triamcinolone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The risk or severity of fluid retention can be increased when Prednisone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The risk or severity of fluid retention can be increased when Fludrocortisone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The risk or severity of fluid retention can be increased when Hydrocortisone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The risk or severity of fluid retention can be increased when Prednisolone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The risk or severity of fluid retention can be increased when Methylprednisolone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The risk or severity of fluid retention can be increased when Trilostane is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The risk or severity of fluid retention can be increased when Budesonide is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The risk or severity of fluid retention can be increased when Dexamethasone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The risk or severity of fluid retention can be increased when Corticotropin is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The risk or severity of fluid retention can be increased when Cortisone acetate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The risk or severity of fluid retention can be increased when Paramethasone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The risk or severity of fluid retention can be increased when Ciclesonide is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The risk or severity of fluid retention can be increased when Aldosterone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The risk or severity of fluid retention can be increased when Fluticasone furoate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The risk or severity of fluid retention can be increased when Fluprednidene is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The risk or severity of fluid retention can be increased when Fluprednisolone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The risk or severity of fluid retention can be increased when Meprednisone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The risk or severity of fluid retention can be increased when Dexamethasone isonicotinate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The risk or severity of fluid retention can be increased when Melengestrol is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The risk or severity of fluid retention can be increased when Deflazacort is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The risk or severity of fluid retention can be increased when Cortivazol is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The risk or severity of fluid retention can be increased when Prednylidene is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "The risk or severity of fluid retention can be increased when Fluocortin is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "The risk or severity of fluid retention can be increased when Fluperolone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The risk or severity of fluid retention can be increased when Cloprednol is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "The risk or severity of fluid retention can be increased when Fluclorolone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The risk or severity of fluid retention can be increased when Fluticasone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The risk or severity of fluid retention can be increased when Mometasone furoate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14541",
+                        "description": "The risk or severity of fluid retention can be increased when Hydrocortisone cypionate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The risk or severity of fluid retention can be increased when Hydrocortisone succinate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The risk or severity of fluid retention can be increased when Prednisolone phosphate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The risk or severity of fluid retention can be increased when Prednisolone hemisuccinate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The risk or severity of fluid retention can be increased when Methylprednisolone hemisuccinate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The risk or severity of fluid retention can be increased when Prednisone acetate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The risk or severity of fluid retention can be increased when Clocortolone acetate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The risk or severity of fluid retention can be increased when Melengestrol acetate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The risk or severity of fluid retention can be increased when Betamethasone phosphate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The risk or severity of fluid retention can be increased when Cortisone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The risk or severity of fluid retention can be increased when Clobetasol propionate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The risk or severity of fluid retention can be increased when Fluocinonide is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The risk or severity of fluid retention can be increased when Hydrocortisone butyrate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00547",
+                        "description": "The risk or severity of fluid retention can be increased when Desoximetasone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The risk or severity of fluid retention can be increased when Fluocinolone acetonide is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The risk or severity of fluid retention can be increased when Mometasone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The risk or severity of fluid retention can be increased when Fluocortolone is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The risk or severity of fluid retention can be increased when Clobetasol is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB15566",
+                        "description": "The risk or severity of fluid retention can be increased when Prednisolone acetate is combined with Fluoxymesterone"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The risk or severity of fluid retention can be increased when Difluocortolone is combined with Fluoxymesterone"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

@@ -1,0 +1,3289 @@
+{
+    "medicine_id": "fd6113be099d3e1400cb0085fc047045193db5c1",
+    "platform_id": "DB00484",
+    "metadata": {
+        "name": "Alphagan 5 mg Solution",
+        "composition": "5 mg Brimonidine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Opthalmic Indicated for lowering intraocular pressure IOP in patients with open angle glaucoma or ocular hypertension label as monotherapy or combination product with brinzolamide Topical Indicated for the treatment of persistent non transient facial erythema of rosacea in adults 18 years of age or older L6535",
+            "contraindications": {
+                "disease": "LD sub 50 sub and Overdose Oral LD sub 50 sub is 50 mg kg in mice and 100 mg kg in rats MSDS While there is limited clinial data on brimonidine overdose in adults some common symptoms from oral overdoses of alpha 2 adrenergic agonists include hypotension asthenia vomiting lethargy sedation bradycardia arrhythmias miosis apnoea hypotonia hypothermia respiratory depression and seizure L6544 Treatment of an oral overdose includes supportive and symptomatic therapy Cases of brimonidine overdose have been reported in neonates infants and pediatric patients receiving brimonidine tartrate as part of medical treatment of congenital glaucoma or by accidental oral ingestion In these cases children experienced symptoms consistent with previously reported oral overdoses of alpha 2 adrenergic agonists in young children L6544 Nonclinical Toxicology At oral doses of up to 2 5 and 5 mg kg day in pregnant rats and rabbits brimonidine was not shown to be teratogenic during gestation days 6 through 18 Findings from various _in vitro_ and _in vivo_ studies including the Ames bacterial assay CHO cell chromosomal aberration assay and CD 1 mice studies did not demonstrate any mutagenic or clastogenic potential of brimonidine label There were no observable adverse effects on male or female fertility when tested at oral doses of up to 1 mg kg which is approximately 200 times the systemic exposure following the maximum recommended ophthalmic dose of 0 5 brimonidine label Use in special populations Due to limited clinical data on the use of brimonidine pregnant or breastfeeding female patients the use of brimonidine in these patients is generally not recommended and the use should be only considered after taking into account the benefit to risk ratio of continuing the drug therapy in these patients In nursing mothers the decision should be made whether to discontinue the drug or discontinue breastfeeding label As the systemic absorption and elimination of brimonidine are not significantly affected by age the use of brimonidine is considered safe in geriatric patients In contrast the use of brimonidine in infants under the age of 2 and pediatric patients under the age of 18 is strongly not recommended due to the reports of serious adverse events following ophthalmic administration of brimonidine in infants between the age of 28 days and 3 months L6544",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Brimonidine is a highly selective alpha 2 adrenergic receptor agonist that is 1000 fold more selective for the alpha2 adrenergic receptor than the alpha1 adrenergic receptor L6544 This characteristic gives the drug some therapeutic advantages since it reduces the risk of systemic side effects such as systemic hypotension bradycardia and sedation In addition there is a reduction in the risk for developing alpha 1 mediated ocular unwanted effects such as conjunctival blanching mydriasis and eyelid retraction A179002 However despite high alpha 2 receptor specificity brimonidine may still produce alpha 1 adrenoceptor mediated ocular effects such as conjunctival vasoconstriction A178969 Brimonidine has a peak ocular hypotensive effect occurring at two hours post dosing label In a randomized double blind clinical study ocular administration of 0 2 brimonidine in healthy volunteers resulted in a 23 reduction of mean intraocular pressure from baseline at 3 hours following administration A178951 In comparative studies consisting of patients with open angle glaucoma or ocular hypertension the ocular hypotensive effect of brimonidine was maintained during treatment periods of up to 1 year A178945 Brimonidine mediates vasoconstrictive effects and it was shown to exhibit anti inflammatory properties in _ex vivo_ human skin model and _in vivo_ inflammation models A179041 In a clinial trials consisting of adults with moderate to severe facial erythema of rosacea brimonidine was shown to improve the extent of redness at 3 hours after application compared to placebo L6544 It was shown to be a potent vasoconstrictor of human subcutaneous vessels with a diameter of less than 200 \u00b5m In _in vivo_ mouse inflammation models brimonidine displayed anti inflammatory properties by inhibiting edema A178978 In a randomized double blind study brimonidine reduced erythema for the 12 hours of the study in a dose dependent manner A178978 When adminsitered systemically brimonidine was shown to cause cardiovascular effects by decreasing blood pressure decreasing heart and respiratory rate and prolonging the PR interval in the electrocardiogram This is due to the targeting of adrenoceptors by the drug A178963 A178966 Although the clinical significance has not been established there is evidence that brimonidine exhibits neuroprotective activity in experimental models of cerebral ischemia and optic nerve injury A178969 _In vitro_ studies show that brimonidine mediated protective effects on neuronal cells from kainate acid insult and on cultured retinal ganglion cells from glutamate induced cytotoxicity which is a possible mediator of secondary neuronal degeneration in human glaucoma Neuroprotective actions of brimonidine were also demonstrated in rat models of acute retinal ischemia and chronic IOP elevation It has been proposed that brimonidine may exert neuroprotective effects on the retina and optic nerve by enhancing intrinsic retinal ganglion cell survival mechanisms and or induction of neuronal survival factors such as bFGF A178951 However further investigations are needed to conclude on these possible therapeutic benefits of the drug",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The therapeutic efficacy of Brimonidine can be decreased when used in combination with Mianserin"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "Brimonidine may increase the antihypertensive activities of Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "Brimonidine may increase the antihypertensive activities of Ramipril"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Brimonidine may increase the antihypertensive activities of Esmolol"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "Brimonidine may increase the antihypertensive activities of Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Brimonidine may increase the antihypertensive activities of Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00212",
+                        "description": "Brimonidine may increase the antihypertensive activities of Remikiren"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "Brimonidine may increase the antihypertensive activities of Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bethanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00226",
+                        "description": "Brimonidine may increase the antihypertensive activities of Guanadrel"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "Brimonidine may increase the antihypertensive activities of Metoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "Brimonidine may increase the antihypertensive activities of Isradipine"
+                    },
+                    {
+                        "drugbank-id": "DB00275",
+                        "description": "Brimonidine may increase the antihypertensive activities of Olmesartan"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "Brimonidine may increase the antihypertensive activities of Chlorthalidone"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nitroprusside"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "Brimonidine may increase the antihypertensive activities of Atenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "Brimonidine may increase the antihypertensive activities of Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00350",
+                        "description": "Brimonidine may increase the antihypertensive activities of Minoxidil"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Brimonidine may increase the antihypertensive activities of Timolol"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "Brimonidine may increase the antihypertensive activities of Treprostinil"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "Brimonidine may increase the antihypertensive activities of Amlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nimodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nisoldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "Brimonidine may increase the antihypertensive activities of Prazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "Brimonidine may increase the antihypertensive activities of Fosinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "Brimonidine may increase the antihypertensive activities of Trandolapril"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "Brimonidine may increase the antihypertensive activities of Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "Brimonidine may increase the antihypertensive activities of Lercanidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "Brimonidine may increase the antihypertensive activities of Benazepril"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Brimonidine may increase the antihypertensive activities of Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "Brimonidine may increase the antihypertensive activities of Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "Brimonidine may increase the antihypertensive activities of Doxazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "Brimonidine may increase the antihypertensive activities of Labetalol"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Brimonidine may increase the antihypertensive activities of Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00616",
+                        "description": "Brimonidine may increase the antihypertensive activities of Candoxatril"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "Brimonidine may increase the antihypertensive activities of Guanabenz"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Brimonidine may increase the antihypertensive activities of Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "Brimonidine may increase the antihypertensive activities of Losartan"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "Brimonidine may increase the antihypertensive activities of Moexipril"
+                    },
+                    {
+                        "drugbank-id": "DB00692",
+                        "description": "Brimonidine may increase the antihypertensive activities of Phentolamine"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "Brimonidine may increase the antihypertensive activities of Eplerenone"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "Brimonidine may increase the antihypertensive activities of Lisinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00727",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nitroglycerin"
+                    },
+                    {
+                        "drugbank-id": "DB00765",
+                        "description": "Brimonidine may increase the antihypertensive activities of Metyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Brimonidine may increase the antihypertensive activities of Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00785",
+                        "description": "Brimonidine may increase the antihypertensive activities of Cryptenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "Brimonidine may increase the antihypertensive activities of Perindopril"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "Brimonidine may increase the antihypertensive activities of Candesartan cilexetil"
+                    },
+                    {
+                        "drugbank-id": "DB00797",
+                        "description": "Brimonidine may increase the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "Brimonidine may increase the antihypertensive activities of Fenoldopam"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "Brimonidine may increase the antihypertensive activities of Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "Brimonidine may increase the antihypertensive activities of Tadalafil"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Brimonidine may increase the antihypertensive activities of Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "Brimonidine may increase the antihypertensive activities of Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Brimonidine may increase the antihypertensive activities of Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "Brimonidine may increase the antihypertensive activities of Quinapril"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "Brimonidine may increase the antihypertensive activities of Omapatrilat"
+                    },
+                    {
+                        "drugbank-id": "DB00925",
+                        "description": "Brimonidine may increase the antihypertensive activities of Phenoxybenzamine"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Brimonidine may increase the antihypertensive activities of Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "Brimonidine may increase the antihypertensive activities of Telmisartan"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "Brimonidine may increase the antihypertensive activities of Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Brimonidine may increase the antihypertensive activities of Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "Brimonidine may increase the antihypertensive activities of Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Brimonidine may increase the antihypertensive activities of Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "Brimonidine may increase the antihypertensive activities of Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "Brimonidine may increase the antihypertensive activities of Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nitrendipine"
+                    },
+                    {
+                        "drugbank-id": "DB01089",
+                        "description": "Brimonidine may increase the antihypertensive activities of Deserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "Brimonidine may increase the antihypertensive activities of Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "Brimonidine may increase the antihypertensive activities of Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "Brimonidine may increase the antihypertensive activities of Diazoxide"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "Brimonidine may increase the antihypertensive activities of Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01162",
+                        "description": "Brimonidine may increase the antihypertensive activities of Terazosin"
+                    },
+                    {
+                        "drugbank-id": "DB01170",
+                        "description": "Brimonidine may increase the antihypertensive activities of Guanethidine"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "Brimonidine may increase the antihypertensive activities of Rescinnamine"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Brimonidine may increase the antihypertensive activities of Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "Brimonidine may increase the antihypertensive activities of Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nadolol"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Brimonidine may increase the antihypertensive activities of Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "Brimonidine may increase the antihypertensive activities of Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Brimonidine may increase the antihypertensive activities of Practolol"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Brimonidine may increase the antihypertensive activities of Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "Brimonidine may increase the antihypertensive activities of Cilazapril"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "Brimonidine may increase the antihypertensive activities of Saprisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "Brimonidine may increase the antihypertensive activities of Spirapril"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Brimonidine may increase the antihypertensive activities of Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "Brimonidine may increase the antihypertensive activities of Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Brimonidine may increase the antihypertensive activities of Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Brimonidine may increase the antihypertensive activities of Pargyline"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Brimonidine may increase the antihypertensive activities of Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "Brimonidine may increase the antihypertensive activities of Tienilic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "Brimonidine may increase the antihypertensive activities of Debrisoquine"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Brimonidine may increase the antihypertensive activities of Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "Brimonidine may increase the antihypertensive activities of Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "Brimonidine may increase the antihypertensive activities of Ambrisentan"
+                    },
+                    {
+                        "drugbank-id": "DB06445",
+                        "description": "Brimonidine may increase the antihypertensive activities of Diethylnorspermine"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB06762",
+                        "description": "Brimonidine may increase the antihypertensive activities of Pinacidil"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Brimonidine may increase the antihypertensive activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "Brimonidine may increase the antihypertensive activities of Temocapril"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Brimonidine may increase the antihypertensive activities of Riociguat"
+                    },
+                    {
+                        "drugbank-id": "DB08932",
+                        "description": "Brimonidine may increase the antihypertensive activities of Macitentan"
+                    },
+                    {
+                        "drugbank-id": "DB08950",
+                        "description": "Brimonidine may increase the antihypertensive activities of Indoramin"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "Brimonidine may increase the antihypertensive activities of Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "Brimonidine may increase the antihypertensive activities of Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB09026",
+                        "description": "Brimonidine may increase the antihypertensive activities of Aliskiren"
+                    },
+                    {
+                        "drugbank-id": "DB09206",
+                        "description": "Brimonidine may increase the antihypertensive activities of Trimazosin"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Brimonidine may increase the antihypertensive activities of Nicorandil"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "Brimonidine may increase the antihypertensive activities of Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "Brimonidine may increase the antihypertensive activities of Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "Brimonidine may increase the antihypertensive activities of Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09242",
+                        "description": "Brimonidine may increase the antihypertensive activities of Moxonidine"
+                    },
+                    {
+                        "drugbank-id": "DB09363",
+                        "description": "Brimonidine may increase the antihypertensive activities of Rauwolfia serpentina root"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "Brimonidine may increase the antihypertensive activities of Enalaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "Brimonidine may increase the antihypertensive activities of Selexipag"
+                    },
+                    {
+                        "drugbank-id": "DB11720",
+                        "description": "Brimonidine may increase the antihypertensive activities of Angiotensin 1 7"
+                    },
+                    {
+                        "drugbank-id": "DB11738",
+                        "description": "Brimonidine may increase the antihypertensive activities of Rilmenidine"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "Brimonidine may increase the antihypertensive activities of Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "Brimonidine may increase the antihypertensive activities of Imidapril"
+                    },
+                    {
+                        "drugbank-id": "DB12054",
+                        "description": "Brimonidine may increase the antihypertensive activities of BQ 123"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "Brimonidine may increase the antihypertensive activities of Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Brimonidine may increase the antihypertensive activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Brimonidine may increase the antihypertensive activities of Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Brimonidine may increase the antihypertensive activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12661",
+                        "description": "Brimonidine may increase the antihypertensive activities of Urapidil"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Brimonidine may increase the antihypertensive activities of Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "Brimonidine may increase the antihypertensive activities of Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "Brimonidine may increase the antihypertensive activities of Zofenopril"
+                    },
+                    {
+                        "drugbank-id": "DB13211",
+                        "description": "Brimonidine may increase the antihypertensive activities of Guanoxan"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "Brimonidine may increase the antihypertensive activities of Delapril"
+                    },
+                    {
+                        "drugbank-id": "DB13374",
+                        "description": "Brimonidine may increase the antihypertensive activities of Vincamine"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "Brimonidine may increase the antihypertensive activities of Linsidomine"
+                    },
+                    {
+                        "drugbank-id": "DB13410",
+                        "description": "Brimonidine may increase the antihypertensive activities of Guanoxabenz"
+                    },
+                    {
+                        "drugbank-id": "DB13429",
+                        "description": "Brimonidine may increase the antihypertensive activities of Tolonidine"
+                    },
+                    {
+                        "drugbank-id": "DB13435",
+                        "description": "Brimonidine may increase the antihypertensive activities of Endralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "Brimonidine may increase the antihypertensive activities of Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13452",
+                        "description": "Brimonidine may increase the antihypertensive activities of Cadralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "Brimonidine may increase the antihypertensive activities of Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Brimonidine may increase the antihypertensive activities of Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13575",
+                        "description": "Brimonidine may increase the antihypertensive activities of Bietaserpine"
+                    },
+                    {
+                        "drugbank-id": "DB13604",
+                        "description": "Brimonidine may increase the antihypertensive activities of Guanazodine"
+                    },
+                    {
+                        "drugbank-id": "DB13631",
+                        "description": "Brimonidine may increase the antihypertensive activities of Methoserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Brimonidine may increase the antihypertensive activities of Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13779",
+                        "description": "Brimonidine may increase the antihypertensive activities of Guanoclor"
+                    },
+                    {
+                        "drugbank-id": "DB13801",
+                        "description": "Brimonidine may increase the antihypertensive activities of Muzolimine"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Brimonidine may increase the antihypertensive activities of Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "Brimonidine may increase the antihypertensive activities of Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "Brimonidine may increase the antihypertensive activities of Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Brimonidine may increase the antihypertensive activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "Brimonidine may increase the antihypertensive activities of Benazeprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "Brimonidine may increase the antihypertensive activities of Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "Brimonidine may increase the antihypertensive activities of Ramiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "Brimonidine may increase the antihypertensive activities of Perindoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "Brimonidine may increase the antihypertensive activities of Quinaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "Brimonidine may increase the antihypertensive activities of Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "Brimonidine may increase the antihypertensive activities of Levamlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "Brimonidine may increase the antihypertensive activities of Clonidine"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "Brimonidine may increase the antihypertensive activities of Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Brimonidine may increase the antihypertensive activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00042",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Botulinum Toxin Type B"
+                    },
+                    {
+                        "drugbank-id": "DB00083",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Botulinum toxin type A"
+                    },
+                    {
+                        "drugbank-id": "DB00150",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tryptophan"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fluvoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Baclofen"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lorazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00189",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ethchlorvynol"
+                    },
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Succinylcholine"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00216",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Eletriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00228",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Enflurane"
+                    },
+                    {
+                        "drugbank-id": "DB00231",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Temazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00234",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Reboxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00237",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Butabarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Butalbital"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methysergide"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cabergoline"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ropinirole"
+                    },
+                    {
+                        "drugbank-id": "DB00273",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Topiramate"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clemastine"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Venlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Atomoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00292",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Etomidate"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Morphine"
+                    },
+                    {
+                        "drugbank-id": "DB00306",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Talbutal"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pentobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zolmitriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00318",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Codeine"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dihydroergotamine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00323",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tolcapone"
+                    },
+                    {
+                        "drugbank-id": "DB00327",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Hydromorphone"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Protriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Trimethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clobazam"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chlorzoxazone"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00371",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Meprobamate"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thiethylperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00377",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Palonosetron"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sulpiride"
+                    },
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alprazolam"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dexbrompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Remoxipride"
+                    },
+                    {
+                        "drugbank-id": "DB00416",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Metocurine iodide"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Secobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00423",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methocarbamol"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Triprolidine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cyproheptadine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Droperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Meperidine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00463",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Metharbital"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00470",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dronabinol"
+                    },
+                    {
+                        "drugbank-id": "DB00474",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methohexital"
+                    },
+                    {
+                        "drugbank-id": "DB00475",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chlordiazepoxide"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00483",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Gallamine triethiodide"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nabilone"
+                    },
+                    {
+                        "drugbank-id": "DB00494",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Entacapone"
+                    },
+                    {
+                        "drugbank-id": "DB00497",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxycodone"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Triflupromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dextromethorphan"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mephenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nortriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Amoxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00546",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Adinazolam"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lamotrigine"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Carbamazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00565",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cisatracurium"
+                    },
+                    {
+                        "drugbank-id": "DB00574",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fenfluramine"
+                    },
+                    {
+                        "drugbank-id": "DB00579",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mazindol"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00589",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lisuride"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ethosuximide"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thiopental"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB00611",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Butorphanol"
+                    },
+                    {
+                        "drugbank-id": "DB00617",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Paramethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fluphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00628",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clorazepic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dexmedetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB00645",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dyclonine"
+                    },
+                    {
+                        "drugbank-id": "DB00647",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dextropropoxyphene"
+                    },
+                    {
+                        "drugbank-id": "DB00652",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pentazocine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Trazodone"
+                    },
+                    {
+                        "drugbank-id": "DB00660",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Metaxalone"
+                    },
+                    {
+                        "drugbank-id": "DB00662",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Trimethobenzamide"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sumatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Midazolam"
+                    },
+                    {
+                        "drugbank-id": "DB00690",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Flurazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ergotamine"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sufentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Apomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Trimipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00728",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Rocuronium"
+                    },
+                    {
+                        "drugbank-id": "DB00732",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Atracurium besylate"
+                    },
+                    {
+                        "drugbank-id": "DB00737",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Meclizine"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Riluzole"
+                    },
+                    {
+                        "drugbank-id": "DB00747",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Scopolamine"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Carbinoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Isoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB00754",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ethotoin"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dolasetron"
+                    },
+                    {
+                        "drugbank-id": "DB00771",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clidinium"
+                    },
+                    {
+                        "drugbank-id": "DB00776",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxcarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00777",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Propiomazine"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB00801",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Halazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alfentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fentanyl"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Diazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00832",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phensuximide"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Brompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00837",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Progabide"
+                    },
+                    {
+                        "drugbank-id": "DB00842",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Donepezil"
+                    },
+                    {
+                        "drugbank-id": "DB00844",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nalbuphine"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methylphenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00854",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Levorphanol"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Benzphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Granisetron"
+                    },
+                    {
+                        "drugbank-id": "DB00897",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Triazolam"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Remifentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ondansetron"
+                    },
+                    {
+                        "drugbank-id": "DB00906",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tiagabine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Almotriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Diethylpropion"
+                    },
+                    {
+                        "drugbank-id": "DB00941",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Hexafluronium"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB00952",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Naratriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00953",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Rizatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00962",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zaleplon"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Desloratadine"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alosetron"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ramelteon"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dimenhydrinate"
+                    },
+                    {
+                        "drugbank-id": "DB00996",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Gabapentin"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Frovatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methoxyflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01049",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ergoloid mesylate"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Acetophenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Melatonin"
+                    },
+                    {
+                        "drugbank-id": "DB01068",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clonazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Diphenhydramine"
+                    },
+                    {
+                        "drugbank-id": "DB01080",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vigabatrin"
+                    },
+                    {
+                        "drugbank-id": "DB01081",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Diphenoxylate"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sertraline"
+                    },
+                    {
+                        "drugbank-id": "DB01105",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sibutramine"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Levocabastine"
+                    },
+                    {
+                        "drugbank-id": "DB01107",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methyprylon"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01121",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phenacemide"
+                    },
+                    {
+                        "drugbank-id": "DB01135",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Doxacurium"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thiamylal"
+                    },
+                    {
+                        "drugbank-id": "DB01156",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bupropion"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Halothane"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB01178",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chlormezanone"
+                    },
+                    {
+                        "drugbank-id": "DB01186",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pergolide"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Desflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01192",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxymorphone"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zopiclone"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tubocurarine"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01202",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Levetiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB01209",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dezocine"
+                    },
+                    {
+                        "drugbank-id": "DB01215",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Estazolam"
+                    },
+                    {
+                        "drugbank-id": "DB01219",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dantrolene"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ketamine"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01226",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mivacurium"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Levacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01245",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Decamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01253",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ergometrine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fosphenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of St John s Wort"
+                    },
+                    {
+                        "drugbank-id": "DB01336",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Metocurine"
+                    },
+                    {
+                        "drugbank-id": "DB01337",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pancuronium"
+                    },
+                    {
+                        "drugbank-id": "DB01338",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pipecuronium"
+                    },
+                    {
+                        "drugbank-id": "DB01339",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vecuronium"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Amobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01352",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Aprobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01353",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Butobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01354",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Heptabarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Hexobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01392",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Yohimbine"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01433",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methadyl acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01437",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Glutethimide"
+                    },
+                    {
+                        "drugbank-id": "DB01440",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of gamma Hydroxybutyric acid"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of MMDA"
+                    },
+                    {
+                        "drugbank-id": "DB01445",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bufotenine"
+                    },
+                    {
+                        "drugbank-id": "DB01450",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dihydroetorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01452",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Diamorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Midomafetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01463",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fencamfamin"
+                    },
+                    {
+                        "drugbank-id": "DB01466",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ethylmorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01472",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of 4 Methoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Barbital"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of 4 Bromo 2 5 dimethoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01488",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dimethyltryptamine"
+                    },
+                    {
+                        "drugbank-id": "DB01489",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Camazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01495",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dichloralphenazone"
+                    },
+                    {
+                        "drugbank-id": "DB01497",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Etorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01501",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Difenoxin"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tenamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01511",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Delorazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01529",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dextromoramide"
+                    },
+                    {
+                        "drugbank-id": "DB01531",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Desomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01534",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chlorhexadol"
+                    },
+                    {
+                        "drugbank-id": "DB01535",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Carfentanil"
+                    },
+                    {
+                        "drugbank-id": "DB01544",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Flunitrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01545",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ethyl loflazepate"
+                    },
+                    {
+                        "drugbank-id": "DB01547",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Drotebanol"
+                    },
+                    {
+                        "drugbank-id": "DB01551",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dihydrocodeine"
+                    },
+                    {
+                        "drugbank-id": "DB01553",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cloxazolam"
+                    },
+                    {
+                        "drugbank-id": "DB01555",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alphacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bromazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01559",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clotiazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01560",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cathinone"
+                    },
+                    {
+                        "drugbank-id": "DB01563",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chloral hydrate"
+                    },
+                    {
+                        "drugbank-id": "DB01565",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dihydromorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01567",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fludiazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Metamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01587",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ketazolam"
+                    },
+                    {
+                        "drugbank-id": "DB01588",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Prazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01589",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Quazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01594",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cinolazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01595",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nitrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01616",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alverine"
+                    },
+                    {
+                        "drugbank-id": "DB01618",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Molindone"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB01954",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Rolipram"
+                    },
+                    {
+                        "drugbank-id": "DB02207",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of 7 Nitroindazole"
+                    },
+                    {
+                        "drugbank-id": "DB02234",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of S Ethylisothiourea"
+                    },
+                    {
+                        "drugbank-id": "DB02852",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Domoic Acid"
+                    },
+                    {
+                        "drugbank-id": "DB02959",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxitriptan"
+                    },
+                    {
+                        "drugbank-id": "DB03575",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phencyclidine"
+                    },
+                    {
+                        "drugbank-id": "DB04165",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Valpromide"
+                    },
+                    {
+                        "drugbank-id": "DB04325",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phenethylamine"
+                    },
+                    {
+                        "drugbank-id": "DB04599",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Aniracetam"
+                    },
+                    {
+                        "drugbank-id": "DB04819",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methapyrilene"
+                    },
+                    {
+                        "drugbank-id": "DB04821",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nomifensine"
+                    },
+                    {
+                        "drugbank-id": "DB04827",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Urethane"
+                    },
+                    {
+                        "drugbank-id": "DB04829",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lysergic acid diethylamide"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zimelidine"
+                    },
+                    {
+                        "drugbank-id": "DB04833",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methaqualone"
+                    },
+                    {
+                        "drugbank-id": "DB04834",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Rapacuronium"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Amineptine"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Flunarizine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lorcaserin"
+                    },
+                    {
+                        "drugbank-id": "DB04872",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Osanetant"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dapoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB04885",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cilansetron"
+                    },
+                    {
+                        "drugbank-id": "DB04888",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bifeprunox"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Milnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB04903",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pagoclone"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB04917",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Renzapride"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ezogabine"
+                    },
+                    {
+                        "drugbank-id": "DB05227",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of APD791"
+                    },
+                    {
+                        "drugbank-id": "DB05232",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tetrodotoxin"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methsuximide"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Rotigotine"
+                    },
+                    {
+                        "drugbank-id": "DB05316",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pimavanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05541",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Brivaracetam"
+                    },
+                    {
+                        "drugbank-id": "DB05542",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Naronapride"
+                    },
+                    {
+                        "drugbank-id": "DB05562",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Naluzotan"
+                    },
+                    {
+                        "drugbank-id": "DB05607",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of PRX 08066"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of BL 1020"
+                    },
+                    {
+                        "drugbank-id": "DB05710",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Gantacurium"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cariprazine"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lumateperone"
+                    },
+                    {
+                        "drugbank-id": "DB06109",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of YKP 1358"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sertindole"
+                    },
+                    {
+                        "drugbank-id": "DB06153",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pizotifen"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Rufinamide"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lacosamide"
+                    },
+                    {
+                        "drugbank-id": "DB06264",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tolperisone"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Levocetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ziconotide"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Amisulpride"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dotarizine"
+                    },
+                    {
+                        "drugbank-id": "DB06458",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Remacemide"
+                    },
+                    {
+                        "drugbank-id": "DB06470",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clomethiazole"
+                    },
+                    {
+                        "drugbank-id": "DB06512",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Deramciclane"
+                    },
+                    {
+                        "drugbank-id": "DB06527",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tramiprosate"
+                    },
+                    {
+                        "drugbank-id": "DB06529",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ocinaplon"
+                    },
+                    {
+                        "drugbank-id": "DB06554",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Gaboxadol"
+                    },
+                    {
+                        "drugbank-id": "DB06579",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Adipiplon"
+                    },
+                    {
+                        "drugbank-id": "DB06582",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dextofisopam"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Agomelatine"
+                    },
+                    {
+                        "drugbank-id": "DB06660",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Saredutant"
+                    },
+                    {
+                        "drugbank-id": "DB06678",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Esmirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB06684",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vilazodone"
+                    },
+                    {
+                        "drugbank-id": "DB06690",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nitrous oxide"
+                    },
+                    {
+                        "drugbank-id": "DB06691",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mepyramine"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Desvenlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB06701",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dexmethylphenidate"
+                    },
+                    {
+                        "drugbank-id": "DB06716",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fospropofol"
+                    },
+                    {
+                        "drugbank-id": "DB06731",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Seproxetine"
+                    },
+                    {
+                        "drugbank-id": "DB06738",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ketobemidone"
+                    },
+                    {
+                        "drugbank-id": "DB06753",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Triclofos"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Benzyl alcohol"
+                    },
+                    {
+                        "drugbank-id": "DB06797",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mebutamate"
+                    },
+                    {
+                        "drugbank-id": "DB08059",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Wortmannin"
+                    },
+                    {
+                        "drugbank-id": "DB08329",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sulthiame"
+                    },
+                    {
+                        "drugbank-id": "DB08810",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cinitapride"
+                    },
+                    {
+                        "drugbank-id": "DB08811",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tofisopam"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08839",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Serotonin"
+                    },
+                    {
+                        "drugbank-id": "DB08861",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of DPDPE"
+                    },
+                    {
+                        "drugbank-id": "DB08872",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Gabapentin enacarbil"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Perampanel"
+                    },
+                    {
+                        "drugbank-id": "DB08892",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Arbaclofen Placarbil"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pomalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Levomilnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Perospirone"
+                    },
+                    {
+                        "drugbank-id": "DB08927",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Amperozide"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Indalpine"
+                    },
+                    {
+                        "drugbank-id": "DB08954",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ifenprodil"
+                    },
+                    {
+                        "drugbank-id": "DB08986",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Etifoxine"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dimetacrine"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09001",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Barbexaclone"
+                    },
+                    {
+                        "drugbank-id": "DB09011",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Beclamide"
+                    },
+                    {
+                        "drugbank-id": "DB09014",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Captodiame"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09017",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Brotizolam"
+                    },
+                    {
+                        "drugbank-id": "DB09021",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Benzoctamine"
+                    },
+                    {
+                        "drugbank-id": "DB09023",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Benactyzine"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cannabidiol"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vortioxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tasimelteon"
+                    },
+                    {
+                        "drugbank-id": "DB09072",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB09117",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Paraldehyde"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Stiripentol"
+                    },
+                    {
+                        "drugbank-id": "DB09119",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Eslicarbazepine acetate"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB09166",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Etizolam"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09174",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lofentanil"
+                    },
+                    {
+                        "drugbank-id": "DB09184",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Edivoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09185",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Viloxazine"
+                    },
+                    {
+                        "drugbank-id": "DB09186",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nisoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09187",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lortalamine"
+                    },
+                    {
+                        "drugbank-id": "DB09190",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Talopram"
+                    },
+                    {
+                        "drugbank-id": "DB09194",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Etoperidone"
+                    },
+                    {
+                        "drugbank-id": "DB09223",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Blonanserin"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zotepine"
+                    },
+                    {
+                        "drugbank-id": "DB09226",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Brilaroxazine"
+                    },
+                    {
+                        "drugbank-id": "DB09247",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Iproclozide"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB09290",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ramosetron"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxaprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB11130",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Opium"
+                    },
+                    {
+                        "drugbank-id": "DB11156",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pyrantel"
+                    },
+                    {
+                        "drugbank-id": "DB11371",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alfaxalone"
+                    },
+                    {
+                        "drugbank-id": "DB11376",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Azaperone"
+                    },
+                    {
+                        "drugbank-id": "DB11400",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Doramectin"
+                    },
+                    {
+                        "drugbank-id": "DB11428",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Medetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB11477",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Xylazine"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB11543",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Romifidine"
+                    },
+                    {
+                        "drugbank-id": "DB11549",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tiletamine"
+                    },
+                    {
+                        "drugbank-id": "DB11552",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tricaine"
+                    },
+                    {
+                        "drugbank-id": "DB11555",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zolazepam"
+                    },
+                    {
+                        "drugbank-id": "DB11556",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Detomidine"
+                    },
+                    {
+                        "drugbank-id": "DB11582",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thiocolchicoside"
+                    },
+                    {
+                        "drugbank-id": "DB11609",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Normethadone"
+                    },
+                    {
+                        "drugbank-id": "DB11664",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Psilocybin"
+                    },
+                    {
+                        "drugbank-id": "DB11675",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mosapride"
+                    },
+                    {
+                        "drugbank-id": "DB11686",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Iferanserin"
+                    },
+                    {
+                        "drugbank-id": "DB11699",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tropisetron"
+                    },
+                    {
+                        "drugbank-id": "DB11755",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tetrahydrocannabivarin"
+                    },
+                    {
+                        "drugbank-id": "DB11859",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Brexanolone"
+                    },
+                    {
+                        "drugbank-id": "DB11868",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Etiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB11889",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lanicemine"
+                    },
+                    {
+                        "drugbank-id": "DB11957",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Idalopirdine"
+                    },
+                    {
+                        "drugbank-id": "DB12071",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vabicaserin"
+                    },
+                    {
+                        "drugbank-id": "DB12105",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Imagabalin"
+                    },
+                    {
+                        "drugbank-id": "DB12110",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of m Chlorophenylpiperazine"
+                    },
+                    {
+                        "drugbank-id": "DB12111",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of MK 212"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vinpocetine"
+                    },
+                    {
+                        "drugbank-id": "DB12163",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sarpogrelate"
+                    },
+                    {
+                        "drugbank-id": "DB12177",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Eplivanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12184",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Gepirone"
+                    },
+                    {
+                        "drugbank-id": "DB12229",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cerlapirdine"
+                    },
+                    {
+                        "drugbank-id": "DB12273",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ecopipam"
+                    },
+                    {
+                        "drugbank-id": "DB12308",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Eltanolone"
+                    },
+                    {
+                        "drugbank-id": "DB12327",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Salvinorin A"
+                    },
+                    {
+                        "drugbank-id": "DB12338",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Carisbamate"
+                    },
+                    {
+                        "drugbank-id": "DB12361",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Piclozotan"
+                    },
+                    {
+                        "drugbank-id": "DB12395",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Esreboxetine"
+                    },
+                    {
+                        "drugbank-id": "DB12401",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bromperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12427",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Orvepitant"
+                    },
+                    {
+                        "drugbank-id": "DB12492",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Piritramide"
+                    },
+                    {
+                        "drugbank-id": "DB12518",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Raclopride"
+                    },
+                    {
+                        "drugbank-id": "DB12537",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Benzodiazepine"
+                    },
+                    {
+                        "drugbank-id": "DB12576",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of AZD 3043"
+                    },
+                    {
+                        "drugbank-id": "DB12590",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Indiplon"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB12725",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of TD 8954"
+                    },
+                    {
+                        "drugbank-id": "DB12833",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tandospirone"
+                    },
+                    {
+                        "drugbank-id": "DB12867",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Benperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12883",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Eltoprazine"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Opipramol"
+                    },
+                    {
+                        "drugbank-id": "DB12951",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pivagabine"
+                    },
+                    {
+                        "drugbank-id": "DB12958",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Prothipendyl"
+                    },
+                    {
+                        "drugbank-id": "DB12989",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Neosaxitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13014",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Hypericin"
+                    },
+                    {
+                        "drugbank-id": "DB13025",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tiapride"
+                    },
+                    {
+                        "drugbank-id": "DB13082",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nefiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB13099",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Valnoctamide"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Amitriptylinoxide"
+                    },
+                    {
+                        "drugbank-id": "DB13160",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alphaprodine"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13219",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Medifoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB13221",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Apronalide"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dibenzepin"
+                    },
+                    {
+                        "drugbank-id": "DB13233",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alaproclate"
+                    },
+                    {
+                        "drugbank-id": "DB13234",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Propanidid"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Quinupramine"
+                    },
+                    {
+                        "drugbank-id": "DB13253",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Proxibarbal"
+                    },
+                    {
+                        "drugbank-id": "DB13256",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clothiapine"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13295",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Atracurium"
+                    },
+                    {
+                        "drugbank-id": "DB13303",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Febarbamate"
+                    },
+                    {
+                        "drugbank-id": "DB13323",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Trichloroethylene"
+                    },
+                    {
+                        "drugbank-id": "DB13324",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tetrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB13331",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pyrithyldione"
+                    },
+                    {
+                        "drugbank-id": "DB13335",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pinazepam"
+                    },
+                    {
+                        "drugbank-id": "DB13352",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Deanol"
+                    },
+                    {
+                        "drugbank-id": "DB13354",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phenprobamate"
+                    },
+                    {
+                        "drugbank-id": "DB13357",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Styramate"
+                    },
+                    {
+                        "drugbank-id": "DB13362",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pheneturide"
+                    },
+                    {
+                        "drugbank-id": "DB13370",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bromisoval"
+                    },
+                    {
+                        "drugbank-id": "DB13377",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vinbarbital"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Melitracen"
+                    },
+                    {
+                        "drugbank-id": "DB13396",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Neocitrullamon"
+                    },
+                    {
+                        "drugbank-id": "DB13402",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Acetylglycinamide chloral hydrate"
+                    },
+                    {
+                        "drugbank-id": "DB13403",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxypertine"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lofepramine"
+                    },
+                    {
+                        "drugbank-id": "DB13414",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fenyramidol"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13437",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Medazepam"
+                    },
+                    {
+                        "drugbank-id": "DB13454",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nicomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB13455",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phenibut"
+                    },
+                    {
+                        "drugbank-id": "DB13457",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxaflozane"
+                    },
+                    {
+                        "drugbank-id": "DB13478",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Meptazinol"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Iprindole"
+                    },
+                    {
+                        "drugbank-id": "DB13505",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Emepronium"
+                    },
+                    {
+                        "drugbank-id": "DB13520",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Metergoline"
+                    },
+                    {
+                        "drugbank-id": "DB13522",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mebicar"
+                    },
+                    {
+                        "drugbank-id": "DB13523",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Veralipride"
+                    },
+                    {
+                        "drugbank-id": "DB13534",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Gedocarnil"
+                    },
+                    {
+                        "drugbank-id": "DB13541",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Iprazochrome"
+                    },
+                    {
+                        "drugbank-id": "DB13550",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bifemelane"
+                    },
+                    {
+                        "drugbank-id": "DB13552",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Trifluperidol"
+                    },
+                    {
+                        "drugbank-id": "DB13554",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Moperone"
+                    },
+                    {
+                        "drugbank-id": "DB13557",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thiopropazate"
+                    },
+                    {
+                        "drugbank-id": "DB13572",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Emylcamate"
+                    },
+                    {
+                        "drugbank-id": "DB13577",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Allobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Gallamine"
+                    },
+                    {
+                        "drugbank-id": "DB13588",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Naftidrofuryl"
+                    },
+                    {
+                        "drugbank-id": "DB13598",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Diethyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13601",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB13605",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phenoperidine"
+                    },
+                    {
+                        "drugbank-id": "DB13606",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Phenazocine"
+                    },
+                    {
+                        "drugbank-id": "DB13623",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fabomotizole"
+                    },
+                    {
+                        "drugbank-id": "DB13642",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pridinol"
+                    },
+                    {
+                        "drugbank-id": "DB13643",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Loprazolam"
+                    },
+                    {
+                        "drugbank-id": "DB13648",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Alcuronium"
+                    },
+                    {
+                        "drugbank-id": "DB13662",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Hexapropymate"
+                    },
+                    {
+                        "drugbank-id": "DB13665",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fluanisone"
+                    },
+                    {
+                        "drugbank-id": "DB13676",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mosapramine"
+                    },
+                    {
+                        "drugbank-id": "DB13687",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Niaprazine"
+                    },
+                    {
+                        "drugbank-id": "DB13690",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vinyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13733",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methylpentynol"
+                    },
+                    {
+                        "drugbank-id": "DB13737",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cyclobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB13745",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fazadinium bromide"
+                    },
+                    {
+                        "drugbank-id": "DB13754",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Mephenoxalone"
+                    },
+                    {
+                        "drugbank-id": "DB13770",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Vinylbital"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Imipramine oxide"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13787",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tilidine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13799",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ethadione"
+                    },
+                    {
+                        "drugbank-id": "DB13805",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Reposal"
+                    },
+                    {
+                        "drugbank-id": "DB13817",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Carbromal"
+                    },
+                    {
+                        "drugbank-id": "DB13837",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Doxefazepam"
+                    },
+                    {
+                        "drugbank-id": "DB13841",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Clopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB13872",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lormetazepam"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of 2 5 Dimethoxy 4 ethylthioamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB13948",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of N 2 hydroxybenzyl 2 5 dimethoxy 4 cyanophenylethylamine"
+                    },
+                    {
+                        "drugbank-id": "DB13984",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cyclopropane"
+                    },
+                    {
+                        "drugbank-id": "DB13993",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of MRK 409"
+                    },
+                    {
+                        "drugbank-id": "DB14010",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of 5 methoxy N N dimethyltryptamine"
+                    },
+                    {
+                        "drugbank-id": "DB14028",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Nordazepam"
+                    },
+                    {
+                        "drugbank-id": "DB14050",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cannabidivarin"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB14509",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lithium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB14575",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Eslicarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB14672",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Oxazepam acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14715",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Cinazepam"
+                    },
+                    {
+                        "drugbank-id": "DB14718",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pyrazolam"
+                    },
+                    {
+                        "drugbank-id": "DB14719",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Bentazepam"
+                    },
+                    {
+                        "drugbank-id": "DB14754",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Solriamfetol"
+                    },
+                    {
+                        "drugbank-id": "DB15203",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of JNJ 26489112"
+                    },
+                    {
+                        "drugbank-id": "DB15360",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Carfentanil C 11"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Lemborexant"
+                    },
+                    {
+                        "drugbank-id": "DB12404",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Remimazolam"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Epinastine"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Pregabalin"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Doxylamine"
+                    },
+                    {
+                        "drugbank-id": "DB00395",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Carisoprodol"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Eszopiclone"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Zolpidem"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Hydroxyzine"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Magnesium sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tizanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Buprenorphine"
+                    },
+                    {
+                        "drugbank-id": "DB00956",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Hydrocodone"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Azelastine"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Thalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB01235",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Levodopa"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Tapentadol"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Suvorexant"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Esketamine"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Brimonidine may increase the bradycardic activities of Digoxin"
+                    },
+                    {
+                        "drugbank-id": "DB00511",
+                        "description": "Brimonidine may increase the bradycardic activities of Acetyldigitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB01078",
+                        "description": "Brimonidine may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "Brimonidine may increase the bradycardic activities of Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "Brimonidine may increase the bradycardic activities of Digitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB12843",
+                        "description": "Brimonidine may increase the bradycardic activities of Oleandrin"
+                    },
+                    {
+                        "drugbank-id": "DB13240",
+                        "description": "Brimonidine may increase the bradycardic activities of Cymarin"
+                    },
+                    {
+                        "drugbank-id": "DB13307",
+                        "description": "Brimonidine may increase the bradycardic activities of Proscillaridin"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Brimonidine may increase the bradycardic activities of Metildigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13467",
+                        "description": "Brimonidine may increase the bradycardic activities of Lanatoside C"
+                    },
+                    {
+                        "drugbank-id": "DB13537",
+                        "description": "Brimonidine may increase the bradycardic activities of Gitoformate"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Brimonidine may increase the bradycardic activities of Acetyldigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13756",
+                        "description": "Brimonidine may increase the bradycardic activities of Peruvoside"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Amphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Linezolid"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Furazolidone"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Procaine"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Minaprine"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Selegiline"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Procarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Moclobemide"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Isocarboxazid"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Rasagiline"
+                    },
+                    {
+                        "drugbank-id": "DB04017",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Clorgiline"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Iproniazid"
+                    },
+                    {
+                        "drugbank-id": "DB04820",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Nialamide"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Safinamide"
+                    },
+                    {
+                        "drugbank-id": "DB08550",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with 7 8 Dichloro 1 2 3 4 tetrahydroisoquinoline"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB09243",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Hydracarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Pirlindole"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Toloxatone"
+                    },
+                    {
+                        "drugbank-id": "DB09246",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Benmoxin"
+                    },
+                    {
+                        "drugbank-id": "DB09248",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Mebanazine"
+                    },
+                    {
+                        "drugbank-id": "DB09249",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Octamoxin"
+                    },
+                    {
+                        "drugbank-id": "DB09250",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Pheniprazine"
+                    },
+                    {
+                        "drugbank-id": "DB09251",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Phenoxypropazine"
+                    },
+                    {
+                        "drugbank-id": "DB09252",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Pivhydrazine"
+                    },
+                    {
+                        "drugbank-id": "DB09253",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Safrazine"
+                    },
+                    {
+                        "drugbank-id": "DB09254",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Caroxazone"
+                    },
+                    {
+                        "drugbank-id": "DB13875",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Harmaline"
+                    },
+                    {
+                        "drugbank-id": "DB13876",
+                        "description": "The metabolism of Brimonidine can be decreased when combined with Brofaromine"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "The risk or severity of CNS depression can be increased when Brimonidine is combined with Cyclobenzaprine"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of sedation can be increased when Metoclopramide is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "The risk or severity of adverse effects can be increased when Brimonidine is combined with Lasmiditan"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "Brimonidine may increase the sympathomimetic activities of Formoterol"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The risk or severity of CNS depression can be increased when Brimonidine is combined with Tramadol"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of adverse effects can be increased when Brimonidine is combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of CNS depression can be increased when Brimonidine is combined with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Fluoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB14881",
+                        "description": "The risk or severity of hypotension sedation death somnolence and respiratory depression can be increased when Brimonidine is combined with Oliceridine"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The risk or severity of hypotension can be increased when Sildenafil is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00235",
+                        "description": "The risk or severity of hypotension can be increased when Milrinone is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The risk or severity of hypotension can be increased when Pentoxifylline is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The risk or severity of hypotension can be increased when Vardenafil is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "The risk or severity of hypotension can be increased when Ibudilast is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB06237",
+                        "description": "The risk or severity of hypotension can be increased when Avanafil is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB06267",
+                        "description": "The risk or severity of hypotension can be increased when Udenafil is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The risk or severity of hypotension can be increased when Doxofylline is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB11792",
+                        "description": "The risk or severity of hypotension can be increased when Mirodenafil is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Brimonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of hypotension can be increased when Dipyridamole is combined with Brimonidine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

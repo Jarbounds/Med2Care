@@ -1,0 +1,33 @@
+{
+    "medicine_id": "a3a1b60000c89cfe503d7952b9349e7d16a566a4",
+    "platform_id": "DB13848",
+    "metadata": {
+        "name": "Fluorodopa F18 8 33 mCi 1mL Injection",
+        "composition": "8 33 mCi 1mL Fluorodopa 18F",
+        "clinical_particulars": {
+            "therapeutic_indications": "Fluorodopa F 18 is indicated for use with positron emission tomography PET to visualize dopaminergic nerve terminals in the striatum for the evaluation of adult patients with suspected Parkinsonian syndromes PS L12849",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00190",
+                        "description": "The bioavailability of Fluorodopa 18F can be increased when combined with Carbidopa"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The bioavailability of Fluorodopa 18F can be increased when combined with Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB12783",
+                        "description": "The bioavailability of Fluorodopa 18F can be increased when combined with Benserazide"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

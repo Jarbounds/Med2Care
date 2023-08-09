@@ -1,0 +1,2805 @@
+{
+    "medicine_id": "a9a7b49a59dcaeea5687e2d2cc4abbeca1f7473b",
+    "platform_id": "DB00797",
+    "metadata": {
+        "name": "Priscoline hydrochloride 25 mg 1mL Injection solution",
+        "composition": "25 mg 1mL Tolazoline",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of pulmonary artery anomalies",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Tolazoline is a pulmonary vasodilator indicated used to decrease pulmonary vascular resistance PVR in persistent pulmonary hypertension of the newborn PPHN",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The risk or severity of orthostatic hypotension and syncope can be increased when Tolazoline is combined with Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB01235",
+                        "description": "The risk or severity of hypotension and orthostatic hypotension can be increased when Tolazoline is combined with Levodopa"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Tolazoline may increase the hypotensive activities of Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "Alfuzosin may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01143",
+                        "description": "Tolazoline may increase the hypotensive activities of Amifostine"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "Diazoxide may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00422",
+                        "description": "Methylphenidate may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06701",
+                        "description": "Dexmethylphenidate may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "Tolazoline may increase the hypotensive activities of Obinutuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "Pentoxifylline may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00073",
+                        "description": "Tolazoline may increase the hypotensive activities of Rituximab"
+                    },
+                    {
+                        "drugbank-id": "DB01392",
+                        "description": "Yohimbine may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB02032",
+                        "description": "Epicaptopril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "Siponimod may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "Valsartan may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "Ramipril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Reserpine may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "Torasemide may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00275",
+                        "description": "Olmesartan may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "Chlorthalidone may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "Nitroprusside may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00350",
+                        "description": "Minoxidil may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "Fosinopril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "Trandolapril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "Metolazone may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "Benazepril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "Enalapril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Mecamylamine may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "Losartan may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "Moexipril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "Furosemide may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "Eplerenone may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "Sufentanil may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "Lisinopril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00727",
+                        "description": "Nitroglycerin may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "Isoflurane may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "Perindopril may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "Candesartan cilexetil may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00212",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Remikiren"
+                    },
+                    {
+                        "drugbank-id": "DB00226",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Guanadrel"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00616",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Candoxatril"
+                    },
+                    {
+                        "drugbank-id": "DB00765",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Metyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB00785",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Cryptenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Fenoldopam"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Quinapril"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Omapatrilat"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Telmisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01089",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Deserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01170",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Guanethidine"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Rescinnamine"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Cilazapril"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Saprisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Spirapril"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Tienilic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Debrisoquine"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Ambrisentan"
+                    },
+                    {
+                        "drugbank-id": "DB06445",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Diethylnorspermine"
+                    },
+                    {
+                        "drugbank-id": "DB06762",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Pinacidil"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Temocapril"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Riociguat"
+                    },
+                    {
+                        "drugbank-id": "DB08932",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Macitentan"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB09026",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Aliskiren"
+                    },
+                    {
+                        "drugbank-id": "DB09363",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Rauwolfia serpentina root"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Enalaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Selexipag"
+                    },
+                    {
+                        "drugbank-id": "DB11720",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Angiotensin 1 7"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Imidapril"
+                    },
+                    {
+                        "drugbank-id": "DB12054",
+                        "description": "Tolazoline may decrease the antihypertensive activities of BQ 123"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Zofenopril"
+                    },
+                    {
+                        "drugbank-id": "DB13211",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Guanoxan"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Delapril"
+                    },
+                    {
+                        "drugbank-id": "DB13374",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Vincamine"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Linsidomine"
+                    },
+                    {
+                        "drugbank-id": "DB13410",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Guanoxabenz"
+                    },
+                    {
+                        "drugbank-id": "DB13429",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Tolonidine"
+                    },
+                    {
+                        "drugbank-id": "DB13435",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Endralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13452",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Cadralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13575",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Bietaserpine"
+                    },
+                    {
+                        "drugbank-id": "DB13604",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Guanazodine"
+                    },
+                    {
+                        "drugbank-id": "DB13631",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Methoserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB13779",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Guanoclor"
+                    },
+                    {
+                        "drugbank-id": "DB13801",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Muzolimine"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Benazeprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Ramiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Perindoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Quinaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "Propofol may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "Remifentanil may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "Halothane may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "Desflurane may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "Sevoflurane may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Clomipramine may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "Rotigotine may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "Acetylsalicylic acid may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB15685",
+                        "description": "Selpercatinib may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB15965",
+                        "description": "Naxitamab may decrease the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "Tolazoline may decrease the antihypertensive activities of Levamlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00035",
+                        "description": "The risk or severity of hypertension can be increased when Desmopressin is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of hypertension can be increased when Cyclosporine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00216",
+                        "description": "The risk or severity of hypertension can be increased when Eletriptan is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "The risk or severity of hypertension can be increased when Methysergide is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The risk or severity of hypertension can be increased when Cabergoline is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The risk or severity of hypertension can be increased when Atomoxetine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The risk or severity of hypertension can be increased when Zolmitriptan is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of hypertension can be increased when Protriptyline is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00353",
+                        "description": "The risk or severity of hypertension can be increased when Methylergometrine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of hypertension can be increased when Mirtazapine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00490",
+                        "description": "The risk or severity of hypertension can be increased when Buspirone is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00561",
+                        "description": "The risk or severity of hypertension can be increased when Doxapram is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of hypertension can be increased when Atropine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00589",
+                        "description": "The risk or severity of hypertension can be increased when Lisuride is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "The risk or severity of hypertension can be increased when Sumatriptan is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Alfentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Fentanyl"
+                    },
+                    {
+                        "drugbank-id": "DB00830",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Almotriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00952",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Naratriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00953",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Rizatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00988",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Dopamine"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Frovatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Methoxyflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01049",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Ergoloid mesylate"
+                    },
+                    {
+                        "drugbank-id": "DB01126",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Dutasteride"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01216",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Finasteride"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Solifenacin"
+                    },
+                    {
+                        "drugbank-id": "DB04581",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with 1 benzylimidazole"
+                    },
+                    {
+                        "drugbank-id": "DB04829",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Lysergic acid diethylamide"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Amineptine"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05562",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Naluzotan"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Cariprazine"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Mianserin"
+                    },
+                    {
+                        "drugbank-id": "DB06678",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Esmirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB06684",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Vilazodone"
+                    },
+                    {
+                        "drugbank-id": "DB06690",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Nitrous oxide"
+                    },
+                    {
+                        "drugbank-id": "DB06763",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Saralasin"
+                    },
+                    {
+                        "drugbank-id": "DB08810",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Cinitapride"
+                    },
+                    {
+                        "drugbank-id": "DB08841",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Tyramine"
+                    },
+                    {
+                        "drugbank-id": "DB08954",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Ifenprodil"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Dimetacrine"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Cannabidiol"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Vortioxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09205",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Moxisylyte"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Oxaprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Dihydroergocornine"
+                    },
+                    {
+                        "drugbank-id": "DB11481",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Atipamezole"
+                    },
+                    {
+                        "drugbank-id": "DB11755",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Tetrahydrocannabivarin"
+                    },
+                    {
+                        "drugbank-id": "DB12361",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Piclozotan"
+                    },
+                    {
+                        "drugbank-id": "DB12551",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Idazoxan"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Opipramol"
+                    },
+                    {
+                        "drugbank-id": "DB13064",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Tramazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Amitriptylinoxide"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Dibenzepin"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Quinupramine"
+                    },
+                    {
+                        "drugbank-id": "DB13323",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Trichloroethylene"
+                    },
+                    {
+                        "drugbank-id": "DB13341",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Fenozolone"
+                    },
+                    {
+                        "drugbank-id": "DB13345",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Dihydroergocristine"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Melitracen"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Dihydroergocryptine"
+                    },
+                    {
+                        "drugbank-id": "DB13399",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Terguride"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Lofepramine"
+                    },
+                    {
+                        "drugbank-id": "DB13453",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Xenon"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Iprindole"
+                    },
+                    {
+                        "drugbank-id": "DB13510",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Buflomedil"
+                    },
+                    {
+                        "drugbank-id": "DB13520",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Metergoline"
+                    },
+                    {
+                        "drugbank-id": "DB13598",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Diethyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Imipramine oxide"
+                    },
+                    {
+                        "drugbank-id": "DB13852",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Mefenorex"
+                    },
+                    {
+                        "drugbank-id": "DB14010",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with 5 methoxy N N dimethyltryptamine"
+                    },
+                    {
+                        "drugbank-id": "DB14231",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Quinoline Yellow WS"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "Dapoxetine may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "Tolazoline may increase the hypotensive activities of Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Nicorandil may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09282",
+                        "description": "Molsidomine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00287",
+                        "description": "Travoprost may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00521",
+                        "description": "Carteolol may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00869",
+                        "description": "Tolazoline may increase the hypotensive activities of Dorzolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00905",
+                        "description": "Tolazoline may increase the hypotensive activities of Bimatoprost"
+                    },
+                    {
+                        "drugbank-id": "DB01214",
+                        "description": "Tolazoline may increase the hypotensive activities of Metipranolol"
+                    },
+                    {
+                        "drugbank-id": "DB06826",
+                        "description": "Tolazoline may increase the hypotensive activities of Unoprostone"
+                    },
+                    {
+                        "drugbank-id": "DB00484",
+                        "description": "Brimonidine may increase the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "The therapeutic efficacy of Bethanidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00221",
+                        "description": "The therapeutic efficacy of Isoetharine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00292",
+                        "description": "The therapeutic efficacy of Etomidate can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00397",
+                        "description": "The therapeutic efficacy of Phenylpropanolamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The therapeutic efficacy of Guanabenz can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The therapeutic efficacy of Dexmedetomidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The therapeutic efficacy of Tizanidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00816",
+                        "description": "The therapeutic efficacy of Orciprenaline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00867",
+                        "description": "The therapeutic efficacy of Ritodrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The therapeutic efficacy of Terbutaline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00901",
+                        "description": "The therapeutic efficacy of Bitolterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The therapeutic efficacy of Salmeterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The therapeutic efficacy of Methyldopa can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The therapeutic efficacy of Formoterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The therapeutic efficacy of Salbutamol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "The therapeutic efficacy of Guanfacine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01064",
+                        "description": "The therapeutic efficacy of Isoprenaline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01102",
+                        "description": "The therapeutic efficacy of Arbutamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The therapeutic efficacy of Arformoterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01288",
+                        "description": "The therapeutic efficacy of Fenoterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01291",
+                        "description": "The therapeutic efficacy of Pirbuterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01363",
+                        "description": "The therapeutic efficacy of Ephedra sinica root can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01364",
+                        "description": "The therapeutic efficacy of Ephedrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01366",
+                        "description": "The therapeutic efficacy of Procaterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01407",
+                        "description": "The therapeutic efficacy of Clenbuterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01408",
+                        "description": "The therapeutic efficacy of Bambuterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01537",
+                        "description": "The therapeutic efficacy of 4 Bromo 2 5 dimethoxyphenethylamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The therapeutic efficacy of Lofexidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The therapeutic efficacy of Indacaterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB05395",
+                        "description": "The therapeutic efficacy of Amibegron can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06190",
+                        "description": "The therapeutic efficacy of Solabegron can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "The therapeutic efficacy of Xylometazoline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06711",
+                        "description": "The therapeutic efficacy of Naphazoline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06814",
+                        "description": "The therapeutic efficacy of Protokylol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The therapeutic efficacy of Mirabegron can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08925",
+                        "description": "The therapeutic efficacy of Adrafinil can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08941",
+                        "description": "The therapeutic efficacy of Isoxsuprine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08957",
+                        "description": "The therapeutic efficacy of Hexoprenaline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08985",
+                        "description": "The therapeutic efficacy of Etilefrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The therapeutic efficacy of Olodaterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The therapeutic efficacy of Vilanterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09203",
+                        "description": "The therapeutic efficacy of Synephrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09242",
+                        "description": "The therapeutic efficacy of Moxonidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The therapeutic efficacy of Doxofylline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11278",
+                        "description": "The therapeutic efficacy of DL Methylephedrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11373",
+                        "description": "The therapeutic efficacy of Amitraz can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11428",
+                        "description": "The therapeutic efficacy of Medetomidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11477",
+                        "description": "The therapeutic efficacy of Xylazine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11541",
+                        "description": "The therapeutic efficacy of Ractopamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11543",
+                        "description": "The therapeutic efficacy of Romifidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11556",
+                        "description": "The therapeutic efficacy of Detomidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11587",
+                        "description": "The therapeutic efficacy of Etafedrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11738",
+                        "description": "The therapeutic efficacy of Rilmenidine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11871",
+                        "description": "The therapeutic efficacy of PF 00610355 can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12100",
+                        "description": "The therapeutic efficacy of Abediterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12248",
+                        "description": "The therapeutic efficacy of Tulobuterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12313",
+                        "description": "The therapeutic efficacy of Dopexamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12526",
+                        "description": "The therapeutic efficacy of Batefenterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12779",
+                        "description": "The therapeutic efficacy of Higenamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12846",
+                        "description": "The therapeutic efficacy of Reproterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13139",
+                        "description": "The therapeutic efficacy of Levosalbutamol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13251",
+                        "description": "The therapeutic efficacy of Octopamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13378",
+                        "description": "The therapeutic efficacy of Norfenefrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13398",
+                        "description": "The therapeutic efficacy of Oxyfedrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13559",
+                        "description": "The therapeutic efficacy of Rimiterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13692",
+                        "description": "The therapeutic efficacy of Tretoquinol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13777",
+                        "description": "The therapeutic efficacy of Prenalterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13781",
+                        "description": "The therapeutic efficacy of Xamoterol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB14752",
+                        "description": "The therapeutic efficacy of Racephedrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB14547",
+                        "description": "The therapeutic efficacy of Chloride ion can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Esmolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "Betaxolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "Metoprolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "Atenolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Timolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "Sotalol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Propranolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "Bisoprolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Alprenolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Pindolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "Propafenone may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Acebutolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Nadolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Practolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Penbutolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Oxprenolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Dexpropranolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Celiprolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "Nebivolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "Bufuralol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "Bopindolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "Bupranolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "Indenolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "Arotinolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "Levobetaxolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "Talinolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "Anisodamine may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "Esatenolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "Cloranolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "Mepindolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Epanolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "Tertatolol may increase the orthostatic hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Tolazoline may increase the orthostatic hypotensive activities of Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "Treprostinil may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "Iloprost may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Epoprostenol may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "Quinine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB14337",
+                        "description": "Salvia miltiorrhiza root may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "Linezolid may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "Furazolidone may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "Procaine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "Tranylcypromine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "Phenelzine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "Minaprine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "Selegiline may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "Procarbazine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "Moclobemide may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "Isocarboxazid may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "Rasagiline may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Pargyline may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB04017",
+                        "description": "Clorgiline may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "Iproniazid may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB04820",
+                        "description": "Nialamide may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "Safinamide may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08550",
+                        "description": "7 8 Dichloro 1 2 3 4 tetrahydroisoquinoline may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Methylene blue may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09243",
+                        "description": "Hydracarbazine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "Pirlindole may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "Toloxatone may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09246",
+                        "description": "Benmoxin may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09248",
+                        "description": "Mebanazine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09249",
+                        "description": "Octamoxin may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09250",
+                        "description": "Pheniprazine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09251",
+                        "description": "Phenoxypropazine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09252",
+                        "description": "Pivhydrazine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09253",
+                        "description": "Safrazine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09254",
+                        "description": "Caroxazone may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13875",
+                        "description": "Harmaline may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13876",
+                        "description": "Brofaromine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "Butalbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "Pentobarbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "Secobarbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00474",
+                        "description": "Methohexital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "Thiopental may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "Primidone may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "Methylphenobarbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "Thiamylal may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "Phenobarbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "Amobarbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "Hexobarbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "Barbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09001",
+                        "description": "Barbexaclone may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00237",
+                        "description": "Butabarbital may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Sildenafil is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00235",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Milrinone is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Tadalafil is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Vardenafil is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Dipyridamole is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Ibudilast is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06237",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Avanafil is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06267",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Udenafil is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11792",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Mirodenafil is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The risk or severity of hypotension dyspepsia and headache can be increased when Fostamatinib is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Isradipine"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Trimethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Amlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Nimodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Nisoldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Lercanidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Lamotrigine"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Cinnarizine"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Ethosuximide"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Magnesium sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Nitrendipine"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Perhexiline"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Prenylamine"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Cyclandelate"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Flunarizine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Methsuximide"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Seletracetam"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Nylidrin"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Ziconotide"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Dotarizine"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Tranilast"
+                    },
+                    {
+                        "drugbank-id": "DB08162",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Fasudil"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Agmatine"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Fendiline"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Trimebutine"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Pinaverium"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Aranidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Azelnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Benidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Cilnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Darodipine"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Niludipine"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Carboxyamidotriazole"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Vinpocetine"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Gallopamil"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Bencyclane"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Lidoflazine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Caroverine"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with WIN 55212 2"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Fish oil"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Dexverapamil"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Emopamil"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Lomerizine"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Tetrandrine"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The risk or severity of hypotension can be increased when Tolazoline is combined with Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "The risk or severity of adverse effects can be increased when Aldesleukin is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of adverse effects can be increased when Streptokinase is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The risk or severity of adverse effects can be increased when Ropinirole is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The risk or severity of adverse effects can be increased when Morphine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The risk or severity of adverse effects can be increased when Ropivacaine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00297",
+                        "description": "The risk or severity of adverse effects can be increased when Bupivacaine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00323",
+                        "description": "The risk or severity of adverse effects can be increased when Tolcapone is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The risk or severity of adverse effects can be increased when Triamterene is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00413",
+                        "description": "The risk or severity of adverse effects can be increased when Pramipexole is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "The risk or severity of adverse effects can be increased when Spironolactone is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The risk or severity of adverse effects can be increased when Nitric Oxide is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The risk or severity of adverse effects can be increased when Nabilone is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00594",
+                        "description": "The risk or severity of adverse effects can be increased when Amiloride is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The risk or severity of adverse effects can be increased when Clofarabine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of adverse effects can be increased when Amphotericin B is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "The risk or severity of adverse effects can be increased when Methazolamide is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of adverse effects can be increased when Apomorphine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The risk or severity of adverse effects can be increased when Mannitol is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The risk or severity of adverse effects can be increased when Tretinoin is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The risk or severity of adverse effects can be increased when Conivaptan is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00883",
+                        "description": "The risk or severity of adverse effects can be increased when Isosorbide dinitrate is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of adverse effects can be increased when Bumetanide is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The risk or severity of adverse effects can be increased when Etacrynic acid is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of adverse effects can be increased when Levosimendan is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The risk or severity of adverse effects can be increased when Levobupivacaine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "The risk or severity of adverse effects can be increased when Thalidomide is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "The risk or severity of adverse effects can be increased when Diclofenamide is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of adverse effects can be increased when Arsenic trioxide is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The risk or severity of adverse effects can be increased when Paclitaxel is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01282",
+                        "description": "The risk or severity of adverse effects can be increased when Carbetocin is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01612",
+                        "description": "The risk or severity of adverse effects can be increased when Amyl Nitrite is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB04899",
+                        "description": "The risk or severity of adverse effects can be increased when Nesiritide is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The risk or severity of adverse effects can be increased when Dapagliflozin is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08822",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The risk or severity of adverse effects can be increased when Canagliflozin is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The risk or severity of adverse effects can be increased when Empagliflozin is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "The risk or severity of adverse effects can be increased when Dinutuximab is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09112",
+                        "description": "The risk or severity of adverse effects can be increased when Nitrous acid is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "The risk or severity of adverse effects can be increased when Fimasartan is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "The risk or severity of adverse effects can be increased when Pipamperone is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The risk or severity of adverse effects can be increased when Sacubitril is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00211",
+                        "description": "The therapeutic efficacy of Midodrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00368",
+                        "description": "The therapeutic efficacy of Norepinephrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "The therapeutic efficacy of Phenylephrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00610",
+                        "description": "The therapeutic efficacy of Metaraminol can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The therapeutic efficacy of Epinephrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00723",
+                        "description": "The therapeutic efficacy of Methoxamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00841",
+                        "description": "The therapeutic efficacy of Dobutamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00935",
+                        "description": "The therapeutic efficacy of Oxymetazoline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01186",
+                        "description": "The therapeutic efficacy of Pergolide can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01253",
+                        "description": "The therapeutic efficacy of Ergometrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01472",
+                        "description": "The therapeutic efficacy of 4 Methoxyamphetamine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01579",
+                        "description": "The therapeutic efficacy of Phendimetrazine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06262",
+                        "description": "The therapeutic efficacy of Droxidopa can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06706",
+                        "description": "The therapeutic efficacy of Isometheptene can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06764",
+                        "description": "The therapeutic efficacy of Tetryzoline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09202",
+                        "description": "The therapeutic efficacy of Cirazoline can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11124",
+                        "description": "The therapeutic efficacy of Racepinephrine can be decreased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "Dihydroergotamine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Amitriptyline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "Olanzapine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "Clozapine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "Promazine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "Droperidol may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Imipramine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "Chlorpromazine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Nortriptyline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Amoxapine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "Doxazosin may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "Labetalol may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "Nicardipine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "Trazodone may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "Verapamil may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "Thioridazine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00692",
+                        "description": "Phentolamine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "Ergotamine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00699",
+                        "description": "Nicergoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "Tamsulosin may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Trimipramine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00777",
+                        "description": "Propiomazine may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00925",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Phenoxybenzamine"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01162",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Terazosin"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB06153",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Pizotifen"
+                    },
+                    {
+                        "drugbank-id": "DB06207",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Silodosin"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB08950",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Indoramin"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB09206",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Trimazosin"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB12230",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Bunazosin"
+                    },
+                    {
+                        "drugbank-id": "DB12278",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Propiverine"
+                    },
+                    {
+                        "drugbank-id": "DB12661",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Urapidil"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "Tolazoline may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Bucindolol"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "Aripiprazole may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "Aripiprazole lauroxil may increase the orthostatic hypotensive hypotensive and antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00159",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Icosapent"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Mesalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Nabumetone"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Ketorolac"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Tenoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Celecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00500",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Tolmetin"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Rofecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00573",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Fenoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Valdecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00605",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Sulindac"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Flurbiprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Etodolac"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Mefenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Naproxen"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Sulfasalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Meloxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00821",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Carprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Diflunisal"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00939",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Meclofenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00991",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Oxaprozin"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Balsalazide"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Olsalazine"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Lumiracoxib"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Magnesium salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01399",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Salsalate"
+                    },
+                    {
+                        "drugbank-id": "DB01401",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Choline magnesium trisalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01419",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Antrafenine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Aminophenazone"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Antipyrine"
+                    },
+                    {
+                        "drugbank-id": "DB01600",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Tiaprofenic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB02224",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Taxifolin"
+                    },
+                    {
+                        "drugbank-id": "DB03585",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Oxyphenbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB04725",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Licofelone"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Nimesulide"
+                    },
+                    {
+                        "drugbank-id": "DB04812",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Benoxaprofen"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Metamizole"
+                    },
+                    {
+                        "drugbank-id": "DB04828",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Zomepirac"
+                    },
+                    {
+                        "drugbank-id": "DB05095",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Cimicoxib"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Lornoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB06736",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Aceclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Zaltoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB07402",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Azapropazone"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Parecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB08797",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Salicylamide"
+                    },
+                    {
+                        "drugbank-id": "DB08940",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Kebuzone"
+                    },
+                    {
+                        "drugbank-id": "DB08942",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Isoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB08951",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Indoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB08955",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Ibuproxam"
+                    },
+                    {
+                        "drugbank-id": "DB08976",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Floctafenine"
+                    },
+                    {
+                        "drugbank-id": "DB08981",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Fenbufen"
+                    },
+                    {
+                        "drugbank-id": "DB08984",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Etofenamate"
+                    },
+                    {
+                        "drugbank-id": "DB08991",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Epirizole"
+                    },
+                    {
+                        "drugbank-id": "DB09084",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Benzydamine"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Dexibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09214",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Dexketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09215",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Droxicam"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Tolfenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09217",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Firocoxib"
+                    },
+                    {
+                        "drugbank-id": "DB09218",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Clonixin"
+                    },
+                    {
+                        "drugbank-id": "DB09285",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Morniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Propacetamol"
+                    },
+                    {
+                        "drugbank-id": "DB09295",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Talniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB11455",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Robenacoxib"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Tepoxalin"
+                    },
+                    {
+                        "drugbank-id": "DB11518",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Flunixin"
+                    },
+                    {
+                        "drugbank-id": "DB12399",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Polmacoxib"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Nitroaspirin"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Indobufen"
+                    },
+                    {
+                        "drugbank-id": "DB12610",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Ebselen"
+                    },
+                    {
+                        "drugbank-id": "DB13001",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Tinoridine"
+                    },
+                    {
+                        "drugbank-id": "DB13167",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Alclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB13217",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Fentiazac"
+                    },
+                    {
+                        "drugbank-id": "DB13232",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Suxibuzone"
+                    },
+                    {
+                        "drugbank-id": "DB13286",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Bumadizone"
+                    },
+                    {
+                        "drugbank-id": "DB13314",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Alminoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13371",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Difenpiramide"
+                    },
+                    {
+                        "drugbank-id": "DB13407",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Nifenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13432",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Lonazolac"
+                    },
+                    {
+                        "drugbank-id": "DB13481",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Tenidap"
+                    },
+                    {
+                        "drugbank-id": "DB13524",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Propyphenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13527",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Proglumetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Guacetisal"
+                    },
+                    {
+                        "drugbank-id": "DB13544",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Ethenzamide"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Carbaspirin calcium"
+                    },
+                    {
+                        "drugbank-id": "DB13629",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Mofebutazone"
+                    },
+                    {
+                        "drugbank-id": "DB13649",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Proquazone"
+                    },
+                    {
+                        "drugbank-id": "DB13657",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Benorilate"
+                    },
+                    {
+                        "drugbank-id": "DB13722",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Pirprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Acemetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13860",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Imidazole salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB14059",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with SC 236"
+                    },
+                    {
+                        "drugbank-id": "DB14060",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with NS 398"
+                    },
+                    {
+                        "drugbank-id": "DB14938",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Flurbiprofen axetil"
+                    },
+                    {
+                        "drugbank-id": "DB09212",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Loxoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Tolazoline may increase the hypotensive activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Ethanol may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "Tolazoline may increase the antihypertensive activities of Barnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "The risk or severity of adverse effects can be increased when Baclofen is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06707",
+                        "description": "Tolazoline may decrease the hypertensive activities of Levonordefrin"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "Tolazoline may decrease the hypertensive activities of Theodrenaline"
+                    },
+                    {
+                        "drugbank-id": "DB13917",
+                        "description": "Tolazoline may decrease the hypertensive activities of Deoxyepinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Amphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Phentermine"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Pseudoephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Benzphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Diethylpropion"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Lisdexamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01365",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Mephentermine"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with MMDA"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Midomafetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01467",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with 2 5 Dimethoxy 4 ethylamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with 4 Bromo 2 5 dimethoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Tenamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01556",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Chlorphentermine"
+                    },
+                    {
+                        "drugbank-id": "DB01566",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Methylenedioxyethamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Dextroamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Metamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB09480",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Iofetamine I 123"
+                    },
+                    {
+                        "drugbank-id": "DB12080",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Ritobegron"
+                    },
+                    {
+                        "drugbank-id": "DB13108",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Mephedrone"
+                    },
+                    {
+                        "drugbank-id": "DB13624",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Methoxyphenamine"
+                    },
+                    {
+                        "drugbank-id": "DB13703",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with Gepefrine"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "The therapeutic efficacy of Tolazoline can be decreased when used in combination with 2 5 Dimethoxy 4 ethylthioamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00190",
+                        "description": "The risk or severity of hypotension can be increased when Carbidopa is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "The risk or severity of hypertension can be increased when Esketamine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB14754",
+                        "description": "The risk or severity of hypertension can be increased when Solriamfetol is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "The risk or severity of hypotension can be increased when Prazosin is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "Testosterone undecanoate may increase the hypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The risk or severity of hypotension can be increased when Clonidine is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "Tolazoline may increase the hypotensive activities of Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Isosorbide mononitrate may increase the vasodilatory activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "Ziprasidone may increase the antihypertensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The therapeutic efficacy of Tolazoline can be increased when used in combination with Methyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The therapeutic efficacy of Tolazoline can be increased when used in combination with Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The therapeutic efficacy of Tolazoline can be increased when used in combination with Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The therapeutic efficacy of Cyclothiazide can be increased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The therapeutic efficacy of Chlorothiazide can be increased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The therapeutic efficacy of Hydrochlorothiazide can be increased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The therapeutic efficacy of Trichlormethiazide can be increased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The therapeutic efficacy of Polythiazide can be increased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The therapeutic efficacy of Cyclopenthiazide can be increased when used in combination with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The therapeutic efficacy of Tolazoline can be increased when used in combination with Benzthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "The therapeutic efficacy of Tolazoline can be increased when used in combination with Mebutizide"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The therapeutic efficacy of Indapamide can be increased when used in combination with Tolazoline"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

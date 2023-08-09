@@ -1,0 +1,29 @@
+{
+    "medicine_id": "2cebc4a4ce40b69c44a04cad97eae4a76d86dd3c",
+    "platform_id": "DB06379",
+    "metadata": {
+        "name": "Arcalyst 160 mg 2mL Injection powder lyophilized for solution",
+        "composition": "160 mg 2mL Calcitonin gene related peptide",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in myocardial infarction heart disease and asthma",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Calcitonin gene related peptide can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Calcitonin gene related peptide may increase the vasodilatory activities of Isosorbide mononitrate"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

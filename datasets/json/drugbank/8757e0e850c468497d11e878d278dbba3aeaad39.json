@@ -1,0 +1,29 @@
+{
+    "medicine_id": "8757e0e850c468497d11e878d278dbba3aeaad39",
+    "platform_id": "DB04978",
+    "metadata": {
+        "name": "Potiga 50 mg 1 Tablet film coated",
+        "composition": "50 mg 1 SP1049C",
+        "clinical_particulars": {
+            "therapeutic_indications": "Intended for the treatment of carcinoma of the oesophagus",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00072",
+                        "description": "The risk or severity of cardiotoxicity can be increased when Trastuzumab is combined with SP1049C"
+                    },
+                    {
+                        "drugbank-id": "DB14967",
+                        "description": "The risk or severity of cardiotoxicity can be increased when Margetuximab is combined with SP1049C"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

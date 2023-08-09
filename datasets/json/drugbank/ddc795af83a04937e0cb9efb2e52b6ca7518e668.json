@@ -1,0 +1,2581 @@
+{
+    "medicine_id": "ddc795af83a04937e0cb9efb2e52b6ca7518e668",
+    "platform_id": "DB00250",
+    "metadata": {
+        "name": "011503 Dapsone 6 Niacinamide 2 Spironolactone 5 5 Gel",
+        "composition": "5 Dapsone",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment and management of leprosy and dermatitis herpetiformis",
+            "contraindications": {
+                "disease": "Overdosage might be expected to produce nasal congestion syncope or hallucinations Measures to support blood pressure should be taken if necessary",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Dapsone is a sulfone with anti inflammatory immunosuppressive properties as well as antibacterial and antibiotic properties Dapsone is the principal drug in a multidrug regimen recommended by the World Health Organization for the treatment of leprosy As an anti infective agent it is also used for treating malaria and recently for Pneumocystic carinii pneumonia in AIDS patients Dapsone is absorbed rapidly and nearly completely from the gastrointestinal tract Dapsone is distributed throughout total body water and is present in all tissues However it tends to be retained in skin and muscle and especially in the liver and kidney traces of the drug are present in these organs up to 3 weeks after therapy cessation",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Artemether"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "Probenecid may decrease the excretion rate of Dapsone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The serum concentration of Dapsone can be increased when it is combined with Trimethoprim"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The serum concentration of Dapsone can be increased when it is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00116",
+                        "description": "The therapeutic efficacy of Dapsone can be decreased when used in combination with Tetrahydrofolic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00158",
+                        "description": "The therapeutic efficacy of Dapsone can be decreased when used in combination with Folic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00650",
+                        "description": "The therapeutic efficacy of Dapsone can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB02031",
+                        "description": "The therapeutic efficacy of Dapsone can be decreased when used in combination with 6S 5 6 7 8 tetrahydrofolic acid"
+                    },
+                    {
+                        "drugbank-id": "DB02067",
+                        "description": "The therapeutic efficacy of Dapsone can be decreased when used in combination with Triglu 5 formyl tetrahydrofolate"
+                    },
+                    {
+                        "drugbank-id": "DB11596",
+                        "description": "The therapeutic efficacy of Dapsone can be decreased when used in combination with Levoleucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB04789",
+                        "description": "The therapeutic efficacy of Dapsone can be decreased when used in combination with 5 methyltetrahydrofolic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Thiethylperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Triflupromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Fluphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Acetophenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with BL 1020"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB00205",
+                        "description": "The risk or severity of adverse effects can be increased when Pyrimethamine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of adverse effects can be increased when Mefloquine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The risk or severity of adverse effects can be increased when Amodiaquine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The risk or severity of adverse effects can be increased when Quinidine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01103",
+                        "description": "The risk or severity of adverse effects can be increased when Quinacrine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01117",
+                        "description": "The risk or severity of adverse effects can be increased when Atovaquone is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01131",
+                        "description": "The risk or severity of adverse effects can be increased when Proguanil is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The risk or severity of adverse effects can be increased when Halofantrine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01299",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfadoxine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of adverse effects can be increased when Hydroxychloroquine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06608",
+                        "description": "The risk or severity of adverse effects can be increased when Tafenoquine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09274",
+                        "description": "The risk or severity of adverse effects can be increased when Artesunate is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11638",
+                        "description": "The risk or severity of adverse effects can be increased when Artenimol is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11809",
+                        "description": "The risk or severity of adverse effects can be increased when Artefenomel is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12314",
+                        "description": "The risk or severity of adverse effects can be increased when Chlorproguanil is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12617",
+                        "description": "The risk or severity of adverse effects can be increased when Mizoribine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12975",
+                        "description": "The risk or severity of adverse effects can be increased when Pyronaridine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13132",
+                        "description": "The risk or severity of adverse effects can be increased when Artemisinin is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13851",
+                        "description": "The risk or severity of adverse effects can be increased when Artemotil is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13941",
+                        "description": "The risk or severity of adverse effects can be increased when Piperaquine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The risk or severity of adverse effects can be increased when Tetrandrine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14763",
+                        "description": "The risk or severity of adverse effects can be increased when Cycloguanil is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Butalbital"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Lidocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Acetaminophen"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Nitroprusside"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Sulfadiazine"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Nitric Oxide"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Celecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Flutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Chloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB00698",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Nitrofurantoin"
+                    },
+                    {
+                        "drugbank-id": "DB00727",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Nitroglycerin"
+                    },
+                    {
+                        "drugbank-id": "DB00750",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Prilocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00883",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Isosorbide dinitrate"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Isosorbide mononitrate"
+                    },
+                    {
+                        "drugbank-id": "DB01086",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Benzocaine"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Primaquine"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Zopiclone"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Antipyrine"
+                    },
+                    {
+                        "drugbank-id": "DB01438",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Phenazopyridine"
+                    },
+                    {
+                        "drugbank-id": "DB01612",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Amyl Nitrite"
+                    },
+                    {
+                        "drugbank-id": "DB06706",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Isometheptene"
+                    },
+                    {
+                        "drugbank-id": "DB06795",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Mafenide"
+                    },
+                    {
+                        "drugbank-id": "DB06690",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Nitrous oxide"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Cyclophosphamide"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Ifosfamide"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Sulfasalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00259",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Sulfanilamide"
+                    },
+                    {
+                        "drugbank-id": "DB00891",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Sulfapyridine"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The risk or severity of methemoglobinemia can be increased when Dapsone is combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09096",
+                        "description": "The risk or severity of adverse effects can be increased when Benzoyl peroxide is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Nabilone"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sulfinpyrazone"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Iproniazid"
+                    },
+                    {
+                        "drugbank-id": "DB05812",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Abiraterone"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Medical Cannabis"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Fluvoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00322",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Floxuridine"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB01110",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Miconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB06729",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sulfaphenazole"
+                    },
+                    {
+                        "drugbank-id": "DB00705",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Delavirdine"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "The metabolism of Dapsone can be increased when combined with Secobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Bexarotene"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Spironolactone"
+                    },
+                    {
+                        "drugbank-id": "DB00455",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Loratadine"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Oxybutynin"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Rabeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Pioglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Genistein"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Topiroxostat"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Levothyroxine"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Zafirlukast"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Clopidogrel"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Candesartan cilexetil"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB08911",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Trametinib"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Mometasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The metabolism of Felodipine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vemurafenib is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Dapsone can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Dapsone can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Dapsone is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB08873",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Boceprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB13179",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Troleandomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Voriconazole"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "The metabolism of Cannabidiol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14011",
+                        "description": "The metabolism of Nabiximols can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Chloramphenicol"
+                    },
+                    {
+                        "drugbank-id": "DB00673",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Aprepitant"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB02520",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ditiocarb"
+                    },
+                    {
+                        "drugbank-id": "DB14635",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Curcumin sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB11703",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Acalabrutinib"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB11837",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Osilodrostat"
+                    },
+                    {
+                        "drugbank-id": "DB11737",
+                        "description": "The metabolism of Dapsone can be increased when combined with Icotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00745",
+                        "description": "The metabolism of Dapsone can be increased when combined with Modafinil"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Dapsone can be increased when combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The metabolism of Dapsone can be increased when combined with Budesonide"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The metabolism of Dapsone can be increased when combined with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB06413",
+                        "description": "The metabolism of Dapsone can be increased when combined with Armodafinil"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The metabolism of Dapsone can be increased when combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The metabolism of Dapsone can be increased when combined with Beclomethasone dipropionate"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "The metabolism of Dapsone can be increased when combined with Daunorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "The metabolism of Dapsone can be increased when combined with Thalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB00776",
+                        "description": "The metabolism of Dapsone can be increased when combined with Oxcarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The metabolism of Dapsone can be increased when combined with Triamcinolone"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The metabolism of Dapsone can be increased when combined with Cortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The metabolism of Dapsone can be increased when combined with Paramethasone"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Dapsone can be increased when combined with Midostaurin"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The metabolism of Dapsone can be increased when combined with Fluprednidene"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The metabolism of Dapsone can be increased when combined with Meprednisone"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The metabolism of Dapsone can be increased when combined with Dexamethasone isonicotinate"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The metabolism of Dapsone can be increased when combined with Deflazacort"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The metabolism of Dapsone can be increased when combined with Cortivazol"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The metabolism of Dapsone can be increased when combined with Prednylidene"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The metabolism of Dapsone can be increased when combined with Cloprednol"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The metabolism of Dapsone can be increased when combined with Prednisolone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The metabolism of Dapsone can be increased when combined with Prednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The metabolism of Dapsone can be increased when combined with Methylprednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The metabolism of Dapsone can be increased when combined with Prednisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The metabolism of Dapsone can be increased when combined with Clocortolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The metabolism of Dapsone can be increased when combined with Melengestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The metabolism of Dapsone can be increased when combined with Betamethasone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The metabolism of Dapsone can be increased when combined with Cortisone"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The metabolism of Dapsone can be increased when combined with Clobetasol propionate"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The metabolism of Dapsone can be increased when combined with Fluocinonide"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The metabolism of Dapsone can be increased when combined with Mometasone"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The metabolism of Dapsone can be increased when combined with Fluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The metabolism of Dapsone can be increased when combined with Clobetasol"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The metabolism of Dapsone can be increased when combined with Difluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The metabolism of Pentamidine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01126",
+                        "description": "The metabolism of Dutasteride can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "The metabolism of Azimilide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The metabolism of Nisoldipine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "The metabolism of Alprazolam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00490",
+                        "description": "The metabolism of Buspirone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00497",
+                        "description": "The metabolism of Oxycodone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "The metabolism of Dextromethorphan can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The metabolism of Lercanidipine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The metabolism of Propranolol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The metabolism of Testosterone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The metabolism of Trazodone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "The metabolism of Midazolam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "The metabolism of Eplerenone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The metabolism of Amprenavir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The metabolism of Norethisterone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The metabolism of Nateglinide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The metabolism of Risperidone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The metabolism of Irinotecan can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "The metabolism of Tadalafil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The metabolism of Disulfiram can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "The metabolism of Diazepam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The metabolism of Vardenafil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00897",
+                        "description": "The metabolism of Triazolam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The metabolism of Ondansetron can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The metabolism of Zonisamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00962",
+                        "description": "The metabolism of Zaleplon can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The metabolism of Nitrendipine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01058",
+                        "description": "The metabolism of Praziquantel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The metabolism of Chlorpheniramine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Cilostazol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01216",
+                        "description": "The metabolism of Finasteride can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The metabolism of Quetiapine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The metabolism of Aripiprazole can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The metabolism of Paliperidone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The metabolism of Iloperidone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The metabolism of Telaprevir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The metabolism of Romidepsin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The metabolism of Rivaroxaban can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06267",
+                        "description": "The metabolism of Udenafil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The metabolism of Saxagliptin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The metabolism of Ambrisentan can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06419",
+                        "description": "The metabolism of Cethromycin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06652",
+                        "description": "The metabolism of Vicriviroc can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The metabolism of Hydroxyprogesterone caproate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The metabolism of Ivacaftor can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Perampanel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The metabolism of Ibrutinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The metabolism of Daclatasvir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The metabolism of Benidipine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The metabolism of Paritaprevir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The metabolism of Asunaprevir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11712",
+                        "description": "The metabolism of Tezacaftor can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11915",
+                        "description": "The metabolism of Valbenazine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The metabolism of Deutetrabenazine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12301",
+                        "description": "The metabolism of Doravirine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The metabolism of Aripiprazole lauroxil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14541",
+                        "description": "The metabolism of Hydrocortisone cypionate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The metabolism of Elexacaftor can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The metabolism of Rosuvastatin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "The metabolism of Levamlodipine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The metabolism of Lemborexant can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The metabolism of Hydroxyzine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "The metabolism of Clindamycin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "The metabolism of Alfentanil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The metabolism of Fentanyl can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The metabolism of Estrone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The metabolism of Cyclosporine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Carbamazepine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The metabolism of Tacrolimus can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The metabolism of Sirolimus can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The metabolism of Temsirolimus can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ponatinib"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Teniposide"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The metabolism of Vincristine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The metabolism of Astemizole can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Etoposide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The metabolism of Docetaxel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The metabolism of Sunitinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The metabolism of Trastuzumab emtansine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The metabolism of Olaparib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The metabolism of Copanlisib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Tegaserod"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Triclabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00471",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Montelukast"
+                    },
+                    {
+                        "drugbank-id": "DB00481",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Raloxifene"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00665",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Nilutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Metronidazole"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Bezafibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Liotrix"
+                    },
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB01698",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Rutin"
+                    },
+                    {
+                        "drugbank-id": "DB04216",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Quercetin"
+                    },
+                    {
+                        "drugbank-id": "DB04725",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Licofelone"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Bosutinib"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB08828",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Vismodegib"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11632",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Opicapone"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Letermovir"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Mefenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Terfenadine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The metabolism of Simvastatin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Nifedipine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Losartan"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Colchicine"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The metabolism of Dapsone can be increased when combined with Avatrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00615",
+                        "description": "The metabolism of Dapsone can be increased when combined with Rifabutin"
+                    },
+                    {
+                        "drugbank-id": "DB01201",
+                        "description": "The metabolism of Dapsone can be increased when combined with Rifapentine"
+                    },
+                    {
+                        "drugbank-id": "DB00400",
+                        "description": "The metabolism of Dapsone can be increased when combined with Griseofulvin"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The metabolism of Dapsone can be increased when combined with Hydrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The metabolism of Dapsone can be increased when combined with Hydrocortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The metabolism of Dapsone can be increased when combined with Hydrocortisone succinate"
+                    },
+                    {
+                        "drugbank-id": "DB01220",
+                        "description": "The metabolism of Dapsone can be increased when combined with Rifaximin"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The metabolism of Dapsone can be increased when combined with Betamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The metabolism of Hydrocortisone butyrate can be increased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14542",
+                        "description": "The metabolism of Hydrocortisone phosphate can be increased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The metabolism of Trimethadione can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The metabolism of Apixaban can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The metabolism of Vortioxetine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Buprenorphine"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Azelastine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Aminophenazone"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Nicotine"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The metabolism of Morphine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The metabolism of Eszopiclone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The metabolism of Zidovudine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The metabolism of Diclofenac can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00617",
+                        "description": "The metabolism of Paramethadione can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The metabolism of Mycophenolate mofetil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The metabolism of Tretinoin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Naproxen can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00799",
+                        "description": "The metabolism of Tazarotene can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Propofol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The metabolism of Repaglinide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The metabolism of Almotriptan can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Selegiline can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The metabolism of Ibuprofen can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The metabolism of Tolbutamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Domperidone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The metabolism of Sitagliptin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The metabolism of Mestranol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "The metabolism of Beraprost can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06510",
+                        "description": "The metabolism of Muraglitazar can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06670",
+                        "description": "The metabolism of Odanacatib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06738",
+                        "description": "The metabolism of Ketobemidone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Benzyl alcohol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The metabolism of Pitavastatin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The metabolism of Levomilnacipran can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "The metabolism of Perospirone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "The metabolism of Riociguat can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The metabolism of Olodaterol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The metabolism of Dasabuvir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The metabolism of Netoglitazone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The metabolism of Rivoglitazone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The metabolism of Ciglitazone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The metabolism of Ombitasvir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The metabolism of Selexipag can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "The metabolism of Velpatasvir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The metabolism of Glasdegib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The metabolism of Elagolix can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The metabolism of Balaglitazone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01217",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Anastrozole"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The metabolism of Atorvastatin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Mephenytoin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12130",
+                        "description": "The metabolism of Lorlatinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Istradefylline can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The metabolism of Dexibuprofen can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Propacetamol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08502",
+                        "description": "The metabolism of Capravirine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The metabolism of Ketorolac can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The metabolism of Methadone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The metabolism of Testosterone cypionate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The metabolism of Testosterone enanthate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The metabolism of Testosterone undecanoate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Estradiol acetate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Estradiol dienanthate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The metabolism of Omeprazole can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Terbinafine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The metabolism of Ketamine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06739",
+                        "description": "The metabolism of Seratrodast can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The metabolism of Loperamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Amitriptyline can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12612",
+                        "description": "The metabolism of Ozanimod can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The metabolism of Selumetinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The metabolism of Apomorphine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Erlotinib"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The metabolism of Fluorouracil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Pazopanib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Tegafur can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Brigatinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Gestodene"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB06412",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Oxymetholone"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Elbasvir"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The metabolism of Dapsone can be increased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB05804",
+                        "description": "The metabolism of Prasterone sulfate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The metabolism of Imipramine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The metabolism of Levacetylmethadol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The metabolism of Enzalutamide can be increased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The metabolism of Dapsone can be increased when combined with Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00022",
+                        "description": "The metabolism of Dapsone can be increased when combined with Peginterferon alfa 2b"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The metabolism of Dapsone can be increased when combined with Delafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB01128",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Bicalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00323",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Tolcapone"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Cisplatin"
+                    },
+                    {
+                        "drugbank-id": "DB00576",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sulfamethizole"
+                    },
+                    {
+                        "drugbank-id": "DB00621",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Oxandrolone"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Epinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Glyburide"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Fenofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Leflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sertraline"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Cyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Flecainide"
+                    },
+                    {
+                        "drugbank-id": "DB01381",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ginkgo biloba"
+                    },
+                    {
+                        "drugbank-id": "DB01411",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Pranlukast"
+                    },
+                    {
+                        "drugbank-id": "DB03756",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Doconexent"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Estrone sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB06150",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sulfadimethoxine"
+                    },
+                    {
+                        "drugbank-id": "DB06174",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Noscapine"
+                    },
+                    {
+                        "drugbank-id": "DB06442",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Avasimibe"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Agomelatine"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Safinamide"
+                    },
+                    {
+                        "drugbank-id": "DB06731",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Seproxetine"
+                    },
+                    {
+                        "drugbank-id": "DB08798",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sulfamoxole"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB11994",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Diacerein"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB13975",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Black cohosh"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB12319",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Benzbromarone"
+                    },
+                    {
+                        "drugbank-id": "DB04856",
+                        "description": "The metabolism of Dexloxiglumide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Tienilic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00238",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Nevirapine"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "The metabolism of Gefitinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The metabolism of Progesterone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The metabolism of Fluoxetine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Cisapride can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Methimazole"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Isoniazid"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06414",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Etravirine"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Stiripentol"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Atazanavir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13174",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14033",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Acetyl sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ticlopidine"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Valdecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB04911",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Oritavancin"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Ticagrelor"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Glimepiride"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The metabolism of Treprostinil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The metabolism of Acetohexamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The metabolism of Nabumetone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The metabolism of Tenoxicam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The metabolism of Chlorpropamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The metabolism of Flurbiprofen can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The metabolism of Etodolac can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The metabolism of Tolazamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The metabolism of Salicylic acid can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The metabolism of Acetylsalicylic acid can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The metabolism of Formoterol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The metabolism of Melatonin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The metabolism of Diphenhydramine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01177",
+                        "description": "The metabolism of Idarubicin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The metabolism of Gliquidone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The metabolism of Arformoterol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The metabolism of Lumiracoxib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The metabolism of Glisoxepide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB04557",
+                        "description": "The metabolism of Arachidonic Acid can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "The metabolism of Ximelagatran can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "The metabolism of Tapentadol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "The metabolism of Prasugrel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "The metabolism of Lornoxicam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The metabolism of Zaltoprofen can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06803",
+                        "description": "The metabolism of Niclosamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The metabolism of Glibornuride can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11560",
+                        "description": "The metabolism of Lesinurad can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The metabolism of Carbutamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The metabolism of Metahexamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00327",
+                        "description": "The metabolism of Hydromorphone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The metabolism of Indomethacin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The metabolism of Glipizide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The metabolism of Gliclazide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "The metabolism of Moclobemide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "The metabolism of Hexobarbital can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00216",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Eletriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The metabolism of Venlafaxine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The metabolism of Desogestrel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The metabolism of Clozapine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Zolpidem can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00470",
+                        "description": "The metabolism of Dronabinol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Rofecoxib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The metabolism of Cinnarizine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The metabolism of Doxazosin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00744",
+                        "description": "The metabolism of Zileuton can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Primidone can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "The metabolism of Donepezil can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "The metabolism of Alosetron can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "The metabolism of Ramelteon can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The metabolism of Methoxyflurane can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The metabolism of Tolterodine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The metabolism of Carvedilol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "The metabolism of Thiamylal can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "The metabolism of Halothane can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01544",
+                        "description": "The metabolism of Flunitrazepam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01589",
+                        "description": "The metabolism of Quazepam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The metabolism of Phenacetin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Flunarizine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB04938",
+                        "description": "The metabolism of Ospemifene can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB05541",
+                        "description": "The metabolism of Brivaracetam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The metabolism of Lacosamide can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The metabolism of Dapagliflozin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "The metabolism of Indisulam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The metabolism of Tranilast can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The metabolism of Netupitant can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The metabolism of Rupatadine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "The metabolism of Esketamine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The metabolism of Lynestrenol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14975",
+                        "description": "The metabolism of Voxelotor can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01156",
+                        "description": "The metabolism of Bupropion can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "The metabolism of Parecoxib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB15233",
+                        "description": "The metabolism of Avapritinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "The metabolism of Meloxicam can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The metabolism of Doxepin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Bortezomib"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Norgestimate can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Capecitabine"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The metabolism of Dicoumarol can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The metabolism of Trimipramine can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Fosphenytoin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The metabolism of Trabectedin can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08875",
+                        "description": "The metabolism of Cabozantinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Dacomitinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The metabolism of Erdafitinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The metabolism of Siponimod can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be increased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Acenocoumarol can be increased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The metabolism of Fluindione can be increased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The metabolism of Dapsone can be increased when combined with Tocilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB00005",
+                        "description": "The metabolism of Dapsone can be increased when combined with Etanercept"
+                    },
+                    {
+                        "drugbank-id": "DB00026",
+                        "description": "The metabolism of Dapsone can be increased when combined with Anakinra"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The metabolism of Dapsone can be increased when combined with Adalimumab"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The metabolism of Dapsone can be increased when combined with Infliximab"
+                    },
+                    {
+                        "drugbank-id": "DB01281",
+                        "description": "The metabolism of Dapsone can be increased when combined with Abatacept"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "The metabolism of Dapsone can be increased when combined with Afelimomab"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Dapsone can be increased when combined with Apremilast"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "The metabolism of Dapsone can be increased when combined with Canakinumab"
+                    },
+                    {
+                        "drugbank-id": "DB06372",
+                        "description": "The metabolism of Dapsone can be increased when combined with Rilonacept"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The metabolism of Dapsone can be increased when combined with Golimumab"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The metabolism of Dapsone can be increased when combined with Certolizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "The metabolism of Dapsone can be increased when combined with Secukinumab"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "The metabolism of Dapsone can be increased when combined with Siltuximab"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The metabolism of Dapsone can be increased when combined with Emapalumab"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "The risk or severity of peripheral neuropathy can be increased when Stavudine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The serum concentration of Dapsone can be decreased when it is combined with Alpelisib"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Dapsone can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Dapsone can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB15685",
+                        "description": "The serum concentration of Dapsone can be increased when it is combined with Selpercatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The therapeutic efficacy of Dapsone can be increased when used in combination with Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Dapsone can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Dapsone can be decreased when it is combined with Satralizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

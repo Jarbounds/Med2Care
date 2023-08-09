@@ -1,0 +1,1425 @@
+{
+    "medicine_id": "d5e641c666cf014962630a0207b4fe9a8f19a0a5",
+    "platform_id": "DB00649",
+    "metadata": {
+        "name": "Stavudine 15 mg 1 Capsule",
+        "composition": "15 mg 1 Stavudine",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of human immunovirus HIV infections",
+            "contraindications": {
+                "disease": "Side effects include peripheral neuropathy tingling burning numbness or pain in the hands or feet fatal lactic acidosis has been reported in patients treated with stavudine ZERIT in combination with other antiretroviral agents severe liver enlargement inflammation pain and swelling of the liver and liver failure",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Stavudine is a nucleoside reverse transcriptase inhibitor NRTI with activity against Human Immunodeficiency Virus Type 1 HIV 1 Stavudine is phosphorylated to active metabolites that compete for incorporation into viral DNA They inhibit the HIV reverse transcriptase enzyme competitively and act as a chain terminator of DNA synthesis The lack of a 3 OH group in the incorporated nucleoside analogue prevents the formation of the 5 to 3 phosphodiester linkage essential for DNA chain elongation and therefore the viral DNA growth is terminated",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00811",
+                        "description": "Ribavirin may increase the hepatotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The therapeutic efficacy of Stavudine can be decreased when used in combination with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "The risk or severity of adverse effects can be increased when Stavudine is combined with Didanosine"
+                    },
+                    {
+                        "drugbank-id": "DB01005",
+                        "description": "The risk or severity of adverse effects can be increased when Hydroxyurea is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The therapeutic efficacy of Stavudine can be decreased when used in combination with Doxorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "The risk or severity of cytopenia can be increased when Ganciclovir is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB01610",
+                        "description": "The risk or severity of cytopenia can be increased when Valganciclovir is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00140",
+                        "description": "The excretion of Stavudine can be decreased when combined with Riboflavin"
+                    },
+                    {
+                        "drugbank-id": "DB00158",
+                        "description": "The excretion of Stavudine can be decreased when combined with Folic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00168",
+                        "description": "The excretion of Stavudine can be decreased when combined with Aspartame"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefotiam"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "The excretion of Stavudine can be decreased when combined with Doxycycline"
+                    },
+                    {
+                        "drugbank-id": "DB00311",
+                        "description": "The excretion of Stavudine can be decreased when combined with Ethoxzolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The excretion of Stavudine can be decreased when combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00318",
+                        "description": "The excretion of Stavudine can be decreased when combined with Codeine"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The excretion of Stavudine can be decreased when combined with Piperacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Stavudine can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Stavudine can be decreased when combined with Aminohippuric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00369",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cidofovir"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "The excretion of Stavudine can be decreased when combined with Trifluridine"
+                    },
+                    {
+                        "drugbank-id": "DB00438",
+                        "description": "The excretion of Stavudine can be decreased when combined with Ceftazidime"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "The excretion of Stavudine can be decreased when combined with Chloramphenicol"
+                    },
+                    {
+                        "drugbank-id": "DB00456",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefalotin"
+                    },
+                    {
+                        "drugbank-id": "DB00493",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefotaxime"
+                    },
+                    {
+                        "drugbank-id": "DB00500",
+                        "description": "The excretion of Stavudine can be decreased when combined with Tolmetin"
+                    },
+                    {
+                        "drugbank-id": "DB00520",
+                        "description": "The excretion of Stavudine can be decreased when combined with Caspofungin"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The excretion of Stavudine can be decreased when combined with Foscarnet"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The excretion of Stavudine can be decreased when combined with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cephalexin"
+                    },
+                    {
+                        "drugbank-id": "DB00578",
+                        "description": "The excretion of Stavudine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The excretion of Stavudine can be decreased when combined with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The excretion of Stavudine can be decreased when combined with Oxytetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00605",
+                        "description": "The excretion of Stavudine can be decreased when combined with Sulindac"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00607",
+                        "description": "The excretion of Stavudine can be decreased when combined with Nafcillin"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The excretion of Stavudine can be decreased when combined with Chlorpropamide"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The excretion of Stavudine can be decreased when combined with Losartan"
+                    },
+                    {
+                        "drugbank-id": "DB00693",
+                        "description": "The excretion of Stavudine can be decreased when combined with Fluorescein"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The excretion of Stavudine can be decreased when combined with Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "The excretion of Stavudine can be decreased when combined with Methazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The excretion of Stavudine can be decreased when combined with Flurbiprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00718",
+                        "description": "The excretion of Stavudine can be decreased when combined with Adefovir dipivoxil"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The excretion of Stavudine can be decreased when combined with Nateglinide"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The excretion of Stavudine can be decreased when combined with Etodolac"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The excretion of Stavudine can be decreased when combined with Tetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00770",
+                        "description": "The excretion of Stavudine can be decreased when combined with Alprostadil"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The excretion of Stavudine can be decreased when combined with Nalidixic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The excretion of Stavudine can be decreased when combined with Acyclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The excretion of Stavudine can be decreased when combined with Naproxen"
+                    },
+                    {
+                        "drugbank-id": "DB00798",
+                        "description": "The excretion of Stavudine can be decreased when combined with Gentamicin"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The excretion of Stavudine can be decreased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The excretion of Stavudine can be decreased when combined with Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00821",
+                        "description": "The excretion of Stavudine can be decreased when combined with Carprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cinoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The excretion of Stavudine can be decreased when combined with Diflunisal"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The excretion of Stavudine can be decreased when combined with Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The excretion of Stavudine can be decreased when combined with Etacrynic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Stavudine can be decreased when combined with Dinoprostone"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The excretion of Stavudine can be decreased when combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00939",
+                        "description": "The excretion of Stavudine can be decreased when combined with Meclofenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The excretion of Stavudine can be decreased when combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The excretion of Stavudine can be decreased when combined with Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The excretion of Stavudine can be decreased when combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The excretion of Stavudine can be decreased when combined with Glyburide"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The excretion of Stavudine can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The excretion of Stavudine can be decreased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The excretion of Stavudine can be decreased when combined with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01051",
+                        "description": "The excretion of Stavudine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The excretion of Stavudine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01060",
+                        "description": "The excretion of Stavudine can be decreased when combined with Amoxicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01082",
+                        "description": "The excretion of Stavudine can be decreased when combined with Streptomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The excretion of Stavudine can be decreased when combined with Tolbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB01140",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefadroxil"
+                    },
+                    {
+                        "drugbank-id": "DB01147",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cloxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB01212",
+                        "description": "The excretion of Stavudine can be decreased when combined with Ceftriaxone"
+                    },
+                    {
+                        "drugbank-id": "DB01326",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefamandole"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefazolin"
+                    },
+                    {
+                        "drugbank-id": "DB01329",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefoperazone"
+                    },
+                    {
+                        "drugbank-id": "DB01333",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefradine"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cefacetrile"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The excretion of Stavudine can be decreased when combined with Aminophenazone"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The excretion of Stavudine can be decreased when combined with Antipyrine"
+                    },
+                    {
+                        "drugbank-id": "DB01597",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cilastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01606",
+                        "description": "The excretion of Stavudine can be decreased when combined with Tazobactam"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The excretion of Stavudine can be decreased when combined with Topiroxostat"
+                    },
+                    {
+                        "drugbank-id": "DB03553",
+                        "description": "The excretion of Stavudine can be decreased when combined with Glutaric Acid"
+                    },
+                    {
+                        "drugbank-id": "DB03585",
+                        "description": "The excretion of Stavudine can be decreased when combined with Oxyphenbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The excretion of Stavudine can be decreased when combined with Phenacetin"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Stavudine can be decreased when combined with Taurocholic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04519",
+                        "description": "The excretion of Stavudine can be decreased when combined with Caprylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB05016",
+                        "description": "The excretion of Stavudine can be decreased when combined with Ataluren"
+                    },
+                    {
+                        "drugbank-id": "DB08846",
+                        "description": "The excretion of Stavudine can be decreased when combined with Ellagic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The excretion of Stavudine can be decreased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The excretion of Stavudine can be decreased when combined with Dolutegravir"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The excretion of Stavudine can be decreased when combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Stavudine can be decreased when combined with Silibinin"
+                    },
+                    {
+                        "drugbank-id": "DB11751",
+                        "description": "The excretion of Stavudine can be decreased when combined with Cabotegravir"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The excretion of Stavudine can be decreased when combined with Baricitinib"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The excretion of Stavudine can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The excretion of Stavudine can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The excretion of Stavudine can be decreased when combined with Istradefylline"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The excretion of Stavudine can be decreased when combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "The excretion of Stavudine can be decreased when combined with Ceftizoxime"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The excretion of Stavudine can be decreased when combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB11644",
+                        "description": "The excretion of Stavudine can be decreased when combined with Tafamidis"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Leuprolide is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00052",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Infliximab is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00080",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Daptomycin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Cyclosporine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Pravastatin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Baclofen is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Sildenafil is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Indinavir is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Lovastatin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Cladribine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Phenytoin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00282",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Pamidronic acid is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Mefloquine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Tacrine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00389",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Carbimazole is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Cerivastatin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Trimethoprim is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Betamethasone is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00471",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Montelukast is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Cimetidine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ritonavir is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Lercanidipine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ciprofloxacin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Vincristine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Propylthiouracil is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Methotrexate is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Enalapril is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Nizatidine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ivermectin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Chloroquine is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Triamcinolone is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00627",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Niacin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00630",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Alendronic acid is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00636",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Clofibrate is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Simvastatin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00666",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Nafarelin"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Amphotericin B"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Mycophenolate mofetil"
+                    },
+                    {
+                        "drugbank-id": "DB00704",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Naltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Lamivudine"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Ibandronate"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Terbinafine"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Penicillamine"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Ranitidine"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00884",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Risedronic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Bumetanide"
+                    },
+                    {
+                        "drugbank-id": "DB00897",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Triazolam"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Isoniazid"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB00982",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Isotretinoin"
+                    },
+                    {
+                        "drugbank-id": "DB00987",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Cytarabine"
+                    },
+                    {
+                        "drugbank-id": "DB01006",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Letrozole"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Minocycline"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Procainamide"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Fenofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Atorvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Iloprost"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Leflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Rosuvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Procarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Paclitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Docetaxel"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Bezafibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Colchicine"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Fusidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Trabectedin"
+                    },
+                    {
+                        "drugbank-id": "DB06693",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Mevastatin"
+                    },
+                    {
+                        "drugbank-id": "DB06817",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Pitavastatin"
+                    },
+                    {
+                        "drugbank-id": "DB08983",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Etofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB09055",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Acipimox"
+                    },
+                    {
+                        "drugbank-id": "DB09064",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Ciprofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB09270",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Ubidecarenone"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB12554",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Mebeverine"
+                    },
+                    {
+                        "drugbank-id": "DB13293",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Ipecac"
+                    },
+                    {
+                        "drugbank-id": "DB13393",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Emetine"
+                    },
+                    {
+                        "drugbank-id": "DB13433",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Simfibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13460",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Ronifibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13780",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Aluminium clofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13849",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Clofibride"
+                    },
+                    {
+                        "drugbank-id": "DB13873",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Fenofibric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "Succinylcholine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Reserpine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "Ziprasidone may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00260",
+                        "description": "Cycloserine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Amitriptyline may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Protriptyline may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "Vinorelbine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "Clozapine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "Thiethylperazine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "Sulpiride may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "Loxapine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "Remoxipride may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "Promazine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "Prochlorperazine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Teniposide may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "Droperidol may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Imipramine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "Chlorpromazine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "Haloperidol may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "Triflupromazine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "Cyclophosphamide may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Nortriptyline may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Amoxapine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "Fluphenazine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "Stavudine may increase the neurotoxic activities of Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "Stavudine may increase the neurotoxic activities of Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Stavudine may increase the neurotoxic activities of Trimipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Stavudine may increase the neurotoxic activities of Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "Stavudine may increase the neurotoxic activities of Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "Stavudine may increase the neurotoxic activities of Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "Stavudine may increase the neurotoxic activities of Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "Stavudine may increase the neurotoxic activities of Cyclobenzaprine"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "Stavudine may increase the neurotoxic activities of Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "Stavudine may increase the neurotoxic activities of Acetophenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Stavudine may increase the neurotoxic activities of Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "Stavudine may increase the neurotoxic activities of Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Stavudine may increase the neurotoxic activities of Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Stavudine may increase the neurotoxic activities of Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "Stavudine may increase the neurotoxic activities of Clindamycin"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "Stavudine may increase the neurotoxic activities of Tubocurarine"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "Stavudine may increase the neurotoxic activities of Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "Stavudine may increase the neurotoxic activities of Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Stavudine may increase the neurotoxic activities of Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01245",
+                        "description": "Stavudine may increase the neurotoxic activities of Decamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "Stavudine may increase the neurotoxic activities of Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "Stavudine may increase the neurotoxic activities of Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01294",
+                        "description": "Stavudine may increase the neurotoxic activities of Bismuth subsalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "Stavudine may increase the neurotoxic activities of Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "Stavudine may increase the neurotoxic activities of Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01598",
+                        "description": "Stavudine may increase the neurotoxic activities of Imipenem"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "Stavudine may increase the neurotoxic activities of Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "Stavudine may increase the neurotoxic activities of Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "Stavudine may increase the neurotoxic activities of Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01618",
+                        "description": "Stavudine may increase the neurotoxic activities of Molindone"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "Stavudine may increase the neurotoxic activities of Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "Stavudine may increase the neurotoxic activities of Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "Stavudine may increase the neurotoxic activities of Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "Stavudine may increase the neurotoxic activities of Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB01627",
+                        "description": "Stavudine may increase the neurotoxic activities of Lincomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Stavudine may increase the neurotoxic activities of Amineptine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Stavudine may increase the neurotoxic activities of Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04872",
+                        "description": "Stavudine may increase the neurotoxic activities of Osanetant"
+                    },
+                    {
+                        "drugbank-id": "DB04888",
+                        "description": "Stavudine may increase the neurotoxic activities of Bifeprunox"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "Stavudine may increase the neurotoxic activities of Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB05316",
+                        "description": "Stavudine may increase the neurotoxic activities of Pimavanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "Stavudine may increase the neurotoxic activities of BL 1020"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "Stavudine may increase the neurotoxic activities of Cariprazine"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "Stavudine may increase the neurotoxic activities of Sertindole"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Stavudine may increase the neurotoxic activities of Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "Stavudine may increase the neurotoxic activities of Amisulpride"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "Stavudine may increase the neurotoxic activities of Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "Stavudine may increase the neurotoxic activities of Perospirone"
+                    },
+                    {
+                        "drugbank-id": "DB08927",
+                        "description": "Stavudine may increase the neurotoxic activities of Amperozide"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Stavudine may increase the neurotoxic activities of Dimetacrine"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "Stavudine may increase the neurotoxic activities of Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Stavudine may increase the neurotoxic activities of Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "Stavudine may increase the neurotoxic activities of Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "Stavudine may increase the neurotoxic activities of Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Stavudine may increase the neurotoxic activities of Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09223",
+                        "description": "Stavudine may increase the neurotoxic activities of Blonanserin"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Stavudine may increase the neurotoxic activities of Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "Stavudine may increase the neurotoxic activities of Zotepine"
+                    },
+                    {
+                        "drugbank-id": "DB09226",
+                        "description": "Stavudine may increase the neurotoxic activities of Brilaroxazine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Stavudine may increase the neurotoxic activities of Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB09275",
+                        "description": "Stavudine may increase the neurotoxic activities of Bismuth subcitrate potassium"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "Stavudine may increase the neurotoxic activities of Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Stavudine may increase the neurotoxic activities of Oxaprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB11281",
+                        "description": "Stavudine may increase the neurotoxic activities of Bismuth subcarbonate"
+                    },
+                    {
+                        "drugbank-id": "DB11376",
+                        "description": "Stavudine may increase the neurotoxic activities of Azaperone"
+                    },
+                    {
+                        "drugbank-id": "DB11537",
+                        "description": "Stavudine may increase the neurotoxic activities of Pirlimycin"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "Stavudine may increase the neurotoxic activities of Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Stavudine may increase the neurotoxic activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12273",
+                        "description": "Stavudine may increase the neurotoxic activities of Ecopipam"
+                    },
+                    {
+                        "drugbank-id": "DB12401",
+                        "description": "Stavudine may increase the neurotoxic activities of Bromperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12518",
+                        "description": "Stavudine may increase the neurotoxic activities of Raclopride"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "Stavudine may increase the neurotoxic activities of Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "Stavudine may increase the neurotoxic activities of Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB12867",
+                        "description": "Stavudine may increase the neurotoxic activities of Benperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Stavudine may increase the neurotoxic activities of Opipramol"
+                    },
+                    {
+                        "drugbank-id": "DB12958",
+                        "description": "Stavudine may increase the neurotoxic activities of Prothipendyl"
+                    },
+                    {
+                        "drugbank-id": "DB13025",
+                        "description": "Stavudine may increase the neurotoxic activities of Tiapride"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Stavudine may increase the neurotoxic activities of Amitriptylinoxide"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "Stavudine may increase the neurotoxic activities of Bismuth subnitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "Stavudine may increase the neurotoxic activities of Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Stavudine may increase the neurotoxic activities of Dibenzepin"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Stavudine may increase the neurotoxic activities of Quinupramine"
+                    },
+                    {
+                        "drugbank-id": "DB13256",
+                        "description": "Stavudine may increase the neurotoxic activities of Clothiapine"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "Stavudine may increase the neurotoxic activities of Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "Stavudine may increase the neurotoxic activities of Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Stavudine may increase the neurotoxic activities of Melitracen"
+                    },
+                    {
+                        "drugbank-id": "DB13403",
+                        "description": "Stavudine may increase the neurotoxic activities of Oxypertine"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Stavudine may increase the neurotoxic activities of Lofepramine"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "Stavudine may increase the neurotoxic activities of Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Stavudine may increase the neurotoxic activities of Iprindole"
+                    },
+                    {
+                        "drugbank-id": "DB13523",
+                        "description": "Stavudine may increase the neurotoxic activities of Veralipride"
+                    },
+                    {
+                        "drugbank-id": "DB13552",
+                        "description": "Stavudine may increase the neurotoxic activities of Trifluperidol"
+                    },
+                    {
+                        "drugbank-id": "DB13554",
+                        "description": "Stavudine may increase the neurotoxic activities of Moperone"
+                    },
+                    {
+                        "drugbank-id": "DB13557",
+                        "description": "Stavudine may increase the neurotoxic activities of Thiopropazate"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "Stavudine may increase the neurotoxic activities of Gallamine"
+                    },
+                    {
+                        "drugbank-id": "DB13598",
+                        "description": "Stavudine may increase the neurotoxic activities of Diethyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13665",
+                        "description": "Stavudine may increase the neurotoxic activities of Fluanisone"
+                    },
+                    {
+                        "drugbank-id": "DB13676",
+                        "description": "Stavudine may increase the neurotoxic activities of Mosapramine"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Stavudine may increase the neurotoxic activities of Imipramine oxide"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "Stavudine may increase the neurotoxic activities of Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Stavudine may increase the neurotoxic activities of Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13841",
+                        "description": "Stavudine may increase the neurotoxic activities of Clopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB13909",
+                        "description": "Stavudine may increase the neurotoxic activities of Bismuth subgallate"
+                    },
+                    {
+                        "drugbank-id": "DB13910",
+                        "description": "Stavudine may increase the neurotoxic activities of Valproate bismuth"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "Stavudine may increase the neurotoxic activities of Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "Stavudine may increase the neurotoxic activities of Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB00781",
+                        "description": "Stavudine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00994",
+                        "description": "Stavudine may increase the neurotoxic activities of Neomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06827",
+                        "description": "Stavudine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB15965",
+                        "description": "Stavudine may increase the neurotoxic activities of Naxitamab"
+                    },
+                    {
+                        "drugbank-id": "DB10317",
+                        "description": "The therapeutic efficacy of Rubella virus vaccine can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB10343",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain tice live antigen can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB10804",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain connaught live antigen can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB10805",
+                        "description": "The therapeutic efficacy of Yellow Fever Vaccine can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB11003",
+                        "description": "The therapeutic efficacy of Anthrax vaccine can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB11050",
+                        "description": "The therapeutic efficacy of Typhoid Vaccine Live can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB12386",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain danish 1331 live antigen can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB14409",
+                        "description": "The therapeutic efficacy of Human adenovirus e serotype 4 strain cl 68578 antigen can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB14685",
+                        "description": "The therapeutic efficacy of Adenovirus type 7 vaccine live can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB10318",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Live attenuated can be decreased when used in combination with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The risk or severity of peripheral neuropathy can be increased when Stavudine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The serum concentration of Stavudine can be decreased when it is combined with Methadone"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

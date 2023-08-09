@@ -1,0 +1,2961 @@
+{
+    "medicine_id": "4050816eb2b6ba44b348da78e39e066e2e57dae6",
+    "platform_id": "DB09072",
+    "metadata": {
+        "name": "Xyrem 500 mg Solution",
+        "composition": "500 mg Sodium oxybate",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of cataplexy and excessive daytime sleepiness EDS associated with narcolepsy",
+            "contraindications": {
+                "disease": "Symptoms of overdose may include depressed consciousness that may fluctuate rapidly between a confusional agitated combative state with ataxia and coma emesis diaphoresis headache and impaired psychomotor skills Depth of coma varies with the amount ingested and myoclonus and tonic clonic seizures have been reported Oral LD50 of 9690mg kg in rats MSDS",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Sodium oxybate works through an unknown mechanism to treat narcolepsy by inducing sleep within about 5 15 minutes of administration",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Buprenorphine"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "Doxylamine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00470",
+                        "description": "Dronabinol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "Droperidol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00956",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Hydrocodone"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "Hydroxyzine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The therapeutic efficacy of Sodium oxybate can be increased when used in combination with Magnesium sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB00765",
+                        "description": "Sodium oxybate may increase the sedative activities of Metyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "Minocycline may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "Nabilone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "Perampanel may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00413",
+                        "description": "Sodium oxybate may increase the sedative activities of Pramipexole"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "Sodium oxybate may increase the sedative activities of Ropinirole"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "Sodium oxybate may increase the sedative activities of Rotigotine"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The risk or severity of adverse effects can be increased when Rufinamide is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00042",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Botulinum Toxin Type B"
+                    },
+                    {
+                        "drugbank-id": "DB00083",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Botulinum toxin type A"
+                    },
+                    {
+                        "drugbank-id": "DB00150",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tryptophan"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fluvoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Baclofen"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Amphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Succinylcholine"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00216",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Eletriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00228",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Enflurane"
+                    },
+                    {
+                        "drugbank-id": "DB00234",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Reboxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methysergide"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cabergoline"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00273",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Topiramate"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Clemastine"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Venlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Atomoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Morphine"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Zolmitriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00318",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Codeine"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dihydroergotamine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00323",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tolcapone"
+                    },
+                    {
+                        "drugbank-id": "DB00327",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Hydromorphone"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Protriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trimethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Chlorzoxazone"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thiethylperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00377",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Palonosetron"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sulpiride"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dexbrompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Remoxipride"
+                    },
+                    {
+                        "drugbank-id": "DB00416",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Metocurine iodide"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00423",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methocarbamol"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Triprolidine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cyproheptadine"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Meperidine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00463",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Metharbital"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00483",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Gallamine triethiodide"
+                    },
+                    {
+                        "drugbank-id": "DB00494",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Entacapone"
+                    },
+                    {
+                        "drugbank-id": "DB00497",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxycodone"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Triflupromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dextromethorphan"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mephenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nortriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Amoxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lamotrigine"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Carbamazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00565",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cisatracurium"
+                    },
+                    {
+                        "drugbank-id": "DB00574",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fenfluramine"
+                    },
+                    {
+                        "drugbank-id": "DB00579",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mazindol"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00589",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lisuride"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ethosuximide"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Linezolid"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB00611",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Butorphanol"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Furazolidone"
+                    },
+                    {
+                        "drugbank-id": "DB00617",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Paramethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fluphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00645",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dyclonine"
+                    },
+                    {
+                        "drugbank-id": "DB00647",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dextropropoxyphene"
+                    },
+                    {
+                        "drugbank-id": "DB00652",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pentazocine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trazodone"
+                    },
+                    {
+                        "drugbank-id": "DB00660",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Metaxalone"
+                    },
+                    {
+                        "drugbank-id": "DB00662",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trimethobenzamide"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sumatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ergotamine"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tizanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sufentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Apomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Procaine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trimipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00728",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Rocuronium"
+                    },
+                    {
+                        "drugbank-id": "DB00732",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Atracurium besylate"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00737",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Meclizine"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Riluzole"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Carbinoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Isoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB00754",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ethotoin"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dolasetron"
+                    },
+                    {
+                        "drugbank-id": "DB00771",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Clidinium"
+                    },
+                    {
+                        "drugbank-id": "DB00776",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxcarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alfentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Minaprine"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fentanyl"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00832",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phensuximide"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Brompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00837",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Progabide"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Donepezil"
+                    },
+                    {
+                        "drugbank-id": "DB00844",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nalbuphine"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00854",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Levorphanol"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benzphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Granisetron"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ondansetron"
+                    },
+                    {
+                        "drugbank-id": "DB00906",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tiagabine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Almotriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Diethylpropion"
+                    },
+                    {
+                        "drugbank-id": "DB00941",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Hexafluronium"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB00952",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Naratriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00953",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Rizatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Desloratadine"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alosetron"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dimenhydrinate"
+                    },
+                    {
+                        "drugbank-id": "DB00996",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Gabapentin"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Frovatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methoxyflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Selegiline"
+                    },
+                    {
+                        "drugbank-id": "DB01049",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ergoloid mesylate"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Acetophenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01080",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Vigabatrin"
+                    },
+                    {
+                        "drugbank-id": "DB01081",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Diphenoxylate"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sertraline"
+                    },
+                    {
+                        "drugbank-id": "DB01105",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sibutramine"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Levocabastine"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Chlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01121",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenacemide"
+                    },
+                    {
+                        "drugbank-id": "DB01135",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Doxacurium"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01156",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Bupropion"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Halothane"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Procarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Moclobemide"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB01178",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Chlormezanone"
+                    },
+                    {
+                        "drugbank-id": "DB01186",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pergolide"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Desflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01192",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxymorphone"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tubocurarine"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01202",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Levetiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB01209",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dezocine"
+                    },
+                    {
+                        "drugbank-id": "DB01219",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dantrolene"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ketamine"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01226",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mivacurium"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Levacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB01235",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Levodopa"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01245",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Decamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Isocarboxazid"
+                    },
+                    {
+                        "drugbank-id": "DB01253",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ergometrine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fosphenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of St John s Wort"
+                    },
+                    {
+                        "drugbank-id": "DB01336",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Metocurine"
+                    },
+                    {
+                        "drugbank-id": "DB01337",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pancuronium"
+                    },
+                    {
+                        "drugbank-id": "DB01338",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pipecuronium"
+                    },
+                    {
+                        "drugbank-id": "DB01339",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Vecuronium"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Rasagiline"
+                    },
+                    {
+                        "drugbank-id": "DB01392",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Yohimbine"
+                    },
+                    {
+                        "drugbank-id": "DB01433",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methadyl acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of MMDA"
+                    },
+                    {
+                        "drugbank-id": "DB01445",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Bufotenine"
+                    },
+                    {
+                        "drugbank-id": "DB01450",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dihydroetorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01452",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Diamorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Midomafetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01463",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fencamfamin"
+                    },
+                    {
+                        "drugbank-id": "DB01466",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ethylmorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01472",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of 4 Methoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of 4 Bromo 2 5 dimethoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01488",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dimethyltryptamine"
+                    },
+                    {
+                        "drugbank-id": "DB01497",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Etorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01501",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Difenoxin"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tenamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01529",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dextromoramide"
+                    },
+                    {
+                        "drugbank-id": "DB01531",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Desomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01535",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Carfentanil"
+                    },
+                    {
+                        "drugbank-id": "DB01547",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Drotebanol"
+                    },
+                    {
+                        "drugbank-id": "DB01551",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dihydrocodeine"
+                    },
+                    {
+                        "drugbank-id": "DB01555",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alphacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB01560",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cathinone"
+                    },
+                    {
+                        "drugbank-id": "DB01565",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dihydromorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Metamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01616",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alverine"
+                    },
+                    {
+                        "drugbank-id": "DB01618",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Molindone"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pargyline"
+                    },
+                    {
+                        "drugbank-id": "DB01954",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Rolipram"
+                    },
+                    {
+                        "drugbank-id": "DB02207",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of 7 Nitroindazole"
+                    },
+                    {
+                        "drugbank-id": "DB02852",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Domoic Acid"
+                    },
+                    {
+                        "drugbank-id": "DB02959",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxitriptan"
+                    },
+                    {
+                        "drugbank-id": "DB03575",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phencyclidine"
+                    },
+                    {
+                        "drugbank-id": "DB04017",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Clorgiline"
+                    },
+                    {
+                        "drugbank-id": "DB04165",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Valpromide"
+                    },
+                    {
+                        "drugbank-id": "DB04325",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenethylamine"
+                    },
+                    {
+                        "drugbank-id": "DB04599",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Aniracetam"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Iproniazid"
+                    },
+                    {
+                        "drugbank-id": "DB04820",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nialamide"
+                    },
+                    {
+                        "drugbank-id": "DB04821",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nomifensine"
+                    },
+                    {
+                        "drugbank-id": "DB04827",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Urethane"
+                    },
+                    {
+                        "drugbank-id": "DB04829",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lysergic acid diethylamide"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Zimelidine"
+                    },
+                    {
+                        "drugbank-id": "DB04834",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Rapacuronium"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Amineptine"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Flunarizine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lorcaserin"
+                    },
+                    {
+                        "drugbank-id": "DB04872",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Osanetant"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dapoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB04885",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cilansetron"
+                    },
+                    {
+                        "drugbank-id": "DB04888",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Bifeprunox"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Milnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB04917",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Renzapride"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ezogabine"
+                    },
+                    {
+                        "drugbank-id": "DB05227",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of APD791"
+                    },
+                    {
+                        "drugbank-id": "DB05232",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tetrodotoxin"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methsuximide"
+                    },
+                    {
+                        "drugbank-id": "DB05316",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pimavanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05541",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Brivaracetam"
+                    },
+                    {
+                        "drugbank-id": "DB05542",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Naronapride"
+                    },
+                    {
+                        "drugbank-id": "DB05562",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Naluzotan"
+                    },
+                    {
+                        "drugbank-id": "DB05607",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of PRX 08066"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of BL 1020"
+                    },
+                    {
+                        "drugbank-id": "DB05710",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Gantacurium"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cariprazine"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lumateperone"
+                    },
+                    {
+                        "drugbank-id": "DB06109",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of YKP 1358"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sertindole"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mianserin"
+                    },
+                    {
+                        "drugbank-id": "DB06153",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pizotifen"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lacosamide"
+                    },
+                    {
+                        "drugbank-id": "DB06264",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tolperisone"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Levocetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ziconotide"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Amisulpride"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dotarizine"
+                    },
+                    {
+                        "drugbank-id": "DB06458",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Remacemide"
+                    },
+                    {
+                        "drugbank-id": "DB06512",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Deramciclane"
+                    },
+                    {
+                        "drugbank-id": "DB06527",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tramiprosate"
+                    },
+                    {
+                        "drugbank-id": "DB06554",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Gaboxadol"
+                    },
+                    {
+                        "drugbank-id": "DB06579",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Adipiplon"
+                    },
+                    {
+                        "drugbank-id": "DB06582",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dextofisopam"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Agomelatine"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Safinamide"
+                    },
+                    {
+                        "drugbank-id": "DB06660",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Saredutant"
+                    },
+                    {
+                        "drugbank-id": "DB06678",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Esmirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB06684",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Vilazodone"
+                    },
+                    {
+                        "drugbank-id": "DB06690",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nitrous oxide"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Desvenlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB06701",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dexmethylphenidate"
+                    },
+                    {
+                        "drugbank-id": "DB06731",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Seproxetine"
+                    },
+                    {
+                        "drugbank-id": "DB06738",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ketobemidone"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benzyl alcohol"
+                    },
+                    {
+                        "drugbank-id": "DB06797",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mebutamate"
+                    },
+                    {
+                        "drugbank-id": "DB08059",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Wortmannin"
+                    },
+                    {
+                        "drugbank-id": "DB08329",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sulthiame"
+                    },
+                    {
+                        "drugbank-id": "DB08550",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of 7 8 Dichloro 1 2 3 4 tetrahydroisoquinoline"
+                    },
+                    {
+                        "drugbank-id": "DB08810",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cinitapride"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08839",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Serotonin"
+                    },
+                    {
+                        "drugbank-id": "DB08861",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of DPDPE"
+                    },
+                    {
+                        "drugbank-id": "DB08872",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Gabapentin enacarbil"
+                    },
+                    {
+                        "drugbank-id": "DB08892",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Arbaclofen Placarbil"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pomalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Levomilnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Perospirone"
+                    },
+                    {
+                        "drugbank-id": "DB08927",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Amperozide"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Indalpine"
+                    },
+                    {
+                        "drugbank-id": "DB08954",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ifenprodil"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB08986",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Etifoxine"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dimetacrine"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09001",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Barbexaclone"
+                    },
+                    {
+                        "drugbank-id": "DB09011",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Beclamide"
+                    },
+                    {
+                        "drugbank-id": "DB09014",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Captodiame"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09021",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benzoctamine"
+                    },
+                    {
+                        "drugbank-id": "DB09023",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benactyzine"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Vortioxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Stiripentol"
+                    },
+                    {
+                        "drugbank-id": "DB09119",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Eslicarbazepine acetate"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09174",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lofentanil"
+                    },
+                    {
+                        "drugbank-id": "DB09184",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Edivoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09185",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Viloxazine"
+                    },
+                    {
+                        "drugbank-id": "DB09186",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nisoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09187",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lortalamine"
+                    },
+                    {
+                        "drugbank-id": "DB09190",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Talopram"
+                    },
+                    {
+                        "drugbank-id": "DB09194",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Etoperidone"
+                    },
+                    {
+                        "drugbank-id": "DB09223",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Blonanserin"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Zotepine"
+                    },
+                    {
+                        "drugbank-id": "DB09226",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Brilaroxazine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB09243",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Hydracarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pirlindole"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Toloxatone"
+                    },
+                    {
+                        "drugbank-id": "DB09246",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benmoxin"
+                    },
+                    {
+                        "drugbank-id": "DB09247",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Iproclozide"
+                    },
+                    {
+                        "drugbank-id": "DB09248",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mebanazine"
+                    },
+                    {
+                        "drugbank-id": "DB09249",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Octamoxin"
+                    },
+                    {
+                        "drugbank-id": "DB09250",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pheniprazine"
+                    },
+                    {
+                        "drugbank-id": "DB09251",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenoxypropazine"
+                    },
+                    {
+                        "drugbank-id": "DB09252",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pivhydrazine"
+                    },
+                    {
+                        "drugbank-id": "DB09253",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Safrazine"
+                    },
+                    {
+                        "drugbank-id": "DB09254",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Caroxazone"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB09290",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ramosetron"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxaprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB11130",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Opium"
+                    },
+                    {
+                        "drugbank-id": "DB11156",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pyrantel"
+                    },
+                    {
+                        "drugbank-id": "DB11371",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alfaxalone"
+                    },
+                    {
+                        "drugbank-id": "DB11400",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Doramectin"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB11549",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tiletamine"
+                    },
+                    {
+                        "drugbank-id": "DB11552",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tricaine"
+                    },
+                    {
+                        "drugbank-id": "DB11555",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Zolazepam"
+                    },
+                    {
+                        "drugbank-id": "DB11582",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thiocolchicoside"
+                    },
+                    {
+                        "drugbank-id": "DB11609",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Normethadone"
+                    },
+                    {
+                        "drugbank-id": "DB11664",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Psilocybin"
+                    },
+                    {
+                        "drugbank-id": "DB11675",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mosapride"
+                    },
+                    {
+                        "drugbank-id": "DB11686",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Iferanserin"
+                    },
+                    {
+                        "drugbank-id": "DB11699",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tropisetron"
+                    },
+                    {
+                        "drugbank-id": "DB11755",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tetrahydrocannabivarin"
+                    },
+                    {
+                        "drugbank-id": "DB11859",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Brexanolone"
+                    },
+                    {
+                        "drugbank-id": "DB11868",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Etiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB11889",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lanicemine"
+                    },
+                    {
+                        "drugbank-id": "DB11957",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Idalopirdine"
+                    },
+                    {
+                        "drugbank-id": "DB12071",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Vabicaserin"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12105",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Imagabalin"
+                    },
+                    {
+                        "drugbank-id": "DB12110",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of m Chlorophenylpiperazine"
+                    },
+                    {
+                        "drugbank-id": "DB12111",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of MK 212"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Vinpocetine"
+                    },
+                    {
+                        "drugbank-id": "DB12163",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sarpogrelate"
+                    },
+                    {
+                        "drugbank-id": "DB12177",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Eplivanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12184",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Gepirone"
+                    },
+                    {
+                        "drugbank-id": "DB12229",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cerlapirdine"
+                    },
+                    {
+                        "drugbank-id": "DB12273",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ecopipam"
+                    },
+                    {
+                        "drugbank-id": "DB12308",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Eltanolone"
+                    },
+                    {
+                        "drugbank-id": "DB12327",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Salvinorin A"
+                    },
+                    {
+                        "drugbank-id": "DB12338",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Carisbamate"
+                    },
+                    {
+                        "drugbank-id": "DB12361",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Piclozotan"
+                    },
+                    {
+                        "drugbank-id": "DB12395",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Esreboxetine"
+                    },
+                    {
+                        "drugbank-id": "DB12401",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Bromperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12427",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Orvepitant"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12492",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Piritramide"
+                    },
+                    {
+                        "drugbank-id": "DB12518",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Raclopride"
+                    },
+                    {
+                        "drugbank-id": "DB12661",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Urapidil"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB12725",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of TD 8954"
+                    },
+                    {
+                        "drugbank-id": "DB12833",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tandospirone"
+                    },
+                    {
+                        "drugbank-id": "DB12867",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12883",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Eltoprazine"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Opipramol"
+                    },
+                    {
+                        "drugbank-id": "DB12951",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pivagabine"
+                    },
+                    {
+                        "drugbank-id": "DB12958",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Prothipendyl"
+                    },
+                    {
+                        "drugbank-id": "DB12989",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Neosaxitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13014",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Hypericin"
+                    },
+                    {
+                        "drugbank-id": "DB13025",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tiapride"
+                    },
+                    {
+                        "drugbank-id": "DB13082",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nefiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Amitriptylinoxide"
+                    },
+                    {
+                        "drugbank-id": "DB13160",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alphaprodine"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13219",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Medifoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dibenzepin"
+                    },
+                    {
+                        "drugbank-id": "DB13233",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alaproclate"
+                    },
+                    {
+                        "drugbank-id": "DB13234",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Propanidid"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Quinupramine"
+                    },
+                    {
+                        "drugbank-id": "DB13256",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Clothiapine"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13295",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Atracurium"
+                    },
+                    {
+                        "drugbank-id": "DB13303",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Febarbamate"
+                    },
+                    {
+                        "drugbank-id": "DB13323",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trichloroethylene"
+                    },
+                    {
+                        "drugbank-id": "DB13324",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tetrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB13352",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Deanol"
+                    },
+                    {
+                        "drugbank-id": "DB13354",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenprobamate"
+                    },
+                    {
+                        "drugbank-id": "DB13357",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Styramate"
+                    },
+                    {
+                        "drugbank-id": "DB13362",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pheneturide"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Melitracen"
+                    },
+                    {
+                        "drugbank-id": "DB13396",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Neocitrullamon"
+                    },
+                    {
+                        "drugbank-id": "DB13403",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxypertine"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lofepramine"
+                    },
+                    {
+                        "drugbank-id": "DB13414",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fenyramidol"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13454",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nicomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB13457",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxaflozane"
+                    },
+                    {
+                        "drugbank-id": "DB13478",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Meptazinol"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Iprindole"
+                    },
+                    {
+                        "drugbank-id": "DB13520",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Metergoline"
+                    },
+                    {
+                        "drugbank-id": "DB13522",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mebicar"
+                    },
+                    {
+                        "drugbank-id": "DB13523",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Veralipride"
+                    },
+                    {
+                        "drugbank-id": "DB13541",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Iprazochrome"
+                    },
+                    {
+                        "drugbank-id": "DB13550",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Bifemelane"
+                    },
+                    {
+                        "drugbank-id": "DB13552",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trifluperidol"
+                    },
+                    {
+                        "drugbank-id": "DB13554",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Moperone"
+                    },
+                    {
+                        "drugbank-id": "DB13557",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thiopropazate"
+                    },
+                    {
+                        "drugbank-id": "DB13572",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Emylcamate"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Gallamine"
+                    },
+                    {
+                        "drugbank-id": "DB13588",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Naftidrofuryl"
+                    },
+                    {
+                        "drugbank-id": "DB13598",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Diethyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13601",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB13605",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenoperidine"
+                    },
+                    {
+                        "drugbank-id": "DB13606",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenazocine"
+                    },
+                    {
+                        "drugbank-id": "DB13623",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fabomotizole"
+                    },
+                    {
+                        "drugbank-id": "DB13642",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pridinol"
+                    },
+                    {
+                        "drugbank-id": "DB13648",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Alcuronium"
+                    },
+                    {
+                        "drugbank-id": "DB13676",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mosapramine"
+                    },
+                    {
+                        "drugbank-id": "DB13690",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Vinyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13745",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fazadinium bromide"
+                    },
+                    {
+                        "drugbank-id": "DB13754",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mephenoxalone"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Imipramine oxide"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13787",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tilidine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13799",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ethadione"
+                    },
+                    {
+                        "drugbank-id": "DB13841",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Clopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB13875",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Harmaline"
+                    },
+                    {
+                        "drugbank-id": "DB13876",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Brofaromine"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of 2 5 Dimethoxy 4 ethylthioamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB13948",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of N 2 hydroxybenzyl 2 5 dimethoxy 4 cyanophenylethylamine"
+                    },
+                    {
+                        "drugbank-id": "DB13984",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cyclopropane"
+                    },
+                    {
+                        "drugbank-id": "DB13993",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of MRK 409"
+                    },
+                    {
+                        "drugbank-id": "DB14010",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of 5 methoxy N N dimethyltryptamine"
+                    },
+                    {
+                        "drugbank-id": "DB14050",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cannabidivarin"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB14509",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lithium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB14575",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Eslicarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB14754",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Solriamfetol"
+                    },
+                    {
+                        "drugbank-id": "DB15203",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of JNJ 26489112"
+                    },
+                    {
+                        "drugbank-id": "DB15360",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Carfentanil C 11"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "Olanzapine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "Cannabidiol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Lemborexant"
+                    },
+                    {
+                        "drugbank-id": "DB08811",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tofisopam"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Epinastine"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "Tapentadol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "Lorazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00231",
+                        "description": "Temazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "Clobazam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "Alprazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00475",
+                        "description": "Chlordiazepoxide may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00546",
+                        "description": "Adinazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00628",
+                        "description": "Clorazepic acid may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "Midazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00690",
+                        "description": "Flurazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00801",
+                        "description": "Halazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "Diazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00842",
+                        "description": "Oxazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00897",
+                        "description": "Triazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01068",
+                        "description": "Clonazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01215",
+                        "description": "Estazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01489",
+                        "description": "Camazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01511",
+                        "description": "Delorazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01544",
+                        "description": "Flunitrazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01545",
+                        "description": "Ethyl loflazepate may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01553",
+                        "description": "Cloxazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "Bromazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01559",
+                        "description": "Clotiazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01567",
+                        "description": "Fludiazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01587",
+                        "description": "Ketazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01588",
+                        "description": "Prazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01589",
+                        "description": "Quazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01594",
+                        "description": "Cinolazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01595",
+                        "description": "Nitrazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB09017",
+                        "description": "Brotizolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB09166",
+                        "description": "Etizolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB12537",
+                        "description": "Benzodiazepine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13335",
+                        "description": "Pinazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13437",
+                        "description": "Medazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13643",
+                        "description": "Loprazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13837",
+                        "description": "Doxefazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13872",
+                        "description": "Lormetazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14028",
+                        "description": "Nordazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14672",
+                        "description": "Oxazepam acetate may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14715",
+                        "description": "Cinazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB12404",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Remimazolam"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The serum concentration of Sodium oxybate can be increased when it is combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of adverse effects can be increased when Methadone is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00189",
+                        "description": "Ethchlorvynol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00237",
+                        "description": "Butabarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "Butalbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00292",
+                        "description": "Etomidate may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00306",
+                        "description": "Talbutal may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "Pentobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00371",
+                        "description": "Meprobamate may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "Eszopiclone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "Secobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "Zolpidem may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00474",
+                        "description": "Methohexital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "Thiopental may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "Dexmedetomidine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00747",
+                        "description": "Scopolamine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00777",
+                        "description": "Propiomazine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "Primidone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "Propofol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "Methylphenobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "Remifentanil may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00962",
+                        "description": "Zaleplon may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "Ramelteon may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "Melatonin may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "Diphenhydramine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01107",
+                        "description": "Methyprylon may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "Thiamylal may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "Phenobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "Zopiclone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "Amobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01352",
+                        "description": "Aprobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01353",
+                        "description": "Butobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01354",
+                        "description": "Heptabarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "Hexobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01437",
+                        "description": "Glutethimide may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "Barbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01495",
+                        "description": "Dichloralphenazone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01534",
+                        "description": "Chlorhexadol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB01563",
+                        "description": "Chloral hydrate may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB02234",
+                        "description": "S Ethylisothiourea may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB04819",
+                        "description": "Methapyrilene may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB04833",
+                        "description": "Methaqualone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB04903",
+                        "description": "Pagoclone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB06470",
+                        "description": "Clomethiazole may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB06529",
+                        "description": "Ocinaplon may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB06691",
+                        "description": "Mepyramine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB06716",
+                        "description": "Fospropofol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB06753",
+                        "description": "Triclofos may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "Suvorexant may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "Tasimelteon may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB09117",
+                        "description": "Paraldehyde may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11376",
+                        "description": "Azaperone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11428",
+                        "description": "Medetomidine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11477",
+                        "description": "Xylazine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11543",
+                        "description": "Romifidine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11556",
+                        "description": "Detomidine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB12576",
+                        "description": "AZD 3043 may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB12590",
+                        "description": "Indiplon may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13099",
+                        "description": "Valnoctamide may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13221",
+                        "description": "Apronalide may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13253",
+                        "description": "Proxibarbal may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13331",
+                        "description": "Pyrithyldione may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13370",
+                        "description": "Bromisoval may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13377",
+                        "description": "Vinbarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13402",
+                        "description": "Acetylglycinamide chloral hydrate may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13455",
+                        "description": "Phenibut may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13505",
+                        "description": "Emepronium may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13534",
+                        "description": "Gedocarnil may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13577",
+                        "description": "Allobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13662",
+                        "description": "Hexapropymate may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13665",
+                        "description": "Fluanisone may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13687",
+                        "description": "Niaprazine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13733",
+                        "description": "Methylpentynol may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13737",
+                        "description": "Cyclobarbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13770",
+                        "description": "Vinylbital may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13805",
+                        "description": "Reposal may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13817",
+                        "description": "Carbromal may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14718",
+                        "description": "Pyrazolam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14719",
+                        "description": "Bentazepam may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Azelastine"
+                    },
+                    {
+                        "drugbank-id": "DB00484",
+                        "description": "Brimonidine may increase the central nervous system depressant CNS depressant activities of Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00209",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trospium"
+                    },
+                    {
+                        "drugbank-id": "DB00219",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxyphenonium"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benzatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00332",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Ipratropium"
+                    },
+                    {
+                        "drugbank-id": "DB00340",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Metixene"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Buclizine"
+                    },
+                    {
+                        "drugbank-id": "DB00376",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trihexyphenidyl"
+                    },
+                    {
+                        "drugbank-id": "DB00383",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxyphencyclimine"
+                    },
+                    {
+                        "drugbank-id": "DB00387",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Procyclidine"
+                    },
+                    {
+                        "drugbank-id": "DB00392",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Profenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Hyoscyamine"
+                    },
+                    {
+                        "drugbank-id": "DB00462",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methscopolamine bromide"
+                    },
+                    {
+                        "drugbank-id": "DB00496",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Darifenacin"
+                    },
+                    {
+                        "drugbank-id": "DB00505",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tridihexethyl"
+                    },
+                    {
+                        "drugbank-id": "DB00517",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Anisotropine methylbromide"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Atropine"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00670",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pirenzepine"
+                    },
+                    {
+                        "drugbank-id": "DB00725",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Homatropine methylbromide"
+                    },
+                    {
+                        "drugbank-id": "DB00767",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benzquinamide"
+                    },
+                    {
+                        "drugbank-id": "DB00782",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Propantheline"
+                    },
+                    {
+                        "drugbank-id": "DB00804",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dicyclomine"
+                    },
+                    {
+                        "drugbank-id": "DB00810",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Biperiden"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methantheline"
+                    },
+                    {
+                        "drugbank-id": "DB00942",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Cycrimine"
+                    },
+                    {
+                        "drugbank-id": "DB00986",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Glycopyrronium"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tolterodine"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxybutynin"
+                    },
+                    {
+                        "drugbank-id": "DB01148",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Flavoxate"
+                    },
+                    {
+                        "drugbank-id": "DB01231",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Diphenidol"
+                    },
+                    {
+                        "drugbank-id": "DB01409",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tiotropium"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Solifenacin"
+                    },
+                    {
+                        "drugbank-id": "DB01625",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Isopropamide"
+                    },
+                    {
+                        "drugbank-id": "DB04843",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mepenzolate"
+                    },
+                    {
+                        "drugbank-id": "DB06702",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fesoterodine"
+                    },
+                    {
+                        "drugbank-id": "DB06787",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Hexocyclium"
+                    },
+                    {
+                        "drugbank-id": "DB08801",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dimetindene"
+                    },
+                    {
+                        "drugbank-id": "DB08897",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Aclidinium"
+                    },
+                    {
+                        "drugbank-id": "DB08997",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dexetimide"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Umeclidinium"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Trimebutine"
+                    },
+                    {
+                        "drugbank-id": "DB09262",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Imidafenacin"
+                    },
+                    {
+                        "drugbank-id": "DB09300",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Butylscopolamine"
+                    },
+                    {
+                        "drugbank-id": "DB11235",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Thonzylamine"
+                    },
+                    {
+                        "drugbank-id": "DB11315",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Methscopolamine"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Revefenacin"
+                    },
+                    {
+                        "drugbank-id": "DB12086",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Oxitropium"
+                    },
+                    {
+                        "drugbank-id": "DB12278",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Propiverine"
+                    },
+                    {
+                        "drugbank-id": "DB12526",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Batefenterol"
+                    },
+                    {
+                        "drugbank-id": "DB12554",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mebeverine"
+                    },
+                    {
+                        "drugbank-id": "DB13252",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tropatepine"
+                    },
+                    {
+                        "drugbank-id": "DB13254",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Prifinium"
+                    },
+                    {
+                        "drugbank-id": "DB13351",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Piperidolate"
+                    },
+                    {
+                        "drugbank-id": "DB13369",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Benzilone"
+                    },
+                    {
+                        "drugbank-id": "DB13380",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Difemerine"
+                    },
+                    {
+                        "drugbank-id": "DB13413",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Phenglutarimide"
+                    },
+                    {
+                        "drugbank-id": "DB13448",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Mazaticol"
+                    },
+                    {
+                        "drugbank-id": "DB13468",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Etybenzatropine"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13507",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Poldine"
+                    },
+                    {
+                        "drugbank-id": "DB13542",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Bevonium"
+                    },
+                    {
+                        "drugbank-id": "DB13581",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Rociverine"
+                    },
+                    {
+                        "drugbank-id": "DB13619",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Bornaprine"
+                    },
+                    {
+                        "drugbank-id": "DB13636",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Etanautine"
+                    },
+                    {
+                        "drugbank-id": "DB13666",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Tiemonium iodide"
+                    },
+                    {
+                        "drugbank-id": "DB13678",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Dihexyverine"
+                    },
+                    {
+                        "drugbank-id": "DB13695",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Penthienate"
+                    },
+                    {
+                        "drugbank-id": "DB13720",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Diphemanil"
+                    },
+                    {
+                        "drugbank-id": "DB13738",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Camylofin"
+                    },
+                    {
+                        "drugbank-id": "DB13759",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fenpiverinium"
+                    },
+                    {
+                        "drugbank-id": "DB13769",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Emetonium iodide"
+                    },
+                    {
+                        "drugbank-id": "DB13844",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Pipenzolate"
+                    },
+                    {
+                        "drugbank-id": "DB13850",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Timepidium"
+                    },
+                    {
+                        "drugbank-id": "DB09007",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Chlorphenoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The therapeutic efficacy of Sodium oxybate can be increased when used in combination with Pregabalin"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The therapeutic efficacy of Sodium oxybate can be increased when used in combination with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB05077",
+                        "description": "The risk or severity of adverse effects can be increased when SLV319 is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB06155",
+                        "description": "The risk or severity of adverse effects can be increased when Rimonabant is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB06624",
+                        "description": "The risk or severity of adverse effects can be increased when Taranabant is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11903",
+                        "description": "The risk or severity of adverse effects can be increased when GW842166 is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB12193",
+                        "description": "The risk or severity of adverse effects can be increased when Ajulemic acid is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB12649",
+                        "description": "The risk or severity of adverse effects can be increased when Ibipinabant is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13070",
+                        "description": "The risk or severity of adverse effects can be increased when Surinabant is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The risk or severity of adverse effects can be increased when WIN 55212 2 is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14011",
+                        "description": "The risk or severity of adverse effects can be increased when Nabiximols is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14043",
+                        "description": "The risk or severity of adverse effects can be increased when Palmidrol is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14737",
+                        "description": "The risk or severity of adverse effects can be increased when Cannabinol is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00913",
+                        "description": "The therapeutic efficacy of Sodium oxybate can be increased when used in combination with Anileridine"
+                    },
+                    {
+                        "drugbank-id": "DB09085",
+                        "description": "The therapeutic efficacy of Tetracaine can be increased when used in combination with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11387",
+                        "description": "The therapeutic efficacy of Chloroform can be increased when used in combination with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13229",
+                        "description": "The therapeutic efficacy of Enibomal can be increased when used in combination with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB13453",
+                        "description": "The therapeutic efficacy of Xenon can be increased when used in combination with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The therapeutic efficacy of Sodium oxybate can be increased when used in combination with Medical Cannabis"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "The risk or severity of adverse effects can be increased when Sodium oxybate is combined with Esketamine"
+                    },
+                    {
+                        "drugbank-id": "DB00395",
+                        "description": "The risk or severity of adverse effects can be increased when Carisoprodol is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The risk or severity of sedation can be increased when Clonidine is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "The risk or severity of CNS depression can be increased when Sodium oxybate is combined with Cyclobenzaprine"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of sedation can be increased when Metoclopramide is combined with Sodium oxybate"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "The risk or severity of adverse effects can be increased when Sodium oxybate is combined with Lasmiditan"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The risk or severity of CNS depression can be increased when Sodium oxybate is combined with Tramadol"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of adverse effects can be increased when Sodium oxybate is combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of CNS depression can be increased when Sodium oxybate is combined with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "Sodium oxybate may increase the central nervous system depressant CNS depressant activities of Fluoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB14881",
+                        "description": "The risk or severity of hypotension sedation death somnolence and respiratory depression can be increased when Sodium oxybate is combined with Oliceridine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

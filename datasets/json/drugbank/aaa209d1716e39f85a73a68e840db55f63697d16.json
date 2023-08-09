@@ -1,0 +1,1561 @@
+{
+    "medicine_id": "aaa209d1716e39f85a73a68e840db55f63697d16",
+    "platform_id": "DB09042",
+    "metadata": {
+        "name": "Sivextro 200 mg Tablet film coated",
+        "composition": "200 mg Tedizolid phosphate",
+        "clinical_particulars": {
+            "therapeutic_indications": "Tedizolid is indicated for the treatment of acute bacterial infections of the skin and skin structure ABSSSI To prevent drug resistance tedizolid should only be used for infections that are caused by susceptible bacteria L11232",
+            "contraindications": {
+                "disease": "Toxicity information regarding tedizolid is not readily available Patients experiencing an overdose are at an increased risk of severe adverse effects such as nausea headache dizziness diarrhea and vomiting Symptomatic and supportive measures are recommended L11232",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Tedizolid is an oxazolidinone antibiotic that works by inhibiting protein synthesis by bacterial ribosomes L11232 A199077 A199086 However oxazolidinone antibiotics can also bind to human mitochondrial but not cytoplasmic ribosomes A199080 A199092 Mitochondrial protein synthesis inhibition is associated with adverse patient effects such as neurological hematological and gastrointestinal toxicity although tedizolid is tolerated better than the related linezolid A199050 Alternative therapies should be considered when treating neutropenic patients with ABSSSI _Clostridium difficile_ associated diarrhea has been reported in patients treated with tedizolid L11232",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of neutropenia can be increased when Tedizolid phosphate is combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The risk or severity of myelosuppression can be increased when Metamizole is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Fluvoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00216",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Eletriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Cabergoline"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Venlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Zolmitriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Dihydroergotamine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Protriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Meperidine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Fluoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Dextromethorphan"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Nortriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Amoxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00579",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Mazindol"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Sumatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Ergotamine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Trimipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Fentanyl"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Almotriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00952",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Naratriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00953",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Rizatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Frovatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Selegiline"
+                    },
+                    {
+                        "drugbank-id": "DB01049",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Ergoloid mesylate"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Sertraline"
+                    },
+                    {
+                        "drugbank-id": "DB01105",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Sibutramine"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Chlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Procarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Moclobemide"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Isocarboxazid"
+                    },
+                    {
+                        "drugbank-id": "DB01253",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Ergometrine"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Rasagiline"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Zimelidine"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Lorcaserin"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Dapoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Milnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Mianserin"
+                    },
+                    {
+                        "drugbank-id": "DB06684",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Vilazodone"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Desvenlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB06701",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Dexmethylphenidate"
+                    },
+                    {
+                        "drugbank-id": "DB06731",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Seproxetine"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Levomilnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Indalpine"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Vortioxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09194",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Etoperidone"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB13233",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Alaproclate"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Lumateperone"
+                    },
+                    {
+                        "drugbank-id": "DB09195",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Lorpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Linezolid"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Tapentadol"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Tramadol"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Trazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of serotonin syndrome can be increased when Tedizolid phosphate is combined with Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Tenamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Amphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Phentermine"
+                    },
+                    {
+                        "drugbank-id": "DB00211",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Midodrine"
+                    },
+                    {
+                        "drugbank-id": "DB00368",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Norepinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Phenylephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00397",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Phenylpropanolamine"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Labetalol"
+                    },
+                    {
+                        "drugbank-id": "DB00610",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Metaraminol"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Epinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00723",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Methoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00816",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Orciprenaline"
+                    },
+                    {
+                        "drugbank-id": "DB00830",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00841",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Dobutamine"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Pseudoephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Benzphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00867",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Ritodrine"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Terbutaline"
+                    },
+                    {
+                        "drugbank-id": "DB00935",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Oxymetazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Diethylpropion"
+                    },
+                    {
+                        "drugbank-id": "DB00988",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Dopamine"
+                    },
+                    {
+                        "drugbank-id": "DB01064",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Isoprenaline"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Lisdexamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01288",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Fenoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01364",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Ephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB01365",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Mephentermine"
+                    },
+                    {
+                        "drugbank-id": "DB01366",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Procaterol"
+                    },
+                    {
+                        "drugbank-id": "DB01407",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Clenbuterol"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of MMDA"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Midomafetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01467",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of 2 5 Dimethoxy 4 ethylamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of 4 Bromo 2 5 dimethoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01556",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Chlorphentermine"
+                    },
+                    {
+                        "drugbank-id": "DB01566",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Methylenedioxyethamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Dextroamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Metamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Nylidrin"
+                    },
+                    {
+                        "drugbank-id": "DB06764",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Tetryzoline"
+                    },
+                    {
+                        "drugbank-id": "DB08841",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Tyramine"
+                    },
+                    {
+                        "drugbank-id": "DB08941",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Isoxsuprine"
+                    },
+                    {
+                        "drugbank-id": "DB08985",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Etilefrine"
+                    },
+                    {
+                        "drugbank-id": "DB09203",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Synephrine"
+                    },
+                    {
+                        "drugbank-id": "DB09480",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Iofetamine I 123"
+                    },
+                    {
+                        "drugbank-id": "DB11124",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Racepinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB12080",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Ritobegron"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Bucindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13064",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Tramazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13108",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Mephedrone"
+                    },
+                    {
+                        "drugbank-id": "DB13341",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Fenozolone"
+                    },
+                    {
+                        "drugbank-id": "DB13624",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Methoxyphenamine"
+                    },
+                    {
+                        "drugbank-id": "DB13692",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Tretoquinol"
+                    },
+                    {
+                        "drugbank-id": "DB13703",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Gepefrine"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13777",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Prenalterol"
+                    },
+                    {
+                        "drugbank-id": "DB13852",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Mefenorex"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of 2 5 Dimethoxy 4 ethylthioamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "The risk or severity of bleeding can be increased when Abciximab is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00063",
+                        "description": "The risk or severity of bleeding can be increased when Eptifibatide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The risk or severity of bleeding can be increased when Ticlopidine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The risk or severity of bleeding can be increased when Anagrelide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The risk or severity of bleeding can be increased when Clopidogrel is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00775",
+                        "description": "The risk or severity of bleeding can be increased when Tirofiban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The risk or severity of bleeding can be increased when Pentoxifylline is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of bleeding can be increased when Acetylsalicylic acid is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of bleeding can be increased when Dipyridamole is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of bleeding can be increased when Iloprost is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "The risk or severity of bleeding can be increased when Sulfinpyrazone is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The risk or severity of bleeding can be increased when Cilostazol is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01207",
+                        "description": "The risk or severity of bleeding can be increased when Ridogrel is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "The risk or severity of bleeding can be increased when Epoprostenol is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The risk or severity of bleeding can be increased when Resveratrol is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The risk or severity of bleeding can be increased when Nimesulide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04905",
+                        "description": "The risk or severity of bleeding can be increased when Tesmilifene is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04932",
+                        "description": "The risk or severity of bleeding can be increased when Defibrotide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "The risk or severity of bleeding can be increased when Beraprost is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "The risk or severity of bleeding can be increased when Ibudilast is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05767",
+                        "description": "The risk or severity of bleeding can be increased when Andrographolide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06081",
+                        "description": "The risk or severity of bleeding can be increased when Caplacizumab is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "The risk or severity of bleeding can be increased when Prasugrel is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06441",
+                        "description": "The risk or severity of bleeding can be increased when Cangrelor is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The risk or severity of bleeding can be increased when Tranilast is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08814",
+                        "description": "The risk or severity of bleeding can be increased when Triflusal is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The risk or severity of bleeding can be increased when Ticagrelor is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08887",
+                        "description": "The risk or severity of bleeding can be increased when Icosapent ethyl is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The risk or severity of bleeding can be increased when Vorapaxar is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09283",
+                        "description": "The risk or severity of bleeding can be increased when Trapidil is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The risk or severity of bleeding can be increased when Naftopidil is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12321",
+                        "description": "The risk or severity of bleeding can be increased when Ifetroban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The risk or severity of bleeding can be increased when Nitroaspirin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "The risk or severity of bleeding can be increased when Indobufen is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12749",
+                        "description": "The risk or severity of bleeding can be increased when Butylphthalide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12771",
+                        "description": "The risk or severity of bleeding can be increased when Hydroxytyrosol is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13036",
+                        "description": "The risk or severity of bleeding can be increased when Ramatroban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13327",
+                        "description": "The risk or severity of bleeding can be increased when Picotamide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13367",
+                        "description": "The risk or severity of bleeding can be increased when Cloricromen is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "The risk or severity of bleeding can be increased when Linsidomine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13510",
+                        "description": "The risk or severity of bleeding can be increased when Buflomedil is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13929",
+                        "description": "The risk or severity of bleeding can be increased when Relcovaptan is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of bleeding can be increased when Sevoflurane is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12163",
+                        "description": "The risk or severity of bleeding can be increased when Sarpogrelate is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "The risk or severity of bleeding can be increased when Ketanserin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13200",
+                        "description": "Tedizolid phosphate may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00039",
+                        "description": "The therapeutic efficacy of Palifermin can be decreased when used in combination with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Tedizolid phosphate is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00001",
+                        "description": "The risk or severity of bleeding can be increased when Lepirudin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00006",
+                        "description": "The risk or severity of bleeding can be increased when Bivalirudin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "The risk or severity of bleeding can be increased when Alteplase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "The risk or severity of bleeding can be increased when Urokinase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "The risk or severity of bleeding can be increased when Reteplase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "The risk or severity of bleeding can be increased when Anistreplase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "The risk or severity of bleeding can be increased when Tenecteplase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00055",
+                        "description": "The risk or severity of bleeding can be increased when Drotrecogin alfa is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of bleeding can be increased when Streptokinase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00278",
+                        "description": "The risk or severity of bleeding can be increased when Argatroban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "The risk or severity of bleeding can be increased when Ardeparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00569",
+                        "description": "The risk or severity of bleeding can be increased when Fondaparinux is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00686",
+                        "description": "The risk or severity of bleeding can be increased when Pentosan polysulfate is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "The risk or severity of bleeding can be increased when Heparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "The risk or severity of bleeding can be increased when Enoxaparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "The risk or severity of bleeding can be increased when Ximelagatran is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04925",
+                        "description": "The risk or severity of bleeding can be increased when Desmoteplase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05099",
+                        "description": "The risk or severity of bleeding can be increased when Ancrod is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05254",
+                        "description": "The risk or severity of bleeding can be increased when Fibrinolysin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The risk or severity of bleeding can be increased when Rivaroxaban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "The risk or severity of bleeding can be increased when Sulodexide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06294",
+                        "description": "The risk or severity of bleeding can be increased when Semuloparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06406",
+                        "description": "The risk or severity of bleeding can be increased when Idraparinux is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06543",
+                        "description": "The risk or severity of bleeding can be increased when Astaxanthin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The risk or severity of bleeding can be increased when Apixaban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06635",
+                        "description": "The risk or severity of bleeding can be increased when Otamixaban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "The risk or severity of bleeding can be increased when Amediplase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "The risk or severity of bleeding can be increased when Dabigatran etexilate is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "The risk or severity of bleeding can be increased when Danaparoid is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "The risk or severity of bleeding can be increased when Dalteparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "The risk or severity of bleeding can be increased when Tinzaparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "The risk or severity of bleeding can be increased when Ferulic acid is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "The risk or severity of bleeding can be increased when Nadroparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08994",
+                        "description": "The risk or severity of bleeding can be increased when Ditazole is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "The risk or severity of bleeding can be increased when Edoxaban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "The risk or severity of bleeding can be increased when Potassium citrate is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "The risk or severity of bleeding can be increased when Sodium citrate is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09255",
+                        "description": "The risk or severity of bleeding can be increased when Dextran is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "The risk or severity of bleeding can be increased when Bemiparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "The risk or severity of bleeding can be increased when Parnaparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB11095",
+                        "description": "The risk or severity of bleeding can be increased when Desirudin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "The risk or severity of bleeding can be increased when Zinc citrate is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB11166",
+                        "description": "The risk or severity of bleeding can be increased when Antithrombin Alfa is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB11312",
+                        "description": "The risk or severity of bleeding can be increased when Protein C is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB11598",
+                        "description": "The risk or severity of bleeding can be increased when Antithrombin III human is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB11984",
+                        "description": "The risk or severity of bleeding can be increased when Letaxaban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12289",
+                        "description": "The risk or severity of bleeding can be increased when Darexaban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "The risk or severity of bleeding can be increased when Betrixaban is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12598",
+                        "description": "The risk or severity of bleeding can be increased when Nafamostat is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12726",
+                        "description": "The risk or severity of bleeding can be increased when Monteplase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB12831",
+                        "description": "The risk or severity of bleeding can be increased when Gabexate is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13149",
+                        "description": "The risk or severity of bleeding can be increased when Protein S human is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13199",
+                        "description": "The risk or severity of bleeding can be increased when Brinase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13616",
+                        "description": "The risk or severity of bleeding can be increased when Melagatran is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "The risk or severity of bleeding can be increased when Saruplase is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "The risk or severity of bleeding can be increased when Tocopherylquinone is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14598",
+                        "description": "The risk or severity of bleeding can be increased when Edetate calcium disodium anhydrous is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14726",
+                        "description": "The risk or severity of bleeding can be increased when Dabigatran is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13124",
+                        "description": "The risk or severity of bleeding can be increased when Troxerutin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00974",
+                        "description": "The risk or severity of bleeding can be increased when Edetic acid is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "The risk or severity of bleeding can be increased when Reviparin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Methyclothiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Bendroflumethiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Benzthiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Cyclothiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Hydroflumethiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Chlorothiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Hydrochlorothiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Trichlormethiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Polythiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Mebutizide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Cyclopenthiazide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00008",
+                        "description": "The risk or severity of myelosuppression can be increased when Peginterferon alfa 2a is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00011",
+                        "description": "The risk or severity of myelosuppression can be increased when Interferon alfa n1 is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00018",
+                        "description": "The risk or severity of myelosuppression can be increased when Interferon alfa n3 is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00022",
+                        "description": "The risk or severity of myelosuppression can be increased when Peginterferon alfa 2b is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00033",
+                        "description": "The risk or severity of myelosuppression can be increased when Interferon gamma 1b is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00034",
+                        "description": "The risk or severity of myelosuppression can be increased when Interferon alfa 2a Recombinant is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "The risk or severity of myelosuppression can be increased when Aldesleukin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00056",
+                        "description": "The risk or severity of myelosuppression can be increased when Gemtuzumab ozogamicin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00068",
+                        "description": "The risk or severity of myelosuppression can be increased when Interferon beta 1b is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00069",
+                        "description": "The risk or severity of myelosuppression can be increased when Interferon alfacon 1 is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00073",
+                        "description": "The risk or severity of myelosuppression can be increased when Rituximab is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00078",
+                        "description": "The risk or severity of myelosuppression can be increased when Ibritumomab tiuxetan is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00081",
+                        "description": "The risk or severity of myelosuppression can be increased when Tositumomab is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00087",
+                        "description": "The risk or severity of myelosuppression can be increased when Alemtuzumab is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00105",
+                        "description": "The risk or severity of myelosuppression can be increased when Interferon alfa 2b is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00120",
+                        "description": "The risk or severity of myelosuppression can be increased when Phenylalanine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The risk or severity of myelosuppression can be increased when Bortezomib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "The risk or severity of myelosuppression can be increased when Cladribine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "The risk or severity of myelosuppression can be increased when Carmustine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00276",
+                        "description": "The risk or severity of myelosuppression can be increased when Amsacrine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00291",
+                        "description": "The risk or severity of myelosuppression can be increased when Chlorambucil is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00293",
+                        "description": "The risk or severity of myelosuppression can be increased when Raltitrexed is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00305",
+                        "description": "The risk or severity of myelosuppression can be increased when Mitomycin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The risk or severity of myelosuppression can be increased when Bexarotene is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "The risk or severity of myelosuppression can be increased when Vindesine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00322",
+                        "description": "The risk or severity of myelosuppression can be increased when Floxuridine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The risk or severity of myelosuppression can be increased when Indomethacin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00352",
+                        "description": "The risk or severity of myelosuppression can be increased when Tioguanine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "The risk or severity of myelosuppression can be increased when Vinorelbine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00380",
+                        "description": "The risk or severity of myelosuppression can be increased when Dexrazoxane is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The risk or severity of myelosuppression can be increased when Sorafenib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00428",
+                        "description": "The risk or severity of myelosuppression can be increased when Streptozocin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "The risk or severity of myelosuppression can be increased when Gemcitabine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The risk or severity of myelosuppression can be increased when Teniposide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00445",
+                        "description": "The risk or severity of myelosuppression can be increased when Epirubicin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "The risk or severity of myelosuppression can be increased when Chloramphenicol is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00480",
+                        "description": "The risk or severity of myelosuppression can be increased when Lenalidomide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00488",
+                        "description": "The risk or severity of myelosuppression can be increased when Altretamine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The risk or severity of myelosuppression can be increased when Zidovudine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "The risk or severity of myelosuppression can be increased when Cisplatin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The risk or severity of myelosuppression can be increased when Oxaliplatin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The risk or severity of myelosuppression can be increased when Cyclophosphamide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of myelosuppression can be increased when Fluorouracil is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "The risk or severity of myelosuppression can be increased when Propylthiouracil is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00552",
+                        "description": "The risk or severity of myelosuppression can be increased when Pentostatin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The risk or severity of myelosuppression can be increased when Methotrexate is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The risk or severity of myelosuppression can be increased when Carbamazepine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The risk or severity of myelosuppression can be increased when Vinblastine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The risk or severity of myelosuppression can be increased when Imatinib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The risk or severity of myelosuppression can be increased when Clofarabine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The risk or severity of myelosuppression can be increased when Pemetrexed is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "The risk or severity of myelosuppression can be increased when Daunorubicin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The risk or severity of myelosuppression can be increased when Irinotecan is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The risk or severity of myelosuppression can be increased when Methimazole is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The risk or severity of myelosuppression can be increased when Etoposide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "The risk or severity of myelosuppression can be increased when Dacarbazine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00853",
+                        "description": "The risk or severity of myelosuppression can be increased when Temozolomide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The risk or severity of myelosuppression can be increased when Penicillamine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of myelosuppression can be increased when Tacrolimus is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The risk or severity of myelosuppression can be increased when Sirolimus is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00888",
+                        "description": "The risk or severity of myelosuppression can be increased when Mechlorethamine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00928",
+                        "description": "The risk or severity of myelosuppression can be increased when Azacitidine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00958",
+                        "description": "The risk or severity of myelosuppression can be increased when Carboplatin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "The risk or severity of myelosuppression can be increased when Dactinomycin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00987",
+                        "description": "The risk or severity of myelosuppression can be increased when Cytarabine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The risk or severity of myelosuppression can be increased when Doxorubicin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01005",
+                        "description": "The risk or severity of myelosuppression can be increased when Hydroxyurea is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "The risk or severity of myelosuppression can be increased when Busulfan is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The risk or severity of myelosuppression can be increased when Topotecan is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "The risk or severity of myelosuppression can be increased when Mercaptopurine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "The risk or severity of myelosuppression can be increased when Thalidomide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01042",
+                        "description": "The risk or severity of myelosuppression can be increased when Melphalan is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01073",
+                        "description": "The risk or severity of myelosuppression can be increased when Fludarabine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01099",
+                        "description": "The risk or severity of myelosuppression can be increased when Flucytosine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "The risk or severity of myelosuppression can be increased when Capecitabine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of myelosuppression can be increased when Arsenic trioxide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01177",
+                        "description": "The risk or severity of myelosuppression can be increased when Idarubicin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The risk or severity of myelosuppression can be increased when Ifosfamide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "The risk or severity of myelosuppression can be increased when Mitoxantrone is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01206",
+                        "description": "The risk or severity of myelosuppression can be increased when Lomustine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The risk or severity of myelosuppression can be increased when Paclitaxel is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The risk or severity of myelosuppression can be increased when Docetaxel is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The risk or severity of myelosuppression can be increased when Dasatinib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01262",
+                        "description": "The risk or severity of myelosuppression can be increased when Decitabine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01280",
+                        "description": "The risk or severity of myelosuppression can be increased when Nelarabine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The risk or severity of myelosuppression can be increased when Everolimus is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of myelosuppression can be increased when Vorinostat is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "The risk or severity of myelosuppression can be increased when Thiotepa is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The risk or severity of myelosuppression can be increased when Ixabepilone is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The risk or severity of myelosuppression can be increased when Nilotinib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "The risk or severity of myelosuppression can be increased when Belinostat is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The risk or severity of myelosuppression can be increased when Trabectedin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05258",
+                        "description": "The risk or severity of myelosuppression can be increased when Interferon alfa is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05472",
+                        "description": "The risk or severity of myelosuppression can be increased when Human interferon omega 1 is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The risk or severity of myelosuppression can be increased when Trastuzumab emtansine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The risk or severity of myelosuppression can be increased when Temsirolimus is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The risk or severity of myelosuppression can be increased when Bosutinib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The risk or severity of myelosuppression can be increased when Bendamustine is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The risk or severity of myelosuppression can be increased when Cabazitaxel is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of myelosuppression can be increased when Eribulin is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "The risk or severity of myelosuppression can be increased when Ruxolitinib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08889",
+                        "description": "The risk or severity of myelosuppression can be increased when Carfilzomib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08895",
+                        "description": "The risk or severity of myelosuppression can be increased when Tofacitinib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The risk or severity of myelosuppression can be increased when Ponatinib is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The risk or severity of myelosuppression can be increased when Pomalidomide is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "The risk or severity of myelosuppression can be increased when Obinutuzumab is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09052",
+                        "description": "The risk or severity of myelosuppression can be increased when Tedizolid phosphate is combined with Blinatumomab"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The risk or severity of myelosuppression can be increased when Tedizolid phosphate is combined with Ibrutinib"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The risk or severity of myelosuppression can be increased when Tedizolid phosphate is combined with Palbociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The risk or severity of myelosuppression can be increased when Tedizolid phosphate is combined with Olaparib"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "The risk or severity of myelosuppression can be increased when Tedizolid phosphate is combined with Dinutuximab"
+                    },
+                    {
+                        "drugbank-id": "DB09122",
+                        "description": "The risk or severity of myelosuppression can be increased when Tedizolid phosphate is combined with Peginterferon beta 1a"
+                    },
+                    {
+                        "drugbank-id": "DB12814",
+                        "description": "The risk or severity of myelosuppression can be increased when Tedizolid phosphate is combined with Cepeginterferon alfa 2B"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00115",
+                        "description": "The therapeutic efficacy of Cyanocobalamin can be decreased when used in combination with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "The risk or severity of adverse effects can be increased when Allopurinol is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Tedizolid phosphate can be decreased when used in combination with Vibrio cholerae CVD 103 HgR strain live antigen"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

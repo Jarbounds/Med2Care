@@ -1,0 +1,3001 @@
+{
+    "medicine_id": "185e34ae54d36cb917d8850d713f232758fc4362",
+    "platform_id": "DB06210",
+    "metadata": {
+        "name": "Promacta 25 mg 1 Tablet film coated",
+        "composition": "25 mg 1 Eltrombopag",
+        "clinical_particulars": {
+            "therapeutic_indications": "Thrombopoietin receptor agonists are pharmaceutical agents that stimulate platelet production in the bone marrow In this they differ from the previously discussed agents that act by attempting to curtail platelet destruction",
+            "contraindications": {
+                "disease": "Eltrombopag may cause hepatotoxicity especially if administered in combination with interferon and ribavirin in patients with chronic hepatitis C may increase the risk of hepatic decompensation",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The serum concentration of Eltrombopag can be increased when it is combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB00022",
+                        "description": "The serum concentration of Eltrombopag can be increased when it is combined with Peginterferon alfa 2b"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Leflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The risk or severity of neutropenia can be increased when Eltrombopag is combined with Irinotecan"
+                    },
+                    {
+                        "drugbank-id": "DB00258",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00326",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium glucoheptonate"
+                    },
+                    {
+                        "drugbank-id": "DB01164",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium chloride"
+                    },
+                    {
+                        "drugbank-id": "DB01373",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium"
+                    },
+                    {
+                        "drugbank-id": "DB06724",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB11093",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11126",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium gluconate"
+                    },
+                    {
+                        "drugbank-id": "DB11348",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium Phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13231",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium lactate"
+                    },
+                    {
+                        "drugbank-id": "DB13365",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium lactate gluconate"
+                    },
+                    {
+                        "drugbank-id": "DB13590",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium pangamate"
+                    },
+                    {
+                        "drugbank-id": "DB14684",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Calcium polycarbophil"
+                    },
+                    {
+                        "drugbank-id": "DB08826",
+                        "description": "The serum concentration of Deferiprone can be increased when it is combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The serum concentration of Eltrombopag can be increased when it is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00364",
+                        "description": "Sucralfate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00516",
+                        "description": "Bentoquatam can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "Magnesium sulfate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01370",
+                        "description": "Aluminium can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "Magnesium oxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "Magnesium salicylate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01575",
+                        "description": "Kaolin can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01593",
+                        "description": "Zinc can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB02165",
+                        "description": "Zinc trihydroxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04249",
+                        "description": "Zinc Substituted Heme C can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "Aluminum hydroxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "Magaldrate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09087",
+                        "description": "Potassium alum can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "Magnesium hydroxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09221",
+                        "description": "Polaprezinc can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "Magnesium trisilicate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09321",
+                        "description": "Zinc oxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09322",
+                        "description": "Zinc sulfate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09407",
+                        "description": "Magnesium chloride can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "Magnesium carbonate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09511",
+                        "description": "Talc can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11081",
+                        "description": "Aluminum chloride can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11110",
+                        "description": "Magnesium citrate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "Zinc citrate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11175",
+                        "description": "Zinc picolinate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11239",
+                        "description": "Aluminum sulfate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11248",
+                        "description": "Zinc gluconate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11306",
+                        "description": "Bentonite can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "Magnesium silicate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "Aluminium acetoacetate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "Hydrotalcite can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13359",
+                        "description": "Magnesium aspartate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "Magnesium peroxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "Aluminium glycinate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "Aloglutamol can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13654",
+                        "description": "Montmorillonite can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13749",
+                        "description": "Magnesium gluconate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13786",
+                        "description": "Magnesium orotate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14479",
+                        "description": "Acetylcysteine zinc can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14485",
+                        "description": "Zinc ascorbate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14487",
+                        "description": "Zinc acetate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14493",
+                        "description": "Zinc glycinate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "Magnesium can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14514",
+                        "description": "Magnesium levulinate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14515",
+                        "description": "Magnesium lactate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "Aluminium phosphate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14533",
+                        "description": "Zinc chloride can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14548",
+                        "description": "Zinc sulfate unspecified form can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14532",
+                        "description": "Zinc cation can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11342",
+                        "description": "Aluminum oxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Desogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Lamotrigine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01420",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Testosterone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The serum concentration of Rosuvastatin can be increased when it is combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00893",
+                        "description": "Iron Dextran can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01592",
+                        "description": "Iron can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06783",
+                        "description": "Prussian blue can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09146",
+                        "description": "Iron sucrose can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09147",
+                        "description": "Ferric pyrophosphate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09501",
+                        "description": "Ferric ammonium citrate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09507",
+                        "description": "Ferumoxsil can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09508",
+                        "description": "Ferumoxides can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11171",
+                        "description": "Ferric sulfate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11210",
+                        "description": "Ferrous bisglycinate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11417",
+                        "description": "Gleptoferron can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11576",
+                        "description": "Ferric oxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12821",
+                        "description": "Perflubutane can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13257",
+                        "description": "Ferrous sulfate anhydrous can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13381",
+                        "description": "Sodium feredetate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13423",
+                        "description": "Ferric hydroxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13949",
+                        "description": "Ferric cation can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14488",
+                        "description": "Ferrous gluconate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14489",
+                        "description": "Ferrous succinate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14491",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14520",
+                        "description": "Tetraferric tricitrate decahydrate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14695",
+                        "description": "Ferric oxyhydroxide can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB15598",
+                        "description": "Ferric maltol can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB05812",
+                        "description": "The serum concentration of Eltrombopag can be increased when it is combined with Abiraterone"
+                    },
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "The serum concentration of Eluxadoline can be increased when it is combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Cyproterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01740",
+                        "description": "The bioavailability of 4 butyl 5 propyl 1 3 selenazol 2 amine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB02345",
+                        "description": "The bioavailability of Selenocysteine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB02442",
+                        "description": "The bioavailability of Dioxyselenocysteine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB02589",
+                        "description": "The bioavailability of Se Ethyl Isoselenourea can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB02753",
+                        "description": "The bioavailability of Selenoinosine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB02958",
+                        "description": "The bioavailability of Selenomethionine Selenoxide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB03043",
+                        "description": "The bioavailability of S 2 Amino 3 6h Selenolo 2 3 B Pyrrol 4 Yl Propionic Acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB03049",
+                        "description": "The bioavailability of S Selanyl Cysteine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB03070",
+                        "description": "The bioavailability of Selenazole 4 carboxyamide adenine dinucleotide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB03098",
+                        "description": "The bioavailability of Methylseleno Acetate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB03423",
+                        "description": "The bioavailability of S Adenosyl L Homoselenocysteine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB03513",
+                        "description": "The bioavailability of S 2 Amino 3 4h Selenolo 3 2 B Pyrrol 6 Yl Propionic Acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB05631",
+                        "description": "The bioavailability of ALT 2074 can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08783",
+                        "description": "The bioavailability of 4 2S 2 tert butoxycarbonyl amino 3 methoxy 3 oxopropyl phenyl methaneseleninic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09400",
+                        "description": "The bioavailability of Selenomethionine Se 75 can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11068",
+                        "description": "The bioavailability of Selenic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11127",
+                        "description": "The bioavailability of Selenious acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11135",
+                        "description": "The bioavailability of Selenium can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11142",
+                        "description": "The bioavailability of Selenomethionine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12610",
+                        "description": "The bioavailability of Ebselen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12697",
+                        "description": "The bioavailability of Methylselenocysteine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13622",
+                        "description": "The bioavailability of Selenium 75Se norcholesterol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB15051",
+                        "description": "The bioavailability of Ethaselen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Carbamazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB00201",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Caffeine"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Moxifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Mexiletine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Alosetron"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Gatifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pazufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Lidocaine"
+                    },
+                    {
+                        "drugbank-id": "DB11837",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Osilodrostat"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Secobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Bexarotene"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Spironolactone"
+                    },
+                    {
+                        "drugbank-id": "DB00455",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Loratadine"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nabilone"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Oxybutynin"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rabeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pioglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Genistein"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Nicotine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The metabolism of Torasemide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The metabolism of Diethylstilbestrol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The metabolism of Methadone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The metabolism of Omeprazole can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The metabolism of Trimethadione can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The metabolism of Sulfadiazine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The metabolism of Eszopiclone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The metabolism of Lansoprazole can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The metabolism of Celecoxib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Cyclophosphamide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Mephenytoin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The metabolism of Piroxicam can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Cisapride can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The metabolism of Chloroquine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The metabolism of Amodiaquine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00617",
+                        "description": "The metabolism of Paramethadione can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Verapamil can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The metabolism of Tretinoin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00799",
+                        "description": "The metabolism of Tazarotene can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The metabolism of Loperamide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Terbinafine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The metabolism of Repaglinide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The metabolism of Almotriptan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Azelastine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Selegiline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The metabolism of Tolbutamide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Ifosfamide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Domperidone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "The metabolism of Zopiclone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The metabolism of Halofantrine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The metabolism of Ketamine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The metabolism of Lapatinib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The metabolism of Sitagliptin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The metabolism of Mestranol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Aminophenazone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The metabolism of Antipyrine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB04725",
+                        "description": "The metabolism of Licofelone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "The metabolism of Beraprost can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06670",
+                        "description": "The metabolism of Odanacatib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Benzyl alcohol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of R warfarin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The metabolism of Enzalutamide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The metabolism of Levomilnacipran can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "The metabolism of Perospirone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The metabolism of Vortioxetine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The metabolism of Olodaterol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The metabolism of Lobeglitazone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The metabolism of Netoglitazone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The metabolism of Rivoglitazone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The metabolism of Ciglitazone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The metabolism of Selexipag can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The metabolism of Apalutamide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The metabolism of Balaglitazone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The metabolism of S Warfarin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Istradefylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The metabolism of Dexibuprofen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The metabolism of Ketorolac can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08502",
+                        "description": "The metabolism of Capravirine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Trimethoprim"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The metabolism of Selumetinib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Amitriptyline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The metabolism of Apomorphine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The metabolism of Hydroxychloroquine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Zafirlukast"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Clopidogrel"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Candesartan cilexetil"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB08911",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Trametinib"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Mometasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Osimertinib"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The serum concentration of Eltrombopag can be increased when it is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00158",
+                        "description": "Eltrombopag may decrease the excretion rate of Folic acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "Eltrombopag may decrease the excretion rate of Pravastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "Eltrombopag may decrease the excretion rate of Cladribine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "Eltrombopag may decrease the excretion rate of Conjugated estrogens which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "Eltrombopag may decrease the excretion rate of Gefitinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "Eltrombopag may decrease the excretion rate of Allopurinol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Eltrombopag may decrease the excretion rate of Teniposide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "Eltrombopag may decrease the excretion rate of Prazosin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "Eltrombopag may decrease the excretion rate of Oxaliplatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "Eltrombopag may decrease the excretion rate of Vincristine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Eltrombopag may decrease the excretion rate of Methotrexate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "Eltrombopag may decrease the excretion rate of Ivermectin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "Eltrombopag may decrease the excretion rate of Imatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "Eltrombopag may decrease the excretion rate of Testosterone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "Eltrombopag may decrease the excretion rate of Clofarabine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "Eltrombopag may decrease the excretion rate of Sumatriptan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "Eltrombopag may decrease the excretion rate of Daunorubicin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00698",
+                        "description": "Eltrombopag may decrease the excretion rate of Nitrofurantoin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "Eltrombopag may decrease the excretion rate of Lamivudine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "Eltrombopag may decrease the excretion rate of Riluzole which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Eltrombopag may decrease the excretion rate of Sulfasalazine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "Eltrombopag may decrease the excretion rate of Dactinomycin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "Eltrombopag may decrease the excretion rate of Doxorubicin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "Eltrombopag may decrease the excretion rate of Glyburide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "Eltrombopag may decrease the excretion rate of Topotecan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "Eltrombopag may decrease the excretion rate of Mitoxantrone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "Eltrombopag may decrease the excretion rate of Dasatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04690",
+                        "description": "Eltrombopag may decrease the excretion rate of Camptothecin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "Eltrombopag may decrease the excretion rate of Rivaroxaban which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "Eltrombopag may decrease the excretion rate of Simeprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "Eltrombopag may decrease the excretion rate of Apixaban which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "Eltrombopag may decrease the excretion rate of Pitavastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08916",
+                        "description": "Eltrombopag may decrease the excretion rate of Afatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Eltrombopag may decrease the excretion rate of Riociguat which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08934",
+                        "description": "Eltrombopag may decrease the excretion rate of Sofosbuvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "Eltrombopag may decrease the excretion rate of Idelalisib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "Eltrombopag may decrease the excretion rate of Palbociclib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "Eltrombopag may decrease the excretion rate of Lenvatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "Eltrombopag may decrease the excretion rate of Fimasartan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "Eltrombopag may decrease the excretion rate of Tenofovir alafenamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "Eltrombopag may decrease the excretion rate of Venetoclax which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "Eltrombopag may decrease the excretion rate of Velpatasvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11760",
+                        "description": "Eltrombopag may decrease the excretion rate of Talazoparib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "Eltrombopag may decrease the excretion rate of Duvelisib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "Eltrombopag may decrease the excretion rate of Abemaciclib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "Eltrombopag may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "Eltrombopag may decrease the excretion rate of Copanlisib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13125",
+                        "description": "Eltrombopag may decrease the excretion rate of Lusutrombopag which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "Eltrombopag may decrease the excretion rate of Testosterone cypionate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "Eltrombopag may decrease the excretion rate of Testosterone enanthate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "Eltrombopag may decrease the excretion rate of Testosterone undecanoate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "Eltrombopag may decrease the excretion rate of Donepezil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "Eltrombopag may decrease the excretion rate of Darolutamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "Eltrombopag may decrease the excretion rate of Tazemetostat which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "Eltrombopag may decrease the excretion rate of Tucatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06813",
+                        "description": "Eltrombopag may decrease the excretion rate of Pralatrexate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "Eltrombopag may decrease the excretion rate of Ripretinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "Eltrombopag may decrease the excretion rate of Fostemsavir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "Eltrombopag may decrease the excretion rate of Pralsetinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The excretion of Valsartan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The excretion of Erythromycin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The excretion of Digoxin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00520",
+                        "description": "The excretion of Caspofungin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The excretion of Bosentan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The excretion of Enalapril can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The excretion of Penicillamine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Dinoprostone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The excretion of Ouabain can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The excretion of Cholic Acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Taurocholic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The excretion of Cobimetinib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06199",
+                        "description": "The excretion of Atrasentan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06721",
+                        "description": "The excretion of Gimatecan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "The excretion of Temocapril can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08862",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08884",
+                        "description": "The excretion of Gadoxetic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09137",
+                        "description": "The excretion of Technetium Tc 99m mebrofenin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11575",
+                        "description": "The excretion of Grazoprevir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The excretion of Asunaprevir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13139",
+                        "description": "The excretion of Levosalbutamol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The excretion of Remdesivir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The excretion of Belantamab mafodotin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00173",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Adenine"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Flurbiprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01544",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Flunitrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The metabolism of Tramadol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The metabolism of Lovastatin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The metabolism of Liothyronine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The metabolism of Morphine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00350",
+                        "description": "The metabolism of Minoxidil can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The metabolism of Cerivastatin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00481",
+                        "description": "The metabolism of Raloxifene can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The metabolism of Diclofenac can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The metabolism of Labetalol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The metabolism of Simvastatin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The metabolism of Losartan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The metabolism of Furosemide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00704",
+                        "description": "The metabolism of Naltrexone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00906",
+                        "description": "The metabolism of Tiagabine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The metabolism of Zonisamide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The metabolism of Metronidazole can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Buprenorphine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00947",
+                        "description": "The metabolism of Fulvestrant can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00973",
+                        "description": "The metabolism of Ezetimibe can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The metabolism of Ketoprofen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01048",
+                        "description": "The metabolism of Abacavir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The metabolism of Ibuprofen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The metabolism of Glipizide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The metabolism of Atorvastatin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Fluvastatin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The metabolism of Carvedilol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01183",
+                        "description": "The metabolism of Naloxone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The metabolism of Fusidic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB03496",
+                        "description": "The metabolism of Alvocidib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The metabolism of Ezogabine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB05018",
+                        "description": "The metabolism of Migalastat can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The metabolism of Indacaterol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06401",
+                        "description": "The metabolism of Bazedoxifene can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06510",
+                        "description": "The metabolism of Muraglitazar can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06741",
+                        "description": "The metabolism of Gavestinel can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06817",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The metabolism of Dolutegravir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09101",
+                        "description": "The metabolism of Elvitegravir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09119",
+                        "description": "The metabolism of Eslicarbazepine acetate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11799",
+                        "description": "The metabolism of Bictegravir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The metabolism of Delafloxacin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The metabolism of Elagolix can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The metabolism of Letermovir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Estradiol acetate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Estradiol dienanthate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB14575",
+                        "description": "The metabolism of Eslicarbazepine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Dasabuvir"
+                    },
+                    {
+                        "drugbank-id": "DB09276",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Sodium aurothiomalate"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ombitasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Paritaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Silibinin"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ertugliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Dacomitinib"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pibrentasvir"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Glecaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The metabolism of Nintedanib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12020",
+                        "description": "The metabolism of Tecovirimat can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Norgestimate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00205",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB08875",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Cabozantinib"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00471",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Montelukast"
+                    },
+                    {
+                        "drugbank-id": "DB00665",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nilutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Sulfinpyrazone"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Bezafibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Colchicine"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Liotrix"
+                    },
+                    {
+                        "drugbank-id": "DB01698",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rutin"
+                    },
+                    {
+                        "drugbank-id": "DB04216",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Quercetin"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Bosutinib"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB06729",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Sulfaphenazole"
+                    },
+                    {
+                        "drugbank-id": "DB08828",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Vismodegib"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB11632",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Opicapone"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Triclabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Mefenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Mometasone"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00615",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Rifabutin"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Avatrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00400",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Griseofulvin"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Hydrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB01201",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Rifapentine"
+                    },
+                    {
+                        "drugbank-id": "DB01220",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Rifaximin"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Hydrocortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Hydrocortisone succinate"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Betamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Hydrocortisone butyrate"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Prednisolone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14542",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Hydrocortisone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Phenytoin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Fosphenytoin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The metabolism of Fluorouracil can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Enasidenib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB01217",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Anastrozole"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Brigatinib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Tegafur can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Erlotinib"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB09185",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Viloxazine"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pipemidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00238",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nevirapine"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin human"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin glargine"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin pork"
+                    },
+                    {
+                        "drugbank-id": "DB00170",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Menadione"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Phenylephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00428",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Streptozocin"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Meperidine"
+                    },
+                    {
+                        "drugbank-id": "DB00607",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Nafcillin"
+                    },
+                    {
+                        "drugbank-id": "DB00745",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Modafinil"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin glulisine"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with NN344"
+                    },
+                    {
+                        "drugbank-id": "DB05928",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Dovitinib"
+                    },
+                    {
+                        "drugbank-id": "DB06413",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Armodafinil"
+                    },
+                    {
+                        "drugbank-id": "DB06732",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with beta Naphthoflavone"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin degludec"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin peglispro"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin tregopil"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The metabolism of Insulin beef can be increased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00008",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Peginterferon alfa 2a"
+                    },
+                    {
+                        "drugbank-id": "DB00011",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon alfa n1"
+                    },
+                    {
+                        "drugbank-id": "DB00018",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon alfa n3"
+                    },
+                    {
+                        "drugbank-id": "DB00033",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon gamma 1b"
+                    },
+                    {
+                        "drugbank-id": "DB00034",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon alfa 2a Recombinant"
+                    },
+                    {
+                        "drugbank-id": "DB00060",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon beta 1a"
+                    },
+                    {
+                        "drugbank-id": "DB00068",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon beta 1b"
+                    },
+                    {
+                        "drugbank-id": "DB00069",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon alfacon 1"
+                    },
+                    {
+                        "drugbank-id": "DB00105",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon alfa 2b"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ticlopidine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nitric Oxide"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00553",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Methoxsalen"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Dexmedetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB00730",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Thiabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Methimazole"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nalidixic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rosoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Cinoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ondansetron"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Lomefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Tegaserod"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Levofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Gemifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Resveratrol"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Estrone sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB05396",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Albinterferon Alfa 2B"
+                    },
+                    {
+                        "drugbank-id": "DB05990",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Obeticholic acid"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Garenoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nemonoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Safinamide"
+                    },
+                    {
+                        "drugbank-id": "DB06803",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Niclosamide"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Flumequine"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Stiripentol"
+                    },
+                    {
+                        "drugbank-id": "DB09122",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Peginterferon beta 1a"
+                    },
+                    {
+                        "drugbank-id": "DB11198",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Peppermint oil"
+                    },
+                    {
+                        "drugbank-id": "DB11404",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Enrofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Orbifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Sarafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Difloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Prulifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11994",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Diacerein"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13174",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Sitafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Oxolinic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13975",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Black cohosh"
+                    },
+                    {
+                        "drugbank-id": "DB15119",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ropeginterferon alfa 2b"
+                    },
+                    {
+                        "drugbank-id": "DB15131",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon alfa 2c"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Isoniazid"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB06442",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Avasimibe"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Cannabidiol"
+                    },
+                    {
+                        "drugbank-id": "DB12814",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Cepeginterferon alfa 2B"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Medical Cannabis"
+                    },
+                    {
+                        "drugbank-id": "DB14011",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nabiximols"
+                    },
+                    {
+                        "drugbank-id": "DB14635",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Curcumin sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB11791",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Capmatinib"
+                    },
+                    {
+                        "drugbank-id": "DB05258",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Interferon alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "The metabolism of Cyclobenzaprine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Primaquine"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Anagrelide"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Carmustine"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ropivacaine"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Zolmitriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Chlorzoxazone"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Grepafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Tacrine"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Triamterene"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Zolpidem"
+                    },
+                    {
+                        "drugbank-id": "DB00442",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Entecavir"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Nabumetone"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fluoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Flutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Albendazole"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Cinnarizine"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Clonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Guanabenz"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pemetrexed"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Tizanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Acyclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pentoxifylline"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Dacarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ranitidine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ramelteon"
+                    },
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Azathioprine"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Frovatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Levobupivacaine"
+                    },
+                    {
+                        "drugbank-id": "DB01012",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Cinacalcet"
+                    },
+                    {
+                        "drugbank-id": "DB01056",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Tocainide"
+                    },
+                    {
+                        "drugbank-id": "DB01058",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Praziquantel"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Melatonin"
+                    },
+                    {
+                        "drugbank-id": "DB01094",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Hesperetin"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Cilostazol"
+                    },
+                    {
+                        "drugbank-id": "DB01191",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Dexfenfluramine"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Aminophylline"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01303",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Oxtriphylline"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rasagiline"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01412",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Theobromine"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB01482",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fenethylline"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Bromazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB01667",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with 8 azaguanine"
+                    },
+                    {
+                        "drugbank-id": "DB02134",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Xanthine"
+                    },
+                    {
+                        "drugbank-id": "DB02489",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with 9 Methylguanine"
+                    },
+                    {
+                        "drugbank-id": "DB02568",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Peldesine"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Phenacetin"
+                    },
+                    {
+                        "drugbank-id": "DB04076",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Hypoxanthine"
+                    },
+                    {
+                        "drugbank-id": "DB04356",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with 9 Deazaguanine"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Flunarizine"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Lorcaserin"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Mianserin"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The metabolism of Asenapine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06235",
+                        "description": "The metabolism of Vadimezan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06479",
+                        "description": "The metabolism of Propentofylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "The metabolism of Agomelatine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The metabolism of Bendamustine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Capsaicin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Perampanel can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "The metabolism of Zotepine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The metabolism of Doxofylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09290",
+                        "description": "The metabolism of Ramosetron can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11919",
+                        "description": "The metabolism of 6 O benzylguanine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12406",
+                        "description": "The metabolism of Lisofylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12531",
+                        "description": "The metabolism of Lobucavir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12926",
+                        "description": "The metabolism of Cafedrine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The metabolism of Theodrenaline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13203",
+                        "description": "The metabolism of Bamifylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13449",
+                        "description": "The metabolism of Proxyphylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13573",
+                        "description": "The metabolism of Acefylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13592",
+                        "description": "The metabolism of Etamiphylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13634",
+                        "description": "The metabolism of Pentifylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13812",
+                        "description": "The metabolism of Bufylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB14018",
+                        "description": "The metabolism of Bromotheophylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB14132",
+                        "description": "The metabolism of 8 chlorotheophylline can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB04889",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Bicifadine"
+                    },
+                    {
+                        "drugbank-id": "DB05708",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with GTS 21"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Flecainide"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Bortezomib"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Estrone"
+                    },
+                    {
+                        "drugbank-id": "DB04951",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pirfenidone"
+                    },
+                    {
+                        "drugbank-id": "DB00299",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Penciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fluvoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Enoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rofecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Technetium Tc 99m ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Midostaurin"
+                    },
+                    {
+                        "drugbank-id": "DB14025",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Clinafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB14029",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Furafylline"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Acetaminophen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The metabolism of Mycophenolate mofetil can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Propofol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The metabolism of Acetylsalicylic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Propacetamol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Naproxen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The metabolism of Valproic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The metabolism of Levothyroxine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "The metabolism of Mycophenolic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Etoposide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The metabolism of Binimetinib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00494",
+                        "description": "The metabolism of Entacapone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The metabolism of Haloperidol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The metabolism of Valdecoxib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The metabolism of Nateglinide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00744",
+                        "description": "The metabolism of Zileuton can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The metabolism of Etodolac can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00842",
+                        "description": "The metabolism of Oxazepam can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The metabolism of Lumiracoxib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The metabolism of Topiroxostat can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "The metabolism of Tapentadol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The metabolism of Dapagliflozin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The metabolism of Ambrisentan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06738",
+                        "description": "The metabolism of Ketobemidone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06739",
+                        "description": "The metabolism of Seratrodast can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The metabolism of Canagliflozin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11638",
+                        "description": "The metabolism of Artenimol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The metabolism of Glasdegib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Fenofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The metabolism of Formoterol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13609",
+                        "description": "The metabolism of Umifenovir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "The metabolism of Dabigatran etexilate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09274",
+                        "description": "The metabolism of Artesunate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00327",
+                        "description": "The metabolism of Hydromorphone can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The metabolism of Cyproheptadine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "The metabolism of Telmisartan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The metabolism of Mitiglinide can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06230",
+                        "description": "The metabolism of Nalmefene can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11691",
+                        "description": "The metabolism of Naldemedine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12130",
+                        "description": "The metabolism of Lorlatinib can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13997",
+                        "description": "The metabolism of Baloxavir marboxil can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "Eltrombopag may decrease the excretion rate of Revefenacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00005",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Etanercept"
+                    },
+                    {
+                        "drugbank-id": "DB00026",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Anakinra"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Adalimumab"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Infliximab"
+                    },
+                    {
+                        "drugbank-id": "DB01281",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Abatacept"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Afelimomab"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Apremilast"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Canakinumab"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Tocilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB06372",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Rilonacept"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Golimumab"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Certolizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Secukinumab"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Siltuximab"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Emapalumab"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "The metabolism of Midazolam can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00910",
+                        "description": "The metabolism of Paricalcitol can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09262",
+                        "description": "The metabolism of Imidafenacin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Tamoxifen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00445",
+                        "description": "The metabolism of Epirubicin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00318",
+                        "description": "The metabolism of Codeine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06207",
+                        "description": "The metabolism of Silodosin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The metabolism of Zaltoprofen can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "The metabolism of Acemetacin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The metabolism of Cenobamate can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB11936",
+                        "description": "The metabolism of Bempedoic acid can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "The metabolism of Dextromethorphan can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The serum concentration of Alpelisib can be increased when it is combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pexidartinib"
+                    },
+                    {
+                        "drugbank-id": "DB15066",
+                        "description": "The serum concentration of Eltrombopag can be increased when it is combined with Givosiran"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "The serum concentration of Lumateperone can be increased when it is combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The serum concentration of Rimegepant can be increased when it is combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12612",
+                        "description": "Eltrombopag may decrease the excretion rate of Ozanimod which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12893",
+                        "description": "The serum concentration of Sacituzumab govitecan can be increased when it is combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB15685",
+                        "description": "The serum concentration of Eltrombopag can be increased when it is combined with Selpercatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Eltrombopag can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Eltrombopag can be decreased when it is combined with Satralizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The serum concentration of Berotralstat can be increased when it is combined with Eltrombopag"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

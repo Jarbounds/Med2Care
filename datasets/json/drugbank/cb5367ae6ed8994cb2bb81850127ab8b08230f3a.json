@@ -1,0 +1,29 @@
+{
+    "medicine_id": "cb5367ae6ed8994cb2bb81850127ab8b08230f3a",
+    "platform_id": "DB06147",
+    "metadata": {
+        "name": "Gyne Sulf 5 g Ointment",
+        "composition": "5 g Sulfathiazole",
+        "clinical_particulars": {
+            "therapeutic_indications": "Sulfathiazole is effective against a wide range of gram positive and gram negative pathogenic microorganisms Although no longer used in humans it is used in cattle",
+            "contraindications": {
+                "disease": "Acute oral toxicity LD50 4500 mg kg Mouse",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Sulfathiazole"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "Sulfathiazole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

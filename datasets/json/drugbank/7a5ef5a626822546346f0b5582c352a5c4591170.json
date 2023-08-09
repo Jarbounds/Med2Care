@@ -1,0 +1,645 @@
+{
+    "medicine_id": "7a5ef5a626822546346f0b5582c352a5c4591170",
+    "platform_id": "DB00650",
+    "metadata": {
+        "name": "BumP DHA 350 mg Powder",
+        "composition": "350 mg Leucovorin",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of osteosarcoma after high dose methotrexate therapy Used to diminish the toxicity and counteract the effects of impaired methotrexate elimination and of inadvertent overdosages of folic acid antagonists and to treat megaloblastic anemias due to folic acid deficiency Also used in combination with 5 fluorouracil to prolong survival in the palliative treatment of patients with advanced colorectal cancer",
+            "contraindications": {
+                "disease": "LD sub 50 sub 8000 mg kg orally in rats Excessive amounts of leucovorin may nullify the chemotherapeutic effect of folic acid antagonists",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Leucovorin is one of several active chemically reduced derivatives of folic acid It is useful as an antidote to drugs which act as folic acid antagonists Leucovorin is a mixture of the diastereoisomers of the 5 formyl derivative of tetrahydrofolic acid THF The biologically active compound of the mixture is the l isomer known as Citrovorum factor or folinic acid Leucovorin does not require reduction by the enzyme dihydrofolate reductase in order to participate in reactions utilizing folates as a source of ldquo one carbon rdquo moieties Administration of leucovorin can counteract the therapeutic and toxic effects of folic acid antagonists such as methotrexate which act by inhibiting dihydrofolate reductase Leucovorin has also been used to enhance the activity of fluorouracil",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The serum concentration of Fosphenytoin can be decreased when it is combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00293",
+                        "description": "The therapeutic efficacy of Raltitrexed can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The serum concentration of Leucovorin can be decreased when it is combined with Sulfasalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00168",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Aspartame"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Pravastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Pantoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cefotiam"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Liothyronine"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Conjugated estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Aminohippuric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00456",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cefalotin"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Tenoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00493",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cefotaxime"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00536",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Guanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cephalexin"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Oxytetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00139",
+                        "description": "The excretion of Succinic acid can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00155",
+                        "description": "The excretion of Citrulline can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00198",
+                        "description": "The excretion of Oseltamivir can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The excretion of Tenofovir disoproxil can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The excretion of Piperacillin can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "The excretion of Trifluridine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "The excretion of Allopurinol can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00535",
+                        "description": "The excretion of Cefdinir can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00577",
+                        "description": "The excretion of Valaciclovir can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00583",
+                        "description": "The excretion of Levocarnitine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00693",
+                        "description": "The excretion of Fluorescein can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The excretion of Hydrocortisone can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The excretion of Tetracycline can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00770",
+                        "description": "The excretion of Alprostadil can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The excretion of Estradiol can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The excretion of Acyclovir can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00833",
+                        "description": "The excretion of Cefaclor can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The excretion of Ranitidine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "The excretion of Quinapril can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The excretion of Bumetanide can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Dinoprostone can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The excretion of Famotidine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The excretion of Rosuvastatin can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The excretion of Captopril can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The excretion of Sitagliptin can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "The excretion of Cefazolin can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "The excretion of Ceftizoxime can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "The excretion of Cefacetrile can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01415",
+                        "description": "The excretion of Ceftibuten can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01606",
+                        "description": "The excretion of Tazobactam can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB02527",
+                        "description": "The excretion of Cyclic adenosine monophosphate can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The excretion of Cholic Acid can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB03553",
+                        "description": "The excretion of Glutaric Acid can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB03902",
+                        "description": "The excretion of Oxalic Acid can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Taurocholic acid can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB06211",
+                        "description": "The excretion of Doripenem can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The excretion of Saxagliptin can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB08846",
+                        "description": "The excretion of Ellagic acid can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB09008",
+                        "description": "The excretion of Cefaloridine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB09060",
+                        "description": "The excretion of Avibactam can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "The excretion of Eluxadoline can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Silibinin can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The excretion of Tenofovir alafenamide can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The excretion of Baricitinib can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB12243",
+                        "description": "The excretion of Edaravone can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB12377",
+                        "description": "The excretion of Relebactam can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The excretion of Tenofovir can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Esomeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Ganciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Minocycline"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01051",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Melatonin"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB01140",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cefadroxil"
+                    },
+                    {
+                        "drugbank-id": "DB01212",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Ceftriaxone"
+                    },
+                    {
+                        "drugbank-id": "DB01326",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cefamandole"
+                    },
+                    {
+                        "drugbank-id": "DB01329",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cefoperazone"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Liotrix"
+                    },
+                    {
+                        "drugbank-id": "DB01597",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cilastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01650",
+                        "description": "The excretion of Leucovorin can be decreased when combined with trans 2 hydroxycinnamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Topiroxostat"
+                    },
+                    {
+                        "drugbank-id": "DB03793",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Benzoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04519",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Caprylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB05016",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Ataluren"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Dolutegravir"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11751",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Cabotegravir"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Avatrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Letermovir"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB12866",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Pradigastat"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The excretion of Hydrochlorothiazide can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The excretion of Dexamethasone can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The excretion of Estrone can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The excretion of Polythiazide can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The excretion of Prednisolone phosphate can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB11644",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Tafamidis"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The serum concentration of Phenytoin can be decreased when it is combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB08898",
+                        "description": "The serum concentration of the active metabolites of Leucovorin can be reduced when Leucovorin is used in combination with Glucarpidase resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The serum concentration of Phenobarbital can be decreased when it is combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The serum concentration of Primidone can be decreased when it is combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00205",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The therapeutic efficacy of Dapsone can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The therapeutic efficacy of Trimethoprim can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The therapeutic efficacy of Methotrexate can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01131",
+                        "description": "The therapeutic efficacy of Proguanil can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01157",
+                        "description": "The therapeutic efficacy of Trimetrexate can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB03695",
+                        "description": "The therapeutic efficacy of Piritrexim can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB04655",
+                        "description": "The therapeutic efficacy of Metoprine can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB06358",
+                        "description": "The therapeutic efficacy of Iclaprim can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB06813",
+                        "description": "The therapeutic efficacy of Pralatrexate can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB08878",
+                        "description": "The therapeutic efficacy of Aminopterin can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB12769",
+                        "description": "The therapeutic efficacy of Lometrexol can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB12912",
+                        "description": "The therapeutic efficacy of Nolatrexed can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB13795",
+                        "description": "The therapeutic efficacy of Brodimoprim can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB14763",
+                        "description": "The therapeutic efficacy of Cycloguanil can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The serum concentration of Leucovorin can be decreased when it is combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00375",
+                        "description": "The serum concentration of Leucovorin can be decreased when it is combined with Colestipol"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The serum concentration of Carbamazepine can be decreased when it is combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "The excretion of Mercaptopurine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The excretion of Pemetrexed can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The excretion of Clofarabine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The excretion of Leucovorin can be increased when combined with Testosterone"
+                    },
+                    {
+                        "drugbank-id": "DB06710",
+                        "description": "The excretion of Leucovorin can be increased when combined with Methyltestosterone"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The excretion of Leucovorin can be increased when combined with Testosterone cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The excretion of Leucovorin can be increased when combined with Testosterone enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The excretion of Leucovorin can be increased when combined with Testosterone undecanoate"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of adverse effects can be increased when Leucovorin is combined with Fluorouracil"
+                    },
+                    {
+                        "drugbank-id": "DB01099",
+                        "description": "The risk or severity of adverse effects can be increased when Leucovorin is combined with Flucytosine"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "The risk or severity of adverse effects can be increased when Leucovorin is combined with Capecitabine"
+                    },
+                    {
+                        "drugbank-id": "DB01629",
+                        "description": "The risk or severity of adverse effects can be increased when Leucovorin is combined with 5 fluorouridine"
+                    },
+                    {
+                        "drugbank-id": "DB03419",
+                        "description": "The risk or severity of adverse effects can be increased when Leucovorin is combined with Uracil"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The risk or severity of adverse effects can be increased when Leucovorin is combined with Tegafur"
+                    },
+                    {
+                        "drugbank-id": "DB12947",
+                        "description": "The risk or severity of adverse effects can be increased when Leucovorin is combined with Doxifluridine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

@@ -1,0 +1,781 @@
+{
+    "medicine_id": "5947090edc9a9e1ed819f31b76dc6cb8c1856e82",
+    "platform_id": "DB09282",
+    "metadata": {
+        "name": "Alka Phenyl Tab 400 mg Tablet",
+        "composition": "400 mg Molsidomine",
+        "clinical_particulars": {
+            "therapeutic_indications": "The indications for use of molsidomine include ischemic heart disease angina chronic heart failure and pulmonary hypertension L1370 L1371",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Molsidomine leads to smooth muscle relaxation in the coronary blood vessels relieving symptoms of angina and increasing blood flow to the coronary arteries",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00727",
+                        "description": "Molsidomine may increase the hypotensive activities of Nitroglycerin"
+                    },
+                    {
+                        "drugbank-id": "DB00883",
+                        "description": "Molsidomine may increase the hypotensive activities of Isosorbide dinitrate"
+                    },
+                    {
+                        "drugbank-id": "DB01612",
+                        "description": "Molsidomine may increase the hypotensive activities of Amyl Nitrite"
+                    },
+                    {
+                        "drugbank-id": "DB01613",
+                        "description": "Molsidomine may increase the hypotensive activities of Erythrityl tetranitrate"
+                    },
+                    {
+                        "drugbank-id": "DB06154",
+                        "description": "Molsidomine may increase the hypotensive activities of Pentaerythritol tetranitrate"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "Molsidomine may increase the hypotensive activities of Isosorbide"
+                    },
+                    {
+                        "drugbank-id": "DB13255",
+                        "description": "Molsidomine may increase the hypotensive activities of Propatyl nitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13408",
+                        "description": "Molsidomine may increase the hypotensive activities of Methylpropylpropanediol dinitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13637",
+                        "description": "Molsidomine may increase the hypotensive activities of Tenitramine"
+                    },
+                    {
+                        "drugbank-id": "DB13719",
+                        "description": "Molsidomine may increase the hypotensive activities of Trolnitrate"
+                    },
+                    {
+                        "drugbank-id": "DB14049",
+                        "description": "Molsidomine may increase the hypotensive activities of Nitrate"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "Molsidomine may increase the hypotensive activities of Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "Molsidomine may increase the hypotensive activities of Ramipril"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Molsidomine may increase the hypotensive activities of Esmolol"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "Molsidomine may increase the hypotensive activities of Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Molsidomine may increase the hypotensive activities of Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00212",
+                        "description": "Molsidomine may increase the hypotensive activities of Remikiren"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "Molsidomine may increase the hypotensive activities of Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "Molsidomine may increase the hypotensive activities of Bethanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00226",
+                        "description": "Molsidomine may increase the hypotensive activities of Guanadrel"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "Molsidomine may increase the hypotensive activities of Metoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "Molsidomine may increase the hypotensive activities of Isradipine"
+                    },
+                    {
+                        "drugbank-id": "DB00275",
+                        "description": "Molsidomine may increase the hypotensive activities of Olmesartan"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "Molsidomine may increase the hypotensive activities of Chlorthalidone"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "Molsidomine may increase the hypotensive activities of Nitroprusside"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "Molsidomine may increase the hypotensive activities of Atenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "Molsidomine may increase the hypotensive activities of Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00350",
+                        "description": "Molsidomine may increase the hypotensive activities of Minoxidil"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Molsidomine may increase the hypotensive activities of Timolol"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "Molsidomine may increase the hypotensive activities of Treprostinil"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "Molsidomine may increase the hypotensive activities of Amlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "Molsidomine may increase the hypotensive activities of Nimodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "Molsidomine may increase the hypotensive activities of Nisoldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Molsidomine may increase the hypotensive activities of Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "Molsidomine may increase the hypotensive activities of Prazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "Molsidomine may increase the hypotensive activities of Fosinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "Molsidomine may increase the hypotensive activities of Trandolapril"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "Molsidomine may increase the hypotensive activities of Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "Molsidomine may increase the hypotensive activities of Lercanidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "Molsidomine may increase the hypotensive activities of Benazepril"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "Molsidomine may increase the hypotensive activities of Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Molsidomine may increase the hypotensive activities of Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "Molsidomine may increase the hypotensive activities of Clonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "Molsidomine may increase the hypotensive activities of Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "Molsidomine may increase the hypotensive activities of Doxazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "Molsidomine may increase the hypotensive activities of Labetalol"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Molsidomine may increase the hypotensive activities of Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "Molsidomine may increase the hypotensive activities of Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00616",
+                        "description": "Molsidomine may increase the hypotensive activities of Candoxatril"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "Molsidomine may increase the hypotensive activities of Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "Molsidomine may increase the hypotensive activities of Guanabenz"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Molsidomine may increase the hypotensive activities of Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "Molsidomine may increase the hypotensive activities of Losartan"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "Molsidomine may increase the hypotensive activities of Moexipril"
+                    },
+                    {
+                        "drugbank-id": "DB00692",
+                        "description": "Molsidomine may increase the hypotensive activities of Phentolamine"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "Molsidomine may increase the hypotensive activities of Eplerenone"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "Molsidomine may increase the hypotensive activities of Lisinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00765",
+                        "description": "Molsidomine may increase the hypotensive activities of Metyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Molsidomine may increase the hypotensive activities of Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00785",
+                        "description": "Molsidomine may increase the hypotensive activities of Cryptenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "Molsidomine may increase the hypotensive activities of Perindopril"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "Molsidomine may increase the hypotensive activities of Candesartan cilexetil"
+                    },
+                    {
+                        "drugbank-id": "DB00797",
+                        "description": "Molsidomine may increase the hypotensive activities of Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "Molsidomine may increase the hypotensive activities of Fenoldopam"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "Molsidomine may increase the hypotensive activities of Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Molsidomine may increase the hypotensive activities of Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "Molsidomine may increase the hypotensive activities of Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Molsidomine may increase the hypotensive activities of Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "Molsidomine may increase the hypotensive activities of Quinapril"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "Molsidomine may increase the hypotensive activities of Omapatrilat"
+                    },
+                    {
+                        "drugbank-id": "DB00925",
+                        "description": "Molsidomine may increase the hypotensive activities of Phenoxybenzamine"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Molsidomine may increase the hypotensive activities of Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "Molsidomine may increase the hypotensive activities of Telmisartan"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "Molsidomine may increase the hypotensive activities of Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Molsidomine may increase the hypotensive activities of Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "Molsidomine may increase the hypotensive activities of Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Molsidomine may increase the hypotensive activities of Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "Molsidomine may increase the hypotensive activities of Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "Molsidomine may increase the hypotensive activities of Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "Molsidomine may increase the hypotensive activities of Nitrendipine"
+                    },
+                    {
+                        "drugbank-id": "DB01089",
+                        "description": "Molsidomine may increase the hypotensive activities of Deserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "Molsidomine may increase the hypotensive activities of Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "Molsidomine may increase the hypotensive activities of Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "Molsidomine may increase the hypotensive activities of Diazoxide"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "Molsidomine may increase the hypotensive activities of Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "Molsidomine may increase the hypotensive activities of Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01162",
+                        "description": "Molsidomine may increase the hypotensive activities of Terazosin"
+                    },
+                    {
+                        "drugbank-id": "DB01170",
+                        "description": "Molsidomine may increase the hypotensive activities of Guanethidine"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "Molsidomine may increase the hypotensive activities of Rescinnamine"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Molsidomine may increase the hypotensive activities of Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "Molsidomine may increase the hypotensive activities of Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Molsidomine may increase the hypotensive activities of Nadolol"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Molsidomine may increase the hypotensive activities of Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "Molsidomine may increase the hypotensive activities of Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "Molsidomine may increase the hypotensive activities of Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "Molsidomine may increase the hypotensive activities of Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Molsidomine may increase the hypotensive activities of Practolol"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Molsidomine may increase the hypotensive activities of Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "Molsidomine may increase the hypotensive activities of Cilazapril"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "Molsidomine may increase the hypotensive activities of Saprisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "Molsidomine may increase the hypotensive activities of Spirapril"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Molsidomine may increase the hypotensive activities of Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "Molsidomine may increase the hypotensive activities of Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Molsidomine may increase the hypotensive activities of Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Molsidomine may increase the hypotensive activities of Pargyline"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Molsidomine may increase the hypotensive activities of Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "Molsidomine may increase the hypotensive activities of Tienilic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "Molsidomine may increase the hypotensive activities of Debrisoquine"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Molsidomine may increase the hypotensive activities of Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "Molsidomine may increase the hypotensive activities of Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "Molsidomine may increase the hypotensive activities of Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "Molsidomine may increase the hypotensive activities of Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "Molsidomine may increase the hypotensive activities of Ambrisentan"
+                    },
+                    {
+                        "drugbank-id": "DB06445",
+                        "description": "Molsidomine may increase the hypotensive activities of Diethylnorspermine"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "Molsidomine may increase the hypotensive activities of Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB06762",
+                        "description": "Molsidomine may increase the hypotensive activities of Pinacidil"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Molsidomine may increase the hypotensive activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "Molsidomine may increase the hypotensive activities of Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "Molsidomine may increase the hypotensive activities of Temocapril"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Molsidomine may increase the hypotensive activities of Riociguat"
+                    },
+                    {
+                        "drugbank-id": "DB08932",
+                        "description": "Molsidomine may increase the hypotensive activities of Macitentan"
+                    },
+                    {
+                        "drugbank-id": "DB08950",
+                        "description": "Molsidomine may increase the hypotensive activities of Indoramin"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "Molsidomine may increase the hypotensive activities of Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "Molsidomine may increase the hypotensive activities of Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB09026",
+                        "description": "Molsidomine may increase the hypotensive activities of Aliskiren"
+                    },
+                    {
+                        "drugbank-id": "DB09206",
+                        "description": "Molsidomine may increase the hypotensive activities of Trimazosin"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Molsidomine may increase the hypotensive activities of Nicorandil"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "Molsidomine may increase the hypotensive activities of Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Molsidomine may increase the hypotensive activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "Molsidomine may increase the hypotensive activities of Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "Molsidomine may increase the hypotensive activities of Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09242",
+                        "description": "Molsidomine may increase the hypotensive activities of Moxonidine"
+                    },
+                    {
+                        "drugbank-id": "DB09363",
+                        "description": "Molsidomine may increase the hypotensive activities of Rauwolfia serpentina root"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "Molsidomine may increase the hypotensive activities of Enalaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "Molsidomine may increase the hypotensive activities of Selexipag"
+                    },
+                    {
+                        "drugbank-id": "DB11720",
+                        "description": "Molsidomine may increase the hypotensive activities of Angiotensin 1 7"
+                    },
+                    {
+                        "drugbank-id": "DB11738",
+                        "description": "Molsidomine may increase the hypotensive activities of Rilmenidine"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "Molsidomine may increase the hypotensive activities of Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "Molsidomine may increase the hypotensive activities of Imidapril"
+                    },
+                    {
+                        "drugbank-id": "DB12054",
+                        "description": "Molsidomine may increase the hypotensive activities of BQ 123"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "Molsidomine may increase the hypotensive activities of Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Molsidomine may increase the hypotensive activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Molsidomine may increase the hypotensive activities of Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Molsidomine may increase the hypotensive activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12661",
+                        "description": "Molsidomine may increase the hypotensive activities of Urapidil"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Molsidomine may increase the hypotensive activities of Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "Molsidomine may increase the hypotensive activities of Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "Molsidomine may increase the hypotensive activities of Zofenopril"
+                    },
+                    {
+                        "drugbank-id": "DB13211",
+                        "description": "Molsidomine may increase the hypotensive activities of Guanoxan"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "Molsidomine may increase the hypotensive activities of Delapril"
+                    },
+                    {
+                        "drugbank-id": "DB13374",
+                        "description": "Molsidomine may increase the hypotensive activities of Vincamine"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "Molsidomine may increase the hypotensive activities of Linsidomine"
+                    },
+                    {
+                        "drugbank-id": "DB13410",
+                        "description": "Molsidomine may increase the hypotensive activities of Guanoxabenz"
+                    },
+                    {
+                        "drugbank-id": "DB13429",
+                        "description": "Molsidomine may increase the hypotensive activities of Tolonidine"
+                    },
+                    {
+                        "drugbank-id": "DB13435",
+                        "description": "Molsidomine may increase the hypotensive activities of Endralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "Molsidomine may increase the hypotensive activities of Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13452",
+                        "description": "Molsidomine may increase the hypotensive activities of Cadralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "Molsidomine may increase the hypotensive activities of Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Molsidomine may increase the hypotensive activities of Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13575",
+                        "description": "Molsidomine may increase the hypotensive activities of Bietaserpine"
+                    },
+                    {
+                        "drugbank-id": "DB13604",
+                        "description": "Molsidomine may increase the hypotensive activities of Guanazodine"
+                    },
+                    {
+                        "drugbank-id": "DB13631",
+                        "description": "Molsidomine may increase the hypotensive activities of Methoserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Molsidomine may increase the hypotensive activities of Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13779",
+                        "description": "Molsidomine may increase the hypotensive activities of Guanoclor"
+                    },
+                    {
+                        "drugbank-id": "DB13801",
+                        "description": "Molsidomine may increase the hypotensive activities of Muzolimine"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Molsidomine may increase the hypotensive activities of Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "Molsidomine may increase the hypotensive activities of Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "Molsidomine may increase the hypotensive activities of Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Molsidomine may increase the hypotensive activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "Molsidomine may increase the hypotensive activities of Benazeprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "Molsidomine may increase the hypotensive activities of Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "Molsidomine may increase the hypotensive activities of Ramiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "Molsidomine may increase the hypotensive activities of Perindoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "Molsidomine may increase the hypotensive activities of Quinaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "Molsidomine may increase the hypotensive activities of Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "Molsidomine may increase the hypotensive activities of Levamlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "Molsidomine may increase the hypotensive activities of Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00235",
+                        "description": "Molsidomine may increase the hypotensive activities of Milrinone"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "Molsidomine may increase the hypotensive activities of Pentoxifylline"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "Molsidomine may increase the hypotensive activities of Tadalafil"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "Molsidomine may increase the hypotensive activities of Vardenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "Molsidomine may increase the hypotensive activities of Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "Molsidomine may increase the hypotensive activities of Ibudilast"
+                    },
+                    {
+                        "drugbank-id": "DB06237",
+                        "description": "Molsidomine may increase the hypotensive activities of Avanafil"
+                    },
+                    {
+                        "drugbank-id": "DB06267",
+                        "description": "Molsidomine may increase the hypotensive activities of Udenafil"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "Molsidomine may increase the hypotensive activities of Doxofylline"
+                    },
+                    {
+                        "drugbank-id": "DB11792",
+                        "description": "Molsidomine may increase the hypotensive activities of Mirodenafil"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "Molsidomine may increase the hypotensive activities of Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Molsidomine can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Molsidomine may increase the vasodilatory activities of Isosorbide mononitrate"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

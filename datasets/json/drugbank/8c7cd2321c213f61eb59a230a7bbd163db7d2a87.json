@@ -1,0 +1,517 @@
+{
+    "medicine_id": "8c7cd2321c213f61eb59a230a7bbd163db7d2a87",
+    "platform_id": "DB06395",
+    "metadata": {
+        "name": "Arcalyst 160 mg 2mL Injection powder lyophilized for solution",
+        "composition": "160 mg 2mL Abafungin",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in fungal infections bacterial infection skin infections disorders and onychomycosis",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The therapeutic efficacy of Amphotericin B can be decreased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "Didanosine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The serum concentration of Sildenafil can be increased when it is combined with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB00364",
+                        "description": "Sucralfate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The risk or severity of myopathy can be increased when Abafungin is combined with Atorvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Isradipine"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Trimethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Amlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Nimodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Nisoldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Lercanidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Lamotrigine"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Cinnarizine"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Ethosuximide"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Magnesium sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Nitrendipine"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Perhexiline"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Nimesulide"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Prenylamine"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Cyclandelate"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Flunarizine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Methsuximide"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Seletracetam"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Nylidrin"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Ziconotide"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Dotarizine"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Xylometazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Tranilast"
+                    },
+                    {
+                        "drugbank-id": "DB08162",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Fasudil"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Agmatine"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Fendiline"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Trimebutine"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Pinaverium"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Tolfenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Barnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Aranidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Azelnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Benidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Cilnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Darodipine"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Niludipine"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Carboxyamidotriazole"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Vinpocetine"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Gallopamil"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Bencyclane"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Lidoflazine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Caroverine"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with WIN 55212 2"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Fish oil"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Dexverapamil"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Emopamil"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Lomerizine"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Tetrandrine"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The therapeutic efficacy of Abafungin can be increased when used in combination with Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "Magnesium oxide can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01390",
+                        "description": "Sodium bicarbonate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "Aluminum hydroxide can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06724",
+                        "description": "Calcium carbonate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "Magaldrate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "Magnesium hydroxide can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "Magnesium trisilicate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "Magnesium carbonate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "Magnesium silicate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "Aluminium acetoacetate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "Hydrotalcite can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "Magnesium peroxide can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "Almasilate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "Aluminium glycinate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "Aloglutamol can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13829",
+                        "description": "Calcium silicate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "Aluminium phosphate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "Olanzapine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "Cimetidine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "Nizatidine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "Ranitidine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "Famotidine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "Methantheline can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Promethazine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Asenapine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08805",
+                        "description": "Metiamide can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08806",
+                        "description": "Roxatidine acetate can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12770",
+                        "description": "Lafutidine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12884",
+                        "description": "Lavoltidine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13760",
+                        "description": "Niperotidine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "Epinastine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The therapeutic efficacy of Dicoumarol can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The therapeutic efficacy of Phenindione can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The therapeutic efficacy of Warfarin can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The therapeutic efficacy of Phenprocoumon can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The therapeutic efficacy of Acenocoumarol can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The therapeutic efficacy of 4 hydroxycoumarin can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The therapeutic efficacy of Coumarin can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The therapeutic efficacy of R warfarin can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The therapeutic efficacy of Ethyl biscoumacetate can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The therapeutic efficacy of Fluindione can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The therapeutic efficacy of Clorindione can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The therapeutic efficacy of Diphenadione can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The therapeutic efficacy of Tioclomarol can be increased when used in combination with Abafungin"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The therapeutic efficacy of S Warfarin can be increased when used in combination with Abafungin"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

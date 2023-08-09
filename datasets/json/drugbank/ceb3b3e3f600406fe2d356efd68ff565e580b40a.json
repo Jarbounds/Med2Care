@@ -1,0 +1,41 @@
+{
+    "medicine_id": "ceb3b3e3f600406fe2d356efd68ff565e580b40a",
+    "platform_id": "DB15873",
+    "metadata": {
+        "name": "Detectnet 1 0 mCi 1mL Injection solution",
+        "composition": "1 0 mCi 1mL Copper oxodotreotide Cu 64",
+        "clinical_particulars": {
+            "therapeutic_indications": "Copper Cu 64 Dotatate is a radiopharmaceutical used with positron emission tomography PET to locate somatostatin receptor positive neuroendocrine tumors L16393",
+            "contraindications": {
+                "disease": "If radiation overdose occurs patients should be advised to drink plenty of water and to void frequently to increase the rate of elimination of the radionuclide L16393 In certain cases it may be appropriate to administer a diuretic L16393",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The therapeutic efficacy of Octreotide can be decreased when used in combination with Copper oxodotreotide Cu 64"
+                    },
+                    {
+                        "drugbank-id": "DB04894",
+                        "description": "The therapeutic efficacy of Vapreotide can be decreased when used in combination with Copper oxodotreotide Cu 64"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The therapeutic efficacy of Pasireotide can be decreased when used in combination with Copper oxodotreotide Cu 64"
+                    },
+                    {
+                        "drugbank-id": "DB06791",
+                        "description": "The therapeutic efficacy of Lanreotide can be decreased when used in combination with Copper oxodotreotide Cu 64"
+                    },
+                    {
+                        "drugbank-id": "DB09099",
+                        "description": "The therapeutic efficacy of Somatostatin can be decreased when used in combination with Copper oxodotreotide Cu 64"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

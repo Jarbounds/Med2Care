@@ -1,0 +1,837 @@
+{
+    "medicine_id": "475226203ac419906fd2b62d6cbc9242410b87da",
+    "platform_id": "DB14740",
+    "metadata": {
+        "name": "Amphadase 150 USP U 1mL Injection",
+        "composition": "150 USP U 1mL Hyaluronidase",
+        "clinical_particulars": {
+            "therapeutic_indications": "Hyaluronidase is indicated for subcutaneous fluid administration for hydration and increasing resorption of radiopaque agents in subcutaneous urography L13338 Hyaluronidase is also indicated by multiple routes to increase the dispersion of other injectable drugs L13338",
+            "contraindications": {
+                "disease": "Data regarding overdose of hyaluronidase is not readily available L13338 In the even of an overdose treat patients with symptomatic and supportive measures",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00988",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Dopamine"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Betamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Fluocinolone acetonide"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Triamcinolone"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Hydrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Methylprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Trilostane"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Corticotropin"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Cortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Paramethasone"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Aldosterone"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Fluprednidene"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Fluprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Meprednisone"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Dexamethasone isonicotinate"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Melengestrol"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Cortivazol"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Prednylidene"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Fluocortin"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Fluperolone"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Fluclorolone"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Hydrocortisone succinate"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Prednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Methylprednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Prednisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Clocortolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Melengestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Betamethasone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Prednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Clobetasol propionate"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Clobetasol"
+                    },
+                    {
+                        "drugbank-id": "DB15566",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Prednisolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Fluorometholone"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Mometasone"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Prednisolone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB06251",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Dersalazine"
+                    },
+                    {
+                        "drugbank-id": "DB06807",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Phenyl aminosalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Nitroaspirin"
+                    },
+                    {
+                        "drugbank-id": "DB13509",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Aloxiprin"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Guacetisal"
+                    },
+                    {
+                        "drugbank-id": "DB14026",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Thiosalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Lidocaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00297",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Bupivacaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00527",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Cinchocaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00645",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Dyclonine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00750",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Prilocaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00807",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Proparacaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00892",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Oxybuprocaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00961",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Mepivacaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB01086",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Benzocaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB05232",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Tetrodotoxin resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Benzyl alcohol resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB08987",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Etidocaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB09009",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Articaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB09085",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Tetracaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB11148",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Butamben resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB11502",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Butacaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13328",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Butanilicaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13578",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Metabutethamine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13683",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Quinisocaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB09342",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Propoxycaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "Hyaluronidase can cause an increase in the absorption of Procaine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Benzatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Cetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Hydroxyzine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00767",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Benzquinamide"
+                    },
+                    {
+                        "drugbank-id": "DB00777",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Propiomazine"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Brompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Ranitidine"
+                    },
+                    {
+                        "drugbank-id": "DB00902",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Methdilazine"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Methantheline"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Azelastine"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Dimenhydrinate"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Mequitazine"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Diphenhydramine"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Chlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Cyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01619",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Phenindamine"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB03255",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Phenol"
+                    },
+                    {
+                        "drugbank-id": "DB04819",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Methapyrilene"
+                    },
+                    {
+                        "drugbank-id": "DB06678",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Esmirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB08800",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Chloropyramine"
+                    },
+                    {
+                        "drugbank-id": "DB08805",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Metiamide"
+                    },
+                    {
+                        "drugbank-id": "DB08806",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Roxatidine acetate"
+                    },
+                    {
+                        "drugbank-id": "DB08967",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Dimetotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB12770",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Lafutidine"
+                    },
+                    {
+                        "drugbank-id": "DB12806",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with GSK 1004723"
+                    },
+                    {
+                        "drugbank-id": "DB12884",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Lavoltidine"
+                    },
+                    {
+                        "drugbank-id": "DB13466",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Deptropine"
+                    },
+                    {
+                        "drugbank-id": "DB13711",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Tritoqualine"
+                    },
+                    {
+                        "drugbank-id": "DB13713",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Quifenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13760",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Niperotidine"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB15120",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with GSK 239512"
+                    },
+                    {
+                        "drugbank-id": "DB15192",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with ABT 288"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Clemastine"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Nizatidine"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Epinastine"
+                    },
+                    {
+                        "drugbank-id": "DB01620",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Pheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB01084",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Emedastine"
+                    },
+                    {
+                        "drugbank-id": "DB08801",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Dimetindene"
+                    },
+                    {
+                        "drugbank-id": "DB09007",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Chlorphenoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Trazodone"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Bethanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00292",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Etomidate"
+                    },
+                    {
+                        "drugbank-id": "DB00368",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Norepinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Phenylephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Clonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00610",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Metaraminol"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Dexmedetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Epinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00723",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Methoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00841",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Dobutamine"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB01253",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Ergometrine"
+                    },
+                    {
+                        "drugbank-id": "DB01364",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Ephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB01365",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Mephentermine"
+                    },
+                    {
+                        "drugbank-id": "DB01472",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with 4 Methoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01537",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with 4 Bromo 2 5 dimethoxyphenethylamine"
+                    },
+                    {
+                        "drugbank-id": "DB06764",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Tetryzoline"
+                    },
+                    {
+                        "drugbank-id": "DB08925",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Adrafinil"
+                    },
+                    {
+                        "drugbank-id": "DB09202",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Cirazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09203",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Synephrine"
+                    },
+                    {
+                        "drugbank-id": "DB11373",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Amitraz"
+                    },
+                    {
+                        "drugbank-id": "DB11428",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Medetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB11477",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Xylazine"
+                    },
+                    {
+                        "drugbank-id": "DB11543",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Romifidine"
+                    },
+                    {
+                        "drugbank-id": "DB11556",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Detomidine"
+                    },
+                    {
+                        "drugbank-id": "DB13251",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Octopamine"
+                    },
+                    {
+                        "drugbank-id": "DB13378",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Norfenefrine"
+                    },
+                    {
+                        "drugbank-id": "DB00935",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Oxymetazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08985",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Etilefrine"
+                    },
+                    {
+                        "drugbank-id": "DB11124",
+                        "description": "The risk or severity of adverse effects can be increased when Hyaluronidase is combined with Racepinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00269",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Chlorotrianisene"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Conjugated estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Estradiol"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Mestranol"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Estrone sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB04575",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Quinestrol"
+                    },
+                    {
+                        "drugbank-id": "DB07931",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Hexestrol"
+                    },
+                    {
+                        "drugbank-id": "DB09070",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Tibolone"
+                    },
+                    {
+                        "drugbank-id": "DB09317",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Synthetic Conjugated Estrogens A"
+                    },
+                    {
+                        "drugbank-id": "DB09318",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Synthetic Conjugated Estrogens B"
+                    },
+                    {
+                        "drugbank-id": "DB09369",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Polyestradiol phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09381",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Esterified estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB11478",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Zeranol"
+                    },
+                    {
+                        "drugbank-id": "DB11674",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Equol"
+                    },
+                    {
+                        "drugbank-id": "DB13143",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Methallenestril"
+                    },
+                    {
+                        "drugbank-id": "DB13386",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Epimestrol"
+                    },
+                    {
+                        "drugbank-id": "DB13418",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Moxestrol"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Estradiol benzoate"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Estradiol cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Estradiol valerate"
+                    },
+                    {
+                        "drugbank-id": "DB15334",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Biochanin A"
+                    },
+                    {
+                        "drugbank-id": "DB15335",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Formononetin"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Estrone"
+                    },
+                    {
+                        "drugbank-id": "DB04573",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Estriol"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "The therapeutic efficacy of Lorazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "The therapeutic efficacy of Midazolam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB00801",
+                        "description": "The therapeutic efficacy of Halazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "The therapeutic efficacy of Diazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB01489",
+                        "description": "The therapeutic efficacy of Camazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB01545",
+                        "description": "The therapeutic efficacy of Ethyl loflazepate can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB01567",
+                        "description": "The therapeutic efficacy of Fludiazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB09166",
+                        "description": "The therapeutic efficacy of Etizolam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB12537",
+                        "description": "The therapeutic efficacy of Benzodiazepine can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB13335",
+                        "description": "The therapeutic efficacy of Pinazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB13643",
+                        "description": "The therapeutic efficacy of Loprazolam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB13837",
+                        "description": "The therapeutic efficacy of Doxefazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB14028",
+                        "description": "The therapeutic efficacy of Nordazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB14672",
+                        "description": "The therapeutic efficacy of Oxazepam acetate can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB14715",
+                        "description": "The therapeutic efficacy of Cinazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB14719",
+                        "description": "The therapeutic efficacy of Bentazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB12404",
+                        "description": "The therapeutic efficacy of Remimazolam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB01068",
+                        "description": "The therapeutic efficacy of Clonazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB00546",
+                        "description": "The therapeutic efficacy of Adinazolam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB01511",
+                        "description": "The therapeutic efficacy of Delorazepam can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The therapeutic efficacy of Furosemide can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The therapeutic efficacy of Phenytoin can be decreased when used in combination with Hyaluronidase"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The therapeutic efficacy of Fosphenytoin can be decreased when used in combination with Hyaluronidase"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

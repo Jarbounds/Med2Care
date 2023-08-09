@@ -1,0 +1,653 @@
+{
+    "medicine_id": "8c4a562287ec5fa4fe57399d73e7efa4efb7d9ff",
+    "platform_id": "DB00052",
+    "metadata": {
+        "name": "Bio tropin 4 MG Powder",
+        "composition": "4 MG Somatotropin",
+        "clinical_particulars": {
+            "therapeutic_indications": "For treatment of dwarfism acromegaly and prevention of HIV induced weight loss",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Used in the treatment of dwarfism and growth failure growth hormone hGH stimulates skeletal growth in pediatric patients with growth failure due to a lack of adequate secretion of endogenous GH Skeletal growth is accomplished at the epiphyseal plates at the ends of a growing bone Growth and metabolism of epiphyseal plate cells are directly stimulated by GH and one of its mediators IGF I insulin like growth factor",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The serum concentration of the active metabolites of Prednisone can be reduced when Prednisone is used in combination with Somatotropin resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00269",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Chlorotrianisene"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Conjugated estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Estradiol"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Mestranol"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Estrone sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB04575",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Quinestrol"
+                    },
+                    {
+                        "drugbank-id": "DB07931",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Hexestrol"
+                    },
+                    {
+                        "drugbank-id": "DB09070",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Tibolone"
+                    },
+                    {
+                        "drugbank-id": "DB09317",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Synthetic Conjugated Estrogens A"
+                    },
+                    {
+                        "drugbank-id": "DB09318",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Synthetic Conjugated Estrogens B"
+                    },
+                    {
+                        "drugbank-id": "DB09369",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Polyestradiol phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09381",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Esterified estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB11478",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Zeranol"
+                    },
+                    {
+                        "drugbank-id": "DB11674",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Equol"
+                    },
+                    {
+                        "drugbank-id": "DB13143",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Methallenestril"
+                    },
+                    {
+                        "drugbank-id": "DB13386",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Epimestrol"
+                    },
+                    {
+                        "drugbank-id": "DB13418",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Moxestrol"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Estradiol valerate"
+                    },
+                    {
+                        "drugbank-id": "DB15334",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Biochanin A"
+                    },
+                    {
+                        "drugbank-id": "DB15335",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Formononetin"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Estrone"
+                    },
+                    {
+                        "drugbank-id": "DB04573",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Estriol"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The serum concentration of the active metabolites of Cortisone acetate can be reduced when Cortisone acetate is used in combination with Somatotropin resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Leuprolide is combined with Somatotropin"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Infliximab"
+                    },
+                    {
+                        "drugbank-id": "DB00080",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Daptomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Pravastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Baclofen"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Cladribine"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00282",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Pamidronic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Mefloquine"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Tacrine"
+                    },
+                    {
+                        "drugbank-id": "DB00389",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Carbimazole"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Trimethoprim"
+                    },
+                    {
+                        "drugbank-id": "DB00471",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Montelukast"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Lercanidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Vincristine"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Propylthiouracil"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Methotrexate"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Nizatidine"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ivermectin"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Chloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB00627",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Niacin"
+                    },
+                    {
+                        "drugbank-id": "DB00630",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Alendronic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00636",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Clofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Simvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00666",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Nafarelin"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Amphotericin B"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Mycophenolate mofetil"
+                    },
+                    {
+                        "drugbank-id": "DB00704",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Naltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Lamivudine"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ibandronate"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Terbinafine"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Penicillamine"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ranitidine"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00884",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Risedronic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Bumetanide"
+                    },
+                    {
+                        "drugbank-id": "DB00897",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Triazolam"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Isoniazid"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB00982",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Isotretinoin"
+                    },
+                    {
+                        "drugbank-id": "DB00987",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Cytarabine"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ganciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB01006",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Letrozole"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Minocycline"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Procainamide"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Fenofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Atorvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Iloprost"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Leflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Rosuvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Procarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Paclitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Docetaxel"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Bezafibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Colchicine"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Fusidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Trabectedin"
+                    },
+                    {
+                        "drugbank-id": "DB06693",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Mevastatin"
+                    },
+                    {
+                        "drugbank-id": "DB06817",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Pitavastatin"
+                    },
+                    {
+                        "drugbank-id": "DB08983",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Etofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB09055",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Acipimox"
+                    },
+                    {
+                        "drugbank-id": "DB09064",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ciprofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB09270",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ubidecarenone"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB12554",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Mebeverine"
+                    },
+                    {
+                        "drugbank-id": "DB13293",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ipecac"
+                    },
+                    {
+                        "drugbank-id": "DB13393",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Emetine"
+                    },
+                    {
+                        "drugbank-id": "DB13433",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Simfibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13460",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Ronifibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13780",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Aluminium clofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13849",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Clofibride"
+                    },
+                    {
+                        "drugbank-id": "DB13873",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Fenofibric acid"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The therapeutic efficacy of Macimorelin can be decreased when used in combination with Somatotropin"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The therapeutic efficacy of Betamethasone can be decreased when used in combination with Somatotropin"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The therapeutic efficacy of Triamcinolone can be decreased when used in combination with Somatotropin"
+                    },
+                    {
+                        "drugbank-id": "DB00253",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Fluorometholone"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Beclomethasone dipropionate"
+                    },
+                    {
+                        "drugbank-id": "DB00896",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Rimexolone"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Paramethasone"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Ciclesonide"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Fluprednidene"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Meprednisone"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Dexamethasone isonicotinate"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Deflazacort"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Cortivazol"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Prednylidene"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Cloprednol"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Mometasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Prednisolone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Prednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Methylprednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Prednisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Clocortolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Melengestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Betamethasone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Cortisone"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Clobetasol propionate"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Fluocinonide"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Mometasone"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Fluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Clobetasol"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Difluocortolone"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

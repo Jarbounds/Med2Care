@@ -1,0 +1,1833 @@
+{
+    "medicine_id": "0bf4bd5df93e62c8c0bd0ca695f77df056ed5948",
+    "platform_id": "DB01053",
+    "metadata": {
+        "name": "Bicillin A P Injection Pws 1 2 MU Injection powder for solution",
+        "composition": "1 2 MU Benzylpenicillin",
+        "clinical_particulars": {
+            "therapeutic_indications": "For use in the treatment of severe infections caused by penicillin G susceptible microorganisms when rapid and high penicillin levels are required such as in the treatment of septicemia meningitis pericarditis endocarditis and severe pneumonia",
+            "contraindications": {
+                "disease": "Oral LD sub 50 sub in rat is 8900 mg kg MSDS Neurological adverse reactions including convulsions may occur with the attainment of high CSF levels of beta lactams Neutropenia can occur if high doses are administered consistently for over 2 weeks",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Penicillin G is a penicillin beta lactam antibiotic used in the treatment of bacterial infections caused by susceptible usually gram positive organisms The name penicillin can either refer to several variants of penicillin available or to the group of antibiotics derived from the penicillins Penicillin G has i in vitro i activity against gram positive and gram negative aerobic and anaerobic bacteria The bactericidal activity of penicillin G results from the inhibition of cell wall synthesis and is mediated through penicillin G binding to penicillin binding proteins PBPs Penicillin G is stable against hydrolysis by a variety of beta lactamases including penicillinases and cephalosporinases and extended spectrum beta lactamases",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The excretion of Methotrexate can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Doxycycline"
+                    },
+                    {
+                        "drugbank-id": "DB00256",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Lymecycline"
+                    },
+                    {
+                        "drugbank-id": "DB00453",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Clomocycline"
+                    },
+                    {
+                        "drugbank-id": "DB00560",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Tigecycline"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Oxytetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00618",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Demeclocycline"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Tetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00931",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Metacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Minocycline"
+                    },
+                    {
+                        "drugbank-id": "DB01301",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Rolitetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Sarecycline"
+                    },
+                    {
+                        "drugbank-id": "DB12329",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13264",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Penimepicycline"
+                    },
+                    {
+                        "drugbank-id": "DB00168",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Aspartame"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Pravastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Pantoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cefotiam"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Liothyronine"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Conjugated estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Aminohippuric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00456",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cefalotin"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Tenoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00493",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cefotaxime"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00536",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Guanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cephalexin"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00650",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Esomeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Acyclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00833",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cefaclor"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Dinoprostone"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ganciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01051",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00139",
+                        "description": "The excretion of Succinic acid can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00155",
+                        "description": "The excretion of Citrulline can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00198",
+                        "description": "The excretion of Oseltamivir can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The excretion of Tenofovir disoproxil can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The excretion of Piperacillin can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "The excretion of Trifluridine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "The excretion of Allopurinol can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00535",
+                        "description": "The excretion of Cefdinir can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00577",
+                        "description": "The excretion of Valaciclovir can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00583",
+                        "description": "The excretion of Levocarnitine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00693",
+                        "description": "The excretion of Fluorescein can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The excretion of Hydrocortisone can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00770",
+                        "description": "The excretion of Alprostadil can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The excretion of Ranitidine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "The excretion of Quinapril can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The excretion of Captopril can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The excretion of Sitagliptin can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "The excretion of Cefazolin can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "The excretion of Ceftizoxime can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "The excretion of Cefacetrile can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01415",
+                        "description": "The excretion of Ceftibuten can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01606",
+                        "description": "The excretion of Tazobactam can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB02527",
+                        "description": "The excretion of Cyclic adenosine monophosphate can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The excretion of Cholic Acid can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB03553",
+                        "description": "The excretion of Glutaric Acid can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB03902",
+                        "description": "The excretion of Oxalic Acid can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Taurocholic acid can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06211",
+                        "description": "The excretion of Doripenem can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The excretion of Saxagliptin can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB08846",
+                        "description": "The excretion of Ellagic acid can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09008",
+                        "description": "The excretion of Cefaloridine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09060",
+                        "description": "The excretion of Avibactam can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "The excretion of Eluxadoline can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Silibinin can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The excretion of Tenofovir alafenamide can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The excretion of Baricitinib can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12243",
+                        "description": "The excretion of Edaravone can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12377",
+                        "description": "The excretion of Relebactam can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The excretion of Tenofovir can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Melatonin"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB01140",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cefadroxil"
+                    },
+                    {
+                        "drugbank-id": "DB01212",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ceftriaxone"
+                    },
+                    {
+                        "drugbank-id": "DB01326",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cefamandole"
+                    },
+                    {
+                        "drugbank-id": "DB01329",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cefoperazone"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Liotrix"
+                    },
+                    {
+                        "drugbank-id": "DB01597",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cilastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01650",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with trans 2 hydroxycinnamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Topiroxostat"
+                    },
+                    {
+                        "drugbank-id": "DB03793",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Benzoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04519",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Caprylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB05016",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ataluren"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Dolutegravir"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11751",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cabotegravir"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Avatrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Letermovir"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB12866",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Pradigastat"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The excretion of Estradiol can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The excretion of Dexamethasone can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The excretion of Estrone can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The excretion of Prednisolone phosphate can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11644",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Tafamidis"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The serum concentration of Mycophenolate mofetil can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "The serum concentration of Mycophenolic acid can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "Benzylpenicillin may increase the anticoagulant activities of S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The therapeutic efficacy of Diethylstilbestrol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "The therapeutic efficacy of Etonogestrel can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The therapeutic efficacy of Desogestrel can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The therapeutic efficacy of Megestrol acetate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The therapeutic efficacy of Progesterone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The therapeutic efficacy of Medroxyprogesterone acetate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The therapeutic efficacy of Norethisterone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The therapeutic efficacy of Ethynodiol diacetate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The therapeutic efficacy of Mifepristone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The therapeutic efficacy of Norgestimate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The therapeutic efficacy of Ethinylestradiol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The therapeutic efficacy of Mestranol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The therapeutic efficacy of Drospirenone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04066",
+                        "description": "The therapeutic efficacy of p Coumaric acid can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The therapeutic efficacy of Estrone sulfate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04682",
+                        "description": "The therapeutic efficacy of Octylphenoxy polyethoxyethanol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The therapeutic efficacy of Cyproterone acetate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB05830",
+                        "description": "The therapeutic efficacy of Trestolone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06266",
+                        "description": "The therapeutic efficacy of Lonidamine can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06713",
+                        "description": "The therapeutic efficacy of Norelgestromin can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The therapeutic efficacy of Gestodene can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The therapeutic efficacy of Hydroxyprogesterone caproate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB08867",
+                        "description": "The therapeutic efficacy of Ulipristal can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The therapeutic efficacy of Dienogest can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09371",
+                        "description": "The therapeutic efficacy of Norethynodrel can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09389",
+                        "description": "The therapeutic efficacy of Norgestrel can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "The therapeutic efficacy of Isosorbide can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11507",
+                        "description": "The therapeutic efficacy of Cloprostenol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11619",
+                        "description": "The therapeutic efficacy of Gestrinone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11636",
+                        "description": "The therapeutic efficacy of Nomegestrol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12025",
+                        "description": "The therapeutic efficacy of Triptolide can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The therapeutic efficacy of Lynestrenol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13044",
+                        "description": "The therapeutic efficacy of Gossypol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13310",
+                        "description": "The therapeutic efficacy of Ormeloxifene can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13528",
+                        "description": "The therapeutic efficacy of Chlormadinone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13563",
+                        "description": "The therapeutic efficacy of Norgestrienone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13685",
+                        "description": "The therapeutic efficacy of Quingestanol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13857",
+                        "description": "The therapeutic efficacy of Demegestone can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13866",
+                        "description": "The therapeutic efficacy of Etynodiol can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The therapeutic efficacy of Testosterone enanthate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The therapeutic efficacy of Estradiol benzoate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The therapeutic efficacy of Estradiol cypionate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The therapeutic efficacy of Estradiol valerate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13981",
+                        "description": "The therapeutic efficacy of Nomegestrol acetate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB14678",
+                        "description": "The therapeutic efficacy of Norethindrone enanthate can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00314",
+                        "description": "The serum concentration of Capreomycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00452",
+                        "description": "The serum concentration of Framycetin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00479",
+                        "description": "The serum concentration of Amikacin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00684",
+                        "description": "The serum concentration of Tobramycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00798",
+                        "description": "The serum concentration of Gentamicin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00955",
+                        "description": "The serum concentration of Netilmicin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00994",
+                        "description": "The serum concentration of Neomycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01082",
+                        "description": "The serum concentration of Streptomycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01172",
+                        "description": "The serum concentration of Kanamycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01421",
+                        "description": "The serum concentration of Paromomycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB03615",
+                        "description": "The serum concentration of Ribostamycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04263",
+                        "description": "The serum concentration of Geneticin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04626",
+                        "description": "The serum concentration of Apramycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04729",
+                        "description": "The serum concentration of Gentamicin C1a can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04808",
+                        "description": "The serum concentration of Neamine can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06696",
+                        "description": "The serum concentration of Arbekacin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB08437",
+                        "description": "The serum concentration of Puromycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11512",
+                        "description": "The serum concentration of Dihydrostreptomycin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11520",
+                        "description": "The serum concentration of Hygromycin B can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12604",
+                        "description": "The serum concentration of Sisomicin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12615",
+                        "description": "The serum concentration of Plazomicin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13540",
+                        "description": "The serum concentration of Isepamicin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00803",
+                        "description": "The serum concentration of Colistin can be decreased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "Acemetacin may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Digoxin"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Beclomethasone dipropionate"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00520",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Caspofungin"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Vincristine"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ivermectin"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Simvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00646",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Nystatin"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Amprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Irinotecan"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Roxithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Sirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Atorvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Bezafibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Everolimus"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Genistein"
+                    },
+                    {
+                        "drugbank-id": "DB01892",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Hyperforin"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Fusidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04216",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Quercetin"
+                    },
+                    {
+                        "drugbank-id": "DB04850",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Posizolid"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Telaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB05928",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Dovitinib"
+                    },
+                    {
+                        "drugbank-id": "DB06151",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Acetylcysteine"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Axitinib"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cabazitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Pitavastatin"
+                    },
+                    {
+                        "drugbank-id": "DB08862",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Rilpivirine"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Idelalisib"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Daclatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Sacubitril"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Paritaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Venetoclax"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Asunaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Velpatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11869",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Valspodar"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12319",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Benzbromarone"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Pibrentasvir"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Glecaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Estradiol dienanthate"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Pexidartinib"
+                    },
+                    {
+                        "drugbank-id": "DB12500",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Fedratinib"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Istradefylline"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Elexacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB11936",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Bempedoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Fostemsavir"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Remdesivir"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Mercaptopurine"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The excretion of Pemetrexed can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The excretion of Valproic acid can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The excretion of Clofarabine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The excretion of Benzylpenicillin can be increased when combined with Testosterone"
+                    },
+                    {
+                        "drugbank-id": "DB06710",
+                        "description": "The excretion of Benzylpenicillin can be increased when combined with Methyltestosterone"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The excretion of Benzylpenicillin can be increased when combined with Testosterone cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The excretion of Benzylpenicillin can be increased when combined with Testosterone undecanoate"
+                    },
+                    {
+                        "drugbank-id": "DB00369",
+                        "description": "The excretion of Cidofovir can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "The excretion of Stavudine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "The excretion of Lamivudine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00718",
+                        "description": "The excretion of Adefovir dipivoxil can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "The excretion of Didanosine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00943",
+                        "description": "The excretion of Zalcitabine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00416",
+                        "description": "The therapeutic efficacy of Metocurine iodide can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00483",
+                        "description": "The therapeutic efficacy of Gallamine triethiodide can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00565",
+                        "description": "The therapeutic efficacy of Cisatracurium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00728",
+                        "description": "The therapeutic efficacy of Rocuronium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00732",
+                        "description": "The therapeutic efficacy of Atracurium besylate can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01135",
+                        "description": "The therapeutic efficacy of Doxacurium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "The therapeutic efficacy of Tubocurarine can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01226",
+                        "description": "The therapeutic efficacy of Mivacurium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01336",
+                        "description": "The therapeutic efficacy of Metocurine can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01337",
+                        "description": "The therapeutic efficacy of Pancuronium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01338",
+                        "description": "The therapeutic efficacy of Pipecuronium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01339",
+                        "description": "The therapeutic efficacy of Vecuronium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04834",
+                        "description": "The therapeutic efficacy of Rapacuronium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13295",
+                        "description": "The therapeutic efficacy of Atracurium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "The therapeutic efficacy of Gallamine can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13648",
+                        "description": "The therapeutic efficacy of Alcuronium can be increased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The serum concentration of Grepafloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The serum concentration of Levofloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The serum concentration of Moxifloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The serum concentration of Enoxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The serum concentration of Pefloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The serum concentration of Ciprofloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The serum concentration of Trovafloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The serum concentration of Nalidixic acid can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The serum concentration of Rosoxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The serum concentration of Cinoxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The serum concentration of Lomefloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The serum concentration of Gatifloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The serum concentration of Norfloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The serum concentration of Gemifloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The serum concentration of Ofloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The serum concentration of Sparfloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The serum concentration of Temafloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The serum concentration of Fleroxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The serum concentration of Technetium Tc 99m ciprofloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The serum concentration of Garenoxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The serum concentration of Nemonoxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The serum concentration of Flumequine can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11404",
+                        "description": "The serum concentration of Enrofloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The serum concentration of Orbifloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The serum concentration of Sarafloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The serum concentration of Difloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The serum concentration of Pazufloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The serum concentration of Prulifloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The serum concentration of Delafloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The serum concentration of Sitafloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The serum concentration of Oxolinic acid can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The serum concentration of Rufloxacin can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The serum concentration of Pipemidic acid can be increased when it is combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00375",
+                        "description": "The serum concentration of Benzylpenicillin can be decreased when it is combined with Colestipol"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "Furosemide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "Bumetanide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "Benzylpenicillin may decrease the excretion rate of Rosuvastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Sulfasalazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "Darunavir may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "Simeprevir may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Benzylpenicillin may decrease the excretion rate of Hydrochlorothiazide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "Torasemide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "Methyclothiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00259",
+                        "description": "Sulfanilamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "Sulfisoxazole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "Chlorthalidone may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00311",
+                        "description": "Ethoxzolamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "Sulfadiazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Bendroflumethiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "Celecoxib may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "Metolazone may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "Bosentan may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "Benzthiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00576",
+                        "description": "Sulfamethizole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Cyclothiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00634",
+                        "description": "Sulfacetamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00664",
+                        "description": "Sulfametopyrazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "Sumatriptan may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "Tamsulosin may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Hydroflumethiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "Indapamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "Acetazolamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Chlorothiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00891",
+                        "description": "Sulfapyridine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "Zonisamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "Sulfamethoxazole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Trichlormethiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "Diazoxide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "Diclofenamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01298",
+                        "description": "Sulfacytine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01299",
+                        "description": "Sulfadoxine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Polythiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01325",
+                        "description": "Quinethazone may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "Glymidine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01581",
+                        "description": "Sulfamerazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01582",
+                        "description": "Sulfamethazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB02925",
+                        "description": "Piretanide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04707",
+                        "description": "Hydroxyfasudil may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB05245",
+                        "description": "Silver sulfadiazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06147",
+                        "description": "Sulfathiazole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06150",
+                        "description": "Sulfadimethoxine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06729",
+                        "description": "Sulfaphenazole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06795",
+                        "description": "Mafenide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06821",
+                        "description": "Sulfameter may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB07996",
+                        "description": "5 2 methylpiperazine 1 sulfonyl isoquinoline may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08162",
+                        "description": "Fasudil may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08798",
+                        "description": "Sulfamoxole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "Vemurafenib may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08961",
+                        "description": "Azosemide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11389",
+                        "description": "Clorsulon may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11461",
+                        "description": "Sulfachlorpyridazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11462",
+                        "description": "Sulfaethoxypyridazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11463",
+                        "description": "Sulfanitran may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11464",
+                        "description": "Sulfaquinoxaline may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12051",
+                        "description": "Setrobuvir may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12921",
+                        "description": "Chlorsulfaquinoxaline may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13214",
+                        "description": "Sulfadicramide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13248",
+                        "description": "Phthalylsulfathiazole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13283",
+                        "description": "Sulfaisodimidine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13284",
+                        "description": "Meticrane may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13320",
+                        "description": "Sulfaperin may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13405",
+                        "description": "Mefruside may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "Mebutizide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13485",
+                        "description": "Sulfametomidine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Cyclopenthiazide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13547",
+                        "description": "Sulfatolamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13556",
+                        "description": "Sulfamazone may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13580",
+                        "description": "Succinylsulfathiazole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13617",
+                        "description": "Clorexolone may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13663",
+                        "description": "Clofenamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13699",
+                        "description": "Sulfathiourea may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13708",
+                        "description": "Fenquizone may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13726",
+                        "description": "Sulfaguanidine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13773",
+                        "description": "Sulfamethoxypyridazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13792",
+                        "description": "Clopamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Xipamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14033",
+                        "description": "Acetyl sulfisoxazole may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14708",
+                        "description": "Tosylchloramide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "Methazolamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00869",
+                        "description": "Dorzolamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01194",
+                        "description": "Brinzolamide may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "Indisulam may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB14845",
+                        "description": "The serum concentration of Benzylpenicillin can be increased when it is combined with Filgotinib"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

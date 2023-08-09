@@ -1,0 +1,789 @@
+{
+    "medicine_id": "2953f1eff70aa7e1c6d24dc53da8c1192f8015fe",
+    "platform_id": "DB00578",
+    "metadata": {
+        "name": "Ag valacyclovir 1 G Tablet film coated",
+        "composition": "1 G Carbenicillin",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of acute and chronic infections of the upper and lower urinary tract and in asymptomatic bacteriuria due to susceptible strains of bacteria",
+            "contraindications": {
+                "disease": "Carbenicillin blood levels achievable are very low and toxic reactions as a function of overdosage should not occur systematically The oral LD sub 50 sub in mice is 3 600 mg kg in rats 2 000 mg kg and in dogs is in excess of 500 mg kg The lethal human dose is not known Symptoms of overdose include diarrhea nausea stomach upset and vomiting",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Carbenicillin is a semisynthetic penicillin Though carbenicillin provides substantial i in vitro i activity against a variety of both gram positive and gram negative microorganisms the most important aspect of its profile is in its antipseudomonal and antiproteal activity Because of the high urine levels obtained following administration carbenicillin has demonstrated clinical efficacy in urinary infections due to susceptible strains of i Escherichia coli i i Proteus mirabilis i i Proteus vulgaris i i Morganella morganii i i Pseudomonas i species i Providencia rettgeri i i Enterobacter i species and i Enterococci i i S faecalis i",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The excretion of Methotrexate can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The excretion of Carbenicillin can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Doxycycline"
+                    },
+                    {
+                        "drugbank-id": "DB00256",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Lymecycline"
+                    },
+                    {
+                        "drugbank-id": "DB00453",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Clomocycline"
+                    },
+                    {
+                        "drugbank-id": "DB00560",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Tigecycline"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Oxytetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00618",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Demeclocycline"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Tetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00931",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Metacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Minocycline"
+                    },
+                    {
+                        "drugbank-id": "DB01301",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Rolitetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Sarecycline"
+                    },
+                    {
+                        "drugbank-id": "DB12329",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Eravacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13264",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Penimepicycline"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The serum concentration of Mycophenolate mofetil can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "The serum concentration of Mycophenolic acid can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "Carbenicillin may increase the anticoagulant activities of 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "Carbenicillin may increase the anticoagulant activities of R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "Carbenicillin may increase the anticoagulant activities of Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "Carbenicillin may increase the anticoagulant activities of S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The therapeutic efficacy of Diethylstilbestrol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "The therapeutic efficacy of Etonogestrel can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The therapeutic efficacy of Desogestrel can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The therapeutic efficacy of Megestrol acetate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The therapeutic efficacy of Progesterone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The therapeutic efficacy of Medroxyprogesterone acetate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The therapeutic efficacy of Norethisterone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The therapeutic efficacy of Estradiol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The therapeutic efficacy of Ethynodiol diacetate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The therapeutic efficacy of Mifepristone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The therapeutic efficacy of Norgestimate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The therapeutic efficacy of Ethinylestradiol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The therapeutic efficacy of Mestranol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The therapeutic efficacy of Drospirenone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04066",
+                        "description": "The therapeutic efficacy of p Coumaric acid can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The therapeutic efficacy of Estrone sulfate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04682",
+                        "description": "The therapeutic efficacy of Octylphenoxy polyethoxyethanol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The therapeutic efficacy of Cyproterone acetate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB05830",
+                        "description": "The therapeutic efficacy of Trestolone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06266",
+                        "description": "The therapeutic efficacy of Lonidamine can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06713",
+                        "description": "The therapeutic efficacy of Norelgestromin can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The therapeutic efficacy of Gestodene can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The therapeutic efficacy of Hydroxyprogesterone caproate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB08867",
+                        "description": "The therapeutic efficacy of Ulipristal can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The therapeutic efficacy of Dienogest can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09371",
+                        "description": "The therapeutic efficacy of Norethynodrel can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09389",
+                        "description": "The therapeutic efficacy of Norgestrel can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "The therapeutic efficacy of Isosorbide can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11507",
+                        "description": "The therapeutic efficacy of Cloprostenol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11619",
+                        "description": "The therapeutic efficacy of Gestrinone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11636",
+                        "description": "The therapeutic efficacy of Nomegestrol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12025",
+                        "description": "The therapeutic efficacy of Triptolide can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The therapeutic efficacy of Lynestrenol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13044",
+                        "description": "The therapeutic efficacy of Gossypol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13310",
+                        "description": "The therapeutic efficacy of Ormeloxifene can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13528",
+                        "description": "The therapeutic efficacy of Chlormadinone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13563",
+                        "description": "The therapeutic efficacy of Norgestrienone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13685",
+                        "description": "The therapeutic efficacy of Quingestanol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13857",
+                        "description": "The therapeutic efficacy of Demegestone can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13866",
+                        "description": "The therapeutic efficacy of Etynodiol can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The therapeutic efficacy of Testosterone enanthate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The therapeutic efficacy of Estradiol benzoate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The therapeutic efficacy of Estradiol cypionate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The therapeutic efficacy of Estradiol valerate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13981",
+                        "description": "The therapeutic efficacy of Nomegestrol acetate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB14678",
+                        "description": "The therapeutic efficacy of Norethindrone enanthate can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00314",
+                        "description": "The serum concentration of Capreomycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00452",
+                        "description": "The serum concentration of Framycetin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00479",
+                        "description": "The serum concentration of Amikacin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00684",
+                        "description": "The serum concentration of Tobramycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00798",
+                        "description": "The serum concentration of Gentamicin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00955",
+                        "description": "The serum concentration of Netilmicin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00994",
+                        "description": "The serum concentration of Neomycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01082",
+                        "description": "The serum concentration of Streptomycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01172",
+                        "description": "The serum concentration of Kanamycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01421",
+                        "description": "The serum concentration of Paromomycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB03615",
+                        "description": "The serum concentration of Ribostamycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04263",
+                        "description": "The serum concentration of Geneticin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04626",
+                        "description": "The serum concentration of Apramycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04729",
+                        "description": "The serum concentration of Gentamicin C1a can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04808",
+                        "description": "The serum concentration of Neamine can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06696",
+                        "description": "The serum concentration of Arbekacin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB08437",
+                        "description": "The serum concentration of Puromycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11512",
+                        "description": "The serum concentration of Dihydrostreptomycin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11520",
+                        "description": "The serum concentration of Hygromycin B can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12604",
+                        "description": "The serum concentration of Sisomicin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12615",
+                        "description": "The serum concentration of Plazomicin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13540",
+                        "description": "The serum concentration of Isepamicin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00803",
+                        "description": "The serum concentration of Colistin can be decreased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "Acemetacin may decrease the excretion rate of Carbenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00155",
+                        "description": "The excretion of Citrulline can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "The excretion of Cefotiam can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The excretion of Tenofovir disoproxil can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Indomethacin can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Aminohippuric acid can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00369",
+                        "description": "The excretion of Cidofovir can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "The excretion of Trifluridine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The excretion of Zidovudine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The excretion of Cimetidine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00535",
+                        "description": "The excretion of Cefdinir can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The excretion of Cephalexin can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "The excretion of Stavudine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00693",
+                        "description": "The excretion of Fluorescein can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "The excretion of Lamivudine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00718",
+                        "description": "The excretion of Adefovir dipivoxil can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00770",
+                        "description": "The excretion of Alprostadil can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The excretion of Acyclovir can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The excretion of Ranitidine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "The excretion of Didanosine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Dinoprostone can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00943",
+                        "description": "The excretion of Zalcitabine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The excretion of Captopril can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "The excretion of Cefazolin can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "The excretion of Ceftizoxime can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "The excretion of Cefacetrile can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01415",
+                        "description": "The excretion of Ceftibuten can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01606",
+                        "description": "The excretion of Tazobactam can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB02527",
+                        "description": "The excretion of Cyclic adenosine monophosphate can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB03553",
+                        "description": "The excretion of Glutaric Acid can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Taurocholic acid can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB08846",
+                        "description": "The excretion of Ellagic acid can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09008",
+                        "description": "The excretion of Cefaloridine can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Silibinin can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The excretion of Tenofovir alafenamide can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12243",
+                        "description": "The excretion of Edaravone can be decreased when combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00416",
+                        "description": "The therapeutic efficacy of Metocurine iodide can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00483",
+                        "description": "The therapeutic efficacy of Gallamine triethiodide can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00565",
+                        "description": "The therapeutic efficacy of Cisatracurium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00728",
+                        "description": "The therapeutic efficacy of Rocuronium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00732",
+                        "description": "The therapeutic efficacy of Atracurium besylate can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01135",
+                        "description": "The therapeutic efficacy of Doxacurium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "The therapeutic efficacy of Tubocurarine can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01226",
+                        "description": "The therapeutic efficacy of Mivacurium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01336",
+                        "description": "The therapeutic efficacy of Metocurine can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01337",
+                        "description": "The therapeutic efficacy of Pancuronium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01338",
+                        "description": "The therapeutic efficacy of Pipecuronium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01339",
+                        "description": "The therapeutic efficacy of Vecuronium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04834",
+                        "description": "The therapeutic efficacy of Rapacuronium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13295",
+                        "description": "The therapeutic efficacy of Atracurium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "The therapeutic efficacy of Gallamine can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13648",
+                        "description": "The therapeutic efficacy of Alcuronium can be increased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The serum concentration of Grepafloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The serum concentration of Levofloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The serum concentration of Moxifloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The serum concentration of Enoxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The serum concentration of Pefloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The serum concentration of Ciprofloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The serum concentration of Trovafloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The serum concentration of Nalidixic acid can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The serum concentration of Rosoxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The serum concentration of Cinoxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The serum concentration of Lomefloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The serum concentration of Gatifloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The serum concentration of Norfloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The serum concentration of Gemifloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The serum concentration of Ofloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The serum concentration of Sparfloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The serum concentration of Temafloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The serum concentration of Fleroxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The serum concentration of Technetium Tc 99m ciprofloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The serum concentration of Garenoxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The serum concentration of Nemonoxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The serum concentration of Flumequine can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11404",
+                        "description": "The serum concentration of Enrofloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The serum concentration of Orbifloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The serum concentration of Sarafloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The serum concentration of Difloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The serum concentration of Pazufloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The serum concentration of Prulifloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The serum concentration of Delafloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The serum concentration of Sitafloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The serum concentration of Oxolinic acid can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The serum concentration of Rufloxacin can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The serum concentration of Pipemidic acid can be increased when it is combined with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Carbenicillin"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

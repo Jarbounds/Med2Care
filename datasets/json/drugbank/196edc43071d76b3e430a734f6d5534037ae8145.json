@@ -1,0 +1,1461 @@
+{
+    "medicine_id": "196edc43071d76b3e430a734f6d5534037ae8145",
+    "platform_id": "DB00781",
+    "metadata": {
+        "name": "10 Person ANSI 1 mg Ointment",
+        "composition": "1 mg Polymyxin B",
+        "clinical_particulars": {
+            "therapeutic_indications": "Polymyxin B is indicated for the treatment of infections of the urinary tract meninges and blood stream caused by susceptible strains of i Pseudomonas aeruginosa i FDA Label",
+            "contraindications": {
+                "disease": "Nephrotoxicity can occur in patients as polymyxin B is thought to accumulate in renal cells after renal tubular reabsorption A176390 This accumulation can lead to apoptosis of renal cells and decrease in renal function A176399 In recent studies acute kidney injury AKI has been seen in 31 3 to 39 4 of patients receiving polymyxin B A176399 Overdose cases can cause neuromuscular block leading to apnea muscular weakness vertigo transient facial parasthesia slurred speed vasomotor instability visual disturbance confusion psychosis and respiratory arrest F4151 Renal failure has also been seen through decreased urine output and increased serum concentrations of blood urea nitrogen F4151 Overdose of polymyxin B is treated by stopping the drug and beginning symptomatic treatment F4151 Intravenous administration of mannitol may enhance renal clearance and hemodialysis may manage renal complications F4151 Safety of polymyxin B has not been established in pregnancy breast feeding pediatrics and geriatrics F4151 Polymyxin B should no be used in pregnancy unless the benefit outweighs the risk F4151 Nursing mothers should either stop nursing or stop polymyxin B treatment depending on the risks to both the mother and child F4151 Pediatric patients should be frequently monitored for renal function and no dosing information is available in children under 2 years of age F4151 Geriatric patients should have renal function assessed before and regularly during therapy F4151",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Polymyxin B is an antibiotic that disrupts the outer cell membrane of Gram negative bacteria binds and neutralizes lipopolysaccharide and inhibits respiration of Gram negative bacterial cells A176426 Polymyxin B can be given by a number of routes to treat susceptible Gram negative bacterial infections A176426 Absorption of the drug is poor though not necessary for most of its activity and the excreted drug is unchanged by metabolic processes A176432 A176390 Polymyxin B is generally indicated for susceptible Gram negative infections of the urinary tract meninges and blood stream FDA Label",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01111",
+                        "description": "Polymyxin B may increase the nephrotoxic and neuromuscular blocking activities of Colistimethate"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Polymyxin B is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "Succinylcholine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Reserpine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "Ziprasidone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00260",
+                        "description": "Cycloserine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Amitriptyline may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Protriptyline may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "Vinorelbine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "Clozapine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "Thiethylperazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "Sulpiride may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "Loxapine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "Remoxipride may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "Promazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "Prochlorperazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Teniposide may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "Droperidol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Imipramine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "Chlorpromazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "Haloperidol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "Triflupromazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "Cyclophosphamide may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Nortriptyline may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "Vincristine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Amoxapine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "Fluphenazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "Stavudine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "Thioridazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "Moricizine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Trimipramine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Risperidone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "Trifluoperazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "Perphenazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "Flupentixol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Ethanol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "Didanosine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "Cyclobenzaprine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "Mesoridazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "Acetophenazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Promethazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "Pimozide may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Desipramine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "Clindamycin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "Tubocurarine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "Paclitaxel may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "Aripiprazole may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "Chlorprothixene may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Clomipramine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01245",
+                        "description": "Decamethonium may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "Alimemazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "Paliperidone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01294",
+                        "description": "Bismuth subsalicylate may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "Methotrimeprazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01598",
+                        "description": "Imipenem may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "Periciazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "Acepromazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "Aceprometazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01618",
+                        "description": "Molindone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "Pipotiazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "Thioproperazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "Thiothixene may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "Zuclopenthixol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01627",
+                        "description": "Lincomycin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Amineptine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Fluspirilene may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04872",
+                        "description": "Osanetant may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04888",
+                        "description": "Bifeprunox may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "Iloperidone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB05316",
+                        "description": "Pimavanserin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "BL 1020 may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "Cariprazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "Sertindole may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Asenapine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "Amisulpride may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "Lurasidone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "Perospirone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08927",
+                        "description": "Amperozide may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Dimetacrine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "Cyamemazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Butriptyline may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "Brexpiprazole may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "Sodium citrate may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Dosulepin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09223",
+                        "description": "Blonanserin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Melperone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "Zotepine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09226",
+                        "description": "Brilaroxazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Methylene blue may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09275",
+                        "description": "Bismuth subcitrate potassium may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "Pipamperone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "Tianeptine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Oxaprotiline may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11281",
+                        "description": "Bismuth subcarbonate may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11376",
+                        "description": "Azaperone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11537",
+                        "description": "Pirlimycin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "Propiopromazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Tetrahydropalmatine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12273",
+                        "description": "Ecopipam may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12401",
+                        "description": "Bromperidol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12518",
+                        "description": "Raclopride may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "Ritanserin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "Perazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12867",
+                        "description": "Benperidol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Opipramol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12958",
+                        "description": "Prothipendyl may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13025",
+                        "description": "Tiapride may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Amitriptylinoxide may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "Bismuth subnitrate may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "Butaperazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Dibenzepin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Quinupramine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13256",
+                        "description": "Clothiapine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "Sultopride may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "Chlorproethazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Melitracen may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13403",
+                        "description": "Oxypertine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Lofepramine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "Thiazinam may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Iprindole may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13523",
+                        "description": "Veralipride may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13552",
+                        "description": "Trifluperidol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13554",
+                        "description": "Moperone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13557",
+                        "description": "Thiopropazate may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "Gallamine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13598",
+                        "description": "Diethyl ether may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13665",
+                        "description": "Fluanisone may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13676",
+                        "description": "Mosapramine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Imipramine oxide may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "Dixyrazine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Penfluridol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13841",
+                        "description": "Clopenthixol may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13909",
+                        "description": "Bismuth subgallate may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13910",
+                        "description": "Valproate bismuth may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "Aripiprazole lauroxil may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "Perphenazine enanthate may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06827",
+                        "description": "Viomycin may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB15965",
+                        "description": "Polymyxin B may increase the neurotoxic activities of Naxitamab"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of adverse effects can be increased when Cyclosporine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00159",
+                        "description": "The risk or severity of adverse effects can be increased when Icosapent is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "The risk or severity of adverse effects can be increased when Cefotiam is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "The risk or severity of adverse effects can be increased when Mesalazine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00267",
+                        "description": "The risk or severity of adverse effects can be increased when Cefmenoxime is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00274",
+                        "description": "The risk or severity of adverse effects can be increased when Cefmetazole is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00282",
+                        "description": "The risk or severity of adverse effects can be increased when Pamidronic acid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The risk or severity of adverse effects can be increased when Tenofovir disoproxil is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00314",
+                        "description": "The risk or severity of adverse effects can be increased when Capreomycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The risk or severity of adverse effects can be increased when Indomethacin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00369",
+                        "description": "The risk or severity of adverse effects can be increased when Cidofovir is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The risk or severity of adverse effects can be increased when Triamterene is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00430",
+                        "description": "The risk or severity of adverse effects can be increased when Cefpiramide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00438",
+                        "description": "The risk or severity of adverse effects can be increased when Ceftazidime is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00447",
+                        "description": "The risk or severity of adverse effects can be increased when Loracarbef is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00452",
+                        "description": "The risk or severity of adverse effects can be increased when Framycetin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00456",
+                        "description": "The risk or severity of adverse effects can be increased when Cefalotin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The risk or severity of adverse effects can be increased when Nabumetone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The risk or severity of adverse effects can be increased when Ketorolac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The risk or severity of adverse effects can be increased when Tenoxicam is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00479",
+                        "description": "The risk or severity of adverse effects can be increased when Amikacin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The risk or severity of adverse effects can be increased when Celecoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00493",
+                        "description": "The risk or severity of adverse effects can be increased when Cefotaxime is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00500",
+                        "description": "The risk or severity of adverse effects can be increased when Tolmetin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00512",
+                        "description": "The risk or severity of adverse effects can be increased when Vancomycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "The risk or severity of adverse effects can be increased when Cisplatin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The risk or severity of adverse effects can be increased when Foscarnet is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The risk or severity of adverse effects can be increased when Rofecoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The risk or severity of adverse effects can be increased when Piroxicam is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The risk or severity of adverse effects can be increased when Methotrexate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The risk or severity of adverse effects can be increased when Cephalexin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00573",
+                        "description": "The risk or severity of adverse effects can be increased when Fenoprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00577",
+                        "description": "The risk or severity of adverse effects can be increased when Valaciclovir is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The risk or severity of adverse effects can be increased when Valdecoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The risk or severity of adverse effects can be increased when Diclofenac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00605",
+                        "description": "The risk or severity of adverse effects can be increased when Sulindac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of adverse effects can be increased when Amphotericin B is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00684",
+                        "description": "The risk or severity of adverse effects can be increased when Tobramycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00689",
+                        "description": "The risk or severity of adverse effects can be increased when Cephaloglycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The risk or severity of adverse effects can be increased when Furosemide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The risk or severity of adverse effects can be increased when Flurbiprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00718",
+                        "description": "The risk or severity of adverse effects can be increased when Adefovir dipivoxil is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The risk or severity of adverse effects can be increased when Pentamidine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The risk or severity of adverse effects can be increased when Mannitol is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The risk or severity of adverse effects can be increased when Etodolac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The risk or severity of adverse effects can be increased when Mefenamic acid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The risk or severity of adverse effects can be increased when Acyclovir is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The risk or severity of adverse effects can be increased when Naproxen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfasalazine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00798",
+                        "description": "The risk or severity of adverse effects can be increased when Gentamicin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The risk or severity of adverse effects can be increased when Phenylbutazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "The risk or severity of adverse effects can be increased when Meloxicam is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00821",
+                        "description": "The risk or severity of adverse effects can be increased when Carprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00833",
+                        "description": "The risk or severity of adverse effects can be increased when Cefaclor is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The risk or severity of adverse effects can be increased when Diflunisal is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of adverse effects can be increased when Tacrolimus is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of adverse effects can be increased when Bumetanide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The risk or severity of adverse effects can be increased when Etacrynic acid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00923",
+                        "description": "The risk or severity of adverse effects can be increased when Ceforanide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The risk or severity of adverse effects can be increased when Salicylic acid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00939",
+                        "description": "The risk or severity of adverse effects can be increased when Meclofenamic acid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of adverse effects can be increased when Acetylsalicylic acid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00955",
+                        "description": "The risk or severity of adverse effects can be increased when Netilmicin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00958",
+                        "description": "The risk or severity of adverse effects can be increased when Carboplatin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00991",
+                        "description": "The risk or severity of adverse effects can be increased when Oxaprozin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrochlorothiazide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The risk or severity of adverse effects can be increased when Ketoprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "The risk or severity of adverse effects can be increased when Balsalazide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The risk or severity of adverse effects can be increased when Ibuprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01066",
+                        "description": "The risk or severity of adverse effects can be increased when Cefditoren is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The risk or severity of adverse effects can be increased when Atazanavir is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01082",
+                        "description": "The risk or severity of adverse effects can be increased when Streptomycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01112",
+                        "description": "The risk or severity of adverse effects can be increased when Cefuroxime is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01139",
+                        "description": "The risk or severity of adverse effects can be increased when Cefapirin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01140",
+                        "description": "The risk or severity of adverse effects can be increased when Cefadroxil is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01150",
+                        "description": "The risk or severity of adverse effects can be increased when Cefprozil is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01172",
+                        "description": "The risk or severity of adverse effects can be increased when Kanamycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01212",
+                        "description": "The risk or severity of adverse effects can be increased when Ceftriaxone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "The risk or severity of adverse effects can be increased when Olsalazine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The risk or severity of adverse effects can be increased when Lumiracoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01326",
+                        "description": "The risk or severity of adverse effects can be increased when Cefamandole is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "The risk or severity of adverse effects can be increased when Cefazolin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01328",
+                        "description": "The risk or severity of adverse effects can be increased when Cefonicid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01329",
+                        "description": "The risk or severity of adverse effects can be increased when Cefoperazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01330",
+                        "description": "The risk or severity of adverse effects can be increased when Cefotetan is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01331",
+                        "description": "The risk or severity of adverse effects can be increased when Cefoxitin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "The risk or severity of adverse effects can be increased when Ceftizoxime is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01333",
+                        "description": "The risk or severity of adverse effects can be increased when Cefradine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of adverse effects can be increased when Lithium cation is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "The risk or severity of adverse effects can be increased when Magnesium salicylate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01399",
+                        "description": "The risk or severity of adverse effects can be increased when Salsalate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01401",
+                        "description": "The risk or severity of adverse effects can be increased when Choline magnesium trisalicylate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01413",
+                        "description": "The risk or severity of adverse effects can be increased when Cefepime is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "The risk or severity of adverse effects can be increased when Cefacetrile is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01415",
+                        "description": "The risk or severity of adverse effects can be increased when Ceftibuten is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01416",
+                        "description": "The risk or severity of adverse effects can be increased when Cefpodoxime is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01419",
+                        "description": "The risk or severity of adverse effects can be increased when Antrafenine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01421",
+                        "description": "The risk or severity of adverse effects can be increased when Paromomycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The risk or severity of adverse effects can be increased when Aminophenazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The risk or severity of adverse effects can be increased when Antipyrine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01600",
+                        "description": "The risk or severity of adverse effects can be increased when Tiaprofenic acid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The risk or severity of adverse effects can be increased when Lopinavir is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The risk or severity of adverse effects can be increased when Etoricoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB02247",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrolyzed Cephalothin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB03450",
+                        "description": "The risk or severity of adverse effects can be increased when Cephalothin Group is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB03585",
+                        "description": "The risk or severity of adverse effects can be increased when Oxyphenbutazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB03615",
+                        "description": "The risk or severity of adverse effects can be increased when Ribostamycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04263",
+                        "description": "The risk or severity of adverse effects can be increased when Geneticin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04570",
+                        "description": "The risk or severity of adverse effects can be increased when Latamoxef is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04626",
+                        "description": "The risk or severity of adverse effects can be increased when Apramycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04729",
+                        "description": "The risk or severity of adverse effects can be increased when Gentamicin C1a is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The risk or severity of adverse effects can be increased when Nimesulide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04808",
+                        "description": "The risk or severity of adverse effects can be increased when Neamine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04812",
+                        "description": "The risk or severity of adverse effects can be increased when Benoxaprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The risk or severity of adverse effects can be increased when Metamizole is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04828",
+                        "description": "The risk or severity of adverse effects can be increased when Zomepirac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB04918",
+                        "description": "The risk or severity of adverse effects can be increased when Ceftobiprole is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB05095",
+                        "description": "The risk or severity of adverse effects can be increased when Cimicoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06590",
+                        "description": "The risk or severity of adverse effects can be increased when Ceftaroline fosamil is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06696",
+                        "description": "The risk or severity of adverse effects can be increased when Arbekacin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "The risk or severity of adverse effects can be increased when Lornoxicam is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06736",
+                        "description": "The risk or severity of adverse effects can be increased when Aceclofenac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The risk or severity of adverse effects can be increased when Zaltoprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB07402",
+                        "description": "The risk or severity of adverse effects can be increased when Azapropazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08437",
+                        "description": "The risk or severity of adverse effects can be increased when Puromycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "The risk or severity of adverse effects can be increased when Parecoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08797",
+                        "description": "The risk or severity of adverse effects can be increased when Salicylamide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08940",
+                        "description": "The risk or severity of adverse effects can be increased when Kebuzone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08942",
+                        "description": "The risk or severity of adverse effects can be increased when Isoxicam is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08951",
+                        "description": "The risk or severity of adverse effects can be increased when Indoprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08955",
+                        "description": "The risk or severity of adverse effects can be increased when Ibuproxam is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08976",
+                        "description": "The risk or severity of adverse effects can be increased when Floctafenine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08981",
+                        "description": "The risk or severity of adverse effects can be increased when Fenbufen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08984",
+                        "description": "The risk or severity of adverse effects can be increased when Etofenamate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB08991",
+                        "description": "The risk or severity of adverse effects can be increased when Epirizole is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09008",
+                        "description": "The risk or severity of adverse effects can be increased when Cefaloridine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09062",
+                        "description": "The risk or severity of adverse effects can be increased when Cefminox is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09084",
+                        "description": "The risk or severity of adverse effects can be increased when Benzydamine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The risk or severity of adverse effects can be increased when Dexibuprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09214",
+                        "description": "The risk or severity of adverse effects can be increased when Dexketoprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09215",
+                        "description": "The risk or severity of adverse effects can be increased when Droxicam is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The risk or severity of adverse effects can be increased when Tolfenamic acid is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09217",
+                        "description": "The risk or severity of adverse effects can be increased when Firocoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09218",
+                        "description": "The risk or severity of adverse effects can be increased when Clonixin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09285",
+                        "description": "The risk or severity of adverse effects can be increased when Morniflumate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The risk or severity of adverse effects can be increased when Propacetamol is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09295",
+                        "description": "The risk or severity of adverse effects can be increased when Talniflumate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The risk or severity of adverse effects can be increased when Tenofovir alafenamide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11367",
+                        "description": "The risk or severity of adverse effects can be increased when Cefroxadine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11455",
+                        "description": "The risk or severity of adverse effects can be increased when Robenacoxib is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "The risk or severity of adverse effects can be increased when Tepoxalin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11512",
+                        "description": "The risk or severity of adverse effects can be increased when Dihydrostreptomycin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11518",
+                        "description": "The risk or severity of adverse effects can be increased when Flunixin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11520",
+                        "description": "The risk or severity of adverse effects can be increased when Hygromycin B is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB11935",
+                        "description": "The risk or severity of adverse effects can be increased when Flomoxef is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12151",
+                        "description": "The risk or severity of adverse effects can be increased when Brincidofovir is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The risk or severity of adverse effects can be increased when Nitroaspirin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "The risk or severity of adverse effects can be increased when Indobufen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12604",
+                        "description": "The risk or severity of adverse effects can be increased when Sisomicin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB12615",
+                        "description": "The risk or severity of adverse effects can be increased when Plazomicin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13001",
+                        "description": "The risk or severity of adverse effects can be increased when Tinoridine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13167",
+                        "description": "The risk or severity of adverse effects can be increased when Alclofenac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13217",
+                        "description": "The risk or severity of adverse effects can be increased when Fentiazac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13232",
+                        "description": "The risk or severity of adverse effects can be increased when Suxibuzone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13266",
+                        "description": "The risk or severity of adverse effects can be increased when Cefatrizine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13286",
+                        "description": "The risk or severity of adverse effects can be increased when Bumadizone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13314",
+                        "description": "The risk or severity of adverse effects can be increased when Alminoprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13371",
+                        "description": "The risk or severity of adverse effects can be increased when Difenpiramide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13407",
+                        "description": "The risk or severity of adverse effects can be increased when Nifenazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13432",
+                        "description": "The risk or severity of adverse effects can be increased when Lonazolac is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13461",
+                        "description": "The risk or severity of adverse effects can be increased when Cefcapene is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13470",
+                        "description": "The risk or severity of adverse effects can be increased when Cefodizime is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13481",
+                        "description": "The risk or severity of adverse effects can be increased when Tenidap is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13499",
+                        "description": "The risk or severity of adverse effects can be increased when Cefsulodin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13504",
+                        "description": "The risk or severity of adverse effects can be increased when Cefetamet is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13524",
+                        "description": "The risk or severity of adverse effects can be increased when Propyphenazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13527",
+                        "description": "The risk or severity of adverse effects can be increased when Proglumetacin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "The risk or severity of adverse effects can be increased when Guacetisal is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13540",
+                        "description": "The risk or severity of adverse effects can be increased when Isepamicin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13544",
+                        "description": "The risk or severity of adverse effects can be increased when Ethenzamide is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "The risk or severity of adverse effects can be increased when Carbaspirin calcium is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13629",
+                        "description": "The risk or severity of adverse effects can be increased when Mofebutazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13638",
+                        "description": "The risk or severity of adverse effects can be increased when Cefbuperazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13649",
+                        "description": "The risk or severity of adverse effects can be increased when Proquazone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13657",
+                        "description": "The risk or severity of adverse effects can be increased when Benorilate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13667",
+                        "description": "The risk or severity of adverse effects can be increased when Cefozopran is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13682",
+                        "description": "The risk or severity of adverse effects can be increased when Cefpirome is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13722",
+                        "description": "The risk or severity of adverse effects can be increased when Pirprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13778",
+                        "description": "The risk or severity of adverse effects can be increased when Cefazedone is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "The risk or severity of adverse effects can be increased when Acemetacin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13821",
+                        "description": "The risk or severity of adverse effects can be increased when Ceftezole is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13860",
+                        "description": "The risk or severity of adverse effects can be increased when Imidazole salicylate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB13868",
+                        "description": "The risk or severity of adverse effects can be increased when Adefovir is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14059",
+                        "description": "The risk or severity of adverse effects can be increased when SC 236 is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14060",
+                        "description": "The risk or severity of adverse effects can be increased when NS 398 is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The risk or severity of adverse effects can be increased when Tenofovir is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "The risk or severity of adverse effects can be increased when Inotersen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB01438",
+                        "description": "The risk or severity of adverse effects can be increased when Phenazopyridine is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14507",
+                        "description": "The risk or severity of adverse effects can be increased when Lithium citrate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14509",
+                        "description": "The risk or severity of adverse effects can be increased when Lithium carbonate is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB15066",
+                        "description": "The risk or severity of adverse effects can be increased when Givosiran is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB09212",
+                        "description": "The risk or severity of adverse effects can be increased when Loxoprofen is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00803",
+                        "description": "The risk or severity of adverse effects can be increased when Colistin is combined with Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Polymyxin B"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

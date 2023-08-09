@@ -1,0 +1,505 @@
+{
+    "medicine_id": "cfad4ea8318f7d77c8ccf4f2de408470b5debada",
+    "platform_id": "DB14491",
+    "metadata": {
+        "name": "24 Multivitamins Minerals 3 mg Tablet",
+        "composition": "3 mg Ferrous fumarate",
+        "clinical_particulars": {
+            "therapeutic_indications": "Used in preventing and treating iron deficiency anemia",
+            "contraindications": {
+                "disease": "Acute iron overdosage can be divided into four stages In the first stage which occurs up to six hours after ingestion the principal symptoms are vomiting and diarrhea Other symptoms include hypotension tachycardia and CNS depression ranging from lethargy to coma The second phase may occur at 6 24 hours after ingestion and is characterized by a temporary remission In the third phase gastrointestinal symptoms recur accompanied by shock metabolic acidosis coma hepatic necrosis and jaundice hypoglycemia renal failure and pulmonary edema The fourth phase may occur several weeks after ingestion and is characterized by gastrointestinal obstruction and liver damage In a young child 75 milligrams per kilogram is considered extremely dangerous A dose of 30 milligrams per kilogram can lead to symptoms of toxicity Estimates of a lethal dosage range from 180 milligrams per kilogram and upwards A peak serum iron concentration of five micrograms or more per ml is associated with moderate to severe poisoning in many",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "The major activity of supplemental iron is in the prevention and treatment of iron deficiency anemia Iron has putative immune enhancing anticarcinogenic and cognition enhancing activities",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB06782",
+                        "description": "Dimercaprol may increase the nephrotoxic activities of Ferrous fumarate"
+                    },
+                    {
+                        "drugbank-id": "DB00535",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Cefdinir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08826",
+                        "description": "The serum concentration of Deferiprone can be decreased when it is combined with Ferrous fumarate"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Dolutegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Eltrombopag resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01235",
+                        "description": "The bioavailability of Levodopa can be decreased when combined with Ferrous fumarate"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Levothyroxine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Methyldopa resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Penicillamine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00166",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Lipoic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Moxifloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Grepafloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Enoxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Pefloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Ciprofloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Trovafloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Nalidixic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Rosoxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Cinoxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Lomefloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Gatifloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Norfloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Levofloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Gemifloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Ofloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Sparfloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Temafloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Fleroxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Technetium Tc 99m ciprofloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Garenoxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Nemonoxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Flumequine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11404",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Enrofloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Orbifloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Sarafloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Difloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Pazufloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Prulifloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Delafloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Sitafloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Oxolinic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Rufloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Pipemidic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "Doxycycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00256",
+                        "description": "Lymecycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00453",
+                        "description": "Clomocycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "Oxytetracycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00618",
+                        "description": "Demeclocycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "Tetracycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00931",
+                        "description": "Metacycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "Minocycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "Sarecycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13264",
+                        "description": "Penimepicycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06824",
+                        "description": "The serum concentration of Ferrous fumarate can be decreased when it is combined with Triethylenetetramine"
+                    },
+                    {
+                        "drugbank-id": "DB00085",
+                        "description": "Pancrelipase can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01390",
+                        "description": "Sodium bicarbonate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "Aluminum hydroxide can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "Magaldrate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "Magnesium hydroxide can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "Magnesium trisilicate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "Magnesium carbonate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "Magnesium silicate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "Aluminium acetoacetate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "Hydrotalcite can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "Magnesium peroxide can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "Almasilate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "Aluminium glycinate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "Aloglutamol can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13829",
+                        "description": "Calcium silicate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "Aluminium phosphate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "Pantoprazole can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "Lansoprazole can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "Esomeprazole can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "Rabeprazole can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB05351",
+                        "description": "Dexlansoprazole can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13762",
+                        "description": "Dexrabeprazole can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB15246",
+                        "description": "Salvianolic acid A can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14048",
+                        "description": "Sodium zirconium cyclosilicate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "Olanzapine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "Cimetidine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "Nizatidine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "Ranitidine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "Methantheline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Promethazine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Asenapine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08805",
+                        "description": "Metiamide can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08806",
+                        "description": "Roxatidine acetate can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12770",
+                        "description": "Lafutidine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12884",
+                        "description": "Lavoltidine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13760",
+                        "description": "Niperotidine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "Epinastine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00282",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Pamidronic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00399",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Zoledronic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00630",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Alendronic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Ibandronate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00720",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Clodronic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00884",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Risedronic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01077",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Etidronic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01133",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Tiludronic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06255",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Incadronic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB02369",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of 3 Aza 2 3 Dihydrogeranyl Diphosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB02423",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Thiopyrophosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB02552",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Geranyl Diphosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04160",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Pyrophosphoric acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB05143",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of OXI 4503 resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB07841",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Geranylgeranyl diphosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09147",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Ferric pyrophosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09413",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Monopotassium phosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09414",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Dipotassium phosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09449",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Sodium phosphate monobasic resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11493",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Sodium tripolyphosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13995",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Ferric pyrophosphate citrate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14481",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Calcium phosphate dihydrate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14523",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Phosphate ion resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09139",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Technetium Tc 99m oxidronate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The absorption of Ferrous fumarate can be decreased when combined with Omeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00190",
+                        "description": "Ferrous fumarate can cause a decrease in the absorption of Carbidopa resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB15617",
+                        "description": "The absorption of Ferrous fumarate can be decreased when combined with Ferric derisomaltose"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

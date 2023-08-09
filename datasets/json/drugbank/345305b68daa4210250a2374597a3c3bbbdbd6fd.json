@@ -1,0 +1,3325 @@
+{
+    "medicine_id": "345305b68daa4210250a2374597a3c3bbbdbd6fd",
+    "platform_id": "DB11730",
+    "metadata": {
+        "name": "Kisqali 200 mg 1 Tablet film coated",
+        "composition": "200 mg 1 Ribociclib",
+        "clinical_particulars": {
+            "therapeutic_indications": "Kisqali ribociclib is a selective cyclin dependent kinase inhibitor a class of drugs that help slow the progression of cancer by inhibiting two proteins called cyclin dependent kinase 4 and 6 CDK4 6 These proteins when over activated can enable cancer cells to grow and divide too quickly Targeting CDK4 6 with enhanced precision may play a role in ensuring that cancer cells do not continue to replicate uncontrollably",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00012",
+                        "description": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00016",
+                        "description": "The risk or severity of Thrombosis can be increased when Erythropoietin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "The risk or severity of Thrombosis can be increased when Peginesatide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09107",
+                        "description": "The risk or severity of Thrombosis can be increased when Methoxy polyethylene glycol epoetin beta is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Fosphenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The metabolism of Eliglustat can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The metabolism of Ibrutinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The metabolism of Trastuzumab emtansine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The metabolism of Almotriptan can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08903",
+                        "description": "The metabolism of Bedaquiline can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "The metabolism of Brexpiprazole can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08875",
+                        "description": "The metabolism of Cabozantinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The metabolism of Ceritinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Cilostazol can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The metabolism of Colchicine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The metabolism of Daclatasvir can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Erlotinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The metabolism of Fentanyl can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06702",
+                        "description": "The metabolism of Fesoterodine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The metabolism of Flibanserin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "The metabolism of Guanfacine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The metabolism of Iloperidone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The serum concentration of SN 38 an active metabolite of Irinotecan can be increased when used in combination with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The metabolism of Lapatinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The metabolism of Milnacipran can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The metabolism of Levomilnacipran can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04835",
+                        "description": "The metabolism of Maraviroc can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The metabolism of Mifepristone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The metabolism of Olaparib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The metabolism of Palbociclib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The metabolism of Panobinostat can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Pazopanib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The serum concentration of Quetiapine can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01256",
+                        "description": "The metabolism of Retapamulin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "The metabolism of Ruxolitinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The metabolism of Saxagliptin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The metabolism of Sildenafil can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08895",
+                        "description": "The metabolism of Tofacitinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The metabolism of Trabectedin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The metabolism of Vardenafil can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06684",
+                        "description": "The metabolism of Vilazodone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "The metabolism of Zopiclone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "The metabolism of Alfuzosin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "The metabolism of Alprazolam can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "The serum concentration of Tadalafil can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The serum concentration of Tolterodine can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The serum concentration of Warfarin can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The serum concentration of Acenocoumarol can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The serum concentration of R warfarin can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08735",
+                        "description": "The serum concentration of R S Warfarin alcohol can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08736",
+                        "description": "The serum concentration of S R Warfarin alcohol can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The serum concentration of S Warfarin can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "The serum concentration of Midazolam can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "The metabolism of Eplerenone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The serum concentration of Tacrolimus can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The metabolism of Salmeterol can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "The serum concentration of Riociguat can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The metabolism of Atorvastatin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The serum concentration of Fluticasone propionate can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The metabolism of Barnidipine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The serum concentration of Ribociclib can be increased when it is combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of QTc prolongation can be increased when Leuprolide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The risk or severity of QTc prolongation can be increased when Goserelin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Betaxolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The risk or severity of QTc prolongation can be increased when Erythromycin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azithromycin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moxifloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfisoxazole is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methadone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of QTc prolongation can be increased when Diltiazem is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulpiride is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nimodipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Promazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prochlorperazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of QTc prolongation can be increased when Droperidol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorpromazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxaliplatin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ciprofloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluorouracil is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00556",
+                        "description": "The risk or severity of QTc prolongation can be increased when Perflutren is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cinnarizine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propranolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atropine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chloroquine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Adenosine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pentamidine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00743",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gadobenic acid is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "The risk or severity of QTc prolongation can be increased when Carbinoxamine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dolasetron is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The risk or severity of QTc prolongation can be increased when Roxithromycin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nalidixic acid is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cinoxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "The risk or severity of QTc prolongation can be increased when Granisetron is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ondansetron is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levosimendan is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mesoridazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desloratadine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lomefloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dimenhydrinate is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The risk or severity of QTc prolongation can be increased when Primaquine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorpheniramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nifedipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levofloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gemifloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ofloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propafenone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acebutolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Flecainide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxprenolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01599",
+                        "description": "The risk or severity of QTc prolongation can be increased when Probucol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aceprometazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB02638",
+                        "description": "The risk or severity of QTc prolongation can be increased when Terlipressin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prenylamine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluspirilene is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lofexidine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azimilide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB05223",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pracinostat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Technetium Tc 99m ciprofloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The risk or severity of QTc prolongation can be increased when Garenoxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tedisamil is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tucidinostat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06402",
+                        "description": "The risk or severity of QTc prolongation can be increased when Telavancin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nemonoxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nilvadipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08799",
+                        "description": "The risk or severity of QTc prolongation can be increased when Antazoline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fendiline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of QTc prolongation can be increased when Eperisone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of QTc prolongation can be increased when Butriptyline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lenvatinib is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Melperone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Benidipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexchlorpheniramine maleate is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amifampridine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11830",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mocetinostat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Entinostat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gilteritinib is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12174",
+                        "description": "The risk or severity of QTc prolongation can be increased when CUDC 101 is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12286",
+                        "description": "The risk or severity of QTc prolongation can be increased when Simendan is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12376",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ricolinostat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12523",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mizolastine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12565",
+                        "description": "The risk or severity of QTc prolongation can be increased when Abexinostat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12877",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxatomide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sitafloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sultopride is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of QTc prolongation can be increased when Otilonium is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nizofenone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bunaftine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13653",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lorcainide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexchlorpheniramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of QTc prolongation can be increased when Penfluridol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexverapamil is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indenolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mibefradil is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amitriptyline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of QTc prolongation can be increased when Imipramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01084",
+                        "description": "The risk or severity of QTc prolongation can be increased when Emedastine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11718",
+                        "description": "The risk or severity of QTc prolongation can be increased when Encorafenib is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clozapine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The risk or severity of QTc prolongation can be increased when Berotralstat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00607",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Nafcillin"
+                    },
+                    {
+                        "drugbank-id": "DB06442",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Avasimibe"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The metabolism of Bexarotene can be increased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The metabolism of Bosentan can be increased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06414",
+                        "description": "The metabolism of Etravirine can be increased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14240",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Echinacea"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Pentobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00648",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Mitotane"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01220",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Rifaximin"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The metabolism of Ribociclib can be increased when combined with St John s Wort"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Enzalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The metabolism of Rifampicin can be increased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Isoniazid"
+                    },
+                    {
+                        "drugbank-id": "DB01406",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Danazol"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Zimelidine"
+                    },
+                    {
+                        "drugbank-id": "DB06731",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Seproxetine"
+                    },
+                    {
+                        "drugbank-id": "DB01110",
+                        "description": "The metabolism of Miconazole can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The metabolism of Fusidic acid can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The metabolism of Simeprevir can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "The metabolism of Desvenlafaxine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "The metabolism of Indalpine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14019",
+                        "description": "The metabolism of Fosnetupitant can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00673",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Aprepitant"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "The metabolism of Lorazepam can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The metabolism of Phentermine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Ticlopidine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The metabolism of Metoprolol can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00426",
+                        "description": "The metabolism of Famciclovir can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The metabolism of Cephalexin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The metabolism of Norethisterone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Fenofibrate can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The metabolism of Rosuvastatin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The metabolism of Drospirenone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01411",
+                        "description": "The metabolism of Pranlukast can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "The metabolism of Allylestrenol can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "The metabolism of Roflumilast can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The metabolism of Rufinamide can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The metabolism of Lacosamide can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The metabolism of Linagliptin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The metabolism of Vorapaxar can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The metabolism of Suvorexant can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The metabolism of Netupitant can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The metabolism of Nintedanib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The metabolism of Tenofovir alafenamide can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11094",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The metabolism of Dihydroergocornine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12515",
+                        "description": "The metabolism of 9 aminocamptothecin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12952",
+                        "description": "The metabolism of Methylprednisone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13345",
+                        "description": "The metabolism of Dihydroergocristine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The metabolism of Dihydroergocryptine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Medical Cannabis can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The metabolism of Tenofovir can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Zafirlukast"
+                    },
+                    {
+                        "drugbank-id": "DB06717",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Fosaprepitant"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The metabolism of Tazemetostat can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "The metabolism of Methysergide can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Meperidine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The metabolism of Ebastine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Cisapride can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00107",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxytocin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The risk or severity of QTc prolongation can be increased when Esmolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluconazole is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pregabalin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Benzatropine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isradipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of QTc prolongation can be increased when Venlafaxine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atomoxetine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olanzapine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cetirizine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of QTc prolongation can be increased when Protriptyline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimethadione is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buclizine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mefloquine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxylamine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mirtazapine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The risk or severity of QTc prolongation can be increased when Timolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The risk or severity of QTc prolongation can be increased when Treprostinil is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Digoxin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexbrompheniramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hyoscyamine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triprolidine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyproheptadine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The risk or severity of QTc prolongation can be increased when Enoxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pefloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The risk or severity of QTc prolongation can be increased when Foscarnet is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amoxapine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lamotrigine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amodiaquine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nicardipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "The risk or severity of QTc prolongation can be increased when Galantamine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The risk or severity of QTc prolongation can be increased when Losartan is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moricizine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moexipril is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tizanidine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibandronate is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of QTc prolongation can be increased when Apomorphine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azatadine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The risk or severity of QTc prolongation can be increased when Risperidone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isoflurane is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indapamide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rosoxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propofol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disulfiram is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of QTc prolongation can be increased when Brompheniramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Terbutaline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The risk or severity of QTc prolongation can be increased when Zonisamide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amantadine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The risk or severity of QTc prolongation can be increased when Metronidazole is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00920",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ketotifen is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of QTc prolongation can be increased when Maprotiline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The risk or severity of QTc prolongation can be increased when Felbamate is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The risk or severity of QTc prolongation can be increased when Formoterol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydrochlorothiazide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The risk or severity of QTc prolongation can be increased when Salbutamol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfamethoxazole is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gatifloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nitrendipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of QTc prolongation can be increased when Norfloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of QTc prolongation can be increased when Promethazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mequitazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Perhexiline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The risk or severity of QTc prolongation can be increased when Diphenhydramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levocabastine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bretylium is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of QTc prolongation can be increased when Orphenadrine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyclizine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desflurane is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "The risk or severity of QTc prolongation can be increased when Encainide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of QTc prolongation can be increased when Metoclopramide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sevoflurane is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorprothixene is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Alimemazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The risk or severity of QTc prolongation can be increased when Arformoterol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methotrimeprazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ajmaline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Solifenacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxychloroquine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01620",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pheniramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Thiothixene is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vorinostat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fleroxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04695",
+                        "description": "The risk or severity of QTc prolongation can be increased when Farnesyl thiopyrophosphate is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The risk or severity of QTc prolongation can be increased when Celiprolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ezogabine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indacaterol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methsuximide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB05465",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tandutinib is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vernakalant is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levocetirizine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amisulpride is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cariporide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pasireotide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mepyramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06699",
+                        "description": "The risk or severity of QTc prolongation can be increased when Degarelix is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buserelin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The risk or severity of QTc prolongation can be increased when Histrelin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triptorelin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB07780",
+                        "description": "The risk or severity of QTc prolongation can be increased when Farnesyl diphosphate is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB07841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Geranylgeranyl diphosphate is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bupranolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Eribulin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mirabegron is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08936",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorcyclizine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The risk or severity of QTc prolongation can be increased when Flumequine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olodaterol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vilanterol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimebutine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pinaverium is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dosulepin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aranidipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of QTc prolongation can be increased when Efonidipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lacidipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Niguldipine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acrivastine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Coumaphos is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11397",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dichlorvos is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11408",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famphur is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11412",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fenthion is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The risk or severity of QTc prolongation can be increased when Orbifloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11448",
+                        "description": "The risk or severity of QTc prolongation can be increased when Phosmet is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sarafloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The risk or severity of QTc prolongation can be increased when Difloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bilastine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rupatadine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The risk or severity of QTc prolongation can be increased when Talinolol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pazufloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The risk or severity of QTc prolongation can be increased when Anisodamine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11891",
+                        "description": "The risk or severity of QTc prolongation can be increased when CUDC 907 is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prulifloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The risk or severity of QTc prolongation can be increased when Delafloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tetrahydropalmatine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Temefos is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triclabendazole is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12645",
+                        "description": "The risk or severity of QTc prolongation can be increased when Givinostat is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pilsicainide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cicletanine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gallopamil is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cibenzoline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bencyclane is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prajmaline is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxolinic acid is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lorajmine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acetyldigoxin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13744",
+                        "description": "The risk or severity of QTc prolongation can be increased when Piromidic acid is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lidoflazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rufloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pipemidic acid is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "The risk or severity of QTc prolongation can be increased when Inotersen is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimipramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nelfinavir is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxepin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rilpivirine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ethosuximide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lurasidone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fostemsavir is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desipramine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The risk or severity of QTc prolongation can be increased when Epinastine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11853",
+                        "description": "The risk or severity of QTc prolongation can be increased when Relugolix is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of QTc prolongation can be increased when Citalopram is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Anagrelide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disopyramide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clemastine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibutilide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The risk or severity of QTc prolongation can be increased when Valproic acid is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The risk or severity of QTc prolongation can be increased when Grepafloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Quinine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sotalol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Thioridazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trovafloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of QTc prolongation can be increased when Flupentixol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cocaine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The risk or severity of QTc prolongation can be increased when Procainamide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of QTc prolongation can be increased when Arsenic trioxide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of QTc prolongation can be increased when Escitalopram is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The risk or severity of QTc prolongation can be increased when Domperidone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sparfloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Halofantrine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bepridil is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The risk or severity of QTc prolongation can be increased when Paliperidone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lithium cation is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Temafloxacin is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The risk or severity of QTc prolongation can be increased when Zuclopenthixol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04844",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tetrabenazine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of QTc prolongation can be increased when Asenapine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Artemether is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09083",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ivabradine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ribociclib is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ribociclib is combined with Deutetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ribociclib is combined with Macimorelin"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ribociclib is combined with Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The risk or severity of QTc prolongation can be increased when Imatinib is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The metabolism of Osimertinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The metabolism of Abemaciclib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Midostaurin"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Voriconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00705",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Delavirdine"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01183",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Naloxone"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Posaconazole"
+                    },
+                    {
+                        "drugbank-id": "DB02520",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ditiocarb"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Telaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08873",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Boceprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB09101",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Elvitegravir"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Stiripentol"
+                    },
+                    {
+                        "drugbank-id": "DB13179",
+                        "description": "The metabolism of Troleandomycin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11779",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Danoprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Methimazole"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Terfenadine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "The metabolism of Ergotamine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The metabolism of Conivaptan can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The metabolism of Tipranavir can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The metabolism of Saquinavir can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "The metabolism of Darunavir can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The metabolism of Lopinavir can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Brigatinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11637",
+                        "description": "Ribociclib may increase the QTc prolonging activities of Delamanid"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Ribociclib can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The metabolism of Ivacaftor can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11712",
+                        "description": "The metabolism of Tezacaftor can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The metabolism of Aripiprazole can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The metabolism of Aripiprazole lauroxil can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00956",
+                        "description": "The metabolism of Hydrocodone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00745",
+                        "description": "The metabolism of Modafinil can be increased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Genistein"
+                    },
+                    {
+                        "drugbank-id": "DB04911",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Oritavancin"
+                    },
+                    {
+                        "drugbank-id": "DB06413",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Armodafinil"
+                    },
+                    {
+                        "drugbank-id": "DB08909",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Glycerol phenylbutyrate"
+                    },
+                    {
+                        "drugbank-id": "DB09119",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Eslicarbazepine acetate"
+                    },
+                    {
+                        "drugbank-id": "DB11767",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Sarilumab"
+                    },
+                    {
+                        "drugbank-id": "DB00615",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Rifabutin"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Asunaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11560",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Lesinurad"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Esketamine"
+                    },
+                    {
+                        "drugbank-id": "DB00273",
+                        "description": "The metabolism of Topiramate can be increased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00082",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Pegvisomant"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Butalbital"
+                    },
+                    {
+                        "drugbank-id": "DB00357",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Aminoglutethimide"
+                    },
+                    {
+                        "drugbank-id": "DB00400",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Griseofulvin"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Secobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00474",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Methohexital"
+                    },
+                    {
+                        "drugbank-id": "DB00485",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Dicloxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Thiopental"
+                    },
+                    {
+                        "drugbank-id": "DB00754",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Ethotoin"
+                    },
+                    {
+                        "drugbank-id": "DB00769",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Methylphenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01011",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Metyrapone"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Topotecan"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01083",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Orlistat"
+                    },
+                    {
+                        "drugbank-id": "DB01333",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Cefradine"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Amobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01352",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Aprobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Barbital"
+                    },
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Metamizole"
+                    },
+                    {
+                        "drugbank-id": "DB08905",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Formestane"
+                    },
+                    {
+                        "drugbank-id": "DB08911",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Trametinib"
+                    },
+                    {
+                        "drugbank-id": "DB09001",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Barbexaclone"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Prednisolone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Prednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Methylprednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Prednisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Clocortolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Melengestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Betamethasone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00776",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Oxcarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB14575",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Eslicarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00136",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Calcitriol"
+                    },
+                    {
+                        "drugbank-id": "DB00163",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Vitamin E"
+                    },
+                    {
+                        "drugbank-id": "DB00301",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Flucloxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Acetaminophen"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Omeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Clobazam"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Beclomethasone dipropionate"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Rofecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Fluocinolone acetonide"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Ivermectin"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Testosterone"
+                    },
+                    {
+                        "drugbank-id": "DB00636",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Clofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Amprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Terbinafine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Sulfinpyrazone"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Thiamylal"
+                    },
+                    {
+                        "drugbank-id": "DB01201",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Rifapentine"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Ketamine"
+                    },
+                    {
+                        "drugbank-id": "DB04905",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Tesmilifene"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB06739",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Seratrodast"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Perampanel"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Fluprednidene"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Dexamethasone isonicotinate"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Testosterone cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Testosterone enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Testosterone undecanoate"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Estradiol benzoate"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Estradiol cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Estradiol dienanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Estradiol valerate"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Mometasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Hydrocortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Hydrocortisone succinate"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Clobetasol propionate"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Fluocinonide"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Hydrocortisone butyrate"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Mometasone"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Fluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Clobetasol"
+                    },
+                    {
+                        "drugbank-id": "DB15566",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Prednisolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Difluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Sunitinib"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Vandetanib"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Romidepsin"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The metabolism of Cobimetinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The metabolism of Venetoclax can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Dacomitinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The metabolism of Alpelisib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11703",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Acalabrutinib"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The metabolism of Cyclosporine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The metabolism of Dofetilide can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Carbamazepine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The metabolism of Sirolimus can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The metabolism of Quinidine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "The metabolism of Busulfan can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The metabolism of Digitoxin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The metabolism of Everolimus can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The metabolism of Temsirolimus can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The metabolism of Tianeptine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cyclophosphamide"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Etoposide"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ifosfamide"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB01128",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Bicalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cabergoline"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Teniposide"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Doxorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Docetaxel"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Bosutinib"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Brentuximab vedotin"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dihydroergotamine"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Levacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The metabolism of Astemizole can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The metabolism of Lomitapide can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Nortriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The metabolism of Methotrexate can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "The metabolism of Vinorelbine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The metabolism of Vincristine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "The metabolism of Thiotepa can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11363",
+                        "description": "The metabolism of Alectinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The metabolism of Vinflunine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "The metabolism of Vindesine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09143",
+                        "description": "The metabolism of Sonidegib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09570",
+                        "description": "The metabolism of Ixazomib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The metabolism of Copanlisib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The metabolism of Idelalisib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The metabolism of Ixabepilone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The metabolism of Tolvaptan can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The metabolism of Baricitinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB01369",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Quinupristin"
+                    },
+                    {
+                        "drugbank-id": "DB01764",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dalfopristin"
+                    },
+                    {
+                        "drugbank-id": "DB04894",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Vapreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05928",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dovitinib"
+                    },
+                    {
+                        "drugbank-id": "DB06791",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Lanreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09099",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Somatostatin"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Buprenorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Glyburide"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cyproterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dapoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB13941",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Piperaquine"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Glecaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB04794",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Bifonazole"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Fluvoxamine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Aldesleukin"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Nitric Oxide"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Chloramphenicol"
+                    },
+                    {
+                        "drugbank-id": "DB00481",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Raloxifene"
+                    },
+                    {
+                        "drugbank-id": "DB00627",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Niacin"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Epinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Amphotericin B"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00954",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dirithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01085",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Pilocarpine"
+                    },
+                    {
+                        "drugbank-id": "DB01152",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Candicidin"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Mitoxantrone"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Topiroxostat"
+                    },
+                    {
+                        "drugbank-id": "DB01698",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Rutin"
+                    },
+                    {
+                        "drugbank-id": "DB01873",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Epothilone D"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Resveratrol"
+                    },
+                    {
+                        "drugbank-id": "DB03010",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Patupilone"
+                    },
+                    {
+                        "drugbank-id": "DB04070",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with 6 Deoxyerythronolide B"
+                    },
+                    {
+                        "drugbank-id": "DB05814",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with GPI 1485"
+                    },
+                    {
+                        "drugbank-id": "DB05903",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with KOS 1584"
+                    },
+                    {
+                        "drugbank-id": "DB06174",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Noscapine"
+                    },
+                    {
+                        "drugbank-id": "DB06233",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ridaforolimus"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06318",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with AVE9633"
+                    },
+                    {
+                        "drugbank-id": "DB06342",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Coltuximab ravtansine"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Indisulam"
+                    },
+                    {
+                        "drugbank-id": "DB06412",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Oxymetholone"
+                    },
+                    {
+                        "drugbank-id": "DB06419",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cethromycin"
+                    },
+                    {
+                        "drugbank-id": "DB06458",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Remacemide"
+                    },
+                    {
+                        "drugbank-id": "DB06469",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Lestaurtinib"
+                    },
+                    {
+                        "drugbank-id": "DB06587",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Mitemcinal"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Capsaicin"
+                    },
+                    {
+                        "drugbank-id": "DB07348",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Brefeldin A"
+                    },
+                    {
+                        "drugbank-id": "DB08811",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Tofisopam"
+                    },
+                    {
+                        "drugbank-id": "DB09308",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Solithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB09309",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Kitasamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11198",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Peppermint oil"
+                    },
+                    {
+                        "drugbank-id": "DB11383",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Carbomycin"
+                    },
+                    {
+                        "drugbank-id": "DB11400",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Doramectin"
+                    },
+                    {
+                        "drugbank-id": "DB11405",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Eprinomectin"
+                    },
+                    {
+                        "drugbank-id": "DB11442",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Oleandomycin"
+                    },
+                    {
+                        "drugbank-id": "DB11459",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Selamectin"
+                    },
+                    {
+                        "drugbank-id": "DB11470",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Tildipirosin"
+                    },
+                    {
+                        "drugbank-id": "DB11471",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Tilmicosin"
+                    },
+                    {
+                        "drugbank-id": "DB11475",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Tylosin"
+                    },
+                    {
+                        "drugbank-id": "DB11554",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Tylvalosin"
+                    },
+                    {
+                        "drugbank-id": "DB11752",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Bryostatin 1"
+                    },
+                    {
+                        "drugbank-id": "DB11805",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Saracatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Letermovir"
+                    },
+                    {
+                        "drugbank-id": "DB12089",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Lorvotuzumab mertansine"
+                    },
+                    {
+                        "drugbank-id": "DB12266",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Epofolate"
+                    },
+                    {
+                        "drugbank-id": "DB12391",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Sagopilone"
+                    },
+                    {
+                        "drugbank-id": "DB12489",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Mirvetuximab Soravtansine"
+                    },
+                    {
+                        "drugbank-id": "DB12532",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Oxetacaine"
+                    },
+                    {
+                        "drugbank-id": "DB13287",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Miocamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13338",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Flurithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB13409",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Rokitamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13975",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Black cohosh"
+                    },
+                    {
+                        "drugbank-id": "DB01093",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dimethyl sulfoxide"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB14635",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Curcumin sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Doxycycline"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Gefitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00353",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Methylergometrine"
+                    },
+                    {
+                        "drugbank-id": "DB00647",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dextropropoxyphene"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Tetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Diazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Oxybutynin"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Rabeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01587",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ketazolam"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB05482",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with 7 ethyl 10 hydroxycamptothecin"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Elbasvir"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13456",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Midecamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with WIN 55212 2"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ticagrelor"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Daunorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB13633",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Mepartricin"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The metabolism of Duvelisib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00005",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Etanercept"
+                    },
+                    {
+                        "drugbank-id": "DB00026",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Anakinra"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Adalimumab"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Infliximab"
+                    },
+                    {
+                        "drugbank-id": "DB01281",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Abatacept"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Afelimomab"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Apremilast"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Canakinumab"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Tocilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB06372",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Rilonacept"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Golimumab"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Certolizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Secukinumab"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Siltuximab"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Emapalumab"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cortivazol"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cloprednol"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Flunisolide"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Betamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Triamcinolone"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Prednisone"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Hydrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Prednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Methylprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Corticotropin"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Cortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Paramethasone"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Meprednisone"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Prednylidene"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The metabolism of Fludrocortisone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The metabolism of Trilostane can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The metabolism of Aldosterone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The metabolism of Fluprednisolone can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The metabolism of Melengestrol can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Budesonide"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The metabolism of Prucalopride can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The metabolism of Amlodipine can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Zolpidem can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The risk or severity of adverse effects can be increased when Ribociclib is combined with Siponimod"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The metabolism of Erdafitinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12240",
+                        "description": "The risk or severity of adverse effects can be increased when Ribociclib is combined with Polatuzumab vedotin"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The serum concentration of Deflazacort can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The serum concentration of Eszopiclone can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "The serum concentration of Isavuconazonium can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The serum concentration of Isavuconazole can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The metabolism of Doxazosin can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trazodone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The metabolism of Pexidartinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB05154",
+                        "description": "The serum concentration of Pretomanid can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The metabolism of Entrectinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "Lefamulin may increase the QTc prolonging activities of Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "Ribociclib may increase the QTc prolonging activities of Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The serum concentration of Elexacaftor can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB15035",
+                        "description": "The metabolism of Zanubrutinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14975",
+                        "description": "The serum concentration of Voxelotor can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Ribociclib can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "The serum concentration of Levamlodipine can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB13007",
+                        "description": "The serum concentration of Enfortumab vedotin can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "The serum concentration of Darolutamide can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB15091",
+                        "description": "The metabolism of Upadacitinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "The serum concentration of Lumateperone can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxyzine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The metabolism of Tramadol can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ziprasidone is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The metabolism of Rimegepant can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11837",
+                        "description": "The serum concentration of Osilodrostat can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The serum concentration of Neratinib can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of QTc prolongation can be increased when Haloperidol is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The serum concentration of Selumetinib can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The serum concentration of Lovastatin can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB15102",
+                        "description": "The metabolism of Pemigatinib can be decreased when combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "The serum concentration of Ripretinib can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluoxetine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Ribociclib can be decreased when combined with Bortezomib"
+                    },
+                    {
+                        "drugbank-id": "DB12674",
+                        "description": "The serum concentration of Lurbinectedin can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Ribociclib can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB14881",
+                        "description": "The serum concentration of Oliceridine can be increased when it is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Ribociclib can be decreased when it is combined with Satralizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The serum concentration of Ribociclib can be increased when it is combined with Pralsetinib"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

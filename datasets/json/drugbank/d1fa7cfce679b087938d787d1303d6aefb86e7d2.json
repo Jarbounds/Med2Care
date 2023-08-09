@@ -1,0 +1,29 @@
+{
+    "medicine_id": "d1fa7cfce679b087938d787d1303d6aefb86e7d2",
+    "platform_id": "DB09047",
+    "metadata": {
+        "name": "Xtoro Suspension",
+        "composition": "Finafloxacin",
+        "clinical_particulars": {
+            "therapeutic_indications": "Finafloxacin is indicated for the treatment of acute otitis externa AOE with or without an otowick caused by susceptible strains of i Pseudomonas aeruginosa i and i Staphylococcus aureus i in patients age 1 year and older",
+            "contraindications": {
+                "disease": "Finafloxacin was shown to be genotoxic and clastogenic i in vitro i with and without metabolic activation and i in vivo i General toxicity studies in rats have confirmed sperm toxicity following oral and intravenous dosing At 500 mg kg day males were completely infertile presumably due to low sperm count and sperm immobility",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "Magnesium can cause a decrease in the absorption of Finafloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Finafloxacin"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

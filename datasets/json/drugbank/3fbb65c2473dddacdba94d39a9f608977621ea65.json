@@ -1,0 +1,569 @@
+{
+    "medicine_id": "3fbb65c2473dddacdba94d39a9f608977621ea65",
+    "platform_id": "DB06704",
+    "metadata": {
+        "name": "AdreView 2 mCi 1mL Injection",
+        "composition": "2 mCi 1mL Iobenguane",
+        "clinical_particulars": {
+            "therapeutic_indications": "Detection of primary and metastatic pheochromocytoma or neuroblastoma",
+            "contraindications": {
+                "disease": "Oral mouse LD50 300 mg kg Oral rabbit LD50 3200 mg kg Oral rat LD50 980 mg kg The most common adverse reactions dizziness rash pruritis flushing headache and injection site hemorrhage occurred in 1 3 of patients",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "AdreView is a diagnostic radiopharmaceutical which contains a small quantity of iobenguane that is not expected to produce a pharmacodynamic effect Patients with renal insufficiency may experience increased radiation exposure and impaired imaging results",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Cocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "Fluvoxamine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "Citalopram may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "Fluoxetine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "Duloxetine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "Trazodone may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "Paroxetine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "Sertraline may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB01105",
+                        "description": "Sibutramine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "Nefazodone may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "Escitalopram may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "Zimelidine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "Dapoxetine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "Milnacipran may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "Desvenlafaxine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB06731",
+                        "description": "Seproxetine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "Levomilnacipran may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "Indalpine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "Ritanserin may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13233",
+                        "description": "Alaproclate may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Amphetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "Phentermine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00211",
+                        "description": "Midodrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00368",
+                        "description": "Norepinephrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "Phenylephrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00397",
+                        "description": "Phenylpropanolamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "Labetalol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00610",
+                        "description": "Metaraminol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "Epinephrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00723",
+                        "description": "Methoxamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00816",
+                        "description": "Orciprenaline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00830",
+                        "description": "Phenmetrazine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00841",
+                        "description": "Dobutamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "Pseudoephedrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "Benzphetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00867",
+                        "description": "Ritodrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "Terbutaline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00935",
+                        "description": "Oxymetazoline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "Diethylpropion can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00988",
+                        "description": "Dopamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01064",
+                        "description": "Isoprenaline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Acebutolol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "Lisdexamfetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01288",
+                        "description": "Fenoterol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01364",
+                        "description": "Ephedrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01365",
+                        "description": "Mephentermine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01366",
+                        "description": "Procaterol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01407",
+                        "description": "Clenbuterol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "MMDA can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "Midomafetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01467",
+                        "description": "2 5 Dimethoxy 4 ethylamphetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "4 Bromo 2 5 dimethoxyamphetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "Tenamfetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01556",
+                        "description": "Chlorphentermine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01566",
+                        "description": "Methylenedioxyethamphetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "Dextroamphetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "Metamfetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Celiprolol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "Nylidrin can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06764",
+                        "description": "Tetryzoline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08841",
+                        "description": "Tyramine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08941",
+                        "description": "Isoxsuprine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08985",
+                        "description": "Etilefrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09203",
+                        "description": "Synephrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09480",
+                        "description": "Iofetamine I 123 can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11124",
+                        "description": "Racepinephrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12080",
+                        "description": "Ritobegron can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "Bucindolol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13064",
+                        "description": "Tramazoline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13108",
+                        "description": "Mephedrone can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13341",
+                        "description": "Fenozolone can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13624",
+                        "description": "Methoxyphenamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13692",
+                        "description": "Tretoquinol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13703",
+                        "description": "Gepefrine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Epanolol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13777",
+                        "description": "Prenalterol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13852",
+                        "description": "Mefenorex can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "2 5 Dimethoxy 4 ethylthioamphetamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Venlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB00234",
+                        "description": "Reboxetine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Amitriptyline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Protriptyline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Imipramine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Nortriptyline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Amoxapine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00579",
+                        "description": "Mazindol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Trimipramine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "Maprotiline can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Desipramine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "Tapentadol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Dosulepin can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09184",
+                        "description": "Edivoxetine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09185",
+                        "description": "Viloxazine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09186",
+                        "description": "Nisoxetine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09187",
+                        "description": "Lortalamine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09190",
+                        "description": "Talopram can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12395",
+                        "description": "Esreboxetine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14754",
+                        "description": "Solriamfetol can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Clomipramine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Amineptine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Dimetacrine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Butriptyline may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "Tianeptine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Oxaprotiline may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Opipramol may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Amitriptylinoxide may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Dibenzepin may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Quinupramine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Melitracen may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Lofepramine may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Iprindole may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Imipramine oxide may decrease effectiveness of Iobenguane as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Bethanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00292",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Etomidate"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Clonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Guanabenz"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Dexmedetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Tizanidine"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB01186",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Pergolide"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01363",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Ephedra sinica root"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB06262",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Droxidopa"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Xylometazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06711",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Naphazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09242",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Moxonidine"
+                    },
+                    {
+                        "drugbank-id": "DB11278",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with DL Methylephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB11373",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Amitraz"
+                    },
+                    {
+                        "drugbank-id": "DB11428",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Medetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB11477",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Xylazine"
+                    },
+                    {
+                        "drugbank-id": "DB11543",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Romifidine"
+                    },
+                    {
+                        "drugbank-id": "DB11556",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Detomidine"
+                    },
+                    {
+                        "drugbank-id": "DB11738",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Rilmenidine"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The therapeutic efficacy of Iobenguane can be decreased when used in combination with Methyldopa"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

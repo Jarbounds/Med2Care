@@ -1,0 +1,2873 @@
+{
+    "medicine_id": "c15d932569785c507def79377ed9efb6619269b6",
+    "platform_id": "DB06708",
+    "metadata": {
+        "name": "Coartem 20 mg Tablet",
+        "composition": "20 mg Lumefantrine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Lumefantrine and artemether combination therapy is indicated for the treatment of acute uncomplicated malaria caused by i Plasmodium falciparum i including malaria acquired in chloroquine resistant areas May also be used to treat uncomplicated malaria when the i Plasmodium i species has not been identified Indicated for use in adults and children greater than 5 kg",
+            "contraindications": {
+                "disease": "Common side effects of combination artemether lumefantrine therapy in adults include headache anorexia dizziness and asthenia Common side effects in children include pyrexia cough vomiting anorexia and headache Possible serious adverse effects include QT prolongation bullous eruption urticaria splenomegaly 9 hepatomegaly adults 9 children 6 hypersensitivty reaction and angioedema",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Lumefantrine is a blood schizonticide active against erythrocytic stages of i Plasmodium falciparum i It is thought that administration of lumefantrine with artemether results in cooperate antimalarial clearing effects Artemether has a rapid onset of action and is rapidly cleared from the body It is thus thought to provide rapid symptomatic relief by reducing the number of malarial parasites Lumefantrine has a much longer half life and is believed to clear residual parasites",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The metabolism of Aripiprazole can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The metabolism of Aripiprazole lauroxil can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00205",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dapsone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mefloquine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Quinine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chloroquine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amodiaquine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The risk or severity of QTc prolongation can be increased when Quinidine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The risk or severity of QTc prolongation can be increased when Primaquine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01103",
+                        "description": "The risk or severity of QTc prolongation can be increased when Quinacrine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01117",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atovaquone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01131",
+                        "description": "The risk or severity of QTc prolongation can be increased when Proguanil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01299",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfadoxine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxychloroquine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tafenoquine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09274",
+                        "description": "The risk or severity of QTc prolongation can be increased when Artesunate is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11638",
+                        "description": "The risk or severity of QTc prolongation can be increased when Artenimol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11809",
+                        "description": "The risk or severity of QTc prolongation can be increased when Artefenomel is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12314",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorproguanil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12617",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mizoribine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12975",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyronaridine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13132",
+                        "description": "The risk or severity of QTc prolongation can be increased when Artemisinin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13851",
+                        "description": "The risk or severity of QTc prolongation can be increased when Artemotil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13941",
+                        "description": "The risk or severity of QTc prolongation can be increased when Piperaquine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tetrandrine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14763",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cycloguanil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "The metabolism of Brexpiprazole can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The metabolism of Eliglustat can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The metabolism of Atomoxetine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Ifosfamide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Perampanel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Warfarin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Acenocoumarol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of R warfarin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08735",
+                        "description": "The metabolism of R S Warfarin alcohol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08736",
+                        "description": "The metabolism of S R Warfarin alcohol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The metabolism of S Warfarin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "Lumefantrine may increase the QTc prolonging activities of Halofantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Thiethylperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Triflupromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Fluphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Acetophenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with BL 1020"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The serum concentration of Erlotinib can be decreased when it is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The serum concentration of Lumefantrine can be decreased when it is combined with St John s Wort"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of QTc prolongation can be increased when Leuprolide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The risk or severity of QTc prolongation can be increased when Goserelin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The risk or severity of QTc prolongation can be increased when Erythromycin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azithromycin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moxifloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfisoxazole is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulpiride is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nimodipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of QTc prolongation can be increased when Droperidol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxaliplatin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ciprofloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluorouracil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00556",
+                        "description": "The risk or severity of QTc prolongation can be increased when Perflutren is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atropine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The risk or severity of QTc prolongation can be increased when Efavirenz is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Adenosine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00743",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gadobenic acid is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "The risk or severity of QTc prolongation can be increased when Carbinoxamine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The risk or severity of QTc prolongation can be increased when Roxithromycin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nalidixic acid is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cinoxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "The risk or severity of QTc prolongation can be increased when Granisetron is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levosimendan is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desloratadine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The risk or severity of QTc prolongation can be increased when Telithromycin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lomefloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dimenhydrinate is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levofloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gemifloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ofloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clarithromycin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mibefradil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01599",
+                        "description": "The risk or severity of QTc prolongation can be increased when Probucol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB02638",
+                        "description": "The risk or severity of QTc prolongation can be increased when Terlipressin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prenylamine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluspirilene is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azimilide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05223",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pracinostat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Technetium Tc 99m ciprofloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The risk or severity of QTc prolongation can be increased when Garenoxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tedisamil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tucidinostat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06402",
+                        "description": "The risk or severity of QTc prolongation can be increased when Telavancin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nemonoxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nilvadipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08799",
+                        "description": "The risk or severity of QTc prolongation can be increased when Antazoline is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08903",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bedaquiline is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fendiline is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of QTc prolongation can be increased when Eperisone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of QTc prolongation can be increased when Butriptyline is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lenvatinib is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Melperone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Benidipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amifampridine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11830",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mocetinostat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Entinostat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gilteritinib is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12174",
+                        "description": "The risk or severity of QTc prolongation can be increased when CUDC 101 is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12286",
+                        "description": "The risk or severity of QTc prolongation can be increased when Simendan is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12376",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ricolinostat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12523",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mizolastine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12565",
+                        "description": "The risk or severity of QTc prolongation can be increased when Abexinostat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12877",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxatomide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sitafloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sultopride is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of QTc prolongation can be increased when Otilonium is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nizofenone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bunaftine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13653",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lorcainide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of QTc prolongation can be increased when Penfluridol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexverapamil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The risk or severity of QTc prolongation can be increased when Saquinavir is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01084",
+                        "description": "The risk or severity of QTc prolongation can be increased when Emedastine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The risk or severity of QTc prolongation can be increased when Berotralstat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00107",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxytocin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluconazole is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nelfinavir is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pregabalin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isradipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cetirizine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "The risk or severity of QTc prolongation can be increased when Alfuzosin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimethadione is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buclizine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxylamine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The risk or severity of QTc prolongation can be increased when Treprostinil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Digoxin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexbrompheniramine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hyoscyamine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triprolidine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyproheptadine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The risk or severity of QTc prolongation can be increased when Enoxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pefloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The risk or severity of QTc prolongation can be increased when Foscarnet is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lamotrigine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The risk or severity of QTc prolongation can be increased when Voriconazole is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nicardipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The risk or severity of QTc prolongation can be increased when Losartan is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moexipril is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tizanidine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibandronate is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of QTc prolongation can be increased when Apomorphine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azatadine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isoflurane is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indapamide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rosoxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propofol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disulfiram is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of QTc prolongation can be increased when Brompheniramine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Terbutaline is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The risk or severity of QTc prolongation can be increased when Zonisamide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amantadine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The risk or severity of QTc prolongation can be increased when Metronidazole is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00920",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ketotifen is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of QTc prolongation can be increased when Salmeterol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The risk or severity of QTc prolongation can be increased when Felbamate is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydrochlorothiazide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The risk or severity of QTc prolongation can be increased when Salbutamol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfamethoxazole is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ketoconazole is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gatifloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nitrendipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of QTc prolongation can be increased when Norfloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atazanavir is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levocabastine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bretylium is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Itraconazole is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of QTc prolongation can be increased when Orphenadrine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyclizine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desflurane is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sevoflurane is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorprothixene is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lapatinib is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Posaconazole is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ajmaline is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01620",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pheniramine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Thiothixene is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vorinostat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fleroxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04695",
+                        "description": "The risk or severity of QTc prolongation can be increased when Farnesyl thiopyrophosphate is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ezogabine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indacaterol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methsuximide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05465",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tandutinib is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levocetirizine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amisulpride is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cariporide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pasireotide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mepyramine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06699",
+                        "description": "The risk or severity of QTc prolongation can be increased when Degarelix is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buserelin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The risk or severity of QTc prolongation can be increased when Histrelin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triptorelin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB07780",
+                        "description": "The risk or severity of QTc prolongation can be increased when Farnesyl diphosphate is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB07841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Geranylgeranyl diphosphate is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Eribulin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08936",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorcyclizine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The risk or severity of QTc prolongation can be increased when Flumequine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olodaterol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vilanterol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimebutine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pinaverium is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aranidipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of QTc prolongation can be increased when Efonidipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lacidipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Niguldipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acrivastine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Coumaphos is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11397",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dichlorvos is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11408",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famphur is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11412",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fenthion is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The risk or severity of QTc prolongation can be increased when Orbifloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11448",
+                        "description": "The risk or severity of QTc prolongation can be increased when Phosmet is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sarafloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The risk or severity of QTc prolongation can be increased when Difloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bilastine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pazufloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11891",
+                        "description": "The risk or severity of QTc prolongation can be increased when CUDC 907 is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prulifloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The risk or severity of QTc prolongation can be increased when Delafloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tetrahydropalmatine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Temefos is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12645",
+                        "description": "The risk or severity of QTc prolongation can be increased when Givinostat is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pilsicainide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cicletanine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gallopamil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cibenzoline is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bencyclane is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prajmaline is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxolinic acid is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lorajmine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acetyldigoxin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13744",
+                        "description": "The risk or severity of QTc prolongation can be increased when Piromidic acid is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lidoflazine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rufloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pipemidic acid is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "The risk or severity of QTc prolongation can be increased when Inotersen is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vardenafil is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lopinavir is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ethosuximide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The risk or severity of QTc prolongation can be increased when Felodipine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lurasidone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rilpivirine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ebastine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clofazimine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fostemsavir is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11853",
+                        "description": "The risk or severity of QTc prolongation can be increased when Relugolix is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The metabolism of Promazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The metabolism of Prochlorperazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Chlorpromazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The metabolism of Thioridazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The metabolism of Perphenazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The metabolism of Mesoridazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The metabolism of Promethazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The metabolism of Methotrimeprazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "The metabolism of Pipotiazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Cinnarizine"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Pentamidine"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Dolasetron"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Ondansetron"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Chlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB09555",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Dexchlorpheniramine maleate"
+                    },
+                    {
+                        "drugbank-id": "DB13679",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Dexchlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Esmolol"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Bortezomib"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Benzatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Venlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Galantamine"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Azelastine"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Formoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Tolterodine"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Mequitazine"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Perhexiline"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Diphenhydramine"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Sertraline"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Cilostazol"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Encainide"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Arformoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Solifenacin"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Vernakalant"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Mirabegron"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Rupatadine"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Anisodamine"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Triclabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Domperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB04844",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Tetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The metabolism of Deutetrabenazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The metabolism of Sildenafil can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00216",
+                        "description": "The metabolism of Eletriptan can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Terfenadine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Meperidine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The metabolism of Imipramine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00490",
+                        "description": "The metabolism of Buspirone can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00496",
+                        "description": "The metabolism of Darifenacin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The metabolism of Nortriptyline can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The metabolism of Astemizole can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The metabolism of Simvastatin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The metabolism of Trimipramine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The metabolism of Tipranavir can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The metabolism of Doxepin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The metabolism of Quetiapine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Clomipramine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The metabolism of Ibrutinib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00238",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Nevirapine"
+                    },
+                    {
+                        "drugbank-id": "DB00705",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Delavirdine"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "The metabolism of Amphetamine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "The metabolism of Atenolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The metabolism of Protriptyline can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "The metabolism of Remoxipride can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The metabolism of Sotalol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Mephenytoin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The metabolism of Amoxapine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00592",
+                        "description": "The metabolism of Piperazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00699",
+                        "description": "The metabolism of Nicergoline can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00737",
+                        "description": "The metabolism of Meclizine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "The metabolism of Minaprine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "The metabolism of Alprenolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The metabolism of Phenformin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The metabolism of Pindolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The metabolism of Procainamide can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The metabolism of Tegaserod can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The metabolism of Desipramine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "The metabolism of Moclobemide can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01177",
+                        "description": "The metabolism of Idarubicin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01191",
+                        "description": "The metabolism of Dexfenfluramine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The metabolism of Flecainide can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The metabolism of Nadolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "The metabolism of Lisdexamfetamine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The metabolism of Bevantolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "The metabolism of Practolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The metabolism of Penbutolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01429",
+                        "description": "The metabolism of Aprindine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "The metabolism of Midomafetamine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01472",
+                        "description": "The metabolism of 4 Methoxyamphetamine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "The metabolism of Dextroamphetamine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "The metabolism of Metamfetamine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "The metabolism of Debrisoquine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "The metabolism of Tapentadol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06506",
+                        "description": "The metabolism of Repinotan can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06678",
+                        "description": "The metabolism of Esmirtazapine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "The metabolism of Bufuralol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06727",
+                        "description": "The metabolism of Sparteine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06735",
+                        "description": "The metabolism of Enclomiphene can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Benzyl alcohol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "The metabolism of Bopindolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The metabolism of Umeclidinium can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The metabolism of Dosulepin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The metabolism of Arotinolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "The metabolism of Levobetaxolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "The metabolism of Revefenacin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The metabolism of Elagolix can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The metabolism of Letermovir can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "The metabolism of Landiolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The metabolism of Bucindolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "The metabolism of Opipramol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "The metabolism of Esatenolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "The metabolism of Cloranolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "The metabolism of Mepindolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The metabolism of Epanolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "The metabolism of Tertatolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Acetaminophen"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Ciclesonide"
+                    },
+                    {
+                        "drugbank-id": "DB04905",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Tesmilifene"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The metabolism of Lumefantrine can be decreased when combined with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Fluvoxamine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Nicotine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00185",
+                        "description": "The metabolism of Cevimeline can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Ticlopidine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The metabolism of Metoprolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The metabolism of Lidocaine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00297",
+                        "description": "The metabolism of Bupivacaine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "The metabolism of Gefitinib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00318",
+                        "description": "The metabolism of Codeine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "The metabolism of Chlorzoxazone can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00377",
+                        "description": "The metabolism of Palonosetron can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "The metabolism of Mexiletine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The metabolism of Celecoxib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00497",
+                        "description": "The metabolism of Oxycodone can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "The metabolism of Dextromethorphan can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00589",
+                        "description": "The metabolism of Lisuride can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The metabolism of Doxazosin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00647",
+                        "description": "The metabolism of Dextropropoxyphene can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The metabolism of Amprenavir can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "The metabolism of Tamsulosin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The metabolism of Nateglinide can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The metabolism of Almotriptan can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Buprenorphine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The metabolism of Methoxyflurane can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Selegiline can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The metabolism of Carvedilol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01192",
+                        "description": "The metabolism of Oxymorphone can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01392",
+                        "description": "The metabolism of Yohimbine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01409",
+                        "description": "The metabolism of Tiotropium can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Aminophenazone can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The metabolism of Antipyrine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01466",
+                        "description": "The metabolism of Ethylmorphine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01551",
+                        "description": "The metabolism of Dihydrocodeine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The metabolism of Fusidic acid can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The metabolism of Phenacetin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04829",
+                        "description": "The metabolism of Lysergic acid diethylamide can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Flunarizine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "The metabolism of Nebivolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "The metabolism of Lorcaserin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The metabolism of Dapoxetine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The metabolism of Trabectedin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "The metabolism of Rotigotine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "The metabolism of Cariprazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "The metabolism of Sertindole can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The metabolism of Mianserin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The metabolism of Alogliptin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The metabolism of Dapagliflozin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06684",
+                        "description": "The metabolism of Vilazodone can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06702",
+                        "description": "The metabolism of Fesoterodine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "The metabolism of Perospirone can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The metabolism of Netupitant can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The metabolism of Vortioxetine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The metabolism of Dasabuvir can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09195",
+                        "description": "The metabolism of Lorpiprazole can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Propacetamol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11130",
+                        "description": "The metabolism of Opium can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The metabolism of Asunaprevir can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11718",
+                        "description": "The metabolism of Encorafenib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11915",
+                        "description": "The metabolism of Valbenazine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Dacomitinib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Rucaparib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13293",
+                        "description": "The metabolism of Ipecac can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Enasidenib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The metabolism of Levomilnacipran can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Paroxetine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "The metabolism of Donepezil can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09173",
+                        "description": "The metabolism of Butyrfentanyl can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Istradefylline can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The metabolism of Labetalol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04889",
+                        "description": "The metabolism of Bicifadine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14010",
+                        "description": "The metabolism of 5 methoxy N N dimethyltryptamine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Phenytoin can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00956",
+                        "description": "The metabolism of Hydrocodone can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The metabolism of Epinastine can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Anagrelide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disopyramide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clemastine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibutilide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The risk or severity of QTc prolongation can be increased when Valproic acid is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The risk or severity of QTc prolongation can be increased when Grepafloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trovafloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mifepristone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of QTc prolongation can be increased when Flupentixol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cocaine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of QTc prolongation can be increased when Arsenic trioxide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sparfloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lithium cation is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Temafloxacin is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of QTc prolongation can be increased when Asenapine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09083",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Ivabradine"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Macimorelin"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lumefantrine is combined with Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cisapride is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vemurafenib is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11637",
+                        "description": "Lumefantrine may increase the QTc prolonging activities of Delamanid"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Lumefantrine can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB14583",
+                        "description": "The metabolism of Segesterone acetate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The metabolism of Diethylstilbestrol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "The metabolism of Etonogestrel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The metabolism of Desogestrel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The metabolism of Megestrol acetate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The metabolism of Medroxyprogesterone acetate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The metabolism of Norethisterone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The metabolism of Ethynodiol diacetate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Norgestimate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Ethinylestradiol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The metabolism of Mestranol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The metabolism of Drospirenone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04066",
+                        "description": "The metabolism of p Coumaric acid can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The metabolism of Estrone sulfate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04682",
+                        "description": "The metabolism of Octylphenoxy polyethoxyethanol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The metabolism of Cyproterone acetate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05830",
+                        "description": "The metabolism of Trestolone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06266",
+                        "description": "The metabolism of Lonidamine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06713",
+                        "description": "The metabolism of Norelgestromin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The metabolism of Gestodene can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The metabolism of Hydroxyprogesterone caproate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The metabolism of Dienogest can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09371",
+                        "description": "The metabolism of Norethynodrel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09389",
+                        "description": "The metabolism of Norgestrel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "The metabolism of Isosorbide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11507",
+                        "description": "The metabolism of Cloprostenol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11619",
+                        "description": "The metabolism of Gestrinone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11636",
+                        "description": "The metabolism of Nomegestrol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12025",
+                        "description": "The metabolism of Triptolide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The metabolism of Lynestrenol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13044",
+                        "description": "The metabolism of Gossypol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13310",
+                        "description": "The metabolism of Ormeloxifene can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13528",
+                        "description": "The metabolism of Chlormadinone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13563",
+                        "description": "The metabolism of Norgestrienone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13685",
+                        "description": "The metabolism of Quingestanol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13857",
+                        "description": "The metabolism of Demegestone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13866",
+                        "description": "The metabolism of Etynodiol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The metabolism of Testosterone enanthate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13981",
+                        "description": "The metabolism of Nomegestrol acetate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14678",
+                        "description": "The metabolism of Norethindrone enanthate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08867",
+                        "description": "The metabolism of Ulipristal can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "The metabolism of Lorazepam can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The metabolism of Phentermine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00426",
+                        "description": "The metabolism of Famciclovir can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The metabolism of Cephalexin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Fenofibrate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The metabolism of Rosuvastatin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01411",
+                        "description": "The metabolism of Pranlukast can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "The metabolism of Allylestrenol can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "The metabolism of Roflumilast can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The metabolism of Rufinamide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The metabolism of Lacosamide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The metabolism of Prucalopride can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The metabolism of Linagliptin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The metabolism of Vorapaxar can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The metabolism of Suvorexant can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The metabolism of Nintedanib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The metabolism of Tenofovir alafenamide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11094",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The metabolism of Dihydroergocornine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The metabolism of Duvelisib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12515",
+                        "description": "The metabolism of 9 aminocamptothecin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12952",
+                        "description": "The metabolism of Methylprednisone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13345",
+                        "description": "The metabolism of Dihydroergocristine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The metabolism of Dihydroergocryptine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Medical Cannabis can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The metabolism of Tenofovir can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Zafirlukast"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The metabolism of Elexacaftor can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The metabolism of Tazemetostat can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06717",
+                        "description": "The metabolism of Fosaprepitant can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "The metabolism of Methysergide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The metabolism of Isavuconazole can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Panobinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Sunitinib"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Vandetanib"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Romidepsin"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The metabolism of Cyclosporine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The metabolism of Dofetilide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Carbamazepine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The metabolism of Tacrolimus can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The metabolism of Sirolimus can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "The metabolism of Busulfan can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The metabolism of Digitoxin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The metabolism of Everolimus can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The metabolism of Temsirolimus can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The metabolism of Tianeptine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The metabolism of Cobimetinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The metabolism of Osimertinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The metabolism of Alpelisib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Fosphenytoin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The metabolism of Idelalisib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Levacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The metabolism of Lomitapide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The metabolism of Siponimod can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The metabolism of Methotrexate can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "The metabolism of Vinorelbine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The metabolism of Vincristine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The metabolism of Vinblastine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The metabolism of Doxorubicin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The metabolism of Docetaxel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "The metabolism of Thiotepa can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11363",
+                        "description": "The metabolism of Alectinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The metabolism of Venetoclax can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The metabolism of Vinflunine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11703",
+                        "description": "The metabolism of Acalabrutinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB15035",
+                        "description": "The metabolism of Zanubrutinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The metabolism of Cabergoline can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "The metabolism of Vindesine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The metabolism of Teniposide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Etoposide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The metabolism of Ixabepilone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Midostaurin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The metabolism of Bosutinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The metabolism of Brentuximab vedotin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "The metabolism of Ruxolitinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The metabolism of Palbociclib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09143",
+                        "description": "The metabolism of Sonidegib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09570",
+                        "description": "The metabolism of Ixazomib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The metabolism of Neratinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The metabolism of Erdafitinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Brigatinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The metabolism of Copanlisib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The metabolism of Pexidartinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The metabolism of Irinotecan can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The metabolism of Tolvaptan can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Regorafenib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The metabolism of Olaparib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The metabolism of Baricitinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The metabolism of Abemaciclib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The metabolism of Dihydroergotamine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Cyclophosphamide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "The metabolism of Ergotamine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The metabolism of Conivaptan can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01128",
+                        "description": "The metabolism of Bicalutamide can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The metabolism of Trastuzumab emtansine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The metabolism of Milnacipran can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01256",
+                        "description": "The metabolism of Retapamulin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Amitriptyline can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The metabolism of Amlodipine can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01068",
+                        "description": "The metabolism of Clonazepam can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Zolpidem can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The metabolism of Timolol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The serum concentration of Eszopiclone can be decreased when it is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trazodone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The metabolism of Entrectinib can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "Lefamulin may increase the QTc prolonging activities of Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "Lumefantrine may increase the QTc prolonging activities of Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Lumefantrine can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The serum concentration of Lemborexant can be decreased when it is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "The serum concentration of Lumateperone can be decreased when it is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The metabolism of Lumefantrine can be increased when combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxyzine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The metabolism of Tramadol can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "The metabolism of Clindamycin can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ziprasidone is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The metabolism of Rimegepant can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Lumefantrine can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of QTc prolongation can be increased when Haloperidol is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11791",
+                        "description": "The serum concentration of Capmatinib can be decreased when it is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB15685",
+                        "description": "The serum concentration of Selpercatinib can be decreased when it is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluoxetine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Lumefantrine can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB14881",
+                        "description": "The serum concentration of Oliceridine can be increased when it is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Lumefantrine can be decreased when it is combined with Satralizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

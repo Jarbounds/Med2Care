@@ -1,0 +1,2793 @@
+{
+    "medicine_id": "adda44a2ae0349d74cf571acb573b1b1c6bbeae5",
+    "platform_id": "DB00367",
+    "metadata": {
+        "name": "Afirmelle 750 mcg Tablet coated",
+        "composition": "750 mcg Levonorgestrel",
+        "clinical_particulars": {
+            "therapeutic_indications": "Emergency contraception Levonorgestrel in the single agent emergency contraceptive form is indicated for the prevention of pregnancy after the confirmed or suspected failure of contraception methods or following unprotected intercourse It is distributed by prescription for patients under 17 and over the counter for those above this age L7760 This levonorgestrel only form of contraception is not indicated for regular contraception and must be taken as soon as possible within 72 hours after intercourse A181976 L7760 It has shown a lower efficacy when it is used off label within 96 hours T659 Long term contraception or nonemergency contraception In addition to the above indication in emergency contraception levonorgestrel is combined with other contraceptives in contraceptive formulations designed for regular use for example with ethinyl estradiol L7766 It is used in various hormone releasing intrauterine devices for long term contraception ranging for a duration of 3 5 years L7778 L7781 L7787 Product labeling for Mirena specifically mentions that it is recommended in women who have had at least 1 child L7778 A subdermal implant is also available for the prevention of pregnancy for up to 5 years L7823 Hormone therapy and off label uses Levonorgestrel is prescribed in combination with estradiol as hormone therapy during menopause to manage vasomotor symptoms and to prevent osteoporosis L7805 Off label levonorgestrel may be used to treat menorrhagia endometrial hyperplasia and endometriosis T659",
+            "contraindications": {
+                "disease": "The oral LD50 in rats is greater than 5000 mg kg L7790 An overdose of this drug like other contraceptives may cause nausea and withdrawal bleeding Provide symptomatic treatment in the case of a levonorgestrel overdose and contact the local poison control center There is no specific antidote for a levonorgestrel overdose L7760 L7793 L7796",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Levonorgestrel prevents pregnancy by interfering with ovulation fertilization and implantation The levonorgestrel only containing emergency contraceptive tablet is 89 effective if it is used according to prescribing information within 72 hours after intercourse A181976 A181988 The intrauterine and implantable devices releasing levonorgestrel are more than 99 in preventing pregnancy A182123 L7778 L7781 Levonorgestrel utilized as a component of hormonal therapy helps to prevent endometrial carcinoma associated with unopposed estrogen administration A182042",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00459",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Acitretin"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB08873",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Boceprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Prucalopride"
+                    },
+                    {
+                        "drugbank-id": "DB06206",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "Levonorgestrel may increase the thrombogenic activities of Thalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB08867",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Ulipristal"
+                    },
+                    {
+                        "drugbank-id": "DB01586",
+                        "description": "The therapeutic efficacy of Ursodeoxycholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB02123",
+                        "description": "The therapeutic efficacy of Glycochenodeoxycholic Acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The therapeutic efficacy of Cholic Acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB02691",
+                        "description": "The therapeutic efficacy of Glycocholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB03619",
+                        "description": "The therapeutic efficacy of Deoxycholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The therapeutic efficacy of Taurocholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB05990",
+                        "description": "The therapeutic efficacy of Obeticholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08834",
+                        "description": "The therapeutic efficacy of Tauroursodeoxycholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08857",
+                        "description": "The therapeutic efficacy of Bamet UD2 can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08858",
+                        "description": "The therapeutic efficacy of cis Diamminechlorocholylglycinateplatinum II can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11622",
+                        "description": "The therapeutic efficacy of Dehydrocholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11789",
+                        "description": "The therapeutic efficacy of Hyodeoxycholic Acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11860",
+                        "description": "The therapeutic efficacy of Aramchol can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB14016",
+                        "description": "The therapeutic efficacy of Ox bile extract can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06777",
+                        "description": "The therapeutic efficacy of Chenodeoxycholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08833",
+                        "description": "The therapeutic efficacy of Taurochenodeoxycholic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00302",
+                        "description": "Levonorgestrel may increase the thrombogenic activities of Tranexamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Clobazam"
+                    },
+                    {
+                        "drugbank-id": "DB00375",
+                        "description": "Colestipol can cause a decrease in the absorption of Levonorgestrel resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00658",
+                        "description": "Sevelamer can cause a decrease in the absorption of Levonorgestrel resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00930",
+                        "description": "Colesevelam can cause a decrease in the absorption of Levonorgestrel resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01432",
+                        "description": "Cholestyramine can cause a decrease in the absorption of Levonorgestrel resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00400",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Griseofulvin"
+                    },
+                    {
+                        "drugbank-id": "DB09091",
+                        "description": "The serum concentration of Tixocortol can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "The serum concentration of Fluocortin can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "The serum concentration of Fluperolone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "The serum concentration of Fluclorolone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Flunisolide"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Beclomethasone dipropionate"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Betamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Fluocinolone acetonide"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Triamcinolone"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Prednisone"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Hydrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Prednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Methylprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Corticotropin"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Cortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Fluprednidene"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Meprednisone"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Dexamethasone isonicotinate"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Deflazacort"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Cortivazol"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Prednylidene"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Cloprednol"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Mometasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Hydrocortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Hydrocortisone succinate"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Prednisolone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Prednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Methylprednisolone hemisuccinate"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Prednisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Clocortolone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Melengestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Betamethasone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Cortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Budesonide"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Paramethasone"
+                    },
+                    {
+                        "drugbank-id": "DB14541",
+                        "description": "The serum concentration of Hydrocortisone cypionate can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The serum concentration of Fludrocortisone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The serum concentration of Trilostane can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The serum concentration of Ciclesonide can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The serum concentration of Aldosterone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The serum concentration of Fluprednisolone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The serum concentration of Melengestrol can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The serum concentration of Clobetasol propionate can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The serum concentration of Fluocinonide can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The serum concentration of Hydrocortisone butyrate can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00547",
+                        "description": "The serum concentration of Desoximetasone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The serum concentration of Mometasone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The serum concentration of Fluocortolone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The serum concentration of Clobetasol can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB15566",
+                        "description": "The serum concentration of Prednisolone acetate can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The serum concentration of Fluorometholone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The serum concentration of Difluocortolone can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00162",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Vitamin A"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Bexarotene"
+                    },
+                    {
+                        "drugbank-id": "DB00523",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Alitretinoin"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Tretinoin"
+                    },
+                    {
+                        "drugbank-id": "DB00799",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Tazarotene"
+                    },
+                    {
+                        "drugbank-id": "DB00926",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Etretinate"
+                    },
+                    {
+                        "drugbank-id": "DB00982",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Isotretinoin"
+                    },
+                    {
+                        "drugbank-id": "DB02699",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with 4 Oxoretinol"
+                    },
+                    {
+                        "drugbank-id": "DB05076",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Fenretinide"
+                    },
+                    {
+                        "drugbank-id": "DB08455",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Ro 12 7310"
+                    },
+                    {
+                        "drugbank-id": "DB12112",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Zuretinol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13368",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Motretinide"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Carbamazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Piperacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00415",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Ampicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00417",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Phenoxymethylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00578",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Carbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB00713",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Oxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00739",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Hetacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00895",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Benzylpenicilloyl polylysine"
+                    },
+                    {
+                        "drugbank-id": "DB00948",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Mezlocillin"
+                    },
+                    {
+                        "drugbank-id": "DB01000",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Cyclacillin"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01060",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Amoxicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01061",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Azlocillin"
+                    },
+                    {
+                        "drugbank-id": "DB01147",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Cloxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB01163",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Amdinocillin"
+                    },
+                    {
+                        "drugbank-id": "DB01602",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Bacampicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01603",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Meticillin"
+                    },
+                    {
+                        "drugbank-id": "DB01604",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Pivampicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01605",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Pivmecillinam"
+                    },
+                    {
+                        "drugbank-id": "DB01607",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Ticarcillin"
+                    },
+                    {
+                        "drugbank-id": "DB08795",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Azidocillin"
+                    },
+                    {
+                        "drugbank-id": "DB09319",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Carindacillin"
+                    },
+                    {
+                        "drugbank-id": "DB09320",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Procaine benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12127",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Sultamicillin"
+                    },
+                    {
+                        "drugbank-id": "DB12343",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Temocillin"
+                    },
+                    {
+                        "drugbank-id": "DB13300",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Epicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13337",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Pheneticillin"
+                    },
+                    {
+                        "drugbank-id": "DB13506",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Carfecillin"
+                    },
+                    {
+                        "drugbank-id": "DB13660",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Propicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13686",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Clometocillin"
+                    },
+                    {
+                        "drugbank-id": "DB13693",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Sulbenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13739",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Penamecillin"
+                    },
+                    {
+                        "drugbank-id": "DB13814",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Talampicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13816",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Aspoxicillin"
+                    },
+                    {
+                        "drugbank-id": "DB13836",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Metampicillin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The therapeutic efficacy of Coumarin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06294",
+                        "description": "The therapeutic efficacy of Semuloparin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12726",
+                        "description": "The therapeutic efficacy of Monteplase can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB14726",
+                        "description": "The therapeutic efficacy of Dabigatran can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The therapeutic efficacy of Rivaroxaban can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The therapeutic efficacy of Phenprocoumon can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The therapeutic efficacy of Acenocoumarol can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The therapeutic efficacy of 4 hydroxycoumarin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The therapeutic efficacy of Ethyl biscoumacetate can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The therapeutic efficacy of Ticagrelor can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The therapeutic efficacy of Fluindione can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The therapeutic efficacy of Clorindione can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The therapeutic efficacy of Diphenadione can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00278",
+                        "description": "The therapeutic efficacy of Argatroban can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13124",
+                        "description": "The therapeutic efficacy of Troxerutin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00974",
+                        "description": "The therapeutic efficacy of Edetic acid can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "The therapeutic efficacy of Reviparin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Mycophenolate mofetil"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Mycophenolic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00607",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Nafcillin"
+                    },
+                    {
+                        "drugbank-id": "DB00745",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Modafinil"
+                    },
+                    {
+                        "drugbank-id": "DB06414",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Etravirine"
+                    },
+                    {
+                        "drugbank-id": "DB06442",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Avasimibe"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB14240",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Echinacea"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The bioavailability of Selegiline can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "Exenatide can cause a decrease in the absorption of Levonorgestrel resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The risk or severity of adverse effects can be increased when Levonorgestrel is combined with Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Telaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB09101",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Elvitegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00001",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Lepirudin"
+                    },
+                    {
+                        "drugbank-id": "DB00006",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Bivalirudin"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Alteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Urokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Reteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Anistreplase"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Tenecteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Abciximab"
+                    },
+                    {
+                        "drugbank-id": "DB00055",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Drotrecogin alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Streptokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Ardeparin"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00569",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Fondaparinux"
+                    },
+                    {
+                        "drugbank-id": "DB00686",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Pentosan polysulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Iloprost"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Heparin"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Enoxaparin"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Ximelagatran"
+                    },
+                    {
+                        "drugbank-id": "DB04925",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Desmoteplase"
+                    },
+                    {
+                        "drugbank-id": "DB04932",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Defibrotide"
+                    },
+                    {
+                        "drugbank-id": "DB05099",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Ancrod"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Beraprost"
+                    },
+                    {
+                        "drugbank-id": "DB05254",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Fibrinolysin"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Prasugrel"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Sulodexide"
+                    },
+                    {
+                        "drugbank-id": "DB06406",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Idraparinux"
+                    },
+                    {
+                        "drugbank-id": "DB06441",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Cangrelor"
+                    },
+                    {
+                        "drugbank-id": "DB06543",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Astaxanthin"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Apixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06635",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Otamixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Amediplase"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Dabigatran etexilate"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Danaparoid"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Dalteparin"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Tinzaparin"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Nadroparin"
+                    },
+                    {
+                        "drugbank-id": "DB08814",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Triflusal"
+                    },
+                    {
+                        "drugbank-id": "DB08994",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Ditazole"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Edoxaban"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Potassium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09255",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Dextran"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Bemiparin"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Parnaparin"
+                    },
+                    {
+                        "drugbank-id": "DB11095",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Desirudin"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Zinc citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11166",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Antithrombin Alfa"
+                    },
+                    {
+                        "drugbank-id": "DB11312",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Protein C"
+                    },
+                    {
+                        "drugbank-id": "DB11598",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Antithrombin III human"
+                    },
+                    {
+                        "drugbank-id": "DB11984",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Letaxaban"
+                    },
+                    {
+                        "drugbank-id": "DB12289",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Darexaban"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Betrixaban"
+                    },
+                    {
+                        "drugbank-id": "DB12598",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Nafamostat"
+                    },
+                    {
+                        "drugbank-id": "DB12831",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Gabexate"
+                    },
+                    {
+                        "drugbank-id": "DB13149",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Protein S human"
+                    },
+                    {
+                        "drugbank-id": "DB13199",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Brinase"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB13616",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Melagatran"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Saruplase"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14598",
+                        "description": "Levonorgestrel may decrease the anticoagulant activities of Edetate calcium disodium anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The therapeutic efficacy of Insulin human can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The therapeutic efficacy of Insulin glargine can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The therapeutic efficacy of Insulin pork can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The therapeutic efficacy of Troglitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The therapeutic efficacy of Sulfisoxazole can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The therapeutic efficacy of Disopyramide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "The therapeutic efficacy of Acarbose can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The therapeutic efficacy of Sulfadiazine can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The therapeutic efficacy of Rosiglitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The therapeutic efficacy of Quinine can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "The therapeutic efficacy of Miglitol can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The therapeutic efficacy of Nateglinide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The therapeutic efficacy of Pentamidine can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The therapeutic efficacy of Mifepristone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The therapeutic efficacy of Repaglinide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The therapeutic efficacy of Phenformin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The therapeutic efficacy of Sulfamethoxazole can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The therapeutic efficacy of Pioglitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The therapeutic efficacy of Mitiglinide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The therapeutic efficacy of Sitagliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "The therapeutic efficacy of Mecasermin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "The therapeutic efficacy of Pramlintide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "The therapeutic efficacy of Insulin aspart can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "The therapeutic efficacy of Insulin detemir can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The therapeutic efficacy of Insulin glulisine can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "The therapeutic efficacy of Glymidine can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "The therapeutic efficacy of AICA ribonucleotide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "The therapeutic efficacy of Buformin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "The therapeutic efficacy of Vildagliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "The therapeutic efficacy of Voglibose can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The therapeutic efficacy of NN344 can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "The therapeutic efficacy of NBI 6024 can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "The therapeutic efficacy of Bisegliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The therapeutic efficacy of Alogliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The therapeutic efficacy of Dapagliflozin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The therapeutic efficacy of Saxagliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "The therapeutic efficacy of Liraglutide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "The therapeutic efficacy of Gosogliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The therapeutic efficacy of Linagliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The therapeutic efficacy of Canagliflozin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "The therapeutic efficacy of Benfluorex can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The therapeutic efficacy of Empagliflozin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "The therapeutic efficacy of Albiglutide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "The therapeutic efficacy of Dulaglutide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The therapeutic efficacy of Lobeglitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The therapeutic efficacy of Netoglitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The therapeutic efficacy of Rivoglitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The therapeutic efficacy of Ciglitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "The therapeutic efficacy of Lixisenatide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The therapeutic efficacy of Insulin beef can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The therapeutic efficacy of Insulin degludec can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The therapeutic efficacy of Insulin peglispro can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The therapeutic efficacy of Insulin tregopil can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "The therapeutic efficacy of Ipragliflozin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "The therapeutic efficacy of Dutogliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "The therapeutic efficacy of Allicin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "The therapeutic efficacy of Tofogliflozin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The therapeutic efficacy of Ertugliflozin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "The therapeutic efficacy of 2 4 thiazolidinedione can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "The therapeutic efficacy of Teneligliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "The therapeutic efficacy of Omarigliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "The therapeutic efficacy of Carmegliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "The therapeutic efficacy of Gemigliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "The therapeutic efficacy of Anagliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "The therapeutic efficacy of Evogliptin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "The therapeutic efficacy of Sotagliflozin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The therapeutic efficacy of Balaglitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "The therapeutic efficacy of Remogliflozin etabonate can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "The therapeutic efficacy of Guar gum can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "The therapeutic efficacy of Semaglutide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "The therapeutic efficacy of Taspoglutide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "The therapeutic efficacy of Englitazone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "The therapeutic efficacy of Tirzepatide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "The therapeutic efficacy of Gastric inhibitory polypeptide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The therapeutic efficacy of Bromocriptine can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06404",
+                        "description": "The risk or severity of thromboembolism can be increased when Levonorgestrel is combined with Human C1 esterase inhibitor"
+                    },
+                    {
+                        "drugbank-id": "DB09228",
+                        "description": "The risk or severity of thromboembolism can be increased when Levonorgestrel is combined with Conestat alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Trifluridine"
+                    },
+                    {
+                        "drugbank-id": "DB00256",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Lymecycline"
+                    },
+                    {
+                        "drugbank-id": "DB00453",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Clomocycline"
+                    },
+                    {
+                        "drugbank-id": "DB00560",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Tigecycline"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Oxytetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00618",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Demeclocycline"
+                    },
+                    {
+                        "drugbank-id": "DB00931",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Metacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Minocycline"
+                    },
+                    {
+                        "drugbank-id": "DB01301",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Rolitetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Sarecycline"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13264",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Penimepicycline"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Doxycycline"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Tetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB12329",
+                        "description": "The serum concentration of Eravacycline can be decreased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Asunaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00301",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Flucloxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00485",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Dicloxacillin"
+                    },
+                    {
+                        "drugbank-id": "DB00082",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Pegvisomant"
+                    },
+                    {
+                        "drugbank-id": "DB00136",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Calcitriol"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Acetaminophen"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Omeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00357",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Aminoglutethimide"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Rofecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Testosterone"
+                    },
+                    {
+                        "drugbank-id": "DB00636",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Clofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB00769",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Terbinafine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB01011",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Metyrapone"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Topotecan"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01083",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Orlistat"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Sulfinpyrazone"
+                    },
+                    {
+                        "drugbank-id": "DB01201",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Rifapentine"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Ketamine"
+                    },
+                    {
+                        "drugbank-id": "DB01333",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Cefradine"
+                    },
+                    {
+                        "drugbank-id": "DB01352",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Aprobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Metamizole"
+                    },
+                    {
+                        "drugbank-id": "DB04905",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Tesmilifene"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Clevidipine"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Isavuconazonium"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB06739",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Seratrodast"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08905",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Formestane"
+                    },
+                    {
+                        "drugbank-id": "DB08911",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Trametinib"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Osimertinib"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Brigatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Testosterone cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Testosterone enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Testosterone undecanoate"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Estradiol benzoate"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Estradiol cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Estradiol dienanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Estradiol valerate"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Chlorpromazine can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The metabolism of Amprenavir can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00163",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Vitamin E"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Meperidine"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Ivermectin"
+                    },
+                    {
+                        "drugbank-id": "DB01220",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Rifaximin"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Colchicine"
+                    },
+                    {
+                        "drugbank-id": "DB06717",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Fosaprepitant"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The metabolism of Enzalutamide can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00648",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Mitotane"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00615",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Rifabutin"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Genistein"
+                    },
+                    {
+                        "drugbank-id": "DB04911",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Oritavancin"
+                    },
+                    {
+                        "drugbank-id": "DB06413",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Armodafinil"
+                    },
+                    {
+                        "drugbank-id": "DB08909",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Glycerol phenylbutyrate"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11767",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Sarilumab"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Alpelisib"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB11560",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Lesinurad"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Esketamine"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB13179",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Troleandomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Voriconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "The metabolism of Safinamide can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The metabolism of Gestodene can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Rucaparib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB14011",
+                        "description": "The metabolism of Nabiximols can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Chloramphenicol"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00673",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Aprepitant"
+                    },
+                    {
+                        "drugbank-id": "DB00705",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Delavirdine"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB02520",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Ditiocarb"
+                    },
+                    {
+                        "drugbank-id": "DB06412",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Oxymetholone"
+                    },
+                    {
+                        "drugbank-id": "DB06731",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Seproxetine"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Elbasvir"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Letermovir"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Medical Cannabis"
+                    },
+                    {
+                        "drugbank-id": "DB14635",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Curcumin sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB11703",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Acalabrutinib"
+                    },
+                    {
+                        "drugbank-id": "DB11737",
+                        "description": "The metabolism of Icotinib can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Daunorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Midostaurin"
+                    },
+                    {
+                        "drugbank-id": "DB12130",
+                        "description": "The metabolism of Lorlatinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01126",
+                        "description": "The metabolism of Dutasteride can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04856",
+                        "description": "The metabolism of Dexloxiglumide can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "The metabolism of Azimilide can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Lidocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Gefitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The metabolism of Nisoldipine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "The metabolism of Alprazolam can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00490",
+                        "description": "The metabolism of Buspirone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00497",
+                        "description": "The metabolism of Oxycodone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "The metabolism of Flutamide can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "The metabolism of Dextromethorphan can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The metabolism of Lercanidipine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The metabolism of Propranolol can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Cisapride can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The metabolism of Chloroquine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The metabolism of Simvastatin can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The metabolism of Trazodone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "The metabolism of Midazolam can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "The metabolism of Eplerenone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The metabolism of Norethisterone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The metabolism of Risperidone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The metabolism of Clopidogrel can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The metabolism of Irinotecan can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "The metabolism of Tadalafil can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The metabolism of Disulfiram can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The metabolism of Vardenafil can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00897",
+                        "description": "The metabolism of Triazolam can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The metabolism of Ondansetron can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The metabolism of Metronidazole can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Buprenorphine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The metabolism of Salmeterol can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Azelastine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The metabolism of Felodipine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The metabolism of Nitrendipine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01058",
+                        "description": "The metabolism of Praziquantel can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "The metabolism of Oxybutynin can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The metabolism of Atorvastatin can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Fluvastatin can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01103",
+                        "description": "The metabolism of Quinacrine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The metabolism of Chlorpheniramine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Cilostazol can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Domperidone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01216",
+                        "description": "The metabolism of Finasteride can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The metabolism of Halofantrine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The metabolism of Quetiapine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The metabolism of Aripiprazole can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The metabolism of Lapatinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The metabolism of Paliperidone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The metabolism of Iloperidone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The metabolism of Romidepsin can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06267",
+                        "description": "The metabolism of Udenafil can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The metabolism of Ambrisentan can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06419",
+                        "description": "The metabolism of Cethromycin can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06652",
+                        "description": "The metabolism of Vicriviroc can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The metabolism of Artemether can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The metabolism of Hydroxyprogesterone caproate can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The metabolism of Ivacaftor can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The metabolism of Ibrutinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The metabolism of Vortioxetine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The metabolism of Daclatasvir can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The metabolism of Benidipine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The metabolism of Paritaprevir can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11712",
+                        "description": "The metabolism of Tezacaftor can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Istradefylline can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11915",
+                        "description": "The metabolism of Valbenazine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The metabolism of Deutetrabenazine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12301",
+                        "description": "The metabolism of Doravirine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The metabolism of Aripiprazole lauroxil can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The metabolism of Elexacaftor can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00238",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Nevirapine"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "The metabolism of Levamlodipine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The metabolism of Lemborexant can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The metabolism of Hydroxyzine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "The metabolism of Clindamycin can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "The metabolism of Alfentanil can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The metabolism of Fentanyl can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The metabolism of Selumetinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The metabolism of Apomorphine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The metabolism of Estrone can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB14542",
+                        "description": "The metabolism of Hydrocortisone phosphate can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The metabolism of Sunitinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Cyclophosphamide"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Etoposide"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Ifosfamide"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Tegafur can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Temsirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The metabolism of Levonorgestrel can be decreased when combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Sorafenib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The metabolism of Teniposide can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Erlotinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The metabolism of Vincristine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The metabolism of Astemizole can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The metabolism of Tacrolimus can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The metabolism of Sirolimus can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The metabolism of Docetaxel can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The metabolism of Trastuzumab emtansine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The metabolism of Olaparib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The metabolism of Copanlisib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00005",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Etanercept"
+                    },
+                    {
+                        "drugbank-id": "DB00026",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Anakinra"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Adalimumab"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Infliximab"
+                    },
+                    {
+                        "drugbank-id": "DB01281",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Abatacept"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Afelimomab"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Apremilast"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Canakinumab"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Tocilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB06372",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Rilonacept"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Golimumab"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Certolizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Secukinumab"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Siltuximab"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Emapalumab"
+                    },
+                    {
+                        "drugbank-id": "DB14730",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Calaspargase pegol"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The therapeutic efficacy of Metformin can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The bioavailability of Levonorgestrel can be increased when combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Lamotrigine"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Pentobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00273",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Topiramate"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Rufinamide"
+                    },
+                    {
+                        "drugbank-id": "DB09119",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Eslicarbazepine acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14575",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Eslicarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Butalbital"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Secobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00474",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Methohexital"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Thiopental"
+                    },
+                    {
+                        "drugbank-id": "DB00754",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Ethotoin"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Methylphenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Thiamylal"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Amobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Hexobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Barbital"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Perampanel"
+                    },
+                    {
+                        "drugbank-id": "DB09001",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Barbexaclone"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Stiripentol"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Diazepam"
+                    },
+                    {
+                        "drugbank-id": "DB06458",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Remacemide"
+                    },
+                    {
+                        "drugbank-id": "DB11400",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Doramectin"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The metabolism of Ethosuximide can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Lorazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Pregabalin"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Trimethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00617",
+                        "description": "The metabolism of Paramethadione can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00628",
+                        "description": "The metabolism of Clorazepic acid can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00906",
+                        "description": "The metabolism of Tiagabine can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The metabolism of Zonisamide can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00962",
+                        "description": "The metabolism of Zaleplon can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00996",
+                        "description": "The metabolism of Gabapentin can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01068",
+                        "description": "The metabolism of Clonazepam can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01202",
+                        "description": "The metabolism of Levetiracetam can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01215",
+                        "description": "The metabolism of Estazolam can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01595",
+                        "description": "The metabolism of Nitrazepam can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Flunarizine can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB05541",
+                        "description": "The metabolism of Brivaracetam can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The metabolism of Lacosamide can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB06470",
+                        "description": "The metabolism of Clomethiazole can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "The metabolism of Cannabidiol can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "The metabolism of Vinpocetine can be increased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00463",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Metharbital"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Mephenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Magnesium sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Tizanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Riluzole"
+                    },
+                    {
+                        "drugbank-id": "DB00832",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Phensuximide"
+                    },
+                    {
+                        "drugbank-id": "DB00837",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Progabide"
+                    },
+                    {
+                        "drugbank-id": "DB01080",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Vigabatrin"
+                    },
+                    {
+                        "drugbank-id": "DB01121",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Phenacemide"
+                    },
+                    {
+                        "drugbank-id": "DB01511",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Delorazepam"
+                    },
+                    {
+                        "drugbank-id": "DB02207",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with 7 Nitroindazole"
+                    },
+                    {
+                        "drugbank-id": "DB04165",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Valpromide"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Ezogabine"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Methsuximide"
+                    },
+                    {
+                        "drugbank-id": "DB06512",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Deramciclane"
+                    },
+                    {
+                        "drugbank-id": "DB06527",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Tramiprosate"
+                    },
+                    {
+                        "drugbank-id": "DB06554",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Gaboxadol"
+                    },
+                    {
+                        "drugbank-id": "DB08329",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Sulthiame"
+                    },
+                    {
+                        "drugbank-id": "DB08954",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Ifenprodil"
+                    },
+                    {
+                        "drugbank-id": "DB09011",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Beclamide"
+                    },
+                    {
+                        "drugbank-id": "DB09117",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Paraldehyde"
+                    },
+                    {
+                        "drugbank-id": "DB11549",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Tiletamine"
+                    },
+                    {
+                        "drugbank-id": "DB11859",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Brexanolone"
+                    },
+                    {
+                        "drugbank-id": "DB11868",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Etiracetam"
+                    },
+                    {
+                        "drugbank-id": "DB12338",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Carisbamate"
+                    },
+                    {
+                        "drugbank-id": "DB13362",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Pheneturide"
+                    },
+                    {
+                        "drugbank-id": "DB13396",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Neocitrullamon"
+                    },
+                    {
+                        "drugbank-id": "DB13437",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Medazepam"
+                    },
+                    {
+                        "drugbank-id": "DB13455",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Phenibut"
+                    },
+                    {
+                        "drugbank-id": "DB13799",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Ethadione"
+                    },
+                    {
+                        "drugbank-id": "DB14050",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Cannabidivarin"
+                    },
+                    {
+                        "drugbank-id": "DB15203",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with JNJ 26489112"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Fosphenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with St John s Wort"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The therapeutic efficacy of Glimepiride can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The therapeutic efficacy of Acetohexamide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The therapeutic efficacy of Chlorpropamide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The therapeutic efficacy of Tolazamide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The therapeutic efficacy of Glyburide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The therapeutic efficacy of Glipizide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The therapeutic efficacy of Gliclazide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The therapeutic efficacy of Tolbutamide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The therapeutic efficacy of Gliquidone can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The therapeutic efficacy of Glisoxepide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The therapeutic efficacy of Glibornuride can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The therapeutic efficacy of Carbutamide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The therapeutic efficacy of Metahexamide can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00776",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Oxcarbazepine"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "Levonorgestrel may decrease the excretion rate of Rosuvastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "Levonorgestrel may decrease the excretion rate of Theophylline which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Darunavir"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Levonorgestrel can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Satralizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

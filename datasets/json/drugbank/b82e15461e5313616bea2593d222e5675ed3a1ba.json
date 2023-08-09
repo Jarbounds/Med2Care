@@ -1,0 +1,533 @@
+{
+    "medicine_id": "b82e15461e5313616bea2593d222e5675ed3a1ba",
+    "platform_id": "DB01581",
+    "metadata": {
+        "name": "Trisulfaminic Sus 86 mg 5mL Suspension",
+        "composition": "86 mg 5mL Sulfamerazine",
+        "clinical_particulars": {
+            "therapeutic_indications": "A sulfanilamide that is used as an antibacterial agent It can be used to treat bronchitis prostatitis and urinary tract infections",
+            "contraindications": {
+                "disease": "Sulfamerazine may cause nausea vomiting diarrhea and hypersensitivity reactions Hematologic effects such as anemia agranulocytosis thrombocytopenia and hemolytic anemia in patients with glucose 6 phosphate dehydrogenase deficiency may also occur Sulfamethoxazole may displace bilirubin from albumin binding sites causing jaundice or kernicterus in newborns",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Sulfonamides act as competitive inhibitors of the enzyme dihydropteroate synthetase DHPS an enzyme involved in folate synthesis in bacteria",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfamerazine is combined with Nicotine"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfamerazine is combined with Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfamerazine is combined with Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfamerazine is combined with Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfamerazine is combined with Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB08999",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfamerazine is combined with Cyclopentamine"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfamerazine is combined with Methotrexate"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The risk or severity of adverse effects can be increased when Ketoprofen is combined with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09214",
+                        "description": "The risk or severity of adverse effects can be increased when Dexketoprofen is combined with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of renal failure can be increased when Sulfamerazine is combined with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB06799",
+                        "description": "Methenamine can cause a decrease in the absorption of Sulfamerazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The therapeutic efficacy of Insulin human can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The therapeutic efficacy of Insulin glargine can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The therapeutic efficacy of Insulin pork can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The therapeutic efficacy of Troglitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The therapeutic efficacy of Glimepiride can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The therapeutic efficacy of Sulfisoxazole can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The therapeutic efficacy of Disopyramide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "The therapeutic efficacy of Acarbose can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The therapeutic efficacy of Metformin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The therapeutic efficacy of Rosiglitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The therapeutic efficacy of Acetohexamide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The therapeutic efficacy of Quinine can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "The therapeutic efficacy of Miglitol can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The therapeutic efficacy of Chlorpropamide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The therapeutic efficacy of Nateglinide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The therapeutic efficacy of Pentamidine can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The therapeutic efficacy of Mifepristone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The therapeutic efficacy of Tolazamide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The therapeutic efficacy of Repaglinide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The therapeutic efficacy of Phenformin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The therapeutic efficacy of Sulfamethoxazole can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The therapeutic efficacy of Glyburide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The therapeutic efficacy of Glipizide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The therapeutic efficacy of Gliclazide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The therapeutic efficacy of Tolbutamide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The therapeutic efficacy of Pioglitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The therapeutic efficacy of Bromocriptine can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The therapeutic efficacy of Gliquidone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The therapeutic efficacy of Mitiglinide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The therapeutic efficacy of Sitagliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The therapeutic efficacy of Sunitinib can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "The therapeutic efficacy of Exenatide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "The therapeutic efficacy of Mecasermin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "The therapeutic efficacy of Pramlintide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The therapeutic efficacy of Glisoxepide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "The therapeutic efficacy of Insulin aspart can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "The therapeutic efficacy of Insulin detemir can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The therapeutic efficacy of Insulin glulisine can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "The therapeutic efficacy of Glymidine can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "The therapeutic efficacy of AICA ribonucleotide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "The therapeutic efficacy of Buformin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "The therapeutic efficacy of Vildagliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "The therapeutic efficacy of Voglibose can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The therapeutic efficacy of NN344 can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "The therapeutic efficacy of NBI 6024 can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "The therapeutic efficacy of Bisegliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The therapeutic efficacy of Alogliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The therapeutic efficacy of Dapagliflozin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The therapeutic efficacy of Saxagliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "The therapeutic efficacy of Liraglutide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "The therapeutic efficacy of Gosogliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The therapeutic efficacy of Linagliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The therapeutic efficacy of Canagliflozin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The therapeutic efficacy of Glibornuride can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "The therapeutic efficacy of Benfluorex can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The therapeutic efficacy of Empagliflozin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "The therapeutic efficacy of Albiglutide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "The therapeutic efficacy of Dulaglutide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The therapeutic efficacy of Lobeglitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The therapeutic efficacy of Netoglitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The therapeutic efficacy of Rivoglitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The therapeutic efficacy of Ciglitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "The therapeutic efficacy of Lixisenatide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The therapeutic efficacy of Insulin beef can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The therapeutic efficacy of Insulin degludec can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The therapeutic efficacy of Insulin peglispro can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The therapeutic efficacy of Insulin tregopil can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "The therapeutic efficacy of Ipragliflozin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "The therapeutic efficacy of Dutogliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "The therapeutic efficacy of Allicin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "The therapeutic efficacy of Tofogliflozin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The therapeutic efficacy of Ertugliflozin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "The therapeutic efficacy of 2 4 thiazolidinedione can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "The therapeutic efficacy of Teneligliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "The therapeutic efficacy of Omarigliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "The therapeutic efficacy of Carmegliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "The therapeutic efficacy of Gemigliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "The therapeutic efficacy of Anagliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "The therapeutic efficacy of Evogliptin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "The therapeutic efficacy of Sotagliflozin can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The therapeutic efficacy of Balaglitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "The therapeutic efficacy of Remogliflozin etabonate can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The therapeutic efficacy of Carbutamide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "The therapeutic efficacy of Guar gum can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The therapeutic efficacy of Metahexamide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "The therapeutic efficacy of Semaglutide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "The therapeutic efficacy of Taspoglutide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "The therapeutic efficacy of Englitazone can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "The therapeutic efficacy of Tirzepatide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "The therapeutic efficacy of Gastric inhibitory polypeptide can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Sulfamerazine is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00375",
+                        "description": "Colestipol can cause a decrease in the absorption of Sulfamerazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00658",
+                        "description": "Sevelamer can cause a decrease in the absorption of Sulfamerazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00930",
+                        "description": "Colesevelam can cause a decrease in the absorption of Sulfamerazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01432",
+                        "description": "Cholestyramine can cause a decrease in the absorption of Sulfamerazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "Sulfamerazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Sulfamerazine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

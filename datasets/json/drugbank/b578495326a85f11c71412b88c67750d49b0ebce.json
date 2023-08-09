@@ -1,0 +1,29 @@
+{
+    "medicine_id": "b578495326a85f11c71412b88c67750d49b0ebce",
+    "platform_id": "DB09130",
+    "metadata": {
+        "name": "24 Multivitamins Minerals 630 IU Capsule",
+        "composition": "630 IU Copper",
+        "clinical_particulars": {
+            "therapeutic_indications": "For use in the supplementation of total parenteral nutrition and in contraception with intrauterine devices FDA Label L801",
+            "contraindications": {
+                "disease": "Copper toxicity is belevied to be due to fenton type redox reactions occuring with high copper concentrations which produce damaging reactive oxygen species A19514",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Copper is incorporated into many enzymes throughout the body as an essential part of their function A19518 Copper ions are known to reduce fertility when released from copper containing IUDs A19526",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB08830",
+                        "description": "The serum concentration of Dehydroascorbic acid can be decreased when it is combined with Copper"
+                    },
+                    {
+                        "drugbank-id": "DB14485",
+                        "description": "The serum concentration of Zinc ascorbate can be decreased when it is combined with Copper"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

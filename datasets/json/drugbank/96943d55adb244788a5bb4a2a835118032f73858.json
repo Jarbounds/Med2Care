@@ -1,0 +1,2873 @@
+{
+    "medicine_id": "96943d55adb244788a5bb4a2a835118032f73858",
+    "platform_id": "DB00927",
+    "metadata": {
+        "name": "7 Select Acid Controller 20 mg 1 Tablet",
+        "composition": "20 mg 1 Famotidine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Famotidine is indicated in pediatric and adult patients with the bodyweight of 40 kg and above for the management of active duodenal ulcer DU active gastric ulcer symptomatic non erosive gastroesophageal reflux disease GERD and erosive esophagitis due to GERD diagnosed by biopsy L11139 It is also indicated in adult patients for the treatment of pathological hypersecretory conditions e g Zollinger Ellison Syndrome multiple endocrine neoplasias and reduction of the risk of DU recurrence L11139 The intravenous formulation of famotidine is available for some hospitalized patients with pathological hypersecretory conditions or intractable ulcers or as an alternative to the oral dosage form for short term use in patients who are unable to take oral medication L11142 Over the counter famotidine is used for the management and prevention of heartburn caused by gastroesophageal reflux in children and adults Off label uses of famotidine include the reduction of NSAIDs associated gastrointestinal effects treatment of refractory urticarial prevention of stress ulcer in critically ill patients and symptomatic relief of gastritis L11166 L11172",
+            "contraindications": {
+                "disease": "The oral LD sub 50 sub is 4049 mg kg in rats and 4686 mg kg in mice The subcutaneous LD sub 50 sub is 800 mg kg in rats and mice The lowest published toxic dose TDLo in man following oral administration is 4 mg kg 7D L11157 Symptoms of overdose resemble the adverse events seen with the use of recommended doses and they should be responded with supportive and symptomatic treatment Any unabsorbed drug should be removed from the gastrointestinal tract and the patient should be monitored accordingly The use of hemodialysis to eliminate the drug from the systemic circulation is effective but the experience of using hemodialysis in response to famotidine overdose is limited in clinical settings L11139",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Famotidine decreases the production of gastric acid suppresses acid concentration and pepsin content and decreases the volume of gastric secretion Famotidine inhibits both basal and nocturnal gastric acid secretion as well as acid secretion stimulated by food caffeine insulin and pentagastrin L11139 L11142 Famotidine has a dose dependent therapeutic action with the highest dose having the most extended duration of action and the highest inhibitory effect on gastric acid secretion Following oral administration the onset of action is within one hour and the peak effect is reached within 1 3 hours The duration of effect is about 10 12 hours A189459",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The serum concentration of Famotidine can be increased when it is combined with Tizanidine"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "Famotidine can cause a decrease in the absorption of Atazanavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01066",
+                        "description": "The serum concentration of Cefditoren can be decreased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "Famotidine can cause a decrease in the absorption of Dabigatran etexilate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "Famotidine can cause a decrease in the absorption of Dabrafenib resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "Famotidine can cause a decrease in the absorption of Erlotinib resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Famotidine can cause a decrease in the absorption of Riociguat resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00895",
+                        "description": "Famotidine may decrease effectiveness of Benzylpenicilloyl polylysine as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB06698",
+                        "description": "The therapeutic efficacy of Betahistine can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00070",
+                        "description": "The therapeutic efficacy of Hyaluronidase ovine can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06205",
+                        "description": "The therapeutic efficacy of Hyaluronidase human recombinant can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB14740",
+                        "description": "The therapeutic efficacy of Hyaluronidase can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00168",
+                        "description": "The excretion of Famotidine can be decreased when combined with Aspartame"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The excretion of Famotidine can be decreased when combined with Pravastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "The excretion of Famotidine can be decreased when combined with Pantoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cefotiam"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The excretion of Famotidine can be decreased when combined with Liothyronine"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The excretion of Famotidine can be decreased when combined with Conjugated estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Famotidine can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Famotidine can be decreased when combined with Aminohippuric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The excretion of Famotidine can be decreased when combined with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00456",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cefalotin"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The excretion of Famotidine can be decreased when combined with Tenoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00493",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cefotaxime"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The excretion of Famotidine can be decreased when combined with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00536",
+                        "description": "The excretion of Famotidine can be decreased when combined with Guanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The excretion of Famotidine can be decreased when combined with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The excretion of Famotidine can be decreased when combined with Methotrexate"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cephalexin"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The excretion of Famotidine can be decreased when combined with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The excretion of Famotidine can be decreased when combined with Oxytetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00650",
+                        "description": "The excretion of Famotidine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The excretion of Famotidine can be decreased when combined with Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "The excretion of Famotidine can be decreased when combined with Esomeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The excretion of Famotidine can be decreased when combined with Tetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The excretion of Famotidine can be decreased when combined with Acyclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The excretion of Famotidine can be decreased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00833",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cefaclor"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The excretion of Famotidine can be decreased when combined with Bumetanide"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Famotidine can be decreased when combined with Dinoprostone"
+                    },
+                    {
+                        "drugbank-id": "DB00139",
+                        "description": "The excretion of Succinic acid can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00155",
+                        "description": "The excretion of Citrulline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00198",
+                        "description": "The excretion of Oseltamivir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The excretion of Tenofovir disoproxil can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The excretion of Piperacillin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "The excretion of Trifluridine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "The excretion of Allopurinol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00535",
+                        "description": "The excretion of Cefdinir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00577",
+                        "description": "The excretion of Valaciclovir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00583",
+                        "description": "The excretion of Levocarnitine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00693",
+                        "description": "The excretion of Fluorescein can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The excretion of Hydrocortisone can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00770",
+                        "description": "The excretion of Alprostadil can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The excretion of Estradiol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The excretion of Rosuvastatin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The excretion of Sitagliptin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "The excretion of Cefazolin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "The excretion of Ceftizoxime can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "The excretion of Cefacetrile can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01415",
+                        "description": "The excretion of Ceftibuten can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01606",
+                        "description": "The excretion of Tazobactam can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB02527",
+                        "description": "The excretion of Cyclic adenosine monophosphate can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The excretion of Cholic Acid can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB03553",
+                        "description": "The excretion of Glutaric Acid can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB03902",
+                        "description": "The excretion of Oxalic Acid can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Taurocholic acid can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06211",
+                        "description": "The excretion of Doripenem can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The excretion of Saxagliptin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB08846",
+                        "description": "The excretion of Ellagic acid can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09008",
+                        "description": "The excretion of Cefaloridine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09060",
+                        "description": "The excretion of Avibactam can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "The excretion of Eluxadoline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Silibinin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The excretion of Tenofovir alafenamide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The excretion of Baricitinib can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12243",
+                        "description": "The excretion of Edaravone can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12377",
+                        "description": "The excretion of Relebactam can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The excretion of Tenofovir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The excretion of Famotidine can be decreased when combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The excretion of Famotidine can be decreased when combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "The excretion of Famotidine can be decreased when combined with Ganciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The excretion of Famotidine can be decreased when combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The excretion of Famotidine can be decreased when combined with Minocycline"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The excretion of Famotidine can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01051",
+                        "description": "The excretion of Famotidine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The excretion of Famotidine can be decreased when combined with Melatonin"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The excretion of Famotidine can be decreased when combined with Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB01140",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cefadroxil"
+                    },
+                    {
+                        "drugbank-id": "DB01212",
+                        "description": "The excretion of Famotidine can be decreased when combined with Ceftriaxone"
+                    },
+                    {
+                        "drugbank-id": "DB01326",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cefamandole"
+                    },
+                    {
+                        "drugbank-id": "DB01329",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cefoperazone"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The excretion of Famotidine can be decreased when combined with Liotrix"
+                    },
+                    {
+                        "drugbank-id": "DB01597",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cilastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01650",
+                        "description": "The excretion of Famotidine can be decreased when combined with trans 2 hydroxycinnamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The excretion of Famotidine can be decreased when combined with Topiroxostat"
+                    },
+                    {
+                        "drugbank-id": "DB03793",
+                        "description": "The excretion of Famotidine can be decreased when combined with Benzoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04519",
+                        "description": "The excretion of Famotidine can be decreased when combined with Caprylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB05016",
+                        "description": "The excretion of Famotidine can be decreased when combined with Ataluren"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The excretion of Famotidine can be decreased when combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB11751",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cabotegravir"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The excretion of Famotidine can be decreased when combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The excretion of Famotidine can be decreased when combined with Avatrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The excretion of Famotidine can be decreased when combined with Letermovir"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The excretion of Famotidine can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB12866",
+                        "description": "The excretion of Famotidine can be decreased when combined with Pradigastat"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The excretion of Hydrochlorothiazide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The excretion of Famotidine can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The excretion of Famotidine can be decreased when combined with Dolutegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The excretion of Dexamethasone can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The excretion of Famotidine can be decreased when combined with Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "The excretion of Quinapril can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The excretion of Famotidine can be decreased when combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The excretion of Famotidine can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The excretion of Estrone can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The excretion of Polythiazide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The excretion of Prednisolone phosphate can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB11644",
+                        "description": "The excretion of Famotidine can be decreased when combined with Tafamidis"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "Famotidine can cause a decrease in the absorption of Bosutinib resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01416",
+                        "description": "Famotidine can cause a decrease in the absorption of Cefpodoxime resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01112",
+                        "description": "Famotidine can cause a decrease in the absorption of Cefuroxime resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "Famotidine can cause a decrease in the absorption of Dasatinib resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00705",
+                        "description": "Famotidine can cause a decrease in the absorption of Delavirdine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06701",
+                        "description": "The therapeutic efficacy of Dexmethylphenidate can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "Famotidine can cause a decrease in the absorption of Amprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01319",
+                        "description": "Famotidine can cause a decrease in the absorption of Fosamprenavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "Famotidine can cause a decrease in the absorption of Gefitinib resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "Famotidine can cause a decrease in the absorption of Indinavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "Famotidine can cause a decrease in the absorption of Itraconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09027",
+                        "description": "Famotidine can cause a decrease in the absorption of Ledipasvir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00422",
+                        "description": "The therapeutic efficacy of Methylphenidate can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "Famotidine can cause a decrease in the absorption of Nelfinavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "Famotidine can cause a decrease in the absorption of Nilotinib resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The therapeutic efficacy of Pazopanib can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "Famotidine can cause a decrease in the absorption of Rilpivirine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00884",
+                        "description": "Famotidine can cause an increase in the absorption of Risedronic acid resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "Famotidine can cause an increase in the absorption of Saquinavir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "Famotidine can cause a decrease in the absorption of Levothyroxine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09020",
+                        "description": "The therapeutic efficacy of Bisacodyl can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "Famotidine can cause a decrease in the absorption of Captopril resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "Famotidine can cause a decrease in the absorption of Rifampicin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01043",
+                        "description": "Famotidine may decrease the excretion rate of Memantine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The therapeutic efficacy of Sulpiride can be increased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "Famotidine can cause a decrease in the absorption of Mesalazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "Famotidine can cause a decrease in the absorption of Mycophenolate mofetil resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "Famotidine can cause a decrease in the absorption of Mycophenolic acid resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01344",
+                        "description": "The therapeutic efficacy of Tolevamer can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Amphetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "Phentermine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "Pseudoephedrine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "Benzphetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "Diethylpropion may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "Lisdexamfetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01365",
+                        "description": "Mephentermine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "MMDA may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "Midomafetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01467",
+                        "description": "2 5 Dimethoxy 4 ethylamphetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "4 Bromo 2 5 dimethoxyamphetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "Tenamfetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01556",
+                        "description": "Chlorphentermine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01566",
+                        "description": "Methylenedioxyethamphetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "Dextroamphetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "Metamfetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09480",
+                        "description": "Iofetamine I 123 may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12080",
+                        "description": "Ritobegron may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13108",
+                        "description": "Mephedrone may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13624",
+                        "description": "Methoxyphenamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13703",
+                        "description": "Gepefrine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "2 5 Dimethoxy 4 ethylthioamphetamine may decrease the sedative and stimulatory activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00847",
+                        "description": "Famotidine can cause an increase in the absorption of Cysteamine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "Famotidine can cause a decrease in the absorption of Ketoconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06799",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Leuprolide"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Goserelin"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Azithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Moxifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Nimodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Droperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00556",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Perflutren"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cinnarizine"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Atropine"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Chloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Adenosine"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Pentamidine"
+                    },
+                    {
+                        "drugbank-id": "DB00743",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Gadobenic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Carbinoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Dolasetron"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Roxithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Nalidixic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cinoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Granisetron"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ondansetron"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Levosimendan"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Desloratadine"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lomefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Dimenhydrinate"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Primaquine"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Chlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Levofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Gemifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Flecainide"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Levacetylmethadol"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB01599",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Probucol"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB02638",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Terlipressin"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Prenylamine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Azimilide"
+                    },
+                    {
+                        "drugbank-id": "DB05223",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Pracinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Technetium Tc 99m ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Garenoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Tedisamil"
+                    },
+                    {
+                        "drugbank-id": "DB06334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Tucidinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06402",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Telavancin"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Nemonoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Panobinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB08799",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Antazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB08903",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Bedaquiline"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Fendiline"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Benidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Dexchlorpheniramine maleate"
+                    },
+                    {
+                        "drugbank-id": "DB11640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Amifampridine"
+                    },
+                    {
+                        "drugbank-id": "DB11830",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Mocetinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Entinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Gilteritinib"
+                    },
+                    {
+                        "drugbank-id": "DB12174",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with CUDC 101"
+                    },
+                    {
+                        "drugbank-id": "DB12286",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Simendan"
+                    },
+                    {
+                        "drugbank-id": "DB12376",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ricolinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12523",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Mizolastine"
+                    },
+                    {
+                        "drugbank-id": "DB12565",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Abexinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12877",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Oxatomide"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sitafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Nizofenone"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Bunaftine"
+                    },
+                    {
+                        "drugbank-id": "DB13653",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lorcainide"
+                    },
+                    {
+                        "drugbank-id": "DB13679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Dexchlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Dexverapamil"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB11718",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Encorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB01084",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Emedastine"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Berotralstat"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Clemastine"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ibutilide"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Grepafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sotalol"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Astemizole"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Domperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Halofantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB04844",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Tetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Vandetanib"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Romidepsin"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Artemether"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Eliglustat"
+                    },
+                    {
+                        "drugbank-id": "DB09083",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ivabradine"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Deutetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Macimorelin"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB00893",
+                        "description": "Famotidine can cause a decrease in the absorption of Iron Dextran resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01592",
+                        "description": "Famotidine can cause a decrease in the absorption of Iron resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09147",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferric pyrophosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06783",
+                        "description": "Famotidine can cause a decrease in the absorption of Prussian blue resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09146",
+                        "description": "Famotidine can cause a decrease in the absorption of Iron sucrose resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09501",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferric ammonium citrate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09507",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferumoxsil resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09508",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferumoxides resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11171",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferric sulfate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11210",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferrous bisglycinate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11417",
+                        "description": "Famotidine can cause a decrease in the absorption of Gleptoferron resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11576",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferric oxide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12821",
+                        "description": "Famotidine can cause a decrease in the absorption of Perflubutane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13257",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferrous sulfate anhydrous resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13381",
+                        "description": "Famotidine can cause a decrease in the absorption of Sodium feredetate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13423",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferric hydroxide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13949",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferric cation resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14488",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferrous gluconate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14489",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferrous succinate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14491",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14520",
+                        "description": "Famotidine can cause a decrease in the absorption of Tetraferric tricitrate decahydrate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14695",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferric oxyhydroxide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB15598",
+                        "description": "Famotidine can cause a decrease in the absorption of Ferric maltol resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09343",
+                        "description": "The excretion of Tipiracil can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11637",
+                        "description": "Famotidine may increase the QTc prolonging activities of Delamanid"
+                    },
+                    {
+                        "drugbank-id": "DB01273",
+                        "description": "The excretion of Varenicline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "The serum concentration of Prazosin can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB14754",
+                        "description": "The serum concentration of Solriamfetol can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The serum concentration of Ranitidine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The serum concentration of Linagliptin can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB14006",
+                        "description": "The serum concentration of Choline salicylate can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00122",
+                        "description": "The serum concentration of Choline can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The serum concentration of Metformin can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00368",
+                        "description": "The serum concentration of Norepinephrine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The serum concentration of Reserpine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00413",
+                        "description": "The serum concentration of Pramipexole can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The serum concentration of Epinephrine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "The serum concentration of Lamivudine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "The serum concentration of Amantadine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00988",
+                        "description": "The serum concentration of Dopamine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB05381",
+                        "description": "The serum concentration of Histamine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The serum concentration of Agmatine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12598",
+                        "description": "The serum concentration of Nafamostat can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00107",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxytocin is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The risk or severity of QTc prolongation can be increased when Esmolol is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bortezomib is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pregabalin is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Benzatropine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isradipine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of QTc prolongation can be increased when Venlafaxine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atomoxetine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olanzapine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cetirizine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of QTc prolongation can be increased when Protriptyline is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "The risk or severity of QTc prolongation can be increased when Alfuzosin is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimethadione is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buclizine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mefloquine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxylamine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mirtazapine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The risk or severity of QTc prolongation can be increased when Timolol is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The risk or severity of QTc prolongation can be increased when Treprostinil is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Digoxin is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexbrompheniramine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hyoscyamine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triprolidine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyproheptadine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The risk or severity of QTc prolongation can be increased when Enoxacin is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pefloxacin is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The risk or severity of QTc prolongation can be increased when Foscarnet is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amoxapine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lamotrigine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ethosuximide is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amodiaquine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nicardipine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "The risk or severity of QTc prolongation can be increased when Galantamine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The risk or severity of QTc prolongation can be increased when Losartan is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moricizine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibandronate is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of QTc prolongation can be increased when Apomorphine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azatadine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimipramine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The risk or severity of QTc prolongation can be increased when Risperidone is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isoflurane is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indapamide is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rosoxacin is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propofol is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disulfiram is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of QTc prolongation can be increased when Brompheniramine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vardenafil is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tacrolimus is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Terbutaline is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The risk or severity of QTc prolongation can be increased when Zonisamide is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The risk or severity of QTc prolongation can be increased when Metronidazole is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00920",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ketotifen is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Formoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Salbutamol"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Tolterodine"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Gatifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Nitrendipine"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Mequitazine"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Perhexiline"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Diphenhydramine"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Levocabastine"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cilostazol"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Desflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Encainide"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sunitinib"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Arformoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Digitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Solifenacin"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Hydroxychloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB01620",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Pheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Vorinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Fleroxacin"
+                    },
+                    {
+                        "drugbank-id": "DB04695",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Farnesyl thiopyrophosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ezogabine"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Indacaterol"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Methsuximide"
+                    },
+                    {
+                        "drugbank-id": "DB05465",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Tandutinib"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Vernakalant"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Levocetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Amisulpride"
+                    },
+                    {
+                        "drugbank-id": "DB06468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cariporide"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Pasireotide"
+                    },
+                    {
+                        "drugbank-id": "DB06691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Mepyramine"
+                    },
+                    {
+                        "drugbank-id": "DB06699",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Degarelix"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Buserelin"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Histrelin"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Triptorelin"
+                    },
+                    {
+                        "drugbank-id": "DB07780",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Farnesyl diphosphate"
+                    },
+                    {
+                        "drugbank-id": "DB07841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Geranylgeranyl diphosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Eribulin"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Mirabegron"
+                    },
+                    {
+                        "drugbank-id": "DB08936",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Chlorcyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Flumequine"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Olodaterol"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Vilanterol"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Trimebutine"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Pinaverium"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Aranidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Acrivastine"
+                    },
+                    {
+                        "drugbank-id": "DB11390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Coumaphos"
+                    },
+                    {
+                        "drugbank-id": "DB11397",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Dichlorvos"
+                    },
+                    {
+                        "drugbank-id": "DB11408",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Famphur"
+                    },
+                    {
+                        "drugbank-id": "DB11412",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Fenthion"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Orbifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11448",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Phosmet"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Sarafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Difloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Bilastine"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Rupatadine"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ebastine"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Pazufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Anisodamine"
+                    },
+                    {
+                        "drugbank-id": "DB11891",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with CUDC 907"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Prulifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Delafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Temefos"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Triclabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB12645",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Givinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Pilsicainide"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Gallopamil"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Cibenzoline"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Bencyclane"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Prajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Oxolinic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lorajmine"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Acetyldigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13744",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Piromidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lidoflazine"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Rufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Pipemidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Inotersen"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moexipril is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clofazimine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The risk or severity of QTc prolongation can be increased when Epinastine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB11853",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Relugolix"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The excretion of Pemetrexed can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "The excretion of Mercaptopurine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The excretion of Valproic acid can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The excretion of Famotidine can be increased when combined with Testosterone"
+                    },
+                    {
+                        "drugbank-id": "DB06710",
+                        "description": "The excretion of Famotidine can be increased when combined with Methyltestosterone"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The excretion of Famotidine can be increased when combined with Testosterone cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The excretion of Famotidine can be increased when combined with Testosterone enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The excretion of Famotidine can be increased when combined with Testosterone undecanoate"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Fluvoxamine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Nicotine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00201",
+                        "description": "The metabolism of Caffeine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "The metabolism of Carmustine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The metabolism of Ropinirole can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The metabolism of Lidocaine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The metabolism of Ropivacaine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The metabolism of Zolmitriptan can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Acetaminophen can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "The metabolism of Chlorzoxazone can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "The metabolism of Mexiletine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The metabolism of Tacrine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The metabolism of Triamterene can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Zolpidem can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00442",
+                        "description": "The metabolism of Entecavir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The metabolism of Nabumetone can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "The metabolism of Flutamide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Rofecoxib can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The metabolism of Guanabenz can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Verapamil can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Paroxetine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00730",
+                        "description": "The metabolism of Thiabendazole can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "The metabolism of Riluzole can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00744",
+                        "description": "The metabolism of Zileuton can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The metabolism of Clopidogrel can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Naproxen can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The metabolism of Pentoxifylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The metabolism of Trifluoperazine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The metabolism of Perphenazine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Terbinafine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Ethanol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "The metabolism of Alosetron can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Azelastine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "The metabolism of Ramelteon can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "The metabolism of Azathioprine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The metabolism of Frovatriptan can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The metabolism of Levobupivacaine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01012",
+                        "description": "The metabolism of Cinacalcet can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Selegiline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01056",
+                        "description": "The metabolism of Tocainide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01058",
+                        "description": "The metabolism of Praziquantel can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01094",
+                        "description": "The metabolism of Hesperetin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The metabolism of Leflunomide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The metabolism of Carvedilol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01191",
+                        "description": "The metabolism of Dexfenfluramine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01303",
+                        "description": "The metabolism of Oxtriphylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The metabolism of Rasagiline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01412",
+                        "description": "The metabolism of Theobromine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Aminophenazone can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The metabolism of Antipyrine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01482",
+                        "description": "The metabolism of Fenethylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "The metabolism of Bromazepam can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Etoricoxib can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Genistein can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01667",
+                        "description": "The metabolism of 8 azaguanine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB02134",
+                        "description": "The metabolism of Xanthine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB02489",
+                        "description": "The metabolism of 9 Methylguanine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB02568",
+                        "description": "The metabolism of Peldesine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The metabolism of Resveratrol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The metabolism of Phenacetin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB04076",
+                        "description": "The metabolism of Hypoxanthine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB04356",
+                        "description": "The metabolism of 9 Deazaguanine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The metabolism of Estrone sulfate can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Flunarizine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "The metabolism of Lorcaserin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB04889",
+                        "description": "The metabolism of Bicifadine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB04951",
+                        "description": "The metabolism of Pirfenidone can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Apremilast can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB05708",
+                        "description": "The metabolism of GTS 21 can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The metabolism of Mianserin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06235",
+                        "description": "The metabolism of Vadimezan can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The metabolism of Dapagliflozin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06479",
+                        "description": "The metabolism of Propentofylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "The metabolism of Agomelatine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Benzyl alcohol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Capsaicin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of R warfarin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Perampanel can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Stiripentol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "The metabolism of Zotepine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The metabolism of Doxofylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Propacetamol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09290",
+                        "description": "The metabolism of Ramosetron can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Istradefylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB11919",
+                        "description": "The metabolism of 6 O benzylguanine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The metabolism of Binimetinib can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12406",
+                        "description": "The metabolism of Lisofylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12531",
+                        "description": "The metabolism of Lobucavir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12926",
+                        "description": "The metabolism of Cafedrine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The metabolism of Theodrenaline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "The metabolism of Dihydralazine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13203",
+                        "description": "The metabolism of Bamifylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13449",
+                        "description": "The metabolism of Proxyphylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13573",
+                        "description": "The metabolism of Acefylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13592",
+                        "description": "The metabolism of Etamiphylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13634",
+                        "description": "The metabolism of Pentifylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13812",
+                        "description": "The metabolism of Bufylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Estradiol acetate can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Estradiol dienanthate can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB14018",
+                        "description": "The metabolism of Bromotheophylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB14132",
+                        "description": "The metabolism of 8 chlorotheophylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Ethinylestradiol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Mephenytoin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "The metabolism of Cyclobenzaprine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The metabolism of Selumetinib can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00299",
+                        "description": "The metabolism of Penciclovir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Famotidine can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The metabolism of Imipramine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The metabolism of Fluorouracil can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The metabolism of Anagrelide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Famotidine can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Famotidine can be decreased when combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Warfarin can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Etoposide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "The metabolism of Dacarbazine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Acenocoumarol can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The metabolism of Bendamustine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Tegafur can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Clomipramine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "Famotidine can cause a decrease in the absorption of Fluconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "Famotidine can cause a decrease in the absorption of Voriconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01110",
+                        "description": "Famotidine can cause a decrease in the absorption of Miconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "Famotidine can cause a decrease in the absorption of Posaconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06395",
+                        "description": "Famotidine can cause a decrease in the absorption of Abafungin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06440",
+                        "description": "Famotidine can cause a decrease in the absorption of Ravuconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "Famotidine can cause a decrease in the absorption of Isavuconazonium resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "Famotidine can cause a decrease in the absorption of Isavuconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12073",
+                        "description": "Famotidine can cause a decrease in the absorption of Albaconazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04794",
+                        "description": "Famotidine can cause a decrease in the absorption of Bifonazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "Famotidine can cause a decrease in the absorption of Ritonavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "Famotidine can cause a decrease in the absorption of Tipranavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "Famotidine can cause a decrease in the absorption of Darunavir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "Famotidine can cause a decrease in the absorption of Asunaprevir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB15623",
+                        "description": "Famotidine can cause a decrease in the absorption of TMC 310911 resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06817",
+                        "description": "Famotidine can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The serum concentration of Dofetilide can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The serum concentration of Procainamide can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "The serum concentration of Cisplatin can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The serum concentration of Oxaliplatin can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB06637",
+                        "description": "The serum concentration of Dalfampridine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The serum concentration of Clofarabine can be increased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The absorption of Palbociclib can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trazodone is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "Famotidine may increase the QTc prolonging activities of Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "Lefamulin may increase the QTc prolonging activities of Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "Famotidine can cause a decrease in the absorption of Budesonide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxyzine is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The serum concentration of Famotidine can be increased when it is combined with Nortriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB15685",
+                        "description": "The serum concentration of Selpercatinib can be decreased when it is combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Fluoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "Octreotide can cause a decrease in the absorption of Famotidine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

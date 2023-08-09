@@ -1,0 +1,541 @@
+{
+    "medicine_id": "8d2fb17c159d3b3487c476937f60f00647df6d64",
+    "platform_id": "DB13615",
+    "metadata": {
+        "name": "Mepact 4 mg Injection solution concentrate",
+        "composition": "4 mg Mifamurtide",
+        "clinical_particulars": {
+            "therapeutic_indications": "Indicated in children adolescents and young adults for the treatment of high grade resectable non metastatic osteosarcoma after macroscopically complete surgical resection typically in combination with post operative multi agent chemotherapy L1203",
+            "contraindications": {
+                "disease": "There have been no reports of overdose with mifamurtide Signs and symptoms that were associated with higher doses and or were dose limiting were not life threatening and included fever chills fatigue nausea vomiting headache and hypotension or hypertension L1203 In cases of suspected overdose appropriate supportive care is recommended Gastrointestinal toxicity associated with nausea vomiting and loss of apetite from mifamurtide therapy is commonly observed Mifamurtide was not mutagenic and did not cause teratogenic effects in rats and rabbits Embryotoxic effects were observed only at maternal toxic levels There is no evidence of mifamurtide generating harmful effects on male or female reproductive organs Studies assessing reproductive function perinatal toxicity and carcinogenicity have not been performed L1203",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Mifamurtide stimulates the innate immunity by activating monocytes and macrophages Within hours following administration of mifamurtide in healthy adults or patients with osteosarcoma NOS elevated plasma levels of proinflammatory molecules such as TNF \u03b1 IL 6 and IL 1\u03b2 and other indicators of immune stimulation like C reactive protein and neopterine were observed A31745 _In vivo_ administration of mifamurtide in rat and mouse model resulted in inhibition of tumour growth of lung metastasis skin and liver cancer and fibrosarcoma L1203 In addition increased disease free survival rate was demonstrated when mifamurtide was given as an adjuvant in dog models of osteosarcoma and hemangiosarcoma Administration of mifamurtide was associated with transient neutropenia usually when used in conjunction with chemotherapy Pronounced inflammatory responses are uncommon L1203",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB11693",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Voclosporin"
+                    },
+                    {
+                        "drugbank-id": "DB00159",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Icosapent"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Mesalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Nabumetone"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Ketorolac"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Tenoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Celecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00500",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Tolmetin"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Rofecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00573",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Fenoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Valdecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00605",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Sulindac"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Flurbiprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Etodolac"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Mefenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Naproxen"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Sulfasalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Meloxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00821",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Carprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Diflunisal"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00939",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Meclofenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00991",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Oxaprozin"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Balsalazide"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Olsalazine"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Lumiracoxib"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Magnesium salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01399",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Salsalate"
+                    },
+                    {
+                        "drugbank-id": "DB01401",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Choline magnesium trisalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01419",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Antrafenine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Aminophenazone"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Antipyrine"
+                    },
+                    {
+                        "drugbank-id": "DB01600",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Tiaprofenic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB02224",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Taxifolin"
+                    },
+                    {
+                        "drugbank-id": "DB03585",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Oxyphenbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB04725",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Licofelone"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Nimesulide"
+                    },
+                    {
+                        "drugbank-id": "DB04812",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Benoxaprofen"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Metamizole"
+                    },
+                    {
+                        "drugbank-id": "DB04828",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Zomepirac"
+                    },
+                    {
+                        "drugbank-id": "DB05095",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Cimicoxib"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Lornoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB06736",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Aceclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Zaltoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB07402",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Azapropazone"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Parecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB08797",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Salicylamide"
+                    },
+                    {
+                        "drugbank-id": "DB08940",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Kebuzone"
+                    },
+                    {
+                        "drugbank-id": "DB08942",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Isoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB08951",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Indoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB08955",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Ibuproxam"
+                    },
+                    {
+                        "drugbank-id": "DB08976",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Floctafenine"
+                    },
+                    {
+                        "drugbank-id": "DB08981",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Fenbufen"
+                    },
+                    {
+                        "drugbank-id": "DB08984",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Etofenamate"
+                    },
+                    {
+                        "drugbank-id": "DB08991",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Epirizole"
+                    },
+                    {
+                        "drugbank-id": "DB09084",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Benzydamine"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Dexibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09214",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Dexketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09215",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Droxicam"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Tolfenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09217",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Firocoxib"
+                    },
+                    {
+                        "drugbank-id": "DB09218",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Clonixin"
+                    },
+                    {
+                        "drugbank-id": "DB09285",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Morniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Propacetamol"
+                    },
+                    {
+                        "drugbank-id": "DB09295",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Talniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB11455",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Robenacoxib"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Tepoxalin"
+                    },
+                    {
+                        "drugbank-id": "DB11518",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Flunixin"
+                    },
+                    {
+                        "drugbank-id": "DB12399",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Polmacoxib"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Nitroaspirin"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Indobufen"
+                    },
+                    {
+                        "drugbank-id": "DB12610",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Ebselen"
+                    },
+                    {
+                        "drugbank-id": "DB13001",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Tinoridine"
+                    },
+                    {
+                        "drugbank-id": "DB13167",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Alclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB13217",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Fentiazac"
+                    },
+                    {
+                        "drugbank-id": "DB13232",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Suxibuzone"
+                    },
+                    {
+                        "drugbank-id": "DB13286",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Bumadizone"
+                    },
+                    {
+                        "drugbank-id": "DB13314",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Alminoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13371",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Difenpiramide"
+                    },
+                    {
+                        "drugbank-id": "DB13407",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Nifenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13432",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Lonazolac"
+                    },
+                    {
+                        "drugbank-id": "DB13481",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Tenidap"
+                    },
+                    {
+                        "drugbank-id": "DB13524",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Propyphenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13527",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Proglumetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Guacetisal"
+                    },
+                    {
+                        "drugbank-id": "DB13544",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Ethenzamide"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Carbaspirin calcium"
+                    },
+                    {
+                        "drugbank-id": "DB13629",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Mofebutazone"
+                    },
+                    {
+                        "drugbank-id": "DB13649",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Proquazone"
+                    },
+                    {
+                        "drugbank-id": "DB13657",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Benorilate"
+                    },
+                    {
+                        "drugbank-id": "DB13722",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Pirprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Acemetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13860",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Imidazole salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB14059",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with SC 236"
+                    },
+                    {
+                        "drugbank-id": "DB14060",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with NS 398"
+                    },
+                    {
+                        "drugbank-id": "DB14938",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Flurbiprofen axetil"
+                    },
+                    {
+                        "drugbank-id": "DB09212",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Loxoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Flunisolide"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Betamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Triamcinolone"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Prednisone"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Fludrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Hydrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Prednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Methylprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Trilostane"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Budesonide"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Dexamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Corticotropin"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Cortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Paramethasone"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Aldosterone"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Fluprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Meprednisone"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Melengestrol"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Deflazacort"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Cortivazol"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Prednylidene"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Cloprednol"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The therapeutic efficacy of Mifamurtide can be decreased when used in combination with Cortisone"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

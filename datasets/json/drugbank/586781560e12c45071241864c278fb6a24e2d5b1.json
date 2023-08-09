@@ -1,0 +1,2881 @@
+{
+    "medicine_id": "586781560e12c45071241864c278fb6a24e2d5b1",
+    "platform_id": "DB00830",
+    "metadata": {
+        "name": "Bio diazepam 10 MG 2ML Injection solution",
+        "composition": "10 MG 2ML Phenmetrazine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Used as an anorectic in the treatment of obesity",
+            "contraindications": {
+                "disease": "Adult monkeys have an LD sub 50 sub of 15 to 20 mg kg whereas for young monkeys the LD sub 50 sub is only 5 mg kg Symptoms of overdose include acute central nervous system stimulation cardiotoxicity causing tachycardia arrhythmias hypertension and cardiovascular collapse Whilst some patients show signs of toxicity at blood concentrations of 20 micro g L chronic abusers of amphetamine have been known to have blood concentration of up to 3000 micro g L",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Phenmetrazine is a sympathomimetic drug used primarily as an appetite depressant Its actions and mechanisms are similar to dextroamphetamine Amphetamines are non catecholamine sympathomimetic amines with CNS stimulant activity Phenmetrazine was originally sold under the tradename Preludin as an anorectic It has since been removed from the market It is by some considered to have a greater potential for addiction than the amphetamines and has been abused in many countries for example Sweden",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Ramipril"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Esmolol"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00212",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Remikiren"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00226",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Guanadrel"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Metoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Isradipine"
+                    },
+                    {
+                        "drugbank-id": "DB00275",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Olmesartan"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Chlorthalidone"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nitroprusside"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Atenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00350",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Minoxidil"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Timolol"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Treprostinil"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Amlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nimodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nisoldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Prazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Fosinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Trandolapril"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Lercanidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Benazepril"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Doxazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00616",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Candoxatril"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Losartan"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Moexipril"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Eplerenone"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Lisinopril"
+                    },
+                    {
+                        "drugbank-id": "DB00727",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nitroglycerin"
+                    },
+                    {
+                        "drugbank-id": "DB00765",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Metyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00785",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Cryptenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Perindopril"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Candesartan cilexetil"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Fenoldopam"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Tadalafil"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Eprosartan"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Quinapril"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Telmisartan"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Felodipine"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nitrendipine"
+                    },
+                    {
+                        "drugbank-id": "DB01089",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Deserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Diazoxide"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01162",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Terazosin"
+                    },
+                    {
+                        "drugbank-id": "DB01170",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Guanethidine"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Captopril"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nadolol"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Practolol"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Cilazapril"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Saprisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Spirapril"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Tienilic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Debrisoquine"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Ambrisentan"
+                    },
+                    {
+                        "drugbank-id": "DB06445",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Diethylnorspermine"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB06762",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Pinacidil"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Temocapril"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Riociguat"
+                    },
+                    {
+                        "drugbank-id": "DB08932",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Macitentan"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB09026",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Aliskiren"
+                    },
+                    {
+                        "drugbank-id": "DB09206",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Trimazosin"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Nicorandil"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09363",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Rauwolfia serpentina root"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Enalaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Selexipag"
+                    },
+                    {
+                        "drugbank-id": "DB11720",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Angiotensin 1 7"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Imidapril"
+                    },
+                    {
+                        "drugbank-id": "DB12054",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of BQ 123"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Zofenopril"
+                    },
+                    {
+                        "drugbank-id": "DB13211",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Guanoxan"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Delapril"
+                    },
+                    {
+                        "drugbank-id": "DB13374",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Vincamine"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Linsidomine"
+                    },
+                    {
+                        "drugbank-id": "DB13410",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Guanoxabenz"
+                    },
+                    {
+                        "drugbank-id": "DB13429",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Tolonidine"
+                    },
+                    {
+                        "drugbank-id": "DB13435",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Endralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13452",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Cadralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13575",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Bietaserpine"
+                    },
+                    {
+                        "drugbank-id": "DB13604",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Guanazodine"
+                    },
+                    {
+                        "drugbank-id": "DB13631",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Methoserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB13779",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Guanoclor"
+                    },
+                    {
+                        "drugbank-id": "DB13801",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Muzolimine"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Benazeprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Ramiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Perindoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Quinaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "Phenmetrazine may decrease the antihypertensive activities of Levamlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The risk or severity of hypertension can be increased when Atomoxetine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "The risk or severity of hypertension can be increased when Linezolid is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00035",
+                        "description": "The risk or severity of hypertension can be increased when Desmopressin is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of hypertension can be increased when Cyclosporine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00159",
+                        "description": "The risk or severity of hypertension can be increased when Icosapent is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00216",
+                        "description": "The risk or severity of hypertension can be increased when Eletriptan is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "The risk or severity of hypertension can be increased when Bethanidine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00221",
+                        "description": "The risk or severity of hypertension can be increased when Isoetharine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "The risk or severity of hypertension can be increased when Mesalazine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of hypertension can be increased when Ziprasidone is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "The risk or severity of hypertension can be increased when Methysergide is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The risk or severity of hypertension can be increased when Cabergoline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00292",
+                        "description": "The risk or severity of hypertension can be increased when Etomidate is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The risk or severity of hypertension can be increased when Zolmitriptan is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The risk or severity of hypertension can be increased when Dihydroergotamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of hypertension can be increased when Amitriptyline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The risk or severity of hypertension can be increased when Indomethacin is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of hypertension can be increased when Protriptyline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00353",
+                        "description": "The risk or severity of hypertension can be increased when Methylergometrine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of hypertension can be increased when Clozapine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of hypertension can be increased when Mirtazapine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of hypertension can be increased when Promazine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00422",
+                        "description": "The risk or severity of hypertension can be increased when Methylphenidate is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of hypertension can be increased when Droperidol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of hypertension can be increased when Imipramine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The risk or severity of hypertension can be increased when Nabumetone is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The risk or severity of hypertension can be increased when Ketorolac is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The risk or severity of hypertension can be increased when Tenoxicam is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of hypertension can be increased when Chlorpromazine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The risk or severity of hypertension can be increased when Celecoxib is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00490",
+                        "description": "The risk or severity of hypertension can be increased when Buspirone is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00500",
+                        "description": "The risk or severity of hypertension can be increased when Tolmetin is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The risk or severity of hypertension can be increased when Rofecoxib is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The risk or severity of hypertension can be increased when Nortriptyline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of hypertension can be increased when Amoxapine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The risk or severity of hypertension can be increased when Piroxicam is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00561",
+                        "description": "The risk or severity of hypertension can be increased when Doxapram is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of hypertension can be increased when Atropine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00573",
+                        "description": "The risk or severity of hypertension can be increased when Fenoprofen is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The risk or severity of hypertension can be increased when Clonidine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The risk or severity of hypertension can be increased when Valdecoxib is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The risk or severity of hypertension can be increased when Diclofenac is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00589",
+                        "description": "The risk or severity of hypertension can be increased when Lisuride is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00605",
+                        "description": "The risk or severity of hypertension can be increased when Sulindac is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "The risk or severity of hypertension can be increased when Furazolidone is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The risk or severity of hypertension can be increased when Guanabenz is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The risk or severity of hypertension can be increased when Dexmedetomidine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of hypertension can be increased when Trazodone is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "The risk or severity of hypertension can be increased when Sumatriptan is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of hypertension can be increased when Thioridazine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00692",
+                        "description": "The risk or severity of hypertension can be increased when Phentolamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "The risk or severity of hypertension can be increased when Ergotamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00699",
+                        "description": "The risk or severity of hypertension can be increased when Nicergoline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "The risk or severity of hypertension can be increased when Sufentanil is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The risk or severity of hypertension can be increased when Flurbiprofen is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The risk or severity of hypertension can be increased when Trimipramine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The risk or severity of hypertension can be increased when Risperidone is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The risk or severity of hypertension can be increased when Etodolac is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The risk or severity of hypertension can be increased when Tranylcypromine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of hypertension can be increased when Isoflurane is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00777",
+                        "description": "The risk or severity of hypertension can be increased when Propiomazine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The risk or severity of hypertension can be increased when Phenelzine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The risk or severity of hypertension can be increased when Mefenamic acid is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The risk or severity of hypertension can be increased when Naproxen is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The risk or severity of hypertension can be increased when Sulfasalazine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00797",
+                        "description": "The risk or severity of hypertension can be increased when Tolazoline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "The risk or severity of hypertension can be increased when Alfentanil is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "The risk or severity of hypertension can be increased when Minaprine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The risk or severity of hypertension can be increased when Phenylbutazone is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The risk or severity of hypertension can be increased when Fentanyl is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "The risk or severity of hypertension can be increased when Meloxicam is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of hypertension can be increased when Propofol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00821",
+                        "description": "The risk or severity of hypertension can be increased when Carprofen is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Diflunisal"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Omapatrilat"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Remifentanil"
+                    },
+                    {
+                        "drugbank-id": "DB00901",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Bitolterol"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Almotriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00925",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Phenoxybenzamine"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB00939",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Meclofenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00952",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Naratriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00953",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Rizatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Formoterol"
+                    },
+                    {
+                        "drugbank-id": "DB00991",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Oxaprozin"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Frovatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Salbutamol"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Balsalazide"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Methoxyflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Selegiline"
+                    },
+                    {
+                        "drugbank-id": "DB01049",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ergoloid mesylate"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01102",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Arbutamine"
+                    },
+                    {
+                        "drugbank-id": "DB01126",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dutasteride"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Halothane"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Moclobemide"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Rescinnamine"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01186",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Pergolide"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Desflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01216",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Finasteride"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Isocarboxazid"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Olsalazine"
+                    },
+                    {
+                        "drugbank-id": "DB01253",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ergometrine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Arformoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Lumiracoxib"
+                    },
+                    {
+                        "drugbank-id": "DB01291",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Pirbuterol"
+                    },
+                    {
+                        "drugbank-id": "DB01363",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ephedra sinica root"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Rasagiline"
+                    },
+                    {
+                        "drugbank-id": "DB01392",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Yohimbine"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Magnesium salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01399",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Salsalate"
+                    },
+                    {
+                        "drugbank-id": "DB01401",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Choline magnesium trisalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01408",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Bambuterol"
+                    },
+                    {
+                        "drugbank-id": "DB01419",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Antrafenine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Aminophenazone"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Antipyrine"
+                    },
+                    {
+                        "drugbank-id": "DB01472",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with 4 Methoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01579",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Phendimetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Solifenacin"
+                    },
+                    {
+                        "drugbank-id": "DB01600",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Tiaprofenic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Pargyline"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB02032",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Epicaptopril"
+                    },
+                    {
+                        "drugbank-id": "DB02224",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Taxifolin"
+                    },
+                    {
+                        "drugbank-id": "DB03585",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Oxyphenbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB04017",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Clorgiline"
+                    },
+                    {
+                        "drugbank-id": "DB04581",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with 1 benzylimidazole"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Nimesulide"
+                    },
+                    {
+                        "drugbank-id": "DB04812",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Benoxaprofen"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Metamizole"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Iproniazid"
+                    },
+                    {
+                        "drugbank-id": "DB04820",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Nialamide"
+                    },
+                    {
+                        "drugbank-id": "DB04828",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Zomepirac"
+                    },
+                    {
+                        "drugbank-id": "DB04829",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Lysergic acid diethylamide"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Amineptine"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Indacaterol"
+                    },
+                    {
+                        "drugbank-id": "DB05095",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Cimicoxib"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Rotigotine"
+                    },
+                    {
+                        "drugbank-id": "DB05395",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Amibegron"
+                    },
+                    {
+                        "drugbank-id": "DB05562",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Naluzotan"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Cariprazine"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Mianserin"
+                    },
+                    {
+                        "drugbank-id": "DB06153",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Pizotifen"
+                    },
+                    {
+                        "drugbank-id": "DB06190",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Solabegron"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Safinamide"
+                    },
+                    {
+                        "drugbank-id": "DB06678",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Esmirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB06684",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Vilazodone"
+                    },
+                    {
+                        "drugbank-id": "DB06690",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Nitrous oxide"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Xylometazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06701",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dexmethylphenidate"
+                    },
+                    {
+                        "drugbank-id": "DB06706",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Isometheptene"
+                    },
+                    {
+                        "drugbank-id": "DB06711",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Naphazoline"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Lornoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB06736",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Aceclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Zaltoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB06763",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Saralasin"
+                    },
+                    {
+                        "drugbank-id": "DB07402",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Azapropazone"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Parecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB08797",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Salicylamide"
+                    },
+                    {
+                        "drugbank-id": "DB08810",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Cinitapride"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Mirabegron"
+                    },
+                    {
+                        "drugbank-id": "DB08925",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Adrafinil"
+                    },
+                    {
+                        "drugbank-id": "DB08940",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Kebuzone"
+                    },
+                    {
+                        "drugbank-id": "DB08942",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Isoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB08950",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Indoramin"
+                    },
+                    {
+                        "drugbank-id": "DB08951",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Indoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB08954",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ifenprodil"
+                    },
+                    {
+                        "drugbank-id": "DB08955",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ibuproxam"
+                    },
+                    {
+                        "drugbank-id": "DB08957",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Hexoprenaline"
+                    },
+                    {
+                        "drugbank-id": "DB08976",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Floctafenine"
+                    },
+                    {
+                        "drugbank-id": "DB08981",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Fenbufen"
+                    },
+                    {
+                        "drugbank-id": "DB08984",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Etofenamate"
+                    },
+                    {
+                        "drugbank-id": "DB08991",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Epirizole"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dimetacrine"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Vortioxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Olodaterol"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Vilanterol"
+                    },
+                    {
+                        "drugbank-id": "DB09084",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Benzydamine"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09202",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Cirazoline"
+                    },
+                    {
+                        "drugbank-id": "DB09205",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Moxisylyte"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dexibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09214",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dexketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09215",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Droxicam"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Tolfenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09217",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Firocoxib"
+                    },
+                    {
+                        "drugbank-id": "DB09218",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Clonixin"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB09242",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Moxonidine"
+                    },
+                    {
+                        "drugbank-id": "DB09243",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Hydracarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Pirlindole"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Toloxatone"
+                    },
+                    {
+                        "drugbank-id": "DB09246",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Benmoxin"
+                    },
+                    {
+                        "drugbank-id": "DB09248",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Mebanazine"
+                    },
+                    {
+                        "drugbank-id": "DB09249",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Octamoxin"
+                    },
+                    {
+                        "drugbank-id": "DB09250",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Pheniprazine"
+                    },
+                    {
+                        "drugbank-id": "DB09251",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Phenoxypropazine"
+                    },
+                    {
+                        "drugbank-id": "DB09252",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Pivhydrazine"
+                    },
+                    {
+                        "drugbank-id": "DB09253",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Safrazine"
+                    },
+                    {
+                        "drugbank-id": "DB09254",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Caroxazone"
+                    },
+                    {
+                        "drugbank-id": "DB09285",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Morniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Propacetamol"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB09295",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Talniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Oxaprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dihydroergocornine"
+                    },
+                    {
+                        "drugbank-id": "DB11278",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with DL Methylephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB11373",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Amitraz"
+                    },
+                    {
+                        "drugbank-id": "DB11428",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Medetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB11455",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Robenacoxib"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Tepoxalin"
+                    },
+                    {
+                        "drugbank-id": "DB11477",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Xylazine"
+                    },
+                    {
+                        "drugbank-id": "DB11481",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Atipamezole"
+                    },
+                    {
+                        "drugbank-id": "DB11518",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Flunixin"
+                    },
+                    {
+                        "drugbank-id": "DB11541",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ractopamine"
+                    },
+                    {
+                        "drugbank-id": "DB11543",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Romifidine"
+                    },
+                    {
+                        "drugbank-id": "DB11556",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Detomidine"
+                    },
+                    {
+                        "drugbank-id": "DB11587",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Etafedrine"
+                    },
+                    {
+                        "drugbank-id": "DB11738",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Rilmenidine"
+                    },
+                    {
+                        "drugbank-id": "DB11755",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Tetrahydrocannabivarin"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Anisodamine"
+                    },
+                    {
+                        "drugbank-id": "DB11871",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with PF 00610355"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12100",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Abediterol"
+                    },
+                    {
+                        "drugbank-id": "DB12248",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Tulobuterol"
+                    },
+                    {
+                        "drugbank-id": "DB12278",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Propiverine"
+                    },
+                    {
+                        "drugbank-id": "DB12313",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dopexamine"
+                    },
+                    {
+                        "drugbank-id": "DB12361",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Piclozotan"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Siponimod"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Nitroaspirin"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Indobufen"
+                    },
+                    {
+                        "drugbank-id": "DB12551",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Idazoxan"
+                    },
+                    {
+                        "drugbank-id": "DB12610",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ebselen"
+                    },
+                    {
+                        "drugbank-id": "DB12661",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Urapidil"
+                    },
+                    {
+                        "drugbank-id": "DB12779",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Higenamine"
+                    },
+                    {
+                        "drugbank-id": "DB12846",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Reproterol"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Opipramol"
+                    },
+                    {
+                        "drugbank-id": "DB13001",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Tinoridine"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Amitriptylinoxide"
+                    },
+                    {
+                        "drugbank-id": "DB13139",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Levosalbutamol"
+                    },
+                    {
+                        "drugbank-id": "DB13167",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Alclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB13217",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Fentiazac"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dibenzepin"
+                    },
+                    {
+                        "drugbank-id": "DB13232",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Suxibuzone"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Quinupramine"
+                    },
+                    {
+                        "drugbank-id": "DB13251",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Octopamine"
+                    },
+                    {
+                        "drugbank-id": "DB13286",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Bumadizone"
+                    },
+                    {
+                        "drugbank-id": "DB13314",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Alminoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13323",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Trichloroethylene"
+                    },
+                    {
+                        "drugbank-id": "DB13345",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dihydroergocristine"
+                    },
+                    {
+                        "drugbank-id": "DB13371",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Difenpiramide"
+                    },
+                    {
+                        "drugbank-id": "DB13378",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Norfenefrine"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Melitracen"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Dihydroergocryptine"
+                    },
+                    {
+                        "drugbank-id": "DB13398",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Oxyfedrine"
+                    },
+                    {
+                        "drugbank-id": "DB13399",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Terguride"
+                    },
+                    {
+                        "drugbank-id": "DB13407",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Nifenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Lofepramine"
+                    },
+                    {
+                        "drugbank-id": "DB13432",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Lonazolac"
+                    },
+                    {
+                        "drugbank-id": "DB13453",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Xenon"
+                    },
+                    {
+                        "drugbank-id": "DB13481",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Tenidap"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Iprindole"
+                    },
+                    {
+                        "drugbank-id": "DB13510",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Buflomedil"
+                    },
+                    {
+                        "drugbank-id": "DB13520",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Metergoline"
+                    },
+                    {
+                        "drugbank-id": "DB13524",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Propyphenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13527",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Proglumetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Guacetisal"
+                    },
+                    {
+                        "drugbank-id": "DB13544",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Ethenzamide"
+                    },
+                    {
+                        "drugbank-id": "DB13559",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Rimiterol"
+                    },
+                    {
+                        "drugbank-id": "DB13598",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Diethyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Carbaspirin calcium"
+                    },
+                    {
+                        "drugbank-id": "DB13629",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Mofebutazone"
+                    },
+                    {
+                        "drugbank-id": "DB13649",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Proquazone"
+                    },
+                    {
+                        "drugbank-id": "DB13657",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Benorilate"
+                    },
+                    {
+                        "drugbank-id": "DB13722",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Pirprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13781",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Xamoterol"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Imipramine oxide"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Acemetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13860",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Imidazole salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB13875",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Harmaline"
+                    },
+                    {
+                        "drugbank-id": "DB14010",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with 5 methoxy N N dimethyltryptamine"
+                    },
+                    {
+                        "drugbank-id": "DB14059",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with SC 236"
+                    },
+                    {
+                        "drugbank-id": "DB14060",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with NS 398"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB14231",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Quinoline Yellow WS"
+                    },
+                    {
+                        "drugbank-id": "DB15685",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Selpercatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09212",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Loxoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB15965",
+                        "description": "The risk or severity of hypertension can be increased when Phenmetrazine is combined with Naxitamab"
+                    },
+                    {
+                        "drugbank-id": "DB09042",
+                        "description": "Tedizolid phosphate may increase the hypertensive activities of Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00201",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Caffeine"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Theophylline"
+                    },
+                    {
+                        "drugbank-id": "DB00651",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Dyphylline"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Pentoxifylline"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Mercaptopurine"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Aminophylline"
+                    },
+                    {
+                        "drugbank-id": "DB01303",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Oxtriphylline"
+                    },
+                    {
+                        "drugbank-id": "DB01412",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Theobromine"
+                    },
+                    {
+                        "drugbank-id": "DB01482",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Fenethylline"
+                    },
+                    {
+                        "drugbank-id": "DB01667",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 8 azaguanine"
+                    },
+                    {
+                        "drugbank-id": "DB01978",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 7 9 Dimethylguanine"
+                    },
+                    {
+                        "drugbank-id": "DB02134",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Xanthine"
+                    },
+                    {
+                        "drugbank-id": "DB02245",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 7 Deazaguanine"
+                    },
+                    {
+                        "drugbank-id": "DB02377",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Guanine"
+                    },
+                    {
+                        "drugbank-id": "DB02489",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 9 Methylguanine"
+                    },
+                    {
+                        "drugbank-id": "DB02568",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Peldesine"
+                    },
+                    {
+                        "drugbank-id": "DB04076",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Hypoxanthine"
+                    },
+                    {
+                        "drugbank-id": "DB04356",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 9 Deazaguanine"
+                    },
+                    {
+                        "drugbank-id": "DB06479",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Propentofylline"
+                    },
+                    {
+                        "drugbank-id": "DB06575",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Valomaciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB07954",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 3 isobutyl 1 methyl 7H xanthine"
+                    },
+                    {
+                        "drugbank-id": "DB08844",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Uric acid"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Doxofylline"
+                    },
+                    {
+                        "drugbank-id": "DB11919",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 6 O benzylguanine"
+                    },
+                    {
+                        "drugbank-id": "DB12406",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Lisofylline"
+                    },
+                    {
+                        "drugbank-id": "DB12531",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Lobucavir"
+                    },
+                    {
+                        "drugbank-id": "DB12926",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Cafedrine"
+                    },
+                    {
+                        "drugbank-id": "DB13203",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Bamifylline"
+                    },
+                    {
+                        "drugbank-id": "DB13449",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Proxyphylline"
+                    },
+                    {
+                        "drugbank-id": "DB13573",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Acefylline"
+                    },
+                    {
+                        "drugbank-id": "DB13592",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Etamiphylline"
+                    },
+                    {
+                        "drugbank-id": "DB13634",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Pentifylline"
+                    },
+                    {
+                        "drugbank-id": "DB13812",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Bufylline"
+                    },
+                    {
+                        "drugbank-id": "DB14018",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Bromotheophylline"
+                    },
+                    {
+                        "drugbank-id": "DB14029",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Furafylline"
+                    },
+                    {
+                        "drugbank-id": "DB14132",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 8 chlorotheophylline"
+                    },
+                    {
+                        "drugbank-id": "DB15122",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with PCS 499"
+                    },
+                    {
+                        "drugbank-id": "DB06704",
+                        "description": "Phenmetrazine can cause a decrease in the absorption of Iobenguane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "The risk or severity of adverse effects can be increased when Amphetamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The risk or severity of adverse effects can be increased when Phentermine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00211",
+                        "description": "The risk or severity of adverse effects can be increased when Midodrine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "The risk or severity of adverse effects can be increased when Phenylephrine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00397",
+                        "description": "The risk or severity of adverse effects can be increased when Phenylpropanolamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The risk or severity of adverse effects can be increased when Labetalol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00610",
+                        "description": "The risk or severity of adverse effects can be increased when Metaraminol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00723",
+                        "description": "The risk or severity of adverse effects can be increased when Methoxamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00816",
+                        "description": "The risk or severity of adverse effects can be increased when Orciprenaline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00841",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Dobutamine"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Pseudoephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Benzphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00867",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Ritodrine"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Terbutaline"
+                    },
+                    {
+                        "drugbank-id": "DB00935",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Oxymetazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Diethylpropion"
+                    },
+                    {
+                        "drugbank-id": "DB00988",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Dopamine"
+                    },
+                    {
+                        "drugbank-id": "DB01064",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Isoprenaline"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Lisdexamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01288",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Fenoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01365",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Mephentermine"
+                    },
+                    {
+                        "drugbank-id": "DB01366",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Procaterol"
+                    },
+                    {
+                        "drugbank-id": "DB01407",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Clenbuterol"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with MMDA"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Midomafetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01467",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 2 5 Dimethoxy 4 ethylamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 4 Bromo 2 5 dimethoxyamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Tenamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01556",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Chlorphentermine"
+                    },
+                    {
+                        "drugbank-id": "DB01566",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Methylenedioxyethamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Dextroamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Metamfetamine"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Nylidrin"
+                    },
+                    {
+                        "drugbank-id": "DB06764",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Tetryzoline"
+                    },
+                    {
+                        "drugbank-id": "DB08841",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Tyramine"
+                    },
+                    {
+                        "drugbank-id": "DB08941",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Isoxsuprine"
+                    },
+                    {
+                        "drugbank-id": "DB08985",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Etilefrine"
+                    },
+                    {
+                        "drugbank-id": "DB09203",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Synephrine"
+                    },
+                    {
+                        "drugbank-id": "DB09480",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Iofetamine I 123"
+                    },
+                    {
+                        "drugbank-id": "DB12080",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Ritobegron"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Bucindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13064",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Tramazoline"
+                    },
+                    {
+                        "drugbank-id": "DB13108",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Mephedrone"
+                    },
+                    {
+                        "drugbank-id": "DB13341",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Fenozolone"
+                    },
+                    {
+                        "drugbank-id": "DB13624",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Methoxyphenamine"
+                    },
+                    {
+                        "drugbank-id": "DB13692",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Tretoquinol"
+                    },
+                    {
+                        "drugbank-id": "DB13703",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Gepefrine"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13777",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Prenalterol"
+                    },
+                    {
+                        "drugbank-id": "DB13852",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Mefenorex"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 2 5 Dimethoxy 4 ethylthioamphetamine"
+                    },
+                    {
+                        "drugbank-id": "DB00470",
+                        "description": "The risk or severity of Tachycardia can be increased when Dronabinol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The risk or severity of Tachycardia can be increased when Nabilone is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB05077",
+                        "description": "The risk or severity of Tachycardia can be increased when SLV319 is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB06155",
+                        "description": "The risk or severity of Tachycardia can be increased when Rimonabant is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB06624",
+                        "description": "The risk or severity of Tachycardia can be increased when Taranabant is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "The risk or severity of Tachycardia can be increased when Cannabidiol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB11903",
+                        "description": "The risk or severity of Tachycardia can be increased when GW842166 is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB12193",
+                        "description": "The risk or severity of Tachycardia can be increased when Ajulemic acid is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB12649",
+                        "description": "The risk or severity of Tachycardia can be increased when Ibipinabant is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13070",
+                        "description": "The risk or severity of Tachycardia can be increased when Surinabant is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The risk or severity of Tachycardia can be increased when WIN 55212 2 is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB14011",
+                        "description": "The risk or severity of Tachycardia can be increased when Nabiximols is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB14043",
+                        "description": "The risk or severity of Tachycardia can be increased when Palmidrol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB14737",
+                        "description": "The risk or severity of Tachycardia can be increased when Cannabinol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB01364",
+                        "description": "The therapeutic efficacy of Ephedrine can be increased when used in combination with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00368",
+                        "description": "The therapeutic efficacy of Phenmetrazine can be increased when used in combination with Norepinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The therapeutic efficacy of Phenmetrazine can be increased when used in combination with Epinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB06262",
+                        "description": "The therapeutic efficacy of Phenmetrazine can be increased when used in combination with Droxidopa"
+                    },
+                    {
+                        "drugbank-id": "DB06707",
+                        "description": "The therapeutic efficacy of Phenmetrazine can be increased when used in combination with Levonordefrin"
+                    },
+                    {
+                        "drugbank-id": "DB06814",
+                        "description": "The therapeutic efficacy of Phenmetrazine can be increased when used in combination with Protokylol"
+                    },
+                    {
+                        "drugbank-id": "DB11124",
+                        "description": "The therapeutic efficacy of Phenmetrazine can be increased when used in combination with Racepinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The therapeutic efficacy of Phenmetrazine can be increased when used in combination with Theodrenaline"
+                    },
+                    {
+                        "drugbank-id": "DB13917",
+                        "description": "The therapeutic efficacy of Phenmetrazine can be increased when used in combination with Deoxyepinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The risk or severity of Tachycardia can be increased when Nicotine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The risk or severity of Tachycardia can be increased when Tramadol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00209",
+                        "description": "The risk or severity of Tachycardia can be increased when Trospium is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00219",
+                        "description": "The risk or severity of Tachycardia can be increased when Oxyphenonium is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The risk or severity of Tachycardia can be increased when Benzatropine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The risk or severity of Tachycardia can be increased when Anagrelide is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of Tachycardia can be increased when Disopyramide is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of Tachycardia can be increased when Venlafaxine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00332",
+                        "description": "The risk or severity of Tachycardia can be increased when Ipratropium is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of Tachycardia can be increased when Olanzapine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00340",
+                        "description": "The risk or severity of Tachycardia can be increased when Metixene is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of Tachycardia can be increased when Buclizine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of Tachycardia can be increased when Doxylamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00376",
+                        "description": "The risk or severity of Tachycardia can be increased when Trihexyphenidyl is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00383",
+                        "description": "The risk or severity of Tachycardia can be increased when Oxyphencyclimine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00387",
+                        "description": "The risk or severity of Tachycardia can be increased when Procyclidine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00392",
+                        "description": "The risk or severity of Tachycardia can be increased when Profenamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "The risk or severity of Tachycardia can be increased when Hyoscyamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of Tachycardia can be increased when Cyproheptadine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00462",
+                        "description": "The risk or severity of Tachycardia can be increased when Methscopolamine bromide is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The risk or severity of Tachycardia can be increased when Duloxetine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00483",
+                        "description": "The risk or severity of Tachycardia can be increased when Gallamine triethiodide is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00496",
+                        "description": "The risk or severity of Tachycardia can be increased when Darifenacin is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00505",
+                        "description": "The risk or severity of Tachycardia can be increased when Tridihexethyl is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "The risk or severity of Tachycardia can be increased when Triflupromazine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00517",
+                        "description": "The risk or severity of Tachycardia can be increased when Anisotropine methylbromide is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of Tachycardia can be increased when Lamotrigine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "The risk or severity of Tachycardia can be increased when Adenosine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00670",
+                        "description": "The risk or severity of Tachycardia can be increased when Pirenzepine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The risk or severity of Tachycardia can be increased when Tizanidine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The risk or severity of Tachycardia can be increased when Paroxetine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00725",
+                        "description": "The risk or severity of Tachycardia can be increased when Homatropine methylbromide is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00728",
+                        "description": "The risk or severity of Tachycardia can be increased when Rocuronium is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00747",
+                        "description": "The risk or severity of Tachycardia can be increased when Scopolamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00767",
+                        "description": "The risk or severity of Tachycardia can be increased when Benzquinamide is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00771",
+                        "description": "The risk or severity of Tachycardia can be increased when Clidinium is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00782",
+                        "description": "The risk or severity of Tachycardia can be increased when Propantheline is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00804",
+                        "description": "The risk or severity of Tachycardia can be increased when Dicyclomine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00810",
+                        "description": "The risk or severity of Tachycardia can be increased when Biperiden is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Brompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Cocaine"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Methantheline"
+                    },
+                    {
+                        "drugbank-id": "DB00942",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Cycrimine"
+                    },
+                    {
+                        "drugbank-id": "DB00986",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Glycopyrronium"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Tolterodine"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Oxybutynin"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Diphenhydramine"
+                    },
+                    {
+                        "drugbank-id": "DB01105",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Sibutramine"
+                    },
+                    {
+                        "drugbank-id": "DB01148",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Flavoxate"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Cilostazol"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Ketamine"
+                    },
+                    {
+                        "drugbank-id": "DB01226",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Mivacurium"
+                    },
+                    {
+                        "drugbank-id": "DB01231",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Diphenidol"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01336",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Metocurine"
+                    },
+                    {
+                        "drugbank-id": "DB01337",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Pancuronium"
+                    },
+                    {
+                        "drugbank-id": "DB01338",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Pipecuronium"
+                    },
+                    {
+                        "drugbank-id": "DB01409",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Tiotropium"
+                    },
+                    {
+                        "drugbank-id": "DB01625",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Isopropamide"
+                    },
+                    {
+                        "drugbank-id": "DB04834",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Rapacuronium"
+                    },
+                    {
+                        "drugbank-id": "DB04843",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Mepenzolate"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Milnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Desvenlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB06702",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Fesoterodine"
+                    },
+                    {
+                        "drugbank-id": "DB06787",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Hexocyclium"
+                    },
+                    {
+                        "drugbank-id": "DB08801",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Dimetindene"
+                    },
+                    {
+                        "drugbank-id": "DB08897",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Aclidinium"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Levomilnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB08997",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Dexetimide"
+                    },
+                    {
+                        "drugbank-id": "DB09023",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Benactyzine"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Umeclidinium"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Trimebutine"
+                    },
+                    {
+                        "drugbank-id": "DB09262",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Imidafenacin"
+                    },
+                    {
+                        "drugbank-id": "DB09300",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Butylscopolamine"
+                    },
+                    {
+                        "drugbank-id": "DB11235",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Thonzylamine"
+                    },
+                    {
+                        "drugbank-id": "DB11315",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Methscopolamine"
+                    },
+                    {
+                        "drugbank-id": "DB12086",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Oxitropium"
+                    },
+                    {
+                        "drugbank-id": "DB12554",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Mebeverine"
+                    },
+                    {
+                        "drugbank-id": "DB13252",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Tropatepine"
+                    },
+                    {
+                        "drugbank-id": "DB13254",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Prifinium"
+                    },
+                    {
+                        "drugbank-id": "DB13351",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Piperidolate"
+                    },
+                    {
+                        "drugbank-id": "DB13369",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Benzilone"
+                    },
+                    {
+                        "drugbank-id": "DB13380",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Difemerine"
+                    },
+                    {
+                        "drugbank-id": "DB13413",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Phenglutarimide"
+                    },
+                    {
+                        "drugbank-id": "DB13448",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Mazaticol"
+                    },
+                    {
+                        "drugbank-id": "DB13468",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Etybenzatropine"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13505",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Emepronium"
+                    },
+                    {
+                        "drugbank-id": "DB13507",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Poldine"
+                    },
+                    {
+                        "drugbank-id": "DB13542",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Bevonium"
+                    },
+                    {
+                        "drugbank-id": "DB13581",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Rociverine"
+                    },
+                    {
+                        "drugbank-id": "DB13619",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Bornaprine"
+                    },
+                    {
+                        "drugbank-id": "DB13636",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Etanautine"
+                    },
+                    {
+                        "drugbank-id": "DB13666",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Tiemonium iodide"
+                    },
+                    {
+                        "drugbank-id": "DB13678",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Dihexyverine"
+                    },
+                    {
+                        "drugbank-id": "DB13695",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Penthienate"
+                    },
+                    {
+                        "drugbank-id": "DB13720",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Diphemanil"
+                    },
+                    {
+                        "drugbank-id": "DB13738",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Camylofin"
+                    },
+                    {
+                        "drugbank-id": "DB13759",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Fenpiverinium"
+                    },
+                    {
+                        "drugbank-id": "DB13769",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Emetonium iodide"
+                    },
+                    {
+                        "drugbank-id": "DB13844",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Pipenzolate"
+                    },
+                    {
+                        "drugbank-id": "DB13850",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Timepidium"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Medical Cannabis"
+                    },
+                    {
+                        "drugbank-id": "DB09007",
+                        "description": "The risk or severity of Tachycardia can be increased when Phenmetrazine is combined with Chlorphenoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00017",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Salmon calcitonin"
+                    },
+                    {
+                        "drugbank-id": "DB00024",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Thyrotropin alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00066",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Follitropin"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Liothyronine"
+                    },
+                    {
+                        "drugbank-id": "DB00389",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Carbimazole"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Levothyroxine"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Propylthiouracil"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Methimazole"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Liotrix"
+                    },
+                    {
+                        "drugbank-id": "DB03374",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 3 5 Diiodotyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB03604",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Tiratricol"
+                    },
+                    {
+                        "drugbank-id": "DB05084",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Abaloparatide"
+                    },
+                    {
+                        "drugbank-id": "DB05829",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Parathyroid hormone"
+                    },
+                    {
+                        "drugbank-id": "DB06285",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Teriparatide"
+                    },
+                    {
+                        "drugbank-id": "DB06715",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Potassium Iodide"
+                    },
+                    {
+                        "drugbank-id": "DB07637",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Dibromotyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB09100",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Thyroid porcine"
+                    },
+                    {
+                        "drugbank-id": "DB09418",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Potassium perchlorate"
+                    },
+                    {
+                        "drugbank-id": "DB09421",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Protirelin"
+                    },
+                    {
+                        "drugbank-id": "DB12629",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with 3 5 diiodothyropropionic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13644",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Methylthiouracil"
+                    },
+                    {
+                        "drugbank-id": "DB13742",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Elcatonin"
+                    },
+                    {
+                        "drugbank-id": "DB13804",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Benzylthiouracil"
+                    },
+                    {
+                        "drugbank-id": "DB15263",
+                        "description": "The risk or severity of adverse effects can be increased when Phenmetrazine is combined with Thyrotropin"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "The risk or severity of hypertension can be increased when Esketamine is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB14754",
+                        "description": "The risk or severity of hypertension can be increased when Solriamfetol is combined with Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "Testosterone undecanoate may increase the hypertensive activities of Phenmetrazine"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The therapeutic efficacy of Glyburide can be decreased when used in combination with Phenmetrazine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

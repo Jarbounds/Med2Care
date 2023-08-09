@@ -1,0 +1,949 @@
+{
+    "medicine_id": "7844d66a887794b0c797a17f8a4bf091689f95bc",
+    "platform_id": "DB06817",
+    "metadata": {
+        "name": "Dutrebis 150 MG Tablet film coated",
+        "composition": "150 MG Raltegravir",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of HIV 1 infection in conjunction with other antiretrovirals",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Pravastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Simvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Atorvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Rosuvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB06693",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Mevastatin"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The risk or severity of myopathy and rhabdomyolysis can be increased when Raltegravir is combined with Pitavastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "Pantoprazole can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "Omeprazole can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "Lansoprazole can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "Esomeprazole can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "Rabeprazole can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB05351",
+                        "description": "Dexlansoprazole can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13762",
+                        "description": "Dexrabeprazole can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB11964",
+                        "description": "Ilaprazole can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00615",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Rifabutin"
+                    },
+                    {
+                        "drugbank-id": "DB00364",
+                        "description": "Sucralfate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00516",
+                        "description": "Bentoquatam can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "Magnesium sulfate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "Magnesium salicylate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01575",
+                        "description": "Kaolin can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01593",
+                        "description": "Zinc can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB02165",
+                        "description": "Zinc trihydroxide can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04249",
+                        "description": "Zinc Substituted Heme C can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09087",
+                        "description": "Potassium alum can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09221",
+                        "description": "Polaprezinc can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09321",
+                        "description": "Zinc oxide can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09322",
+                        "description": "Zinc sulfate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09407",
+                        "description": "Magnesium chloride can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11081",
+                        "description": "Aluminum chloride can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11110",
+                        "description": "Magnesium citrate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "Zinc citrate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11175",
+                        "description": "Zinc picolinate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11239",
+                        "description": "Aluminum sulfate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11248",
+                        "description": "Zinc gluconate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11306",
+                        "description": "Bentonite can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13359",
+                        "description": "Magnesium aspartate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13654",
+                        "description": "Montmorillonite can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13749",
+                        "description": "Magnesium gluconate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13786",
+                        "description": "Magnesium orotate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14479",
+                        "description": "Acetylcysteine zinc can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14485",
+                        "description": "Zinc ascorbate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14487",
+                        "description": "Zinc acetate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14493",
+                        "description": "Zinc glycinate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "Magnesium can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14514",
+                        "description": "Magnesium levulinate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14515",
+                        "description": "Magnesium lactate can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14533",
+                        "description": "Zinc chloride can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14548",
+                        "description": "Zinc sulfate unspecified form can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14532",
+                        "description": "Zinc cation can cause a decrease in the absorption of Raltegravir resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Desogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Lamotrigine"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Carbamazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01420",
+                        "description": "The metabolism of Raltegravir can be increased when combined with Testosterone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Amprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01319",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Magnesium oxide"
+                    },
+                    {
+                        "drugbank-id": "DB01390",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Sodium bicarbonate"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Aluminum hydroxide"
+                    },
+                    {
+                        "drugbank-id": "DB06724",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Calcium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Magaldrate"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Magnesium hydroxide"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Magnesium trisilicate"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Magnesium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Bismuth subnitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Magnesium silicate"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Aluminium acetoacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Hydrotalcite"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Magnesium peroxide"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Almasilate"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Aluminium glycinate"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Aloglutamol"
+                    },
+                    {
+                        "drugbank-id": "DB13829",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Calcium silicate"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Aluminium phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Leuprolide is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00052",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Somatotropin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Infliximab is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00080",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Daptomycin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Cyclosporine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Baclofen is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Sildenafil is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Cladribine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00282",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Pamidronic acid is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Mefloquine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Tacrine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00389",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Carbimazole is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Trimethoprim is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Betamethasone is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00471",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Montelukast is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Lercanidipine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ciprofloxacin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Vincristine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Propylthiouracil is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Methotrexate is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Enalapril is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ivermectin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Chloroquine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Triamcinolone is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00627",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Niacin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00630",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Alendronic acid is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00636",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Clofibrate is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Stavudine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00666",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Nafarelin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Amphotericin B is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Mycophenolate mofetil is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00704",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Naltrexone is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ibandronate is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Terbinafine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Penicillamine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Tacrolimus is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Eprosartan is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00884",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Risedronic acid is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Bumetanide is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00897",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Triazolam is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ethanol is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Salmeterol is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Isoniazid is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Methyldopa is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00982",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Isotretinoin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00987",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Cytarabine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ganciclovir is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01006",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Letrozole is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Sulfamethoxazole is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Minocycline is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Procainamide is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Fenofibrate is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Norfloxacin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Iloprost is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Leflunomide is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Amiodarone is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Ofloxacin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Procarbazine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Captopril is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Paclitaxel is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Saquinavir is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Metoclopramide is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Dexamethasone is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Docetaxel is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Bezafibrate is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Colchicine is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Fusidic acid is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Trabectedin is combined with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB08983",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Etofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB09055",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Acipimox"
+                    },
+                    {
+                        "drugbank-id": "DB09064",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Ciprofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB09270",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Ubidecarenone"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB12554",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Mebeverine"
+                    },
+                    {
+                        "drugbank-id": "DB13293",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Ipecac"
+                    },
+                    {
+                        "drugbank-id": "DB13393",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Emetine"
+                    },
+                    {
+                        "drugbank-id": "DB13433",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Simfibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13460",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Ronifibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13780",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Aluminium clofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB13849",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Clofibride"
+                    },
+                    {
+                        "drugbank-id": "DB13873",
+                        "description": "The risk or severity of myopathy rhabdomyolysis and myoglobinuria can be increased when Raltegravir is combined with Fenofibric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00173",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Adenine"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Erlotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Flurbiprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB01544",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Flunitrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Dasabuvir"
+                    },
+                    {
+                        "drugbank-id": "DB09276",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Sodium aurothiomalate"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Ombitasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Paritaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Silibinin"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Ertugliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Dacomitinib"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Pibrentasvir"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Glecaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The metabolism of Raltegravir can be decreased when combined with Pexidartinib"
+                    },
+                    {
+                        "drugbank-id": "DB10317",
+                        "description": "The therapeutic efficacy of Rubella virus vaccine can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB10343",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain tice live antigen can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB10804",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain connaught live antigen can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB10805",
+                        "description": "The therapeutic efficacy of Yellow Fever Vaccine can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB11003",
+                        "description": "The therapeutic efficacy of Anthrax vaccine can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB11050",
+                        "description": "The therapeutic efficacy of Typhoid Vaccine Live can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB12386",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain danish 1331 live antigen can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB14409",
+                        "description": "The therapeutic efficacy of Human adenovirus e serotype 4 strain cl 68578 antigen can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB14685",
+                        "description": "The therapeutic efficacy of Adenovirus type 7 vaccine live can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB10318",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Live attenuated can be decreased when used in combination with Raltegravir"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "Cimetidine can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "Nizatidine can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "Ranitidine can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "Famotidine can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "Methantheline can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB08805",
+                        "description": "Metiamide can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB08806",
+                        "description": "Roxatidine acetate can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB12770",
+                        "description": "Lafutidine can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB12884",
+                        "description": "Lavoltidine can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13760",
+                        "description": "Niperotidine can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB15246",
+                        "description": "Salvianolic acid A can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB14048",
+                        "description": "Sodium zirconium cyclosilicate can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB01370",
+                        "description": "Aluminium can cause an increase in the absorption of Raltegravir resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB01378",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Magnesium cation"
+                    },
+                    {
+                        "drugbank-id": "DB11093",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Calcium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11135",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Selenium"
+                    },
+                    {
+                        "drugbank-id": "DB13257",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Ferrous sulfate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13949",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Ferric cation"
+                    },
+                    {
+                        "drugbank-id": "DB14488",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Ferrous gluconate"
+                    },
+                    {
+                        "drugbank-id": "DB14490",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Ferrous ascorbate"
+                    },
+                    {
+                        "drugbank-id": "DB14577",
+                        "description": "The serum concentration of Raltegravir can be decreased when it is combined with Calcium cation"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "medicine_id": "e1a0662beda3fe967f732c9c09e3e44e4cb78cfd",
+    "platform_id": "DB05306",
+    "metadata": {
+        "name": "Caprelsa 300 mg Tablet film coated",
+        "composition": "300 mg Alferminogene tadenovec",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in angina coronary artery disease and heart disease",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Alferminogene tadenovec can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Alferminogene tadenovec may increase the vasodilatory activities of Isosorbide mononitrate"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

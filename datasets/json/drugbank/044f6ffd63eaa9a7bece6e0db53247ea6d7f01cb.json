@@ -1,0 +1,2493 @@
+{
+    "medicine_id": "044f6ffd63eaa9a7bece6e0db53247ea6d7f01cb",
+    "platform_id": "DB00539",
+    "metadata": {
+        "name": "Fareston 60 mg Tablet",
+        "composition": "60 mg Toremifene",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of metastatic breast cancer in postmenopausal women with estrogen receptor positive or receptor unknown tumors Toremifene is currently under investigation as a preventative agent for prostate cancer in men with high grade prostatic intraepithelial neoplasia and no evidence of prostate cancer",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Toremifene is an antineoplastic hormonal agent primarily used in the treatment of advanced breast cancer Toremifene is a nonsteroidal agent that has demonstrated potent antiestrogenic properties in animal test systems The antiestrogenic effects may be related to its ability to compete with estrogen for binding sites in target tissues such as breast Toremifene inhibits the induction of rat mammary carcinoma induced by dimethylbenzanthracene DMBA and causes the regression of already established DMBA induced tumors In this rat model Toremifene appears to exert its antitumor effects by binding the estrogen receptors In cytosols derived from human breast adenocarcinomas Toremifene competes with estradiol for estrogen receptor protein",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00012",
+                        "description": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00016",
+                        "description": "The risk or severity of Thrombosis can be increased when Erythropoietin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "The risk or severity of Thrombosis can be increased when Peginesatide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09107",
+                        "description": "The risk or severity of Thrombosis can be increased when Methoxy polyethylene glycol epoetin beta is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08916",
+                        "description": "The serum concentration of Afatinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The serum concentration of Bosutinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The serum concentration of Brentuximab vedotin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The serum concentration of Colchicine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "The serum concentration of Edoxaban can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09027",
+                        "description": "The serum concentration of Ledipasvir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09049",
+                        "description": "The serum concentration of Naloxegol can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The serum concentration of Pazopanib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The serum concentration of Prucalopride can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB06207",
+                        "description": "The serum concentration of Silodosin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The serum concentration of Topotecan can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The serum concentration of Everolimus can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01220",
+                        "description": "The serum concentration of Rifaximin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The risk or severity of hypercalcemia can be increased when Methyclothiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "The risk or severity of hypercalcemia can be increased when Chlorthalidone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The risk or severity of hypercalcemia can be increased when Bendroflumethiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "The risk or severity of hypercalcemia can be increased when Metolazone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The risk or severity of hypercalcemia can be increased when Benzthiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The risk or severity of hypercalcemia can be increased when Hydroflumethiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of hypercalcemia can be increased when Indapamide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The risk or severity of hypercalcemia can be increased when Chlorothiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of hypercalcemia can be increased when Hydrochlorothiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The risk or severity of hypercalcemia can be increased when Trichlormethiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The risk or severity of hypercalcemia can be increased when Polythiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01325",
+                        "description": "The risk or severity of hypercalcemia can be increased when Quinethazone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The risk or severity of hypercalcemia can be increased when Cyclopenthiazide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13989",
+                        "description": "The risk or severity of hypercalcemia can be increased when Epitizide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04938",
+                        "description": "The risk or severity of adverse effects can be increased when Toremifene is combined with Ospemifene"
+                    },
+                    {
+                        "drugbank-id": "DB06206",
+                        "description": "The therapeutic efficacy of Sugammadex can be decreased when used in combination with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00001",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Lepirudin"
+                    },
+                    {
+                        "drugbank-id": "DB00006",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Bivalirudin"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Alteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Urokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Reteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Anistreplase"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Tenecteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Abciximab"
+                    },
+                    {
+                        "drugbank-id": "DB00055",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Drotrecogin alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Streptokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00278",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Argatroban"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Ardeparin"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00569",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Fondaparinux"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00686",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Pentosan polysulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Iloprost"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Heparin"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Enoxaparin"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Ximelagatran"
+                    },
+                    {
+                        "drugbank-id": "DB04925",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Desmoteplase"
+                    },
+                    {
+                        "drugbank-id": "DB04932",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Defibrotide"
+                    },
+                    {
+                        "drugbank-id": "DB05099",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Ancrod"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Beraprost"
+                    },
+                    {
+                        "drugbank-id": "DB05254",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Fibrinolysin"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Prasugrel"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Rivaroxaban"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Sulodexide"
+                    },
+                    {
+                        "drugbank-id": "DB06294",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Semuloparin"
+                    },
+                    {
+                        "drugbank-id": "DB06406",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Idraparinux"
+                    },
+                    {
+                        "drugbank-id": "DB06441",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Cangrelor"
+                    },
+                    {
+                        "drugbank-id": "DB06543",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Astaxanthin"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Apixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06635",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Otamixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Amediplase"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Danaparoid"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Dalteparin"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Tinzaparin"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Nadroparin"
+                    },
+                    {
+                        "drugbank-id": "DB08814",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Triflusal"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Ticagrelor"
+                    },
+                    {
+                        "drugbank-id": "DB08994",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Ditazole"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Potassium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09255",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Dextran"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Bemiparin"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Parnaparin"
+                    },
+                    {
+                        "drugbank-id": "DB11095",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Desirudin"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Zinc citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11166",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Antithrombin Alfa"
+                    },
+                    {
+                        "drugbank-id": "DB11312",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Protein C"
+                    },
+                    {
+                        "drugbank-id": "DB11598",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Antithrombin III human"
+                    },
+                    {
+                        "drugbank-id": "DB11984",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Letaxaban"
+                    },
+                    {
+                        "drugbank-id": "DB12289",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Darexaban"
+                    },
+                    {
+                        "drugbank-id": "DB12598",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Nafamostat"
+                    },
+                    {
+                        "drugbank-id": "DB12726",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Monteplase"
+                    },
+                    {
+                        "drugbank-id": "DB12831",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Gabexate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13149",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Protein S human"
+                    },
+                    {
+                        "drugbank-id": "DB13199",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Brinase"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB13616",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Melagatran"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Saruplase"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14598",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Edetate calcium disodium anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB14726",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Dabigatran"
+                    },
+                    {
+                        "drugbank-id": "DB13124",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Troxerutin"
+                    },
+                    {
+                        "drugbank-id": "DB00974",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Edetic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "The risk or severity of bleeding can be increased when Toremifene is combined with Reviparin"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The excretion of Vincristine can be decreased when combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The serum concentration of Doxorubicin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The serum concentration of Toremifene can be decreased when it is combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of QTc prolongation can be increased when Leuprolide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The risk or severity of QTc prolongation can be increased when Goserelin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Betaxolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The risk or severity of QTc prolongation can be increased when Erythromycin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azithromycin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moxifloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfisoxazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methadone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of QTc prolongation can be increased when Diltiazem is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clozapine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulpiride is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nimodipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Promazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prochlorperazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of QTc prolongation can be increased when Droperidol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorpromazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxaliplatin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ciprofloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluorouracil is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00556",
+                        "description": "The risk or severity of QTc prolongation can be increased when Perflutren is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cinnarizine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propranolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atropine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chloroquine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The risk or severity of QTc prolongation can be increased when Efavirenz is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Adenosine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pentamidine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00743",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gadobenic acid is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "The risk or severity of QTc prolongation can be increased when Carbinoxamine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dolasetron is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The risk or severity of QTc prolongation can be increased when Roxithromycin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nalidixic acid is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cinoxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The risk or severity of QTc prolongation can be increased when Loperamide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "The risk or severity of QTc prolongation can be increased when Granisetron is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ondansetron is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levosimendan is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mesoridazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desloratadine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The risk or severity of QTc prolongation can be increased when Telithromycin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lomefloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dimenhydrinate is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The risk or severity of QTc prolongation can be increased when Primaquine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of QTc prolongation can be increased when Papaverine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorpheniramine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nifedipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levofloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gemifloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ofloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propafenone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acebutolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Flecainide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clarithromycin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mibefradil is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxprenolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01599",
+                        "description": "The risk or severity of QTc prolongation can be increased when Probucol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aceprometazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB02638",
+                        "description": "The risk or severity of QTc prolongation can be increased when Terlipressin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prenylamine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluspirilene is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lofexidine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azimilide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05223",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pracinostat is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Technetium Tc 99m ciprofloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The risk or severity of QTc prolongation can be increased when Garenoxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tedisamil is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tucidinostat is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06402",
+                        "description": "The risk or severity of QTc prolongation can be increased when Telavancin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nemonoxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nilvadipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08799",
+                        "description": "The risk or severity of QTc prolongation can be increased when Antazoline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08903",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bedaquiline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fendiline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of QTc prolongation can be increased when Eperisone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of QTc prolongation can be increased when Butriptyline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lenvatinib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Melperone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Benidipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexchlorpheniramine maleate is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amifampridine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11830",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mocetinostat is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Entinostat is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gilteritinib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12174",
+                        "description": "The risk or severity of QTc prolongation can be increased when CUDC 101 is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12286",
+                        "description": "The risk or severity of QTc prolongation can be increased when Simendan is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12376",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ricolinostat is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12523",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mizolastine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12565",
+                        "description": "The risk or severity of QTc prolongation can be increased when Abexinostat is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12877",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxatomide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sitafloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sultopride is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of QTc prolongation can be increased when Otilonium is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nizofenone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bunaftine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13653",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lorcainide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexchlorpheniramine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of QTc prolongation can be increased when Penfluridol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexverapamil is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ivosidenib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indenolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levacetylmethadol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amitriptyline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11718",
+                        "description": "The risk or severity of QTc prolongation can be increased when Encorafenib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01084",
+                        "description": "The risk or severity of QTc prolongation can be increased when Emedastine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00107",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxytocin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The risk or severity of QTc prolongation can be increased when Esmolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluconazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nelfinavir is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pregabalin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Benzatropine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isradipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of QTc prolongation can be increased when Venlafaxine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atomoxetine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olanzapine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cetirizine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of QTc prolongation can be increased when Protriptyline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "The risk or severity of QTc prolongation can be increased when Alfuzosin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimethadione is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buclizine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mefloquine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxylamine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mirtazapine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The risk or severity of QTc prolongation can be increased when Timolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The risk or severity of QTc prolongation can be increased when Treprostinil is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sorafenib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dexbrompheniramine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hyoscyamine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triprolidine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyproheptadine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The risk or severity of QTc prolongation can be increased when Enoxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pefloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The risk or severity of QTc prolongation can be increased when Foscarnet is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amoxapine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lamotrigine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The risk or severity of QTc prolongation can be increased when Voriconazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amodiaquine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nicardipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "The risk or severity of QTc prolongation can be increased when Galantamine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tamoxifen is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The risk or severity of QTc prolongation can be increased when Losartan is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moricizine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Moexipril is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tizanidine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibandronate is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of QTc prolongation can be increased when Apomorphine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Azatadine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The risk or severity of QTc prolongation can be increased when Risperidone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of QTc prolongation can be increased when Isoflurane is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rosoxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of QTc prolongation can be increased when Propofol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disulfiram is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of QTc prolongation can be increased when Brompheniramine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Terbutaline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The risk or severity of QTc prolongation can be increased when Zonisamide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amantadine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The risk or severity of QTc prolongation can be increased when Metronidazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00920",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ketotifen is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famotidine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of QTc prolongation can be increased when Maprotiline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of QTc prolongation can be increased when Salmeterol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The risk or severity of QTc prolongation can be increased when Felbamate is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The risk or severity of QTc prolongation can be increased when Formoterol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The risk or severity of QTc prolongation can be increased when Salbutamol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulfamethoxazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ketoconazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tolterodine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gatifloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of QTc prolongation can be increased when Nitrendipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of QTc prolongation can be increased when Norfloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of QTc prolongation can be increased when Promethazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mequitazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The risk or severity of QTc prolongation can be increased when Atazanavir is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Perhexiline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The risk or severity of QTc prolongation can be increased when Diphenhydramine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levocabastine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desipramine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bretylium is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cilostazol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Itraconazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of QTc prolongation can be increased when Orphenadrine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cyclizine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of QTc prolongation can be increased when Desflurane is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "The risk or severity of QTc prolongation can be increased when Encainide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of QTc prolongation can be increased when Metoclopramide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sevoflurane is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aripiprazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorprothixene is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Alimemazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lapatinib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Posaconazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sunitinib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The risk or severity of QTc prolongation can be increased when Arformoterol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methotrimeprazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ajmaline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Solifenacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxychloroquine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01620",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pheniramine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Thiothixene is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vorinostat is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fleroxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04695",
+                        "description": "The risk or severity of QTc prolongation can be increased when Farnesyl thiopyrophosphate is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The risk or severity of QTc prolongation can be increased when Celiprolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ezogabine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Indacaterol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Methsuximide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05465",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tandutinib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vernakalant is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "The risk or severity of QTc prolongation can be increased when Levocetirizine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "The risk or severity of QTc prolongation can be increased when Amisulpride is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cariporide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pasireotide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mepyramine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06699",
+                        "description": "The risk or severity of QTc prolongation can be increased when Degarelix is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Buserelin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The risk or severity of QTc prolongation can be increased when Histrelin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triptorelin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB07780",
+                        "description": "The risk or severity of QTc prolongation can be increased when Farnesyl diphosphate is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB07841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Geranylgeranyl diphosphate is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bupranolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Eribulin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The risk or severity of QTc prolongation can be increased when Mirabegron is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08936",
+                        "description": "The risk or severity of QTc prolongation can be increased when Chlorcyclizine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The risk or severity of QTc prolongation can be increased when Flumequine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The risk or severity of QTc prolongation can be increased when Olodaterol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vilanterol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trimebutine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pinaverium is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dosulepin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aranidipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of QTc prolongation can be increased when Efonidipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lacidipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Niguldipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Acrivastine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Coumaphos is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11397",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dichlorvos is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11408",
+                        "description": "The risk or severity of QTc prolongation can be increased when Famphur is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11412",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fenthion is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The risk or severity of QTc prolongation can be increased when Orbifloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11448",
+                        "description": "The risk or severity of QTc prolongation can be increased when Phosmet is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sarafloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The risk or severity of QTc prolongation can be increased when Difloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bilastine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rupatadine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The risk or severity of QTc prolongation can be increased when Talinolol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pazufloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The risk or severity of QTc prolongation can be increased when Anisodamine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11891",
+                        "description": "The risk or severity of QTc prolongation can be increased when CUDC 907 is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prulifloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The risk or severity of QTc prolongation can be increased when Delafloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of QTc prolongation can be increased when Tetrahydropalmatine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Temefos is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Triclabendazole is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12645",
+                        "description": "The risk or severity of QTc prolongation can be increased when Givinostat is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pilsicainide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cicletanine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of QTc prolongation can be increased when Gallopamil is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Cibenzoline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Bencyclane is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Prajmaline is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The risk or severity of QTc prolongation can be increased when Oxolinic acid is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lorajmine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13744",
+                        "description": "The risk or severity of QTc prolongation can be increased when Piromidic acid is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lidoflazine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rufloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pipemidic acid is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The risk or severity of QTc prolongation can be increased when Aripiprazole lauroxil is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "The risk or severity of QTc prolongation can be increased when Inotersen is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ethosuximide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The risk or severity of QTc prolongation can be increased when Lurasidone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ebastine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The risk or severity of QTc prolongation can be increased when Felodipine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of QTc prolongation can be increased when Doxepin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Rilpivirine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clofazimine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fostemsavir is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The risk or severity of QTc prolongation can be increased when Epinastine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of QTc prolongation can be increased when Citalopram is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of QTc prolongation can be increased when Disopyramide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "The risk or severity of QTc prolongation can be increased when Clemastine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ibutilide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The risk or severity of QTc prolongation can be increased when Valproic acid is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The risk or severity of QTc prolongation can be increased when Grepafloxacin is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Quinine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sotalol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The risk or severity of QTc prolongation can be increased when Erlotinib is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Cocaine"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Procainamide"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Domperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Halofantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Bepridil"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB04844",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Tetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Vandetanib"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Artemether"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB09083",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Ivabradine"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Deutetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Macimorelin"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Astemizole"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Eliglustat"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The risk or severity of QTc prolongation can be increased when Dofetilide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Anagrelide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "The serum concentration of Betrixaban can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The serum concentration of Toremifene can be decreased when it is combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11637",
+                        "description": "Toremifene may increase the QTc prolonging activities of Delamanid"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Toremifene can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Isavuconazonium"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Tenofovir disoproxil"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The serum concentration of Pravastatin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The serum concentration of Morphine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "The serum concentration of Clobazam can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The serum concentration of Mannitol can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00882",
+                        "description": "The serum concentration of Clomifene can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The serum concentration of Tegaserod can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The serum concentration of Sitagliptin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The serum concentration of Simeprevir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The serum concentration of Ambrisentan can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06670",
+                        "description": "The serum concentration of Odanacatib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The serum concentration of Linagliptin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The serum concentration of Ponatinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The serum concentration of Canagliflozin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The serum concentration of Dolutegravir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08934",
+                        "description": "The serum concentration of Sofosbuvir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The serum concentration of Palbociclib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The serum concentration of Umeclidinium can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The serum concentration of Nintedanib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09161",
+                        "description": "The serum concentration of Technetium Tc 99m sestamibi can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The serum concentration of Dasabuvir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The serum concentration of Ombitasvir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The serum concentration of Paritaprevir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The serum concentration of Selexipag can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The serum concentration of Elbasvir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11575",
+                        "description": "The serum concentration of Grazoprevir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The serum concentration of Asunaprevir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "The serum concentration of Velpatasvir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11712",
+                        "description": "The serum concentration of Tezacaftor can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The serum concentration of Baricitinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The serum concentration of Ertugliflozin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "The serum concentration of Revefenacin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11869",
+                        "description": "The serum concentration of Valspodar can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The serum concentration of Duvelisib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The serum concentration of Elagolix can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The serum concentration of Avatrombopag can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The serum concentration of Rucaparib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12836",
+                        "description": "The serum concentration of Grapiprant can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13125",
+                        "description": "The serum concentration of Lusutrombopag can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The serum concentration of Pibrentasvir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The serum concentration of Glecaprevir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The serum concentration of Tenofovir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14723",
+                        "description": "The serum concentration of Larotrectinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB04851",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Biricodar"
+                    },
+                    {
+                        "drugbank-id": "DB04881",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Elacridar"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB06191",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Zosuquidar"
+                    },
+                    {
+                        "drugbank-id": "DB06240",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Tariquidar"
+                    },
+                    {
+                        "drugbank-id": "DB07348",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Brefeldin A"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Ivacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Suvorexant"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Netupitant"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Daclatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09291",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Rolapitant"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Neratinib"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Sarecycline"
+                    },
+                    {
+                        "drugbank-id": "DB12799",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Laniquidar"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14069",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with ONT 093"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The serum concentration of Conivaptan can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The serum concentration of Tipranavir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The serum concentration of Lomitapide can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12500",
+                        "description": "The serum concentration of Fedratinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Istradefylline"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The serum concentration of Telaprevir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The serum concentration of Idelalisib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The serum concentration of Rifamycin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Enzalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The serum concentration of Verapamil can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB13007",
+                        "description": "The serum concentration of Enfortumab vedotin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "The serum concentration of Darolutamide can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The serum concentration of Tazemetostat can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The serum concentration of Lemborexant can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The serum concentration of Methylene blue can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The serum concentration of Selumetinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "The serum concentration of Ripretinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The serum concentration of Remdesivir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The serum concentration of Prednisolone phosphate can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The serum concentration of Belantamab mafodotin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "The serum concentration of Dabigatran etexilate can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Panobinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Bortezomib"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The serum concentration of Romidepsin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The serum concentration of Cyclosporine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The serum concentration of Sirolimus can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The serum concentration of Quinidine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The serum concentration of Digitoxin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The serum concentration of Temsirolimus can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The serum concentration of Vinblastine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The serum concentration of Etoposide can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "The serum concentration of Dactinomycin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The serum concentration of Cobimetinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The serum concentration of Trastuzumab emtansine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB05889",
+                        "description": "The serum concentration of Inotuzumab ozogamicin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The serum concentration of Cabazitaxel can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08889",
+                        "description": "The serum concentration of Carfilzomib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The serum concentration of Regorafenib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The serum concentration of Pomalidomide can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The serum concentration of Osimertinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The serum concentration of Venetoclax can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The serum concentration of Vinflunine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11760",
+                        "description": "The serum concentration of Talazoparib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The serum concentration of Dacomitinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The serum concentration of Copanlisib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The serum concentration of Dasatinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The serum concentration of Tolvaptan can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Nortriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Trimipramine"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The serum concentration of Bendamustine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The serum concentration of Binimetinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "The serum concentration of Gemcitabine can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The serum concentration of Cabergoline can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The serum concentration of Axitinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The serum concentration of Abemaciclib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Toremifene can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The serum concentration of Bisoprolol can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The serum concentration of Sildenafil can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The serum concentration of Simvastatin can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The serum concentration of Vardenafil can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Erdafitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Toremifene may decrease the excretion rate of Digoxin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Toremifene may decrease the excretion rate of Metildigoxin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Toremifene may decrease the excretion rate of Acetyldigoxin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trazodone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The risk or severity of QTc prolongation can be increased when Toremifene is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "Toremifene may increase the QTc prolonging activities of Lefamulin"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "Toremifene may increase the QTc prolonging activities of Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Lasmiditan"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Toremifene can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxyzine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Ziprasidone is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The serum concentration of Rimegepant can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of QTc prolongation can be increased when Haloperidol is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "Toremifene may decrease the excretion rate of Tucatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluoxetine is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB15690",
+                        "description": "Toremifene may decrease effectiveness of Fluoroestradiol F 18 as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Toremifene can be decreased when it is combined with Satralizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The serum concentration of Pralsetinib can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The serum concentration of Berotralstat can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB11853",
+                        "description": "The serum concentration of Relugolix can be increased when it is combined with Toremifene"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

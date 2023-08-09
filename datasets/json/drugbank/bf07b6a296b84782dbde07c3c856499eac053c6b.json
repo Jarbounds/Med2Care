@@ -1,0 +1,981 @@
+{
+    "medicine_id": "bf07b6a296b84782dbde07c3c856499eac053c6b",
+    "platform_id": "DB01051",
+    "metadata": {
+        "name": "10 Person ANSI 200 mg Granule effervescent",
+        "composition": "200 mg Novobiocin",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of infections due to staphylococci and other susceptible organisms",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Novobiocin is an aminocoumarin antibiotic that was produced by the actinomycete i Streptomyces niveus i Novobiocin binds to DNA gyrase and blocks adenosine triphosphatase ATPase activity Other antibiotics in the aminocoumarin class include coumermycin A1 and clorobiocin",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00139",
+                        "description": "The excretion of Succinic acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00155",
+                        "description": "The excretion of Citrulline can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00198",
+                        "description": "The excretion of Oseltamivir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "The excretion of Cefotiam can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The excretion of Tenofovir disoproxil can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The excretion of Piperacillin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Indomethacin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Aminohippuric acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "The excretion of Trifluridine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The excretion of Cimetidine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00535",
+                        "description": "The excretion of Cefdinir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The excretion of Cephalexin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00577",
+                        "description": "The excretion of Valaciclovir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00583",
+                        "description": "The excretion of Levocarnitine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00650",
+                        "description": "The excretion of Leucovorin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00693",
+                        "description": "The excretion of Fluorescein can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The excretion of Hydrocortisone can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The excretion of Tetracycline can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00770",
+                        "description": "The excretion of Alprostadil can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The excretion of Estradiol can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The excretion of Acyclovir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00833",
+                        "description": "The excretion of Cefaclor can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The excretion of Ranitidine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "The excretion of Quinapril can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The excretion of Bumetanide can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Dinoprostone can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The excretion of Famotidine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The excretion of Captopril can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The excretion of Sitagliptin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "The excretion of Cefazolin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "The excretion of Ceftizoxime can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "The excretion of Cefacetrile can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01415",
+                        "description": "The excretion of Ceftibuten can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01606",
+                        "description": "The excretion of Tazobactam can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB02527",
+                        "description": "The excretion of Cyclic adenosine monophosphate can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The excretion of Cholic Acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB03553",
+                        "description": "The excretion of Glutaric Acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB03902",
+                        "description": "The excretion of Oxalic Acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Taurocholic acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB06211",
+                        "description": "The excretion of Doripenem can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The excretion of Saxagliptin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB08846",
+                        "description": "The excretion of Ellagic acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB09008",
+                        "description": "The excretion of Cefaloridine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB09060",
+                        "description": "The excretion of Avibactam can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Silibinin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The excretion of Baricitinib can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB12243",
+                        "description": "The excretion of Edaravone can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB12377",
+                        "description": "The excretion of Relebactam can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The excretion of Tenofovir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The excretion of Hydrochlorothiazide can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The excretion of Dexamethasone can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The excretion of Estrone can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The excretion of Oxytetracycline can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The excretion of Polythiazide can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The excretion of Prednisolone phosphate can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "The serum concentration of Eluxadoline can be increased when it is combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00158",
+                        "description": "Novobiocin may decrease the excretion rate of Folic acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "Novobiocin may decrease the excretion rate of Pravastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "Novobiocin may decrease the excretion rate of Cladribine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "Novobiocin may decrease the excretion rate of Conjugated estrogens which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "Novobiocin may decrease the excretion rate of Gefitinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "Novobiocin may decrease the excretion rate of Sorafenib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "Novobiocin may decrease the excretion rate of Allopurinol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "Novobiocin may decrease the excretion rate of Cerivastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Novobiocin may decrease the excretion rate of Teniposide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "Novobiocin may decrease the excretion rate of Prazosin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00481",
+                        "description": "Novobiocin may decrease the excretion rate of Raloxifene which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "Novobiocin may decrease the excretion rate of Celecoxib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "Novobiocin may decrease the excretion rate of Zidovudine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "Novobiocin may decrease the excretion rate of Ritonavir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "Novobiocin may decrease the excretion rate of Oxaliplatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "Novobiocin may decrease the excretion rate of Vincristine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "Novobiocin may decrease the excretion rate of Fluorouracil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Novobiocin may decrease the excretion rate of Methotrexate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "Novobiocin may decrease the excretion rate of Ivermectin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "Novobiocin may decrease the excretion rate of Imatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "Novobiocin may decrease the excretion rate of Testosterone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "Novobiocin may decrease the excretion rate of Sumatriptan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "Novobiocin may decrease the excretion rate of Tamoxifen which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "Novobiocin may decrease the excretion rate of Mycophenolate mofetil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "Novobiocin may decrease the excretion rate of Daunorubicin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00698",
+                        "description": "Novobiocin may decrease the excretion rate of Nitrofurantoin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "Novobiocin may decrease the excretion rate of Lamivudine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "Novobiocin may decrease the excretion rate of Riluzole which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "Novobiocin may decrease the excretion rate of Irinotecan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "Novobiocin may decrease the excretion rate of Etoposide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Novobiocin may decrease the excretion rate of Sulfasalazine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "Novobiocin may decrease the excretion rate of Dactinomycin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00973",
+                        "description": "Novobiocin may decrease the excretion rate of Ezetimibe which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "Novobiocin may decrease the excretion rate of Doxorubicin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "Novobiocin may decrease the excretion rate of Topotecan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "Novobiocin may decrease the excretion rate of Tegaserod which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "Novobiocin may decrease the excretion rate of Leflunomide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "Novobiocin may decrease the excretion rate of Rosuvastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "Novobiocin may decrease the excretion rate of Mitoxantrone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "Novobiocin may decrease the excretion rate of Dasatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB03496",
+                        "description": "Novobiocin may decrease the excretion rate of Alvocidib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04690",
+                        "description": "Novobiocin may decrease the excretion rate of Camptothecin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "Novobiocin may decrease the excretion rate of Nilotinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "Novobiocin may decrease the excretion rate of Rivaroxaban which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "Novobiocin may decrease the excretion rate of Simeprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "Novobiocin may decrease the excretion rate of Pazopanib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "Novobiocin may decrease the excretion rate of Apixaban which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "Novobiocin may decrease the excretion rate of Pitavastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "Novobiocin may decrease the excretion rate of Teriflunomide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "Novobiocin may decrease the excretion rate of Vemurafenib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "Novobiocin may decrease the excretion rate of Ponatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "Novobiocin may decrease the excretion rate of Dabrafenib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08916",
+                        "description": "Novobiocin may decrease the excretion rate of Afatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "Novobiocin may decrease the excretion rate of Dolutegravir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Novobiocin may decrease the excretion rate of Riociguat which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08934",
+                        "description": "Novobiocin may decrease the excretion rate of Sofosbuvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "Novobiocin may decrease the excretion rate of Idelalisib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "Novobiocin may decrease the excretion rate of Palbociclib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "Novobiocin may decrease the excretion rate of Lenvatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "Novobiocin may decrease the excretion rate of Fimasartan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "Novobiocin may decrease the excretion rate of Ombitasvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "Novobiocin may decrease the excretion rate of Tenofovir alafenamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "Novobiocin may decrease the excretion rate of Osimertinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "Novobiocin may decrease the excretion rate of Venetoclax which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "Novobiocin may decrease the excretion rate of Velpatasvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11760",
+                        "description": "Novobiocin may decrease the excretion rate of Talazoparib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "Novobiocin may decrease the excretion rate of Ertugliflozin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "Novobiocin may decrease the excretion rate of Delafloxacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "Novobiocin may decrease the excretion rate of Duvelisib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "Novobiocin may decrease the excretion rate of Dacomitinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "Novobiocin may decrease the excretion rate of Glasdegib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "Novobiocin may decrease the excretion rate of Abemaciclib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "Novobiocin may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "Novobiocin may decrease the excretion rate of Brigatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "Novobiocin may decrease the excretion rate of Rucaparib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "Novobiocin may decrease the excretion rate of Copanlisib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13125",
+                        "description": "Novobiocin may decrease the excretion rate of Lusutrombopag which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "Novobiocin may decrease the excretion rate of Enasidenib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "Novobiocin may decrease the excretion rate of Pibrentasvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "Novobiocin may decrease the excretion rate of Glecaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "Novobiocin may decrease the excretion rate of Testosterone cypionate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "Novobiocin may decrease the excretion rate of Testosterone enanthate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "Novobiocin may decrease the excretion rate of Testosterone undecanoate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "Novobiocin may decrease the excretion rate of Donepezil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "Novobiocin may decrease the excretion rate of Darolutamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "Novobiocin may decrease the excretion rate of Tazemetostat which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "Novobiocin may decrease the excretion rate of Tucatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "Novobiocin may decrease the excretion rate of Selumetinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06813",
+                        "description": "Novobiocin may decrease the excretion rate of Pralatrexate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "Novobiocin may decrease the excretion rate of Ripretinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "Novobiocin may decrease the excretion rate of Fostemsavir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "Novobiocin may decrease the excretion rate of Pralsetinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The excretion of Valsartan can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The excretion of Erythromycin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The excretion of Torasemide can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The excretion of Lovastatin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The excretion of Liothyronine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The excretion of Digoxin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00520",
+                        "description": "The excretion of Caspofungin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The excretion of Bosentan can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The excretion of Enalapril can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The excretion of Simvastatin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The excretion of Penicillamine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The excretion of Repaglinide can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The excretion of Atorvastatin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The excretion of Ouabain can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The excretion of Fluvastatin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The excretion of Liotrix can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The excretion of Cobimetinib can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB06199",
+                        "description": "The excretion of Atrasentan can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The excretion of Ambrisentan can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The excretion of Axitinib can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB06721",
+                        "description": "The excretion of Gimatecan can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "The excretion of Temocapril can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB08862",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB08884",
+                        "description": "The excretion of Gadoxetic acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB09137",
+                        "description": "The excretion of Technetium Tc 99m mebrofenin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The excretion of Paritaprevir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The excretion of Selexipag can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB11575",
+                        "description": "The excretion of Grazoprevir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The excretion of Asunaprevir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The excretion of Elagolix can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The excretion of Letermovir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB13139",
+                        "description": "The excretion of Levosalbutamol can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The excretion of Remdesivir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The excretion of Belantamab mafodotin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The excretion of Pemetrexed can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "The excretion of Mercaptopurine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The excretion of Valproic acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The excretion of Clofarabine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Novobiocin is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The excretion of Grepafloxacin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00369",
+                        "description": "The excretion of Cidofovir can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "The excretion of Stavudine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00718",
+                        "description": "The excretion of Adefovir dipivoxil can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "The excretion of Didanosine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00943",
+                        "description": "The excretion of Zalcitabine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The excretion of Levofloxacin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The excretion of Rifampicin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The excretion of Romidepsin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB09142",
+                        "description": "The excretion of Sincalide can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The excretion of Paclitaxel can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The excretion of Docetaxel can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB11936",
+                        "description": "The excretion of Bempedoic acid can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "Novobiocin may decrease the excretion rate of Revefenacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB06701",
+                        "description": "The serum concentration of the active metabolites of Novobiocin can be increased when Novobiocin is used in combination with Dexmethylphenidate"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The serum concentration of Alpelisib can be increased when it is combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The therapeutic efficacy of Glyburide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The therapeutic efficacy of Glimepiride can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The therapeutic efficacy of Acetohexamide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The therapeutic efficacy of Chlorpropamide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The therapeutic efficacy of Tolazamide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The therapeutic efficacy of Glipizide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The therapeutic efficacy of Gliclazide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The therapeutic efficacy of Tolbutamide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The therapeutic efficacy of Gliquidone can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The therapeutic efficacy of Glisoxepide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The therapeutic efficacy of Glibornuride can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The therapeutic efficacy of Carbutamide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The therapeutic efficacy of Metahexamide can be increased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The serum concentration of Rimegepant can be increased when it is combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB12612",
+                        "description": "Novobiocin may decrease the excretion rate of Ozanimod which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The serum concentration of Berotralstat can be increased when it is combined with Novobiocin"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

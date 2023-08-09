@@ -1,0 +1,53 @@
+{
+    "medicine_id": "2353d107d4373ed15d385ce947d8f1089035fa37",
+    "platform_id": "DB05212",
+    "metadata": {
+        "name": "Pretomanid 200 mg 1 Tablet",
+        "composition": "200 mg 1 HE3286",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of rheumatoid arthritis and type 2 diabetes",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of HE3286 can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of HE3286 can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of HE3286 can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of HE3286 can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with HE3286"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with HE3286"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of HE3286 can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of HE3286 can be decreased when it is combined with Satralizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

@@ -1,0 +1,3181 @@
+{
+    "medicine_id": "3cd578733078bb3cbacb520506b20c703eb166a0",
+    "platform_id": "DB06800",
+    "metadata": {
+        "name": "Relistor 8 mg Injection solution",
+        "composition": "8 mg Methylnaltrexone",
+        "clinical_particulars": {
+            "therapeutic_indications": "Treatment of opioids induced constipation in palliative patients that are inadequately responding to laxative therapy",
+            "contraindications": {
+                "disease": "LD50 50 mg kg primates Orthostatic hypotension at plasma levels in excess of 1 400 ng mL The most common 5 adverse reactions reported with methylnaltrexone bromide are abdominal pain flatulence nausea dizziness diarrhea and hyperhidrosis",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Use of opioids induces slowing of gastrointestinal motility and transit Following remifentanil administration the methylnaltrexone and placebo groups showed no change in pupiliary constriction while the naloxone group showed a marked change over the time interval tested",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00504",
+                        "description": "Levallorphan may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00611",
+                        "description": "Butorphanol may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00652",
+                        "description": "Pentazocine may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00704",
+                        "description": "Naltrexone may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00844",
+                        "description": "Nalbuphine may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "Buprenorphine may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01183",
+                        "description": "Naloxone may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01209",
+                        "description": "Dezocine may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01548",
+                        "description": "Diprenorphine may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB06230",
+                        "description": "Nalmefene may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB06274",
+                        "description": "Alvimopan may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB09049",
+                        "description": "Naloxegol may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "Eluxadoline may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB11490",
+                        "description": "Nalorphine may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB11691",
+                        "description": "Naldemedine may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB12013",
+                        "description": "Axelopran may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB12341",
+                        "description": "LY 2456302 may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB12543",
+                        "description": "Samidorphan may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB12585",
+                        "description": "Ondelopran may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB13478",
+                        "description": "Meptazinol may increase the opioid antagonism activities of Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "Cyclosporine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00159",
+                        "description": "Icosapent may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "Cefotiam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "Mesalazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00267",
+                        "description": "Cefmenoxime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00274",
+                        "description": "Cefmetazole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00282",
+                        "description": "Pamidronic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "Tenofovir disoproxil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "Indomethacin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00369",
+                        "description": "Cidofovir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "Triamterene may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00430",
+                        "description": "Cefpiramide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00438",
+                        "description": "Ceftazidime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00447",
+                        "description": "Loracarbef may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00456",
+                        "description": "Cefalotin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "Nabumetone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "Ketorolac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "Tenoxicam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "Celecoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00493",
+                        "description": "Cefotaxime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00500",
+                        "description": "Tolmetin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "Foscarnet may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "Rofecoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "Piroxicam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Methotrexate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "Cephalexin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00573",
+                        "description": "Fenoprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00577",
+                        "description": "Valaciclovir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "Valdecoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "Diclofenac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00605",
+                        "description": "Sulindac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00626",
+                        "description": "Bacitracin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "Amphotericin B may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00689",
+                        "description": "Cephaloglycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "Flurbiprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00718",
+                        "description": "Adefovir dipivoxil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "Pentamidine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "Mannitol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "Etodolac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "Mefenamic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "Acyclovir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "Naproxen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Sulfasalazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "Phenylbutazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "Meloxicam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00821",
+                        "description": "Carprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00833",
+                        "description": "Cefaclor may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "Diflunisal may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "Tacrolimus may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "Etacrynic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00923",
+                        "description": "Ceforanide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "Salicylic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00939",
+                        "description": "Meclofenamic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "Acetylsalicylic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00958",
+                        "description": "Carboplatin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00991",
+                        "description": "Oxaprozin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Hydrochlorothiazide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "Ketoprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "Balsalazide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "Ibuprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01066",
+                        "description": "Cefditoren may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "Atazanavir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01111",
+                        "description": "Colistimethate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01112",
+                        "description": "Cefuroxime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01139",
+                        "description": "Cefapirin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01140",
+                        "description": "Cefadroxil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01150",
+                        "description": "Cefprozil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01212",
+                        "description": "Ceftriaxone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "Olsalazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "Lumiracoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01326",
+                        "description": "Cefamandole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "Cefazolin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01328",
+                        "description": "Cefonicid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01329",
+                        "description": "Cefoperazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01330",
+                        "description": "Cefotetan may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01331",
+                        "description": "Cefoxitin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "Ceftizoxime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01333",
+                        "description": "Cefradine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "Magnesium salicylate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01399",
+                        "description": "Salsalate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01401",
+                        "description": "Choline magnesium trisalicylate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01413",
+                        "description": "Cefepime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "Cefacetrile may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01415",
+                        "description": "Ceftibuten may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01416",
+                        "description": "Cefpodoxime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01419",
+                        "description": "Antrafenine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "Aminophenazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "Antipyrine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01600",
+                        "description": "Tiaprofenic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "Lopinavir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "Etoricoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB02247",
+                        "description": "Hydrolyzed Cephalothin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB03450",
+                        "description": "Cephalothin Group may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB03585",
+                        "description": "Oxyphenbutazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04570",
+                        "description": "Latamoxef may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "Nimesulide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04812",
+                        "description": "Benoxaprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "Metamizole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04828",
+                        "description": "Zomepirac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04918",
+                        "description": "Ceftobiprole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB05095",
+                        "description": "Cimicoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06590",
+                        "description": "Ceftaroline fosamil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "Lornoxicam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06736",
+                        "description": "Aceclofenac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "Zaltoprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB07402",
+                        "description": "Azapropazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "Parecoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08797",
+                        "description": "Salicylamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08940",
+                        "description": "Kebuzone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08942",
+                        "description": "Isoxicam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08951",
+                        "description": "Indoprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08955",
+                        "description": "Ibuproxam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08976",
+                        "description": "Floctafenine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08981",
+                        "description": "Fenbufen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08984",
+                        "description": "Etofenamate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08991",
+                        "description": "Epirizole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09008",
+                        "description": "Cefaloridine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09062",
+                        "description": "Cefminox may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09084",
+                        "description": "Benzydamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "Dexibuprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09214",
+                        "description": "Dexketoprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09215",
+                        "description": "Droxicam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "Tolfenamic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09217",
+                        "description": "Firocoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09218",
+                        "description": "Clonixin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09285",
+                        "description": "Morniflumate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "Propacetamol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09295",
+                        "description": "Talniflumate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "Tenofovir alafenamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11367",
+                        "description": "Cefroxadine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11455",
+                        "description": "Robenacoxib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "Tepoxalin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11518",
+                        "description": "Flunixin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11935",
+                        "description": "Flomoxef may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12151",
+                        "description": "Brincidofovir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "Nitroaspirin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "Indobufen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13001",
+                        "description": "Tinoridine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13167",
+                        "description": "Alclofenac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13217",
+                        "description": "Fentiazac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13232",
+                        "description": "Suxibuzone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13266",
+                        "description": "Cefatrizine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13286",
+                        "description": "Bumadizone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13314",
+                        "description": "Alminoprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13371",
+                        "description": "Difenpiramide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13407",
+                        "description": "Nifenazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13432",
+                        "description": "Lonazolac may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13461",
+                        "description": "Cefcapene may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13470",
+                        "description": "Cefodizime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13481",
+                        "description": "Tenidap may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13499",
+                        "description": "Cefsulodin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13504",
+                        "description": "Cefetamet may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13524",
+                        "description": "Propyphenazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13527",
+                        "description": "Proglumetacin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "Guacetisal may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13544",
+                        "description": "Ethenzamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "Carbaspirin calcium may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13629",
+                        "description": "Mofebutazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13638",
+                        "description": "Cefbuperazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13649",
+                        "description": "Proquazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13657",
+                        "description": "Benorilate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13667",
+                        "description": "Cefozopran may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13682",
+                        "description": "Cefpirome may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13722",
+                        "description": "Pirprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13778",
+                        "description": "Cefazedone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "Acemetacin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13821",
+                        "description": "Ceftezole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13860",
+                        "description": "Imidazole salicylate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13868",
+                        "description": "Adefovir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14059",
+                        "description": "SC 236 may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14060",
+                        "description": "NS 398 may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "Tenofovir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "Inotersen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01438",
+                        "description": "Phenazopyridine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB15066",
+                        "description": "Givosiran may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "Lithium cation may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14507",
+                        "description": "Lithium citrate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09212",
+                        "description": "Loxoprofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00452",
+                        "description": "Framycetin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01421",
+                        "description": "Paromomycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04263",
+                        "description": "Geneticin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04626",
+                        "description": "Apramycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04808",
+                        "description": "Neamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08437",
+                        "description": "Puromycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11512",
+                        "description": "Dihydrostreptomycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11520",
+                        "description": "Hygromycin B may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "Leuprolide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "Goserelin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00017",
+                        "description": "Salmon calcitonin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00035",
+                        "description": "Desmopressin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "Aldesleukin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00080",
+                        "description": "Daptomycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00081",
+                        "description": "Tositumomab may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00115",
+                        "description": "Cyanocobalamin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00158",
+                        "description": "Folic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00165",
+                        "description": "Pyridoxine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "Fluvoxamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "Baclofen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Amphetamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00185",
+                        "description": "Cevimeline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "Lorazepam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00190",
+                        "description": "Carbidopa may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "Fluconazole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00198",
+                        "description": "Oseltamivir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00200",
+                        "description": "Hydroxocobalamin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Reserpine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "Ticlopidine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "Pantoprazole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00225",
+                        "description": "Gadodiamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "Pregabalin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00231",
+                        "description": "Temazepam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00235",
+                        "description": "Milrinone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00237",
+                        "description": "Butabarbital may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "Ranolazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "Benzatropine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "Doxycycline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "Carmustine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "Metoprolol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "Isradipine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00271",
+                        "description": "Diatrizoate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00273",
+                        "description": "Topiramate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "Liothyronine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "Disopyramide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "Acarbose may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "Venlafaxine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "Conjugated estrogens may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "Atomoxetine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00290",
+                        "description": "Bleomycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00292",
+                        "description": "Etomidate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "Etonogestrel may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "Ropivacaine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00303",
+                        "description": "Ertapenem may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "Ibutilide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "Pentobarbital may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "Acetaminophen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "Piperacillin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00322",
+                        "description": "Floxuridine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00323",
+                        "description": "Tolcapone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "Nitroprusside may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00330",
+                        "description": "Ethambutol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "Metformin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00339",
+                        "description": "Pyrazinamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "Cetirizine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "Clobazam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "Megestrol acetate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00355",
+                        "description": "Aztreonam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "Chlorzoxazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "Sulfadiazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "Clozapine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00364",
+                        "description": "Sucralfate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "Thiethylperazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Timolol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00377",
+                        "description": "Palonosetron may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00380",
+                        "description": "Dexrazoxane may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "Sorafenib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "Nisoldipine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "Eszopiclone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "Alprazolam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "Rosiglitazone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00413",
+                        "description": "Pramipexole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00415",
+                        "description": "Ampicillin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "Secobarbital may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00422",
+                        "description": "Methylphenidate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "Trifluridine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "Nitric Oxide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "Allopurinol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "Trimethoprim may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "Gemcitabine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "Duloxetine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "Chlorpromazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00480",
+                        "description": "Lenalidomide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00490",
+                        "description": "Buspirone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "Fosinopril may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "Flutamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "Cimetidine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "Haloperidol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00535",
+                        "description": "Cefdinir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "Ciprofloxacin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00548",
+                        "description": "Azelaic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00553",
+                        "description": "Methoxsalen may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "Lamotrigine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00558",
+                        "description": "Zanamivir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00569",
+                        "description": "Fondaparinux may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Propranolol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00583",
+                        "description": "Levocarnitine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "Fluocinolone acetonide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00597",
+                        "description": "Gadoteridol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "Labetalol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "Medroxyprogesterone acetate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "Chloroquine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "Bisoprolol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "Testosterone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00628",
+                        "description": "Clorazepic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "Clofarabine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "Dexmedetomidine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "Prednisone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00651",
+                        "description": "Dyphylline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Mecamylamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00660",
+                        "description": "Metaxalone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "Verapamil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00665",
+                        "description": "Nilutamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "Sumatriptan may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "Chlorpropamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "Midazolam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "Mycophenolate mofetil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00690",
+                        "description": "Flurazepam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00692",
+                        "description": "Phentolamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00698",
+                        "description": "Nitrofurantoin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "Tamsulosin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "Lamivudine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00713",
+                        "description": "Oxacillin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00716",
+                        "description": "Nedocromil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "Lisinopril may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00730",
+                        "description": "Thiabendazole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "Nateglinide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00733",
+                        "description": "Pralidoxime may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00743",
+                        "description": "Gadobenic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "Tetracycline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00760",
+                        "description": "Meropenem may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00761",
+                        "description": "Potassium chloride may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "Methimazole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00775",
+                        "description": "Tirofiban may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "Phenelzine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00782",
+                        "description": "Propantheline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "Estradiol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00789",
+                        "description": "Gadopentetic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "Perindopril may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "Fenoldopam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00804",
+                        "description": "Dicyclomine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "Pentoxifylline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00811",
+                        "description": "Ribavirin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "Tadalafil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00828",
+                        "description": "Fosfomycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "Diazepam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "Tolazamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00841",
+                        "description": "Dobutamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00842",
+                        "description": "Oxazepam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "Dacarbazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00853",
+                        "description": "Temozolomide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "Ranitidine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "Terbutaline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00894",
+                        "description": "Testolactone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00897",
+                        "description": "Triazolam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "Didanosine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00911",
+                        "description": "Tinidazole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "Amantadine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "Almotriptan may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00928",
+                        "description": "Azacitidine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "Maprotiline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "Isoniazid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00953",
+                        "description": "Rizatriptan may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Pindolol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00961",
+                        "description": "Mepivacaine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00962",
+                        "description": "Zaleplon may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "Methyldopa may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "Ramelteon may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00988",
+                        "description": "Dopamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "Azathioprine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00995",
+                        "description": "Auranofin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "Salbutamol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "Levobupivacaine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "Ganciclovir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01010",
+                        "description": "Edrophonium may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01011",
+                        "description": "Metyrapone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "Sulfamethoxazole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "Guanfacine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Isosorbide mononitrate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01022",
+                        "description": "Phylloquinone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "Mycophenolic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "Topotecan may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "Probenecid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "Tolterodine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "Fenofibrate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01043",
+                        "description": "Memantine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01046",
+                        "description": "Lubiprostone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01048",
+                        "description": "Abacavir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01060",
+                        "description": "Amoxicillin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "Glipizide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01068",
+                        "description": "Clonazepam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Promethazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01093",
+                        "description": "Dimethyl sulfoxide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01099",
+                        "description": "Flucytosine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "Capecitabine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01105",
+                        "description": "Sibutramine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "Nifedipine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "Tolbutamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "Rabeprazole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01133",
+                        "description": "Tiludronic acid may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01135",
+                        "description": "Doxacurium may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "Levofloxacin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01148",
+                        "description": "Flavoxate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "Nefazodone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01156",
+                        "description": "Bupropion may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01157",
+                        "description": "Trimetrexate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "Cilostazol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "Arsenic trioxide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01170",
+                        "description": "Guanethidine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "Ifosfamide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Nadolol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01205",
+                        "description": "Flumazenil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01213",
+                        "description": "Fomepizole may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01215",
+                        "description": "Estazolam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "Ketamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "Budesonide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "Quetiapine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "Metoclopramide may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Epoprostenol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "Gemfibrozil may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01249",
+                        "description": "Iodixanol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "Sitagliptin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "Paliperidone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01273",
+                        "description": "Varenicline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "Arformoterol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "Hydralazine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Penbutolol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "Rasagiline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "Colchicine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01409",
+                        "description": "Tiotropium may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01420",
+                        "description": "Testosterone propionate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01427",
+                        "description": "Amrinone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01428",
+                        "description": "Oxybenzone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "Allylestrenol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01550",
+                        "description": "Fenproporex may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "Bromazepam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01563",
+                        "description": "Chloral hydrate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "Metamfetamine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01587",
+                        "description": "Ketazolam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01610",
+                        "description": "Valganciclovir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01638",
+                        "description": "Sorbitol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "Roflumilast may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "Topiroxostat may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "Estrone sulfate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "Lorcaserin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04895",
+                        "description": "Pegaptanib may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "Milnacipran may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "Clevidipine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "Lofexidine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "Ezogabine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB05018",
+                        "description": "Migalastat may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB05541",
+                        "description": "Brivaracetam may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "Apremilast may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06154",
+                        "description": "Pentaerythritol tetranitrate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06186",
+                        "description": "Ipilimumab may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06196",
+                        "description": "Icatibant may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "Alogliptin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "Prasugrel may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06211",
+                        "description": "Doripenem may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "Rivaroxaban may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06262",
+                        "description": "Droxidopa may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "Levocetirizine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "Saxagliptin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06402",
+                        "description": "Telavancin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "Prucalopride may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06623",
+                        "description": "Flupirtine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06637",
+                        "description": "Dalfampridine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "Dabigatran etexilate may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "Desvenlafaxine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06702",
+                        "description": "Fesoterodine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06705",
+                        "description": "Gadofosveset trisodium may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06710",
+                        "description": "Methyltestosterone may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06767",
+                        "description": "Ammonium chloride may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06782",
+                        "description": "Dimercaprol may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06796",
+                        "description": "Mangafodipir may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06809",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Plerixafor which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06813",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pralatrexate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06823",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Tiopronin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06824",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Triethylenetetramine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08824",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ioflupane I 123 which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08826",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Deferiprone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08840",
+                        "description": "Methylnaltrexone may decrease the excretion rate of N methylnicotinamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08872",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Gabapentin enacarbil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ruxolitinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Mirabegron which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Peginesatide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08897",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Aclidinium which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Enzalutamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08900",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Teduglutide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Certolizumab pegol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08905",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Formestane which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08909",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Glycerol phenylbutyrate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pomalidomide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08911",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Trametinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Levomilnacipran which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08932",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Macitentan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08934",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Sofosbuvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09027",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ledipasvir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09050",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ceftolozane which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09066",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Corifollitropin alfa which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Vortioxetine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Tasimelteon which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Edoxaban which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09081",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Idebenone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Vilanterol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Trimebutine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09091",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Tixocortol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09103",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ancestim which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Magnesium hydroxide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09106",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Hydroxyethyl Starch which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09111",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pentastarch which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Stiripentol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09121",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Aurothioglucose which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Dienogest which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09129",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chromic chloride which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09132",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Gadoteric acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09133",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Iothalamic acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09134",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ioversol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09135",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ioxilan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09136",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Isosulfan blue which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09137",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Technetium Tc 99m mebrofenin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09139",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Technetium Tc 99m oxidronate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09148",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Florbetaben 18F which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09149",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Florbetapir 18F which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09156",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Iopromide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09163",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Technetium Tc 99m exametazime which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09165",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Technetium Tc 99m pyrophosphate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09185",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Viloxazine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09194",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Etoperidone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09195",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Lorpiprazole which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Arotinolol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09205",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Moxisylyte which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09209",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pholcodine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09210",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Piracetam which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09219",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Bisoxatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Nicorandil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09223",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Blonanserin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Melperone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Methylene blue which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pirlindole which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Toloxatone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09255",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Dextran which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Tegafur which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09257",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Gimeracil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09262",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Imidafenacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09264",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Idarucizumab which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Lixisenatide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Picosulfuric acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09276",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Sodium aurothiomalate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09277",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Choline C 11 which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Magnesium trisilicate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Sacubitril which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09301",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chondroitin sulfate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09317",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Synthetic Conjugated Estrogens A which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09318",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Synthetic Conjugated Estrogens B which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09320",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Procaine benzylpenicillin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09324",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Sulbactam which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09325",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Sodium fluoride which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09329",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Antihemophilic Factor Recombinant PEGylated which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09344",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Invert sugar which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09357",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Dexpanthenol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09394",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Phosphoric acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09395",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Sodium acetate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09407",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Magnesium chloride which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09418",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Potassium perchlorate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09472",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Sodium sulfate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Enalaprilat which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Magnesium carbonate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09488",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Acrivastine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09496",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Octinoxate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09502",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Fludeoxyglucose 18F which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09546",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Iobenguane sulfate I 123 which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09570",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ixazomib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11077",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Polyethylene glycol 400 which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11090",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Potassium nitrate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11098",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Potassium bicarbonate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11102",
+                        "description": "Methylnaltrexone may decrease the excretion rate of N acetyltyrosine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11114",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Eucalyptus oil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11127",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Selenious acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11135",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Selenium which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11136",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chromium which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11145",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Oxyquinoline which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11156",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pyrantel which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11164",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Bicisate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11251",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Tocopherol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11278",
+                        "description": "Methylnaltrexone may decrease the excretion rate of DL Methylephedrine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11328",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Tetradecyl hydrogen sulfate ester which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11338",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Clove oil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11358",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Evening primrose oil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11364",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pidotimod which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11560",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Lesinurad which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11577",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Indigotindisulfonic acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11587",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Etafedrine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11598",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Antithrombin III human which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pitolisant which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11699",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Tropisetron which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Baricitinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Apalutamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11915",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Valbenazine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Delafloxacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11989",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Benznidazole which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12007",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Isoflavone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12107",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Vaborbactam which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Deutetrabenazine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12278",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Propiverine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12783",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Benserazide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13025",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Tiapride which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13139",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Levosalbutamol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13156",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Inosine pranobex which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13178",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Inositol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13185",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Oxabolone cipionate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13191",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Phosphocreatine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13269",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Dichlorobenzyl alcohol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13293",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Ipecac which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Almasilate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13873",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Fenofibric acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13884",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Albutrepenonacog alfa which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13909",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Bismuth subgallate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Testosterone cypionate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Testosterone enanthate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Testosterone undecanoate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Estradiol acetate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Estradiol cypionate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Estradiol dienanthate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Estradiol valerate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Patent Blue which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14006",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Choline salicylate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14007",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pentetic acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14498",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Potassium acetate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14499",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Potassium sulfate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14526",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chromic citrate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14527",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chromic nitrate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14528",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chromium gluconate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14529",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chromium nicotinate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14530",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chromous sulfate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14754",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Solriamfetol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06815",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pyrithione which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11121",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Chloroxylenol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11085",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Resorcinol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB15593",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Golodirsen which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Amitriptyline may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Imipramine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00879",
+                        "description": "Emtricitabine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Desipramine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Clomipramine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Dimetacrine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14506",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Lithium hydroxide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13987",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Strontium chloride which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04890",
+                        "description": "Bepotastine may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00982",
+                        "description": "Isotretinoin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04930",
+                        "description": "Permethrin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Difluocortolone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00479",
+                        "description": "Amikacin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00684",
+                        "description": "Tobramycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00798",
+                        "description": "Gentamicin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00955",
+                        "description": "Netilmicin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00994",
+                        "description": "Neomycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01082",
+                        "description": "Streptomycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01172",
+                        "description": "Kanamycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB03615",
+                        "description": "Ribostamycin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04729",
+                        "description": "Gentamicin C1a may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06696",
+                        "description": "Arbekacin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12604",
+                        "description": "Sisomicin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13540",
+                        "description": "Isepamicin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00552",
+                        "description": "Pentostatin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13145",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Nedaplatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00314",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Capreomycin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Digoxin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00512",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Vancomycin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Cisplatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Carbamazepine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Pemetrexed which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Warfarin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Quinidine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Procainamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12615",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Plazomicin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14509",
+                        "description": "Methylnaltrexone may decrease the excretion rate of Lithium carbonate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00803",
+                        "description": "Colistin may decrease the excretion rate of Methylnaltrexone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "Metolazone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "Furosemide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "Indapamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "Bumetanide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "Zonisamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "Methylnaltrexone may increase the excretion rate of Canagliflozin which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09338",
+                        "description": "Methylnaltrexone may increase the excretion rate of Mersalyl which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "Torasemide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "Methyclothiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "Chlorthalidone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00311",
+                        "description": "Ethoxzolamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "Spironolactone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Bendroflumethiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "Benzthiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00594",
+                        "description": "Amiloride may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Cyclothiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "Eplerenone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "Methazolamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Hydroflumethiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "Acetazolamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "Conivaptan may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Chlorothiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Trichlormethiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "Diazoxide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "Diclofenamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Polythiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01325",
+                        "description": "Quinethazone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "Drospirenone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01412",
+                        "description": "Theobromine may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB02925",
+                        "description": "Piretanide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "Tienilic acid may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB05034",
+                        "description": "Ularitide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "Tolvaptan may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "Dapagliflozin may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "Indisulam may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08961",
+                        "description": "Azosemide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09015",
+                        "description": "Canrenoic acid may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "Potassium citrate may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "Efonidipine may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "Isosorbide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "Ertugliflozin may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12221",
+                        "description": "Canrenone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12670",
+                        "description": "Rolofylline may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12704",
+                        "description": "Spiradoline may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Cicletanine may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13284",
+                        "description": "Meticrane may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13405",
+                        "description": "Mefruside may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "Mebutizide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Cyclopenthiazide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13617",
+                        "description": "Clorexolone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13663",
+                        "description": "Clofenamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13708",
+                        "description": "Fenquizone may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13792",
+                        "description": "Clopamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13801",
+                        "description": "Muzolimine may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Xipamide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13989",
+                        "description": "Epitizide may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14018",
+                        "description": "Bromotheophylline may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14500",
+                        "description": "Potassium may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01345",
+                        "description": "Potassium cation may increase the excretion rate of Methylnaltrexone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The therapeutic efficacy of Tramadol can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The therapeutic efficacy of Morphine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00327",
+                        "description": "The therapeutic efficacy of Hydromorphone can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The therapeutic efficacy of Methadone can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00497",
+                        "description": "The therapeutic efficacy of Oxycodone can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00647",
+                        "description": "The therapeutic efficacy of Dextropropoxyphene can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "The therapeutic efficacy of Sufentanil can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "The therapeutic efficacy of Alfentanil can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00854",
+                        "description": "The therapeutic efficacy of Levorphanol can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "The therapeutic efficacy of Remifentanil can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00956",
+                        "description": "The therapeutic efficacy of Hydrocodone can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01081",
+                        "description": "The therapeutic efficacy of Diphenoxylate can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01192",
+                        "description": "The therapeutic efficacy of Oxymorphone can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The therapeutic efficacy of Levacetylmethadol can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01433",
+                        "description": "The therapeutic efficacy of Methadyl acetate can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01450",
+                        "description": "The therapeutic efficacy of Dihydroetorphine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01452",
+                        "description": "The therapeutic efficacy of Diamorphine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01459",
+                        "description": "The therapeutic efficacy of Bezitramide can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01466",
+                        "description": "The therapeutic efficacy of Ethylmorphine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01497",
+                        "description": "The therapeutic efficacy of Etorphine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01529",
+                        "description": "The therapeutic efficacy of Dextromoramide can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01531",
+                        "description": "The therapeutic efficacy of Desomorphine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01535",
+                        "description": "The therapeutic efficacy of Carfentanil can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01551",
+                        "description": "The therapeutic efficacy of Dihydrocodeine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01555",
+                        "description": "The therapeutic efficacy of Alphacetylmethadol can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB01565",
+                        "description": "The therapeutic efficacy of Dihydromorphine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "The therapeutic efficacy of Tapentadol can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB06738",
+                        "description": "The therapeutic efficacy of Ketobemidone can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB08861",
+                        "description": "The therapeutic efficacy of DPDPE can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB09174",
+                        "description": "The therapeutic efficacy of Lofentanil can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB11130",
+                        "description": "The therapeutic efficacy of Opium can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB11609",
+                        "description": "The therapeutic efficacy of Normethadone can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB12492",
+                        "description": "The therapeutic efficacy of Piritramide can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB13160",
+                        "description": "The therapeutic efficacy of Alphaprodine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB13454",
+                        "description": "The therapeutic efficacy of Nicomorphine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB13605",
+                        "description": "The therapeutic efficacy of Phenoperidine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB13606",
+                        "description": "The therapeutic efficacy of Phenazocine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB13787",
+                        "description": "The therapeutic efficacy of Tilidine can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB15360",
+                        "description": "The therapeutic efficacy of Carfentanil C 11 can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB15465",
+                        "description": "The therapeutic efficacy of Benzhydrocodone can be decreased when used in combination with Methylnaltrexone"
+                    },
+                    {
+                        "drugbank-id": "DB00318",
+                        "description": "The therapeutic efficacy of Methylnaltrexone can be decreased when used in combination with Codeine"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The therapeutic efficacy of Methylnaltrexone can be decreased when used in combination with Meperidine"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The therapeutic efficacy of Methylnaltrexone can be decreased when used in combination with Fentanyl"
+                    },
+                    {
+                        "drugbank-id": "DB14881",
+                        "description": "The therapeutic efficacy of Oliceridine can be decreased when used in combination with Methylnaltrexone"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

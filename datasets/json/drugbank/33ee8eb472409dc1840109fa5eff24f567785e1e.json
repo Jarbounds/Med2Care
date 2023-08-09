@@ -1,0 +1,2937 @@
+{
+    "medicine_id": "33ee8eb472409dc1840109fa5eff24f567785e1e",
+    "platform_id": "DB00046",
+    "metadata": {
+        "name": "Admelog 100 U 1mL Injection solution",
+        "composition": "100 U 1mL Insulin lispro",
+        "clinical_particulars": {
+            "therapeutic_indications": "Insulin lispro is indicated to improve glycemic control in adults and children with diabetes mellitus",
+            "contraindications": {
+                "disease": "Inappropriately high dosages relative to food intake and or energy expenditure may result in severe and sometimes prolonged and life threatening hypoglycemia Neurogenic autonomic signs and symptoms of hypoglycemia include trembling palpitations sweating anxiety hunger nausea and tingling Neuroglycopenic signs and symptoms of hypoglycemia include difficulty concentrating lethargy weakness confusion drowsiness vision changes difficulty speaking headache and dizziness Mild hypoglycemia is characterized by the presence of autonomic symptoms Moderate hypoglycemia is characterized by the presence of autonomic and neuroglycopenic symptoms Individuals may become unconscious in severe cases of hypoglycemia Rare cases of lipoatrophy or lipohypertrophy reactions have been observed",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Insulin is a natural hormone produced by beta cells of the pancreas In non diabetic individuals a basal level of insulin is supplemented with insulin spikes following meals Increased insulin secretion following meals is responsible for the metabolic changes that occur as the body transitions from a postabsorptive to absorptive state Insulin promotes cellular uptake of glucose particularly in muscle and adipose tissues promotes energy storage via glycogenesis opposes catabolism of energy stores increases DNA replication and protein synthesis by stimulating amino acid uptake by liver muscle and adipose tissue and modifies the activity of numerous enzymes involved in glycogen synthesis and glycolysis Insulin also promotes growth and is required for the actions of growth hormone e g protein synthesis cell division DNA synthesis Insulin lispro is a rapid acting insulin analogue used to mimic postprandial insulin spikes in diabetic individuals The onset of action of insulin lispro is 10 15 minutes Its activity peaks 60 minutes following subcutaneous injection and its duration of action is 4 5 hours Compared to regular human insulin insulin lispro has a more rapid onset of action and a shorter duration of action Insulin lispro is also shown to be equipotent to human insulin on a molar basis",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "Liraglutide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "Metreleptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00082",
+                        "description": "The risk or severity of hypoglycemia can be increased when Pegvisomant is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The risk or severity of adverse effects can be increased when Pioglitazone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "Pramlintide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The risk or severity of congestive heart failure can be increased when Insulin lispro is combined with Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00166",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lipoic acid is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00974",
+                        "description": "Edetic acid may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Esmolol may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Landiolol may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Moxifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Grepafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Enoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Pefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Nalidixic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Rosoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Cinoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Lomefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Gatifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Levofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Gemifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Fleroxacin"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Technetium Tc 99m ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Garenoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Nemonoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Flumequine"
+                    },
+                    {
+                        "drugbank-id": "DB11404",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Enrofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Orbifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sarafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Difloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Pazufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Prulifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Delafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sitafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Oxolinic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Rufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Pipemidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Methyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Chlorthalidone"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Benzthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01325",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Quinethazone"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13989",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Epitizide"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Protriptyline may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Amoxapine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Trimipramine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Amineptine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Dimetacrine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Butriptyline may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Dosulepin may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "Tianeptine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Oxaprotiline may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Opipramol may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Amitriptylinoxide may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Dibenzepin may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Quinupramine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Melitracen may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Lofepramine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Iprindole may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Imipramine oxide may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Nortriptyline may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Desipramine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "Dapagliflozin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "Canagliflozin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Leuprolide"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Goserelin"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Etonogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Desogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Megestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00592",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Piperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00627",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Niacin"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Epinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Norethisterone"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Pentamidine"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Ethynodiol diacetate"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Pseudoephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Sirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Etacrynic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01319",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with St John s Wort"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Mestranol"
+                    },
+                    {
+                        "drugbank-id": "DB01363",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Ephedra sinica root"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Drospirenone"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01406",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Danazol"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Everolimus"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Vorinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Estrone sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Cyproterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Temsirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Pasireotide"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Buserelin"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Histrelin"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Hydroxyprogesterone caproate"
+                    },
+                    {
+                        "drugbank-id": "DB06791",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Lanreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Triptorelin"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB09009",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Articaine"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Dienogest"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB06343",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Teprotumumab"
+                    },
+                    {
+                        "drugbank-id": "DB00621",
+                        "description": "Oxandrolone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "Testosterone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00984",
+                        "description": "Nandrolone phenpropionate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01185",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01420",
+                        "description": "Testosterone propionate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06412",
+                        "description": "Oxymetholone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06710",
+                        "description": "Methyltestosterone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06718",
+                        "description": "Stanozolol may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08804",
+                        "description": "Nandrolone decanoate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12461",
+                        "description": "GLPG 0492 may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13169",
+                        "description": "Nandrolone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13587",
+                        "description": "Mesterolone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "Testosterone cypionate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "Testosterone enanthate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Pregabalin"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Venlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Sertraline"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Zimelidine"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Dapoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Milnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Desvenlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Levomilnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Indalpine"
+                    },
+                    {
+                        "drugbank-id": "DB09270",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Ubidecarenone"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB13233",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Alaproclate"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Cibenzoline"
+                    },
+                    {
+                        "drugbank-id": "DB14025",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Clinafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Empagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB00233",
+                        "description": "Aminosalicylic acid may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "Mesalazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Sulfasalazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "Diflunisal may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "Salicylic acid may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "Balsalazide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "Olsalazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01294",
+                        "description": "Bismuth subsalicylate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06251",
+                        "description": "Dersalazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06807",
+                        "description": "Phenyl aminosalicylate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09543",
+                        "description": "Methyl salicylate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11079",
+                        "description": "Trolamine salicylate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "Nitroaspirin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13509",
+                        "description": "Aloxiprin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "Guacetisal may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "Carbaspirin calcium may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14006",
+                        "description": "Choline salicylate may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14026",
+                        "description": "Thiosalicylic acid may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "Sitagliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "Vildagliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "Bisegliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "Alogliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "Saxagliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "Gosogliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "Linagliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "Dutogliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "Teneligliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "Omarigliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "Carmegliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "Gemigliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "Anagliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "Evogliptin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "Exenatide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "Albiglutide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "Dulaglutide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "Lixisenatide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "Semaglutide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "Taspoglutide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "Tranylcypromine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "Phenelzine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "Moclobemide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "Isocarboxazid may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Pargyline may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "Minaprine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "Iproniazid may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04820",
+                        "description": "Nialamide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "Pirlindole may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "Toloxatone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09243",
+                        "description": "Hydracarbazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Methylene blue may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09246",
+                        "description": "Benmoxin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09248",
+                        "description": "Mebanazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09249",
+                        "description": "Octamoxin may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09250",
+                        "description": "Pheniprazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09251",
+                        "description": "Phenoxypropazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09252",
+                        "description": "Pivhydrazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09253",
+                        "description": "Safrazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09254",
+                        "description": "Caroxazone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "Furazolidone may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08550",
+                        "description": "7 8 Dichloro 1 2 3 4 tetrahydroisoquinoline may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13875",
+                        "description": "Harmaline may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13876",
+                        "description": "Brofaromine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "Procaine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Amphetamine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "Procarbazine may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "Linezolid may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "Safinamide may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04017",
+                        "description": "Clorgiline may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Ertugliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00311",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Ethoxzolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfadiazine"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Celecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00576",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfamethizole"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00664",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfametopyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sumatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Tamsulosin"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Bumetanide"
+                    },
+                    {
+                        "drugbank-id": "DB00891",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfapyridine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Rosuvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Diazoxide"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Diclofenamide"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Darunavir"
+                    },
+                    {
+                        "drugbank-id": "DB01298",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfacytine"
+                    },
+                    {
+                        "drugbank-id": "DB01299",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfadoxine"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Glymidine"
+                    },
+                    {
+                        "drugbank-id": "DB01581",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01582",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfamethazine"
+                    },
+                    {
+                        "drugbank-id": "DB02925",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Piretanide"
+                    },
+                    {
+                        "drugbank-id": "DB04707",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Hydroxyfasudil"
+                    },
+                    {
+                        "drugbank-id": "DB06150",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfadimethoxine"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Simeprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06729",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfaphenazole"
+                    },
+                    {
+                        "drugbank-id": "DB06821",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfameter"
+                    },
+                    {
+                        "drugbank-id": "DB07996",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with 5 2 methylpiperazine 1 sulfonyl isoquinoline"
+                    },
+                    {
+                        "drugbank-id": "DB08162",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Fasudil"
+                    },
+                    {
+                        "drugbank-id": "DB08798",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfamoxole"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08961",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Azosemide"
+                    },
+                    {
+                        "drugbank-id": "DB11389",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Clorsulon"
+                    },
+                    {
+                        "drugbank-id": "DB11461",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfachlorpyridazine"
+                    },
+                    {
+                        "drugbank-id": "DB11462",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfaethoxypyridazine"
+                    },
+                    {
+                        "drugbank-id": "DB11463",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfanitran"
+                    },
+                    {
+                        "drugbank-id": "DB11464",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfaquinoxaline"
+                    },
+                    {
+                        "drugbank-id": "DB12051",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Setrobuvir"
+                    },
+                    {
+                        "drugbank-id": "DB12921",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Chlorsulfaquinoxaline"
+                    },
+                    {
+                        "drugbank-id": "DB13214",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfadicramide"
+                    },
+                    {
+                        "drugbank-id": "DB13248",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Phthalylsulfathiazole"
+                    },
+                    {
+                        "drugbank-id": "DB13283",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfaisodimidine"
+                    },
+                    {
+                        "drugbank-id": "DB13284",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Meticrane"
+                    },
+                    {
+                        "drugbank-id": "DB13320",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfaperin"
+                    },
+                    {
+                        "drugbank-id": "DB13405",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Mefruside"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Mebutizide"
+                    },
+                    {
+                        "drugbank-id": "DB13485",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfametomidine"
+                    },
+                    {
+                        "drugbank-id": "DB13547",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfatolamide"
+                    },
+                    {
+                        "drugbank-id": "DB13556",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfamazone"
+                    },
+                    {
+                        "drugbank-id": "DB13580",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Succinylsulfathiazole"
+                    },
+                    {
+                        "drugbank-id": "DB13617",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Clorexolone"
+                    },
+                    {
+                        "drugbank-id": "DB13663",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Clofenamide"
+                    },
+                    {
+                        "drugbank-id": "DB13699",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfathiourea"
+                    },
+                    {
+                        "drugbank-id": "DB13708",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Fenquizone"
+                    },
+                    {
+                        "drugbank-id": "DB13726",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfaguanidine"
+                    },
+                    {
+                        "drugbank-id": "DB13773",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Sulfamethoxypyridazine"
+                    },
+                    {
+                        "drugbank-id": "DB13792",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Clopamide"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB14033",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Acetyl sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Methazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Indisulam"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Fluvoxamine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Nicotine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Bortezomib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00201",
+                        "description": "The metabolism of Caffeine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "The metabolism of Carmustine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The metabolism of Lidocaine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The metabolism of Conjugated estrogens can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The metabolism of Ropivacaine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The metabolism of Zolmitriptan can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Acetaminophen can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "The metabolism of Chlorzoxazone can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The metabolism of Mirtazapine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "The metabolism of Mexiletine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The metabolism of Tacrine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The metabolism of Triamterene can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The metabolism of Promazine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Zolpidem can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00442",
+                        "description": "The metabolism of Entecavir can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The metabolism of Nabumetone can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The metabolism of Fluoxetine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "The metabolism of Flutamide can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Rofecoxib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The metabolism of Cinnarizine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The metabolism of Diclofenac can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The metabolism of Imatinib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The metabolism of Guanabenz can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The metabolism of Pemetrexed can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Verapamil can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Paroxetine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00730",
+                        "description": "The metabolism of Thiabendazole can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "The metabolism of Riluzole can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00744",
+                        "description": "The metabolism of Zileuton can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The metabolism of Clopidogrel can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The metabolism of Acyclovir can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Naproxen can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The metabolism of Pentoxifylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The metabolism of Trifluoperazine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The metabolism of Perphenazine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Terbinafine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The metabolism of Ranitidine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Ethanol can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The metabolism of Maprotiline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "The metabolism of Alosetron can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "The metabolism of Ramelteon can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "The metabolism of Azathioprine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The metabolism of Frovatriptan can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The metabolism of Levobupivacaine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01012",
+                        "description": "The metabolism of Cinacalcet can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Selegiline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01056",
+                        "description": "The metabolism of Tocainide can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01058",
+                        "description": "The metabolism of Praziquantel can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The metabolism of Melatonin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The metabolism of Primaquine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01094",
+                        "description": "The metabolism of Hesperetin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The metabolism of Leflunomide can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Cilostazol can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Domperidone can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01191",
+                        "description": "The metabolism of Dexfenfluramine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01303",
+                        "description": "The metabolism of Oxtriphylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The metabolism of Rasagiline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01412",
+                        "description": "The metabolism of Theobromine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Aminophenazone can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The metabolism of Antipyrine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01482",
+                        "description": "The metabolism of Fenethylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "The metabolism of Bromazepam can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The metabolism of Thiothixene can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Etoricoxib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Genistein can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01667",
+                        "description": "The metabolism of 8 azaguanine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB02134",
+                        "description": "The metabolism of Xanthine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB02489",
+                        "description": "The metabolism of 9 Methylguanine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB02568",
+                        "description": "The metabolism of Peldesine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The metabolism of Resveratrol can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The metabolism of Phenacetin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04076",
+                        "description": "The metabolism of Hypoxanthine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04356",
+                        "description": "The metabolism of 9 Deazaguanine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Flunarizine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "The metabolism of Lorcaserin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The metabolism of Lofexidine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04951",
+                        "description": "The metabolism of Pirfenidone can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Apremilast can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The metabolism of Mianserin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The metabolism of Eltrombopag can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06235",
+                        "description": "The metabolism of Vadimezan can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06479",
+                        "description": "The metabolism of Propentofylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Pazopanib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "The metabolism of Agomelatine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Benzyl alcohol can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Capsaicin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of R warfarin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Perampanel can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Stiripentol can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "The metabolism of Zotepine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The metabolism of Doxofylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Propacetamol can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09290",
+                        "description": "The metabolism of Ramosetron can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11919",
+                        "description": "The metabolism of 6 O benzylguanine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The metabolism of Binimetinib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The metabolism of Triclabendazole can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Rucaparib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12406",
+                        "description": "The metabolism of Lisofylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12531",
+                        "description": "The metabolism of Lobucavir can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12926",
+                        "description": "The metabolism of Cafedrine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The metabolism of Theodrenaline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "The metabolism of Dihydralazine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13203",
+                        "description": "The metabolism of Bamifylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13449",
+                        "description": "The metabolism of Proxyphylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13573",
+                        "description": "The metabolism of Acefylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13592",
+                        "description": "The metabolism of Etamiphylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13634",
+                        "description": "The metabolism of Pentifylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13812",
+                        "description": "The metabolism of Bufylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Estradiol acetate can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Estradiol dienanthate can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14018",
+                        "description": "The metabolism of Bromotheophylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14132",
+                        "description": "The metabolism of 8 chlorotheophylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Nifedipine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Istradefylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Azelastine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Efavirenz can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04889",
+                        "description": "The metabolism of Bicifadine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB05708",
+                        "description": "The metabolism of GTS 21 can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The metabolism of Flecainide can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Amitriptyline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The metabolism of Doxepin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Mephenytoin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "The metabolism of Cyclobenzaprine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The metabolism of Selumetinib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The metabolism of Estrone can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00299",
+                        "description": "The metabolism of Penciclovir can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The metabolism of Anagrelide can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Sorafenib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Erlotinib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The metabolism of Fluorouracil can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Warfarin can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The metabolism of Tizanidine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Etoposide can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "The metabolism of Dacarbazine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Acenocoumarol can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The metabolism of Bendamustine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Tegafur can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Enasidenib can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Tamoxifen can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The metabolism of Imipramine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Clomipramine can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin human is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin glargine"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin pork"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Glimepiride"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Acarbose"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Acetohexamide"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Miglitol"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Chlorpropamide"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Nateglinide"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Tolazamide"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Repaglinide"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Phenformin"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Glyburide"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Glipizide"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Gliclazide"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Tolbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Gliquidone"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Mitiglinide"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Sunitinib"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Mecasermin"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Glisoxepide"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin aspart"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin detemir"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin glulisine"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with AICA ribonucleotide"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Buformin"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Voglibose"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with NN344"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with NBI 6024"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Glibornuride"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Benfluorex"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Netoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Rivoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Ciglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin beef"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin degludec"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin peglispro"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Insulin tregopil"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Ipragliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Allicin"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Tofogliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with 2 4 thiazolidinedione"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Sotagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Balaglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Remogliflozin etabonate"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Carbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Guar gum"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Metahexamide"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Englitazone"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Tirzepatide"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Gastric inhibitory polypeptide"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of hypoglycemia can be increased when Isradipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of hypoglycemia can be increased when Diltiazem is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of hypoglycemia can be increased when Trimethadione is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The risk or severity of hypoglycemia can be increased when Amlodipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nimodipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nisoldipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lercanidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lamotrigine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of hypoglycemia can be increased when Ethosuximide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nicardipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The risk or severity of hypoglycemia can be increased when Magnesium sulfate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The risk or severity of hypoglycemia can be increased when Loperamide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nitrendipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The risk or severity of hypoglycemia can be increased when Perhexiline is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The risk or severity of hypoglycemia can be increased when Bepridil is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of hypoglycemia can be increased when Mibefradil is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nimesulide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of hypoglycemia can be increased when Prenylamine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "The risk or severity of hypoglycemia can be increased when Cyclandelate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of hypoglycemia can be increased when Fluspirilene is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The risk or severity of hypoglycemia can be increased when Clevidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of hypoglycemia can be increased when Methsuximide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "The risk or severity of hypoglycemia can be increased when Seletracetam is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nylidrin is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "The risk or severity of hypoglycemia can be increased when Ziconotide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "The risk or severity of hypoglycemia can be increased when Dotarizine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "The risk or severity of hypoglycemia can be increased when Xylometazoline is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nilvadipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The risk or severity of hypoglycemia can be increased when Tranilast is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The risk or severity of hypoglycemia can be increased when Agmatine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of hypoglycemia can be increased when Fendiline is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of hypoglycemia can be increased when Eperisone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of hypoglycemia can be increased when Trimebutine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of hypoglycemia can be increased when Pinaverium is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The risk or severity of hypoglycemia can be increased when Tolfenamic acid is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The risk or severity of hypoglycemia can be increased when Barnidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of hypoglycemia can be increased when Aranidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "The risk or severity of hypoglycemia can be increased when Azelnidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of hypoglycemia can be increased when Benidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The risk or severity of hypoglycemia can be increased when Cilnidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "The risk or severity of hypoglycemia can be increased when Darodipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of hypoglycemia can be increased when Efonidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lacidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The risk or severity of hypoglycemia can be increased when Manidipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of hypoglycemia can be increased when Niguldipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "The risk or severity of hypoglycemia can be increased when Niludipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "The risk or severity of hypoglycemia can be increased when Carboxyamidotriazole is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The risk or severity of hypoglycemia can be increased when Naftopidil is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of hypoglycemia can be increased when Tetrahydropalmatine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "The risk or severity of hypoglycemia can be increased when Vinpocetine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of hypoglycemia can be increased when Gallopamil is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of hypoglycemia can be increased when Bencyclane is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of hypoglycemia can be increased when Otilonium is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of hypoglycemia can be increased when Terodiline is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lidoflazine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of hypoglycemia can be increased when Penfluridol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "The risk or severity of hypoglycemia can be increased when Caroverine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The risk or severity of hypoglycemia can be increased when WIN 55212 2 is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "The risk or severity of hypoglycemia can be increased when Fish oil is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of hypoglycemia can be increased when Dexverapamil is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "The risk or severity of hypoglycemia can be increased when Emopamil is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lomerizine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The risk or severity of hypoglycemia can be increased when Tetrandrine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The risk or severity of hypoglycemia can be increased when Dexniguldipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The risk or severity of hypoglycemia can be increased when Felodipine is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of hypoglycemia can be increased when Amiodarone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Phentermine"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The metabolism of Ropinirole can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The therapeutic efficacy of Macimorelin can be decreased when used in combination with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Liothyronine"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The risk or severity of adverse effects can be increased when Insulin lispro is combined with Metformin"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "The risk or severity of hypoglycemia can be increased when Benazepril is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The risk or severity of adverse effects can be increased when Testosterone undecanoate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of hypoglycemia can be increased when Acetylsalicylic acid is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Baclofen"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The risk or severity of hypoglycemia can be increased when Sotalol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of hypoglycemia can be increased when Insulin lispro is combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00040",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Glucagon"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Metoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Atenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Timolol"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Labetalol"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Nadolol"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Practolol"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Bufuralol"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Bopindolol"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Arotinolol"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Levobetaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Anisodamine"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Bucindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Mepindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Tertatolol"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The therapeutic efficacy of Betaxolol can be increased when used in combination with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The therapeutic efficacy of Propranolol can be increased when used in combination with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The therapeutic efficacy of Carvedilol can be increased when used in combination with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The therapeutic efficacy of Propafenone can be increased when used in combination with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The therapeutic efficacy of Insulin lispro can be increased when used in combination with Hydroxychloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The therapeutic efficacy of Metoclopramide can be increased when used in combination with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The risk or severity of hyperglycemia can be increased when Beclomethasone dipropionate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The risk or severity of hyperglycemia can be increased when Betamethasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The risk or severity of hyperglycemia can be increased when Triamcinolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fludrocortisone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The risk or severity of hyperglycemia can be increased when Mometasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The risk or severity of hyperglycemia can be increased when Methylprednisolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The risk or severity of hyperglycemia can be increased when Dexamethasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The risk or severity of hyperglycemia can be increased when Corticotropin is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The risk or severity of hyperglycemia can be increased when Cortisone acetate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The risk or severity of hyperglycemia can be increased when Paramethasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The risk or severity of hyperglycemia can be increased when Ciclesonide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluticasone furoate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluprednidene is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluocortolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The risk or severity of hyperglycemia can be increased when Meprednisone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The risk or severity of hyperglycemia can be increased when Dexamethasone isonicotinate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clobetasol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The risk or severity of hyperglycemia can be increased when Deflazacort is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The risk or severity of hyperglycemia can be increased when Cortivazol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednylidene is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The risk or severity of hyperglycemia can be increased when Cloprednol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluticasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The risk or severity of hyperglycemia can be increased when Mometasone furoate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The risk or severity of hyperglycemia can be increased when Flunisolide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The risk or severity of hyperglycemia can be increased when Trilostane is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The risk or severity of hyperglycemia can be increased when Budesonide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The risk or severity of hyperglycemia can be increased when Aldosterone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluprednisolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The risk or severity of hyperglycemia can be increased when Melengestrol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The risk or severity of hyperglycemia can be increased when Cortisone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00223",
+                        "description": "The risk or severity of hyperglycemia can be increased when Diflorasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00240",
+                        "description": "The risk or severity of hyperglycemia can be increased when Alclometasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00253",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00288",
+                        "description": "The risk or severity of hyperglycemia can be increased when Amcinonide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluorometholone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00547",
+                        "description": "The risk or severity of hyperglycemia can be increased when Desoximetasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluticasone propionate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluocinolone acetonide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00596",
+                        "description": "The risk or severity of hyperglycemia can be increased when Ulobetasol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00663",
+                        "description": "The risk or severity of hyperglycemia can be increased when Flumethasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00838",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clocortolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00846",
+                        "description": "The risk or severity of hyperglycemia can be increased when Flurandrenolide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00896",
+                        "description": "The risk or severity of hyperglycemia can be increased when Rimexolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clobetasol propionate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluocinonide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01130",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednicarbate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01260",
+                        "description": "The risk or severity of hyperglycemia can be increased when Desonide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06781",
+                        "description": "The risk or severity of hyperglycemia can be increased when Difluprednate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB06786",
+                        "description": "The risk or severity of hyperglycemia can be increased when Halcinonide is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09091",
+                        "description": "The risk or severity of hyperglycemia can be increased when Tixocortol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The risk or severity of hyperglycemia can be increased when Difluocortolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13158",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clobetasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluocortin is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluperolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13664",
+                        "description": "The risk or severity of hyperglycemia can be increased when Formocortal is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13728",
+                        "description": "The risk or severity of hyperglycemia can be increased when Halometasone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluclorolone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14538",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone aceponate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone acetate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone butyrate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14541",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone cypionate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14543",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone probutate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14544",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone valerate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone succinate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00873",
+                        "description": "The risk or severity of hyperglycemia can be increased when Loteprednol is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisolone phosphate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisolone hemisuccinate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14634",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluprednidene acetate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14643",
+                        "description": "The risk or severity of hyperglycemia can be increased when Methylprednisolone aceponate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The risk or severity of hyperglycemia can be increased when Methylprednisolone hemisuccinate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisone acetate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clocortolone acetate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The risk or severity of hyperglycemia can be increased when Melengestrol acetate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The risk or severity of hyperglycemia can be increased when Betamethasone phosphate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB15566",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisolone acetate is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Levothyroxine"
+                    },
+                    {
+                        "drugbank-id": "DB00024",
+                        "description": "Thyrotropin alfa may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "Liotrix may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB03604",
+                        "description": "Tiratricol may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB09100",
+                        "description": "Thyroid porcine may decrease the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB15093",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Somapacitan"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

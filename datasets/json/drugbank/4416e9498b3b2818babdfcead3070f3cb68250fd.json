@@ -1,0 +1,2913 @@
+{
+    "medicine_id": "4416e9498b3b2818babdfcead3070f3cb68250fd",
+    "platform_id": "DB12026",
+    "metadata": {
+        "name": "Vosevi 400 MG Tablet film coated",
+        "composition": "400 MG Voxilaprevir",
+        "clinical_particulars": {
+            "therapeutic_indications": "Vosevi Voxilaprevir DB08934 DB11613 is approved for use in patients with genotypes 1 6 who have been previously treated with an NS5A inhibitor or patients with genotypes 1a or 3 infection who have previously been treated with an HCV regimen containing DB08934 without an NS5A inhibitor L935",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Voxilaprevir is a direct acting antiviral agent that targets viral NS3 4A protein and causes a decrease in serum HCV RNA levels It disrupts HCV replication by specifically inhibiting the critical functions of NS3 4A protein in the replication complex It does not appear to prolong the QT interval even when given at 9 times the maximum recommended dose FDA Label",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB08916",
+                        "description": "The serum concentration of Afatinib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The serum concentration of Bosutinib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The serum concentration of Brentuximab vedotin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The serum concentration of Colchicine can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "The serum concentration of Edoxaban can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09027",
+                        "description": "The serum concentration of Ledipasvir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09049",
+                        "description": "The serum concentration of Naloxegol can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The serum concentration of Pazopanib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The serum concentration of Prucalopride can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB06207",
+                        "description": "The serum concentration of Silodosin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The serum concentration of Topotecan can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB00022",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Peginterferon alfa 2b"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The serum concentration of Voxilaprevir can be decreased when it is combined with Leflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The serum concentration of Voxilaprevir can be decreased when it is combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The serum concentration of Everolimus can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01220",
+                        "description": "The serum concentration of Rifaximin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB05812",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Abiraterone"
+                    },
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "The serum concentration of Eluxadoline can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The excretion of Vincristine can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Cyproterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The serum concentration of Doxorubicin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The serum concentration of Voxilaprevir can be decreased when it is combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Carbamazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00201",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Caffeine"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Moxifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Mexiletine"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Alosetron"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Gatifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Simeprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pazufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Lidocaine"
+                    },
+                    {
+                        "drugbank-id": "DB11837",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Osilodrostat"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Secobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Bexarotene"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Diltiazem"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Spironolactone"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nabilone"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Irbesartan"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Oxybutynin"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pioglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The metabolism of Levothyroxine can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00455",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Loratadine"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Trimethoprim"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Zafirlukast"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Clopidogrel"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Candesartan cilexetil"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB08911",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Trametinib"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Mometasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The metabolism of Felodipine can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The serum concentration of Voxilaprevir can be decreased when it is combined with Osimertinib"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "The serum concentration of Betrixaban can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The serum concentration of Voxilaprevir can be decreased when it is combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Voxilaprevir can be decreased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Isavuconazonium"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "Imatinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Sulfasalazine may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01051",
+                        "description": "Novobiocin may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01094",
+                        "description": "Hesperetin may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "Rabeprazole may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "Genistein may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "Topiroxostat may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB02115",
+                        "description": "Daidzin may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "Fusidic acid may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB03467",
+                        "description": "Naringenin may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "Vandetanib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "Eltrombopag may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "Safinamide may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "Cannabidiol may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "Palbociclib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "Olaparib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "Glasdegib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "Fostamatinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00158",
+                        "description": "Voxilaprevir may decrease the excretion rate of Folic acid which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "Voxilaprevir may decrease the excretion rate of Cladribine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "Voxilaprevir may decrease the excretion rate of Allopurinol which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "Voxilaprevir may decrease the excretion rate of Celecoxib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "Voxilaprevir may decrease the excretion rate of Oxaliplatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Voxilaprevir may decrease the excretion rate of Methotrexate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "Voxilaprevir may decrease the excretion rate of Clofarabine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "Voxilaprevir may decrease the excretion rate of Tamoxifen which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00698",
+                        "description": "Voxilaprevir may decrease the excretion rate of Nitrofurantoin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "Voxilaprevir may decrease the excretion rate of Riluzole which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "Voxilaprevir may decrease the excretion rate of Rosuvastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB03496",
+                        "description": "Voxilaprevir may decrease the excretion rate of Alvocidib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "Voxilaprevir may decrease the excretion rate of Riociguat which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "Voxilaprevir may decrease the excretion rate of Lenvatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "Voxilaprevir may decrease the excretion rate of Fimasartan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "Voxilaprevir may decrease the excretion rate of Delafloxacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "Gilteritinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "Medical Cannabis may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14011",
+                        "description": "Nabiximols may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12500",
+                        "description": "Fedratinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00470",
+                        "description": "Dronabinol may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "Voxilaprevir may decrease the excretion rate of Tazemetostat which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "Pantoprazole may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "Nelfinavir may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "Diethylstilbestrol may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "Gefitinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "Omeprazole may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "Beclomethasone dipropionate may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "Progesterone may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "Lansoprazole may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "Estradiol may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "Buprenorphine may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "Telmisartan may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "Dexamethasone may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "Sunitinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04216",
+                        "description": "Quercetin may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08828",
+                        "description": "Vismodegib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "Rilpivirine may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11363",
+                        "description": "Alectinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "Voxilaprevir may decrease the excretion rate of Conjugated estrogens which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "Voxilaprevir may decrease the excretion rate of Cerivastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Voxilaprevir may decrease the excretion rate of Teniposide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "Voxilaprevir may decrease the excretion rate of Prazosin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00481",
+                        "description": "Voxilaprevir may decrease the excretion rate of Raloxifene which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "Voxilaprevir may decrease the excretion rate of Zidovudine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "Voxilaprevir may decrease the excretion rate of Ivermectin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "Voxilaprevir may decrease the excretion rate of Testosterone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "Voxilaprevir may decrease the excretion rate of Sumatriptan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "Voxilaprevir may decrease the excretion rate of Mycophenolate mofetil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "Voxilaprevir may decrease the excretion rate of Daunorubicin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00709",
+                        "description": "Voxilaprevir may decrease the excretion rate of Lamivudine which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "Voxilaprevir may decrease the excretion rate of Irinotecan which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "Voxilaprevir may decrease the excretion rate of Donepezil which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00973",
+                        "description": "Voxilaprevir may decrease the excretion rate of Ezetimibe which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "Voxilaprevir may decrease the excretion rate of Glyburide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "Voxilaprevir may decrease the excretion rate of Mitoxantrone which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04690",
+                        "description": "Voxilaprevir may decrease the excretion rate of Camptothecin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "Voxilaprevir may decrease the excretion rate of Pitavastatin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "Voxilaprevir may decrease the excretion rate of Tenofovir alafenamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "Voxilaprevir may decrease the excretion rate of Testosterone cypionate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "Voxilaprevir may decrease the excretion rate of Testosterone enanthate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "Voxilaprevir may decrease the excretion rate of Testosterone undecanoate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "Letermovir may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "Estradiol acetate may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "Estradiol benzoate may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "Estradiol cypionate may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "Estradiol dienanthate may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "Estradiol valerate may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "Taurocholic acid may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB05928",
+                        "description": "Dovitinib may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "Voxilaprevir may decrease the excretion rate of Selumetinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB06813",
+                        "description": "Voxilaprevir may decrease the excretion rate of Pralatrexate which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "Voxilaprevir may decrease the excretion rate of Ripretinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "Estrone may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "Clofazimine may decrease the excretion rate of Voxilaprevir which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Tenofovir disoproxil"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB04851",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Biricodar"
+                    },
+                    {
+                        "drugbank-id": "DB04881",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Elacridar"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB06191",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Zosuquidar"
+                    },
+                    {
+                        "drugbank-id": "DB06240",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Tariquidar"
+                    },
+                    {
+                        "drugbank-id": "DB07348",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Brefeldin A"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Ivacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Linagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Mirabegron"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Canagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Suvorexant"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Netupitant"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Daclatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09291",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Rolapitant"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Paritaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Asunaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11712",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Tezacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Neratinib"
+                    },
+                    {
+                        "drugbank-id": "DB11869",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Valspodar"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The serum concentration of Pravastatin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The serum concentration of Morphine can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "The serum concentration of Clobazam can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The serum concentration of Mannitol can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00882",
+                        "description": "The serum concentration of Clomifene can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The serum concentration of Sitagliptin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The serum concentration of Indacaterol can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The serum concentration of Ambrisentan can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The serum concentration of Apixaban can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06670",
+                        "description": "The serum concentration of Odanacatib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The serum concentration of Dolutegravir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The serum concentration of Umeclidinium can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The serum concentration of Nintedanib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09161",
+                        "description": "The serum concentration of Technetium Tc 99m sestamibi can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The serum concentration of Dasabuvir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The serum concentration of Ombitasvir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The serum concentration of Selexipag can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The serum concentration of Elbasvir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11575",
+                        "description": "The serum concentration of Grazoprevir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The serum concentration of Talinolol can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The serum concentration of Baricitinib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The serum concentration of Ertugliflozin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The serum concentration of Duvelisib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The serum concentration of Elagolix can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The serum concentration of Avatrombopag can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The serum concentration of Rucaparib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12836",
+                        "description": "The serum concentration of Grapiprant can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13125",
+                        "description": "The serum concentration of Lusutrombopag can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The serum concentration of Pibrentasvir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The serum concentration of Glecaprevir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The serum concentration of Tenofovir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The serum concentration of Ivosidenib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Sarecycline"
+                    },
+                    {
+                        "drugbank-id": "DB12799",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Laniquidar"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14069",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with ONT 093"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The serum concentration of Conivaptan can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The serum concentration of Tipranavir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The serum concentration of Dronedarone can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The serum concentration of Lomitapide can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The serum concentration of Eliglustat can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Posaconazole"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Telaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Enzalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Idelalisib"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13007",
+                        "description": "The serum concentration of Enfortumab vedotin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The serum concentration of Lemborexant can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14723",
+                        "description": "The serum concentration of Larotrectinib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The serum concentration of Remdesivir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The serum concentration of Prednisolone phosphate can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The serum concentration of Belantamab mafodotin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "The serum concentration of Dabigatran etexilate can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Aminohippuric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00583",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Levocarnitine"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB01892",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Hyperforin"
+                    },
+                    {
+                        "drugbank-id": "DB04850",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Posizolid"
+                    },
+                    {
+                        "drugbank-id": "DB06151",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Acetylcysteine"
+                    },
+                    {
+                        "drugbank-id": "DB08862",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Sacubitril"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Silibinin"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The excretion of Penicillamine can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Dinoprostone can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06199",
+                        "description": "The excretion of Atrasentan can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06721",
+                        "description": "The excretion of Gimatecan can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "The excretion of Temocapril can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08884",
+                        "description": "The excretion of Gadoxetic acid can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09137",
+                        "description": "The excretion of Technetium Tc 99m mebrofenin can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12319",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Benzbromarone"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Pexidartinib"
+                    },
+                    {
+                        "drugbank-id": "DB13139",
+                        "description": "The excretion of Levosalbutamol can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The excretion of Bosentan can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Elexacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00520",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Caspofungin"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Amprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The excretion of Enalapril can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Darunavir"
+                    },
+                    {
+                        "drugbank-id": "DB11936",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Bempedoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04540",
+                        "description": "Cholesterol may increase the excretion rate of Voxilaprevir which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "Venlafaxine may increase the excretion rate of Voxilaprevir which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The serum concentration of Cyclosporine can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The serum concentration of Sirolimus can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The serum concentration of Quinidine can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The serum concentration of Digitoxin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The serum concentration of Temsirolimus can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Dacomitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Etoposide"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Dactinomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Cabazitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Venetoclax"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The serum concentration of Cobimetinib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The serum concentration of Trastuzumab emtansine can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB05889",
+                        "description": "The serum concentration of Inotuzumab ozogamicin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The serum concentration of Romidepsin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The serum concentration of Panobinostat can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08889",
+                        "description": "The serum concentration of Carfilzomib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The serum concentration of Pomalidomide can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The serum concentration of Ceritinib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The serum concentration of Vinflunine can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11760",
+                        "description": "The serum concentration of Talazoparib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The serum concentration of Copanlisib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The serum concentration of Dasatinib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The serum concentration of Tolvaptan can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Bendamustine"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Binimetinib"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Axitinib"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Abemaciclib"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Bortezomib"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "The serum concentration of Gemcitabine can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The serum concentration of Cabergoline can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The serum concentration of Trimipramine can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The serum concentration of Nortriptyline can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09046",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Metreleptin"
+                    },
+                    {
+                        "drugbank-id": "DB00205",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB08875",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cabozantinib"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fenofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00471",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Montelukast"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00665",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nilutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Sulfinpyrazone"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Bezafibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Liotrix"
+                    },
+                    {
+                        "drugbank-id": "DB01698",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rutin"
+                    },
+                    {
+                        "drugbank-id": "DB04725",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Licofelone"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB06729",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Sulfaphenazole"
+                    },
+                    {
+                        "drugbank-id": "DB11632",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Opicapone"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Triclabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Mefenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Losartan"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Metronidazole"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Mometasone"
+                    },
+                    {
+                        "drugbank-id": "DB00615",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Rifabutin"
+                    },
+                    {
+                        "drugbank-id": "DB00400",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Griseofulvin"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Cyclophosphamide"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Ifosfamide"
+                    },
+                    {
+                        "drugbank-id": "DB01201",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Rifapentine"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Hydrocortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Hydrocortisone succinate"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Hydrocortisone"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Betamethasone"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Hydrocortisone butyrate"
+                    },
+                    {
+                        "drugbank-id": "DB14542",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Hydrocortisone phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nicotine"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Trimethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Sulfadiazine"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Eszopiclone"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Mephenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00617",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Paramethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tretinoin"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Naproxen"
+                    },
+                    {
+                        "drugbank-id": "DB00799",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tazarotene"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Terbinafine"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Repaglinide"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Almotriptan"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Atorvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tolbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Zopiclone"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Halofantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ketamine"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Mestranol"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Aminophenazone"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Antipyrine"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Beraprost"
+                    },
+                    {
+                        "drugbank-id": "DB06510",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Muraglitazar"
+                    },
+                    {
+                        "drugbank-id": "DB06738",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ketobemidone"
+                    },
+                    {
+                        "drugbank-id": "DB06739",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Seratrodast"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Perospirone"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Vortioxetine"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Olodaterol"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Netoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rivoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ciglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Propacetamol"
+                    },
+                    {
+                        "drugbank-id": "DB12130",
+                        "description": "The metabolism of Lorlatinib can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The metabolism of Balaglitazone can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The metabolism of S Warfarin can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Istradefylline"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dexibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB08502",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Capravirine"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ketorolac"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Chloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Amodiaquine"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Azelastine"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Selegiline"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Domperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01217",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Anastrozole"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Benzyl alcohol"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Levomilnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Apomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Hydroxychloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The metabolism of Fluorouracil can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Brigatinib can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ponatinib"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Erlotinib"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tegafur"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fosphenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB09185",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Viloxazine"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pipemidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00238",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nevirapine"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Meperidine can be increased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin human"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin glargine"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin pork"
+                    },
+                    {
+                        "drugbank-id": "DB00170",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Menadione"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Phenylephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00428",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Streptozocin"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin glulisine"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with NN344"
+                    },
+                    {
+                        "drugbank-id": "DB06413",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Armodafinil"
+                    },
+                    {
+                        "drugbank-id": "DB06732",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with beta Naphthoflavone"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin degludec"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin peglispro"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin tregopil"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Insulin beef"
+                    },
+                    {
+                        "drugbank-id": "DB00607",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Nafcillin"
+                    },
+                    {
+                        "drugbank-id": "DB00745",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Modafinil"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Primaquine"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Isoniazid"
+                    },
+                    {
+                        "drugbank-id": "DB00008",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Peginterferon alfa 2a"
+                    },
+                    {
+                        "drugbank-id": "DB00011",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon alfa n1"
+                    },
+                    {
+                        "drugbank-id": "DB00018",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon alfa n3"
+                    },
+                    {
+                        "drugbank-id": "DB00033",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon gamma 1b"
+                    },
+                    {
+                        "drugbank-id": "DB00034",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon alfa 2a Recombinant"
+                    },
+                    {
+                        "drugbank-id": "DB00060",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon beta 1a"
+                    },
+                    {
+                        "drugbank-id": "DB00068",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon beta 1b"
+                    },
+                    {
+                        "drugbank-id": "DB00069",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon alfacon 1"
+                    },
+                    {
+                        "drugbank-id": "DB00105",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon alfa 2b"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ticlopidine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nitric Oxide"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00553",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Methoxsalen"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dexmedetomidine"
+                    },
+                    {
+                        "drugbank-id": "DB00730",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Thiabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nalidixic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rosoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cinoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Lomefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tegaserod"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Gemifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Resveratrol"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Estrone sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB05396",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Albinterferon Alfa 2B"
+                    },
+                    {
+                        "drugbank-id": "DB05990",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Obeticholic acid"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Garenoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nemonoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06803",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Niclosamide"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Flumequine"
+                    },
+                    {
+                        "drugbank-id": "DB09122",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Peginterferon beta 1a"
+                    },
+                    {
+                        "drugbank-id": "DB11198",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Peppermint oil"
+                    },
+                    {
+                        "drugbank-id": "DB11404",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Enrofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Orbifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Sarafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Difloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Prulifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11994",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Diacerein"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13174",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Sitafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Oxolinic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13975",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Black cohosh"
+                    },
+                    {
+                        "drugbank-id": "DB15119",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ropeginterferon alfa 2b"
+                    },
+                    {
+                        "drugbank-id": "DB15131",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon alfa 2c"
+                    },
+                    {
+                        "drugbank-id": "DB12814",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cepeginterferon alfa 2B"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Methimazole"
+                    },
+                    {
+                        "drugbank-id": "DB06442",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Avasimibe"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Stiripentol"
+                    },
+                    {
+                        "drugbank-id": "DB14635",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Curcumin sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Grepafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fluoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ondansetron"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Levofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dapagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB05258",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Interferon alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Anagrelide"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Carmustine"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ropivacaine"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Zolmitriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Chlorzoxazone"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Triamterene"
+                    },
+                    {
+                        "drugbank-id": "DB00442",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Entecavir"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Nabumetone"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Flutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cinnarizine"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Guanabenz"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pemetrexed"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tizanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00744",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Zileuton"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Acyclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pentoxifylline"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dacarbazine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ramelteon"
+                    },
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Azathioprine"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Frovatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Levobupivacaine"
+                    },
+                    {
+                        "drugbank-id": "DB01012",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cinacalcet"
+                    },
+                    {
+                        "drugbank-id": "DB01056",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tocainide"
+                    },
+                    {
+                        "drugbank-id": "DB01058",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Praziquantel"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Melatonin"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cilostazol"
+                    },
+                    {
+                        "drugbank-id": "DB01191",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Dexfenfluramine"
+                    },
+                    {
+                        "drugbank-id": "DB01303",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Oxtriphylline"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rasagiline"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01412",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Theobromine"
+                    },
+                    {
+                        "drugbank-id": "DB01482",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fenethylline"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Bromazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB01667",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with 8 azaguanine"
+                    },
+                    {
+                        "drugbank-id": "DB02134",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Xanthine"
+                    },
+                    {
+                        "drugbank-id": "DB02489",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with 9 Methylguanine"
+                    },
+                    {
+                        "drugbank-id": "DB02568",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Peldesine"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Phenacetin"
+                    },
+                    {
+                        "drugbank-id": "DB04076",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Hypoxanthine"
+                    },
+                    {
+                        "drugbank-id": "DB04356",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with 9 Deazaguanine"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Flunarizine"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Lorcaserin"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Mianserin"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06235",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Vadimezan"
+                    },
+                    {
+                        "drugbank-id": "DB06479",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Propentofylline"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Agomelatine"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Capsaicin"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Perampanel"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tasimelteon"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Zotepine"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Doxofylline"
+                    },
+                    {
+                        "drugbank-id": "DB09290",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ramosetron"
+                    },
+                    {
+                        "drugbank-id": "DB11919",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with 6 O benzylguanine"
+                    },
+                    {
+                        "drugbank-id": "DB12406",
+                        "description": "The metabolism of Lisofylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12531",
+                        "description": "The metabolism of Lobucavir can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12926",
+                        "description": "The metabolism of Cafedrine can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The metabolism of Theodrenaline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13203",
+                        "description": "The metabolism of Bamifylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13449",
+                        "description": "The metabolism of Proxyphylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13573",
+                        "description": "The metabolism of Acefylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13592",
+                        "description": "The metabolism of Etamiphylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13634",
+                        "description": "The metabolism of Pentifylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13812",
+                        "description": "The metabolism of Bufylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14018",
+                        "description": "The metabolism of Bromotheophylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14132",
+                        "description": "The metabolism of 8 chlorotheophylline can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB04889",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Bicifadine"
+                    },
+                    {
+                        "drugbank-id": "DB05708",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with GTS 21"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Theophylline"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Zolpidem"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Cyclobenzaprine"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Aminophylline"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Acetaminophen"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Tacrine"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Albendazole"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Clonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ranitidine"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Flecainide"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB04951",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pirfenidone"
+                    },
+                    {
+                        "drugbank-id": "DB00299",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Penciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Fluvoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Enoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rofecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Technetium Tc 99m ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB14025",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Clinafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB14029",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Furafylline"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Midostaurin"
+                    },
+                    {
+                        "drugbank-id": "DB10317",
+                        "description": "The therapeutic efficacy of Rubella virus vaccine can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB10343",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain tice live antigen can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB10804",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain connaught live antigen can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB10805",
+                        "description": "The therapeutic efficacy of Yellow Fever Vaccine can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11003",
+                        "description": "The therapeutic efficacy of Anthrax vaccine can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11050",
+                        "description": "The therapeutic efficacy of Typhoid Vaccine Live can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12386",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain danish 1331 live antigen can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14409",
+                        "description": "The therapeutic efficacy of Human adenovirus e serotype 4 strain cl 68578 antigen can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14685",
+                        "description": "The therapeutic efficacy of Adenovirus type 7 vaccine live can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB10318",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Live attenuated can be decreased when used in combination with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Roxithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB05016",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Ataluren"
+                    },
+                    {
+                        "drugbank-id": "DB06749",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Ginsenoside Rb1"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The excretion of Liothyronine can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The excretion of Cholic Acid can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09142",
+                        "description": "The excretion of Sincalide can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00646",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Nystatin"
+                    },
+                    {
+                        "drugbank-id": "DB11942",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Selinexor"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The excretion of Docetaxel can be decreased when combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "Voxilaprevir may decrease the excretion rate of Revefenacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00005",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Etanercept"
+                    },
+                    {
+                        "drugbank-id": "DB00026",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Anakinra"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Adalimumab"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Infliximab"
+                    },
+                    {
+                        "drugbank-id": "DB01281",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Abatacept"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Afelimomab"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Apremilast"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Canakinumab"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Tocilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB06372",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Rilonacept"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Golimumab"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Certolizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Secukinumab"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Siltuximab"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The metabolism of Voxilaprevir can be increased when combined with Emapalumab"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The serum concentration of Sildenafil can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The serum concentration of Simvastatin can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The serum concentration of Vardenafil can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The serum concentration of Saquinavir can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The serum concentration of Rivaroxaban can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The serum concentration of Ticagrelor can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Erdafitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Voxilaprevir may decrease the excretion rate of Digoxin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Voxilaprevir may decrease the excretion rate of Metildigoxin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Voxilaprevir may decrease the excretion rate of Acetyldigoxin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The serum concentration of Alpelisib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "Voxilaprevir may decrease the excretion rate of Lefamulin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Lasmiditan"
+                    },
+                    {
+                        "drugbank-id": "DB15066",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Givosiran"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Voxilaprevir can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "The serum concentration of Darolutamide can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11644",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Tafamidis"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The serum concentration of Rimegepant can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB12612",
+                        "description": "Voxilaprevir may decrease the excretion rate of Ozanimod which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "Voxilaprevir may decrease the excretion rate of Tucatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB11791",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Capmatinib"
+                    },
+                    {
+                        "drugbank-id": "DB15685",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Selpercatinib"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Fostemsavir"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Voxilaprevir can be decreased when it is combined with Satralizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The serum concentration of Pralsetinib can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14845",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Filgotinib"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The serum concentration of Berotralstat can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11853",
+                        "description": "The serum concentration of Relugolix can be increased when it is combined with Voxilaprevir"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

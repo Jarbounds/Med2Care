@@ -1,0 +1,793 @@
+{
+    "medicine_id": "8dd119cb5da35914246e42f6bed69d0b2d1a3e93",
+    "platform_id": "DB00205",
+    "metadata": {
+        "name": "Daraprim 25 mg 1 Tablet",
+        "composition": "25 mg 1 Pyrimethamine",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of toxoplasmosis and acute malaria For the prevention of malaria in areas non resistant to pyrimethamine",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Pyrimethamine is an antiparasitic compound commonly used as an adjunct in the treatment of uncomplicated chloroquine resistant P falciparum malaria Pyrimethamine is a folic acid antagonist and the rationale for its therapeutic action is based on the differential requirement between host and parasite for nucleic acid precursors involved in growth This activity is highly selective against plasmodia and Toxoplasma gondii Pyrimethamine possesses blood schizonticidal and some tissue schizonticidal activity against malaria parasites of humans However the 4 amino quinoline compounds are more effective against the erythrocytic schizonts It does not destroy gametocytes but arrests sporogony in the mosquito The action of pyrimethamine against Toxoplasma gondii is greatly enhanced when used in conjunction with sulfonamides",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Artemether"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB00116",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be decreased when used in combination with Tetrahydrofolic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00158",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be decreased when used in combination with Folic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00650",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be decreased when used in combination with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB02031",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be decreased when used in combination with 6S 5 6 7 8 tetrahydrofolic acid"
+                    },
+                    {
+                        "drugbank-id": "DB02067",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be decreased when used in combination with Triglu 5 formyl tetrahydrofolate"
+                    },
+                    {
+                        "drugbank-id": "DB11596",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be decreased when used in combination with Levoleucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB04789",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be decreased when used in combination with 5 methyltetrahydrofolic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Thiethylperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Triflupromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Fluphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Acetophenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with BL 1020"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Pyrimethamine is combined with Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The risk or severity of adverse effects can be increased when Pyrimethamine is combined with Dapsone"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The risk or severity of QTc prolongation can be increased when Vemurafenib is combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Nicotine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The metabolism of Troglitazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The metabolism of Torasemide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The metabolism of Lovastatin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The metabolism of Diethylstilbestrol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The metabolism of Morphine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Amitriptyline can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The metabolism of Methadone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The metabolism of Omeprazole can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The metabolism of Diltiazem can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The metabolism of Trimethadione can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The metabolism of Sulfadiazine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The metabolism of Eszopiclone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The metabolism of Rosiglitazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The metabolism of Cerivastatin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The metabolism of Lansoprazole can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The metabolism of Quinine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The metabolism of Celecoxib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The metabolism of Zidovudine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Cyclophosphamide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Mephenytoin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Zafirlukast can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The metabolism of Piroxicam can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The metabolism of Diclofenac can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Cisapride can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The metabolism of Chloroquine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The metabolism of Amodiaquine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00617",
+                        "description": "The metabolism of Paramethadione can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The metabolism of Imatinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The metabolism of Nicardipine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The metabolism of Simvastatin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Verapamil can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The metabolism of Mycophenolate mofetil can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The metabolism of Tretinoin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Naproxen can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00799",
+                        "description": "The metabolism of Tazarotene can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Propofol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The metabolism of Loperamide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Terbinafine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The metabolism of Repaglinide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The metabolism of Almotriptan can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Buprenorphine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Azelastine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Ethinylestradiol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The metabolism of Irbesartan can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Selegiline can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The metabolism of Ibuprofen can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The metabolism of Atorvastatin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Fluvastatin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The metabolism of Tolbutamide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The metabolism of Pioglitazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Ifosfamide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Domperidone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "The metabolism of Zopiclone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The metabolism of Halofantrine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The metabolism of Ketamine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The metabolism of Lapatinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The metabolism of Sitagliptin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The metabolism of Mestranol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Aminophenazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The metabolism of Antipyrine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB04725",
+                        "description": "The metabolism of Licofelone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "The metabolism of Beraprost can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06510",
+                        "description": "The metabolism of Muraglitazar can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The metabolism of Apixaban can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06670",
+                        "description": "The metabolism of Odanacatib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06738",
+                        "description": "The metabolism of Ketobemidone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06739",
+                        "description": "The metabolism of Seratrodast can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Benzyl alcohol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of R warfarin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The metabolism of Pitavastatin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The metabolism of Enzalutamide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The metabolism of Levomilnacipran can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "The metabolism of Perospirone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "The metabolism of Riociguat can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The metabolism of Vortioxetine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The metabolism of Olodaterol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The metabolism of Dasabuvir can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The metabolism of Lobeglitazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The metabolism of Netoglitazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The metabolism of Rivoglitazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The metabolism of Ciglitazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Propacetamol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The metabolism of Ombitasvir can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The metabolism of Selexipag can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "The metabolism of Velpatasvir can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The metabolism of Apalutamide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The metabolism of Glasdegib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The metabolism of Elagolix can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB12130",
+                        "description": "The metabolism of Lorlatinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The metabolism of Balaglitazone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The metabolism of Testosterone cypionate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The metabolism of Testosterone enanthate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The metabolism of Testosterone undecanoate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Estradiol acetate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Estradiol dienanthate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The metabolism of S Warfarin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Istradefylline can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00471",
+                        "description": "The metabolism of Montelukast can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The metabolism of Dexibuprofen can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The metabolism of Ketorolac can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08502",
+                        "description": "The metabolism of Capravirine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01217",
+                        "description": "The metabolism of Anastrozole can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB12612",
+                        "description": "The metabolism of Ozanimod can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The metabolism of Selumetinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The metabolism of Apomorphine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The metabolism of Hydroxychloroquine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Phenytoin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Fosphenytoin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Sorafenib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Erlotinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The metabolism of Fluorouracil can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Pazopanib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Dabrafenib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Tegafur can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Brigatinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Enasidenib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The excretion of Topotecan can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The excretion of Procainamide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The excretion of Abemaciclib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The excretion of Baricitinib can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The excretion of Metformin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The excretion of Cimetidine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The excretion of Ciprofloxacin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The excretion of Cephalexin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The excretion of Acyclovir can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "The excretion of Ganciclovir can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The excretion of Levofloxacin can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01333",
+                        "description": "The excretion of Cefradine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The excretion of Estrone sulfate can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB08840",
+                        "description": "The excretion of N methylnicotinamide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB12377",
+                        "description": "The excretion of Relebactam can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB14754",
+                        "description": "The excretion of Solriamfetol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The excretion of Nadolol can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The excretion of Flecainide can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00879",
+                        "description": "The excretion of Emtricitabine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00536",
+                        "description": "The excretion of Guanidine can be decreased when combined with Pyrimethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The risk or severity of anemia can be increased when Pyrimethamine is combined with Trimethoprim"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The therapeutic efficacy of Pyrimethamine can be increased when used in combination with Acetazolamide"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

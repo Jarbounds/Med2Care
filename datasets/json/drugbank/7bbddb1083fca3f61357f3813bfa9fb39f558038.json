@@ -1,0 +1,513 @@
+{
+    "medicine_id": "7bbddb1083fca3f61357f3813bfa9fb39f558038",
+    "platform_id": "DB09097",
+    "metadata": {
+        "name": "Norprolac 150 MCG Tablet",
+        "composition": "150 MCG Quinagolide",
+        "clinical_particulars": {
+            "therapeutic_indications": "Indicated for the treatment of hyperprolactinemia idiopathic or originating from a prolactin secreting pituitary microadenoma or macroadenoma",
+            "contraindications": {
+                "disease": "Most commonly observed adverse effects are nausea vomiting headache dizziness and fatigue that usually appear in the beginning of initial therapy Less frequent side effects 1 to 10 include anorexia abdominal pain constipation or diarrhoea insomnia oedema flushing nasal congestion and hypotension Orthostatic hypotension may result in faintness or syncope FDA Label Quinagolide demonstrates carcinogenic potential in animal studies but with no known relevance in humans It is not demonstrated to be embryotoxic or teratogenic but it is associated with reduced pregnancy rates L870 Oral LD50 values in mouse rat and rabbit are 300 mg kg 980 mg kg and 3200 mg kg respectively MSDS",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Quinagolide achieves long lasting reduction in prolactin levels in a dose proportional effect via selectively targeting D2 receptors as an agonist It potently suppresses both basal and stimulated serum prolactin levels by exerting a strong inhibitory effect on the secretion of the anterior pituitary hormone prolactin",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Thiethylperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Sulpiride"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Remoxipride"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Droperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Triflupromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Amoxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Fluphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Acetophenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01618",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Molindone"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04872",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Osanetant"
+                    },
+                    {
+                        "drugbank-id": "DB04888",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Bifeprunox"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB05316",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Pimavanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with BL 1020"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Cariprazine"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Lumateperone"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Sertindole"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Amisulpride"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Perospirone"
+                    },
+                    {
+                        "drugbank-id": "DB08927",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Amperozide"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09223",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Blonanserin"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Zotepine"
+                    },
+                    {
+                        "drugbank-id": "DB09226",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Brilaroxazine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB11376",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Azaperone"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12273",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Ecopipam"
+                    },
+                    {
+                        "drugbank-id": "DB12401",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Bromperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12518",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Raclopride"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB12867",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Benperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12958",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Prothipendyl"
+                    },
+                    {
+                        "drugbank-id": "DB13025",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Tiapride"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13256",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Clothiapine"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13403",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Oxypertine"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13523",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Veralipride"
+                    },
+                    {
+                        "drugbank-id": "DB13552",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Trifluperidol"
+                    },
+                    {
+                        "drugbank-id": "DB13554",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Moperone"
+                    },
+                    {
+                        "drugbank-id": "DB13557",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Thiopropazate"
+                    },
+                    {
+                        "drugbank-id": "DB13665",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Fluanisone"
+                    },
+                    {
+                        "drugbank-id": "DB13676",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Mosapramine"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13841",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Clopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "The therapeutic efficacy of Brexpiprazole can be decreased when used in combination with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The risk or severity of adverse effects can be decreased when Cabergoline is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The risk or severity of adverse effects can be decreased when Ropinirole is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The risk or severity of adverse effects can be decreased when Dihydroergotamine is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB00413",
+                        "description": "The risk or severity of adverse effects can be decreased when Pramipexole is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB00589",
+                        "description": "The risk or severity of adverse effects can be decreased when Lisuride is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of adverse effects can be decreased when Apomorphine is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "The risk or severity of adverse effects can be decreased when Fenoldopam is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB01049",
+                        "description": "The risk or severity of adverse effects can be decreased when Ergoloid mesylate is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB01186",
+                        "description": "The risk or severity of adverse effects can be decreased when Pergolide is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of adverse effects can be decreased when Bromocriptine is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "The risk or severity of adverse effects can be decreased when Rotigotine is combined with Quinagolide"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The risk or severity of adverse effects can be decreased when Quinagolide is combined with Dihydroergocornine"
+                    },
+                    {
+                        "drugbank-id": "DB12313",
+                        "description": "The risk or severity of adverse effects can be decreased when Quinagolide is combined with Dopexamine"
+                    },
+                    {
+                        "drugbank-id": "DB12478",
+                        "description": "The risk or severity of adverse effects can be decreased when Quinagolide is combined with Piribedil"
+                    },
+                    {
+                        "drugbank-id": "DB12890",
+                        "description": "The risk or severity of adverse effects can be decreased when Quinagolide is combined with Dihydrexidine"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The risk or severity of adverse effects can be decreased when Quinagolide is combined with Dihydroergocryptine"
+                    },
+                    {
+                        "drugbank-id": "DB13520",
+                        "description": "The risk or severity of adverse effects can be decreased when Quinagolide is combined with Metergoline"
+                    },
+                    {
+                        "drugbank-id": "DB00353",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Methylergometrine"
+                    },
+                    {
+                        "drugbank-id": "DB00490",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Buspirone"
+                    },
+                    {
+                        "drugbank-id": "DB00777",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Propiomazine"
+                    },
+                    {
+                        "drugbank-id": "DB01038",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Carphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Domperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01392",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Yohimbine"
+                    },
+                    {
+                        "drugbank-id": "DB01425",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Alizapride"
+                    },
+                    {
+                        "drugbank-id": "DB06109",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with YKP 1358"
+                    },
+                    {
+                        "drugbank-id": "DB09018",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Bromopride"
+                    },
+                    {
+                        "drugbank-id": "DB09207",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with AS 8112"
+                    },
+                    {
+                        "drugbank-id": "DB12579",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with JNJ 37822681"
+                    },
+                    {
+                        "drugbank-id": "DB13511",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Clebopride"
+                    },
+                    {
+                        "drugbank-id": "DB15167",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Fallypride"
+                    },
+                    {
+                        "drugbank-id": "DB15492",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Eticlopride"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The therapeutic efficacy of Quinagolide can be decreased when used in combination with Haloperidol"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

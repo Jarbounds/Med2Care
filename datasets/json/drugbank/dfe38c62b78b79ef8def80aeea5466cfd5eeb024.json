@@ -1,0 +1,661 @@
+{
+    "medicine_id": "dfe38c62b78b79ef8def80aeea5466cfd5eeb024",
+    "platform_id": "DB15093",
+    "metadata": {
+        "name": "Rinvoq 15 mg Tablet extended release",
+        "composition": "15 mg Somapacitan",
+        "clinical_particulars": {
+            "therapeutic_indications": "Somapacitan is indicated as a replacement for growth hormone in adult patients with growth hormone deficiency L15661",
+            "contraindications": {
+                "disease": "Patients experiencing an acute overdose of somapacitan may present with fluid retention L15661 Chronic overdose may resemble gigantism or acromegaly L15661 Treat patients with symptomatic and supportive measures to minimize the permanent effects A219141",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Somapacitan stimulates the growth hormone receptor L15661 Somapacitan has a long duration of action as it is given once weekly L15661 It has a moderately wide therapeutic window as an acute overdose may cause hypoglycemia followed by hyperglycemia L15661 Patients should be counselled regarding the risk of increased mortality in patients with critical illness risk of neoplasms glucose intolerance in diabetes mellitus intracranial hypertension hypersensitivity fluid retention hypoadrenalism hypothyroidism pancreatitis lipohypertrophy and lipoatrophy L15661",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The serum concentration of the active metabolites of Cortisone acetate can be reduced when Cortisone acetate is used in combination with Somapacitan resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The therapeutic efficacy of Macimorelin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00253",
+                        "description": "The serum concentration of the active metabolites of Medrysone can be decreased when Medrysone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00288",
+                        "description": "The serum concentration of the active metabolites of Amcinonide can be decreased when Amcinonide is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The serum concentration of the active metabolites of Fluorometholone can be decreased when Fluorometholone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The serum concentration of the active metabolites of Beclomethasone dipropionate can be decreased when Beclomethasone dipropionate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The serum concentration of the active metabolites of Betamethasone can be decreased when Betamethasone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The serum concentration of the active metabolites of Triamcinolone can be decreased when Triamcinolone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The serum concentration of the active metabolites of Prednisone can be decreased when Prednisone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The serum concentration of the active metabolites of Mometasone can be decreased when Mometasone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00896",
+                        "description": "The serum concentration of the active metabolites of Rimexolone can be decreased when Rimexolone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The serum concentration of the active metabolites of Clobetasol propionate can be decreased when Clobetasol propionate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The serum concentration of the active metabolites of Fluocinonide can be decreased when Fluocinonide is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The serum concentration of the active metabolites of Paramethasone can be decreased when Paramethasone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The serum concentration of the active metabolites of Ciclesonide can be decreased when Ciclesonide is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The serum concentration of the active metabolites of Fluticasone furoate can be decreased when Fluticasone furoate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The serum concentration of the active metabolites of Fluprednidene can be decreased when Fluprednidene is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The serum concentration of the active metabolites of Fluocortolone can be decreased when Fluocortolone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The serum concentration of the active metabolites of Difluocortolone can be decreased when Difluocortolone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The serum concentration of the active metabolites of Meprednisone can be decreased when Meprednisone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The serum concentration of the active metabolites of Dexamethasone isonicotinate can be decreased when Dexamethasone isonicotinate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The serum concentration of the active metabolites of Clobetasol can be decreased when Clobetasol is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The serum concentration of the active metabolites of Deflazacort can be decreased when Deflazacort is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The serum concentration of the active metabolites of Cortivazol can be decreased when Cortivazol is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The serum concentration of the active metabolites of Prednylidene can be decreased when Prednylidene is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13728",
+                        "description": "The serum concentration of the active metabolites of Halometasone can be decreased when Halometasone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The serum concentration of the active metabolites of Cloprednol can be decreased when Cloprednol is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The serum concentration of the active metabolites of Fluticasone can be decreased when Fluticasone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The serum concentration of the active metabolites of Mometasone furoate can be decreased when Mometasone furoate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The serum concentration of the active metabolites of Prednisolone phosphate can be decreased when Prednisolone phosphate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The serum concentration of the active metabolites of Prednisolone hemisuccinate can be decreased when Prednisolone hemisuccinate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14634",
+                        "description": "The serum concentration of the active metabolites of Fluprednidene acetate can be decreased when Fluprednidene acetate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The serum concentration of the active metabolites of Methylprednisolone hemisuccinate can be decreased when Methylprednisolone hemisuccinate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The serum concentration of the active metabolites of Prednisone acetate can be decreased when Prednisone acetate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The serum concentration of the active metabolites of Clocortolone acetate can be decreased when Clocortolone acetate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The serum concentration of the active metabolites of Melengestrol acetate can be decreased when Melengestrol acetate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The serum concentration of the active metabolites of Betamethasone phosphate can be decreased when Betamethasone phosphate is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The serum concentration of the active metabolites of Cortisone can be decreased when Cortisone is used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00269",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Chlorotrianisene"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Conjugated estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Estrone"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Estradiol"
+                    },
+                    {
+                        "drugbank-id": "DB00890",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Dienestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Mestranol"
+                    },
+                    {
+                        "drugbank-id": "DB04573",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Estriol"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Estrone sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB04575",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Quinestrol"
+                    },
+                    {
+                        "drugbank-id": "DB07931",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Hexestrol"
+                    },
+                    {
+                        "drugbank-id": "DB09070",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Tibolone"
+                    },
+                    {
+                        "drugbank-id": "DB09317",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Synthetic Conjugated Estrogens A"
+                    },
+                    {
+                        "drugbank-id": "DB09318",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Synthetic Conjugated Estrogens B"
+                    },
+                    {
+                        "drugbank-id": "DB09369",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Polyestradiol phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB09381",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Esterified estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB11478",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Zeranol"
+                    },
+                    {
+                        "drugbank-id": "DB11674",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Equol"
+                    },
+                    {
+                        "drugbank-id": "DB12487",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Promestriene"
+                    },
+                    {
+                        "drugbank-id": "DB13143",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Methallenestril"
+                    },
+                    {
+                        "drugbank-id": "DB13386",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Epimestrol"
+                    },
+                    {
+                        "drugbank-id": "DB13418",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Moxestrol"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Estradiol benzoate"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Estradiol cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Estradiol valerate"
+                    },
+                    {
+                        "drugbank-id": "DB15334",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Biochanin A"
+                    },
+                    {
+                        "drugbank-id": "DB15335",
+                        "description": "The therapeutic efficacy of Somapacitan can be decreased when used in combination with Formononetin"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The therapeutic efficacy of Insulin human can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The therapeutic efficacy of Insulin glargine can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The therapeutic efficacy of Insulin pork can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The therapeutic efficacy of Troglitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The therapeutic efficacy of Glimepiride can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The therapeutic efficacy of Sulfisoxazole can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The therapeutic efficacy of Disopyramide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "The therapeutic efficacy of Acarbose can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The therapeutic efficacy of Metformin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The therapeutic efficacy of Sulfadiazine can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The therapeutic efficacy of Rosiglitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The therapeutic efficacy of Acetohexamide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The therapeutic efficacy of Quinine can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "The therapeutic efficacy of Miglitol can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The therapeutic efficacy of Chlorpropamide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The therapeutic efficacy of Nateglinide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The therapeutic efficacy of Pentamidine can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The therapeutic efficacy of Mifepristone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The therapeutic efficacy of Tolazamide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The therapeutic efficacy of Repaglinide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The therapeutic efficacy of Phenformin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The therapeutic efficacy of Sulfamethoxazole can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The therapeutic efficacy of Glyburide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The therapeutic efficacy of Glipizide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The therapeutic efficacy of Gliclazide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The therapeutic efficacy of Tolbutamide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The therapeutic efficacy of Pioglitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The therapeutic efficacy of Bromocriptine can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The therapeutic efficacy of Gliquidone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The therapeutic efficacy of Mitiglinide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The therapeutic efficacy of Sitagliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The therapeutic efficacy of Sunitinib can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "The therapeutic efficacy of Exenatide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "The therapeutic efficacy of Mecasermin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "The therapeutic efficacy of Pramlintide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The therapeutic efficacy of Glisoxepide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "The therapeutic efficacy of Insulin aspart can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "The therapeutic efficacy of Insulin detemir can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The therapeutic efficacy of Insulin glulisine can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "The therapeutic efficacy of Glymidine can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "The therapeutic efficacy of AICA ribonucleotide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "The therapeutic efficacy of Buformin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "The therapeutic efficacy of Vildagliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "The therapeutic efficacy of Voglibose can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The therapeutic efficacy of NN344 can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "The therapeutic efficacy of NBI 6024 can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "The therapeutic efficacy of Bisegliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The therapeutic efficacy of Alogliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The therapeutic efficacy of Dapagliflozin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The therapeutic efficacy of Saxagliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "The therapeutic efficacy of Liraglutide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "The therapeutic efficacy of Gosogliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The therapeutic efficacy of Linagliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The therapeutic efficacy of Canagliflozin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The therapeutic efficacy of Glibornuride can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "The therapeutic efficacy of Benfluorex can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The therapeutic efficacy of Empagliflozin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "The therapeutic efficacy of Albiglutide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "The therapeutic efficacy of Dulaglutide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The therapeutic efficacy of Lobeglitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The therapeutic efficacy of Netoglitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The therapeutic efficacy of Rivoglitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The therapeutic efficacy of Ciglitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "The therapeutic efficacy of Lixisenatide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The therapeutic efficacy of Insulin beef can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The therapeutic efficacy of Insulin degludec can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The therapeutic efficacy of Insulin peglispro can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The therapeutic efficacy of Insulin tregopil can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "The therapeutic efficacy of Ipragliflozin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "The therapeutic efficacy of Dutogliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "The therapeutic efficacy of Allicin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "The therapeutic efficacy of Tofogliflozin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The therapeutic efficacy of Ertugliflozin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "The therapeutic efficacy of 2 4 thiazolidinedione can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "The therapeutic efficacy of Teneligliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "The therapeutic efficacy of Omarigliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "The therapeutic efficacy of Carmegliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "The therapeutic efficacy of Gemigliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "The therapeutic efficacy of Anagliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "The therapeutic efficacy of Evogliptin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "The therapeutic efficacy of Sotagliflozin can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The therapeutic efficacy of Balaglitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "The therapeutic efficacy of Remogliflozin etabonate can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The therapeutic efficacy of Carbutamide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "The therapeutic efficacy of Guar gum can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The therapeutic efficacy of Metahexamide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "The therapeutic efficacy of Semaglutide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "The therapeutic efficacy of Taspoglutide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "The therapeutic efficacy of Englitazone can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "The therapeutic efficacy of Tirzepatide can be decreased when used in combination with Somapacitan"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "The therapeutic efficacy of Gastric inhibitory polypeptide can be decreased when used in combination with Somapacitan"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

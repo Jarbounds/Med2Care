@@ -1,0 +1,41 @@
+{
+    "medicine_id": "e61ec92953a2b4cf96ea4483f5ba31db67d12856",
+    "platform_id": "DB05088",
+    "metadata": {
+        "name": "Tymlos 2000 ug 1mL Injection solution",
+        "composition": "2000 ug 1mL Tetrathiomolybdate",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in liver disease and pulmonary fibrosis",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Tetrathiomolybdate demonstrated the ability to reduce toxic free copper levels and substantially improve clinical neurologic outcomes in Wilson s patients Studies also showed it is capable of specifically inhibiting chronic fibrotic disease processes in the lung",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00012",
+                        "description": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Tetrathiomolybdate"
+                    },
+                    {
+                        "drugbank-id": "DB00016",
+                        "description": "The risk or severity of Thrombosis can be increased when Erythropoietin is combined with Tetrathiomolybdate"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "The risk or severity of Thrombosis can be increased when Peginesatide is combined with Tetrathiomolybdate"
+                    },
+                    {
+                        "drugbank-id": "DB09107",
+                        "description": "The risk or severity of Thrombosis can be increased when Methoxy polyethylene glycol epoetin beta is combined with Tetrathiomolybdate"
+                    },
+                    {
+                        "drugbank-id": "DB09139",
+                        "description": "Tetrathiomolybdate may decrease effectiveness of Technetium Tc 99m oxidronate as a diagnostic agent"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

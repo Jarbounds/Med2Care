@@ -1,0 +1,1565 @@
+{
+    "medicine_id": "9b63e572017cbe028ded1717a63a12aabe42e68b",
+    "platform_id": "DB00950",
+    "metadata": {
+        "name": "12HR Allergy and Congestion Relief 120 mg Capsule coated",
+        "composition": "120 mg Fexofenadine",
+        "clinical_particulars": {
+            "therapeutic_indications": "In the United States fexofenadine is indicated for the symptomatic treatment of allergic rhinitis in patients 2 years old and chronic idiopathic urticaria in patients 6 months old L4269 In Canada fexofenadine carries the same indications but is approved only for patients 12 years old L10779 Fexofenadine is also available in combination with pseudoephedrine for the symptomatic treatment of season allergic rhinitis in patients 12 years old L10800",
+            "contraindications": {
+                "disease": "No deaths were observed following the oral administration of up to 5000 mg kg in both mice and rats equivalent to approximately 100 200x the recommended human dose Single doses of up to 800 mg and chronic exposure of up to 690 mg twice daily for 1 month in humans did not result in clinically significant adverse events Symptoms of overdosage are consistent with fexofenadine s adverse effect profile and are likely to include dizziness drowsiness and dry mouth L4269 If overdosage occurs employ symptomatic and supportive treatment Hemodialysis does not effectively remove fexofenadine from the blood and is therefore of no benefit L4269",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Fexofenadine relieves allergy symptoms by antagonizing the actions of histamine an endogenous compound predominantly responsible for allergic symptomatology L4269 The relatively long duration of action of fexofenadine approximately 24 hours A1495 allows for once or twice daily dosing and its rapid absorption allows for an onset of action within 1 3 hours Fexofenadine should not be taken with fruit juice as this may impair its absorption L4269",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "Erythromycin can cause an increase in the absorption of Fexofenadine resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00895",
+                        "description": "Fexofenadine may decrease effectiveness of Benzylpenicilloyl polylysine as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB06698",
+                        "description": "The therapeutic efficacy of Betahistine can be decreased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Minocycline"
+                    },
+                    {
+                        "drugbank-id": "DB00168",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Aspartame"
+                    },
+                    {
+                        "drugbank-id": "DB00229",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefotiam"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Liothyronine"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Aminohippuric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00456",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefalotin"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Tenoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00493",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefotaxime"
+                    },
+                    {
+                        "drugbank-id": "DB00536",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Guanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cephalexin"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Oxytetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00650",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Leucovorin"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Acyclovir"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00833",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefaclor"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Bumetanide"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Dinoprostone"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01004",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ganciclovir"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Mercaptopurine"
+                    },
+                    {
+                        "drugbank-id": "DB01051",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Benzylpenicillin"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Rosuvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01140",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefadroxil"
+                    },
+                    {
+                        "drugbank-id": "DB01326",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefamandole"
+                    },
+                    {
+                        "drugbank-id": "DB01327",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefazolin"
+                    },
+                    {
+                        "drugbank-id": "DB01332",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ceftizoxime"
+                    },
+                    {
+                        "drugbank-id": "DB01414",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefacetrile"
+                    },
+                    {
+                        "drugbank-id": "DB01415",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ceftibuten"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Liotrix"
+                    },
+                    {
+                        "drugbank-id": "DB01597",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cilastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01606",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Tazobactam"
+                    },
+                    {
+                        "drugbank-id": "DB01650",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with trans 2 hydroxycinnamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01685",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Topiroxostat"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cholic Acid"
+                    },
+                    {
+                        "drugbank-id": "DB03553",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Glutaric Acid"
+                    },
+                    {
+                        "drugbank-id": "DB03793",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Benzoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04519",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Caprylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB05016",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ataluren"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB09008",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefaloridine"
+                    },
+                    {
+                        "drugbank-id": "DB11751",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cabotegravir"
+                    },
+                    {
+                        "drugbank-id": "DB12866",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Pradigastat"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The excretion of Valproic acid can be decreased when combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The excretion of Melatonin can be decreased when combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Pantoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Conjugated estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Methotrexate"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Enalapril"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Tetracycline"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Letermovir"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Esomeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01212",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ceftriaxone"
+                    },
+                    {
+                        "drugbank-id": "DB01329",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cefoperazone"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Taurocholic acid"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB11644",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Tafamidis"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "Magnesium oxide can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "Aluminum hydroxide can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "Magnesium hydroxide can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "Magnesium trisilicate can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "Magnesium carbonate can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "Magnesium silicate can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "Aluminium acetoacetate can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "Magnesium peroxide can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "Aluminium glycinate can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "Aluminium phosphate can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "Magaldrate can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "Hydrotalcite can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "Almasilate can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "Aloglutamol can cause a decrease in the absorption of Fexofenadine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Amphetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "Phentermine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "Benzphetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "Diethylpropion may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "Lisdexamfetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01365",
+                        "description": "Mephentermine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "MMDA may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "Midomafetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01467",
+                        "description": "2 5 Dimethoxy 4 ethylamphetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "4 Bromo 2 5 dimethoxyamphetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "Tenamfetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01556",
+                        "description": "Chlorphentermine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01566",
+                        "description": "Methylenedioxyethamphetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "Dextroamphetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "Metamfetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09480",
+                        "description": "Iofetamine I 123 may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12080",
+                        "description": "Ritobegron may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13108",
+                        "description": "Mephedrone may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13624",
+                        "description": "Methoxyphenamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13703",
+                        "description": "Gepefrine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "2 5 Dimethoxy 4 ethylthioamphetamine may decrease the sedative and stimulatory activities of Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The serum concentration of Fexofenadine can be decreased when it is combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The serum concentration of Fexofenadine can be decreased when it is combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The therapeutic efficacy of Pitolisant can be decreased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Isavuconazonium"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The serum concentration of Suvorexant can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The serum concentration of Mifepristone can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The serum concentration of Amiodarone can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Lopinavir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The serum concentration of Dronedarone can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The serum concentration of Vandetanib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Simvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Conivaptan"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The serum concentration of Itraconazole can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The serum concentration of Clarithromycin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The serum concentration of Saquinavir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The serum concentration of Telaprevir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The serum concentration of Simeprevir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The serum concentration of Ticagrelor can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The serum concentration of Crizotinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The serum concentration of Linagliptin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The serum concentration of Mirabegron can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The serum concentration of Regorafenib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The serum concentration of Ponatinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The serum concentration of Canagliflozin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The serum concentration of Palbociclib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The serum concentration of Venetoclax can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The serum concentration of Asunaprevir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "The serum concentration of Velpatasvir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The serum concentration of Rifamycin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11869",
+                        "description": "The serum concentration of Valspodar can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The serum concentration of Dacomitinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The serum concentration of Voxilaprevir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The serum concentration of Rucaparib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The serum concentration of Pibrentasvir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The serum concentration of Glecaprevir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The serum concentration of Ivosidenib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB04851",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Biricodar"
+                    },
+                    {
+                        "drugbank-id": "DB04881",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Elacridar"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB06191",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Zosuquidar"
+                    },
+                    {
+                        "drugbank-id": "DB06240",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Tariquidar"
+                    },
+                    {
+                        "drugbank-id": "DB07348",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Brefeldin A"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Ivacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Lomitapide"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Enzalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Netupitant"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Daclatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09291",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Rolapitant"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Neratinib"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Sarecycline"
+                    },
+                    {
+                        "drugbank-id": "DB12799",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Laniquidar"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14069",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with ONT 093"
+                    },
+                    {
+                        "drugbank-id": "DB12500",
+                        "description": "The serum concentration of Fedratinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Istradefylline"
+                    },
+                    {
+                        "drugbank-id": "DB08916",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Afatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09027",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Ledipasvir"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB08889",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Carfilzomib"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Ripretinib"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00583",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Levocarnitine"
+                    },
+                    {
+                        "drugbank-id": "DB00646",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Nystatin"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Sulfasalazine"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Bezafibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01892",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Hyperforin"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Fusidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04850",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Posizolid"
+                    },
+                    {
+                        "drugbank-id": "DB06151",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Acetylcysteine"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB08862",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Eluxadoline"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Sacubitril"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Silibinin"
+                    },
+                    {
+                        "drugbank-id": "DB12319",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Benzbromarone"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Pexidartinib"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Elexacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00520",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Caspofungin"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ivermectin"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Atorvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Genistein"
+                    },
+                    {
+                        "drugbank-id": "DB04216",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Quercetin"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Rilpivirine"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Beclomethasone dipropionate"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Amprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Irinotecan"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Estradiol"
+                    },
+                    {
+                        "drugbank-id": "DB05928",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Dovitinib"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Pitavastatin"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Estradiol benzoate"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Estradiol cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Estradiol dienanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Estradiol valerate"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Darunavir"
+                    },
+                    {
+                        "drugbank-id": "DB11936",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Bempedoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Estrone"
+                    },
+                    {
+                        "drugbank-id": "DB06710",
+                        "description": "The excretion of Fexofenadine can be increased when combined with Methyltestosterone"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The excretion of Fexofenadine can be increased when combined with Testosterone"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The excretion of Fexofenadine can be increased when combined with Testosterone cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The excretion of Fexofenadine can be increased when combined with Testosterone enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The excretion of Fexofenadine can be increased when combined with Testosterone undecanoate"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Roxithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The excretion of Telithromycin can be decreased when combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06749",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Ginsenoside Rb1"
+                    },
+                    {
+                        "drugbank-id": "DB11942",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Selinexor"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Levothyroxine"
+                    },
+                    {
+                        "drugbank-id": "DB00368",
+                        "description": "The therapeutic efficacy of Norepinephrine can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The therapeutic efficacy of Epinephrine can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06262",
+                        "description": "The therapeutic efficacy of Droxidopa can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06707",
+                        "description": "The therapeutic efficacy of Levonordefrin can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06814",
+                        "description": "The therapeutic efficacy of Protokylol can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11124",
+                        "description": "The therapeutic efficacy of Racepinephrine can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The therapeutic efficacy of Theodrenaline can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13917",
+                        "description": "The therapeutic efficacy of Deoxyepinephrine can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01364",
+                        "description": "The therapeutic efficacy of Ephedrine can be increased when used in combination with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The serum concentration of Digitoxin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Vincristine"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Axitinib"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The serum concentration of Topotecan can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The serum concentration of Bosutinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The serum concentration of Bendamustine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The serum concentration of Brentuximab vedotin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The serum concentration of Binimetinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The serum concentration of Bortezomib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The serum concentration of Cabergoline can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "The serum concentration of Gemcitabine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The serum concentration of Imipramine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The serum concentration of Trimipramine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The serum concentration of Nortriptyline can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The serum concentration of Abemaciclib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The serum concentration of Quinine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The serum concentration of Toremifene can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The serum concentration of Paliperidone can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The serum concentration of Romidepsin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The serum concentration of Glasdegib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Vardenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The serum concentration of Digoxin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The serum concentration of Cyclosporine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The serum concentration of Sirolimus can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The serum concentration of Quinidine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The serum concentration of Temsirolimus can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Pravastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Morphine"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Clobazam"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Mannitol"
+                    },
+                    {
+                        "drugbank-id": "DB00882",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Clomifene"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The serum concentration of Tegaserod can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The serum concentration of Sitagliptin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The serum concentration of Colchicine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The serum concentration of Indacaterol can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The serum concentration of Cobimetinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The serum concentration of Trastuzumab emtansine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB05889",
+                        "description": "The serum concentration of Inotuzumab ozogamicin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06207",
+                        "description": "The serum concentration of Silodosin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The serum concentration of Rivaroxaban can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The serum concentration of Ambrisentan can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The serum concentration of Pazopanib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The serum concentration of Panobinostat can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The serum concentration of Apixaban can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06670",
+                        "description": "The serum concentration of Odanacatib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The serum concentration of Pomalidomide can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The serum concentration of Dabrafenib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The serum concentration of Dolutegravir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB08934",
+                        "description": "The serum concentration of Sofosbuvir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The serum concentration of Ceritinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "The serum concentration of Edoxaban can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The serum concentration of Umeclidinium can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The serum concentration of Lenvatinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The serum concentration of Nintedanib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09161",
+                        "description": "The serum concentration of Technetium Tc 99m sestamibi can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The serum concentration of Dasabuvir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The serum concentration of Ombitasvir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The serum concentration of Osimertinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The serum concentration of Selexipag can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The serum concentration of Elbasvir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11575",
+                        "description": "The serum concentration of Grazoprevir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The serum concentration of Vinflunine can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11760",
+                        "description": "The serum concentration of Talazoparib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The serum concentration of Talinolol can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The serum concentration of Baricitinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The serum concentration of Ertugliflozin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "The serum concentration of Revefenacin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The serum concentration of Duvelisib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The serum concentration of Elagolix can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The serum concentration of Avatrombopag can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The serum concentration of Gilteritinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "The serum concentration of Betrixaban can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The serum concentration of Copanlisib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12836",
+                        "description": "The serum concentration of Grapiprant can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The serum concentration of Tenofovir can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB14723",
+                        "description": "The serum concentration of Larotrectinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13007",
+                        "description": "The serum concentration of Enfortumab vedotin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "The serum concentration of Darolutamide can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The serum concentration of Tazemetostat can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Cabazitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Idelalisib"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Etoposide"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "The serum concentration of Dactinomycin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The serum concentration of Dasatinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The serum concentration of Posaconazole can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The serum concentration of Tolvaptan can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11712",
+                        "description": "The serum concentration of Tezacaftor can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The serum concentration of Lemborexant can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "The serum concentration of Lefamulin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Everolimus"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Paritaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Tenofovir disoproxil"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The serum concentration of Eliglustat can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13125",
+                        "description": "The serum concentration of Lusutrombopag can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The serum concentration of Rimegepant can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The serum concentration of Selumetinib can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "The serum concentration of Dabigatran etexilate can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Fostemsavir"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Remdesivir"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The serum concentration of Berotralstat can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The serum concentration of Prednisolone phosphate can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The serum concentration of Belantamab mafodotin can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Erdafitinib"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "The serum concentration of Lasmiditan can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "Fexofenadine may decrease the excretion rate of Tucatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14845",
+                        "description": "The serum concentration of Fexofenadine can be increased when it is combined with Filgotinib"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

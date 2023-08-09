@@ -1,0 +1,761 @@
+{
+    "medicine_id": "9634954745f0997ecd53a64c8f1ad533b244b355",
+    "platform_id": "DB13142",
+    "metadata": {
+        "name": "Zinplava 25 mg 1mL Injection solution",
+        "composition": "25 mg 1mL Calcium glubionate anhydrous",
+        "clinical_particulars": {
+            "therapeutic_indications": "Calcium glubionate is indicated to treat conditions caused by low calcium levels such as bone loss osteoporosis weak bones osteomalacia rickets decreased activity of the parathyroid gland hypoparathyroidism and a certain muscle disease latent tetany It may also be used in certain patients to make sure they are getting enough calcium e g women who are pregnant nursing or postmenopausal people taking certain medications such as phenytoin phenobarbital or prednisone",
+            "contraindications": {
+                "disease": "Assess patient for nausea vomiting anorexia thirst severe constipation paralytic ileus and bradycardia",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01212",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Ceftriaxone"
+                    },
+                    {
+                        "drugbank-id": "DB00841",
+                        "description": "The therapeutic efficacy of Dobutamine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00258",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Calcium acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Digoxin"
+                    },
+                    {
+                        "drugbank-id": "DB00511",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Acetyldigitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB01078",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Digitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB12843",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Oleandrin"
+                    },
+                    {
+                        "drugbank-id": "DB13240",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Cymarin"
+                    },
+                    {
+                        "drugbank-id": "DB13307",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Proscillaridin"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Metildigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13467",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Lanatoside C"
+                    },
+                    {
+                        "drugbank-id": "DB13537",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Gitoformate"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Acetyldigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13756",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Peruvoside"
+                    },
+                    {
+                        "drugbank-id": "DB00254",
+                        "description": "The serum concentration of Doxycycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00256",
+                        "description": "The serum concentration of Lymecycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00453",
+                        "description": "The serum concentration of Clomocycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00595",
+                        "description": "The serum concentration of Oxytetracycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00618",
+                        "description": "The serum concentration of Demeclocycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00759",
+                        "description": "The serum concentration of Tetracycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00931",
+                        "description": "The serum concentration of Metacycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01017",
+                        "description": "The serum concentration of Minocycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The serum concentration of Sarecycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13264",
+                        "description": "The serum concentration of Penimepicycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "Methyclothiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "Chlorthalidone may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Bendroflumethiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "Metolazone may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "Benzthiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Hydroflumethiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "Indapamide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Chlorothiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Hydrochlorothiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Trichlormethiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Polythiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB01325",
+                        "description": "Quinethazone may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Cyclopenthiazide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB13989",
+                        "description": "Epitizide may decrease the excretion rate of Calcium glubionate anhydrous which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00136",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Calcitriol"
+                    },
+                    {
+                        "drugbank-id": "DB00146",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Calcifediol"
+                    },
+                    {
+                        "drugbank-id": "DB00153",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Ergocalciferol"
+                    },
+                    {
+                        "drugbank-id": "DB00169",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Cholecalciferol"
+                    },
+                    {
+                        "drugbank-id": "DB00910",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Paricalcitol"
+                    },
+                    {
+                        "drugbank-id": "DB01070",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Dihydrotachysterol"
+                    },
+                    {
+                        "drugbank-id": "DB01436",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Alfacalcidol"
+                    },
+                    {
+                        "drugbank-id": "DB02300",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Calcipotriol"
+                    },
+                    {
+                        "drugbank-id": "DB04258",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Seocalcitol"
+                    },
+                    {
+                        "drugbank-id": "DB04796",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Inecalcitol"
+                    },
+                    {
+                        "drugbank-id": "DB04891",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Becocalcidiol"
+                    },
+                    {
+                        "drugbank-id": "DB05295",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Eldecalcitol"
+                    },
+                    {
+                        "drugbank-id": "DB06117",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with 1alpha 24S Dihydroxyvitamin D2"
+                    },
+                    {
+                        "drugbank-id": "DB06194",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Elocalcitol"
+                    },
+                    {
+                        "drugbank-id": "DB06272",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Maxacalcitol"
+                    },
+                    {
+                        "drugbank-id": "DB06410",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Doxercalciferol"
+                    },
+                    {
+                        "drugbank-id": "DB11094",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Vitamin D"
+                    },
+                    {
+                        "drugbank-id": "DB13097",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with 1alpha Hydroxyvitamin D5"
+                    },
+                    {
+                        "drugbank-id": "DB13689",
+                        "description": "The risk or severity of adverse effects can be increased when Calcium glubionate anhydrous is combined with Tacalcitol"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The therapeutic efficacy of Isradipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The therapeutic efficacy of Diltiazem can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The therapeutic efficacy of Trimethadione can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The therapeutic efficacy of Amlodipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The therapeutic efficacy of Nimodipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The therapeutic efficacy of Nisoldipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The therapeutic efficacy of Lercanidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The therapeutic efficacy of Lamotrigine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The therapeutic efficacy of Cinnarizine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The therapeutic efficacy of Ethosuximide can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The therapeutic efficacy of Nicardipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The therapeutic efficacy of Magnesium sulfate can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The therapeutic efficacy of Verapamil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The therapeutic efficacy of Loperamide can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The therapeutic efficacy of Zonisamide can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The therapeutic efficacy of Felodipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The therapeutic efficacy of Nitrendipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The therapeutic efficacy of Perhexiline can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The therapeutic efficacy of Nifedipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The therapeutic efficacy of Amiodarone can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The therapeutic efficacy of Carvedilol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The therapeutic efficacy of Bepridil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The therapeutic efficacy of Mibefradil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The therapeutic efficacy of Nimesulide can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The therapeutic efficacy of Prenylamine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "The therapeutic efficacy of Cyclandelate can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The therapeutic efficacy of Flunarizine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The therapeutic efficacy of Fluspirilene can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The therapeutic efficacy of Clevidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The therapeutic efficacy of Methsuximide can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "The therapeutic efficacy of Seletracetam can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "The therapeutic efficacy of Nylidrin can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "The therapeutic efficacy of Ziconotide can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "The therapeutic efficacy of Dotarizine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "The therapeutic efficacy of Xylometazoline can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The therapeutic efficacy of Nilvadipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The therapeutic efficacy of Tranilast can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB08162",
+                        "description": "The therapeutic efficacy of Fasudil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The therapeutic efficacy of Agmatine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The therapeutic efficacy of Fendiline can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The therapeutic efficacy of Eperisone can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The therapeutic efficacy of Trimebutine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The therapeutic efficacy of Pinaverium can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The therapeutic efficacy of Tolfenamic acid can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The therapeutic efficacy of Barnidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The therapeutic efficacy of Aranidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "The therapeutic efficacy of Azelnidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The therapeutic efficacy of Benidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The therapeutic efficacy of Cilnidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "The therapeutic efficacy of Darodipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The therapeutic efficacy of Efonidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The therapeutic efficacy of Lacidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The therapeutic efficacy of Manidipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The therapeutic efficacy of Niguldipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "The therapeutic efficacy of Niludipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "The therapeutic efficacy of Carboxyamidotriazole can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The therapeutic efficacy of Naftopidil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The therapeutic efficacy of Tetrahydropalmatine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "The therapeutic efficacy of Vinpocetine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The therapeutic efficacy of Gallopamil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The therapeutic efficacy of Bencyclane can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The therapeutic efficacy of Otilonium can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The therapeutic efficacy of Terodiline can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The therapeutic efficacy of Lidoflazine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The therapeutic efficacy of Penfluridol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "The therapeutic efficacy of Caroverine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The therapeutic efficacy of WIN 55212 2 can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "The therapeutic efficacy of Fish oil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The therapeutic efficacy of Dexverapamil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "The therapeutic efficacy of Emopamil can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "The therapeutic efficacy of Lomerizine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The therapeutic efficacy of Tetrandrine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The therapeutic efficacy of Dexniguldipine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00024",
+                        "description": "The therapeutic efficacy of Thyrotropin alfa can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The therapeutic efficacy of Liothyronine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The therapeutic efficacy of Levothyroxine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The therapeutic efficacy of Liotrix can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB03604",
+                        "description": "The therapeutic efficacy of Tiratricol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09100",
+                        "description": "The therapeutic efficacy of Thyroid porcine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00282",
+                        "description": "The serum concentration of Pamidronic acid can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00399",
+                        "description": "The serum concentration of Zoledronic acid can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00630",
+                        "description": "The serum concentration of Alendronic acid can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The serum concentration of Ibandronate can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00720",
+                        "description": "The serum concentration of Clodronic acid can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00884",
+                        "description": "The serum concentration of Risedronic acid can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01077",
+                        "description": "The serum concentration of Etidronic acid can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01133",
+                        "description": "The serum concentration of Tiludronic acid can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB06255",
+                        "description": "The serum concentration of Incadronic acid can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The therapeutic efficacy of Esmolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The therapeutic efficacy of Betaxolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The therapeutic efficacy of Metoprolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "The therapeutic efficacy of Atenolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The therapeutic efficacy of Timolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The therapeutic efficacy of Sotalol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The therapeutic efficacy of Propranolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The therapeutic efficacy of Labetalol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The therapeutic efficacy of Bisoprolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "The therapeutic efficacy of Alprenolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The therapeutic efficacy of Pindolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The therapeutic efficacy of Propafenone can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The therapeutic efficacy of Acebutolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The therapeutic efficacy of Nadolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The therapeutic efficacy of Bevantolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "The therapeutic efficacy of Practolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The therapeutic efficacy of Penbutolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The therapeutic efficacy of Oxprenolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "The therapeutic efficacy of Dexpropranolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The therapeutic efficacy of Celiprolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "The therapeutic efficacy of Nebivolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "The therapeutic efficacy of Bufuralol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "The therapeutic efficacy of Bopindolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The therapeutic efficacy of Bupranolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The therapeutic efficacy of Indenolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The therapeutic efficacy of Arotinolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "The therapeutic efficacy of Levobetaxolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The therapeutic efficacy of Talinolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The therapeutic efficacy of Anisodamine can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The therapeutic efficacy of Bucindolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "The therapeutic efficacy of Esatenolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "The therapeutic efficacy of Cloranolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "The therapeutic efficacy of Mepindolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The therapeutic efficacy of Epanolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "The therapeutic efficacy of Tertatolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "The therapeutic efficacy of Landiolol can be decreased when used in combination with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "Calcium glubionate anhydrous can cause a decrease in the absorption of Mycophenolate mofetil resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

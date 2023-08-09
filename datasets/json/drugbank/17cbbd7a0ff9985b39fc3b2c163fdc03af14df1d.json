@@ -1,0 +1,2981 @@
+{
+    "medicine_id": "17cbbd7a0ff9985b39fc3b2c163fdc03af14df1d",
+    "platform_id": "DB00104",
+    "metadata": {
+        "name": "BYNFEZIA Pen 2 5 mg 1mL Injection",
+        "composition": "2 5 mg 1mL Octreotide",
+        "clinical_particulars": {
+            "therapeutic_indications": "Octreotide by injection is used for the treatment of acromegaly and the reduction of flushing and diarrhea symptoms related to carcinoid tumors and or vasoactive intestinal peptide VIPoma tumors L14513 The delayed release oral formulation is used for the long term treatment of acromegaly in patients who tolerate and respond adequately to injectable octreotide and lanreotide L14507",
+            "contraindications": {
+                "disease": "There is limited information regarding cases of octreotide overdose aside from case reports of an overdose with injectable octreotide The dose ranged from 2 4 mg day to 6 mg day administered by continuous infusion or subcutaneous administration of 1 5 mg three times daily Effects of an overdose with octreotide may include hypotension brain hypoxia arrhythmia cardiac arrest lactic acidosis pancreatitis hepatomegaly diarrhea flushing lethargy and weakness L14528",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Octreotide mimics the naturally occurring hormone known as somatostatin Like somatostatin it demonstrates activity against growth hormone and glucagon treating the disordered tissue growth and insulin regulation in patients with acromegaly L14501 L14513 In addition octreotide relieves the flushing and diarrhea associated with gastrointestinal tumors by reducing splanchnic blood flow A214727 and various gastrointestinal hormones associated with diarrhea A214721 Product labeling warns that octreotide may reduce gallbladder contractility bile secretion and the release of thyroid stimulating hormone TSH in healthy volunteers L14513 In addition reports of decreased vitamin B12 in patients treated with octreotide have been made Ensure to monitor vitamin B12 levels in patients taking octreotide L14528",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00012",
+                        "description": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00016",
+                        "description": "The risk or severity of Thrombosis can be increased when Erythropoietin is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "The risk or severity of Thrombosis can be increased when Peginesatide is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09107",
+                        "description": "The risk or severity of Thrombosis can be increased when Methoxy polyethylene glycol epoetin beta is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "Octreotide may increase the bradycardic activities of Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB00082",
+                        "description": "The risk or severity of increased transaminases can be increased when Octreotide is combined with Pegvisomant"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The metabolism of Eliglustat can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The metabolism of Ibrutinib can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Cilostazol can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The metabolism of Colchicine can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "The metabolism of Fentanyl can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The metabolism of Iloperidone can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01256",
+                        "description": "The metabolism of Retapamulin can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08895",
+                        "description": "The metabolism of Tofacitinib can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The metabolism of Vardenafil can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The metabolism of Eszopiclone can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "The metabolism of Zopiclone can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The metabolism of Lovastatin can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00346",
+                        "description": "The metabolism of Alfuzosin can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00404",
+                        "description": "The metabolism of Alprazolam can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The serum concentration of R warfarin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08735",
+                        "description": "The serum concentration of R S Warfarin alcohol can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08736",
+                        "description": "The serum concentration of S R Warfarin alcohol can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The serum concentration of S Warfarin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00683",
+                        "description": "The serum concentration of Midazolam can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The serum concentration of Tacrolimus can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The metabolism of Atorvastatin can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Leuprolide"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Goserelin"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Moxifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Sulpiride"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Droperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Oxaliplatin"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Fluorouracil"
+                    },
+                    {
+                        "drugbank-id": "DB00556",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Perflutren"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Atropine"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Adenosine"
+                    },
+                    {
+                        "drugbank-id": "DB00743",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Gadobenic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00748",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Carbinoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Dolasetron"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Roxithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Nalidixic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cinoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00889",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Granisetron"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ondansetron"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Levosimendan"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Desloratadine"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lomefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00985",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Dimenhydrinate"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Papaverine"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Chlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Gemifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Flecainide"
+                    },
+                    {
+                        "drugbank-id": "DB01599",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Probucol"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB02638",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Terlipressin"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Azimilide"
+                    },
+                    {
+                        "drugbank-id": "DB05223",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Pracinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Technetium Tc 99m ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Garenoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Tedisamil"
+                    },
+                    {
+                        "drugbank-id": "DB06334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Tucidinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06402",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Telavancin"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Nemonoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB08799",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Antazoline"
+                    },
+                    {
+                        "drugbank-id": "DB08903",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Bedaquiline"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Dexchlorpheniramine maleate"
+                    },
+                    {
+                        "drugbank-id": "DB11640",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Amifampridine"
+                    },
+                    {
+                        "drugbank-id": "DB11830",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Mocetinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Entinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Gilteritinib"
+                    },
+                    {
+                        "drugbank-id": "DB12174",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with CUDC 101"
+                    },
+                    {
+                        "drugbank-id": "DB12286",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Simendan"
+                    },
+                    {
+                        "drugbank-id": "DB12376",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ricolinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12523",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Mizolastine"
+                    },
+                    {
+                        "drugbank-id": "DB12565",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Abexinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12877",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Oxatomide"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Sitafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Nizofenone"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Bunaftine"
+                    },
+                    {
+                        "drugbank-id": "DB13653",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lorcainide"
+                    },
+                    {
+                        "drugbank-id": "DB13679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Dexchlorpheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Azithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Methadone"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Chloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Primaquine"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Levofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01084",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Emedastine"
+                    },
+                    {
+                        "drugbank-id": "DB11718",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Encorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Berotralstat"
+                    },
+                    {
+                        "drugbank-id": "DB00166",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Lipoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Dapoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Milnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Desvenlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Indalpine"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB13233",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Alaproclate"
+                    },
+                    {
+                        "drugbank-id": "DB14025",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Clinafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Fluvoxamine"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Paroxetine"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Sertraline"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Zimelidine"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Levomilnacipran"
+                    },
+                    {
+                        "drugbank-id": "DB09270",
+                        "description": "The risk or severity of hypoglycemia can be increased when Octreotide is combined with Ubidecarenone"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Citalopram"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Anagrelide"
+                    },
+                    {
+                        "drugbank-id": "DB00283",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Clemastine"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ibutilide"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Grepafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cocaine"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Procainamide"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Escitalopram"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Domperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01218",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Halofantrine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB04844",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Tetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Artemether"
+                    },
+                    {
+                        "drugbank-id": "DB06708",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lumefantrine"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ribociclib"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Deutetrabenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Terfenadine"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cisapride"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB13925",
+                        "description": "Octreotide may decrease effectiveness of Dotatate gallium Ga 68 as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB13985",
+                        "description": "The therapeutic efficacy of Lutetium Lu 177 dotatate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11637",
+                        "description": "Octreotide may increase the QTc prolonging activities of Delamanid"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The metabolism of Aripiprazole can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The metabolism of Aripiprazole lauroxil can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00107",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Oxytocin"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Benzatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Atomoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Buclizine"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Doxylamine"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Mirtazapine"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Treprostinil"
+                    },
+                    {
+                        "drugbank-id": "DB00405",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Dexbrompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Hyoscyamine"
+                    },
+                    {
+                        "drugbank-id": "DB00427",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Triprolidine"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cyproheptadine"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Enoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Pefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00529",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Foscarnet"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Voriconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Moexipril"
+                    },
+                    {
+                        "drugbank-id": "DB00710",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ibandronate"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Apomorphine"
+                    },
+                    {
+                        "drugbank-id": "DB00719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Azatadine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Isoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Rosoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Disulfiram"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Brompheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB00871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Terbutaline"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Amantadine"
+                    },
+                    {
+                        "drugbank-id": "DB00920",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ketotifen"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Maprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Formoterol"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01001",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Salbutamol"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Tolterodine"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Gatifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Mequitazine"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Diphenhydramine"
+                    },
+                    {
+                        "drugbank-id": "DB01106",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Levocabastine"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01176",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Desflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Encainide"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Arformoterol"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Solifenacin"
+                    },
+                    {
+                        "drugbank-id": "DB01620",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Pheniramine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Vorinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Fleroxacin"
+                    },
+                    {
+                        "drugbank-id": "DB04695",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Farnesyl thiopyrophosphate"
+                    },
+                    {
+                        "drugbank-id": "DB04953",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ezogabine"
+                    },
+                    {
+                        "drugbank-id": "DB05465",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Tandutinib"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Vernakalant"
+                    },
+                    {
+                        "drugbank-id": "DB06282",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Levocetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Amisulpride"
+                    },
+                    {
+                        "drugbank-id": "DB06468",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cariporide"
+                    },
+                    {
+                        "drugbank-id": "DB06691",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Mepyramine"
+                    },
+                    {
+                        "drugbank-id": "DB06699",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Degarelix"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Buserelin"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Histrelin"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Triptorelin"
+                    },
+                    {
+                        "drugbank-id": "DB07780",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Farnesyl diphosphate"
+                    },
+                    {
+                        "drugbank-id": "DB07841",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Geranylgeranyl diphosphate"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Eribulin"
+                    },
+                    {
+                        "drugbank-id": "DB08936",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Chlorcyclizine"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Flumequine"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Olodaterol"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Vilanterol"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09488",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Acrivastine"
+                    },
+                    {
+                        "drugbank-id": "DB11390",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Coumaphos"
+                    },
+                    {
+                        "drugbank-id": "DB11397",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Dichlorvos"
+                    },
+                    {
+                        "drugbank-id": "DB11408",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Famphur"
+                    },
+                    {
+                        "drugbank-id": "DB11412",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Fenthion"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Orbifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11448",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Phosmet"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Sarafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Difloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11591",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Bilastine"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Rupatadine"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Pazufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11891",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with CUDC 907"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Prulifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Delafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB12231",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Temefos"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Triclabendazole"
+                    },
+                    {
+                        "drugbank-id": "DB12645",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Givinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12712",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Pilsicainide"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cibenzoline"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Prajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Oxolinic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lorajmine"
+                    },
+                    {
+                        "drugbank-id": "DB13744",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Piromidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Rufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Pipemidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB14713",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Inotersen"
+                    },
+                    {
+                        "drugbank-id": "DB00938",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Salmeterol"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Venlafaxine"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00341",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Cetirizine"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Protriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Mefloquine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Amoxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Amodiaquine"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Losartan"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Trimipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB00916",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Metronidazole"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Metoclopramide"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Posaconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Hydroxychloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Indacaterol"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Mirabegron"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Rilpivirine"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ebastine"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Fostemsavir"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Epinastine"
+                    },
+                    {
+                        "drugbank-id": "DB11853",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Relugolix"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "The metabolism of Lorazepam can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The metabolism of Phentermine can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Ticlopidine can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "The metabolism of Methysergide can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00426",
+                        "description": "The metabolism of Famciclovir can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Meperidine can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Zafirlukast can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The metabolism of Cephalexin can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The metabolism of Doxazosin can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Fenofibrate can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The metabolism of Rosuvastatin can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The metabolism of St John s Wort can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01411",
+                        "description": "The metabolism of Pranlukast can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "The metabolism of Allylestrenol can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "The metabolism of Roflumilast can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The metabolism of Rufinamide can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06717",
+                        "description": "The metabolism of Fosaprepitant can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The metabolism of Vorapaxar can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The metabolism of Suvorexant can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The metabolism of Netupitant can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The metabolism of Nintedanib can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The metabolism of Tenofovir alafenamide can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11094",
+                        "description": "The metabolism of Vitamin D can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The metabolism of Dihydroergocornine can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The metabolism of Duvelisib can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12515",
+                        "description": "The metabolism of 9 aminocamptothecin can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The metabolism of Tazemetostat can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12952",
+                        "description": "The metabolism of Methylprednisone can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13345",
+                        "description": "The metabolism of Dihydroergocristine can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The metabolism of Dihydroergocryptine can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Medical Cannabis can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The metabolism of Tenofovir can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The metabolism of Elexacaftor can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The metabolism of Isavuconazole can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The metabolism of Prucalopride can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13074",
+                        "description": "The therapeutic efficacy of Macimorelin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The therapeutic efficacy of Metformin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trazodone is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "Pitolisant may increase the QTc prolonging activities of Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "Lefamulin may increase the QTc prolonging activities of Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB15494",
+                        "description": "Octreotide may decrease effectiveness of Edotreotide gallium Ga 68 as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "Lasmiditan may increase the bradycardic activities of Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14975",
+                        "description": "The serum concentration of Voxelotor can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "The serum concentration of Levamlodipine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Hydroxyzine"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The metabolism of Tramadol can be decreased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of QTc prolongation can be increased when Octreotide is combined with Fluoxetine"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "Octreotide can cause a decrease in the absorption of Famotidine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "Pantoprazole can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "Omeprazole can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "Lansoprazole can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "Cimetidine can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "Nizatidine can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "Esomeprazole can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "Ranitidine can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "Methantheline can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "Rabeprazole can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01370",
+                        "description": "Aluminium can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "Magnesium oxide can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01390",
+                        "description": "Sodium bicarbonate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB05351",
+                        "description": "Dexlansoprazole can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "Aluminum hydroxide can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06724",
+                        "description": "Calcium carbonate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08805",
+                        "description": "Metiamide can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08806",
+                        "description": "Roxatidine acetate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "Magaldrate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "Magnesium hydroxide can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "Magnesium trisilicate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "Magnesium carbonate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12770",
+                        "description": "Lafutidine can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12884",
+                        "description": "Lavoltidine can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "Bismuth subnitrate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "Magnesium silicate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "Aluminium acetoacetate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "Hydrotalcite can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "Magnesium peroxide can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "Almasilate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "Aluminium glycinate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "Aloglutamol can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13760",
+                        "description": "Niperotidine can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13762",
+                        "description": "Dexrabeprazole can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13829",
+                        "description": "Calcium silicate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14048",
+                        "description": "Sodium zirconium cyclosilicate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "Aluminium phosphate can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB15246",
+                        "description": "Salvianolic acid A can cause a decrease in the absorption of Octreotide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The therapeutic efficacy of Insulin human can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "The therapeutic efficacy of Insulin lispro can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The therapeutic efficacy of Insulin glargine can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The therapeutic efficacy of Insulin pork can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The therapeutic efficacy of Troglitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The therapeutic efficacy of Glimepiride can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "The therapeutic efficacy of Acarbose can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The therapeutic efficacy of Sulfadiazine can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The therapeutic efficacy of Rosiglitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The therapeutic efficacy of Acetohexamide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "The therapeutic efficacy of Miglitol can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The therapeutic efficacy of Chlorpropamide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The therapeutic efficacy of Nateglinide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The therapeutic efficacy of Tolazamide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The therapeutic efficacy of Repaglinide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The therapeutic efficacy of Phenformin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The therapeutic efficacy of Sulfamethoxazole can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The therapeutic efficacy of Glipizide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The therapeutic efficacy of Gliclazide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The therapeutic efficacy of Tolbutamide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The therapeutic efficacy of Pioglitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The therapeutic efficacy of Gliquidone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The therapeutic efficacy of Mitiglinide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The therapeutic efficacy of Sitagliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "The therapeutic efficacy of Exenatide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "The therapeutic efficacy of Mecasermin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "The therapeutic efficacy of Pramlintide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The therapeutic efficacy of Glisoxepide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "The therapeutic efficacy of Insulin aspart can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "The therapeutic efficacy of Insulin detemir can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The therapeutic efficacy of Insulin glulisine can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "The therapeutic efficacy of Glymidine can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "The therapeutic efficacy of AICA ribonucleotide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "The therapeutic efficacy of Buformin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "The therapeutic efficacy of Vildagliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "The therapeutic efficacy of Voglibose can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The therapeutic efficacy of NN344 can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "The therapeutic efficacy of NBI 6024 can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "The therapeutic efficacy of Bisegliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The therapeutic efficacy of Alogliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The therapeutic efficacy of Dapagliflozin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The therapeutic efficacy of Saxagliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "The therapeutic efficacy of Liraglutide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "The therapeutic efficacy of Gosogliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The therapeutic efficacy of Glibornuride can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "The therapeutic efficacy of Benfluorex can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The therapeutic efficacy of Empagliflozin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "The therapeutic efficacy of Albiglutide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "The therapeutic efficacy of Dulaglutide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The therapeutic efficacy of Lobeglitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The therapeutic efficacy of Netoglitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The therapeutic efficacy of Rivoglitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The therapeutic efficacy of Ciglitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "The therapeutic efficacy of Lixisenatide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The therapeutic efficacy of Insulin beef can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The therapeutic efficacy of Insulin degludec can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The therapeutic efficacy of Insulin peglispro can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The therapeutic efficacy of Insulin tregopil can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "The therapeutic efficacy of Ipragliflozin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "The therapeutic efficacy of Dutogliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "The therapeutic efficacy of Allicin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "The therapeutic efficacy of Tofogliflozin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "The therapeutic efficacy of 2 4 thiazolidinedione can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "The therapeutic efficacy of Teneligliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "The therapeutic efficacy of Omarigliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "The therapeutic efficacy of Carmegliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "The therapeutic efficacy of Gemigliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "The therapeutic efficacy of Anagliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "The therapeutic efficacy of Evogliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "The therapeutic efficacy of Sotagliflozin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The therapeutic efficacy of Balaglitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "The therapeutic efficacy of Remogliflozin etabonate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The therapeutic efficacy of Carbutamide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "The therapeutic efficacy of Guar gum can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The therapeutic efficacy of Metahexamide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "The therapeutic efficacy of Semaglutide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "The therapeutic efficacy of Taspoglutide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "The therapeutic efficacy of Englitazone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "The therapeutic efficacy of Tirzepatide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "The therapeutic efficacy of Gastric inhibitory polypeptide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The therapeutic efficacy of Sulfisoxazole can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The therapeutic efficacy of Pentamidine can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The therapeutic efficacy of Disopyramide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The therapeutic efficacy of Quinine can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The therapeutic efficacy of Mifepristone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The therapeutic efficacy of Linagliptin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The therapeutic efficacy of Glyburide can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The therapeutic efficacy of Canagliflozin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The therapeutic efficacy of Ertugliflozin can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The therapeutic efficacy of Sunitinib can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "The serum concentration of Acetyldigoxin can be decreased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The serum concentration of Digoxin can be decreased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "The serum concentration of Metildigoxin can be decreased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "The bioavailability of Lisinopril can be increased when combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The therapeutic efficacy of Norethisterone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The therapeutic efficacy of Drospirenone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The therapeutic efficacy of Desogestrel can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The therapeutic efficacy of Megestrol acetate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The therapeutic efficacy of Levonorgestrel can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The therapeutic efficacy of Medroxyprogesterone acetate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The therapeutic efficacy of Estradiol can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The therapeutic efficacy of Ethynodiol diacetate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The therapeutic efficacy of Norgestimate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The therapeutic efficacy of Ethinylestradiol can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The therapeutic efficacy of Cyproterone acetate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The therapeutic efficacy of Gestodene can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The therapeutic efficacy of Dienogest can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09371",
+                        "description": "The therapeutic efficacy of Norethynodrel can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09389",
+                        "description": "The therapeutic efficacy of Norgestrel can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11619",
+                        "description": "The therapeutic efficacy of Gestrinone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The therapeutic efficacy of Lynestrenol can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13310",
+                        "description": "The therapeutic efficacy of Ormeloxifene can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13528",
+                        "description": "The therapeutic efficacy of Chlormadinone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13563",
+                        "description": "The therapeutic efficacy of Norgestrienone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13685",
+                        "description": "The therapeutic efficacy of Quingestanol can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13857",
+                        "description": "The therapeutic efficacy of Demegestone can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13981",
+                        "description": "The therapeutic efficacy of Nomegestrol acetate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14678",
+                        "description": "The therapeutic efficacy of Norethindrone enanthate can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of adverse effects can be increased when Octreotide is combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB09083",
+                        "description": "The serum concentration of the active metabolites of Ivabradine can be increased when Ivabradine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The serum concentration of the active metabolites of Betaxolol can be increased when Betaxolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The serum concentration of the active metabolites of Cinnarizine can be increased when Cinnarizine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The serum concentration of the active metabolites of Propranolol can be increased when Propranolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The serum concentration of the active metabolites of Nifedipine can be increased when Nifedipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The serum concentration of the active metabolites of Acebutolol can be increased when Acebutolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The serum concentration of the active metabolites of Oxprenolol can be increased when Oxprenolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The serum concentration of the active metabolites of Prenylamine can be increased when Prenylamine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The serum concentration of the active metabolites of Fluspirilene can be increased when Fluspirilene is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The serum concentration of the active metabolites of Nilvadipine can be increased when Nilvadipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The serum concentration of the active metabolites of Indenolol can be increased when Indenolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The serum concentration of the active metabolites of Fendiline can be increased when Fendiline is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The serum concentration of the active metabolites of Eperisone can be increased when Eperisone is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The serum concentration of the active metabolites of Benidipine can be increased when Benidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The serum concentration of the active metabolites of Otilonium can be increased when Otilonium is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The serum concentration of the active metabolites of Penfluridol can be increased when Penfluridol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00211",
+                        "description": "The serum concentration of the active metabolites of Midodrine can be increased when Midodrine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The serum concentration of the active metabolites of Pregabalin can be increased when Pregabalin is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "The serum concentration of the active metabolites of Atenolol can be increased when Atenolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The serum concentration of the active metabolites of Bendroflumethiazide can be increased when Bendroflumethiazide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The serum concentration of the active metabolites of Lercanidipine can be increased when Lercanidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The serum concentration of the active metabolites of Labetalol can be increased when Labetalol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The serum concentration of the active metabolites of Dexmedetomidine can be increased when Dexmedetomidine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The serum concentration of the active metabolites of Magnesium sulfate can be increased when Magnesium sulfate is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "The serum concentration of the active metabolites of Sufentanil can be increased when Sufentanil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "The serum concentration of the active metabolites of Alprenolol can be increased when Alprenolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "The serum concentration of the active metabolites of Remifentanil can be increased when Remifentanil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The serum concentration of the active metabolites of Pindolol can be increased when Pindolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The serum concentration of the active metabolites of Methyldopa can be increased when Methyldopa is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00989",
+                        "description": "The serum concentration of the active metabolites of Rivastigmine can be increased when Rivastigmine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "The serum concentration of the active metabolites of Guanfacine can be increased when Guanfacine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The serum concentration of the active metabolites of Bevantolol can be increased when Bevantolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "The serum concentration of the active metabolites of Practolol can be increased when Practolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The serum concentration of the active metabolites of Penbutolol can be increased when Penbutolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The serum concentration of the active metabolites of Nimesulide can be increased when Nimesulide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "The serum concentration of the active metabolites of Cyclandelate can be increased when Cyclandelate is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The serum concentration of the active metabolites of Flunarizine can be increased when Flunarizine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "The serum concentration of the active metabolites of Nebivolol can be increased when Nebivolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04897",
+                        "description": "The serum concentration of the active metabolites of Lucinactant can be increased when Lucinactant is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The serum concentration of the active metabolites of Clevidipine can be increased when Clevidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "The serum concentration of the active metabolites of Seletracetam can be increased when Seletracetam is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "The serum concentration of the active metabolites of Nylidrin can be increased when Nylidrin is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The serum concentration of the active metabolites of Lacosamide can be increased when Lacosamide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06415",
+                        "description": "The serum concentration of the active metabolites of Calfactant can be increased when Calfactant is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "The serum concentration of the active metabolites of Dotarizine can be increased when Dotarizine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The serum concentration of the active metabolites of Pasireotide can be increased when Pasireotide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "The serum concentration of the active metabolites of Bufuralol can be increased when Bufuralol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06761",
+                        "description": "The serum concentration of the active metabolites of Beractant can be increased when Beractant is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06791",
+                        "description": "The serum concentration of the active metabolites of Lanreotide can be increased when Lanreotide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The serum concentration of the active metabolites of Tranilast can be increased when Tranilast is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "The serum concentration of the active metabolites of Bopindolol can be increased when Bopindolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The serum concentration of the active metabolites of Agmatine can be increased when Agmatine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09013",
+                        "description": "The serum concentration of the active metabolites of Befunolol can be increased when Befunolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09113",
+                        "description": "The serum concentration of the active metabolites of Poractant alfa can be increased when Poractant alfa is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The serum concentration of the active metabolites of Arotinolol can be increased when Arotinolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The serum concentration of the active metabolites of Tolfenamic acid can be increased when Tolfenamic acid is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The serum concentration of the active metabolites of Barnidipine can be increased when Barnidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "The serum concentration of the active metabolites of Azelnidipine can be increased when Azelnidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The serum concentration of the active metabolites of Cilnidipine can be increased when Cilnidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "The serum concentration of the active metabolites of Darodipine can be increased when Darodipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The serum concentration of the active metabolites of Manidipine can be increased when Manidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "The serum concentration of the active metabolites of Niludipine can be increased when Niludipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "The serum concentration of the active metabolites of Levobetaxolol can be increased when Levobetaxolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "The serum concentration of the active metabolites of Carboxyamidotriazole can be increased when Carboxyamidotriazole is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The serum concentration of the active metabolites of Naftopidil can be increased when Naftopidil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "The serum concentration of the active metabolites of Vinpocetine can be increased when Vinpocetine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "The serum concentration of the active metabolites of Landiolol can be increased when Landiolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The serum concentration of the active metabolites of Bucindolol can be increased when Bucindolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "The serum concentration of the active metabolites of Esatenolol can be increased when Esatenolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "The serum concentration of the active metabolites of Cloranolol can be increased when Cloranolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "The serum concentration of the active metabolites of Mepindolol can be increased when Mepindolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The serum concentration of the active metabolites of Epanolol can be increased when Epanolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "The serum concentration of the active metabolites of Tertatolol can be increased when Tertatolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "The serum concentration of the active metabolites of Caroverine can be increased when Caroverine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The serum concentration of the active metabolites of WIN 55212 2 can be increased when WIN 55212 2 is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "The serum concentration of the active metabolites of Fish oil can be increased when Fish oil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The serum concentration of the active metabolites of Sotalol can be increased when Sotalol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The serum concentration of the active metabolites of Bepridil can be increased when Bepridil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The serum concentration of the active metabolites of Terodiline can be increased when Terodiline is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The serum concentration of the active metabolites of Esmolol can be increased when Esmolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The serum concentration of the active metabolites of Trimethadione can be increased when Trimethadione is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "The serum concentration of the active metabolites of Galantamine can be increased when Galantamine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The serum concentration of the active metabolites of Tizanidine can be increased when Tizanidine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "The serum concentration of the active metabolites of Levomenthol can be increased when Levomenthol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The serum concentration of the active metabolites of Perhexiline can be increased when Perhexiline is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "The serum concentration of the active metabolites of Bretylium can be increased when Bretylium is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The serum concentration of the active metabolites of Methsuximide can be increased when Methsuximide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The serum concentration of the active metabolites of Bupranolol can be increased when Bupranolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The serum concentration of the active metabolites of Trimebutine can be increased when Trimebutine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The serum concentration of the active metabolites of Pinaverium can be increased when Pinaverium is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The serum concentration of the active metabolites of Aranidipine can be increased when Aranidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The serum concentration of the active metabolites of Efonidipine can be increased when Efonidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The serum concentration of the active metabolites of Lacidipine can be increased when Lacidipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The serum concentration of the active metabolites of Anisodamine can be increased when Anisodamine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The serum concentration of the active metabolites of Tetrahydropalmatine can be increased when Tetrahydropalmatine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The serum concentration of the active metabolites of Bencyclane can be increased when Bencyclane is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The serum concentration of the active metabolites of Lidoflazine can be increased when Lidoflazine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The serum concentration of the active metabolites of Diltiazem can be increased when Diltiazem is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The serum concentration of the active metabolites of Nimodipine can be increased when Nimodipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The serum concentration of the active metabolites of Loperamide can be increased when Loperamide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The serum concentration of the active metabolites of Propafenone can be increased when Propafenone is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The serum concentration of the active metabolites of Mibefradil can be increased when Mibefradil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The serum concentration of the active metabolites of Dexverapamil can be increased when Dexverapamil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The serum concentration of the active metabolites of Isradipine can be increased when Isradipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The serum concentration of the active metabolites of Timolol can be increased when Timolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The serum concentration of the active metabolites of Lamotrigine can be increased when Lamotrigine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The serum concentration of the active metabolites of Nicardipine can be increased when Nicardipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The serum concentration of the active metabolites of Zonisamide can be increased when Zonisamide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The serum concentration of the active metabolites of Nitrendipine can be increased when Nitrendipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The serum concentration of the active metabolites of Celiprolol can be increased when Celiprolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The serum concentration of the active metabolites of Niguldipine can be increased when Niguldipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The serum concentration of the active metabolites of Talinolol can be increased when Talinolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The serum concentration of the active metabolites of Gallopamil can be increased when Gallopamil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The serum concentration of the active metabolites of Amlodipine can be increased when Amlodipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The serum concentration of the active metabolites of Bisoprolol can be increased when Bisoprolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The serum concentration of the active metabolites of Verapamil can be increased when Verapamil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "The serum concentration of the active metabolites of Donepezil can be increased when Donepezil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The serum concentration of the active metabolites of Carvedilol can be increased when Carvedilol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The serum concentration of the active metabolites of Nadolol can be increased when Nadolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08868",
+                        "description": "The serum concentration of the active metabolites of Fingolimod can be increased when Fingolimod is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The serum concentration of the active metabolites of Regorafenib can be increased when Regorafenib is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "The serum concentration of the active metabolites of Emopamil can be increased when Emopamil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "The serum concentration of the active metabolites of Lomerizine can be increased when Lomerizine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The serum concentration of the active metabolites of Tetrandrine can be increased when Tetrandrine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The serum concentration of the active metabolites of Dexniguldipine can be increased when Dexniguldipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The serum concentration of the active metabolites of Nisoldipine can be increased when Nisoldipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The serum concentration of the active metabolites of Clonidine can be increased when Clonidine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The serum concentration of the active metabolites of Ethosuximide can be increased when Ethosuximide is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "The serum concentration of the active metabolites of Alfentanil can be increased when Alfentanil is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The serum concentration of the active metabolites of Felodipine can be increased when Felodipine is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The serum concentration of the active metabolites of Metoprolol can be increased when Metoprolol is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The serum concentration of the active metabolites of Amiodarone can be increased when Amiodarone is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The serum concentration of the active metabolites of Dronedarone can be increased when Dronedarone is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The serum concentration of the active metabolites of Crizotinib can be increased when Crizotinib is used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00521",
+                        "description": "The serum concentration of the active metabolites of Octreotide can be increased when Octreotide is used in combination with Carteolol"
+                    },
+                    {
+                        "drugbank-id": "DB01210",
+                        "description": "The serum concentration of the active metabolites of Octreotide can be increased when Octreotide is used in combination with Levobunolol"
+                    },
+                    {
+                        "drugbank-id": "DB01214",
+                        "description": "The serum concentration of the active metabolites of Octreotide can be increased when Octreotide is used in combination with Metipranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13746",
+                        "description": "The serum concentration of the active metabolites of Octreotide can be increased when Octreotide is used in combination with Bioallethrin"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "The serum concentration of Octreotide can be increased when it is combined with Ruxolitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The serum concentration of Cyclosporine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The serum concentration of Romidepsin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The serum concentration of Warfarin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The serum concentration of Acenocoumarol can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The serum concentration of Levacetylmethadol can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The serum concentration of Clomipramine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The serum concentration of Astemizole can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The serum concentration of Nortriptyline can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The serum concentration of Pimozide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The serum concentration of Fosphenytoin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The serum concentration of Cobimetinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The serum concentration of Lomitapide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The serum concentration of Idelalisib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The serum concentration of Osimertinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The serum concentration of Dacomitinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The serum concentration of Alpelisib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The serum concentration of Siponimod can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The serum concentration of Bortezomib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The serum concentration of Dofetilide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The serum concentration of Cabergoline can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The serum concentration of Theophylline can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "The serum concentration of Vindesine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "The serum concentration of Vinorelbine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The serum concentration of Sorafenib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The serum concentration of Teniposide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The serum concentration of Erlotinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The serum concentration of Vincristine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The serum concentration of Methotrexate can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The serum concentration of Carbamazepine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The serum concentration of Vinblastine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The serum concentration of Tamoxifen can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The serum concentration of Etoposide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The serum concentration of Sirolimus can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The serum concentration of Quinidine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The serum concentration of Phenprocoumon can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The serum concentration of Doxorubicin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "The serum concentration of Busulfan can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The serum concentration of Ifosfamide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The serum concentration of Aminophylline can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The serum concentration of Paclitaxel can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The serum concentration of Docetaxel can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The serum concentration of Dasatinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The serum concentration of Digitoxin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The serum concentration of Everolimus can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "The serum concentration of Thiotepa can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The serum concentration of Ixabepilone can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The serum concentration of Nilotinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The serum concentration of Trabectedin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The serum concentration of Vandetanib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The serum concentration of Temsirolimus can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The serum concentration of Pazopanib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The serum concentration of Midostaurin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The serum concentration of Panobinostat can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The serum concentration of Bosutinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The serum concentration of Axitinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The serum concentration of Brentuximab vedotin can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The serum concentration of Ponatinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The serum concentration of Dabrafenib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The serum concentration of Palbociclib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09143",
+                        "description": "The serum concentration of Sonidegib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The serum concentration of Tianeptine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09570",
+                        "description": "The serum concentration of Ixazomib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11363",
+                        "description": "The serum concentration of Alectinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The serum concentration of Venetoclax can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The serum concentration of Vinflunine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11703",
+                        "description": "The serum concentration of Acalabrutinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The serum concentration of Neratinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The serum concentration of Erdafitinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The serum concentration of Brigatinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The serum concentration of Copanlisib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The serum concentration of Pexidartinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The serum concentration of Enasidenib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The serum concentration of Ivosidenib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB15035",
+                        "description": "The serum concentration of Zanubrutinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The serum concentration of Irinotecan can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The serum concentration of Tolvaptan can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The serum concentration of Pomalidomide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The serum concentration of Olaparib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The serum concentration of Baricitinib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The serum concentration of Abemaciclib can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The serum concentration of Dihydroergotamine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The serum concentration of Cyclophosphamide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "The serum concentration of Ergotamine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The serum concentration of Conivaptan can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB01128",
+                        "description": "The serum concentration of Bicalutamide can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The serum concentration of Trastuzumab emtansine can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The serum concentration of Cabazitaxel can be increased when it is combined with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB15873",
+                        "description": "The therapeutic efficacy of Octreotide can be decreased when used in combination with Copper oxodotreotide Cu 64"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

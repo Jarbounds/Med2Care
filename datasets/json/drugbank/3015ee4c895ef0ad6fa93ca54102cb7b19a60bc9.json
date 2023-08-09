@@ -1,0 +1,653 @@
+{
+    "medicine_id": "3015ee4c895ef0ad6fa93ca54102cb7b19a60bc9",
+    "platform_id": "DB08862",
+    "metadata": {
+        "name": "Cholecystokinin Inj 75unit vial Powder for solution",
+        "composition": "Cholecystokinin",
+        "clinical_particulars": {
+            "therapeutic_indications": "For use as a diagnostic aid for evaluation of gallbladder disorders It is also used in conjunction with secretin in pancreatic insufficiency L1634",
+            "contraindications": {
+                "disease": "Ld 50 in rats 2730 mg kg oral L1649 Cholecystokinin has been associated with increased anxiety and panic attacks A32106",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Cholecystokinin CCK plays an imperative role in facilitating digestion within the small intestine The activation of the CCK1 receptor by CCK has demonstrated to be responsible for a wide variety of important physiologic functions including the stimulation of gallbladder contraction and exocrine pancreatic enzyme secretion delay of gastric emptying relaxation of the sphincter of Oddi inhibition of gastric acid secretion and induction of satiety L1632 L1647 Cholecystokinin is also produced by neurons in the enteric nervous system and is found to be widely distributed in the brain L1632 An interesting function of CCK is the role it plays in stimulating the CCK receptor and subsequently regulating food consumption which may prove to be a highly useful treatment for obesity L1639 Exogenous administration CCK has been widely studied L1641 Diseases resulting from excessive or deficient secretion of cholecystokinin are rare Cholecystokinin deficiency has been described in humans as part of autoimmune polyglandular syndrome characterized as a malabsorption syndrome clinically similar to pancreatic exocrine insufficiency Additionally there is increasing evidence that alterations in expression of cholecystokinin or its receptor within the brain may possibly play a role in the pathogenesis of various types of anxiety disorders and schizophrenia L1632 Foodstuffs flowing into the small intestine are mostly made up of large macromolecules proteins polysaccharides and triglyceride that require digestion into small molecules amino acids monosaccharides fatty acids in order to be absorbed Digestive enzymes from the pancreas and bile salts from the liver which are stored in the gallbladder are necessary for digestion Cholecystokinin is the primary stimulus for the release of pancreatic enzymes and bile secretion into the small intestine Additionally cholecystokinin induces contraction of the gallbladder muscle resulting in the reduction of gallbladder size and evacuation of bile L1634",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB09272",
+                        "description": "The serum concentration of Eluxadoline can be increased when it is combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The excretion of Cholecystokinin can be increased when combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Valsartan"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Pantoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00227",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Lovastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Conjugated estrogens"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00345",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Aminohippuric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Digoxin"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Beclomethasone dipropionate"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00439",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Cerivastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00520",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Caspofungin"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Vincristine"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB00583",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Levocarnitine"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Fluticasone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Ivermectin"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Nicardipine"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Simvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00646",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Nystatin"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Amprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Irinotecan"
+                    },
+                    {
+                        "drugbank-id": "DB00778",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Roxithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Estradiol"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Sulfasalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Sirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB01051",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Novobiocin"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01076",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Atorvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01092",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Ouabain"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Fluvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Rosuvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Darunavir"
+                    },
+                    {
+                        "drugbank-id": "DB01393",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Bezafibrate"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Everolimus"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Genistein"
+                    },
+                    {
+                        "drugbank-id": "DB01892",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Hyperforin"
+                    },
+                    {
+                        "drugbank-id": "DB02659",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Cholic Acid"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Fusidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04216",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Quercetin"
+                    },
+                    {
+                        "drugbank-id": "DB04348",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Taurocholic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04850",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Posizolid"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Telaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB05928",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Dovitinib"
+                    },
+                    {
+                        "drugbank-id": "DB06151",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Acetylcysteine"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Simeprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Axitinib"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Cabazitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Pitavastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The excretion of Pravastatin can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The excretion of Torasemide can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The excretion of Liothyronine can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00481",
+                        "description": "The excretion of Raloxifene can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The excretion of Bosentan can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The excretion of Methotrexate can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The excretion of Enalapril can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "The excretion of Sumatriptan can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The excretion of Mycophenolate mofetil can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The excretion of Penicillamine can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The excretion of Repaglinide can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00917",
+                        "description": "The excretion of Dinoprostone can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The excretion of Fexofenadine can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB00973",
+                        "description": "The excretion of Ezetimibe can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The excretion of Benzylpenicillin can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "The excretion of Liotrix can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The excretion of Cobimetinib can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB06199",
+                        "description": "The excretion of Atrasentan can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The excretion of Ambrisentan can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB06721",
+                        "description": "The excretion of Gimatecan can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "The excretion of Temocapril can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB08884",
+                        "description": "The excretion of Gadoxetic acid can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB09137",
+                        "description": "The excretion of Technetium Tc 99m mebrofenin can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "The excretion of Fimasartan can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The excretion of Paritaprevir can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The excretion of Tenofovir alafenamide can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The excretion of Selexipag can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB11575",
+                        "description": "The excretion of Grazoprevir can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The excretion of Asunaprevir can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The excretion of Elagolix can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The excretion of Voxilaprevir can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The excretion of Letermovir can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB13139",
+                        "description": "The excretion of Levosalbutamol can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The excretion of Glecaprevir can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB08864",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Rilpivirine"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Idelalisib"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Daclatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Sacubitril"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Silibinin"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Venetoclax"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Velpatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11869",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Valspodar"
+                    },
+                    {
+                        "drugbank-id": "DB12319",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Benzbromarone"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Pibrentasvir"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Estradiol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Estradiol benzoate"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Estradiol cypionate"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Estradiol dienanthate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Estradiol valerate"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Pexidartinib"
+                    },
+                    {
+                        "drugbank-id": "DB12500",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Fedratinib"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Istradefylline"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Elexacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB11936",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Bempedoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Fostemsavir"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Estrone"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The excretion of Remdesivir can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The excretion of Belantamab mafodotin can be decreased when combined with Cholecystokinin"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Nefazodone"
+                    },
+                    {
+                        "drugbank-id": "DB05016",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Ataluren"
+                    },
+                    {
+                        "drugbank-id": "DB06749",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Ginsenoside Rb1"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Baricitinib"
+                    },
+                    {
+                        "drugbank-id": "DB11942",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Selinexor"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The excretion of Cholecystokinin can be decreased when combined with Levothyroxine"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "Cholecystokinin may decrease the excretion rate of Revefenacin which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB14845",
+                        "description": "The serum concentration of Cholecystokinin can be increased when it is combined with Filgotinib"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

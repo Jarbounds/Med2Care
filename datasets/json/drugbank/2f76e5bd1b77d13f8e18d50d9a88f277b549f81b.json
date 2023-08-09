@@ -1,0 +1,669 @@
+{
+    "medicine_id": "2f76e5bd1b77d13f8e18d50d9a88f277b549f81b",
+    "platform_id": "DB00260",
+    "metadata": {
+        "name": "Cycloserine 250 mg 1 Capsule",
+        "composition": "250 mg 1 Cycloserine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Used in combination with up to 5 other drugs as a treatment for Mycobacterium avium complex MAC and is also used to treat tuberculosis TB",
+            "contraindications": {
+                "disease": "Oral LD sub 50 sub in mouse is 5290 mg kg and in rat is over 5000 mg kg Symptoms of a cycloserine overdose include drowsiness confusion headache dizziness irritability numbness and tingling difficulty speaking paralysis abnormal behavior seizures and unconsciousness",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Cycloserine a broad spectrum antibiotic may be bactericidal or bacteriostatic depending on its concentration at the site of infection and the susceptibility of the organism Cycloserine works by blocking the formation of these peptidoglycans By doing this the walls of the bacteria become weak and it results in the death of the bacteria",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00609",
+                        "description": "The risk or severity of adverse effects can be increased when Ethionamide is combined with Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The risk or severity of adverse effects can be increased when Isoniazid is combined with Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Ethanol may increase the neurotoxic activities of Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Cycloserine is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "Cyclosporine may increase the neurotoxic activities of Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "Succinylcholine may increase the neurotoxic activities of Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "Reserpine may increase the neurotoxic activities of Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "Ziprasidone may increase the neurotoxic activities of Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Cycloserine may increase the neurotoxic activities of Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Cycloserine may increase the neurotoxic activities of Protriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "Cycloserine may increase the neurotoxic activities of Vinorelbine"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "Cycloserine may increase the neurotoxic activities of Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00372",
+                        "description": "Cycloserine may increase the neurotoxic activities of Thiethylperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "Cycloserine may increase the neurotoxic activities of Sulpiride"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "Cycloserine may increase the neurotoxic activities of Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "Cycloserine may increase the neurotoxic activities of Remoxipride"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "Cycloserine may increase the neurotoxic activities of Promazine"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "Cycloserine may increase the neurotoxic activities of Prochlorperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Cycloserine may increase the neurotoxic activities of Teniposide"
+                    },
+                    {
+                        "drugbank-id": "DB00450",
+                        "description": "Cycloserine may increase the neurotoxic activities of Droperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Cycloserine may increase the neurotoxic activities of Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "Cycloserine may increase the neurotoxic activities of Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "Cycloserine may increase the neurotoxic activities of Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "Cycloserine may increase the neurotoxic activities of Triflupromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "Cycloserine may increase the neurotoxic activities of Cyclophosphamide"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Cycloserine may increase the neurotoxic activities of Nortriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "Cycloserine may increase the neurotoxic activities of Vincristine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Cycloserine may increase the neurotoxic activities of Amoxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "Cycloserine may increase the neurotoxic activities of Fluphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00649",
+                        "description": "Cycloserine may increase the neurotoxic activities of Stavudine"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "Cycloserine may increase the neurotoxic activities of Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "Cycloserine may increase the neurotoxic activities of Moricizine"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Cycloserine may increase the neurotoxic activities of Trimipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Cycloserine may increase the neurotoxic activities of Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "Cycloserine may increase the neurotoxic activities of Trifluoperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "Cycloserine may increase the neurotoxic activities of Perphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "Cycloserine may increase the neurotoxic activities of Flupentixol"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "Cycloserine may increase the neurotoxic activities of Didanosine"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "Cycloserine may increase the neurotoxic activities of Cyclobenzaprine"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "Cycloserine may increase the neurotoxic activities of Mesoridazine"
+                    },
+                    {
+                        "drugbank-id": "DB01063",
+                        "description": "Cycloserine may increase the neurotoxic activities of Acetophenazine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "Cycloserine may increase the neurotoxic activities of Promethazine"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "Cycloserine may increase the neurotoxic activities of Pimozide"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Cycloserine may increase the neurotoxic activities of Doxepin"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Cycloserine may increase the neurotoxic activities of Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "Cycloserine may increase the neurotoxic activities of Clindamycin"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "Cycloserine may increase the neurotoxic activities of Tubocurarine"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "Cycloserine may increase the neurotoxic activities of Paclitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "Cycloserine may increase the neurotoxic activities of Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "Cycloserine may increase the neurotoxic activities of Chlorprothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Cycloserine may increase the neurotoxic activities of Clomipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01245",
+                        "description": "Cycloserine may increase the neurotoxic activities of Decamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB01246",
+                        "description": "Cycloserine may increase the neurotoxic activities of Alimemazine"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "Cycloserine may increase the neurotoxic activities of Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01294",
+                        "description": "Cycloserine may increase the neurotoxic activities of Bismuth subsalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01356",
+                        "description": "Cycloserine may increase the neurotoxic activities of Lithium cation"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "Cycloserine may increase the neurotoxic activities of Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01598",
+                        "description": "Cycloserine may increase the neurotoxic activities of Imipenem"
+                    },
+                    {
+                        "drugbank-id": "DB01608",
+                        "description": "Cycloserine may increase the neurotoxic activities of Periciazine"
+                    },
+                    {
+                        "drugbank-id": "DB01614",
+                        "description": "Cycloserine may increase the neurotoxic activities of Acepromazine"
+                    },
+                    {
+                        "drugbank-id": "DB01615",
+                        "description": "Cycloserine may increase the neurotoxic activities of Aceprometazine"
+                    },
+                    {
+                        "drugbank-id": "DB01618",
+                        "description": "Cycloserine may increase the neurotoxic activities of Molindone"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "Cycloserine may increase the neurotoxic activities of Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB01622",
+                        "description": "Cycloserine may increase the neurotoxic activities of Thioproperazine"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "Cycloserine may increase the neurotoxic activities of Thiothixene"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "Cycloserine may increase the neurotoxic activities of Zuclopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB01627",
+                        "description": "Cycloserine may increase the neurotoxic activities of Lincomycin"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Cycloserine may increase the neurotoxic activities of Amineptine"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Cycloserine may increase the neurotoxic activities of Fluspirilene"
+                    },
+                    {
+                        "drugbank-id": "DB04872",
+                        "description": "Cycloserine may increase the neurotoxic activities of Osanetant"
+                    },
+                    {
+                        "drugbank-id": "DB04888",
+                        "description": "Cycloserine may increase the neurotoxic activities of Bifeprunox"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "Cycloserine may increase the neurotoxic activities of Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB05316",
+                        "description": "Cycloserine may increase the neurotoxic activities of Pimavanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05687",
+                        "description": "Cycloserine may increase the neurotoxic activities of BL 1020"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "Cycloserine may increase the neurotoxic activities of Cariprazine"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "Cycloserine may increase the neurotoxic activities of Sertindole"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "Cycloserine may increase the neurotoxic activities of Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06288",
+                        "description": "Cycloserine may increase the neurotoxic activities of Amisulpride"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "Cycloserine may increase the neurotoxic activities of Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "Cycloserine may increase the neurotoxic activities of Perospirone"
+                    },
+                    {
+                        "drugbank-id": "DB08927",
+                        "description": "Cycloserine may increase the neurotoxic activities of Amperozide"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Cycloserine may increase the neurotoxic activities of Dimetacrine"
+                    },
+                    {
+                        "drugbank-id": "DB09000",
+                        "description": "Cycloserine may increase the neurotoxic activities of Cyamemazine"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Cycloserine may increase the neurotoxic activities of Butriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "Cycloserine may increase the neurotoxic activities of Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "Cycloserine may increase the neurotoxic activities of Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Cycloserine may increase the neurotoxic activities of Dosulepin"
+                    },
+                    {
+                        "drugbank-id": "DB09223",
+                        "description": "Cycloserine may increase the neurotoxic activities of Blonanserin"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Cycloserine may increase the neurotoxic activities of Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "Cycloserine may increase the neurotoxic activities of Zotepine"
+                    },
+                    {
+                        "drugbank-id": "DB09226",
+                        "description": "Cycloserine may increase the neurotoxic activities of Brilaroxazine"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Cycloserine may increase the neurotoxic activities of Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB09275",
+                        "description": "Cycloserine may increase the neurotoxic activities of Bismuth subcitrate potassium"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "Cycloserine may increase the neurotoxic activities of Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "Cycloserine may increase the neurotoxic activities of Tianeptine"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Cycloserine may increase the neurotoxic activities of Oxaprotiline"
+                    },
+                    {
+                        "drugbank-id": "DB11281",
+                        "description": "Cycloserine may increase the neurotoxic activities of Bismuth subcarbonate"
+                    },
+                    {
+                        "drugbank-id": "DB11376",
+                        "description": "Cycloserine may increase the neurotoxic activities of Azaperone"
+                    },
+                    {
+                        "drugbank-id": "DB11537",
+                        "description": "Cycloserine may increase the neurotoxic activities of Pirlimycin"
+                    },
+                    {
+                        "drugbank-id": "DB11540",
+                        "description": "Cycloserine may increase the neurotoxic activities of Propiopromazine"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Cycloserine may increase the neurotoxic activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12273",
+                        "description": "Cycloserine may increase the neurotoxic activities of Ecopipam"
+                    },
+                    {
+                        "drugbank-id": "DB12401",
+                        "description": "Cycloserine may increase the neurotoxic activities of Bromperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12518",
+                        "description": "Cycloserine may increase the neurotoxic activities of Raclopride"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "Cycloserine may increase the neurotoxic activities of Ritanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12710",
+                        "description": "Cycloserine may increase the neurotoxic activities of Perazine"
+                    },
+                    {
+                        "drugbank-id": "DB12867",
+                        "description": "Cycloserine may increase the neurotoxic activities of Benperidol"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Cycloserine may increase the neurotoxic activities of Opipramol"
+                    },
+                    {
+                        "drugbank-id": "DB12958",
+                        "description": "Cycloserine may increase the neurotoxic activities of Prothipendyl"
+                    },
+                    {
+                        "drugbank-id": "DB13025",
+                        "description": "Cycloserine may increase the neurotoxic activities of Tiapride"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Cycloserine may increase the neurotoxic activities of Amitriptylinoxide"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "Cycloserine may increase the neurotoxic activities of Bismuth subnitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13213",
+                        "description": "Cycloserine may increase the neurotoxic activities of Butaperazine"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Cycloserine may increase the neurotoxic activities of Dibenzepin"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Cycloserine may increase the neurotoxic activities of Quinupramine"
+                    },
+                    {
+                        "drugbank-id": "DB13256",
+                        "description": "Cycloserine may increase the neurotoxic activities of Clothiapine"
+                    },
+                    {
+                        "drugbank-id": "DB13273",
+                        "description": "Cycloserine may increase the neurotoxic activities of Sultopride"
+                    },
+                    {
+                        "drugbank-id": "DB13382",
+                        "description": "Cycloserine may increase the neurotoxic activities of Chlorproethazine"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Cycloserine may increase the neurotoxic activities of Melitracen"
+                    },
+                    {
+                        "drugbank-id": "DB13403",
+                        "description": "Cycloserine may increase the neurotoxic activities of Oxypertine"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Cycloserine may increase the neurotoxic activities of Lofepramine"
+                    },
+                    {
+                        "drugbank-id": "DB13420",
+                        "description": "Cycloserine may increase the neurotoxic activities of Thiazinam"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Cycloserine may increase the neurotoxic activities of Iprindole"
+                    },
+                    {
+                        "drugbank-id": "DB13523",
+                        "description": "Cycloserine may increase the neurotoxic activities of Veralipride"
+                    },
+                    {
+                        "drugbank-id": "DB13552",
+                        "description": "Cycloserine may increase the neurotoxic activities of Trifluperidol"
+                    },
+                    {
+                        "drugbank-id": "DB13554",
+                        "description": "Cycloserine may increase the neurotoxic activities of Moperone"
+                    },
+                    {
+                        "drugbank-id": "DB13557",
+                        "description": "Cycloserine may increase the neurotoxic activities of Thiopropazate"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "Cycloserine may increase the neurotoxic activities of Gallamine"
+                    },
+                    {
+                        "drugbank-id": "DB13598",
+                        "description": "Cycloserine may increase the neurotoxic activities of Diethyl ether"
+                    },
+                    {
+                        "drugbank-id": "DB13665",
+                        "description": "Cycloserine may increase the neurotoxic activities of Fluanisone"
+                    },
+                    {
+                        "drugbank-id": "DB13676",
+                        "description": "Cycloserine may increase the neurotoxic activities of Mosapramine"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Cycloserine may increase the neurotoxic activities of Imipramine oxide"
+                    },
+                    {
+                        "drugbank-id": "DB13784",
+                        "description": "Cycloserine may increase the neurotoxic activities of Dixyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Cycloserine may increase the neurotoxic activities of Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13841",
+                        "description": "Cycloserine may increase the neurotoxic activities of Clopenthixol"
+                    },
+                    {
+                        "drugbank-id": "DB13909",
+                        "description": "Cycloserine may increase the neurotoxic activities of Bismuth subgallate"
+                    },
+                    {
+                        "drugbank-id": "DB13910",
+                        "description": "Cycloserine may increase the neurotoxic activities of Valproate bismuth"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "Cycloserine may increase the neurotoxic activities of Aripiprazole lauroxil"
+                    },
+                    {
+                        "drugbank-id": "DB14651",
+                        "description": "Cycloserine may increase the neurotoxic activities of Perphenazine enanthate"
+                    },
+                    {
+                        "drugbank-id": "DB00781",
+                        "description": "Cycloserine may increase the neurotoxic activities of Polymyxin B"
+                    },
+                    {
+                        "drugbank-id": "DB00994",
+                        "description": "Cycloserine may increase the neurotoxic activities of Neomycin"
+                    },
+                    {
+                        "drugbank-id": "DB06827",
+                        "description": "Cycloserine may increase the neurotoxic activities of Viomycin"
+                    },
+                    {
+                        "drugbank-id": "DB15965",
+                        "description": "Cycloserine may increase the neurotoxic activities of Naxitamab"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Cycloserine"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Cycloserine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

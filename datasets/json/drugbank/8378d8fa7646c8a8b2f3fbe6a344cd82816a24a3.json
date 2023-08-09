@@ -1,0 +1,29 @@
+{
+    "medicine_id": "8378d8fa7646c8a8b2f3fbe6a344cd82816a24a3",
+    "platform_id": "DB05245",
+    "metadata": {
+        "name": "Dermazin Crm 1 1 Cream",
+        "composition": "1 Silver sulfadiazine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Indicated as an adjunct for the prevention and treatment of wound sepsis in patients with second and third degree burns",
+            "contraindications": {
+                "disease": "Acute oral toxicity LD50 in rat is 10001 mg kg",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Silver sulfadiazine has broad antimicrobial activity It is bactericidal for many gram negative and gram positive bacteria as well as being effective against yeast Silver sulfadiazine is not a carbonic anhydrase inhibitor and may be useful in situations where such agents are contraindicated",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Silver sulfadiazine"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "Silver sulfadiazine may decrease the excretion rate of Benzylpenicillin which could result in a higher serum level"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

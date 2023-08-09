@@ -1,0 +1,457 @@
+{
+    "medicine_id": "27e44f2abc278bb42c08914bf9d50a9260251275",
+    "platform_id": "DB06206",
+    "metadata": {
+        "name": "Bridion 100 mg 1mL Injection solution",
+        "composition": "100 mg 1mL Sugammadex",
+        "clinical_particulars": {
+            "therapeutic_indications": "Sugammadex is indicated for the reversal of neuromuscular blockade induced by rocuronium bromide and vecuronium bromide in adults undergoing surgery",
+            "contraindications": {
+                "disease": "Patients with severe renal impairment with creatinine clearance below 30 mL min should avoid use of drug as their clearance of the drug is reduced and there is inconsistent evidence about its safety in this subset of patients",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00001",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Lepirudin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00006",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Bivalirudin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Alteplase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Urokinase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Reteplase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Anistreplase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Tenecteplase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Abciximab is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00055",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Drotrecogin alfa is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Streptokinase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Dicoumarol is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00278",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Argatroban is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Ardeparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Phenindione is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00569",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Fondaparinux is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Warfarin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00686",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Pentosan polysulfate is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Acetylsalicylic acid is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Phenprocoumon is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Dipyridamole is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Iloprost is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Heparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Enoxaparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Epoprostenol is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Acenocoumarol is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when 4 hydroxycoumarin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Coumarin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Ximelagatran is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB04925",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Desmoteplase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB04932",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Defibrotide is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB05099",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Ancrod is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Beraprost is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB05254",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Fibrinolysin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Prasugrel is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Rivaroxaban is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Sulodexide is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06294",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Semuloparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06406",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Idraparinux is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06441",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Cangrelor is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06543",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Astaxanthin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Apixaban is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06635",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Otamixaban is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Amediplase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Dabigatran etexilate is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Danaparoid is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Dalteparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Tinzaparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Ferulic acid is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when R warfarin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Ethyl biscoumacetate is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Nadroparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB08814",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Triflusal is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Ticagrelor is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB08994",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Ditazole is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Vorapaxar is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Edoxaban is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Potassium citrate is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Sodium citrate is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09255",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Dextran is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Bemiparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Parnaparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB11095",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Desirudin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Zinc citrate is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB11166",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Antithrombin Alfa is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB11312",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Protein C is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB11598",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Antithrombin III human is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB11984",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Letaxaban is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB12289",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Darexaban is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Betrixaban is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB12598",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Nafamostat is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB12726",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Monteplase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB12831",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Gabexate is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Fluindione is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13149",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Protein S human is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13199",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Brinase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Clorindione is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Diphenadione is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Tioclomarol is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13616",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Melagatran is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Saruplase is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when S Warfarin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Tocopherylquinone is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB14598",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Edetate calcium disodium anhydrous is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB14726",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Dabigatran is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13124",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Troxerutin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00974",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Edetic acid is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "The risk or severity of bleeding and hemorrhage can be increased when Reviparin is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The serum concentration of Desogestrel can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The serum concentration of Megestrol acetate can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The serum concentration of Medroxyprogesterone acetate can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The serum concentration of Norethisterone can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The serum concentration of Ethynodiol diacetate can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The serum concentration of Norgestimate can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The serum concentration of Drospirenone can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The serum concentration of Cyproterone acetate can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The serum concentration of Gestodene can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The serum concentration of Hydroxyprogesterone caproate can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The serum concentration of Dienogest can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09371",
+                        "description": "The serum concentration of Norethynodrel can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB09389",
+                        "description": "The serum concentration of Norgestrel can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB11619",
+                        "description": "The serum concentration of Gestrinone can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The serum concentration of Lynestrenol can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13528",
+                        "description": "The serum concentration of Chlormadinone can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13563",
+                        "description": "The serum concentration of Norgestrienone can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13685",
+                        "description": "The serum concentration of Quingestanol can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13857",
+                        "description": "The serum concentration of Demegestone can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB13981",
+                        "description": "The serum concentration of Nomegestrol acetate can be decreased when it is combined with Sugammadex"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The therapeutic efficacy of Sugammadex can be decreased when used in combination with Toremifene"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

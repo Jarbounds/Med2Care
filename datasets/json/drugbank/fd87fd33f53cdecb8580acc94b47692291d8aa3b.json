@@ -1,0 +1,633 @@
+{
+    "medicine_id": "fd87fd33f53cdecb8580acc94b47692291d8aa3b",
+    "platform_id": "DB15258",
+    "metadata": {
+        "name": "Idefirix 11 mg Injection",
+        "composition": "11 mg Imlifidase",
+        "clinical_particulars": {
+            "therapeutic_indications": "Imlifidase is indicated for desensitization of highly sensitized adult kidney transplant patients with a positive crossmatch against an available deceased donor L28001 The treatment is reserved for patients unlikely to receive a transplant under the available kidney allocation system including prioritization programs for highly sensitized patients L28001",
+            "contraindications": {
+                "disease": "There is currently no data for imlifidase administered at supra therapeutic doses therefore toxicity information is not readily available L28001 In cases of overdose the patient should be carefully monitored and symptomatic treatment should be initiated as needed L28001 Although there is no antidote to imlifidase administration of intravenous IgG may correct depleted IgG levels L28001",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Imlifidase is highly specific to all four human IgG subclasses and does not cleave any other immunoglobulins IgM IgA IgE IgD A225836 L28041 The inactivation of human IgG antibodies occurs rapidly and efficiently after administration of imlifidase with the effect lasting for several weeks A226045",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00028",
+                        "description": "The therapeutic efficacy of Imlifidase can be decreased when used in combination with Human immunoglobulin G"
+                    },
+                    {
+                        "drugbank-id": "DB00002",
+                        "description": "The therapeutic efficacy of Cetuximab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00043",
+                        "description": "The therapeutic efficacy of Omalizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The therapeutic efficacy of Adalimumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "The therapeutic efficacy of Abciximab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00056",
+                        "description": "The therapeutic efficacy of Gemtuzumab ozogamicin can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The therapeutic efficacy of Infliximab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00072",
+                        "description": "The therapeutic efficacy of Trastuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00073",
+                        "description": "The therapeutic efficacy of Rituximab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00074",
+                        "description": "The therapeutic efficacy of Basiliximab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00075",
+                        "description": "The therapeutic efficacy of Muromonab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00087",
+                        "description": "The therapeutic efficacy of Alemtuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00095",
+                        "description": "The therapeutic efficacy of Efalizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00108",
+                        "description": "The therapeutic efficacy of Natalizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00110",
+                        "description": "The therapeutic efficacy of Palivizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00111",
+                        "description": "The therapeutic efficacy of Daclizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB00112",
+                        "description": "The therapeutic efficacy of Bevacizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB01269",
+                        "description": "The therapeutic efficacy of Panitumumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB01270",
+                        "description": "The therapeutic efficacy of Ranibizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB04949",
+                        "description": "The therapeutic efficacy of Pexelizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB04958",
+                        "description": "The therapeutic efficacy of Epratuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05097",
+                        "description": "The therapeutic efficacy of Labetuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05101",
+                        "description": "The therapeutic efficacy of Matuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05111",
+                        "description": "The therapeutic efficacy of Fontolizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05496",
+                        "description": "The therapeutic efficacy of Otelixizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05555",
+                        "description": "The therapeutic efficacy of Enokizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05578",
+                        "description": "The therapeutic efficacy of Ramucirumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05595",
+                        "description": "The therapeutic efficacy of Farletuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05656",
+                        "description": "The therapeutic efficacy of Veltuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05679",
+                        "description": "The therapeutic efficacy of Ustekinumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The therapeutic efficacy of Trastuzumab emtansine can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05797",
+                        "description": "The therapeutic efficacy of TNX 901 can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05889",
+                        "description": "The therapeutic efficacy of Inotuzumab ozogamicin can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05892",
+                        "description": "The therapeutic efficacy of RI 624 can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB05941",
+                        "description": "The therapeutic efficacy of Leronlimab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06043",
+                        "description": "The therapeutic efficacy of Olaratumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06116",
+                        "description": "The therapeutic efficacy of Eldelumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06186",
+                        "description": "The therapeutic efficacy of Ipilimumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06192",
+                        "description": "The therapeutic efficacy of Nimotuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The therapeutic efficacy of Tocilizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06310",
+                        "description": "The therapeutic efficacy of Motavizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06317",
+                        "description": "The therapeutic efficacy of Elotuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06318",
+                        "description": "The therapeutic efficacy of AVE9633 can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06324",
+                        "description": "The therapeutic efficacy of XmAb 2513 can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06342",
+                        "description": "The therapeutic efficacy of Coltuximab ravtansine can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06360",
+                        "description": "The therapeutic efficacy of Lucatumumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06366",
+                        "description": "The therapeutic efficacy of Pertuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06371",
+                        "description": "The therapeutic efficacy of Siplizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06467",
+                        "description": "The therapeutic efficacy of Apolizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06474",
+                        "description": "The therapeutic efficacy of Sibrotuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06550",
+                        "description": "The therapeutic efficacy of Bivatuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06602",
+                        "description": "The therapeutic efficacy of Reslizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06606",
+                        "description": "The therapeutic efficacy of Teplizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06607",
+                        "description": "The therapeutic efficacy of Catumaxomab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06612",
+                        "description": "The therapeutic efficacy of Mepolizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06643",
+                        "description": "The therapeutic efficacy of Denosumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06650",
+                        "description": "The therapeutic efficacy of Ofatumumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The therapeutic efficacy of Golimumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The therapeutic efficacy of Brentuximab vedotin can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB08879",
+                        "description": "The therapeutic efficacy of Belimumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The therapeutic efficacy of Certolizumab pegol can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "The therapeutic efficacy of Obinutuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09033",
+                        "description": "The therapeutic efficacy of Vedolizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09035",
+                        "description": "The therapeutic efficacy of Nivolumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09037",
+                        "description": "The therapeutic efficacy of Pembrolizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09052",
+                        "description": "The therapeutic efficacy of Blinatumomab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "The therapeutic efficacy of Dinutuximab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09264",
+                        "description": "The therapeutic efficacy of Idarucizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09302",
+                        "description": "The therapeutic efficacy of Alirocumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09303",
+                        "description": "The therapeutic efficacy of Evolocumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09331",
+                        "description": "The therapeutic efficacy of Daratumumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB09559",
+                        "description": "The therapeutic efficacy of Necitumumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11569",
+                        "description": "The therapeutic efficacy of Ixekizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11580",
+                        "description": "The therapeutic efficacy of Ravulizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11595",
+                        "description": "The therapeutic efficacy of Atezolizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11714",
+                        "description": "The therapeutic efficacy of Durvalumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11715",
+                        "description": "The therapeutic efficacy of Bapineuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11731",
+                        "description": "The therapeutic efficacy of Depatuxizumab mafodotin can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11756",
+                        "description": "The therapeutic efficacy of Solanezumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11767",
+                        "description": "The therapeutic efficacy of Sarilumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11776",
+                        "description": "The therapeutic efficacy of Brodalumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11849",
+                        "description": "The therapeutic efficacy of Emibetuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11856",
+                        "description": "The therapeutic efficacy of Ligelizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11862",
+                        "description": "The therapeutic efficacy of Landogrozumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11884",
+                        "description": "The therapeutic efficacy of Vadastuximab Talirine can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11945",
+                        "description": "The therapeutic efficacy of Avelumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB11988",
+                        "description": "The therapeutic efficacy of Ocrelizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12023",
+                        "description": "The therapeutic efficacy of Benralizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12053",
+                        "description": "The therapeutic efficacy of Visilizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12119",
+                        "description": "The therapeutic efficacy of Gevokizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12152",
+                        "description": "The therapeutic efficacy of Simtuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12157",
+                        "description": "The therapeutic efficacy of Fasinumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12159",
+                        "description": "The therapeutic efficacy of Dupilumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12189",
+                        "description": "The therapeutic efficacy of Etrolizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12213",
+                        "description": "The therapeutic efficacy of Etaracizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12274",
+                        "description": "The therapeutic efficacy of Aducanumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12331",
+                        "description": "The therapeutic efficacy of Labetuzumab govitecan can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12335",
+                        "description": "The therapeutic efficacy of Tanezumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12456",
+                        "description": "The therapeutic efficacy of Bococizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12489",
+                        "description": "The therapeutic efficacy of Mirvetuximab Soravtansine can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12498",
+                        "description": "The therapeutic efficacy of Mogamulizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12530",
+                        "description": "The therapeutic efficacy of Inebilizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12560",
+                        "description": "The therapeutic efficacy of Blosozumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12589",
+                        "description": "The therapeutic efficacy of Dacetuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12609",
+                        "description": "The therapeutic efficacy of Tovetumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12683",
+                        "description": "The therapeutic efficacy of Lumretuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12734",
+                        "description": "The therapeutic efficacy of Demcizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12775",
+                        "description": "The therapeutic efficacy of Abituzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12797",
+                        "description": "The therapeutic efficacy of Ecromeximab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12820",
+                        "description": "The therapeutic efficacy of Concizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12826",
+                        "description": "The therapeutic efficacy of Depatuxizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12844",
+                        "description": "The therapeutic efficacy of Rontalizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12849",
+                        "description": "The therapeutic efficacy of Clazakizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12891",
+                        "description": "The therapeutic efficacy of Ozanezumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12893",
+                        "description": "The therapeutic efficacy of Sacituzumab govitecan can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12917",
+                        "description": "The therapeutic efficacy of Bimekizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB12943",
+                        "description": "The therapeutic efficacy of Milatuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB13017",
+                        "description": "The therapeutic efficacy of Rovalpituzumab Tesirine can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB13073",
+                        "description": "The therapeutic efficacy of Tregalizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB13127",
+                        "description": "The therapeutic efficacy of Olokizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB13375",
+                        "description": "The therapeutic efficacy of Edrecolomab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB13923",
+                        "description": "The therapeutic efficacy of Emicizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB13976",
+                        "description": "The therapeutic efficacy of Sulesomab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB13979",
+                        "description": "The therapeutic efficacy of Besilesomab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14012",
+                        "description": "The therapeutic efficacy of Burosumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14039",
+                        "description": "The therapeutic efficacy of Erenumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14040",
+                        "description": "The therapeutic efficacy of Eptinezumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14042",
+                        "description": "The therapeutic efficacy of Galcanezumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14580",
+                        "description": "The therapeutic efficacy of Lecanemab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14597",
+                        "description": "The therapeutic efficacy of Lanadelumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The therapeutic efficacy of Emapalumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14762",
+                        "description": "The therapeutic efficacy of Risankizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14776",
+                        "description": "The therapeutic efficacy of Camrelizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14784",
+                        "description": "The therapeutic efficacy of Gancotamab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14811",
+                        "description": "The therapeutic efficacy of Isatuximab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14843",
+                        "description": "The therapeutic efficacy of Codrituzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14864",
+                        "description": "The therapeutic efficacy of Brolucizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14877",
+                        "description": "The therapeutic efficacy of Lintuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14907",
+                        "description": "The therapeutic efficacy of Bevacizumab zirconium Zr 89 can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14908",
+                        "description": "The therapeutic efficacy of Refanezumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14919",
+                        "description": "The therapeutic efficacy of Rozanolixizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14947",
+                        "description": "The therapeutic efficacy of Bermekimab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14962",
+                        "description": "The therapeutic efficacy of Trastuzumab deruxtecan can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB14997",
+                        "description": "The therapeutic efficacy of Pateclizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15044",
+                        "description": "The therapeutic efficacy of Tafasitamab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15101",
+                        "description": "The therapeutic efficacy of Tigatuzumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15135",
+                        "description": "The therapeutic efficacy of Ponezumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15252",
+                        "description": "The therapeutic efficacy of Nemolizumab can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15397",
+                        "description": "The therapeutic efficacy of GMA 161 can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15432",
+                        "description": "The therapeutic efficacy of Pinatuzumab vedotin can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15453",
+                        "description": "The therapeutic efficacy of Naratuximab emtansine can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The therapeutic efficacy of Belantamab mafodotin can be decreased when used in combination with Imlifidase"
+                    },
+                    {
+                        "drugbank-id": "DB15900",
+                        "description": "The therapeutic efficacy of Odesivimab can be decreased when used in combination with Imlifidase"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

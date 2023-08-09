@@ -1,0 +1,37 @@
+{
+    "medicine_id": "6a3c8af0ef1f502c41cecf4c93e7c7ec8e4f2e97",
+    "platform_id": "DB05524",
+    "metadata": {
+        "name": "Incivek 375 mg 1 Tablet film coated",
+        "composition": "375 mg 1 Pelitinib",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in colorectal cancer and lung cancer",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00012",
+                        "description": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Pelitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00016",
+                        "description": "The risk or severity of Thrombosis can be increased when Erythropoietin is combined with Pelitinib"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "The risk or severity of Thrombosis can be increased when Peginesatide is combined with Pelitinib"
+                    },
+                    {
+                        "drugbank-id": "DB09107",
+                        "description": "The risk or severity of Thrombosis can be increased when Methoxy polyethylene glycol epoetin beta is combined with Pelitinib"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

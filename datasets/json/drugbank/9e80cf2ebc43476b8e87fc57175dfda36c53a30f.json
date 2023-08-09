@@ -1,0 +1,773 @@
+{
+    "medicine_id": "9e80cf2ebc43476b8e87fc57175dfda36c53a30f",
+    "platform_id": "DB00253",
+    "metadata": {
+        "name": "Hms 10 mg 1mL Suspension",
+        "composition": "10 mg 1mL Medrysone",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of allergic conjunctivitis vernal conjunctivitis episcleritis and epinephrine sensitivity",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Medrysone is a topical anti inflammatory corticoidsteroids for ophthalmic use In patients with increased intraocular pressure and in those susceptible to a rise in intraocular pressure there is less effect on pressure with medrysone than with dexamethasone or betamethasone Corticoidsteroids inhibit the edema fibrin deposition capillary dilation and phagocytic migration of the acute inflammatory response as well as capillary proliferation deposition of collagen and scar formation",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00072",
+                        "description": "Trastuzumab may increase the neutropenic activities of Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "Tacrolimus may increase the immunosuppressive activities of Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB00388",
+                        "description": "The risk or severity of hypertension can be increased when Medrysone is combined with Phenylephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00357",
+                        "description": "The therapeutic efficacy of Medrysone can be decreased when used in combination with Aminoglutethimide"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin human"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin glargine"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin pork"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Troglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Glimepiride"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Acarbose"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Metformin"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Sulfadiazine"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Rosiglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Acetohexamide"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Miglitol"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Chlorpropamide"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Nateglinide"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Pentamidine"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Tolazamide"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Repaglinide"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Phenformin"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Glyburide"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Glipizide"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Gliclazide"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Tolbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Pioglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Bromocriptine"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Gliquidone"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Mitiglinide"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Sitagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Sunitinib"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Exenatide"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Mecasermin"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Pramlintide"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Glisoxepide"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin aspart"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin detemir"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin glulisine"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Glymidine"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with AICA ribonucleotide"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Buformin"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Vildagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Voglibose"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with NN344"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with NBI 6024"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Bisegliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Alogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Dapagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Saxagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Liraglutide"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Gosogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Linagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Canagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Glibornuride"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Benfluorex"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Empagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Albiglutide"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Dulaglutide"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Netoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Rivoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Ciglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Lixisenatide"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin beef"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin degludec"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin peglispro"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Insulin tregopil"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Ipragliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Dutogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Allicin"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Tofogliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Ertugliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with 2 4 thiazolidinedione"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Teneligliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Omarigliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Carmegliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Gemigliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Anagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Evogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Sotagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Balaglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Remogliflozin etabonate"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Carbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Guar gum"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Metahexamide"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Semaglutide"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Taspoglutide"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Englitazone"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Tirzepatide"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with Gastric inhibitory polypeptide"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The serum concentration of Isoniazid can be decreased when it is combined with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Digoxin"
+                    },
+                    {
+                        "drugbank-id": "DB00511",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Acetyldigitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB01078",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Digitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Metildigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13467",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Lanatoside C"
+                    },
+                    {
+                        "drugbank-id": "DB13537",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Gitoformate"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Acetyldigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB04914",
+                        "description": "The therapeutic efficacy of G17DT can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB05144",
+                        "description": "The therapeutic efficacy of PEV3A can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB05325",
+                        "description": "The therapeutic efficacy of INGN 225 can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB05374",
+                        "description": "The therapeutic efficacy of Rindopepimut can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB05440",
+                        "description": "The therapeutic efficacy of SRP 299 can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB05942",
+                        "description": "The therapeutic efficacy of GI 5005 can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB06400",
+                        "description": "The therapeutic efficacy of Vitespen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB06584",
+                        "description": "The therapeutic efficacy of TG4010 can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB09057",
+                        "description": "The therapeutic efficacy of Anthrax immune globulin human can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10062",
+                        "description": "The therapeutic efficacy of Rabies virus inactivated antigen B can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10076",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B strain 1482 capsular polysaccharide tetanus toxoid conjugate antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10276",
+                        "description": "The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10283",
+                        "description": "The therapeutic efficacy of Rabies virus inactivated antigen A can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10317",
+                        "description": "The therapeutic efficacy of Rubella virus vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10318",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Live attenuated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10342",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B capsular polysaccharide meningococcal outer membrane protein conjugate antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10343",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain tice live antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10583",
+                        "description": "The therapeutic efficacy of Clostridium tetani toxoid antigen formaldehyde inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10584",
+                        "description": "The therapeutic efficacy of Corynebacterium diphtheriae toxoid antigen formaldehyde inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10600",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 X 181 H1N1 antigen propiolactone inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10769",
+                        "description": "The therapeutic efficacy of Japanese encephalitis virus strain sa 14 14 2 antigen formaldehyde inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10794",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 antigen formaldehyde inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10803",
+                        "description": "The therapeutic efficacy of Typhoid Vi polysaccharide vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10804",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain connaught live antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10805",
+                        "description": "The therapeutic efficacy of Yellow Fever Vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10989",
+                        "description": "The therapeutic efficacy of Hepatitis A Vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB10990",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B strain 20752 capsular polysaccharide tetanus toxoid conjugate antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11003",
+                        "description": "The therapeutic efficacy of Anthrax vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11038",
+                        "description": "The therapeutic efficacy of Influenza A virus A Brisbane 59 2007 H1N1 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11040",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11041",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 X 181 H1N1 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11044",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 antigen propiolactone inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11050",
+                        "description": "The therapeutic efficacy of Typhoid Vaccine Live can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11603",
+                        "description": "The therapeutic efficacy of Human rabies virus immune globulin can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11627",
+                        "description": "The therapeutic efficacy of Hepatitis B Vaccine Recombinant can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB12386",
+                        "description": "The therapeutic efficacy of Bacillus calmette guerin substrain danish 1331 live antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB12568",
+                        "description": "The therapeutic efficacy of Tecemotide can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB13924",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Recombinant can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14384",
+                        "description": "The therapeutic efficacy of Influenza A virus A Victoria 210 2009 X 187 H3N2 hemagglutinin antigen formaldehyde inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14385",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 hemagglutinin antigen formaldehyde inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14394",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 H1N1 live attenuated antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14409",
+                        "description": "The therapeutic efficacy of Human adenovirus e serotype 4 strain cl 68578 antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14445",
+                        "description": "The therapeutic efficacy of Influenza A virus A Victoria 210 2009 X 187 H3N2 antigen formaldehyde inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14449",
+                        "description": "The therapeutic efficacy of Influenza A virus A Perth 16 2009 H3N2 live attenuated antigen can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14619",
+                        "description": "The therapeutic efficacy of Influenza A virus A Uruguay 716 2007 H3N2 antigen propiolactone inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14620",
+                        "description": "The therapeutic efficacy of Influenza A virus A Brisbane 59 2007 H1N1 antigen propiolactone inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14685",
+                        "description": "The therapeutic efficacy of Adenovirus type 7 vaccine live can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB14711",
+                        "description": "The therapeutic efficacy of Smallpox Vaccinia Vaccine Live can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB15274",
+                        "description": "The therapeutic efficacy of Pertussis vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB15461",
+                        "description": "The therapeutic efficacy of Yersinia pestis 195 p antigen formaldehyde inactivated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB15483",
+                        "description": "The therapeutic efficacy of Modified vaccinia ankara can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB15595",
+                        "description": "The therapeutic efficacy of Ebola Zaire vaccine live attenuated can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB15654",
+                        "description": "The therapeutic efficacy of Moderna COVID 19 Vaccine can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The serum concentration of Medrysone can be decreased when it is combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB01364",
+                        "description": "Ephedrine may increase the excretion rate of Medrysone which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00052",
+                        "description": "The therapeutic efficacy of Somatotropin can be decreased when used in combination with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The serum concentration of Medrysone can be decreased when it is combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The serum concentration of Medrysone can be decreased when it is combined with Fosphenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Medrysone can be increased when it is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Medrysone can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Methyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Benzthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Mebutizide"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The risk or severity of electrolyte imbalance can be increased when Medrysone is combined with Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "The metabolism of Tucatinib can be decreased when combined with Medrysone"
+                    },
+                    {
+                        "drugbank-id": "DB12530",
+                        "description": "The risk or severity of infection can be increased when Medrysone is combined with Inebilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB11932",
+                        "description": "The serum concentration of Medrysone can be increased when it is combined with Abametapir"
+                    },
+                    {
+                        "drugbank-id": "DB15762",
+                        "description": "The serum concentration of Medrysone can be decreased when it is combined with Satralizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15093",
+                        "description": "The serum concentration of the active metabolites of Medrysone can be decreased when Medrysone is used in combination with Somapacitan"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

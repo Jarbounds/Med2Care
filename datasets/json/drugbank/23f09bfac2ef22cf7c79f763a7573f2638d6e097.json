@@ -1,0 +1,37 @@
+{
+    "medicine_id": "23f09bfac2ef22cf7c79f763a7573f2638d6e097",
+    "platform_id": "DB04786",
+    "metadata": {
+        "name": "Cholografin Meglumine 520 mg 1mL Injection solution",
+        "composition": "520 mg 1mL Suramin",
+        "clinical_particulars": {
+            "therapeutic_indications": "For treatment of human sleeping sickness onchocerciasis and other diseases caused by trypanosomes and worms",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00012",
+                        "description": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Suramin"
+                    },
+                    {
+                        "drugbank-id": "DB00016",
+                        "description": "The risk or severity of Thrombosis can be increased when Erythropoietin is combined with Suramin"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "The risk or severity of Thrombosis can be increased when Peginesatide is combined with Suramin"
+                    },
+                    {
+                        "drugbank-id": "DB09107",
+                        "description": "The risk or severity of Thrombosis can be increased when Methoxy polyethylene glycol epoetin beta is combined with Suramin"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

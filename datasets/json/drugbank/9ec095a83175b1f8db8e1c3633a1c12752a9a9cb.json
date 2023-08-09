@@ -1,0 +1,1997 @@
+{
+    "medicine_id": "9ec095a83175b1f8db8e1c3633a1c12752a9a9cb",
+    "platform_id": "DB01078",
+    "metadata": {
+        "name": "Act Etidrocal 200 mg Tablet",
+        "composition": "200 mg Deslanoside",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment and management of Congestive cardiac insufficiency arrhythmias and heart failure",
+            "contraindications": {
+                "disease": "Symptoms of overdose include ventricular tachycardia ventricular fibrillation progressive bradyarrhythmias or heart block",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Deslanoside is a cardiac glycoside used to treat congestive heart failure and supraventricular arrhythmias due to reentry mechanisms and to control ventricular rate in the treatment of chronic atrial fibrillation",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of adverse effects can be increased when Amphotericin B is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01010",
+                        "description": "Edrophonium may increase the atrioventricular blocking AV block and arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01575",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Kaolin"
+                    },
+                    {
+                        "drugbank-id": "DB00211",
+                        "description": "Deslanoside may increase the bradycardic atrioventricular blocking AV block and arrhythmogenic activities of Midodrine"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The risk or severity of adverse effects can be increased when Reserpine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Telmisartan"
+                    },
+                    {
+                        "drugbank-id": "DB01344",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Tolevamer is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00391",
+                        "description": "The risk or severity of QTc prolongation can be increased when Sulpiride is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB05829",
+                        "description": "The risk or severity of adverse effects can be increased when Parathyroid hormone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00136",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Calcitriol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00146",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Calcifediol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00153",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Ergocalciferol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00169",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Cholecalciferol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00910",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Paricalcitol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01070",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Dihydrotachysterol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01436",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Alfacalcidol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04258",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Seocalcitol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04796",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Inecalcitol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04891",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Becocalcidiol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB05295",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Eldecalcitol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06117",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when 1alpha 24S Dihydroxyvitamin D2 is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06194",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Elocalcitol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06272",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Maxacalcitol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06410",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Doxercalciferol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11094",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when Vitamin D is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13097",
+                        "description": "The risk or severity of ventricular arrhythmias and Cardiac Arrhythmia can be increased when 1alpha Hydroxyvitamin D5 is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "Labetalol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Pindolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "Bevantolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Penbutolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "Bufuralol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "Bopindolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "Arotinolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "Levobetaxolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "Bucindolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "Esatenolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "Cloranolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "Mepindolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Epanolol may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Azithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Sirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00954",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Dirithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00976",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Telithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01152",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Candicidin"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01321",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Josamycin"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Everolimus"
+                    },
+                    {
+                        "drugbank-id": "DB01873",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Epothilone D"
+                    },
+                    {
+                        "drugbank-id": "DB03010",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Patupilone"
+                    },
+                    {
+                        "drugbank-id": "DB04070",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with 6 Deoxyerythronolide B"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Ixabepilone"
+                    },
+                    {
+                        "drugbank-id": "DB05903",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with KOS 1584"
+                    },
+                    {
+                        "drugbank-id": "DB06233",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Ridaforolimus"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Temsirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB06318",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with AVE9633"
+                    },
+                    {
+                        "drugbank-id": "DB06342",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Coltuximab ravtansine"
+                    },
+                    {
+                        "drugbank-id": "DB06419",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Cethromycin"
+                    },
+                    {
+                        "drugbank-id": "DB06587",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Mitemcinal"
+                    },
+                    {
+                        "drugbank-id": "DB07348",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Brefeldin A"
+                    },
+                    {
+                        "drugbank-id": "DB09308",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Solithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB09309",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Kitasamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11383",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Carbomycin"
+                    },
+                    {
+                        "drugbank-id": "DB11400",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Doramectin"
+                    },
+                    {
+                        "drugbank-id": "DB11405",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Eprinomectin"
+                    },
+                    {
+                        "drugbank-id": "DB11442",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Oleandomycin"
+                    },
+                    {
+                        "drugbank-id": "DB11459",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Selamectin"
+                    },
+                    {
+                        "drugbank-id": "DB11470",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Tildipirosin"
+                    },
+                    {
+                        "drugbank-id": "DB11471",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Tilmicosin"
+                    },
+                    {
+                        "drugbank-id": "DB11475",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Tylosin"
+                    },
+                    {
+                        "drugbank-id": "DB11554",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Tylvalosin"
+                    },
+                    {
+                        "drugbank-id": "DB11752",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Bryostatin 1"
+                    },
+                    {
+                        "drugbank-id": "DB12089",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Lorvotuzumab mertansine"
+                    },
+                    {
+                        "drugbank-id": "DB12266",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Epofolate"
+                    },
+                    {
+                        "drugbank-id": "DB12391",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Sagopilone"
+                    },
+                    {
+                        "drugbank-id": "DB12489",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Mirvetuximab Soravtansine"
+                    },
+                    {
+                        "drugbank-id": "DB13179",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Troleandomycin"
+                    },
+                    {
+                        "drugbank-id": "DB13287",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Miocamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13338",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Flurithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB13409",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Rokitamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13456",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Midecamycin"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Clindamycin"
+                    },
+                    {
+                        "drugbank-id": "DB13633",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Mepartricin"
+                    },
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Succinylcholine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00416",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Metocurine iodide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00483",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Gallamine triethiodide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00565",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Cisatracurium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00728",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Rocuronium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00732",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Atracurium besylate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01135",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Doxacurium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Tubocurarine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01226",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Mivacurium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01245",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Decamethonium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01336",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Metocurine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01337",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Pancuronium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01338",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Pipecuronium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01339",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Vecuronium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04834",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Rapacuronium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11156",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Pyrantel is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12989",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Neosaxitoxin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13295",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Atracurium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Gallamine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13648",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Alcuronium is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The risk or severity of adverse effects can be increased when Furosemide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of adverse effects can be increased when Bumetanide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The risk or severity of adverse effects can be increased when Etacrynic acid is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB02925",
+                        "description": "The risk or severity of adverse effects can be increased when Piretanide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08961",
+                        "description": "The risk or severity of adverse effects can be increased when Azosemide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The risk or severity of adverse effects can be increased when Torasemide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "The risk or severity of adverse effects can be increased when Chlorthalidone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "The risk or severity of adverse effects can be increased when Metolazone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of adverse effects can be increased when Indapamide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01325",
+                        "description": "The risk or severity of adverse effects can be increased when Quinethazone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13989",
+                        "description": "The risk or severity of adverse effects can be increased when Epitizide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00233",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Aminosalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Mesalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Sulfasalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Diflunisal"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Balsalazide"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Olsalazine"
+                    },
+                    {
+                        "drugbank-id": "DB01294",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Bismuth subsalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB06251",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Dersalazine"
+                    },
+                    {
+                        "drugbank-id": "DB06807",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Phenyl aminosalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB09543",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Methyl salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Nitroaspirin"
+                    },
+                    {
+                        "drugbank-id": "DB13509",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Aloxiprin"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Guacetisal"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Carbaspirin calcium"
+                    },
+                    {
+                        "drugbank-id": "DB14006",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Choline salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB14026",
+                        "description": "The serum concentration of Deslanoside can be decreased when it is combined with Thiosalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00258",
+                        "description": "Calcium acetate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00326",
+                        "description": "Calcium glucoheptonate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01164",
+                        "description": "Calcium chloride may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01373",
+                        "description": "Calcium may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06724",
+                        "description": "Calcium carbonate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11093",
+                        "description": "Calcium citrate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11126",
+                        "description": "Calcium gluconate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11348",
+                        "description": "Calcium Phosphate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13142",
+                        "description": "Calcium glubionate anhydrous may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13231",
+                        "description": "Calcium lactate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13365",
+                        "description": "Calcium lactate gluconate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13590",
+                        "description": "Calcium pangamate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13800",
+                        "description": "Calcium levulinate may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14577",
+                        "description": "Calcium cation may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14684",
+                        "description": "Calcium polycarbophil may increase the arrhythmogenic and cardiotoxic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Esmolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "Betaxolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "Metoprolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "Atenolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Timolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "Sotalol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Propranolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Alprenolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "Carvedilol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Acebutolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Nadolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Practolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Oxprenolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Dexpropranolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Celiprolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "Nebivolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "Bupranolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "Indenolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "Talinolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "Anisodamine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Landiolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "Tertatolol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "Dofetilide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "Glimepiride may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "Disopyramide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "Lidocaine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "Ibutilide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "Mexiletine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Digoxin may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "Hyoscyamine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00511",
+                        "description": "Acetyldigitoxin may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "Atropine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00640",
+                        "description": "Adenosine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "Losartan may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00680",
+                        "description": "Moricizine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "Levosimendan may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "Procainamide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01056",
+                        "description": "Tocainide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00521",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Carteolol"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Flecainide"
+                    },
+                    {
+                        "drugbank-id": "DB01214",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Metipranolol"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Encainide"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Digitoxin"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Ajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB01429",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Aprindine"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Azimilide"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Tedisamil"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Vernakalant"
+                    },
+                    {
+                        "drugbank-id": "DB06468",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Cariporide"
+                    },
+                    {
+                        "drugbank-id": "DB06727",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Sparteine"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Nicorandil"
+                    },
+                    {
+                        "drugbank-id": "DB09224",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Melperone"
+                    },
+                    {
+                        "drugbank-id": "DB11699",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Tropisetron"
+                    },
+                    {
+                        "drugbank-id": "DB12286",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Simendan"
+                    },
+                    {
+                        "drugbank-id": "DB12704",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Spiradoline"
+                    },
+                    {
+                        "drugbank-id": "DB12712",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Pilsicainide"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB13240",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Cymarin"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Cibenzoline"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Metildigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13546",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Nizofenone"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Prajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB13635",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Tiracizine"
+                    },
+                    {
+                        "drugbank-id": "DB13645",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Ethacizine"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Lorajmine"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Bunaftine"
+                    },
+                    {
+                        "drugbank-id": "DB13653",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Lorcainide"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Acetyldigoxin"
+                    },
+                    {
+                        "drugbank-id": "DB13718",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Hydroquinine"
+                    },
+                    {
+                        "drugbank-id": "DB13746",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Bioallethrin"
+                    },
+                    {
+                        "drugbank-id": "DB13863",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Fosfructose"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB15300",
+                        "description": "Deslanoside may increase the arrhythmogenic activities of Hydroquinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "Isradipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "Diltiazem may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "Trimethadione may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "Amlodipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "Nimodipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "Nisoldipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "Lercanidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "Lamotrigine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "Cinnarizine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "Ethosuximide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "Nicardipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "Magnesium sulfate may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "Verapamil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "Loperamide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "Zonisamide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "Felodipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "Nitrendipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "Perhexiline may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "Nifedipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "Bepridil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "Mibefradil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "Nimesulide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "Prenylamine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "Cyclandelate may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "Flunarizine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Fluspirilene may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "Clevidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "Methsuximide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "Seletracetam may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "Nylidrin may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "Ziconotide may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "Dotarizine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "Xylometazoline may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "Nilvadipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "Tranilast may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08162",
+                        "description": "Fasudil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "Agmatine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "Fendiline may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "Eperisone may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "Trimebutine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "Pinaverium may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "Tolfenamic acid may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "Barnidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "Aranidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "Azelnidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "Benidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "Cilnidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "Darodipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "Efonidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Lacidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "Manidipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "Niguldipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "Niludipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "Carboxyamidotriazole may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "Naftopidil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Tetrahydropalmatine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "Vinpocetine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "Gallopamil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "Bencyclane may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "Otilonium may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "Terodiline may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "Lidoflazine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Penfluridol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "Caroverine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "WIN 55212 2 may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "Fish oil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "Dexverapamil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "Emopamil may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "Lomerizine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "Tetrandrine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "Dexniguldipine may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB15366",
+                        "description": "SOR C13 may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "Pregabalin may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "Levomenthol may increase the arrhythmogenic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00375",
+                        "description": "Colestipol can cause a decrease in the absorption of Deslanoside resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00658",
+                        "description": "Sevelamer can cause a decrease in the absorption of Deslanoside resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00930",
+                        "description": "Colesevelam can cause a decrease in the absorption of Deslanoside resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01432",
+                        "description": "Cholestyramine can cause a decrease in the absorption of Deslanoside resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "Triamterene may decrease the excretion rate of Deslanoside which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "Spironolactone may decrease the excretion rate of Deslanoside which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00594",
+                        "description": "Amiloride may decrease the excretion rate of Deslanoside which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "Eplerenone may decrease the excretion rate of Deslanoside which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB09015",
+                        "description": "Canrenoic acid may decrease the excretion rate of Deslanoside which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12221",
+                        "description": "Canrenone may decrease the excretion rate of Deslanoside which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00484",
+                        "description": "Brimonidine may increase the bradycardic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00008",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Peginterferon alfa 2a"
+                    },
+                    {
+                        "drugbank-id": "DB00072",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Trastuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB00112",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Bevacizumab"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Bortezomib"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Cladribine"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Carmustine"
+                    },
+                    {
+                        "drugbank-id": "DB00276",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Amsacrine"
+                    },
+                    {
+                        "drugbank-id": "DB00290",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Bleomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00305",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Mitomycin"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Vindesine"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Vinorelbine"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Teniposide"
+                    },
+                    {
+                        "drugbank-id": "DB00445",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Epirubicin"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Cisplatin"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Cyclophosphamide"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Vincristine"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Fluorouracil"
+                    },
+                    {
+                        "drugbank-id": "DB00552",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Pentostatin"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Methotrexate"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Imatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Daunorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Tretinoin"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Etoposide"
+                    },
+                    {
+                        "drugbank-id": "DB00888",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Mechlorethamine"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Doxorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Busulfan"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Thalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB01073",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Fludarabine"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Capecitabine"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01177",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Idarubicin"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Ifosfamide"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Mitoxantrone"
+                    },
+                    {
+                        "drugbank-id": "DB01217",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Anastrozole"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Paclitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Docetaxel"
+                    },
+                    {
+                        "drugbank-id": "DB06013",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Aldoxorubicin"
+                    },
+                    {
+                        "drugbank-id": "DB06171",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Paclitaxel trevatide"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Cabazitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB13809",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Paclitaxel poliglumex"
+                    },
+                    {
+                        "drugbank-id": "DB06366",
+                        "description": "Deslanoside may decrease the cardiotoxic activities of Pertuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB00389",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Carbimazole"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Propylthiouracil"
+                    },
+                    {
+                        "drugbank-id": "DB03374",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with 3 5 Diiodotyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB06715",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Potassium Iodide"
+                    },
+                    {
+                        "drugbank-id": "DB07637",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Dibromotyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB09418",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Potassium perchlorate"
+                    },
+                    {
+                        "drugbank-id": "DB13644",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Methylthiouracil"
+                    },
+                    {
+                        "drugbank-id": "DB13804",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Benzylthiouracil"
+                    },
+                    {
+                        "drugbank-id": "DB00358",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Mefloquine"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Chloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB00613",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Amodiaquine"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Primaquine"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Hydroxychloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB06608",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Tafenoquine"
+                    },
+                    {
+                        "drugbank-id": "DB00314",
+                        "description": "The risk or severity of adverse effects can be increased when Capreomycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00479",
+                        "description": "The risk or severity of adverse effects can be increased when Amikacin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00684",
+                        "description": "The risk or severity of adverse effects can be increased when Tobramycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00798",
+                        "description": "The risk or severity of adverse effects can be increased when Gentamicin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00955",
+                        "description": "The risk or severity of adverse effects can be increased when Netilmicin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00994",
+                        "description": "The risk or severity of adverse effects can be increased when Neomycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01082",
+                        "description": "The risk or severity of adverse effects can be increased when Streptomycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01172",
+                        "description": "The risk or severity of adverse effects can be increased when Kanamycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01421",
+                        "description": "The risk or severity of adverse effects can be increased when Paromomycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB03615",
+                        "description": "The risk or severity of adverse effects can be increased when Ribostamycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04263",
+                        "description": "The risk or severity of adverse effects can be increased when Geneticin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04626",
+                        "description": "The risk or severity of adverse effects can be increased when Apramycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04729",
+                        "description": "The risk or severity of adverse effects can be increased when Gentamicin C1a is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04808",
+                        "description": "The risk or severity of adverse effects can be increased when Neamine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06696",
+                        "description": "The risk or severity of adverse effects can be increased when Arbekacin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08437",
+                        "description": "The risk or severity of adverse effects can be increased when Puromycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11512",
+                        "description": "The risk or severity of adverse effects can be increased when Dihydrostreptomycin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11520",
+                        "description": "The risk or severity of adverse effects can be increased when Hygromycin B is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12604",
+                        "description": "The risk or severity of adverse effects can be increased when Sisomicin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12615",
+                        "description": "The risk or severity of adverse effects can be increased when Plazomicin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13540",
+                        "description": "The risk or severity of adverse effects can be increased when Isepamicin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00803",
+                        "description": "The risk or severity of adverse effects can be increased when Colistin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00368",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Norepinephrine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Epinephrine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06262",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Droxidopa is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06707",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Levonordefrin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06814",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Protokylol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11124",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Racepinephrine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Theodrenaline is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13917",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Deoxyepinephrine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01364",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Ephedrine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06711",
+                        "description": "The risk or severity of Cardiac Arrhythmia can be increased when Naphazoline is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The therapeutic efficacy of Deslanoside can be increased when used in combination with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "Clonidine may increase the atrioventricular blocking AV block activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The risk or severity of hypokalemia can be increased when Triamcinolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The serum concentration of Deslanoside can be increased when it is combined with Methimazole"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The risk or severity of adverse effects can be increased when Flunisolide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00223",
+                        "description": "The risk or severity of adverse effects can be increased when Diflorasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00240",
+                        "description": "The risk or severity of adverse effects can be increased when Alclometasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00253",
+                        "description": "The risk or severity of adverse effects can be increased when Medrysone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00288",
+                        "description": "The risk or severity of adverse effects can be increased when Amcinonide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The risk or severity of adverse effects can be increased when Fluorometholone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The risk or severity of adverse effects can be increased when Beclomethasone dipropionate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The risk or severity of adverse effects can be increased when Betamethasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00547",
+                        "description": "The risk or severity of adverse effects can be increased when Desoximetasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The risk or severity of adverse effects can be increased when Fluticasone propionate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The risk or severity of adverse effects can be increased when Fluocinolone acetonide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00596",
+                        "description": "The risk or severity of adverse effects can be increased when Ulobetasol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The risk or severity of adverse effects can be increased when Prednisone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00663",
+                        "description": "The risk or severity of adverse effects can be increased when Flumethasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The risk or severity of adverse effects can be increased when Fludrocortisone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrocortisone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The risk or severity of adverse effects can be increased when Mometasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00838",
+                        "description": "The risk or severity of adverse effects can be increased when Clocortolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00846",
+                        "description": "The risk or severity of adverse effects can be increased when Flurandrenolide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The risk or severity of adverse effects can be increased when Prednisolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00896",
+                        "description": "The risk or severity of adverse effects can be increased when Rimexolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The risk or severity of adverse effects can be increased when Methylprednisolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The risk or severity of adverse effects can be increased when Clobetasol propionate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The risk or severity of adverse effects can be increased when Fluocinonide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The risk or severity of adverse effects can be increased when Trilostane is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01130",
+                        "description": "The risk or severity of adverse effects can be increased when Prednicarbate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The risk or severity of adverse effects can be increased when Budesonide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The risk or severity of adverse effects can be increased when Dexamethasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01260",
+                        "description": "The risk or severity of adverse effects can be increased when Desonide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The risk or severity of adverse effects can be increased when Corticotropin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The risk or severity of adverse effects can be increased when Cortisone acetate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The risk or severity of adverse effects can be increased when Paramethasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The risk or severity of adverse effects can be increased when Ciclesonide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The risk or severity of adverse effects can be increased when Aldosterone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06781",
+                        "description": "The risk or severity of adverse effects can be increased when Difluprednate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB06786",
+                        "description": "The risk or severity of adverse effects can be increased when Halcinonide is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The risk or severity of adverse effects can be increased when Fluticasone furoate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The risk or severity of adverse effects can be increased when Fluprednidene is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The risk or severity of adverse effects can be increased when Fluocortolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09091",
+                        "description": "The risk or severity of adverse effects can be increased when Tixocortol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The risk or severity of adverse effects can be increased when Difluocortolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The risk or severity of adverse effects can be increased when Fluprednisolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The risk or severity of adverse effects can be increased when Meprednisone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The risk or severity of adverse effects can be increased when Dexamethasone isonicotinate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The risk or severity of adverse effects can be increased when Melengestrol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The risk or severity of adverse effects can be increased when Clobetasol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The risk or severity of adverse effects can be increased when Deflazacort is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The risk or severity of adverse effects can be increased when Cortivazol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13158",
+                        "description": "The risk or severity of adverse effects can be increased when Clobetasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The risk or severity of adverse effects can be increased when Prednylidene is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "The risk or severity of adverse effects can be increased when Fluocortin is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "The risk or severity of adverse effects can be increased when Fluperolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13664",
+                        "description": "The risk or severity of adverse effects can be increased when Formocortal is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13728",
+                        "description": "The risk or severity of adverse effects can be increased when Halometasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The risk or severity of adverse effects can be increased when Cloprednol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "The risk or severity of adverse effects can be increased when Fluclorolone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The risk or severity of adverse effects can be increased when Fluticasone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The risk or severity of adverse effects can be increased when Mometasone furoate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14538",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrocortisone aceponate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrocortisone acetate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrocortisone butyrate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14541",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrocortisone cypionate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14543",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrocortisone probutate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14544",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrocortisone valerate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The risk or severity of adverse effects can be increased when Hydrocortisone succinate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00873",
+                        "description": "The risk or severity of adverse effects can be increased when Loteprednol is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The risk or severity of adverse effects can be increased when Prednisolone phosphate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The risk or severity of adverse effects can be increased when Prednisolone hemisuccinate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14634",
+                        "description": "The risk or severity of adverse effects can be increased when Fluprednidene acetate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14643",
+                        "description": "The risk or severity of adverse effects can be increased when Methylprednisolone aceponate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The risk or severity of adverse effects can be increased when Methylprednisolone hemisuccinate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The risk or severity of adverse effects can be increased when Prednisone acetate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The risk or severity of adverse effects can be increased when Clocortolone acetate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The risk or severity of adverse effects can be increased when Melengestrol acetate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The risk or severity of adverse effects can be increased when Betamethasone phosphate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The risk or severity of adverse effects can be increased when Cortisone is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB15566",
+                        "description": "The risk or severity of adverse effects can be increased when Prednisolone acetate is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00145",
+                        "description": "The risk or severity of adverse effects can be increased when Glycine is combined with Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "Methyclothiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Bendroflumethiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "Benzthiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Hydroflumethiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Chlorothiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Hydrochlorothiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Trichlormethiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Polythiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Cyclopenthiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Cyclothiazide may increase the hypokalemic activities of Deslanoside"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "Mebutizide may increase the hypokalemic activities of Deslanoside"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

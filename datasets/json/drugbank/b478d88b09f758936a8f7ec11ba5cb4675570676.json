@@ -1,0 +1,505 @@
+{
+    "medicine_id": "b478d88b09f758936a8f7ec11ba5cb4675570676",
+    "platform_id": "DB11133",
+    "metadata": {
+        "name": "Advanced AM PM 1000 mg Capsule delayed release",
+        "composition": "1000 mg Omega 3 fatty acids",
+        "clinical_particulars": {
+            "therapeutic_indications": "Provided as daily supplements Aa preparation of omega 3 acid ethyl esters is licensed in UK for prevention of recurrent events after myocardial infarction in addition to treatment of hypertriglyceridaemia",
+            "contraindications": {
+                "disease": "Some adverse effects experienced in patients include gastrointestinal disturbances such as vomiting and constipation metabolic disorders and skin reactions",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Omega 3 fatty acids are triglycerides that get broken down into smaller fatty acid units They act to reduce plasma triglyceride levels however increase the cholesterol levels and are thought to possess potent antiarrythmic effects Polyunsaturated fatty acids including eicosapentaenoic and docosahexaenoic acid mediate important cellular function such as inhibition of platelet function prolongation of bleeding time anti inflammatory effects and reduction of plasma fibrinogen Polyunsaturated fatty acids are components of the phospholipids that form the structures of the cell membranes and also serve as energy source They form eicosanoids which are important signalling molecules with wide ranging functions in the body s cardiovascular pulmonary immune and endocrine systems DHA tends to exist in high concentrations in the retina brain via uptake by Mfsd2a as a transporter and sperm",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Ibrutinib"
+                    },
+                    {
+                        "drugbank-id": "DB00001",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Lepirudin"
+                    },
+                    {
+                        "drugbank-id": "DB00006",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Bivalirudin"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Alteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Urokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Reteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Anistreplase"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Tenecteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00055",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Drotrecogin alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Streptokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00278",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Argatroban"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Ardeparin"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00569",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Fondaparinux"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00686",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Pentosan polysulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Heparin"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Enoxaparin"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Ximelagatran"
+                    },
+                    {
+                        "drugbank-id": "DB04925",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Desmoteplase"
+                    },
+                    {
+                        "drugbank-id": "DB05099",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Ancrod"
+                    },
+                    {
+                        "drugbank-id": "DB05254",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Fibrinolysin"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Rivaroxaban"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Sulodexide"
+                    },
+                    {
+                        "drugbank-id": "DB06294",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Semuloparin"
+                    },
+                    {
+                        "drugbank-id": "DB06406",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Idraparinux"
+                    },
+                    {
+                        "drugbank-id": "DB06543",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Astaxanthin"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Apixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06635",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Otamixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Amediplase"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Dabigatran etexilate"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Danaparoid"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Dalteparin"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Tinzaparin"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Nadroparin"
+                    },
+                    {
+                        "drugbank-id": "DB08994",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Ditazole"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Edoxaban"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Potassium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09255",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Dextran"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Bemiparin"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Parnaparin"
+                    },
+                    {
+                        "drugbank-id": "DB11095",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Desirudin"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Zinc citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11166",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Antithrombin Alfa"
+                    },
+                    {
+                        "drugbank-id": "DB11312",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Protein C"
+                    },
+                    {
+                        "drugbank-id": "DB11598",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Antithrombin III human"
+                    },
+                    {
+                        "drugbank-id": "DB11984",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Letaxaban"
+                    },
+                    {
+                        "drugbank-id": "DB12289",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Darexaban"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Betrixaban"
+                    },
+                    {
+                        "drugbank-id": "DB12598",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Nafamostat"
+                    },
+                    {
+                        "drugbank-id": "DB12726",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Monteplase"
+                    },
+                    {
+                        "drugbank-id": "DB12831",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Gabexate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13149",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Protein S human"
+                    },
+                    {
+                        "drugbank-id": "DB13199",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Brinase"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB13616",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Melagatran"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Saruplase"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14598",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Edetate calcium disodium anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB14726",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Dabigatran"
+                    },
+                    {
+                        "drugbank-id": "DB13124",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Troxerutin"
+                    },
+                    {
+                        "drugbank-id": "DB00974",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Edetic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "Omega 3 fatty acids may increase the anticoagulant activities of Reviparin"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Abciximab"
+                    },
+                    {
+                        "drugbank-id": "DB00063",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Eptifibatide"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Ticlopidine"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Anagrelide"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Clopidogrel"
+                    },
+                    {
+                        "drugbank-id": "DB00775",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Tirofiban"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Pentoxifylline"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Iloprost"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Sulfinpyrazone"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Cilostazol"
+                    },
+                    {
+                        "drugbank-id": "DB01207",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Ridogrel"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Resveratrol"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Nimesulide"
+                    },
+                    {
+                        "drugbank-id": "DB04905",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Tesmilifene"
+                    },
+                    {
+                        "drugbank-id": "DB04932",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Defibrotide"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Beraprost"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Ibudilast"
+                    },
+                    {
+                        "drugbank-id": "DB05767",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Andrographolide"
+                    },
+                    {
+                        "drugbank-id": "DB06081",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Caplacizumab"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Prasugrel"
+                    },
+                    {
+                        "drugbank-id": "DB06441",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Cangrelor"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Tranilast"
+                    },
+                    {
+                        "drugbank-id": "DB08814",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Triflusal"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Ticagrelor"
+                    },
+                    {
+                        "drugbank-id": "DB08887",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Icosapent ethyl"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB09283",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Trapidil"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12163",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Sarpogrelate"
+                    },
+                    {
+                        "drugbank-id": "DB12321",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Ifetroban"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Nitroaspirin"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Indobufen"
+                    },
+                    {
+                        "drugbank-id": "DB12749",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Butylphthalide"
+                    },
+                    {
+                        "drugbank-id": "DB12771",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Hydroxytyrosol"
+                    },
+                    {
+                        "drugbank-id": "DB13036",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Ramatroban"
+                    },
+                    {
+                        "drugbank-id": "DB13327",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Picotamide"
+                    },
+                    {
+                        "drugbank-id": "DB13367",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Cloricromen"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Linsidomine"
+                    },
+                    {
+                        "drugbank-id": "DB13510",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Buflomedil"
+                    },
+                    {
+                        "drugbank-id": "DB13929",
+                        "description": "Omega 3 fatty acids may increase the antiplatelet activities of Relcovaptan"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "medicine_id": "aaf2e766bf52f39238839d8a958703366bec88fd",
+    "platform_id": "DB09263",
+    "metadata": {
+        "name": "Veltassa 8 4 g 1 Powder for suspension",
+        "composition": "8 4 g 1 Patiromer",
+        "clinical_particulars": {
+            "therapeutic_indications": "For the treatment of hyperkalemia",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "In clinical studies patiromer decreased systemic exposure of some coadministered oral medications Binding of patiromer to other oral medications could cause decreased gastrointestinal absorption and loss of efficacy when taken close to the time patiromer is administered Administer oral medications at least 3 hours before or 3 hours after patiromer",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "Patiromer can cause a decrease in the absorption of Ciprofloxacin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "Patiromer can cause a decrease in the absorption of Levothyroxine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "Patiromer can cause a decrease in the absorption of Metformin resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

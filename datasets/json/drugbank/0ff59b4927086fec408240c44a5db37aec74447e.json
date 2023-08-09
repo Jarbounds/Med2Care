@@ -1,0 +1,29 @@
+{
+    "medicine_id": "0ff59b4927086fec408240c44a5db37aec74447e",
+    "platform_id": "DB00848",
+    "metadata": {
+        "name": "Ergamisol Tab 50mg 25 MG Tablet",
+        "composition": "25 MG Levamisole",
+        "clinical_particulars": {
+            "therapeutic_indications": "For adjuvant treatment in combination with fluorouracil after surgical resection in patients with Dukes stage C colon cancer Also used to treat malignant melanoma and head neck cancer",
+            "contraindications": {
+                "disease": "LD sub 50 sub 40 mg kg Pigs subcutaneous LD sub 50 sub 180 mg kg rat oral",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Levamisole is a synthetic imidazothiazole derivative that has been widely used in treatment of worm infestations in both humans and animals As an anthelmintic it probably works by targeting the nematode nicotinergic acetylcholine receptor As an immunomodulator it appears that Levamisole is an immunostimulant which has been shown to increase NK cells and activated T cells in patients receiving this adjuvantly along with 5FU for Stage III colon cancer",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00602",
+                        "description": "The bioavailability of Ivermectin can be increased when combined with Levamisole"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The bioavailability of Albendazole can be increased when combined with Levamisole"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

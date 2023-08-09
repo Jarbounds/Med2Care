@@ -1,0 +1,1741 @@
+{
+    "medicine_id": "f24ca05db9650d1842db36142e7c281c03670297",
+    "platform_id": "DB12455",
+    "metadata": {
+        "name": "Nuzyra 100 mg 5mL Injection powder lyophilized for solution",
+        "composition": "100 mg 5mL Omadacycline",
+        "clinical_particulars": {
+            "therapeutic_indications": "Omadacycline is indicated for the treatment of community acquired bacterial pneumonia and acute bacterial skin and skin structure infections caused by omadacycline susceptible organisms in adults FDA Label",
+            "contraindications": {
+                "disease": "No carcinogenicity studies have been conducted with Omadacycline however other tetracycline drugs have shown oncogenicity FDA Label Specifically oxytetracycline increased incidence of adrenal and pituitary tumors and minocycline increased incidence of thyroid tumors Omadacycline has tested positive for clastogenicity and aneugenicity during in vitro Chinese hamster ovary cell studies and for mutagenicity in mouse lymphoma cells FDA Label Both positive results occurred in the presence of metabolizing enzymes Omadacycline has tested negative for chromosomal aberration of any kind during in vitro Chinese hamster V79 cell testing It has further tested negative during in vivo micronucleus assays in ICR mice and HanRcc WIST rats Omadacycline reduced sperm counts and sperm motility in male rats at repeat dosages equivalent to 1 3 times the normal human exposure but produced no effect on fertility parameters FDA Label Inhibition of spermatogenesis was noted at repeat dosages equivalent to 6 8 times normal human exposure for a duration greater than 37 days but not at dosages under 2 times normal human exposure or durations of less than 4 weeks Ovulation and embryonic survival was reduced in female rats at dosages approximating normal human exposure administered before mating through early pregnancy Thyroid hyperpigmentation goitrogenicity thyroid hyperplasia and adrenal have been noted in multiple animal studies using other tetracycline drugs FDA Label",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Omadacycline can be either bacteriostatic or bacteriocidal depending on the organism involved A39766 A39782 It disrupts bacterial protein synthesis without affecting DNA RNA or peptidoglycan synthesis Omadacycline represents an improvement over existing tetracycline agents as it has not been found to be subject to tetracycline resistance mediated by tetracycline efflux pumps encoded by the tet K tet L and tet B or to ribosomal protection proteins encoded by tet O and tet M FDA Label A39766 A39781 Omadacycline is susceptible to RNA mutations which confer resistance to tetracyclines A39783",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB01294",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Bismuth subsalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Omadacycline may increase the neuromuscular blocking activities of Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB05528",
+                        "description": "Omadacycline may increase the hepatotoxic activities of Mipomersen"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "Quinapril can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00364",
+                        "description": "Sucralfate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09146",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Iron sucrose"
+                    },
+                    {
+                        "drugbank-id": "DB00301",
+                        "description": "The therapeutic efficacy of Flucloxacillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00319",
+                        "description": "The therapeutic efficacy of Piperacillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00415",
+                        "description": "The therapeutic efficacy of Ampicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00417",
+                        "description": "The therapeutic efficacy of Phenoxymethylpenicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00485",
+                        "description": "The therapeutic efficacy of Dicloxacillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00578",
+                        "description": "The therapeutic efficacy of Carbenicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00607",
+                        "description": "The therapeutic efficacy of Nafcillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00713",
+                        "description": "The therapeutic efficacy of Oxacillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00739",
+                        "description": "The therapeutic efficacy of Hetacillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00895",
+                        "description": "The therapeutic efficacy of Benzylpenicilloyl polylysine can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00948",
+                        "description": "The therapeutic efficacy of Mezlocillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01000",
+                        "description": "The therapeutic efficacy of Cyclacillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01053",
+                        "description": "The therapeutic efficacy of Benzylpenicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01060",
+                        "description": "The therapeutic efficacy of Amoxicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01061",
+                        "description": "The therapeutic efficacy of Azlocillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01147",
+                        "description": "The therapeutic efficacy of Cloxacillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01163",
+                        "description": "The therapeutic efficacy of Amdinocillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01602",
+                        "description": "The therapeutic efficacy of Bacampicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01603",
+                        "description": "The therapeutic efficacy of Meticillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01604",
+                        "description": "The therapeutic efficacy of Pivampicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01605",
+                        "description": "The therapeutic efficacy of Pivmecillinam can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01607",
+                        "description": "The therapeutic efficacy of Ticarcillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB08795",
+                        "description": "The therapeutic efficacy of Azidocillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09319",
+                        "description": "The therapeutic efficacy of Carindacillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09320",
+                        "description": "The therapeutic efficacy of Procaine benzylpenicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12127",
+                        "description": "The therapeutic efficacy of Sultamicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12343",
+                        "description": "The therapeutic efficacy of Temocillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13300",
+                        "description": "The therapeutic efficacy of Epicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13337",
+                        "description": "The therapeutic efficacy of Pheneticillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13506",
+                        "description": "The therapeutic efficacy of Carfecillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13660",
+                        "description": "The therapeutic efficacy of Propicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13686",
+                        "description": "The therapeutic efficacy of Clometocillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13693",
+                        "description": "The therapeutic efficacy of Sulbenicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13739",
+                        "description": "The therapeutic efficacy of Penamecillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13814",
+                        "description": "The therapeutic efficacy of Talampicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13816",
+                        "description": "The therapeutic efficacy of Aspoxicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13836",
+                        "description": "The therapeutic efficacy of Metampicillin can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09275",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Bismuth subcitrate potassium"
+                    },
+                    {
+                        "drugbank-id": "DB09267",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Strontium ranelate"
+                    },
+                    {
+                        "drugbank-id": "DB00326",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium glucoheptonate"
+                    },
+                    {
+                        "drugbank-id": "DB13142",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium glubionate anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB11126",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium gluconate"
+                    },
+                    {
+                        "drugbank-id": "DB11093",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11348",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium Phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB13231",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium lactate"
+                    },
+                    {
+                        "drugbank-id": "DB13365",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium lactate gluconate"
+                    },
+                    {
+                        "drugbank-id": "DB13590",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium pangamate"
+                    },
+                    {
+                        "drugbank-id": "DB13800",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium levulinate"
+                    },
+                    {
+                        "drugbank-id": "DB00258",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium acetate"
+                    },
+                    {
+                        "drugbank-id": "DB01164",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium chloride"
+                    },
+                    {
+                        "drugbank-id": "DB06724",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB01373",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium"
+                    },
+                    {
+                        "drugbank-id": "DB14577",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium cation"
+                    },
+                    {
+                        "drugbank-id": "DB14684",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Calcium polycarbophil"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB00375",
+                        "description": "Colestipol can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00930",
+                        "description": "Colesevelam can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01432",
+                        "description": "Cholestyramine can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00658",
+                        "description": "Sevelamer can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "Magnesium sulfate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "Magnesium oxide can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "Magnesium salicylate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "Magaldrate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "Magnesium hydroxide can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "Magnesium trisilicate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09407",
+                        "description": "Magnesium chloride can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "Magnesium carbonate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11110",
+                        "description": "Magnesium citrate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "Magnesium silicate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "Hydrotalcite can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13359",
+                        "description": "Magnesium aspartate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "Magnesium peroxide can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13749",
+                        "description": "Magnesium gluconate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13786",
+                        "description": "Magnesium orotate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14514",
+                        "description": "Magnesium levulinate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14515",
+                        "description": "Magnesium lactate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "Aluminum hydroxide can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01370",
+                        "description": "Aluminium can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "Bismuth subnitrate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "Aluminium acetoacetate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "Almasilate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "Aluminium glycinate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "Aloglutamol can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13829",
+                        "description": "Calcium silicate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01390",
+                        "description": "Sodium bicarbonate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "Aluminium phosphate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01593",
+                        "description": "Zinc can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB02165",
+                        "description": "Zinc trihydroxide can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB04249",
+                        "description": "Zinc Substituted Heme C can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09221",
+                        "description": "Polaprezinc can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09321",
+                        "description": "Zinc oxide can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09322",
+                        "description": "Zinc sulfate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "Zinc citrate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11175",
+                        "description": "Zinc picolinate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11248",
+                        "description": "Zinc gluconate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14479",
+                        "description": "Acetylcysteine zinc can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14485",
+                        "description": "Zinc ascorbate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14487",
+                        "description": "Zinc acetate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14493",
+                        "description": "Zinc glycinate can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14533",
+                        "description": "Zinc chloride can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14548",
+                        "description": "Zinc sulfate unspecified form can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14532",
+                        "description": "Zinc cation can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06792",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Lanthanum carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB00893",
+                        "description": "Omadacycline can cause a decrease in the absorption of Iron Dextran resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01592",
+                        "description": "Omadacycline can cause a decrease in the absorption of Iron resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06783",
+                        "description": "Omadacycline can cause a decrease in the absorption of Prussian blue resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09147",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferric pyrophosphate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09501",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferric ammonium citrate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09507",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferumoxsil resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09508",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferumoxides resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11171",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferric sulfate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11210",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferrous bisglycinate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11417",
+                        "description": "Omadacycline can cause a decrease in the absorption of Gleptoferron resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB11576",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferric oxide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12821",
+                        "description": "Omadacycline can cause a decrease in the absorption of Perflubutane resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13257",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferrous sulfate anhydrous resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13381",
+                        "description": "Omadacycline can cause a decrease in the absorption of Sodium feredetate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13423",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferric hydroxide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13949",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferric cation resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14488",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferrous gluconate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14489",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferrous succinate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14491",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferrous fumarate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14520",
+                        "description": "Omadacycline can cause a decrease in the absorption of Tetraferric tricitrate decahydrate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14695",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferric oxyhydroxide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB15598",
+                        "description": "Omadacycline can cause a decrease in the absorption of Ferric maltol resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "The serum concentration of Etonogestrel can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The serum concentration of Desogestrel can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The serum concentration of Levonorgestrel can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00378",
+                        "description": "The serum concentration of Dydrogesterone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The serum concentration of Medroxyprogesterone acetate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The serum concentration of Norethisterone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The serum concentration of Ethynodiol diacetate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The serum concentration of Norgestimate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The serum concentration of Drospirenone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "The serum concentration of Allylestrenol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The serum concentration of Cyproterone acetate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB06713",
+                        "description": "The serum concentration of Norelgestromin can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The serum concentration of Gestodene can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The serum concentration of Hydroxyprogesterone caproate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The serum concentration of Dienogest can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09124",
+                        "description": "The serum concentration of Medrogestone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09371",
+                        "description": "The serum concentration of Norethynodrel can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09389",
+                        "description": "The serum concentration of Norgestrel can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11372",
+                        "description": "The serum concentration of Altrenogest can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11619",
+                        "description": "The serum concentration of Gestrinone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11636",
+                        "description": "The serum concentration of Nomegestrol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The serum concentration of Lynestrenol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13230",
+                        "description": "The serum concentration of Gestonorone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13528",
+                        "description": "The serum concentration of Chlormadinone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13533",
+                        "description": "The serum concentration of Methylestrenolone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13563",
+                        "description": "The serum concentration of Norgestrienone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13602",
+                        "description": "The serum concentration of Promegestone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13685",
+                        "description": "The serum concentration of Quingestanol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13857",
+                        "description": "The serum concentration of Demegestone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13866",
+                        "description": "The serum concentration of Etynodiol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13981",
+                        "description": "The serum concentration of Nomegestrol acetate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14570",
+                        "description": "The serum concentration of Hydroxyprogesterone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14678",
+                        "description": "The serum concentration of Norethindrone enanthate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14679",
+                        "description": "The serum concentration of Quingestanol acetate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Megestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB09139",
+                        "description": "Omadacycline may decrease effectiveness of Technetium Tc 99m oxidronate as a diagnostic agent"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The serum concentration of Omadacycline can be decreased when it is combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Isavuconazonium"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Vardenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Conivaptan"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB04851",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Biricodar"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB04881",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Elacridar"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Vandetanib"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Telaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06191",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Zosuquidar"
+                    },
+                    {
+                        "drugbank-id": "DB06240",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Tariquidar"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Temsirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Simeprevir"
+                    },
+                    {
+                        "drugbank-id": "DB07348",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Brefeldin A"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ticagrelor"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ivacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Lomitapide"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Linagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Enzalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ponatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Canagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08916",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Afatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09027",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ledipasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Suvorexant"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Netupitant"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Palbociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Daclatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09291",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Rolapitant"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Venetoclax"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Velpatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Neratinib"
+                    },
+                    {
+                        "drugbank-id": "DB11869",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Valspodar"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dacomitinib"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Sarecycline"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB12799",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Laniquidar"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Pibrentasvir"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Glecaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14069",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with ONT 093"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB12500",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Fedratinib"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Istradefylline"
+                    },
+                    {
+                        "drugbank-id": "DB08889",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Carfilzomib"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Asunaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ripretinib"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Omadacycline is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB04272",
+                        "description": "The therapeutic efficacy of Omadacycline can be decreased when used in combination with Citric acid"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "The therapeutic efficacy of Omadacycline can be decreased when used in combination with Potassium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "The therapeutic efficacy of Omadacycline can be decreased when used in combination with Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09459",
+                        "description": "The therapeutic efficacy of Omadacycline can be decreased when used in combination with L tartaric acid"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Omadacycline can cause an increase in the absorption of Digoxin resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Omadacycline can cause an increase in the absorption of Metildigoxin resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Omadacycline can cause an increase in the absorption of Acetyldigoxin resulting in an increased serum concentration and potentially a worsening of adverse effects"
+                    },
+                    {
+                        "drugbank-id": "DB00162",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Vitamin A is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Bexarotene is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00459",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Acitretin is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00523",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Alitretinoin is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Tretinoin is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00799",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Tazarotene is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00926",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Etretinate is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00982",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Isotretinoin is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB02699",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when 4 Oxoretinol is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB05076",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Fenretinide is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB08455",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Ro 12 7310 is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12112",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Zuretinol acetate is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13368",
+                        "description": "The risk or severity of pseudotumor cerebri and elevated intracranial pressure can be increased when Motretinide is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The serum concentration of Mestranol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB04066",
+                        "description": "The serum concentration of p Coumaric acid can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The serum concentration of Estrone sulfate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB04682",
+                        "description": "The serum concentration of Octylphenoxy polyethoxyethanol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB05830",
+                        "description": "The serum concentration of Trestolone can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB06266",
+                        "description": "The serum concentration of Lonidamine can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB08867",
+                        "description": "The serum concentration of Ulipristal can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "The serum concentration of Isosorbide can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11507",
+                        "description": "The serum concentration of Cloprostenol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12025",
+                        "description": "The serum concentration of Triptolide can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13044",
+                        "description": "The serum concentration of Gossypol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13310",
+                        "description": "The serum concentration of Ormeloxifene can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The serum concentration of Diethylstilbestrol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The serum concentration of Estradiol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The serum concentration of Ethinylestradiol can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The serum concentration of Testosterone enanthate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The serum concentration of Estradiol benzoate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The serum concentration of Estradiol cypionate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The serum concentration of Estradiol valerate can be decreased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The serum concentration of Digitoxin can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The serum concentration of Cyclosporine can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The serum concentration of Vincristine can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The serum concentration of Sirolimus can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The serum concentration of Topotecan can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The serum concentration of Bosutinib can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The serum concentration of Bendamustine can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The serum concentration of Brentuximab vedotin can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The serum concentration of Binimetinib can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The serum concentration of Bortezomib can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The serum concentration of Cabergoline can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "The serum concentration of Gemcitabine can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The serum concentration of Imipramine can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The serum concentration of Trimipramine can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The serum concentration of Axitinib can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The serum concentration of Nortriptyline can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The serum concentration of Abemaciclib can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Omadacycline can cause a decrease in the absorption of Methotrexate resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Pravastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Morphine"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Clobazam"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Simvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Mannitol"
+                    },
+                    {
+                        "drugbank-id": "DB00882",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Clomifene"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Tegaserod"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dasatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Sitagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Indacaterol"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Cobimetinib"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Trastuzumab emtansine"
+                    },
+                    {
+                        "drugbank-id": "DB05889",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Inotuzumab ozogamicin"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Romidepsin"
+                    },
+                    {
+                        "drugbank-id": "DB06207",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Silodosin"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Rivaroxaban"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ambrisentan"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Pazopanib"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Panobinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Apixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06670",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Odanacatib"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dabigatran etexilate"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Mirabegron"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Pomalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dolutegravir"
+                    },
+                    {
+                        "drugbank-id": "DB08934",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Sofosbuvir"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Edoxaban"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Umeclidinium"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Lenvatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Nintedanib"
+                    },
+                    {
+                        "drugbank-id": "DB09161",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Technetium Tc 99m sestamibi"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dasabuvir"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ombitasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Osimertinib"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Selexipag"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Elbasvir"
+                    },
+                    {
+                        "drugbank-id": "DB11575",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Grazoprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Vinflunine"
+                    },
+                    {
+                        "drugbank-id": "DB11760",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Talazoparib"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Baricitinib"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Ertugliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Revefenacin"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Duvelisib"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Elagolix"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Avatrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Gilteritinib"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Betrixaban"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The serum concentration of Copanlisib can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12836",
+                        "description": "The serum concentration of Grapiprant can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The serum concentration of Tenofovir can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14723",
+                        "description": "The serum concentration of Larotrectinib can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Colchicine"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13007",
+                        "description": "The serum concentration of Enfortumab vedotin can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "The serum concentration of Darolutamide can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The serum concentration of Tazemetostat can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Vinblastine"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Etoposide"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Dactinomycin"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Posaconazole"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Tolvaptan"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Cabazitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Idelalisib"
+                    },
+                    {
+                        "drugbank-id": "DB11712",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Tezacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Lemborexant"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "The serum concentration of Lefamulin can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Tenofovir disoproxil"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Everolimus"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Eliglustat"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Paritaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB13125",
+                        "description": "The serum concentration of Lusutrombopag can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The serum concentration of Rimegepant can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Selumetinib"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Fostemsavir"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The serum concentration of Remdesivir can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The serum concentration of Berotralstat can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The serum concentration of Prednisolone phosphate can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The serum concentration of Belantamab mafodotin can be increased when it is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Erdafitinib"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Lasmiditan"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The risk or severity of renal failure can be increased when Methoxyflurane is combined with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "Magnesium can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Omadacycline"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "Tucatinib may decrease the excretion rate of Omadacycline which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "Didanosine can cause a decrease in the absorption of Omadacycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00048",
+                        "description": "The therapeutic efficacy of Collagenase clostridium histolyticum can be decreased when used in combination with Omadacycline"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

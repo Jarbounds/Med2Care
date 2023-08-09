@@ -1,0 +1,1357 @@
+{
+    "medicine_id": "dd29296a667cd2d5d9d4397047390a12b424eece",
+    "platform_id": "DB13979",
+    "metadata": {
+        "name": "Scintimun 1 mg Injection",
+        "composition": "1 mg Besilesomab",
+        "clinical_particulars": {
+            "therapeutic_indications": "Besilesomab is radiolabelled with sodium pertechnetate Tc99m solution to develop technetium Tc99m besilesomab solution This solution is indicated in adults for scintigraphic imaging in conjunction with other appropriate imaging modalities when possible in determining the location of inflammation infection in peripheral bone in adults with suspected osteomyelitis FDA Label When utilized as such this medicinal product is for diagnostic use only FDA Label",
+            "contraindications": {
+                "disease": "The most commonly reported adverse reaction associated with the use of besilesomab is the development of Human Anti Mouse Antibodies HAMA after a single administration FDA Label Patients who have developed HAMA may potentially have a higher risk for hypersensitivity reactions Screening for possible previous exposure to murine monoclonal antibodies and tests for the presence of HAMA in prospective patients should be made prior to administrating besilesomab FDA Label Moreover because the incidence of developing HAMA appears to be dose related with besilesomab the recommended dosage is restricted to no more than 250 micrograms of antibody per injection T132 Patients who are HAMA positive are consequently contraindicated from using besilesomab FDA Label Hypersensitivity to besilesomab or to any other murine antibodies or to any of the excipients associated with the active besilesomab radio diagnostic agent is subsequently a contraindication FDA Label Some patients have also reported hypotension as a common adverse reaction FDA Label As exposure to ionizing radiation is linked with cancer induction and a potential for developing hereditary defects the use of radio diagnostic besilesomab in pregnant women is considered a formal contraindication FDA Label If in doubt about a woman s potential pregnancy alternative techniques to not using ionizing radiation should be considered and or offered instead to the patient FDA Label Moreover although it is not known if besilesomab is excreted in human milk the potential risk to a breast fed child cannot be excluded FDA Label Furthermore while consideration should be given to the possibility of perhaps delaying the administration of radionuclide agents until the mother has ceased breastfeeding or perhaps certainly choosing alternative radoopharmaceuticals with more appropriate secretion activity if the use of besilesomab is absolutely necessary then the mother s breastfeeding should be stopped for three days and any expressed feeds during that time discarded FDA Label The time period of three days corresponds to 10 half lives of technetium Tc99m 60 hours FDA Label At that time the remaining activity represents about 1 1000 of the initial activity in the body FDA Label In general close contact with infants and pregnant women should be restricted for patients who have been administered besilesomab during the first 12 hours after the injection FDA Label Since besilesomab contains sorbitol patients having any rare hereditary conditions of fructose intolerance should not be administered this medicine FDA Label Because no sufficient data regarding the safety and efficacy of using besilesomab in children below the age of 18 years exists the use of besilesomab in this patient population is not recommended L1711 Even though data regarding the repeated dosing of besilesomab is extremely limited the use of besilesomab should only be used once in a patient s lifetime FDA Label Other medicines that can inhibit inflammation or affect the hematopoietic system like antibiotics and corticosteroids can lead to false negative results Such agents should therefore not be administered together with or a short time before the injection of besilesomab FDA Label Preclinical data obtained with the non radioactive compound revealed no special hazard for humans based on conventional studies of safety pharmacology single dose and repeated dose toxicity although antimurine antibodies were found in all dose groups including controls in a repeated dose study in monkeys FDA Label Genotoxicity studies conducted to test for potentially genotoxic impurities were also negative Long term carcinogenicity studies and toxicity to reproduction have not yet been carried out FDA Label",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "In a study employing cryo preserved human tissues using an indirect alkaline phosphatase anti alkaline phosphatase technique besilesomab antibody from hybridoma supernatants demonstrated staining to cytoplasmic membranous and interstitial areas of primary colon carcinoma tissue to single granulocytic cells in normal human liver and lung and to a large proportion of granulocytic cells in normal human bone marrow but not to blood vessels or connective tissue L1623 Additionally the antibody also shows binding to the granulocytic cells of breast kidney parotid gland pituitary lymph nodes and spleen tissues as well as colonic pancreatic and some lung and breast carcinomas L1623 The purified besilesomab antibody and the prepared kit subsequently bound similarly to granulocytes in normal bone marrow lung liver spleen and colorectal carcinomas Furthermore the prepared kit also produced some staining in some connective tissue fibres in normal lung some muscle fibres in normal colon and in liver parenchymal cells L1623 In general however besilesomab does not bind significantly to blood vessels and connective tissue L1623",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "Diethylstilbestrol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00269",
+                        "description": "Chlorotrianisene may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "Conjugated estrogens may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "Estrone may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "Estradiol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00890",
+                        "description": "Dienestrol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "Ethinylestradiol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "Mestranol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04573",
+                        "description": "Estriol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "Estrone sulfate may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04575",
+                        "description": "Quinestrol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB07931",
+                        "description": "Hexestrol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09070",
+                        "description": "Tibolone may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09317",
+                        "description": "Synthetic Conjugated Estrogens A may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09318",
+                        "description": "Synthetic Conjugated Estrogens B may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09369",
+                        "description": "Polyestradiol phosphate may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09381",
+                        "description": "Esterified estrogens may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11478",
+                        "description": "Zeranol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11674",
+                        "description": "Equol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12487",
+                        "description": "Promestriene may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13143",
+                        "description": "Methallenestril may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13386",
+                        "description": "Epimestrol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13418",
+                        "description": "Moxestrol may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "Estradiol acetate may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "Estradiol benzoate may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "Estradiol cypionate may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "Estradiol valerate may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB15334",
+                        "description": "Biochanin A may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB15335",
+                        "description": "Formononetin may increase the thrombogenic activities of Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00002",
+                        "description": "The risk or severity of adverse effects can be increased when Cetuximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00028",
+                        "description": "The risk or severity of adverse effects can be increased when Human immunoglobulin G is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00043",
+                        "description": "The risk or severity of adverse effects can be increased when Omalizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The risk or severity of adverse effects can be increased when Adalimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "The risk or severity of adverse effects can be increased when Abciximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00056",
+                        "description": "The risk or severity of adverse effects can be increased when Gemtuzumab ozogamicin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00057",
+                        "description": "The risk or severity of adverse effects can be increased when Indium In 111 satumomab pendetide is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The risk or severity of adverse effects can be increased when Infliximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00072",
+                        "description": "The risk or severity of adverse effects can be increased when Trastuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00073",
+                        "description": "The risk or severity of adverse effects can be increased when Rituximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00074",
+                        "description": "The risk or severity of adverse effects can be increased when Basiliximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00075",
+                        "description": "The risk or severity of adverse effects can be increased when Muromonab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00076",
+                        "description": "The risk or severity of adverse effects can be increased when Digoxin Immune Fab Ovine is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00078",
+                        "description": "The risk or severity of adverse effects can be increased when Ibritumomab tiuxetan is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00081",
+                        "description": "The risk or severity of adverse effects can be increased when Tositumomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00087",
+                        "description": "The risk or severity of adverse effects can be increased when Alemtuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00089",
+                        "description": "The risk or severity of adverse effects can be increased when Capromab pendetide is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00095",
+                        "description": "The risk or severity of adverse effects can be increased when Efalizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00098",
+                        "description": "The risk or severity of adverse effects can be increased when Antithymocyte immunoglobulin rabbit is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00108",
+                        "description": "The risk or severity of adverse effects can be increased when Natalizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00110",
+                        "description": "The risk or severity of adverse effects can be increased when Palivizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00111",
+                        "description": "The risk or severity of adverse effects can be increased when Daclizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00112",
+                        "description": "The risk or severity of adverse effects can be increased when Bevacizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB00113",
+                        "description": "The risk or severity of adverse effects can be increased when Technetium Tc 99m arcitumomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB01257",
+                        "description": "The risk or severity of adverse effects can be increased when Eculizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB01269",
+                        "description": "The risk or severity of adverse effects can be increased when Panitumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB01270",
+                        "description": "The risk or severity of adverse effects can be increased when Ranibizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04901",
+                        "description": "The risk or severity of adverse effects can be increased when Galiximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04949",
+                        "description": "The risk or severity of adverse effects can be increased when Pexelizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "The risk or severity of adverse effects can be increased when Afelimomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04958",
+                        "description": "The risk or severity of adverse effects can be increased when Epratuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04962",
+                        "description": "The risk or severity of adverse effects can be increased when Bectumomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04964",
+                        "description": "The risk or severity of adverse effects can be increased when Oregovomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB04988",
+                        "description": "The risk or severity of adverse effects can be increased when IGN311 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05006",
+                        "description": "The risk or severity of adverse effects can be increased when Adecatumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05097",
+                        "description": "The risk or severity of adverse effects can be increased when Labetuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05101",
+                        "description": "The risk or severity of adverse effects can be increased when Matuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05111",
+                        "description": "The risk or severity of adverse effects can be increased when Fontolizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05136",
+                        "description": "The risk or severity of adverse effects can be increased when Bavituximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05139",
+                        "description": "The risk or severity of adverse effects can be increased when CR002 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05209",
+                        "description": "The risk or severity of adverse effects can be increased when Rozrolimupab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05304",
+                        "description": "The risk or severity of adverse effects can be increased when Girentuximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05336",
+                        "description": "The risk or severity of adverse effects can be increased when Obiltoxaximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05405",
+                        "description": "The risk or severity of adverse effects can be increased when XTL 001 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05437",
+                        "description": "The risk or severity of adverse effects can be increased when NAV 1800 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05459",
+                        "description": "The risk or severity of adverse effects can be increased when Briakinumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05496",
+                        "description": "The risk or severity of adverse effects can be increased when Otelixizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05545",
+                        "description": "The risk or severity of adverse effects can be increased when AMG 108 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05550",
+                        "description": "The risk or severity of adverse effects can be increased when Iratumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05555",
+                        "description": "The risk or severity of adverse effects can be increased when Enokizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05578",
+                        "description": "The risk or severity of adverse effects can be increased when Ramucirumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05595",
+                        "description": "The risk or severity of adverse effects can be increased when Farletuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05656",
+                        "description": "The risk or severity of adverse effects can be increased when Veltuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05679",
+                        "description": "The risk or severity of adverse effects can be increased when Ustekinumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The risk or severity of adverse effects can be increased when Trastuzumab emtansine is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05793",
+                        "description": "The risk or severity of adverse effects can be increased when PRO 542 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05797",
+                        "description": "The risk or severity of adverse effects can be increased when TNX 901 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05889",
+                        "description": "The risk or severity of adverse effects can be increased when Inotuzumab ozogamicin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05892",
+                        "description": "The risk or severity of adverse effects can be increased when RI 624 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05915",
+                        "description": "The risk or severity of adverse effects can be increased when MYO 029 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05916",
+                        "description": "The risk or severity of adverse effects can be increased when CT 011 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05941",
+                        "description": "The risk or severity of adverse effects can be increased when Leronlimab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB05996",
+                        "description": "The risk or severity of adverse effects can be increased when Glembatumumab vedotin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06043",
+                        "description": "The risk or severity of adverse effects can be increased when Olaratumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06049",
+                        "description": "The risk or severity of adverse effects can be increased when IPH 2101 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06050",
+                        "description": "The risk or severity of adverse effects can be increased when TB 402 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06081",
+                        "description": "The risk or severity of adverse effects can be increased when Caplacizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06101",
+                        "description": "The risk or severity of adverse effects can be increased when IMC 1C11 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06116",
+                        "description": "The risk or severity of adverse effects can be increased when Eldelumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06162",
+                        "description": "The risk or severity of adverse effects can be increased when Lumiliximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "The risk or severity of adverse effects can be increased when Canakinumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06186",
+                        "description": "The risk or severity of adverse effects can be increased when Ipilimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06192",
+                        "description": "The risk or severity of adverse effects can be increased when Nimotuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06241",
+                        "description": "The risk or severity of adverse effects can be increased when Clenoliximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The risk or severity of adverse effects can be increased when Tocilizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06304",
+                        "description": "The risk or severity of adverse effects can be increased when BIIB015 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06305",
+                        "description": "The risk or severity of adverse effects can be increased when Sonepcizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06310",
+                        "description": "The risk or severity of adverse effects can be increased when Motavizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06317",
+                        "description": "The risk or severity of adverse effects can be increased when Elotuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06318",
+                        "description": "The risk or severity of adverse effects can be increased when AVE9633 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06322",
+                        "description": "The risk or severity of adverse effects can be increased when Carotuximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06324",
+                        "description": "The risk or severity of adverse effects can be increased when XmAb 2513 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06342",
+                        "description": "The risk or severity of adverse effects can be increased when Coltuximab ravtansine is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06343",
+                        "description": "The risk or severity of adverse effects can be increased when Teprotumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06360",
+                        "description": "The risk or severity of adverse effects can be increased when Lucatumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06366",
+                        "description": "The risk or severity of adverse effects can be increased when Pertuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06371",
+                        "description": "The risk or severity of adverse effects can be increased when Siplizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06467",
+                        "description": "The risk or severity of adverse effects can be increased when Apolizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06474",
+                        "description": "The risk or severity of adverse effects can be increased when Sibrotuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06550",
+                        "description": "The risk or severity of adverse effects can be increased when Bivatuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06557",
+                        "description": "The risk or severity of adverse effects can be increased when Lerdelimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06599",
+                        "description": "The risk or severity of adverse effects can be increased when Lexatumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06602",
+                        "description": "The risk or severity of adverse effects can be increased when Reslizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06606",
+                        "description": "The risk or severity of adverse effects can be increased when Teplizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06607",
+                        "description": "The risk or severity of adverse effects can be increased when Catumaxomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06612",
+                        "description": "The risk or severity of adverse effects can be increased when Mepolizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06643",
+                        "description": "The risk or severity of adverse effects can be increased when Denosumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06647",
+                        "description": "The risk or severity of adverse effects can be increased when Volociximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06650",
+                        "description": "The risk or severity of adverse effects can be increased when Ofatumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The risk or severity of adverse effects can be increased when Golimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The risk or severity of adverse effects can be increased when Brentuximab vedotin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB08879",
+                        "description": "The risk or severity of adverse effects can be increased when Belimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB08902",
+                        "description": "The risk or severity of adverse effects can be increased when Raxibacumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The risk or severity of adverse effects can be increased when Certolizumab pegol is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "The risk or severity of adverse effects can be increased when Obinutuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "The risk or severity of adverse effects can be increased when Secukinumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09033",
+                        "description": "The risk or severity of adverse effects can be increased when Vedolizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09035",
+                        "description": "The risk or severity of adverse effects can be increased when Nivolumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "The risk or severity of adverse effects can be increased when Siltuximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09037",
+                        "description": "The risk or severity of adverse effects can be increased when Pembrolizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "The risk or severity of adverse effects can be increased when Dulaglutide is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09052",
+                        "description": "The risk or severity of adverse effects can be increased when Blinatumomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09057",
+                        "description": "The risk or severity of adverse effects can be increased when Anthrax immune globulin human is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "The risk or severity of adverse effects can be increased when Dinutuximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09105",
+                        "description": "The risk or severity of adverse effects can be increased when Asfotase alfa is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09264",
+                        "description": "The risk or severity of adverse effects can be increased when Idarucizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09302",
+                        "description": "The risk or severity of adverse effects can be increased when Alirocumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09303",
+                        "description": "The risk or severity of adverse effects can be increased when Evolocumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09312",
+                        "description": "The risk or severity of adverse effects can be increased when Antilymphocyte immunoglobulin horse is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09331",
+                        "description": "The risk or severity of adverse effects can be increased when Daratumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB09559",
+                        "description": "The risk or severity of adverse effects can be increased when Necitumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11569",
+                        "description": "The risk or severity of adverse effects can be increased when Ixekizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11580",
+                        "description": "The risk or severity of adverse effects can be increased when Ravulizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11595",
+                        "description": "The risk or severity of adverse effects can be increased when Atezolizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11604",
+                        "description": "The risk or severity of adverse effects can be increased when Tetanus Immune Globulin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11608",
+                        "description": "The risk or severity of adverse effects can be increased when Eftrenonacog alfa is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11621",
+                        "description": "The risk or severity of adverse effects can be increased when Human Varicella Zoster Immune Globulin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11646",
+                        "description": "The risk or severity of adverse effects can be increased when Conatumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11657",
+                        "description": "The risk or severity of adverse effects can be increased when Tabalumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11680",
+                        "description": "The risk or severity of adverse effects can be increased when Ficlatuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11685",
+                        "description": "The risk or severity of adverse effects can be increased when Figitumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11714",
+                        "description": "The risk or severity of adverse effects can be increased when Durvalumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11715",
+                        "description": "The risk or severity of adverse effects can be increased when Bapineuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11731",
+                        "description": "The risk or severity of adverse effects can be increased when Depatuxizumab mafodotin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11746",
+                        "description": "The risk or severity of adverse effects can be increased when Onartuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11756",
+                        "description": "The risk or severity of adverse effects can be increased when Solanezumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11767",
+                        "description": "The risk or severity of adverse effects can be increased when Sarilumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11771",
+                        "description": "The risk or severity of adverse effects can be increased when Tremelimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11776",
+                        "description": "The risk or severity of adverse effects can be increased when Brodalumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11803",
+                        "description": "The risk or severity of adverse effects can be increased when Sirukumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11826",
+                        "description": "The risk or severity of adverse effects can be increased when Lampalizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11834",
+                        "description": "The risk or severity of adverse effects can be increased when Guselkumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11840",
+                        "description": "The risk or severity of adverse effects can be increased when Dalotuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11849",
+                        "description": "The risk or severity of adverse effects can be increased when Emibetuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11850",
+                        "description": "The risk or severity of adverse effects can be increased when Ublituximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11856",
+                        "description": "The risk or severity of adverse effects can be increased when Ligelizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11857",
+                        "description": "The risk or severity of adverse effects can be increased when Seribantumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11862",
+                        "description": "The risk or severity of adverse effects can be increased when Landogrozumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11866",
+                        "description": "The risk or severity of adverse effects can be increased when Romosozumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11884",
+                        "description": "The risk or severity of adverse effects can be increased when Vadastuximab Talirine is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11914",
+                        "description": "The risk or severity of adverse effects can be increased when Lebrikizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11930",
+                        "description": "The risk or severity of adverse effects can be increased when Varlilumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11945",
+                        "description": "The risk or severity of adverse effects can be increased when Avelumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11959",
+                        "description": "The risk or severity of adverse effects can be increased when Crenezumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11972",
+                        "description": "The risk or severity of adverse effects can be increased when Rilotumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11976",
+                        "description": "The risk or severity of adverse effects can be increased when Anifrolumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB11988",
+                        "description": "The risk or severity of adverse effects can be increased when Ocrelizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12023",
+                        "description": "The risk or severity of adverse effects can be increased when Benralizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12034",
+                        "description": "The risk or severity of adverse effects can be increased when Gantenerumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12053",
+                        "description": "The risk or severity of adverse effects can be increased when Visilizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12077",
+                        "description": "The risk or severity of adverse effects can be increased when Urelumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12089",
+                        "description": "The risk or severity of adverse effects can be increased when Lorvotuzumab mertansine is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12090",
+                        "description": "The risk or severity of adverse effects can be increased when Patritumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12102",
+                        "description": "The risk or severity of adverse effects can be increased when Fulranumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12104",
+                        "description": "The risk or severity of adverse effects can be increased when Tarextumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12118",
+                        "description": "The risk or severity of adverse effects can be increased when Sotatercept is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12119",
+                        "description": "The risk or severity of adverse effects can be increased when Gevokizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12142",
+                        "description": "The risk or severity of adverse effects can be increased when Duligotuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12152",
+                        "description": "The risk or severity of adverse effects can be increased when Simtuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12157",
+                        "description": "The risk or severity of adverse effects can be increased when Fasinumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12159",
+                        "description": "The risk or severity of adverse effects can be increased when Dupilumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12169",
+                        "description": "The risk or severity of adverse effects can be increased when Tralokinumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12189",
+                        "description": "The risk or severity of adverse effects can be increased when Etrolizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12202",
+                        "description": "The risk or severity of adverse effects can be increased when Zalutumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12205",
+                        "description": "The risk or severity of adverse effects can be increased when Ganitumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12213",
+                        "description": "The risk or severity of adverse effects can be increased when Etaracizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12240",
+                        "description": "The risk or severity of adverse effects can be increased when Polatuzumab vedotin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12246",
+                        "description": "The risk or severity of adverse effects can be increased when Inclacumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12250",
+                        "description": "The risk or severity of adverse effects can be increased when Cixutumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12261",
+                        "description": "The risk or severity of adverse effects can be increased when Ascrinvacumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12274",
+                        "description": "The risk or severity of adverse effects can be increased when Aducanumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12281",
+                        "description": "The risk or severity of adverse effects can be increased when Luspatercept is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12296",
+                        "description": "The risk or severity of adverse effects can be increased when GS 5745 is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12317",
+                        "description": "The risk or severity of adverse effects can be increased when Vanucizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12331",
+                        "description": "The risk or severity of adverse effects can be increased when Labetuzumab govitecan is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12335",
+                        "description": "The risk or severity of adverse effects can be increased when Tanezumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12342",
+                        "description": "The risk or severity of adverse effects can be increased when Ensituximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12344",
+                        "description": "The risk or severity of adverse effects can be increased when Fezakinumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12363",
+                        "description": "The risk or severity of adverse effects can be increased when Dusigitumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12396",
+                        "description": "The risk or severity of adverse effects can be increased when Fresolimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12413",
+                        "description": "The risk or severity of adverse effects can be increased when Indusatumab vedotin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12456",
+                        "description": "The risk or severity of adverse effects can be increased when Bococizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12489",
+                        "description": "The risk or severity of adverse effects can be increased when Mirvetuximab Soravtansine is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12498",
+                        "description": "The risk or severity of adverse effects can be increased when Mogamulizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12520",
+                        "description": "The risk or severity of adverse effects can be increased when Plozalizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12530",
+                        "description": "The risk or severity of adverse effects can be increased when Inebilizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12534",
+                        "description": "The risk or severity of adverse effects can be increased when Mavrilimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12560",
+                        "description": "The risk or severity of adverse effects can be increased when Blosozumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12584",
+                        "description": "The risk or severity of adverse effects can be increased when Bimagrumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12589",
+                        "description": "The risk or severity of adverse effects can be increased when Dacetuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12609",
+                        "description": "The risk or severity of adverse effects can be increased when Tovetumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12683",
+                        "description": "The risk or severity of adverse effects can be increased when Lumretuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12698",
+                        "description": "The risk or severity of adverse effects can be increased when Ibalizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12701",
+                        "description": "The risk or severity of adverse effects can be increased when Intetumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12718",
+                        "description": "The risk or severity of adverse effects can be increased when Carlumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12734",
+                        "description": "The risk or severity of adverse effects can be increased when Demcizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12773",
+                        "description": "The risk or severity of adverse effects can be increased when Sifalimumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12775",
+                        "description": "The risk or severity of adverse effects can be increased when Abituzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12797",
+                        "description": "The risk or severity of adverse effects can be increased when Ecromeximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12807",
+                        "description": "The risk or severity of adverse effects can be increased when Naptumomab Estafenatox is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12815",
+                        "description": "The risk or severity of adverse effects can be increased when Crotedumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12820",
+                        "description": "The risk or severity of adverse effects can be increased when Concizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12826",
+                        "description": "The risk or severity of adverse effects can be increased when Depatuxizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12844",
+                        "description": "The risk or severity of adverse effects can be increased when Rontalizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12845",
+                        "description": "The risk or severity of adverse effects can be increased when Amatuximab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12849",
+                        "description": "The risk or severity of adverse effects can be increased when Clazakizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12891",
+                        "description": "The risk or severity of adverse effects can be increased when Ozanezumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12893",
+                        "description": "The risk or severity of adverse effects can be increased when Sacituzumab govitecan is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12917",
+                        "description": "The risk or severity of adverse effects can be increased when Bimekizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12943",
+                        "description": "The risk or severity of adverse effects can be increased when Milatuzumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB12976",
+                        "description": "The risk or severity of adverse effects can be increased when Robatumumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13017",
+                        "description": "The risk or severity of adverse effects can be increased when Rovalpituzumab Tesirine is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13037",
+                        "description": "The risk or severity of adverse effects can be increased when Namilumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13045",
+                        "description": "The risk or severity of adverse effects can be increased when Racotumomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13073",
+                        "description": "The risk or severity of adverse effects can be increased when Tregalizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13127",
+                        "description": "The risk or severity of adverse effects can be increased when Olokizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13140",
+                        "description": "The risk or severity of adverse effects can be increased when Bezlotoxumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13375",
+                        "description": "The risk or severity of adverse effects can be increased when Edrecolomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13535",
+                        "description": "The risk or severity of adverse effects can be increased when Nebacumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13886",
+                        "description": "The risk or severity of adverse effects can be increased when Human cytomegalovirus immune globulin is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13923",
+                        "description": "The risk or severity of adverse effects can be increased when Emicizumab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB13976",
+                        "description": "The risk or severity of adverse effects can be increased when Sulesomab is combined with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB14004",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Tildrakizumab"
+                    },
+                    {
+                        "drugbank-id": "DB14012",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Burosumab"
+                    },
+                    {
+                        "drugbank-id": "DB14039",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Erenumab"
+                    },
+                    {
+                        "drugbank-id": "DB14040",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Eptinezumab"
+                    },
+                    {
+                        "drugbank-id": "DB14041",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Fremanezumab"
+                    },
+                    {
+                        "drugbank-id": "DB14042",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Galcanezumab"
+                    },
+                    {
+                        "drugbank-id": "DB14211",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Fanolesomab"
+                    },
+                    {
+                        "drugbank-id": "DB14580",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Lecanemab"
+                    },
+                    {
+                        "drugbank-id": "DB14597",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Lanadelumab"
+                    },
+                    {
+                        "drugbank-id": "DB14707",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Cemiplimab"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Emapalumab"
+                    },
+                    {
+                        "drugbank-id": "DB14762",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Risankizumab"
+                    },
+                    {
+                        "drugbank-id": "DB14776",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Camrelizumab"
+                    },
+                    {
+                        "drugbank-id": "DB14778",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Setrusumab"
+                    },
+                    {
+                        "drugbank-id": "DB14784",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Gancotamab"
+                    },
+                    {
+                        "drugbank-id": "DB14809",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Anetumab ravtansine"
+                    },
+                    {
+                        "drugbank-id": "DB14811",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Isatuximab"
+                    },
+                    {
+                        "drugbank-id": "DB14824",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Icrucumab"
+                    },
+                    {
+                        "drugbank-id": "DB14843",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Codrituzumab"
+                    },
+                    {
+                        "drugbank-id": "DB14864",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Brolucizumab"
+                    },
+                    {
+                        "drugbank-id": "DB14871",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Xentuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB14877",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Lintuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB14891",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Vobarilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB14897",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Parsatuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB14905",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Emactuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB14907",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Bevacizumab zirconium Zr 89"
+                    },
+                    {
+                        "drugbank-id": "DB14908",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Refanezumab"
+                    },
+                    {
+                        "drugbank-id": "DB14919",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Rozanolixizumab"
+                    },
+                    {
+                        "drugbank-id": "DB14947",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Bermekimab"
+                    },
+                    {
+                        "drugbank-id": "DB14952",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Pamrevlumab"
+                    },
+                    {
+                        "drugbank-id": "DB14959",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Opicinumab"
+                    },
+                    {
+                        "drugbank-id": "DB14962",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Trastuzumab deruxtecan"
+                    },
+                    {
+                        "drugbank-id": "DB14967",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Margetuximab"
+                    },
+                    {
+                        "drugbank-id": "DB14988",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Dalantercept"
+                    },
+                    {
+                        "drugbank-id": "DB14997",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Pateclizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15014",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Gremubamab"
+                    },
+                    {
+                        "drugbank-id": "DB15022",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Apomab"
+                    },
+                    {
+                        "drugbank-id": "DB15044",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Tafasitamab"
+                    },
+                    {
+                        "drugbank-id": "DB15045",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Ipafricept"
+                    },
+                    {
+                        "drugbank-id": "DB15076",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Abrilumab"
+                    },
+                    {
+                        "drugbank-id": "DB15089",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Frovocimab"
+                    },
+                    {
+                        "drugbank-id": "DB15090",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Tezepelumab"
+                    },
+                    {
+                        "drugbank-id": "DB15101",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Tigatuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB15104",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Telisotuzumab vedotin"
+                    },
+                    {
+                        "drugbank-id": "DB15113",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Utomilumab"
+                    },
+                    {
+                        "drugbank-id": "DB15118",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Zolbetuximab"
+                    },
+                    {
+                        "drugbank-id": "DB15135",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Ponezumab"
+                    },
+                    {
+                        "drugbank-id": "DB15160",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Asunercept"
+                    },
+                    {
+                        "drugbank-id": "DB15172",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Suvratoxumab"
+                    },
+                    {
+                        "drugbank-id": "DB15225",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Mitazalimab"
+                    },
+                    {
+                        "drugbank-id": "DB15252",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Nemolizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15253",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Bleselumab"
+                    },
+                    {
+                        "drugbank-id": "DB15277",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Gedivumab"
+                    },
+                    {
+                        "drugbank-id": "DB15336",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Valanafusp alfa"
+                    },
+                    {
+                        "drugbank-id": "DB15349",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Sofituzumab vedotin"
+                    },
+                    {
+                        "drugbank-id": "DB15354",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Evinacumab"
+                    },
+                    {
+                        "drugbank-id": "DB15363",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Istiratumab"
+                    },
+                    {
+                        "drugbank-id": "DB15383",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Pidilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15397",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with GMA 161"
+                    },
+                    {
+                        "drugbank-id": "DB15409",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Ladiratuzumab vedotin"
+                    },
+                    {
+                        "drugbank-id": "DB15415",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Tomaralimab"
+                    },
+                    {
+                        "drugbank-id": "DB15428",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Vesencumab"
+                    },
+                    {
+                        "drugbank-id": "DB15432",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Pinatuzumab vedotin"
+                    },
+                    {
+                        "drugbank-id": "DB15441",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Lulizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB15443",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Lorukafusp alfa"
+                    },
+                    {
+                        "drugbank-id": "DB15453",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Naratuximab emtansine"
+                    },
+                    {
+                        "drugbank-id": "DB15559",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Zenocutuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB15898",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Atoltivimab"
+                    },
+                    {
+                        "drugbank-id": "DB15899",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Maftivimab"
+                    },
+                    {
+                        "drugbank-id": "DB15900",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Odesivimab"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The risk or severity of adverse effects can be increased when Besilesomab is combined with Belantamab mafodotin"
+                    },
+                    {
+                        "drugbank-id": "DB15595",
+                        "description": "The therapeutic efficacy of Ebola Zaire vaccine live attenuated can be decreased when used in combination with Besilesomab"
+                    },
+                    {
+                        "drugbank-id": "DB15258",
+                        "description": "The therapeutic efficacy of Besilesomab can be decreased when used in combination with Imlifidase"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

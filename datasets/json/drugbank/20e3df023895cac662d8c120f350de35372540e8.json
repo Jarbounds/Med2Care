@@ -1,0 +1,2521 @@
+{
+    "medicine_id": "20e3df023895cac662d8c120f350de35372540e8",
+    "platform_id": "DB06011",
+    "metadata": {
+        "name": "Ocaliva 5 mg Tablet",
+        "composition": "5 mg AMG 222",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in diabetes mellitus type 2",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00082",
+                        "description": "The risk or severity of hypoglycemia can be increased when Pegvisomant is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00166",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lipoic acid is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00218",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Moxifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Grepafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00467",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Enoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00487",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Pefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00685",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Trovafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00779",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Nalidixic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00817",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Rosoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00827",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Cinoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Lomefloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01044",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Gatifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01059",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Norfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01137",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Levofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01155",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Gemifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01165",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Ofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01208",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sparfloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Temafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB04576",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Fleroxacin"
+                    },
+                    {
+                        "drugbank-id": "DB05488",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Technetium Tc 99m ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06160",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Garenoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB06600",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Nemonoxacin"
+                    },
+                    {
+                        "drugbank-id": "DB08972",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Flumequine"
+                    },
+                    {
+                        "drugbank-id": "DB11404",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Enrofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11443",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Orbifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11491",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sarafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11511",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Difloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11774",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Pazufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11892",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Prulifloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Delafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13261",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sitafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13627",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Oxolinic acid"
+                    },
+                    {
+                        "drugbank-id": "DB13772",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Rufloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB13823",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Pipemidic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Methyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00310",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Chlorthalidone"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Benzthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01325",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Quinethazone"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13989",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Epitizide"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "Amitriptyline may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "Protriptyline may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "Imipramine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "Nortriptyline may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "Amoxapine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "Trimipramine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "Doxepin may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "Desipramine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "Clomipramine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04836",
+                        "description": "Amineptine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08996",
+                        "description": "Dimetacrine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09016",
+                        "description": "Butriptyline may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "Dosulepin may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "Tianeptine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09307",
+                        "description": "Oxaprotiline may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "Opipramol may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13114",
+                        "description": "Amitriptylinoxide may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13225",
+                        "description": "Dibenzepin may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13246",
+                        "description": "Quinupramine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13384",
+                        "description": "Melitracen may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13411",
+                        "description": "Lofepramine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13496",
+                        "description": "Iprindole may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13782",
+                        "description": "Imipramine oxide may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Glimepiride"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Acetohexamide"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Chlorpropamide"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Tolazamide"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Glyburide"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Glipizide"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Gliclazide"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Tolbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Gliquidone"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Glisoxepide"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Glibornuride"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Carbutamide"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Metahexamide"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "Dapagliflozin may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "Canagliflozin may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00007",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Leuprolide"
+                    },
+                    {
+                        "drugbank-id": "DB00014",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Goserelin"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Etonogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Desogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Olanzapine"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Megestrol acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Levonorgestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Progesterone"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00592",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Piperazine"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Medroxyprogesterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB00627",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Niacin"
+                    },
+                    {
+                        "drugbank-id": "DB00668",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Epinephrine"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Norethisterone"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Pentamidine"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Ethynodiol diacetate"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Pseudoephedrine"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Tacrolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Sirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Etacrynic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Arsenic trioxide"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Quetiapine"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Aripiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB01319",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Fosamprenavir"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with St John s Wort"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Mestranol"
+                    },
+                    {
+                        "drugbank-id": "DB01363",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Ephedra sinica root"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Drospirenone"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01406",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Danazol"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Everolimus"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Pipotiazine"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Vorinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Estrone sulfate"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Cyproterone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Iloperidone"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Asenapine"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Temsirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Pasireotide"
+                    },
+                    {
+                        "drugbank-id": "DB06719",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Buserelin"
+                    },
+                    {
+                        "drugbank-id": "DB06788",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Histrelin"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Hydroxyprogesterone caproate"
+                    },
+                    {
+                        "drugbank-id": "DB06791",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Lanreotide"
+                    },
+                    {
+                        "drugbank-id": "DB06825",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Triptorelin"
+                    },
+                    {
+                        "drugbank-id": "DB08815",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Lurasidone"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Dabrafenib"
+                    },
+                    {
+                        "drugbank-id": "DB09009",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Articaine"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Dienogest"
+                    },
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Brexpiprazole"
+                    },
+                    {
+                        "drugbank-id": "DB06343",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Teprotumumab"
+                    },
+                    {
+                        "drugbank-id": "DB00621",
+                        "description": "Oxandrolone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "Testosterone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00984",
+                        "description": "Nandrolone phenpropionate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01185",
+                        "description": "Fluoxymesterone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01420",
+                        "description": "Testosterone propionate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06412",
+                        "description": "Oxymetholone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06710",
+                        "description": "Methyltestosterone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06718",
+                        "description": "Stanozolol may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08804",
+                        "description": "Nandrolone decanoate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB12461",
+                        "description": "GLPG 0492 may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13169",
+                        "description": "Nandrolone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13587",
+                        "description": "Mesterolone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "Testosterone cypionate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "Testosterone enanthate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "Testosterone undecanoate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The risk or severity of hypoglycemia can be increased when Fluvoxamine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The risk or severity of hypoglycemia can be increased when Citalopram is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The risk or severity of hypoglycemia can be increased when Venlafaxine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The risk or severity of hypoglycemia can be increased when Indomethacin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of hypoglycemia can be increased when Fluoxetine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The risk or severity of hypoglycemia can be increased when Duloxetine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The risk or severity of hypoglycemia can be increased when Paroxetine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "The risk or severity of hypoglycemia can be increased when Sertraline is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nefazodone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of hypoglycemia can be increased when Escitalopram is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04832",
+                        "description": "The risk or severity of hypoglycemia can be increased when Zimelidine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The risk or severity of hypoglycemia can be increased when Dapoxetine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The risk or severity of hypoglycemia can be increased when Milnacipran is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06700",
+                        "description": "The risk or severity of hypoglycemia can be increased when Desvenlafaxine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The risk or severity of hypoglycemia can be increased when Levomilnacipran is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08953",
+                        "description": "The risk or severity of hypoglycemia can be increased when Indalpine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09270",
+                        "description": "The risk or severity of hypoglycemia can be increased when Ubidecarenone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB12693",
+                        "description": "The risk or severity of hypoglycemia can be increased when Ritanserin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13233",
+                        "description": "The risk or severity of hypoglycemia can be increased when Alaproclate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "The risk or severity of hypoglycemia can be increased when Cibenzoline is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14025",
+                        "description": "The risk or severity of hypoglycemia can be increased when Clinafloxacin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00233",
+                        "description": "Aminosalicylic acid may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "Mesalazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Sulfasalazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "Diflunisal may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "Salicylic acid may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "Balsalazide may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "Olsalazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01294",
+                        "description": "Bismuth subsalicylate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06251",
+                        "description": "Dersalazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06807",
+                        "description": "Phenyl aminosalicylate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09543",
+                        "description": "Methyl salicylate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB11079",
+                        "description": "Trolamine salicylate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "Nitroaspirin may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13509",
+                        "description": "Aloxiprin may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "Guacetisal may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "Carbaspirin calcium may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14006",
+                        "description": "Choline salicylate may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14026",
+                        "description": "Thiosalicylic acid may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00030",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin human"
+                    },
+                    {
+                        "drugbank-id": "DB00046",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin lispro"
+                    },
+                    {
+                        "drugbank-id": "DB00047",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin glargine"
+                    },
+                    {
+                        "drugbank-id": "DB00071",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin pork"
+                    },
+                    {
+                        "drugbank-id": "DB01306",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin aspart"
+                    },
+                    {
+                        "drugbank-id": "DB01307",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin detemir"
+                    },
+                    {
+                        "drugbank-id": "DB01309",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin glulisine"
+                    },
+                    {
+                        "drugbank-id": "DB05115",
+                        "description": "AMG 222 may increase the hypoglycemic activities of NN344"
+                    },
+                    {
+                        "drugbank-id": "DB09564",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin degludec"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin peglispro"
+                    },
+                    {
+                        "drugbank-id": "DB11568",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin tregopil"
+                    },
+                    {
+                        "drugbank-id": "DB11564",
+                        "description": "AMG 222 may increase the hypoglycemic activities of Insulin argine"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "Tranylcypromine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "Phenelzine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "Selegiline may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "Moclobemide may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "Isocarboxazid may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "Rasagiline may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Pargyline may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "Minaprine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "Iproniazid may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04820",
+                        "description": "Nialamide may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "Pirlindole may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "Toloxatone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09243",
+                        "description": "Hydracarbazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Methylene blue may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09246",
+                        "description": "Benmoxin may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09248",
+                        "description": "Mebanazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09249",
+                        "description": "Octamoxin may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09250",
+                        "description": "Pheniprazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09251",
+                        "description": "Phenoxypropazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09252",
+                        "description": "Pivhydrazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09253",
+                        "description": "Safrazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09254",
+                        "description": "Caroxazone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "Furazolidone may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08550",
+                        "description": "7 8 Dichloro 1 2 3 4 tetrahydroisoquinoline may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13875",
+                        "description": "Harmaline may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13876",
+                        "description": "Brofaromine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "Procaine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Amphetamine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "Procarbazine may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "Linezolid may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "Safinamide may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04017",
+                        "description": "Clorgiline may increase the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB15565",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Cilazaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Ertugliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00311",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Ethoxzolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfadiazine"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Celecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00576",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfamethizole"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00664",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfametopyrazine"
+                    },
+                    {
+                        "drugbank-id": "DB00669",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sumatriptan"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Furosemide"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Tamsulosin"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Acetazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Bumetanide"
+                    },
+                    {
+                        "drugbank-id": "DB00891",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfapyridine"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfamethoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Rosuvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Diazoxide"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Diclofenamide"
+                    },
+                    {
+                        "drugbank-id": "DB01264",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Darunavir"
+                    },
+                    {
+                        "drugbank-id": "DB01298",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfacytine"
+                    },
+                    {
+                        "drugbank-id": "DB01299",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfadoxine"
+                    },
+                    {
+                        "drugbank-id": "DB01382",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Glymidine"
+                    },
+                    {
+                        "drugbank-id": "DB01581",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfamerazine"
+                    },
+                    {
+                        "drugbank-id": "DB01582",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfamethazine"
+                    },
+                    {
+                        "drugbank-id": "DB02925",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Piretanide"
+                    },
+                    {
+                        "drugbank-id": "DB04707",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Hydroxyfasudil"
+                    },
+                    {
+                        "drugbank-id": "DB06150",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfadimethoxine"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Simeprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06729",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfaphenazole"
+                    },
+                    {
+                        "drugbank-id": "DB06821",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfameter"
+                    },
+                    {
+                        "drugbank-id": "DB07996",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with 5 2 methylpiperazine 1 sulfonyl isoquinoline"
+                    },
+                    {
+                        "drugbank-id": "DB08162",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Fasudil"
+                    },
+                    {
+                        "drugbank-id": "DB08798",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfamoxole"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB08961",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Azosemide"
+                    },
+                    {
+                        "drugbank-id": "DB11389",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Clorsulon"
+                    },
+                    {
+                        "drugbank-id": "DB11461",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfachlorpyridazine"
+                    },
+                    {
+                        "drugbank-id": "DB11462",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfaethoxypyridazine"
+                    },
+                    {
+                        "drugbank-id": "DB11463",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfanitran"
+                    },
+                    {
+                        "drugbank-id": "DB11464",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfaquinoxaline"
+                    },
+                    {
+                        "drugbank-id": "DB12051",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Setrobuvir"
+                    },
+                    {
+                        "drugbank-id": "DB12921",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Chlorsulfaquinoxaline"
+                    },
+                    {
+                        "drugbank-id": "DB13214",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfadicramide"
+                    },
+                    {
+                        "drugbank-id": "DB13248",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Phthalylsulfathiazole"
+                    },
+                    {
+                        "drugbank-id": "DB13283",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfaisodimidine"
+                    },
+                    {
+                        "drugbank-id": "DB13284",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Meticrane"
+                    },
+                    {
+                        "drugbank-id": "DB13320",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfaperin"
+                    },
+                    {
+                        "drugbank-id": "DB13405",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Mefruside"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Mebutizide"
+                    },
+                    {
+                        "drugbank-id": "DB13485",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfametomidine"
+                    },
+                    {
+                        "drugbank-id": "DB13547",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfatolamide"
+                    },
+                    {
+                        "drugbank-id": "DB13556",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfamazone"
+                    },
+                    {
+                        "drugbank-id": "DB13580",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Succinylsulfathiazole"
+                    },
+                    {
+                        "drugbank-id": "DB13617",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Clorexolone"
+                    },
+                    {
+                        "drugbank-id": "DB13663",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Clofenamide"
+                    },
+                    {
+                        "drugbank-id": "DB13699",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfathiourea"
+                    },
+                    {
+                        "drugbank-id": "DB13708",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Fenquizone"
+                    },
+                    {
+                        "drugbank-id": "DB13726",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfaguanidine"
+                    },
+                    {
+                        "drugbank-id": "DB13773",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Sulfamethoxypyridazine"
+                    },
+                    {
+                        "drugbank-id": "DB13792",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Clopamide"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB14033",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Acetyl sulfisoxazole"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Methazolamide"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Indisulam"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "The risk or severity of angioedema can be increased when Alteplase is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "The risk or severity of angioedema can be increased when Urokinase is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "The risk or severity of angioedema can be increased when Reteplase is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "The risk or severity of angioedema can be increased when Anistreplase is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "The risk or severity of angioedema can be increased when Tenecteplase is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of angioedema can be increased when Streptokinase is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The risk or severity of angioedema can be increased when Valsartan is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "The risk or severity of angioedema can be increased when Ramipril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The risk or severity of angioedema can be increased when Pregabalin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The risk or severity of angioedema can be increased when Conjugated estrogens is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "The risk or severity of angioedema can be increased when Fosinopril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "The risk or severity of angioedema can be increased when Trandolapril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The risk or severity of angioedema can be increased when Enalapril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The risk or severity of angioedema can be increased when Diclofenac is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The risk or severity of angioedema can be increased when Losartan is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of angioedema can be increased when Moexipril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "The risk or severity of angioedema can be increased when Lisinopril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "The risk or severity of angioedema can be increased when Perindopril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "The risk or severity of angioedema can be increased when Eprosartan is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "The risk or severity of angioedema can be increased when Quinapril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "The risk or severity of angioedema can be increased when Omapatrilat is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "The risk or severity of angioedema can be increased when Telmisartan is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The risk or severity of angioedema can be increased when Ibuprofen is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "The risk or severity of angioedema can be increased when Rescinnamine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The risk or severity of angioedema can be increased when Captopril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The risk or severity of angioedema can be increased when Sitagliptin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "The risk or severity of angioedema can be increased when Cilazapril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01342",
+                        "description": "The risk or severity of angioedema can be increased when Forasartan is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "The risk or severity of angioedema can be increased when Saprisartan is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "The risk or severity of angioedema can be increased when Spirapril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "The risk or severity of angioedema can be increased when Vildagliptin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Bisegliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06196",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Icatibant"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Alogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06245",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Lanoteplase"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Saxagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Amediplase"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Gosogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08822",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Temocapril"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Linagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Sacubitril"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Enalaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Dutogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Imidapril"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Teneligliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Omarigliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Carmegliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Gemigliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Anagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Evogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Zofenopril"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Delapril"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Saruplase"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Benazeprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Fosinoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Ramiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14209",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Trandolaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14210",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Moexiprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Perindoprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Quinaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB14231",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Quinoline Yellow WS"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The risk or severity of hypoglycemia can be increased when Troglitazone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of hypoglycemia can be increased when Disopyramide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00284",
+                        "description": "The risk or severity of hypoglycemia can be increased when Acarbose is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00331",
+                        "description": "The risk or severity of hypoglycemia can be increased when Metformin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The risk or severity of hypoglycemia can be increased when Rosiglitazone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The risk or severity of hypoglycemia can be increased when Quinine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00491",
+                        "description": "The risk or severity of hypoglycemia can be increased when Miglitol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nateglinide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The risk or severity of hypoglycemia can be increased when Mifepristone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00912",
+                        "description": "The risk or severity of hypoglycemia can be increased when Repaglinide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The risk or severity of hypoglycemia can be increased when Phenformin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01132",
+                        "description": "The risk or severity of hypoglycemia can be increased when Pioglitazone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of hypoglycemia can be increased when Bromocriptine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01252",
+                        "description": "The risk or severity of hypoglycemia can be increased when Mitiglinide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The risk or severity of hypoglycemia can be increased when Sunitinib is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01276",
+                        "description": "The risk or severity of hypoglycemia can be increased when Exenatide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01277",
+                        "description": "The risk or severity of hypoglycemia can be increased when Mecasermin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01278",
+                        "description": "The risk or severity of hypoglycemia can be increased when Pramlintide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01700",
+                        "description": "The risk or severity of hypoglycemia can be increased when AICA ribonucleotide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04830",
+                        "description": "The risk or severity of hypoglycemia can be increased when Buformin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04878",
+                        "description": "The risk or severity of hypoglycemia can be increased when Voglibose is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB05819",
+                        "description": "The risk or severity of hypoglycemia can be increased when NBI 6024 is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06655",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Liraglutide"
+                    },
+                    {
+                        "drugbank-id": "DB09022",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Benfluorex"
+                    },
+                    {
+                        "drugbank-id": "DB09043",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Albiglutide"
+                    },
+                    {
+                        "drugbank-id": "DB09045",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Dulaglutide"
+                    },
+                    {
+                        "drugbank-id": "DB09198",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Lobeglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09199",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Netoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09200",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Rivoglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09201",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Ciglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB09265",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Lixisenatide"
+                    },
+                    {
+                        "drugbank-id": "DB09456",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Insulin beef"
+                    },
+                    {
+                        "drugbank-id": "DB11698",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Ipragliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11780",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Allicin"
+                    },
+                    {
+                        "drugbank-id": "DB11824",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Tofogliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB11898",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with 2 4 thiazolidinedione"
+                    },
+                    {
+                        "drugbank-id": "DB12713",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Sotagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB12781",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Balaglitazone"
+                    },
+                    {
+                        "drugbank-id": "DB12935",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Remogliflozin etabonate"
+                    },
+                    {
+                        "drugbank-id": "DB13446",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Guar gum"
+                    },
+                    {
+                        "drugbank-id": "DB13928",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Semaglutide"
+                    },
+                    {
+                        "drugbank-id": "DB14027",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Taspoglutide"
+                    },
+                    {
+                        "drugbank-id": "DB14035",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Englitazone"
+                    },
+                    {
+                        "drugbank-id": "DB15171",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Tirzepatide"
+                    },
+                    {
+                        "drugbank-id": "DB15217",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Gastric inhibitory polypeptide"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Empagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of hypoglycemia can be increased when Isradipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of hypoglycemia can be increased when Diltiazem is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of hypoglycemia can be increased when Trimethadione is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The risk or severity of hypoglycemia can be increased when Amlodipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nimodipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nisoldipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lercanidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lamotrigine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The risk or severity of hypoglycemia can be increased when Cinnarizine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of hypoglycemia can be increased when Ethosuximide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nicardipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The risk or severity of hypoglycemia can be increased when Magnesium sulfate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The risk or severity of hypoglycemia can be increased when Verapamil is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The risk or severity of hypoglycemia can be increased when Loperamide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nitrendipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The risk or severity of hypoglycemia can be increased when Perhexiline is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of hypoglycemia can be increased when Amiodarone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The risk or severity of hypoglycemia can be increased when Bepridil is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of hypoglycemia can be increased when Mibefradil is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nimesulide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of hypoglycemia can be increased when Prenylamine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "The risk or severity of hypoglycemia can be increased when Cyclandelate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The risk or severity of hypoglycemia can be increased when Flunarizine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of hypoglycemia can be increased when Fluspirilene is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The risk or severity of hypoglycemia can be increased when Clevidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of hypoglycemia can be increased when Methsuximide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "The risk or severity of hypoglycemia can be increased when Seletracetam is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nylidrin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06283",
+                        "description": "The risk or severity of hypoglycemia can be increased when Ziconotide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "The risk or severity of hypoglycemia can be increased when Dotarizine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06694",
+                        "description": "The risk or severity of hypoglycemia can be increased when Xylometazoline is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nilvadipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The risk or severity of hypoglycemia can be increased when Tranilast is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The risk or severity of hypoglycemia can be increased when Agmatine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of hypoglycemia can be increased when Fendiline is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of hypoglycemia can be increased when Eperisone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of hypoglycemia can be increased when Trimebutine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of hypoglycemia can be increased when Pinaverium is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The risk or severity of hypoglycemia can be increased when Tolfenamic acid is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The risk or severity of hypoglycemia can be increased when Barnidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of hypoglycemia can be increased when Aranidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "The risk or severity of hypoglycemia can be increased when Azelnidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of hypoglycemia can be increased when Benidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The risk or severity of hypoglycemia can be increased when Cilnidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "The risk or severity of hypoglycemia can be increased when Darodipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of hypoglycemia can be increased when Efonidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lacidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The risk or severity of hypoglycemia can be increased when Manidipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of hypoglycemia can be increased when Niguldipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "The risk or severity of hypoglycemia can be increased when Niludipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "The risk or severity of hypoglycemia can be increased when Carboxyamidotriazole is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The risk or severity of hypoglycemia can be increased when Naftopidil is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of hypoglycemia can be increased when Tetrahydropalmatine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "The risk or severity of hypoglycemia can be increased when Vinpocetine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of hypoglycemia can be increased when Gallopamil is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of hypoglycemia can be increased when Bencyclane is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of hypoglycemia can be increased when Otilonium is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of hypoglycemia can be increased when Terodiline is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lidoflazine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of hypoglycemia can be increased when Penfluridol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "The risk or severity of hypoglycemia can be increased when Caroverine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The risk or severity of hypoglycemia can be increased when WIN 55212 2 is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "The risk or severity of hypoglycemia can be increased when Fish oil is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of hypoglycemia can be increased when Dexverapamil is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "The risk or severity of hypoglycemia can be increased when Emopamil is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "The risk or severity of hypoglycemia can be increased when Lomerizine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The risk or severity of hypoglycemia can be increased when Tetrandrine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The risk or severity of hypoglycemia can be increased when Dexniguldipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The risk or severity of hypoglycemia can be increased when Felodipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The risk or severity of hypoglycemia can be increased when Nifedipine is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Phentermine"
+                    },
+                    {
+                        "drugbank-id": "DB00279",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Liothyronine"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "The risk or severity of hypoglycemia can be increased when Benazepril is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of hypoglycemia can be increased when Acetylsalicylic acid is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00181",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Baclofen"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The risk or severity of hypoglycemia can be increased when Sotalol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of hypoglycemia can be increased when AMG 222 is combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Betaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Metoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Atenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Timolol"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Propranolol"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Labetalol"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Alprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Pindolol"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Acebutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Nadolol"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Bevantolol"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Practolol"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Penbutolol"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Oxprenolol"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Celiprolol"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Bufuralol"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Bopindolol"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Bupranolol"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Arotinolol"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Levobetaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Anisodamine"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Bucindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Mepindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Tertatolol"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The therapeutic efficacy of AMG 222 can be increased when used in combination with Hydroxychloroquine"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The risk or severity of hyperglycemia can be increased when Beclomethasone dipropionate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The risk or severity of hyperglycemia can be increased when Betamethasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The risk or severity of hyperglycemia can be increased when Triamcinolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fludrocortisone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The risk or severity of hyperglycemia can be increased when Mometasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The risk or severity of hyperglycemia can be increased when Methylprednisolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The risk or severity of hyperglycemia can be increased when Dexamethasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The risk or severity of hyperglycemia can be increased when Corticotropin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The risk or severity of hyperglycemia can be increased when Cortisone acetate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The risk or severity of hyperglycemia can be increased when Paramethasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The risk or severity of hyperglycemia can be increased when Ciclesonide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluticasone furoate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluprednidene is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluocortolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The risk or severity of hyperglycemia can be increased when Meprednisone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The risk or severity of hyperglycemia can be increased when Dexamethasone isonicotinate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clobetasol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The risk or severity of hyperglycemia can be increased when Deflazacort is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The risk or severity of hyperglycemia can be increased when Cortivazol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednylidene is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The risk or severity of hyperglycemia can be increased when Cloprednol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluticasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The risk or severity of hyperglycemia can be increased when Mometasone furoate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The risk or severity of hyperglycemia can be increased when Flunisolide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The risk or severity of hyperglycemia can be increased when Trilostane is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The risk or severity of hyperglycemia can be increased when Budesonide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The risk or severity of hyperglycemia can be increased when Aldosterone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluprednisolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The risk or severity of hyperglycemia can be increased when Melengestrol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14681",
+                        "description": "The risk or severity of hyperglycemia can be increased when Cortisone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00223",
+                        "description": "The risk or severity of hyperglycemia can be increased when Diflorasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00240",
+                        "description": "The risk or severity of hyperglycemia can be increased when Alclometasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00253",
+                        "description": "The risk or severity of hyperglycemia can be increased when Medrysone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00288",
+                        "description": "The risk or severity of hyperglycemia can be increased when Amcinonide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluorometholone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00547",
+                        "description": "The risk or severity of hyperglycemia can be increased when Desoximetasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluticasone propionate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluocinolone acetonide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00596",
+                        "description": "The risk or severity of hyperglycemia can be increased when Ulobetasol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00663",
+                        "description": "The risk or severity of hyperglycemia can be increased when Flumethasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00838",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clocortolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00846",
+                        "description": "The risk or severity of hyperglycemia can be increased when Flurandrenolide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00896",
+                        "description": "The risk or severity of hyperglycemia can be increased when Rimexolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clobetasol propionate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluocinonide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01130",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednicarbate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01260",
+                        "description": "The risk or severity of hyperglycemia can be increased when Desonide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06781",
+                        "description": "The risk or severity of hyperglycemia can be increased when Difluprednate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB06786",
+                        "description": "The risk or severity of hyperglycemia can be increased when Halcinonide is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09091",
+                        "description": "The risk or severity of hyperglycemia can be increased when Tixocortol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The risk or severity of hyperglycemia can be increased when Difluocortolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13158",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clobetasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluocortin is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluperolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13664",
+                        "description": "The risk or severity of hyperglycemia can be increased when Formocortal is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13728",
+                        "description": "The risk or severity of hyperglycemia can be increased when Halometasone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluclorolone is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14538",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone aceponate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone acetate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone butyrate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14541",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone cypionate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14543",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone probutate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14544",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone valerate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The risk or severity of hyperglycemia can be increased when Hydrocortisone succinate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00873",
+                        "description": "The risk or severity of hyperglycemia can be increased when Loteprednol is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisolone phosphate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14633",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisolone hemisuccinate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14634",
+                        "description": "The risk or severity of hyperglycemia can be increased when Fluprednidene acetate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14643",
+                        "description": "The risk or severity of hyperglycemia can be increased when Methylprednisolone aceponate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14644",
+                        "description": "The risk or severity of hyperglycemia can be increased when Methylprednisolone hemisuccinate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14646",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisone acetate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14652",
+                        "description": "The risk or severity of hyperglycemia can be increased when Clocortolone acetate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14659",
+                        "description": "The risk or severity of hyperglycemia can be increased when Melengestrol acetate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB14669",
+                        "description": "The risk or severity of hyperglycemia can be increased when Betamethasone phosphate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB15566",
+                        "description": "The risk or severity of hyperglycemia can be increased when Prednisolone acetate is combined with AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00451",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Levothyroxine"
+                    },
+                    {
+                        "drugbank-id": "DB00024",
+                        "description": "Thyrotropin alfa may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB01583",
+                        "description": "Liotrix may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB03604",
+                        "description": "Tiratricol may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB09100",
+                        "description": "Thyroid porcine may decrease the hypoglycemic activities of AMG 222"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Octreotide"
+                    },
+                    {
+                        "drugbank-id": "DB15093",
+                        "description": "The therapeutic efficacy of AMG 222 can be decreased when used in combination with Somapacitan"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

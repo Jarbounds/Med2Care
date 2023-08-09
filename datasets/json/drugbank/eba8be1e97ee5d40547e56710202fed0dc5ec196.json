@@ -1,0 +1,2021 @@
+{
+    "medicine_id": "eba8be1e97ee5d40547e56710202fed0dc5ec196",
+    "platform_id": "DB13174",
+    "metadata": {
+        "name": "Brineura 150 mg 5mL Kit",
+        "composition": "150 mg 5mL Rhein",
+        "clinical_particulars": {
+            "therapeutic_indications": "No approved indication",
+            "contraindications": {
+                "disease": "Oral LD50 of 5000mg kg in mice MSDS",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Liver Reverses animal models of non alcoholic fatty liver disease by lowering liver lipids and reducing inflammation A19303 Also reverses and prevents fibrosis in liver injury A19304 Kidney Protects against fibrosis in nephropathy models and improves epithelial tight junction function A19307 A19310 Bone and joint Decreases inflammation and cartilage destruction and also corrects altered osteoblast acitivity A19337 A19338 A19339 Lipid lowering and anti obesity Reduces body weight and fat content and lowers high density lipoprotein and low density lipoprotein A19315 May prevent adipocyte differentiation A19314 Anti oxidant Pro oxidant Reduces levels of reactive oxygen species ROS at concentrations of about 2 16 microM but induces the generation of ROS at concentrations of 50 microM and above A19321 A19323 Anti cancer Rhein has been observed to produce DNA damage and suppress DNA repair in cancer cells A19340 It induces apoptosis via ER stress calcium and mitochondria mediated pathways A19341 Rhein also prevents cancer cell invasion into systemic circulation by preventing angiogenesis and breakdown of the extracellular matrix A19342 Finally rhein suppresses the activation of several tumor promoting signalling pathways A19342 A19343 A19344 Anti inflammatory Suppresses the production of pro inflammatory cytokines such as interleukin 1beta and interleukin 6 A19337 A19338 Anti diabetic Lowers plasma glucose and increases survival of islet beta cells in type 2 diabetes mellitus models A19288 Anti microbial Inhibits arylamine N acteyltransferase and cell growth in Helicobacter pylori A19312 Rhien also appears to be effective against many genotypes of Staphylococcus aureus A19313 Anti allergenic Inhibits production of leukotrienes and the release of histamine from mast cells A19329",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB09128",
+                        "description": "The metabolism of Brexpiprazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The metabolism of Eliglustat can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The metabolism of Zolmitriptan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00289",
+                        "description": "The metabolism of Atomoxetine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Phenytoin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00238",
+                        "description": "The metabolism of Nevirapine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "The metabolism of Amphetamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00185",
+                        "description": "The metabolism of Cevimeline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The metabolism of Esmolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The metabolism of Sildenafil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Ticlopidine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00215",
+                        "description": "The metabolism of Citalopram can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00216",
+                        "description": "The metabolism of Eletriptan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The metabolism of Ranolazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The metabolism of Benzatropine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The metabolism of Metoprolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00285",
+                        "description": "The metabolism of Venlafaxine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00297",
+                        "description": "The metabolism of Bupivacaine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00317",
+                        "description": "The metabolism of Gefitinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00318",
+                        "description": "The metabolism of Codeine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The metabolism of Methadone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "The metabolism of Atenolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Terfenadine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The metabolism of Diltiazem can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00344",
+                        "description": "The metabolism of Protriptyline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00377",
+                        "description": "The metabolism of Palonosetron can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The metabolism of Progesterone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00409",
+                        "description": "The metabolism of Remoxipride can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The metabolism of Prochlorperazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Meperidine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The metabolism of Celecoxib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The metabolism of Sotalol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00490",
+                        "description": "The metabolism of Buspirone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00496",
+                        "description": "The metabolism of Darifenacin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00497",
+                        "description": "The metabolism of Oxycodone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The metabolism of Ritonavir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "The metabolism of Dextromethorphan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The metabolism of Amoxapine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00589",
+                        "description": "The metabolism of Lisuride can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The metabolism of Doxazosin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00592",
+                        "description": "The metabolism of Piperazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00608",
+                        "description": "The metabolism of Chloroquine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The metabolism of Astemizole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The metabolism of Simvastatin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00647",
+                        "description": "The metabolism of Dextropropoxyphene can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The metabolism of Trazodone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "The metabolism of Galantamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Tamoxifen can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The metabolism of Thioridazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00699",
+                        "description": "The metabolism of Nicergoline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00701",
+                        "description": "The metabolism of Amprenavir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00705",
+                        "description": "The metabolism of Delavirdine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "The metabolism of Tamsulosin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The metabolism of Trimipramine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00731",
+                        "description": "The metabolism of Nateglinide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "The metabolism of Risperidone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00737",
+                        "description": "The metabolism of Meclizine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The metabolism of Pentamidine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00757",
+                        "description": "The metabolism of Dolasetron can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "The metabolism of Minaprine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The metabolism of Loperamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "The metabolism of Donepezil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "The metabolism of Alprenolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00904",
+                        "description": "The metabolism of Ondansetron can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00914",
+                        "description": "The metabolism of Phenformin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00918",
+                        "description": "The metabolism of Almotriptan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00921",
+                        "description": "The metabolism of Buprenorphine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The metabolism of Tipranavir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00933",
+                        "description": "The metabolism of Mesoridazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00956",
+                        "description": "The metabolism of Hydrocodone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The metabolism of Pindolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Azelastine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00983",
+                        "description": "The metabolism of Formoterol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The metabolism of Methoxyflurane can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "The metabolism of Procainamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The metabolism of Tolterodine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The metabolism of Promethazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01071",
+                        "description": "The metabolism of Mequitazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The metabolism of Perhexiline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The metabolism of Diphenhydramine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The metabolism of Tegaserod can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01095",
+                        "description": "The metabolism of Fluvastatin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01104",
+                        "description": "The metabolism of Sertraline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01114",
+                        "description": "The metabolism of Chlorpheniramine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01149",
+                        "description": "The metabolism of Nefazodone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "The metabolism of Moclobemide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The metabolism of Escitalopram can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01177",
+                        "description": "The metabolism of Idarubicin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01192",
+                        "description": "The metabolism of Oxymorphone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The metabolism of Acebutolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The metabolism of Flecainide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The metabolism of Nadolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The metabolism of Quetiapine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01228",
+                        "description": "The metabolism of Encainide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The metabolism of Metoclopramide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The metabolism of Bepridil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "The metabolism of Lisdexamfetamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The metabolism of Paliperidone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01274",
+                        "description": "The metabolism of Arformoterol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The metabolism of Bevantolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "The metabolism of Practolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The metabolism of Penbutolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01392",
+                        "description": "The metabolism of Yohimbine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The metabolism of Methotrimeprazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01409",
+                        "description": "The metabolism of Tiotropium can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01429",
+                        "description": "The metabolism of Aprindine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "The metabolism of Midomafetamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01466",
+                        "description": "The metabolism of Ethylmorphine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01472",
+                        "description": "The metabolism of 4 Methoxyamphetamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01551",
+                        "description": "The metabolism of Dihydrocodeine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "The metabolism of Dextroamphetamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "The metabolism of Metamfetamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The metabolism of Oxprenolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The metabolism of Solifenacin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01621",
+                        "description": "The metabolism of Pipotiazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The metabolism of Zuclopenthixol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB02703",
+                        "description": "The metabolism of Fusidic acid can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04829",
+                        "description": "The metabolism of Lysergic acid diethylamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "The metabolism of Debrisoquine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04844",
+                        "description": "The metabolism of Tetrabenazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The metabolism of Celiprolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "The metabolism of Nebivolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04884",
+                        "description": "The metabolism of Dapoxetine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04905",
+                        "description": "The metabolism of Tesmilifene can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The metabolism of Clevidipine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04946",
+                        "description": "The metabolism of Iloperidone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The metabolism of Trabectedin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "The metabolism of Rotigotine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06016",
+                        "description": "The metabolism of Cariprazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06144",
+                        "description": "The metabolism of Sertindole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The metabolism of Alogliptin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06204",
+                        "description": "The metabolism of Tapentadol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "The metabolism of Vernakalant can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06506",
+                        "description": "The metabolism of Repinotan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06608",
+                        "description": "The metabolism of Tafenoquine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06678",
+                        "description": "The metabolism of Esmirtazapine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06684",
+                        "description": "The metabolism of Vilazodone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06702",
+                        "description": "The metabolism of Fesoterodine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "The metabolism of Bufuralol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06727",
+                        "description": "The metabolism of Sparteine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06735",
+                        "description": "The metabolism of Enclomiphene can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "The metabolism of Bopindolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The metabolism of Bupranolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The metabolism of Mirabegron can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The metabolism of Levomilnacipran can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08922",
+                        "description": "The metabolism of Perospirone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The metabolism of Indenolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The metabolism of Netupitant can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The metabolism of Ibrutinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09068",
+                        "description": "The metabolism of Vortioxetine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The metabolism of Umeclidinium can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The metabolism of Dosulepin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The metabolism of Dasabuvir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09195",
+                        "description": "The metabolism of Lorpiprazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The metabolism of Arotinolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "The metabolism of Levobetaxolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09555",
+                        "description": "The metabolism of Dexchlorpheniramine maleate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11130",
+                        "description": "The metabolism of Opium can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The metabolism of Asunaprevir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11614",
+                        "description": "The metabolism of Rupatadine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11718",
+                        "description": "The metabolism of Encorafenib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The metabolism of Talinolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The metabolism of Anisodamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "The metabolism of Revefenacin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11915",
+                        "description": "The metabolism of Valbenazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Dacomitinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The metabolism of Elagolix can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12070",
+                        "description": "The metabolism of Letermovir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12161",
+                        "description": "The metabolism of Deutetrabenazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "The metabolism of Landiolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The metabolism of Bucindolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12930",
+                        "description": "The metabolism of Opipramol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13293",
+                        "description": "The metabolism of Ipecac can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "The metabolism of Esatenolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "The metabolism of Cloranolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "The metabolism of Mepindolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13679",
+                        "description": "The metabolism of Dexchlorpheniramine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The metabolism of Epanolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "The metabolism of Tertatolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The metabolism of Aripiprazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The metabolism of Aripiprazole lauroxil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Fluvoxamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Nicotine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Bortezomib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The metabolism of Betaxolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The metabolism of Lidocaine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The metabolism of Olanzapine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "The metabolism of Chlorzoxazone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The metabolism of Clozapine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The metabolism of Mirtazapine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "The metabolism of Mexiletine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The metabolism of Promazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Zolpidem can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The metabolism of Imipramine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The metabolism of Quinine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The metabolism of Fluoxetine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Chlorpromazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Erlotinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Mephenytoin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The metabolism of Nortriptyline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The metabolism of Cinnarizine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The metabolism of Propranolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The metabolism of Imatinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Paroxetine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The metabolism of Perphenazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The metabolism of Maprotiline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Selegiline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Nifedipine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The metabolism of Carvedilol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The metabolism of Doxepin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The metabolism of Desipramine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The metabolism of Cilostazol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The metabolism of Propafenone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Domperidone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01191",
+                        "description": "The metabolism of Dexfenfluramine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Clomipramine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Aminophenazone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The metabolism of Antipyrine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The metabolism of Phenacetin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Flunarizine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "The metabolism of Lorcaserin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The metabolism of Lofexidine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The metabolism of Mianserin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The metabolism of Dapagliflozin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Pazopanib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Benzyl alcohol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The metabolism of Triclabendazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Rucaparib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Enasidenib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09173",
+                        "description": "The metabolism of Butyrfentanyl can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The metabolism of Istradefylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The metabolism of Labetalol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The metabolism of Ciclesonide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04889",
+                        "description": "The metabolism of Bicifadine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14010",
+                        "description": "The metabolism of 5 methoxy N N dimethyltryptamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The metabolism of Pitolisant can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00751",
+                        "description": "The metabolism of Epinastine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The metabolism of Hydroxychloroquine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00228",
+                        "description": "The metabolism of Enflurane can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The metabolism of Trimethadione can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The metabolism of Isoflurane can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "The metabolism of Halothane can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The metabolism of Sevoflurane can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The metabolism of Nilvadipine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06728",
+                        "description": "The metabolism of Aniline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The metabolism of Felbamate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The metabolism of Cenobamate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08868",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The metabolism of Ethosuximide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Phenobarbital can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "The metabolism of Carmustine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The metabolism of Disopyramide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The metabolism of Conjugated estrogens can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The metabolism of Ropivacaine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The metabolism of Grepafloxacin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The metabolism of Tacrine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The metabolism of Triamterene can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00442",
+                        "description": "The metabolism of Entecavir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The metabolism of Nabumetone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "The metabolism of Flutamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Rofecoxib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The metabolism of Diclofenac can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The metabolism of Guanabenz can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The metabolism of Pemetrexed can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The metabolism of Verapamil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00730",
+                        "description": "The metabolism of Thiabendazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "The metabolism of Riluzole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00744",
+                        "description": "The metabolism of Zileuton can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The metabolism of Clopidogrel can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The metabolism of Acyclovir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Naproxen can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The metabolism of Pentoxifylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The metabolism of Trifluoperazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Terbinafine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The metabolism of Ranitidine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Ethanol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "The metabolism of Alosetron can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The metabolism of Lomefloxacin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "The metabolism of Ramelteon can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "The metabolism of Azathioprine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The metabolism of Frovatriptan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The metabolism of Levobupivacaine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01012",
+                        "description": "The metabolism of Cinacalcet can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01056",
+                        "description": "The metabolism of Tocainide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01058",
+                        "description": "The metabolism of Praziquantel can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The metabolism of Melatonin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The metabolism of Primaquine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01094",
+                        "description": "The metabolism of Hesperetin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The metabolism of Leflunomide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01303",
+                        "description": "The metabolism of Oxtriphylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The metabolism of Rasagiline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The metabolism of Temafloxacin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01412",
+                        "description": "The metabolism of Theobromine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01482",
+                        "description": "The metabolism of Fenethylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "The metabolism of Bromazepam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The metabolism of Thiothixene can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Etoricoxib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Genistein can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01667",
+                        "description": "The metabolism of 8 azaguanine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB02134",
+                        "description": "The metabolism of Xanthine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB02489",
+                        "description": "The metabolism of 9 Methylguanine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB02568",
+                        "description": "The metabolism of Peldesine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The metabolism of Resveratrol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04076",
+                        "description": "The metabolism of Hypoxanthine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04356",
+                        "description": "The metabolism of 9 Deazaguanine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The metabolism of Estrone sulfate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04951",
+                        "description": "The metabolism of Pirfenidone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The metabolism of Apremilast can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The metabolism of Eltrombopag can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The metabolism of Asenapine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06235",
+                        "description": "The metabolism of Vadimezan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06479",
+                        "description": "The metabolism of Propentofylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "The metabolism of Agomelatine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Capsaicin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of R warfarin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Perampanel can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Stiripentol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "The metabolism of Zotepine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The metabolism of Doxofylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09290",
+                        "description": "The metabolism of Ramosetron can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11919",
+                        "description": "The metabolism of 6 O benzylguanine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The metabolism of Binimetinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The metabolism of Voxilaprevir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12406",
+                        "description": "The metabolism of Lisofylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12531",
+                        "description": "The metabolism of Lobucavir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12926",
+                        "description": "The metabolism of Cafedrine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The metabolism of Theodrenaline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "The metabolism of Dihydralazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13203",
+                        "description": "The metabolism of Bamifylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13449",
+                        "description": "The metabolism of Proxyphylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13573",
+                        "description": "The metabolism of Acefylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13592",
+                        "description": "The metabolism of Etamiphylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13634",
+                        "description": "The metabolism of Pentifylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13812",
+                        "description": "The metabolism of Bufylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Estradiol acetate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Estradiol dienanthate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14018",
+                        "description": "The metabolism of Bromotheophylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14132",
+                        "description": "The metabolism of 8 chlorotheophylline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Efavirenz can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB05708",
+                        "description": "The metabolism of GTS 21 can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00201",
+                        "description": "The metabolism of Caffeine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Ethinylestradiol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The metabolism of Selumetinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "The metabolism of Cyclobenzaprine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The metabolism of Estrone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00299",
+                        "description": "The metabolism of Penciclovir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The metabolism of Tizanidine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The metabolism of Anagrelide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Sorafenib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The metabolism of Fluorouracil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Etoposide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "The metabolism of Dacarbazine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The metabolism of Bendamustine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Tegafur can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The metabolism of Valsartan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00197",
+                        "description": "The metabolism of Troglitazone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The metabolism of Torasemide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00222",
+                        "description": "The metabolism of Glimepiride can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00250",
+                        "description": "The metabolism of Dapsone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The metabolism of Desogestrel can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The metabolism of Bexarotene can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00327",
+                        "description": "The metabolism of Hydromorphone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The metabolism of Indomethacin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The metabolism of Omeprazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "The metabolism of Treprostinil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00412",
+                        "description": "The metabolism of Rosiglitazone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00414",
+                        "description": "The metabolism of Acetohexamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The metabolism of Trimethoprim can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The metabolism of Lansoprazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The metabolism of Tenoxicam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00470",
+                        "description": "The metabolism of Dronabinol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00471",
+                        "description": "The metabolism of Montelukast can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The metabolism of Zidovudine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Zafirlukast can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The metabolism of Piroxicam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "The metabolism of Bosentan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The metabolism of Valdecoxib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00582",
+                        "description": "The metabolism of Voriconazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00617",
+                        "description": "The metabolism of Paramethadione can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00624",
+                        "description": "The metabolism of Testosterone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "The metabolism of Chlorpropamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The metabolism of Losartan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The metabolism of Flurbiprofen can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The metabolism of Etodolac can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The metabolism of Tretinoin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The metabolism of Mefenamic acid can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Primidone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "The metabolism of Candesartan cilexetil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The metabolism of Phenylbutazone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "The metabolism of Meloxicam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Propofol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "The metabolism of Diazepam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00839",
+                        "description": "The metabolism of Tolazamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The metabolism of Salicylic acid can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The metabolism of Acetylsalicylic acid can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The metabolism of Sulfamethoxazole can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01016",
+                        "description": "The metabolism of Glyburide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The metabolism of Irbesartan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "The metabolism of Thalidomide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The metabolism of Ibuprofen can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01067",
+                        "description": "The metabolism of Glipizide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Atazanavir can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The metabolism of Rosuvastatin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01120",
+                        "description": "The metabolism of Gliclazide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01124",
+                        "description": "The metabolism of Tolbutamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01131",
+                        "description": "The metabolism of Proguanil can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "The metabolism of Thiamylal can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Ifosfamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01198",
+                        "description": "The metabolism of Zopiclone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01221",
+                        "description": "The metabolism of Ketamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01251",
+                        "description": "The metabolism of Gliquidone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The metabolism of Lumiracoxib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01289",
+                        "description": "The metabolism of Glisoxepide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "The metabolism of Hexobarbital can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The metabolism of Mestranol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01544",
+                        "description": "The metabolism of Flunitrazepam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01589",
+                        "description": "The metabolism of Quazepam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB03756",
+                        "description": "The metabolism of Doconexent can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04557",
+                        "description": "The metabolism of Arachidonic Acid can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The metabolism of Coumarin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04725",
+                        "description": "The metabolism of Licofelone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "The metabolism of Ximelagatran can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB04938",
+                        "description": "The metabolism of Ospemifene can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB05541",
+                        "description": "The metabolism of Brivaracetam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "The metabolism of Prasugrel can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The metabolism of Lacosamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "The metabolism of Sitaxentan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "The metabolism of Indisulam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06414",
+                        "description": "The metabolism of Etravirine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The metabolism of Apixaban can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06652",
+                        "description": "The metabolism of Vicriviroc can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "The metabolism of Lornoxicam can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The metabolism of Zaltoprofen can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06738",
+                        "description": "The metabolism of Ketobemidone can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06739",
+                        "description": "The metabolism of Seratrodast can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06803",
+                        "description": "The metabolism of Niclosamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The metabolism of Tranilast can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "The metabolism of Parecoxib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08828",
+                        "description": "The metabolism of Vismodegib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08860",
+                        "description": "The metabolism of Pitavastatin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The metabolism of Enzalutamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08962",
+                        "description": "The metabolism of Glibornuride can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09061",
+                        "description": "The metabolism of Cannabidiol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09080",
+                        "description": "The metabolism of Olodaterol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11560",
+                        "description": "The metabolism of Lesinurad can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB11823",
+                        "description": "The metabolism of Esketamine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The metabolism of Lynestrenol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13406",
+                        "description": "The metabolism of Carbutamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13675",
+                        "description": "The metabolism of Metahexamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The metabolism of Candesartan can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13941",
+                        "description": "The metabolism of Piperaquine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13943",
+                        "description": "The metabolism of Testosterone cypionate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The metabolism of Testosterone enanthate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13946",
+                        "description": "The metabolism of Testosterone undecanoate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Medical Cannabis can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14011",
+                        "description": "The metabolism of Nabiximols can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The metabolism of S Warfarin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01156",
+                        "description": "The metabolism of Bupropion can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06697",
+                        "description": "The metabolism of Artemether can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The metabolism of Dexibuprofen can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The metabolism of Ketorolac can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14975",
+                        "description": "The metabolism of Voxelotor can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB15233",
+                        "description": "The metabolism of Avapritinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The metabolism of Valproic acid can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The metabolism of Lonafarnib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Norgestimate can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The metabolism of Dicoumarol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Fosphenytoin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Acenocoumarol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The metabolism of Fluindione can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Warfarin can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Cyclophosphamide can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB08875",
+                        "description": "The metabolism of Cabozantinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The metabolism of Erdafitinib can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The metabolism of Siponimod can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "The metabolism of Capecitabine can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The risk or severity of adverse effects can be increased when Rhein is combined with Ropinirole"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Amitriptyline can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "Rhein may increase the hepatotoxic activities of Acetaminophen"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "Rhein may increase the hepatotoxic activities of Propacetamol"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The metabolism of Timolol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The metabolism of Tramadol can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The serum concentration of Haloperidol can be increased when it is combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB14881",
+                        "description": "The serum concentration of Oliceridine can be increased when it is combined with Rhein"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "medicine_id": "eca2f5f48c206fab503739dda5c1782abdae360d",
+    "platform_id": "DB09278",
+    "metadata": {
+        "name": "Actidose 208 mg 1mL Suspension",
+        "composition": "208 mg 1mL Activated charcoal",
+        "clinical_particulars": {
+            "therapeutic_indications": "Used as a antidote to treat poisonings following excessive oral ingestion of certain medications or poisons",
+            "contraindications": {
+                "disease": "Adverse effects from the treatment include aspiration into the lungs and possibly pneumonitis black stools vomiting and constipation or diarrhea The oral LD50 value in rats is 15400mg kg",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Activated charcoal is used as a gastric decontamination agent in emergency clinical settings in case of poison or medication overdose Studies show that early administration of one dose of activated charcoal can adsorb poison in the stomach and reduce absorption while it also works long after ingestion by interruption of enterohepatic and enterovascular cycling of poison",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "Activated charcoal can cause a decrease in the absorption of Leflunomide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "Activated charcoal can cause a decrease in the absorption of Teriflunomide resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Activated charcoal may increase the excretion rate of Digoxin which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13401",
+                        "description": "Activated charcoal may increase the excretion rate of Metildigoxin which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13691",
+                        "description": "Activated charcoal may increase the excretion rate of Acetyldigoxin which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The serum concentration of Olanzapine can be decreased when it is combined with Activated charcoal"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

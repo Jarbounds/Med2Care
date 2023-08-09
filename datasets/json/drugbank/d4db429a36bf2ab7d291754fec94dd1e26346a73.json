@@ -1,0 +1,369 @@
+{
+    "medicine_id": "d4db429a36bf2ab7d291754fec94dd1e26346a73",
+    "platform_id": "DB03404",
+    "metadata": {
+        "name": "Panhematin 7 mg 1mL Powder for solution",
+        "composition": "7 mg 1mL Hemin",
+        "clinical_particulars": {
+            "therapeutic_indications": "Used in the management of porphyria attacks particularly in acute intermittent porphyria",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00001",
+                        "description": "Hemin may increase the anticoagulant activities of Lepirudin"
+                    },
+                    {
+                        "drugbank-id": "DB00006",
+                        "description": "Hemin may increase the anticoagulant activities of Bivalirudin"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "Hemin may increase the anticoagulant activities of Alteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "Hemin may increase the anticoagulant activities of Urokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "Hemin may increase the anticoagulant activities of Reteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "Hemin may increase the anticoagulant activities of Anistreplase"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "Hemin may increase the anticoagulant activities of Tenecteplase"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "Hemin may increase the anticoagulant activities of Abciximab"
+                    },
+                    {
+                        "drugbank-id": "DB00055",
+                        "description": "Hemin may increase the anticoagulant activities of Drotrecogin alfa"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "Hemin may increase the anticoagulant activities of Streptokinase"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "Hemin may increase the anticoagulant activities of Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00278",
+                        "description": "Hemin may increase the anticoagulant activities of Argatroban"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "Hemin may increase the anticoagulant activities of Ardeparin"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "Hemin may increase the anticoagulant activities of Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00569",
+                        "description": "Hemin may increase the anticoagulant activities of Fondaparinux"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "Hemin may increase the anticoagulant activities of Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00686",
+                        "description": "Hemin may increase the anticoagulant activities of Pentosan polysulfate"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "Hemin may increase the anticoagulant activities of Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "Hemin may increase the anticoagulant activities of Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "Hemin may increase the anticoagulant activities of Dipyridamole"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "Hemin may increase the anticoagulant activities of Iloprost"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "Hemin may increase the anticoagulant activities of Heparin"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "Hemin may increase the anticoagulant activities of Enoxaparin"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "Hemin may increase the anticoagulant activities of Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "Hemin may increase the anticoagulant activities of Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "Hemin may increase the anticoagulant activities of 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "Hemin may increase the anticoagulant activities of Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "Hemin may increase the anticoagulant activities of Ximelagatran"
+                    },
+                    {
+                        "drugbank-id": "DB04925",
+                        "description": "Hemin may increase the anticoagulant activities of Desmoteplase"
+                    },
+                    {
+                        "drugbank-id": "DB04932",
+                        "description": "Hemin may increase the anticoagulant activities of Defibrotide"
+                    },
+                    {
+                        "drugbank-id": "DB05099",
+                        "description": "Hemin may increase the anticoagulant activities of Ancrod"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "Hemin may increase the anticoagulant activities of Beraprost"
+                    },
+                    {
+                        "drugbank-id": "DB05254",
+                        "description": "Hemin may increase the anticoagulant activities of Fibrinolysin"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "Hemin may increase the anticoagulant activities of Prasugrel"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "Hemin may increase the anticoagulant activities of Rivaroxaban"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "Hemin may increase the anticoagulant activities of Sulodexide"
+                    },
+                    {
+                        "drugbank-id": "DB06294",
+                        "description": "Hemin may increase the anticoagulant activities of Semuloparin"
+                    },
+                    {
+                        "drugbank-id": "DB06406",
+                        "description": "Hemin may increase the anticoagulant activities of Idraparinux"
+                    },
+                    {
+                        "drugbank-id": "DB06441",
+                        "description": "Hemin may increase the anticoagulant activities of Cangrelor"
+                    },
+                    {
+                        "drugbank-id": "DB06543",
+                        "description": "Hemin may increase the anticoagulant activities of Astaxanthin"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "Hemin may increase the anticoagulant activities of Apixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06635",
+                        "description": "Hemin may increase the anticoagulant activities of Otamixaban"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "Hemin may increase the anticoagulant activities of Amediplase"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "Hemin may increase the anticoagulant activities of Dabigatran etexilate"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "Hemin may increase the anticoagulant activities of Danaparoid"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "Hemin may increase the anticoagulant activities of Dalteparin"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "Hemin may increase the anticoagulant activities of Tinzaparin"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Hemin may increase the anticoagulant activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "Hemin may increase the anticoagulant activities of R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "Hemin may increase the anticoagulant activities of Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "Hemin may increase the anticoagulant activities of Nadroparin"
+                    },
+                    {
+                        "drugbank-id": "DB08814",
+                        "description": "Hemin may increase the anticoagulant activities of Triflusal"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "Hemin may increase the anticoagulant activities of Ticagrelor"
+                    },
+                    {
+                        "drugbank-id": "DB08994",
+                        "description": "Hemin may increase the anticoagulant activities of Ditazole"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "Hemin may increase the anticoagulant activities of Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "Hemin may increase the anticoagulant activities of Edoxaban"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "Hemin may increase the anticoagulant activities of Potassium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "Hemin may increase the anticoagulant activities of Sodium citrate"
+                    },
+                    {
+                        "drugbank-id": "DB09255",
+                        "description": "Hemin may increase the anticoagulant activities of Dextran"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "Hemin may increase the anticoagulant activities of Bemiparin"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "Hemin may increase the anticoagulant activities of Parnaparin"
+                    },
+                    {
+                        "drugbank-id": "DB11095",
+                        "description": "Hemin may increase the anticoagulant activities of Desirudin"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "Hemin may increase the anticoagulant activities of Zinc citrate"
+                    },
+                    {
+                        "drugbank-id": "DB11166",
+                        "description": "Hemin may increase the anticoagulant activities of Antithrombin Alfa"
+                    },
+                    {
+                        "drugbank-id": "DB11312",
+                        "description": "Hemin may increase the anticoagulant activities of Protein C"
+                    },
+                    {
+                        "drugbank-id": "DB11598",
+                        "description": "Hemin may increase the anticoagulant activities of Antithrombin III human"
+                    },
+                    {
+                        "drugbank-id": "DB11984",
+                        "description": "Hemin may increase the anticoagulant activities of Letaxaban"
+                    },
+                    {
+                        "drugbank-id": "DB12289",
+                        "description": "Hemin may increase the anticoagulant activities of Darexaban"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "Hemin may increase the anticoagulant activities of Betrixaban"
+                    },
+                    {
+                        "drugbank-id": "DB12598",
+                        "description": "Hemin may increase the anticoagulant activities of Nafamostat"
+                    },
+                    {
+                        "drugbank-id": "DB12726",
+                        "description": "Hemin may increase the anticoagulant activities of Monteplase"
+                    },
+                    {
+                        "drugbank-id": "DB12831",
+                        "description": "Hemin may increase the anticoagulant activities of Gabexate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "Hemin may increase the anticoagulant activities of Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13149",
+                        "description": "Hemin may increase the anticoagulant activities of Protein S human"
+                    },
+                    {
+                        "drugbank-id": "DB13199",
+                        "description": "Hemin may increase the anticoagulant activities of Brinase"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "Hemin may increase the anticoagulant activities of Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "Hemin may increase the anticoagulant activities of Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "Hemin may increase the anticoagulant activities of Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB13616",
+                        "description": "Hemin may increase the anticoagulant activities of Melagatran"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "Hemin may increase the anticoagulant activities of Saruplase"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "Hemin may increase the anticoagulant activities of S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Hemin may increase the anticoagulant activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB14598",
+                        "description": "Hemin may increase the anticoagulant activities of Edetate calcium disodium anhydrous"
+                    },
+                    {
+                        "drugbank-id": "DB14726",
+                        "description": "Hemin may increase the anticoagulant activities of Dabigatran"
+                    },
+                    {
+                        "drugbank-id": "DB13124",
+                        "description": "Hemin may increase the anticoagulant activities of Troxerutin"
+                    },
+                    {
+                        "drugbank-id": "DB00974",
+                        "description": "Hemin may increase the anticoagulant activities of Edetic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "Hemin may increase the anticoagulant activities of Reviparin"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

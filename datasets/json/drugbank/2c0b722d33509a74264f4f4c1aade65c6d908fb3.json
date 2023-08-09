@@ -1,0 +1,33 @@
+{
+    "medicine_id": "2c0b722d33509a74264f4f4c1aade65c6d908fb3",
+    "platform_id": "DB09069",
+    "metadata": {
+        "name": "Brintellix 10 mg 1 Tablet film coated",
+        "composition": "10 mg 1 Trimetazidine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Trimetazidine is indicated for use in angina pectoris",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The risk or severity of adverse effects can be increased when Metoclopramide is combined with Trimetazidine"
+                    },
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Trimetazidine can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Trimetazidine may increase the vasodilatory activities of Isosorbide mononitrate"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

@@ -1,0 +1,433 @@
+{
+    "medicine_id": "f6a7700be5a808fc97289a0e3064e4efa538b53a",
+    "platform_id": "DB06799",
+    "metadata": {
+        "name": "Air Disinfectant 120 mg Tablet coated",
+        "composition": "120 mg Methenamine",
+        "clinical_particulars": {
+            "therapeutic_indications": "For prophylactic or suppressive treatment of frequently recurring urinary tract infections when long term therapy is considered necessary This drug is not used to treat infection and should only be used after appropriate eradication of infection with antimicrobial agents",
+            "contraindications": {
+                "disease": "Less than 3 5 of patients treated with this drug will experience minor adverse events such as upset stomach dysuria nausea and rash",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Ingestion of a 1 gram dose of methenamine hippurate produces antibacterial activity in the urine within 1 2 hour Administration of 1 g twice daily produces continuous antibacterial activity in the urine",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00672",
+                        "description": "Methenamine may decrease the excretion rate of Chlorpropamide which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "Methenamine may increase the excretion rate of Mecamylamine which could result in a lower serum level and potentially a reduction in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "The serum concentration of Amphetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The serum concentration of Phentermine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00852",
+                        "description": "The serum concentration of Pseudoephedrine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00865",
+                        "description": "The serum concentration of Benzphetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00937",
+                        "description": "The serum concentration of Diethylpropion can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01255",
+                        "description": "The serum concentration of Lisdexamfetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01365",
+                        "description": "The serum concentration of Mephentermine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01442",
+                        "description": "The serum concentration of MMDA can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01454",
+                        "description": "The serum concentration of Midomafetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01467",
+                        "description": "The serum concentration of 2 5 Dimethoxy 4 ethylamphetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01484",
+                        "description": "The serum concentration of 4 Bromo 2 5 dimethoxyamphetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01509",
+                        "description": "The serum concentration of Tenamfetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01556",
+                        "description": "The serum concentration of Chlorphentermine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01566",
+                        "description": "The serum concentration of Methylenedioxyethamphetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01576",
+                        "description": "The serum concentration of Dextroamphetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB01577",
+                        "description": "The serum concentration of Metamfetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB09480",
+                        "description": "The serum concentration of Iofetamine I 123 can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB12080",
+                        "description": "The serum concentration of Ritobegron can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB13108",
+                        "description": "The serum concentration of Mephedrone can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB13624",
+                        "description": "The serum concentration of Methoxyphenamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB13703",
+                        "description": "The serum concentration of Gepefrine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB13940",
+                        "description": "The serum concentration of 2 5 Dimethoxy 4 ethylthioamphetamine can be decreased when it is combined with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00311",
+                        "description": "The serum concentration of the active metabolites of Methenamine can be reduced when Methenamine is used in combination with Ethoxzolamide resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "The serum concentration of the active metabolites of Methenamine can be reduced when Methenamine is used in combination with Methazolamide resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The serum concentration of the active metabolites of Methenamine can be reduced when Methenamine is used in combination with Zonisamide resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "The serum concentration of the active metabolites of Methenamine can be reduced when Methenamine is used in combination with Diclofenamide resulting in a loss in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00263",
+                        "description": "Methenamine can cause a decrease in the absorption of Sulfisoxazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00359",
+                        "description": "Methenamine can cause a decrease in the absorption of Sulfadiazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "Methenamine can cause a decrease in the absorption of Sulfamethoxazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB01581",
+                        "description": "Methenamine can cause a decrease in the absorption of Sulfamerazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB06821",
+                        "description": "Methenamine can cause a decrease in the absorption of Sulfameter resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB13773",
+                        "description": "Methenamine can cause a decrease in the absorption of Sulfamethoxypyridazine resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14033",
+                        "description": "Methenamine can cause a decrease in the absorption of Acetyl sulfisoxazole resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00585",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Nizatidine"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Ranitidine"
+                    },
+                    {
+                        "drugbank-id": "DB00927",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Famotidine"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Methantheline"
+                    },
+                    {
+                        "drugbank-id": "DB01370",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Aluminium"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Magnesium oxide"
+                    },
+                    {
+                        "drugbank-id": "DB06723",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Aluminum hydroxide"
+                    },
+                    {
+                        "drugbank-id": "DB06724",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Calcium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB08805",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Metiamide"
+                    },
+                    {
+                        "drugbank-id": "DB08806",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Roxatidine acetate"
+                    },
+                    {
+                        "drugbank-id": "DB08938",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Magaldrate"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Magnesium hydroxide"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Magnesium trisilicate"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Magnesium carbonate"
+                    },
+                    {
+                        "drugbank-id": "DB12770",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Lafutidine"
+                    },
+                    {
+                        "drugbank-id": "DB12884",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Lavoltidine"
+                    },
+                    {
+                        "drugbank-id": "DB13209",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Bismuth subnitrate"
+                    },
+                    {
+                        "drugbank-id": "DB13249",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Magnesium silicate"
+                    },
+                    {
+                        "drugbank-id": "DB13280",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Aluminium acetoacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13322",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Hydrotalcite"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Magnesium peroxide"
+                    },
+                    {
+                        "drugbank-id": "DB13595",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Almasilate"
+                    },
+                    {
+                        "drugbank-id": "DB13626",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Aluminium glycinate"
+                    },
+                    {
+                        "drugbank-id": "DB13650",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Aloglutamol"
+                    },
+                    {
+                        "drugbank-id": "DB13760",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Niperotidine"
+                    },
+                    {
+                        "drugbank-id": "DB13829",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Calcium silicate"
+                    },
+                    {
+                        "drugbank-id": "DB14517",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Aluminium phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB00213",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Pantoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00338",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Omeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00448",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Lansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB00736",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Esomeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB01129",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Rabeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB05351",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Dexlansoprazole"
+                    },
+                    {
+                        "drugbank-id": "DB13762",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Dexrabeprazole"
+                    },
+                    {
+                        "drugbank-id": "DB15246",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Salvianolic acid A"
+                    },
+                    {
+                        "drugbank-id": "DB14048",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Sodium zirconium cyclosilicate"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of BCG vaccine can be decreased when used in combination with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Dicoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Phenindione"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Phenprocoumon"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Acenocoumarol"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with 4 hydroxycoumarin"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Coumarin"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with R warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Ethyl biscoumacetate"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Fluindione"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Clorindione"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Diphenadione"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with Tioclomarol"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when Methenamine is combined with S Warfarin"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Methyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Bendroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Benzthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Cyclothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Hydroflumethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Chlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Hydrochlorothiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Trichlormethiazide"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Polythiazide"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Mebutizide"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The therapeutic efficacy of Methenamine can be decreased when used in combination with Cyclopenthiazide"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Methenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00819",
+                        "description": "The serum concentration of the active metabolites of Methenamine can be reduced when Methenamine is used in combination with Acetazolamide resulting in a loss in efficacy"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

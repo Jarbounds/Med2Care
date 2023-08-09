@@ -1,0 +1,2229 @@
+{
+    "medicine_id": "90f10124ad951ca569bf052d45c4d60d1e45d0b6",
+    "platform_id": "DB08868",
+    "metadata": {
+        "name": "Ach fingolimod 0 5 mg Tablet",
+        "composition": "0 5 mg Fingolimod",
+        "clinical_particulars": {
+            "therapeutic_indications": "Fingolimod is indicated for the treatment of patients aged 10 and above with relapsing forms of multiple sclerosis which may include clinically isolated syndrome relapsing remitting disease as well as active secondary progressive disease L12651 This drug is being studied for administration in patients infected with COVID 19 with a high risk for acute respiratory distress syndrome or ARDS L12654 As of April 3 2020 this is currently not an approved indication and clinical trials are underway L12657",
+            "contraindications": {
+                "disease": "The LD50 of fingolimod in rats ranges from 300 600 mg kg A192906 Prescribing information for fingolimod does not mention symptoms or management of an overdose L12651 however a case report of an intentional overdose with 14mg of fingolimod and 2g phenoxymethylpenicillin resulted in hypotension in bradycardia resolved by administering atropine A192909 Since fingolimod has been associated with cardiotoxicity it would be reasonable to expect cardiac effects such as bradycardia and heart block in the case of an overdose A192912 L12651",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "In multiple sclerosis fingolimod binds to sphingosine receptors reducing its associated neuroinflammation L12651 In COVID 19 it may reduce lung inflammation and improve the clinical outcomes of patients with this disease L12654 Cardiovascular effects Fingolimod causes a transient reduction in heart rate and AV conduction during treatment initiation It has the potential to prolong the QT interval L12654",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB06643",
+                        "description": "The risk or severity of adverse effects can be increased when Denosumab is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00108",
+                        "description": "The risk or severity of adverse effects can be increased when Fingolimod is combined with Natalizumab"
+                    },
+                    {
+                        "drugbank-id": "DB00337",
+                        "description": "The risk or severity of adverse effects can be increased when Pimecrolimus is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "Roflumilast may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06688",
+                        "description": "The therapeutic efficacy of Sipuleucel T can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "Fingolimod may increase the bradycardic activities of Ceritinib"
+                    },
+                    {
+                        "drugbank-id": "DB09083",
+                        "description": "Fingolimod may increase the bradycardic activities of Ivabradine"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "Ruxolitinib may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "Esmolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "Betaxolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "Metoprolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "Atenolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "Timolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "Sotalol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "Propranolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "Labetalol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "Bisoprolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "Alprenolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "Pindolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "Carvedilol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "Propafenone may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "Acebutolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "Nadolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "Bevantolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "Practolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "Penbutolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "Oxprenolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Dexpropranolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "Celiprolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "Nebivolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "Bufuralol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "Bopindolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "Bupranolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "Indenolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "Arotinolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "Levobetaxolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "Talinolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "Anisodamine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "Bucindolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "Esatenolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "Cloranolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "Mepindolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "Epanolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "Tertatolol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "Fingolimod may increase the bradycardic activities of Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Dofetilide"
+                    },
+                    {
+                        "drugbank-id": "DB00308",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Ibutilide"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB04957",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Azimilide"
+                    },
+                    {
+                        "drugbank-id": "DB06200",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Tedisamil"
+                    },
+                    {
+                        "drugbank-id": "DB06217",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Vernakalant"
+                    },
+                    {
+                        "drugbank-id": "DB13652",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Bunaftine"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Disopyramide"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB01035",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Procainamide"
+                    },
+                    {
+                        "drugbank-id": "DB01426",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Ajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB06727",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Sparteine"
+                    },
+                    {
+                        "drugbank-id": "DB13358",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Cibenzoline"
+                    },
+                    {
+                        "drugbank-id": "DB13555",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Prajmaline"
+                    },
+                    {
+                        "drugbank-id": "DB13651",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Lorajmine"
+                    },
+                    {
+                        "drugbank-id": "DB15300",
+                        "description": "Fingolimod may increase the arrhythmogenic activities of Hydroquinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The serum concentration of Fingolimod can be decreased when it is combined with Carbamazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of bradycardia can be increased when Diltiazem is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The risk or severity of bradycardia can be increased when Verapamil is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The serum concentration of Fingolimod can be increased when it is combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of myelosuppression can be increased when Sulfamethoxazole is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08895",
+                        "description": "Fingolimod may increase the immunosuppressive activities of Tofacitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00005",
+                        "description": "Etanercept may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00008",
+                        "description": "Peginterferon alfa 2a may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00011",
+                        "description": "Interferon alfa n1 may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00018",
+                        "description": "Interferon alfa n3 may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00022",
+                        "description": "Peginterferon alfa 2b may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00026",
+                        "description": "Anakinra may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00033",
+                        "description": "Interferon gamma 1b may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00034",
+                        "description": "Interferon alfa 2a Recombinant may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "Aldesleukin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "Adalimumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00056",
+                        "description": "Gemtuzumab ozogamicin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00059",
+                        "description": "Pegaspargase may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "Infliximab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00068",
+                        "description": "Interferon beta 1b may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00069",
+                        "description": "Interferon alfacon 1 may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00072",
+                        "description": "Trastuzumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00073",
+                        "description": "Rituximab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00074",
+                        "description": "Basiliximab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00075",
+                        "description": "Muromonab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00078",
+                        "description": "Ibritumomab tiuxetan may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00081",
+                        "description": "Tositumomab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00087",
+                        "description": "Alemtuzumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00092",
+                        "description": "Alefacept may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00095",
+                        "description": "Efalizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00098",
+                        "description": "Antithymocyte immunoglobulin rabbit may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00105",
+                        "description": "Interferon alfa 2b may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00111",
+                        "description": "Daclizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00112",
+                        "description": "Bevacizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00120",
+                        "description": "Phenylalanine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "Flunisolide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "Bortezomib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "Cladribine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "Carmustine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00276",
+                        "description": "Amsacrine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00290",
+                        "description": "Bleomycin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00291",
+                        "description": "Chlorambucil may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00293",
+                        "description": "Raltitrexed may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00305",
+                        "description": "Mitomycin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "Bexarotene may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "Vindesine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00322",
+                        "description": "Floxuridine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "Indomethacin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00352",
+                        "description": "Tioguanine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "Vinorelbine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00380",
+                        "description": "Dexrazoxane may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "Beclomethasone dipropionate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "Sorafenib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00428",
+                        "description": "Streptozocin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "Trifluridine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "Gemcitabine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "Betamethasone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Teniposide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00445",
+                        "description": "Epirubicin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "Chloramphenicol may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00480",
+                        "description": "Lenalidomide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00488",
+                        "description": "Altretamine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "Zidovudine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "Cisplatin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "Oxaliplatin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "Cyclophosphamide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "Vincristine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "Fluorouracil may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "Propylthiouracil may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00552",
+                        "description": "Pentostatin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Methotrexate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "Vinblastine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "Fluticasone propionate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "Fluocinolone acetonide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "Linezolid may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "Imatinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "Triamcinolone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "Clofarabine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "Prednisone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "Pemetrexed may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "Fludrocortisone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "Mycophenolate mofetil may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "Daunorubicin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00741",
+                        "description": "Hydrocortisone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "Tretinoin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "Irinotecan may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "Methimazole may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "Etoposide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "Sulfasalazine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "Dacarbazine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00853",
+                        "description": "Temozolomide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "Penicillamine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "Prednisolone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "Sirolimus may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00888",
+                        "description": "Mechlorethamine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00928",
+                        "description": "Azacitidine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00958",
+                        "description": "Carboplatin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "Methylprednisolone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "Dactinomycin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00987",
+                        "description": "Cytarabine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "Azathioprine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "Doxorubicin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01005",
+                        "description": "Hydroxyurea may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "Busulfan may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "Mycophenolic acid may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "Topotecan may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "Mercaptopurine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "Thalidomide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01042",
+                        "description": "Melphalan may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01073",
+                        "description": "Fludarabine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "Leflunomide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01099",
+                        "description": "Flucytosine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "Capecitabine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "Trilostane may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "Procarbazine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "Arsenic trioxide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01177",
+                        "description": "Idarubicin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "Ifosfamide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01196",
+                        "description": "Estramustine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "Mitoxantrone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01206",
+                        "description": "Lomustine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "Budesonide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "Paclitaxel may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "Dexamethasone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "Docetaxel may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "Dasatinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01257",
+                        "description": "Eculizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01262",
+                        "description": "Decitabine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "Sunitinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01280",
+                        "description": "Nelarabine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01281",
+                        "description": "Abatacept may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "Corticotropin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "Cortisone acetate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "Paramethasone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "Colchicine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "Ciclesonide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01423",
+                        "description": "Stepronin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "Everolimus may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "Hydroxychloroquine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01816",
+                        "description": "Castanospermine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "Vorinostat may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB02806",
+                        "description": "2 Methoxyethanol may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB03523",
+                        "description": "Brequinar may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "Thiotepa may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "Aldosterone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "Ixabepilone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "Nilotinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04951",
+                        "description": "Pirfenidone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "Afelimomab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "Belinostat may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "Trabectedin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05258",
+                        "description": "Interferon alfa may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05259",
+                        "description": "Glatiramer may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05260",
+                        "description": "Gallium nitrate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05459",
+                        "description": "Briakinumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05472",
+                        "description": "Human interferon omega 1 may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "Apremilast may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "Trastuzumab emtansine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "Canakinumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "Tocilizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "Temsirolimus may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06372",
+                        "description": "Rilonacept may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "Pazopanib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "Panobinostat may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06612",
+                        "description": "Mepolizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "Bosutinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06662",
+                        "description": "Abetimus may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "Golimumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06681",
+                        "description": "Belatacept may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "Bendamustine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "Cabazitaxel may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06813",
+                        "description": "Pralatrexate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08059",
+                        "description": "Wortmannin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "Brentuximab vedotin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "Eribulin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08879",
+                        "description": "Belimumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "Teriflunomide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08889",
+                        "description": "Carfilzomib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "Ponatinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "Certolizumab pegol may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "Fluticasone furoate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08908",
+                        "description": "Dimethyl fumarate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "Pomalidomide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "Obinutuzumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "Fluprednidene may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "Secukinumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09033",
+                        "description": "Vedolizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "Siltuximab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09052",
+                        "description": "Blinatumomab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "Ibrutinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "Idelalisib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "Palbociclib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "Olaparib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "Dinutuximab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "Vilanterol may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09091",
+                        "description": "Tixocortol may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09122",
+                        "description": "Peginterferon beta 1a may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09312",
+                        "description": "Antilymphocyte immunoglobulin horse may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "Fluprednisolone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "Meprednisone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "Tepoxalin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "Dexamethasone isonicotinate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "Melengestrol may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11569",
+                        "description": "Ixekizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11580",
+                        "description": "Ravulizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11616",
+                        "description": "Pirarubicin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11693",
+                        "description": "Voclosporin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11708",
+                        "description": "Peficitinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11767",
+                        "description": "Sarilumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11776",
+                        "description": "Brodalumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11803",
+                        "description": "Sirukumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "Baricitinib may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11834",
+                        "description": "Guselkumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "Deflazacort may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11988",
+                        "description": "Ocrelizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12025",
+                        "description": "Triptolide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "Siponimod may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12612",
+                        "description": "Ozanimod may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12617",
+                        "description": "Mizoribine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12692",
+                        "description": "Gusperimus may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12814",
+                        "description": "Cepeginterferon alfa 2B may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12902",
+                        "description": "Trofosfamide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12947",
+                        "description": "Doxifluridine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12991",
+                        "description": "Deoxyspergualin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12996",
+                        "description": "Acteoside may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "Cortivazol may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13014",
+                        "description": "Hypericin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13068",
+                        "description": "9 N methyl L isoleucine cyclosporin A may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "Prednylidene may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "Fluocortin may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13241",
+                        "description": "Begelomab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "Fluperolone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "Cloprednol may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "Fluclorolone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "Fluticasone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "Tetrandrine may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14219",
+                        "description": "Monomethyl fumarate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "Mometasone furoate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "Hydrocortisone acetate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "Hydrocortisone succinate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "Emapalumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14762",
+                        "description": "Risankizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14919",
+                        "description": "Rozanolixizumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB15253",
+                        "description": "Bleselumab may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "Clobetasol propionate may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "Fluocinonide may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "Fingolimod may increase the immunosuppressive activities of Hydrocortisone butyrate"
+                    },
+                    {
+                        "drugbank-id": "DB00547",
+                        "description": "Desoximetasone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "Mometasone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "Fingolimod may increase the immunosuppressive activities of Fluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "Fingolimod may increase the immunosuppressive activities of Clobetasol"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "Fluorometholone may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "Fingolimod may increase the immunosuppressive activities of Difluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "Tacrolimus may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00211",
+                        "description": "Midodrine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "Nisoldipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Bendroflumethiazide may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "Lercanidipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "Clonidine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "Dexmedetomidine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "Magnesium sulfate may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "Sufentanil may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00802",
+                        "description": "Alfentanil may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00813",
+                        "description": "Fentanyl may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "Remifentanil may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "Methyldopa may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00989",
+                        "description": "Rivastigmine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "Guanfacine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "Nimesulide may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "Cyclandelate may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "Flunarizine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04897",
+                        "description": "Lucinactant may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "Clevidipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "Seletracetam may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "Nylidrin may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "Lacosamide may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06415",
+                        "description": "Calfactant may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "Dotarizine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06761",
+                        "description": "Beractant may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06791",
+                        "description": "Lanreotide may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "Tranilast may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "Agmatine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "Fingolimod may increase the bradycardic activities of Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB09113",
+                        "description": "Fingolimod may increase the bradycardic activities of Poractant alfa"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "Fingolimod may increase the bradycardic activities of Tolfenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "Fingolimod may increase the bradycardic activities of Barnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "Fingolimod may increase the bradycardic activities of Azelnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "Fingolimod may increase the bradycardic activities of Cilnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "Fingolimod may increase the bradycardic activities of Darodipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "Fingolimod may increase the bradycardic activities of Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "Fingolimod may increase the bradycardic activities of Niludipine"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "Fingolimod may increase the bradycardic activities of Carboxyamidotriazole"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "Fingolimod may increase the bradycardic activities of Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "Fingolimod may increase the bradycardic activities of Vinpocetine"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "Fingolimod may increase the bradycardic activities of Caroverine"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "Fingolimod may increase the bradycardic activities of WIN 55212 2"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "Fingolimod may increase the bradycardic activities of Fish oil"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "Fingolimod may increase the bradycardic activities of Emopamil"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "Fingolimod may increase the bradycardic activities of Lomerizine"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "Fingolimod may increase the bradycardic activities of Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "Donepezil may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "Pregabalin may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "Isradipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "Amlodipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "Digoxin may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "Nimodipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "Lamotrigine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "Cinnarizine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "Nicardipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00674",
+                        "description": "Galantamine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "Tizanidine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "Levomenthol may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "Loperamide may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "Zonisamide may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "Felodipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "Nitrendipine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "Perhexiline may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "Bepridil may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "Mibefradil may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "Prenylamine may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "Fluspirilene may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "Methsuximide may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06663",
+                        "description": "Pasireotide may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "Crizotinib may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "Fingolimod may increase the bradycardic activities of Fendiline"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "Fingolimod may increase the bradycardic activities of Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "Fingolimod may increase the bradycardic activities of Trimebutine"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "Fingolimod may increase the bradycardic activities of Pinaverium"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "Fingolimod may increase the bradycardic activities of Aranidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "Fingolimod may increase the bradycardic activities of Benidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "Fingolimod may increase the bradycardic activities of Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Fingolimod may increase the bradycardic activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "Fingolimod may increase the bradycardic activities of Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "Fingolimod may increase the bradycardic activities of Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "Fingolimod may increase the bradycardic activities of Gallopamil"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "Fingolimod may increase the bradycardic activities of Bencyclane"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "Fingolimod may increase the bradycardic activities of Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "Fingolimod may increase the bradycardic activities of Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "Fingolimod may increase the bradycardic activities of Lidoflazine"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "Fingolimod may increase the bradycardic activities of Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "Fingolimod may increase the bradycardic activities of Dexverapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00951",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Isoniazid"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Diethylstilbestrol"
+                    },
+                    {
+                        "drugbank-id": "DB01110",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Miconazole"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Midostaurin"
+                    },
+                    {
+                        "drugbank-id": "DB04914",
+                        "description": "The therapeutic efficacy of G17DT can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05144",
+                        "description": "The therapeutic efficacy of PEV3A can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05325",
+                        "description": "The therapeutic efficacy of INGN 225 can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05374",
+                        "description": "The therapeutic efficacy of Rindopepimut can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05440",
+                        "description": "The therapeutic efficacy of SRP 299 can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB05942",
+                        "description": "The therapeutic efficacy of GI 5005 can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06400",
+                        "description": "The therapeutic efficacy of Vitespen can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB06584",
+                        "description": "The therapeutic efficacy of TG4010 can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09057",
+                        "description": "The therapeutic efficacy of Anthrax immune globulin human can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10062",
+                        "description": "The therapeutic efficacy of Rabies virus inactivated antigen B can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10076",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B strain 1482 capsular polysaccharide tetanus toxoid conjugate antigen can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10276",
+                        "description": "The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10283",
+                        "description": "The therapeutic efficacy of Rabies virus inactivated antigen A can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10342",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B capsular polysaccharide meningococcal outer membrane protein conjugate antigen can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10583",
+                        "description": "The therapeutic efficacy of Clostridium tetani toxoid antigen formaldehyde inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10584",
+                        "description": "The therapeutic efficacy of Corynebacterium diphtheriae toxoid antigen formaldehyde inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10600",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 X 181 H1N1 antigen propiolactone inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10769",
+                        "description": "The therapeutic efficacy of Japanese encephalitis virus strain sa 14 14 2 antigen formaldehyde inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10794",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 antigen formaldehyde inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10803",
+                        "description": "The therapeutic efficacy of Typhoid Vi polysaccharide vaccine can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10989",
+                        "description": "The therapeutic efficacy of Hepatitis A Vaccine can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10990",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B strain 20752 capsular polysaccharide tetanus toxoid conjugate antigen can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11038",
+                        "description": "The therapeutic efficacy of Influenza A virus A Brisbane 59 2007 H1N1 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11040",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11041",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 X 181 H1N1 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11044",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 antigen propiolactone inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11603",
+                        "description": "The therapeutic efficacy of Human rabies virus immune globulin can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11627",
+                        "description": "The therapeutic efficacy of Hepatitis B Vaccine Recombinant can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12568",
+                        "description": "The therapeutic efficacy of Tecemotide can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14384",
+                        "description": "The therapeutic efficacy of Influenza A virus A Victoria 210 2009 X 187 H3N2 hemagglutinin antigen formaldehyde inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14385",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 hemagglutinin antigen formaldehyde inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14394",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 H1N1 live attenuated antigen can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14445",
+                        "description": "The therapeutic efficacy of Influenza A virus A Victoria 210 2009 X 187 H3N2 antigen formaldehyde inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14449",
+                        "description": "The therapeutic efficacy of Influenza A virus A Perth 16 2009 H3N2 live attenuated antigen can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14619",
+                        "description": "The therapeutic efficacy of Influenza A virus A Uruguay 716 2007 H3N2 antigen propiolactone inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14620",
+                        "description": "The therapeutic efficacy of Influenza A virus A Brisbane 59 2007 H1N1 antigen propiolactone inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB14711",
+                        "description": "The therapeutic efficacy of Smallpox Vaccinia Vaccine Live can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB15274",
+                        "description": "The therapeutic efficacy of Pertussis vaccine can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB15461",
+                        "description": "The therapeutic efficacy of Yersinia pestis 195 p antigen formaldehyde inactivated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB13924",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Recombinant can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB15483",
+                        "description": "The therapeutic efficacy of Modified vaccinia ankara can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB15595",
+                        "description": "The therapeutic efficacy of Ebola Zaire vaccine live attenuated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB15654",
+                        "description": "The therapeutic efficacy of Moderna COVID 19 Vaccine can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB10318",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Live attenuated can be decreased when used in combination with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11637",
+                        "description": "Fingolimod may increase the QTc prolonging activities of Delamanid"
+                    },
+                    {
+                        "drugbank-id": "DB00118",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Ademetionine"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Ticlopidine"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Nabilone"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Zafirlukast"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Tegaserod"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Rufinamide"
+                    },
+                    {
+                        "drugbank-id": "DB13174",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Rhein"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Desipramine"
+                    },
+                    {
+                        "drugbank-id": "DB01191",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Dexfenfluramine"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Chlorzoxazone"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Imipramine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Chlorpromazine"
+                    },
+                    {
+                        "drugbank-id": "DB00501",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Cimetidine"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Nortriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00623",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Fluphenazine"
+                    },
+                    {
+                        "drugbank-id": "DB00627",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Niacin"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Thioridazine"
+                    },
+                    {
+                        "drugbank-id": "DB00690",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Flurazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Tranylcypromine"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB00822",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Disulfiram"
+                    },
+                    {
+                        "drugbank-id": "DB00829",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Diazepam"
+                    },
+                    {
+                        "drugbank-id": "DB00883",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Isosorbide dinitrate"
+                    },
+                    {
+                        "drugbank-id": "DB01011",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Metyrapone"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Selegiline"
+                    },
+                    {
+                        "drugbank-id": "DB01068",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Clonazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Nifedipine"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Orphenadrine"
+                    },
+                    {
+                        "drugbank-id": "DB01213",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Fomepizole"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Methotrimeprazine"
+                    },
+                    {
+                        "drugbank-id": "DB01544",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Flunitrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Bromazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01586",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Ursodeoxycholic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01595",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Nitrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB02520",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Ditiocarb"
+                    },
+                    {
+                        "drugbank-id": "DB02701",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Nicotinamide"
+                    },
+                    {
+                        "drugbank-id": "DB06370",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Indisulam"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Safinamide"
+                    },
+                    {
+                        "drugbank-id": "DB08846",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Ellagic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09328",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Vayarin"
+                    },
+                    {
+                        "drugbank-id": "DB11994",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Diacerein"
+                    },
+                    {
+                        "drugbank-id": "DB04794",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Bifonazole"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Fingolimod can be increased when combined with Ethanol"
+                    },
+                    {
+                        "drugbank-id": "DB11943",
+                        "description": "The metabolism of Fingolimod can be increased when combined with Delafloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00636",
+                        "description": "The metabolism of Fingolimod can be increased when combined with Clofibrate"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "The metabolism of Fingolimod can be increased when combined with Phenelzine"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The metabolism of Fingolimod can be increased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB09462",
+                        "description": "The metabolism of Fingolimod can be increased when combined with Glycerin"
+                    },
+                    {
+                        "drugbank-id": "DB13941",
+                        "description": "The metabolism of Fingolimod can be increased when combined with Piperaquine"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Fingolimod can be increased when combined with Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB00228",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Enflurane"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Trimethadione"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Isoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB00949",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Felbamate"
+                    },
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Methoxyflurane"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Halothane"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Sevoflurane"
+                    },
+                    {
+                        "drugbank-id": "DB06119",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Cenobamate"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Nilvadipine"
+                    },
+                    {
+                        "drugbank-id": "DB06728",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Aniline"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Benzyl alcohol"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Ethosuximide"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The metabolism of Selumetinib can be decreased when combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Theophylline"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Fingolimod can be decreased when combined with Aminophylline"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "Fingolimod may increase the immunosuppressive activities of Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "Acetaminophen may increase the hepatotoxic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "Fingolimod may increase the hepatotoxic activities of Propacetamol"
+                    },
+                    {
+                        "drugbank-id": "DB00656",
+                        "description": "The risk or severity of QTc prolongation can be increased when Trazodone is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fingolimod is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "Fingolimod may increase the QTc prolonging activities of Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "Lefamulin may increase the QTc prolonging activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "Lasmiditan may increase the bradycardic activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00557",
+                        "description": "The risk or severity of QTc prolongation can be increased when Hydroxyzine is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fingolimod is combined with Ziprasidone"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Fingolimod can be increased when it is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fingolimod is combined with Haloperidol"
+                    },
+                    {
+                        "drugbank-id": "DB10317",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Rubella virus vaccine"
+                    },
+                    {
+                        "drugbank-id": "DB10343",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Bacillus calmette guerin substrain tice live antigen"
+                    },
+                    {
+                        "drugbank-id": "DB10804",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Bacillus calmette guerin substrain connaught live antigen"
+                    },
+                    {
+                        "drugbank-id": "DB10805",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Yellow Fever Vaccine"
+                    },
+                    {
+                        "drugbank-id": "DB11003",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Anthrax vaccine"
+                    },
+                    {
+                        "drugbank-id": "DB11050",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Typhoid Vaccine Live"
+                    },
+                    {
+                        "drugbank-id": "DB12386",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Bacillus calmette guerin substrain danish 1331 live antigen"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with BCG vaccine"
+                    },
+                    {
+                        "drugbank-id": "DB14409",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Human adenovirus e serotype 4 strain cl 68578 antigen"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Vibrio cholerae CVD 103 HgR strain live antigen"
+                    },
+                    {
+                        "drugbank-id": "DB14685",
+                        "description": "The therapeutic efficacy of Fingolimod can be decreased when used in combination with Adenovirus type 7 vaccine live"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of QTc prolongation can be increased when Fluoxetine is combined with Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB12530",
+                        "description": "The risk or severity of infection can be increased when Fingolimod is combined with Inebilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB00104",
+                        "description": "The serum concentration of the active metabolites of Fingolimod can be increased when Fingolimod is used in combination with Octreotide"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

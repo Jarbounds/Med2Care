@@ -1,0 +1,3157 @@
+{
+    "medicine_id": "98fc6d1dac82438b14e088968b17f7a1c91058be",
+    "platform_id": "DB05015",
+    "metadata": {
+        "name": "Beleodaq 500 mg 10mL Injection powder lyophilized for solution",
+        "composition": "500 mg 10mL Belinostat",
+        "clinical_particulars": {
+            "therapeutic_indications": "Belinostat is indicated for the treatment of patients with relapsed or refractory peripheral T cell lymphoma PTCL with manageable safety profile It is a potential alternative therapy for patients who did not experience adequate response to first line drugs for PTCL It can be used in patients with baseline thrombocytopenia A19161",
+            "contraindications": {
+                "disease": "Belinostat is genotoxic according to Ames test and may impair male fertility Weekly complete blood count should be monitored during treatment to adjust the dosage as intravenous infusion of belinostat is frequently associated with hematologic toxicity such as leukopenia and thrombocytopenia Incidences of infections such as sepsis hepatotoxicity tumor lysis syndrome gastrointestinal toxicity and embryo fetal toxicity may occur No specific information is available on the treatment of overdosage of Beleodaq There is no antidote for Beleodaq and it is not known if Beleodaq is dialyzable If an overdose occurs general supportive measures should be instituted as deemed necessary by the treating physician",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Beleodaq is a histone deacetylase HDAC inhibitor that exhibits pan HDAC inhibition and potent growth inhibitory and pro apoptotic activities in a variety of tumor cells including PTCL cells at nanomolar concentrations A19161 None of the trials show any clinically relevant changes caused by Beleodaq on heart rate PR duration or QRS duration as measures of autonomic state atrio ventricular conduction or depolarization there were no cases of Torsades de Pointes",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB06643",
+                        "description": "The risk or severity of adverse effects can be increased when Denosumab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00008",
+                        "description": "The risk or severity of adverse effects can be increased when Peginterferon alfa 2a is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00011",
+                        "description": "The risk or severity of adverse effects can be increased when Interferon alfa n1 is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00018",
+                        "description": "The risk or severity of adverse effects can be increased when Interferon alfa n3 is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00033",
+                        "description": "The risk or severity of adverse effects can be increased when Interferon gamma 1b is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00034",
+                        "description": "The risk or severity of adverse effects can be increased when Interferon alfa 2a Recombinant is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00056",
+                        "description": "The risk or severity of adverse effects can be increased when Gemtuzumab ozogamicin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00059",
+                        "description": "The risk or severity of adverse effects can be increased when Pegaspargase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00068",
+                        "description": "The risk or severity of adverse effects can be increased when Interferon beta 1b is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00069",
+                        "description": "The risk or severity of adverse effects can be increased when Interferon alfacon 1 is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00073",
+                        "description": "The risk or severity of adverse effects can be increased when Rituximab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00074",
+                        "description": "The risk or severity of adverse effects can be increased when Basiliximab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00075",
+                        "description": "The risk or severity of adverse effects can be increased when Muromonab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00078",
+                        "description": "The risk or severity of adverse effects can be increased when Ibritumomab tiuxetan is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00081",
+                        "description": "The risk or severity of adverse effects can be increased when Tositumomab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00087",
+                        "description": "The risk or severity of adverse effects can be increased when Alemtuzumab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00092",
+                        "description": "The risk or severity of adverse effects can be increased when Alefacept is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00095",
+                        "description": "The risk or severity of adverse effects can be increased when Efalizumab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00098",
+                        "description": "The risk or severity of adverse effects can be increased when Antithymocyte immunoglobulin rabbit is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00105",
+                        "description": "The risk or severity of adverse effects can be increased when Interferon alfa 2b is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00111",
+                        "description": "The risk or severity of adverse effects can be increased when Daclizumab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00112",
+                        "description": "The risk or severity of adverse effects can be increased when Bevacizumab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00120",
+                        "description": "The risk or severity of adverse effects can be increased when Phenylalanine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "The risk or severity of adverse effects can be increased when Cladribine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "The risk or severity of adverse effects can be increased when Carmustine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00276",
+                        "description": "The risk or severity of adverse effects can be increased when Amsacrine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00290",
+                        "description": "The risk or severity of adverse effects can be increased when Bleomycin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00291",
+                        "description": "The risk or severity of adverse effects can be increased when Chlorambucil is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00293",
+                        "description": "The risk or severity of adverse effects can be increased when Raltitrexed is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00305",
+                        "description": "The risk or severity of adverse effects can be increased when Mitomycin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "The risk or severity of adverse effects can be increased when Vindesine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00352",
+                        "description": "The risk or severity of adverse effects can be increased when Tioguanine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "The risk or severity of adverse effects can be increased when Vinorelbine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00380",
+                        "description": "The risk or severity of adverse effects can be increased when Dexrazoxane is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00428",
+                        "description": "The risk or severity of adverse effects can be increased when Streptozocin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00432",
+                        "description": "The risk or severity of adverse effects can be increased when Trifluridine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "The risk or severity of adverse effects can be increased when Gemcitabine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00445",
+                        "description": "The risk or severity of adverse effects can be increased when Epirubicin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00480",
+                        "description": "The risk or severity of adverse effects can be increased when Lenalidomide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00488",
+                        "description": "The risk or severity of adverse effects can be increased when Altretamine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "The risk or severity of adverse effects can be increased when Oxaliplatin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The risk or severity of adverse effects can be increased when Vincristine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "The risk or severity of adverse effects can be increased when Propylthiouracil is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00552",
+                        "description": "The risk or severity of adverse effects can be increased when Pentostatin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The risk or severity of adverse effects can be increased when Methotrexate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "The risk or severity of adverse effects can be increased when Linezolid is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The risk or severity of adverse effects can be increased when Clofarabine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "The risk or severity of adverse effects can be increased when Pemetrexed is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00687",
+                        "description": "The risk or severity of adverse effects can be increased when Fludrocortisone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00688",
+                        "description": "The risk or severity of adverse effects can be increased when Mycophenolate mofetil is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The risk or severity of adverse effects can be increased when Irinotecan is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The risk or severity of adverse effects can be increased when Sulfasalazine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "The risk or severity of adverse effects can be increased when Dacarbazine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00853",
+                        "description": "The risk or severity of adverse effects can be increased when Temozolomide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "The risk or severity of adverse effects can be increased when Penicillamine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The risk or severity of adverse effects can be increased when Sirolimus is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00888",
+                        "description": "The risk or severity of adverse effects can be increased when Mechlorethamine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00928",
+                        "description": "The risk or severity of adverse effects can be increased when Azacitidine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00958",
+                        "description": "The risk or severity of adverse effects can be increased when Carboplatin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "The risk or severity of adverse effects can be increased when Dactinomycin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00987",
+                        "description": "The risk or severity of adverse effects can be increased when Cytarabine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00993",
+                        "description": "The risk or severity of adverse effects can be increased when Azathioprine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01005",
+                        "description": "The risk or severity of adverse effects can be increased when Hydroxyurea is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "The risk or severity of adverse effects can be increased when Busulfan is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01024",
+                        "description": "The risk or severity of adverse effects can be increased when Mycophenolic acid is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "The risk or severity of adverse effects can be increased when Mercaptopurine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01042",
+                        "description": "The risk or severity of adverse effects can be increased when Melphalan is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01073",
+                        "description": "The risk or severity of adverse effects can be increased when Fludarabine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01099",
+                        "description": "The risk or severity of adverse effects can be increased when Flucytosine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01108",
+                        "description": "The risk or severity of adverse effects can be increased when Trilostane is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "The risk or severity of adverse effects can be increased when Procarbazine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of adverse effects can be increased when Arsenic trioxide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01196",
+                        "description": "The risk or severity of adverse effects can be increased when Estramustine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01206",
+                        "description": "The risk or severity of adverse effects can be increased when Lomustine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01257",
+                        "description": "The risk or severity of adverse effects can be increased when Eculizumab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01262",
+                        "description": "The risk or severity of adverse effects can be increased when Decitabine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01280",
+                        "description": "The risk or severity of adverse effects can be increased when Nelarabine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01410",
+                        "description": "The risk or severity of adverse effects can be increased when Ciclesonide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01423",
+                        "description": "The risk or severity of adverse effects can be increased when Stepronin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The risk or severity of adverse effects can be increased when Everolimus is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01611",
+                        "description": "The risk or severity of adverse effects can be increased when Hydroxychloroquine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01816",
+                        "description": "The risk or severity of adverse effects can be increased when Castanospermine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB02806",
+                        "description": "The risk or severity of adverse effects can be increased when 2 Methoxyethanol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB03523",
+                        "description": "The risk or severity of adverse effects can be increased when Brequinar is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "The risk or severity of adverse effects can be increased when Thiotepa is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04630",
+                        "description": "The risk or severity of adverse effects can be increased when Aldosterone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The risk or severity of adverse effects can be increased when Ixabepilone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04951",
+                        "description": "The risk or severity of adverse effects can be increased when Pirfenidone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05258",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Interferon alfa"
+                    },
+                    {
+                        "drugbank-id": "DB05259",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Glatiramer"
+                    },
+                    {
+                        "drugbank-id": "DB05260",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Gallium nitrate"
+                    },
+                    {
+                        "drugbank-id": "DB05459",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Briakinumab"
+                    },
+                    {
+                        "drugbank-id": "DB05472",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Human interferon omega 1"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Temsirolimus"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Panobinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06612",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Mepolizumab"
+                    },
+                    {
+                        "drugbank-id": "DB06662",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Abetimus"
+                    },
+                    {
+                        "drugbank-id": "DB06681",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Belatacept"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Bendamustine"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Cabazitaxel"
+                    },
+                    {
+                        "drugbank-id": "DB06813",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Pralatrexate"
+                    },
+                    {
+                        "drugbank-id": "DB08059",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Wortmannin"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Eribulin"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Ruxolitinib"
+                    },
+                    {
+                        "drugbank-id": "DB08879",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Belimumab"
+                    },
+                    {
+                        "drugbank-id": "DB08880",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Teriflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB08889",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Carfilzomib"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Ponatinib"
+                    },
+                    {
+                        "drugbank-id": "DB08908",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Dimethyl fumarate"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Pomalidomide"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Obinutuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB09033",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Vedolizumab"
+                    },
+                    {
+                        "drugbank-id": "DB09052",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Blinatumomab"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Ibrutinib"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Idelalisib"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Dinutuximab"
+                    },
+                    {
+                        "drugbank-id": "DB09082",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Vilanterol"
+                    },
+                    {
+                        "drugbank-id": "DB09091",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Tixocortol"
+                    },
+                    {
+                        "drugbank-id": "DB09122",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Peginterferon beta 1a"
+                    },
+                    {
+                        "drugbank-id": "DB09312",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Antilymphocyte immunoglobulin horse"
+                    },
+                    {
+                        "drugbank-id": "DB09378",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Fluprednisolone"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Tepoxalin"
+                    },
+                    {
+                        "drugbank-id": "DB11529",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Melengestrol"
+                    },
+                    {
+                        "drugbank-id": "DB11569",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Ixekizumab"
+                    },
+                    {
+                        "drugbank-id": "DB11580",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Ravulizumab"
+                    },
+                    {
+                        "drugbank-id": "DB11616",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Pirarubicin"
+                    },
+                    {
+                        "drugbank-id": "DB11693",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Voclosporin"
+                    },
+                    {
+                        "drugbank-id": "DB11708",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Peficitinib"
+                    },
+                    {
+                        "drugbank-id": "DB11776",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Brodalumab"
+                    },
+                    {
+                        "drugbank-id": "DB11803",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Sirukumab"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Baricitinib"
+                    },
+                    {
+                        "drugbank-id": "DB11834",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Guselkumab"
+                    },
+                    {
+                        "drugbank-id": "DB12025",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Triptolide"
+                    },
+                    {
+                        "drugbank-id": "DB12612",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Ozanimod"
+                    },
+                    {
+                        "drugbank-id": "DB12617",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Mizoribine"
+                    },
+                    {
+                        "drugbank-id": "DB12692",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Gusperimus"
+                    },
+                    {
+                        "drugbank-id": "DB12814",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Cepeginterferon alfa 2B"
+                    },
+                    {
+                        "drugbank-id": "DB12902",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Trofosfamide"
+                    },
+                    {
+                        "drugbank-id": "DB12947",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Doxifluridine"
+                    },
+                    {
+                        "drugbank-id": "DB12991",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Deoxyspergualin"
+                    },
+                    {
+                        "drugbank-id": "DB12996",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Acteoside"
+                    },
+                    {
+                        "drugbank-id": "DB13014",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Hypericin"
+                    },
+                    {
+                        "drugbank-id": "DB13068",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with 9 N methyl L isoleucine cyclosporin A"
+                    },
+                    {
+                        "drugbank-id": "DB13223",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Fluocortin"
+                    },
+                    {
+                        "drugbank-id": "DB13241",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Begelomab"
+                    },
+                    {
+                        "drugbank-id": "DB13491",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Fluperolone"
+                    },
+                    {
+                        "drugbank-id": "DB13856",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Fluclorolone"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Tetrandrine"
+                    },
+                    {
+                        "drugbank-id": "DB14219",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Monomethyl fumarate"
+                    },
+                    {
+                        "drugbank-id": "DB14762",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Risankizumab"
+                    },
+                    {
+                        "drugbank-id": "DB14919",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Rozanolixizumab"
+                    },
+                    {
+                        "drugbank-id": "DB15253",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Bleselumab"
+                    },
+                    {
+                        "drugbank-id": "DB00005",
+                        "description": "The risk or severity of adverse effects can be increased when Etanercept is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00022",
+                        "description": "The risk or severity of adverse effects can be increased when Peginterferon alfa 2b is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00026",
+                        "description": "The risk or severity of adverse effects can be increased when Anakinra is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "The risk or severity of adverse effects can be increased when Aldesleukin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00051",
+                        "description": "The risk or severity of adverse effects can be increased when Adalimumab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00065",
+                        "description": "The risk or severity of adverse effects can be increased when Infliximab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00180",
+                        "description": "The risk or severity of adverse effects can be increased when Flunisolide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The risk or severity of adverse effects can be increased when Bortezomib is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "The risk or severity of adverse effects can be increased when Bexarotene is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00322",
+                        "description": "The risk or severity of adverse effects can be increased when Floxuridine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00394",
+                        "description": "The risk or severity of adverse effects can be increased when Beclomethasone dipropionate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00443",
+                        "description": "The risk or severity of adverse effects can be increased when Betamethasone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The risk or severity of adverse effects can be increased when Teniposide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "The risk or severity of adverse effects can be increased when Chloramphenicol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "The risk or severity of adverse effects can be increased when Cisplatin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The risk or severity of adverse effects can be increased when Cyclophosphamide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "The risk or severity of adverse effects can be increased when Fluorouracil is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The risk or severity of adverse effects can be increased when Vinblastine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00588",
+                        "description": "The risk or severity of adverse effects can be increased when Fluticasone propionate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00591",
+                        "description": "The risk or severity of adverse effects can be increased when Fluocinolone acetonide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "The risk or severity of adverse effects can be increased when Imatinib is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00620",
+                        "description": "The risk or severity of adverse effects can be increased when Triamcinolone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00635",
+                        "description": "The risk or severity of adverse effects can be increased when Prednisone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "The risk or severity of adverse effects can be increased when Daunorubicin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The risk or severity of adverse effects can be increased when Tretinoin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "The risk or severity of adverse effects can be increased when Methimazole is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The risk or severity of adverse effects can be increased when Etoposide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00860",
+                        "description": "The risk or severity of adverse effects can be increased when Prednisolone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00959",
+                        "description": "The risk or severity of adverse effects can be increased when Methylprednisolone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The risk or severity of adverse effects can be increased when Doxorubicin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "The risk or severity of adverse effects can be increased when Topotecan is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "The risk or severity of adverse effects can be increased when Thalidomide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "The risk or severity of adverse effects can be increased when Capecitabine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01177",
+                        "description": "The risk or severity of adverse effects can be increased when Idarubicin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The risk or severity of adverse effects can be increased when Ifosfamide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "The risk or severity of adverse effects can be increased when Mitoxantrone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01222",
+                        "description": "The risk or severity of adverse effects can be increased when Budesonide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The risk or severity of adverse effects can be increased when Paclitaxel is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01234",
+                        "description": "The risk or severity of adverse effects can be increased when Dexamethasone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The risk or severity of adverse effects can be increased when Docetaxel is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The risk or severity of adverse effects can be increased when Dasatinib is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The risk or severity of adverse effects can be increased when Sunitinib is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01281",
+                        "description": "The risk or severity of adverse effects can be increased when Abatacept is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01285",
+                        "description": "The risk or severity of adverse effects can be increased when Corticotropin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01380",
+                        "description": "The risk or severity of adverse effects can be increased when Cortisone acetate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01384",
+                        "description": "The risk or severity of adverse effects can be increased when Paramethasone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01394",
+                        "description": "The risk or severity of adverse effects can be increased when Colchicine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04956",
+                        "description": "The risk or severity of adverse effects can be increased when Afelimomab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Trabectedin"
+                    },
+                    {
+                        "drugbank-id": "DB05676",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Apremilast"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Trastuzumab emtansine"
+                    },
+                    {
+                        "drugbank-id": "DB06168",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Canakinumab"
+                    },
+                    {
+                        "drugbank-id": "DB06273",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Tocilizumab"
+                    },
+                    {
+                        "drugbank-id": "DB06372",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Rilonacept"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Bosutinib"
+                    },
+                    {
+                        "drugbank-id": "DB06674",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Golimumab"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Brentuximab vedotin"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Certolizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB08906",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Fluticasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB08970",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Fluprednidene"
+                    },
+                    {
+                        "drugbank-id": "DB09029",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Secukinumab"
+                    },
+                    {
+                        "drugbank-id": "DB09036",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Siltuximab"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Palbociclib"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Olaparib"
+                    },
+                    {
+                        "drugbank-id": "DB09383",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Meprednisone"
+                    },
+                    {
+                        "drugbank-id": "DB11487",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Dexamethasone isonicotinate"
+                    },
+                    {
+                        "drugbank-id": "DB11767",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Sarilumab"
+                    },
+                    {
+                        "drugbank-id": "DB11921",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Deflazacort"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Siponimod"
+                    },
+                    {
+                        "drugbank-id": "DB13003",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Cortivazol"
+                    },
+                    {
+                        "drugbank-id": "DB13208",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Prednylidene"
+                    },
+                    {
+                        "drugbank-id": "DB13843",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Cloprednol"
+                    },
+                    {
+                        "drugbank-id": "DB13867",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Fluticasone"
+                    },
+                    {
+                        "drugbank-id": "DB14512",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Mometasone furoate"
+                    },
+                    {
+                        "drugbank-id": "DB14539",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Hydrocortisone acetate"
+                    },
+                    {
+                        "drugbank-id": "DB14545",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Hydrocortisone succinate"
+                    },
+                    {
+                        "drugbank-id": "DB14724",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Emapalumab"
+                    },
+                    {
+                        "drugbank-id": "DB01013",
+                        "description": "The risk or severity of adverse effects can be increased when Clobetasol propionate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01047",
+                        "description": "The risk or severity of adverse effects can be increased when Fluocinonide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14540",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Hydrocortisone butyrate"
+                    },
+                    {
+                        "drugbank-id": "DB00547",
+                        "description": "The risk or severity of adverse effects can be increased when Desoximetasone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00764",
+                        "description": "The risk or severity of adverse effects can be increased when Mometasone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08971",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Fluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB11750",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Clobetasol"
+                    },
+                    {
+                        "drugbank-id": "DB00324",
+                        "description": "The risk or severity of adverse effects can be increased when Fluorometholone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09095",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Difluocortolone"
+                    },
+                    {
+                        "drugbank-id": "DB00108",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Natalizumab"
+                    },
+                    {
+                        "drugbank-id": "DB00337",
+                        "description": "The risk or severity of adverse effects can be increased when Pimecrolimus is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "Roflumilast may increase the immunosuppressive activities of Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06688",
+                        "description": "The therapeutic efficacy of Sipuleucel T can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of neutropenia can be increased when Belinostat is combined with Clozapine"
+                    },
+                    {
+                        "drugbank-id": "DB00012",
+                        "description": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00016",
+                        "description": "The risk or severity of Thrombosis can be increased when Erythropoietin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "The risk or severity of Thrombosis can be increased when Peginesatide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09107",
+                        "description": "The risk or severity of Thrombosis can be increased when Methoxy polyethylene glycol epoetin beta is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Ranolazine"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "The risk or severity of gastrointestinal bleeding and thrombocytopenia can be increased when Belinostat is combined with Vorinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of myelosuppression can be increased when Sulfamethoxazole is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01097",
+                        "description": "The risk or severity of adverse effects can be increased when Belinostat is combined with Leflunomide"
+                    },
+                    {
+                        "drugbank-id": "DB08895",
+                        "description": "Belinostat may increase the immunosuppressive activities of Tofacitinib"
+                    },
+                    {
+                        "drugbank-id": "DB00072",
+                        "description": "Trastuzumab may increase the neutropenic activities of Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08868",
+                        "description": "Belinostat may increase the immunosuppressive activities of Fingolimod"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "Tacrolimus may increase the immunosuppressive activities of Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09280",
+                        "description": "The serum concentration of Belinostat can be decreased when it is combined with Lumacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB04914",
+                        "description": "The therapeutic efficacy of G17DT can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05144",
+                        "description": "The therapeutic efficacy of PEV3A can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05325",
+                        "description": "The therapeutic efficacy of INGN 225 can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05374",
+                        "description": "The therapeutic efficacy of Rindopepimut can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05440",
+                        "description": "The therapeutic efficacy of SRP 299 can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05942",
+                        "description": "The therapeutic efficacy of GI 5005 can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06400",
+                        "description": "The therapeutic efficacy of Vitespen can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06584",
+                        "description": "The therapeutic efficacy of TG4010 can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09057",
+                        "description": "The therapeutic efficacy of Anthrax immune globulin human can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10062",
+                        "description": "The therapeutic efficacy of Rabies virus inactivated antigen B can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10076",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B strain 1482 capsular polysaccharide tetanus toxoid conjugate antigen can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10276",
+                        "description": "The therapeutic efficacy of Rotavirus vaccine can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10283",
+                        "description": "The therapeutic efficacy of Rabies virus inactivated antigen A can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10342",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B capsular polysaccharide meningococcal outer membrane protein conjugate antigen can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10583",
+                        "description": "The therapeutic efficacy of Clostridium tetani toxoid antigen formaldehyde inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10584",
+                        "description": "The therapeutic efficacy of Corynebacterium diphtheriae toxoid antigen formaldehyde inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10600",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 X 181 H1N1 antigen propiolactone inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10769",
+                        "description": "The therapeutic efficacy of Japanese encephalitis virus strain sa 14 14 2 antigen formaldehyde inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10794",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 antigen formaldehyde inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10803",
+                        "description": "The therapeutic efficacy of Typhoid Vi polysaccharide vaccine can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10989",
+                        "description": "The therapeutic efficacy of Hepatitis A Vaccine can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10990",
+                        "description": "The therapeutic efficacy of Haemophilus influenzae type B strain 20752 capsular polysaccharide tetanus toxoid conjugate antigen can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11038",
+                        "description": "The therapeutic efficacy of Influenza A virus A Brisbane 59 2007 H1N1 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11040",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11041",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 X 181 H1N1 hemagglutinin antigen propiolactone inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11044",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 antigen propiolactone inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11603",
+                        "description": "The therapeutic efficacy of Human rabies virus immune globulin can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11627",
+                        "description": "The therapeutic efficacy of Hepatitis B Vaccine Recombinant can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12568",
+                        "description": "The therapeutic efficacy of Tecemotide can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14022",
+                        "description": "The therapeutic efficacy of Typhoid vaccine can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14384",
+                        "description": "The therapeutic efficacy of Influenza A virus A Victoria 210 2009 X 187 H3N2 hemagglutinin antigen formaldehyde inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14385",
+                        "description": "The therapeutic efficacy of Influenza B virus B Brisbane 60 2008 hemagglutinin antigen formaldehyde inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14394",
+                        "description": "The therapeutic efficacy of Influenza A virus A California 7 2009 H1N1 live attenuated antigen can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14445",
+                        "description": "The therapeutic efficacy of Influenza A virus A Victoria 210 2009 X 187 H3N2 antigen formaldehyde inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14449",
+                        "description": "The therapeutic efficacy of Influenza A virus A Perth 16 2009 H3N2 live attenuated antigen can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14619",
+                        "description": "The therapeutic efficacy of Influenza A virus A Uruguay 716 2007 H3N2 antigen propiolactone inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14620",
+                        "description": "The therapeutic efficacy of Influenza A virus A Brisbane 59 2007 H1N1 antigen propiolactone inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14711",
+                        "description": "The therapeutic efficacy of Smallpox Vaccinia Vaccine Live can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB15274",
+                        "description": "The therapeutic efficacy of Pertussis vaccine can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB15461",
+                        "description": "The therapeutic efficacy of Yersinia pestis 195 p antigen formaldehyde inactivated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13924",
+                        "description": "The therapeutic efficacy of Varicella Zoster Vaccine Recombinant can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB15483",
+                        "description": "The therapeutic efficacy of Modified vaccinia ankara can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB15595",
+                        "description": "The therapeutic efficacy of Ebola Zaire vaccine live attenuated can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB15654",
+                        "description": "The therapeutic efficacy of Moderna COVID 19 Vaccine can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00054",
+                        "description": "The risk or severity of bleeding can be increased when Abciximab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00063",
+                        "description": "The risk or severity of bleeding can be increased when Eptifibatide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00775",
+                        "description": "The risk or severity of bleeding can be increased when Tirofiban is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The risk or severity of bleeding can be increased when Pentoxifylline is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of bleeding can be increased when Iloprost is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01166",
+                        "description": "The risk or severity of bleeding can be increased when Cilostazol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01207",
+                        "description": "The risk or severity of bleeding can be increased when Ridogrel is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "The risk or severity of bleeding can be increased when Epoprostenol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The risk or severity of bleeding can be increased when Nimesulide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04932",
+                        "description": "The risk or severity of bleeding can be increased when Defibrotide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05229",
+                        "description": "The risk or severity of bleeding can be increased when Beraprost is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "The risk or severity of bleeding can be increased when Ibudilast is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05767",
+                        "description": "The risk or severity of bleeding can be increased when Andrographolide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06081",
+                        "description": "The risk or severity of bleeding can be increased when Caplacizumab is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06441",
+                        "description": "The risk or severity of bleeding can be increased when Cangrelor is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08814",
+                        "description": "The risk or severity of bleeding can be increased when Triflusal is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08887",
+                        "description": "The risk or severity of bleeding can be increased when Icosapent ethyl is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09283",
+                        "description": "The risk or severity of bleeding can be increased when Trapidil is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The risk or severity of bleeding can be increased when Naftopidil is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12163",
+                        "description": "The risk or severity of bleeding can be increased when Sarpogrelate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12321",
+                        "description": "The risk or severity of bleeding can be increased when Ifetroban is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The risk or severity of bleeding can be increased when Nitroaspirin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "The risk or severity of bleeding can be increased when Ketanserin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "The risk or severity of bleeding can be increased when Indobufen is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12749",
+                        "description": "The risk or severity of bleeding can be increased when Butylphthalide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12771",
+                        "description": "The risk or severity of bleeding can be increased when Hydroxytyrosol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13036",
+                        "description": "The risk or severity of bleeding can be increased when Ramatroban is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13327",
+                        "description": "The risk or severity of bleeding can be increased when Picotamide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13367",
+                        "description": "The risk or severity of bleeding can be increased when Cloricromen is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "The risk or severity of bleeding can be increased when Linsidomine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13510",
+                        "description": "The risk or severity of bleeding can be increased when Buflomedil is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13929",
+                        "description": "The risk or severity of bleeding can be increased when Relcovaptan is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The risk or severity of bleeding can be increased when Ticlopidine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00758",
+                        "description": "The risk or severity of bleeding can be increased when Clopidogrel is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of bleeding can be increased when Acetylsalicylic acid is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01138",
+                        "description": "The risk or severity of bleeding can be increased when Sulfinpyrazone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of bleeding can be increased when Sevoflurane is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB02709",
+                        "description": "The risk or severity of bleeding can be increased when Resveratrol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04905",
+                        "description": "The risk or severity of bleeding can be increased when Tesmilifene is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06209",
+                        "description": "The risk or severity of bleeding can be increased when Prasugrel is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The risk or severity of bleeding can be increased when Tranilast is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Vemurafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11988",
+                        "description": "Ocrelizumab may increase the immunosuppressive activities of Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11901",
+                        "description": "The serum concentration of Belinostat can be decreased when it is combined with Apalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB11642",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Pitolisant"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Isavuconazole"
+                    },
+                    {
+                        "drugbank-id": "DB06636",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Isavuconazonium"
+                    },
+                    {
+                        "drugbank-id": "DB13200",
+                        "description": "Belinostat may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB10317",
+                        "description": "The risk or severity of infection can be increased when Rubella virus vaccine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10318",
+                        "description": "The risk or severity of infection can be increased when Varicella Zoster Vaccine Live attenuated is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10343",
+                        "description": "The risk or severity of infection can be increased when Bacillus calmette guerin substrain tice live antigen is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10804",
+                        "description": "The risk or severity of infection can be increased when Bacillus calmette guerin substrain connaught live antigen is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB10805",
+                        "description": "The risk or severity of infection can be increased when Yellow Fever Vaccine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11003",
+                        "description": "The risk or severity of infection can be increased when Anthrax vaccine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11050",
+                        "description": "The risk or severity of infection can be increased when Typhoid Vaccine Live is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12386",
+                        "description": "The risk or severity of infection can be increased when Bacillus calmette guerin substrain danish 1331 live antigen is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12768",
+                        "description": "The risk or severity of infection can be increased when BCG vaccine is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14409",
+                        "description": "The risk or severity of infection can be increased when Human adenovirus e serotype 4 strain cl 68578 antigen is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The risk or severity of infection can be increased when Vibrio cholerae CVD 103 HgR strain live antigen is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14685",
+                        "description": "The risk or severity of infection can be increased when Adenovirus type 7 vaccine live is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00408",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Loxapine"
+                    },
+                    {
+                        "drugbank-id": "DB00539",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Toremifene"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Vardenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Zonisamide"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Propafenone"
+                    },
+                    {
+                        "drugbank-id": "DB01267",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Paliperidone"
+                    },
+                    {
+                        "drugbank-id": "DB04851",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Biricodar"
+                    },
+                    {
+                        "drugbank-id": "DB04881",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Elacridar"
+                    },
+                    {
+                        "drugbank-id": "DB04908",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Flibanserin"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Vandetanib"
+                    },
+                    {
+                        "drugbank-id": "DB06191",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Zosuquidar"
+                    },
+                    {
+                        "drugbank-id": "DB06240",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Tariquidar"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Canagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB08916",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Afatinib"
+                    },
+                    {
+                        "drugbank-id": "DB09027",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Ledipasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09102",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Daclatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09291",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Rolapitant"
+                    },
+                    {
+                        "drugbank-id": "DB11613",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Velpatasvir"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Neratinib"
+                    },
+                    {
+                        "drugbank-id": "DB11869",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Valspodar"
+                    },
+                    {
+                        "drugbank-id": "DB11978",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Glasdegib"
+                    },
+                    {
+                        "drugbank-id": "DB12026",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Voxilaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB12035",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Sarecycline"
+                    },
+                    {
+                        "drugbank-id": "DB12799",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Laniquidar"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB14069",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with ONT 093"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Entrectinib"
+                    },
+                    {
+                        "drugbank-id": "DB12500",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Fedratinib"
+                    },
+                    {
+                        "drugbank-id": "DB12466",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Favipiravir"
+                    },
+                    {
+                        "drugbank-id": "DB14840",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Ripretinib"
+                    },
+                    {
+                        "drugbank-id": "DB08816",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Ticagrelor"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Vorapaxar"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Fluconazole"
+                    },
+                    {
+                        "drugbank-id": "DB00199",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Erythromycin"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Sildenafil"
+                    },
+                    {
+                        "drugbank-id": "DB00468",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Quinine"
+                    },
+                    {
+                        "drugbank-id": "DB00641",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Simvastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Verapamil"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Mifepristone"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Conivaptan"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Quinidine"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Norgestimate"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Amiodarone"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Carvedilol"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Itraconazole"
+                    },
+                    {
+                        "drugbank-id": "DB01211",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Clarithromycin"
+                    },
+                    {
+                        "drugbank-id": "DB01232",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Saquinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01259",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Lapatinib"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Mibefradil"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Dronedarone"
+                    },
+                    {
+                        "drugbank-id": "DB05521",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Telaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB06290",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Simeprevir"
+                    },
+                    {
+                        "drugbank-id": "DB07348",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Brefeldin A"
+                    },
+                    {
+                        "drugbank-id": "DB08820",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Ivacaftor"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Lomitapide"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Crizotinib"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Linagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB08899",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Enzalutamide"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Suvorexant"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Netupitant"
+                    },
+                    {
+                        "drugbank-id": "DB09065",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Cobicistat"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Methylene blue"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Venetoclax"
+                    },
+                    {
+                        "drugbank-id": "DB11586",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Asunaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB11753",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Rifamycin"
+                    },
+                    {
+                        "drugbank-id": "DB11757",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Istradefylline"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Ivosidenib"
+                    },
+                    {
+                        "drugbank-id": "DB15822",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Pralsetinib"
+                    },
+                    {
+                        "drugbank-id": "DB06448",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Lonafarnib"
+                    },
+                    {
+                        "drugbank-id": "DB00845",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Clofazimine"
+                    },
+                    {
+                        "drugbank-id": "DB00039",
+                        "description": "The therapeutic efficacy of Palifermin can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The metabolism of Betaxolol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The metabolism of Disopyramide can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The metabolism of Ropivacaine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00315",
+                        "description": "The metabolism of Zolmitriptan can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00379",
+                        "description": "The metabolism of Mexiletine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The metabolism of Triamterene can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00442",
+                        "description": "The metabolism of Entecavir can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00499",
+                        "description": "The metabolism of Flutamide can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "The metabolism of Guanabenz can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00730",
+                        "description": "The metabolism of Thiabendazole can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00740",
+                        "description": "The metabolism of Riluzole can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00787",
+                        "description": "The metabolism of Acyclovir can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The metabolism of Maprotiline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00978",
+                        "description": "The metabolism of Lomefloxacin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00998",
+                        "description": "The metabolism of Frovatriptan can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The metabolism of Levobupivacaine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01012",
+                        "description": "The metabolism of Cinacalcet can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01056",
+                        "description": "The metabolism of Tocainide can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01058",
+                        "description": "The metabolism of Praziquantel can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01094",
+                        "description": "The metabolism of Hesperetin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01191",
+                        "description": "The metabolism of Dexfenfluramine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01303",
+                        "description": "The metabolism of Oxtriphylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "The metabolism of Rasagiline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01405",
+                        "description": "The metabolism of Temafloxacin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01412",
+                        "description": "The metabolism of Theobromine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01482",
+                        "description": "The metabolism of Fenethylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01558",
+                        "description": "The metabolism of Bromazepam can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01623",
+                        "description": "The metabolism of Thiothixene can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01667",
+                        "description": "The metabolism of 8 azaguanine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB02134",
+                        "description": "The metabolism of Xanthine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB02489",
+                        "description": "The metabolism of 9 Methylguanine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB02568",
+                        "description": "The metabolism of Peldesine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04076",
+                        "description": "The metabolism of Hypoxanthine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04356",
+                        "description": "The metabolism of 9 Deazaguanine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The metabolism of Lofexidine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06148",
+                        "description": "The metabolism of Mianserin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06216",
+                        "description": "The metabolism of Asenapine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06235",
+                        "description": "The metabolism of Vadimezan can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06479",
+                        "description": "The metabolism of Propentofylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09225",
+                        "description": "The metabolism of Zotepine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The metabolism of Doxofylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09290",
+                        "description": "The metabolism of Ramosetron can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11919",
+                        "description": "The metabolism of 6 O benzylguanine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12406",
+                        "description": "The metabolism of Lisofylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12531",
+                        "description": "The metabolism of Lobucavir can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12926",
+                        "description": "The metabolism of Cafedrine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12927",
+                        "description": "The metabolism of Theodrenaline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "The metabolism of Dihydralazine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13203",
+                        "description": "The metabolism of Bamifylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13449",
+                        "description": "The metabolism of Proxyphylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13573",
+                        "description": "The metabolism of Acefylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13592",
+                        "description": "The metabolism of Etamiphylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13634",
+                        "description": "The metabolism of Pentifylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13812",
+                        "description": "The metabolism of Bufylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14018",
+                        "description": "The metabolism of Bromotheophylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14132",
+                        "description": "The metabolism of 8 chlorotheophylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00850",
+                        "description": "The metabolism of Perphenazine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04889",
+                        "description": "The metabolism of Bicifadine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05708",
+                        "description": "The metabolism of GTS 21 can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00201",
+                        "description": "The metabolism of Caffeine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00281",
+                        "description": "The metabolism of Lidocaine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The metabolism of Conjugated estrogens can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00365",
+                        "description": "The metabolism of Grepafloxacin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00382",
+                        "description": "The metabolism of Tacrine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The metabolism of Propranolol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00831",
+                        "description": "The metabolism of Trifluoperazine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00863",
+                        "description": "The metabolism of Ranitidine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The metabolism of Metoclopramide can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00924",
+                        "description": "The metabolism of Cyclobenzaprine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00176",
+                        "description": "The metabolism of Fluvoxamine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00184",
+                        "description": "The metabolism of Nicotine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The metabolism of Ropinirole can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00316",
+                        "description": "The metabolism of Acetaminophen can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The metabolism of Olanzapine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00356",
+                        "description": "The metabolism of Chlorzoxazone can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00370",
+                        "description": "The metabolism of Mirtazapine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The metabolism of Promazine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Zolpidem can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The metabolism of Nabumetone can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The metabolism of Fluoxetine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Chlorpromazine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00502",
+                        "description": "The metabolism of Haloperidol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00532",
+                        "description": "The metabolism of Mephenytoin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The metabolism of Rofecoxib can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The metabolism of Cinnarizine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The metabolism of Diclofenac can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The metabolism of Paroxetine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00744",
+                        "description": "The metabolism of Zileuton can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The metabolism of Naproxen can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00857",
+                        "description": "The metabolism of Terbinafine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "The metabolism of Ethanol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00969",
+                        "description": "The metabolism of Alosetron can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00972",
+                        "description": "The metabolism of Azelastine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00980",
+                        "description": "The metabolism of Ramelteon can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "The metabolism of Selegiline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01065",
+                        "description": "The metabolism of Melatonin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01087",
+                        "description": "The metabolism of Primaquine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The metabolism of Nifedipine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The metabolism of Doxepin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01184",
+                        "description": "The metabolism of Domperidone can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01195",
+                        "description": "The metabolism of Flecainide can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The metabolism of Aminophenazone can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The metabolism of Antipyrine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The metabolism of Etoricoxib can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01645",
+                        "description": "The metabolism of Genistein can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB03783",
+                        "description": "The metabolism of Phenacetin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The metabolism of Estrone sulfate can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The metabolism of Flunarizine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04871",
+                        "description": "The metabolism of Lorcaserin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The metabolism of Dapagliflozin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06594",
+                        "description": "The metabolism of Agomelatine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06770",
+                        "description": "The metabolism of Benzyl alcohol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06774",
+                        "description": "The metabolism of Capsaicin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of R warfarin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Perampanel can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09118",
+                        "description": "The metabolism of Stiripentol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The metabolism of Propacetamol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12245",
+                        "description": "The metabolism of Triclabendazole can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13952",
+                        "description": "The metabolism of Estradiol acetate can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13955",
+                        "description": "The metabolism of Estradiol dienanthate can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00655",
+                        "description": "The metabolism of Estrone can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00299",
+                        "description": "The metabolism of Penciclovir can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00261",
+                        "description": "The metabolism of Belinostat can be increased when combined with Anagrelide"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The metabolism of Tizanidine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The metabolism of Imipramine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Clomipramine can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Belinostat can be increased when combined with Tamoxifen"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Warfarin can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Acenocoumarol can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09256",
+                        "description": "The metabolism of Tegafur can be increased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00220",
+                        "description": "The metabolism of Belinostat can be increased when combined with Nelfinavir"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The metabolism of Belinostat can be increased when combined with Lamotrigine"
+                    },
+                    {
+                        "drugbank-id": "DB01420",
+                        "description": "The metabolism of Belinostat can be increased when combined with Testosterone propionate"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "The metabolism of Belinostat can be increased when combined with Zidovudine"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Belinostat can be increased when combined with Carbamazepine"
+                    },
+                    {
+                        "drugbank-id": "DB00252",
+                        "description": "The metabolism of Belinostat can be increased when combined with Phenytoin"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The metabolism of Belinostat can be increased when combined with Desogestrel"
+                    },
+                    {
+                        "drugbank-id": "DB00503",
+                        "description": "The metabolism of Belinostat can be increased when combined with Ritonavir"
+                    },
+                    {
+                        "drugbank-id": "DB00625",
+                        "description": "The metabolism of Belinostat can be increased when combined with Efavirenz"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The metabolism of Belinostat can be increased when combined with Primidone"
+                    },
+                    {
+                        "drugbank-id": "DB00932",
+                        "description": "The metabolism of Belinostat can be increased when combined with Tipranavir"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Belinostat can be increased when combined with Ethinylestradiol"
+                    },
+                    {
+                        "drugbank-id": "DB01045",
+                        "description": "The metabolism of Belinostat can be increased when combined with Rifampicin"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The metabolism of Belinostat can be increased when combined with Phenobarbital"
+                    },
+                    {
+                        "drugbank-id": "DB00173",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Adenine"
+                    },
+                    {
+                        "drugbank-id": "DB00224",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Indinavir"
+                    },
+                    {
+                        "drugbank-id": "DB01241",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Gemfibrozil"
+                    },
+                    {
+                        "drugbank-id": "DB06210",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Eltrombopag"
+                    },
+                    {
+                        "drugbank-id": "DB09183",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Dasabuvir"
+                    },
+                    {
+                        "drugbank-id": "DB09276",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Sodium aurothiomalate"
+                    },
+                    {
+                        "drugbank-id": "DB09296",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Ombitasvir"
+                    },
+                    {
+                        "drugbank-id": "DB09297",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Paritaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB09298",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Silibinin"
+                    },
+                    {
+                        "drugbank-id": "DB11827",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Ertugliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB13878",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Pibrentasvir"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Pexidartinib"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Sorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Nilotinib"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Pazopanib can be decreased when combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Ketoconazole"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Regorafenib"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Dacomitinib"
+                    },
+                    {
+                        "drugbank-id": "DB12332",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Rucaparib"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Enasidenib"
+                    },
+                    {
+                        "drugbank-id": "DB13879",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Glecaprevir"
+                    },
+                    {
+                        "drugbank-id": "DB00313",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Valproic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Amitriptyline"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Erlotinib"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Flurbiprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Propofol"
+                    },
+                    {
+                        "drugbank-id": "DB01032",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Probenecid"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Atazanavir"
+                    },
+                    {
+                        "drugbank-id": "DB01544",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Flunitrazepam"
+                    },
+                    {
+                        "drugbank-id": "DB01609",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Deferasirox"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The metabolism of Belinostat can be decreased when combined with Fostamatinib"
+                    },
+                    {
+                        "drugbank-id": "DB00001",
+                        "description": "The risk or severity of bleeding can be increased when Lepirudin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00006",
+                        "description": "The risk or severity of bleeding can be increased when Bivalirudin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "The risk or severity of bleeding can be increased when Alteplase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "The risk or severity of bleeding can be increased when Urokinase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "The risk or severity of bleeding can be increased when Reteplase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "The risk or severity of bleeding can be increased when Anistreplase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "The risk or severity of bleeding can be increased when Tenecteplase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00055",
+                        "description": "The risk or severity of bleeding can be increased when Drotrecogin alfa is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of bleeding can be increased when Streptokinase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00278",
+                        "description": "The risk or severity of bleeding can be increased when Argatroban is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "The risk or severity of bleeding can be increased when Ardeparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00498",
+                        "description": "The risk or severity of bleeding can be increased when Phenindione is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00569",
+                        "description": "The risk or severity of bleeding can be increased when Fondaparinux is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00686",
+                        "description": "The risk or severity of bleeding can be increased when Pentosan polysulfate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "The risk or severity of bleeding can be increased when Heparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "The risk or severity of bleeding can be increased when Enoxaparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB03410",
+                        "description": "The risk or severity of bleeding can be increased when 4 hydroxycoumarin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04925",
+                        "description": "The risk or severity of bleeding can be increased when Desmoteplase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05099",
+                        "description": "The risk or severity of bleeding can be increased when Ancrod is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05254",
+                        "description": "The risk or severity of bleeding can be increased when Fibrinolysin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "The risk or severity of bleeding can be increased when Sulodexide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06294",
+                        "description": "The risk or severity of bleeding can be increased when Semuloparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06406",
+                        "description": "The risk or severity of bleeding can be increased when Idraparinux is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06543",
+                        "description": "The risk or severity of bleeding can be increased when Astaxanthin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06635",
+                        "description": "The risk or severity of bleeding can be increased when Otamixaban is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "The risk or severity of bleeding can be increased when Amediplase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "The risk or severity of bleeding can be increased when Danaparoid is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "The risk or severity of bleeding can be increased when Dalteparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "The risk or severity of bleeding can be increased when Tinzaparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "The risk or severity of bleeding can be increased when Ferulic acid is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08794",
+                        "description": "The risk or severity of bleeding can be increased when Ethyl biscoumacetate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "The risk or severity of bleeding can be increased when Nadroparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08994",
+                        "description": "The risk or severity of bleeding can be increased when Ditazole is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "The risk or severity of bleeding can be increased when Potassium citrate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09154",
+                        "description": "The risk or severity of bleeding can be increased when Sodium citrate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09255",
+                        "description": "The risk or severity of bleeding can be increased when Dextran is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "The risk or severity of bleeding can be increased when Bemiparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "The risk or severity of bleeding can be increased when Parnaparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11095",
+                        "description": "The risk or severity of bleeding can be increased when Desirudin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11154",
+                        "description": "The risk or severity of bleeding can be increased when Zinc citrate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11166",
+                        "description": "The risk or severity of bleeding can be increased when Antithrombin Alfa is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11312",
+                        "description": "The risk or severity of bleeding can be increased when Protein C is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11598",
+                        "description": "The risk or severity of bleeding can be increased when Antithrombin III human is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11984",
+                        "description": "The risk or severity of bleeding can be increased when Letaxaban is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12289",
+                        "description": "The risk or severity of bleeding can be increased when Darexaban is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12598",
+                        "description": "The risk or severity of bleeding can be increased when Nafamostat is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12726",
+                        "description": "The risk or severity of bleeding can be increased when Monteplase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12831",
+                        "description": "The risk or severity of bleeding can be increased when Gabexate is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13149",
+                        "description": "The risk or severity of bleeding can be increased when Protein S human is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13199",
+                        "description": "The risk or severity of bleeding can be increased when Brinase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13275",
+                        "description": "The risk or severity of bleeding can be increased when Clorindione is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13347",
+                        "description": "The risk or severity of bleeding can be increased when Diphenadione is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13451",
+                        "description": "The risk or severity of bleeding can be increased when Tioclomarol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13616",
+                        "description": "The risk or severity of bleeding can be increased when Melagatran is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "The risk or severity of bleeding can be increased when Saruplase is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "The risk or severity of bleeding can be increased when Tocopherylquinone is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14598",
+                        "description": "The risk or severity of bleeding can be increased when Edetate calcium disodium anhydrous is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14726",
+                        "description": "The risk or severity of bleeding can be increased when Dabigatran is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of bleeding can be increased when Dipyridamole is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00266",
+                        "description": "The risk or severity of bleeding can be increased when Dicoumarol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The risk or severity of bleeding can be increased when Phenprocoumon is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04665",
+                        "description": "The risk or severity of bleeding can be increased when Coumarin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB04898",
+                        "description": "The risk or severity of bleeding can be increased when Ximelagatran is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13136",
+                        "description": "The risk or severity of bleeding can be increased when Fluindione is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The risk or severity of bleeding can be increased when S Warfarin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13124",
+                        "description": "The risk or severity of bleeding can be increased when Troxerutin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00974",
+                        "description": "The risk or severity of bleeding can be increased when Edetic acid is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "The risk or severity of bleeding can be increased when Reviparin is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Methyclothiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Bendroflumethiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Benzthiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Cyclothiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Hydroflumethiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Chlorothiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Hydrochlorothiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Trichlormethiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Polythiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Mebutizide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "The risk or severity of neutropenia and thrombocytopenia can be increased when Cyclopenthiazide is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09042",
+                        "description": "The risk or severity of myelosuppression can be increased when Belinostat is combined with Tedizolid phosphate"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The serum concentration of Digitoxin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11967",
+                        "description": "The serum concentration of Binimetinib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The serum concentration of Digoxin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The serum concentration of Cobimetinib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The serum concentration of Dabrafenib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The serum concentration of Ceritinib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The serum concentration of Cabergoline can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00726",
+                        "description": "The serum concentration of Trimipramine can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The serum concentration of Nortriptyline can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The serum concentration of Abemaciclib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00175",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Pravastatin"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Morphine"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Bisoprolol"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Mannitol"
+                    },
+                    {
+                        "drugbank-id": "DB00882",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Clomifene"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Tegaserod"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Sitagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB05039",
+                        "description": "The serum concentration of Indacaterol can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB05889",
+                        "description": "The serum concentration of Inotuzumab ozogamicin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The serum concentration of Romidepsin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06207",
+                        "description": "The serum concentration of Silodosin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06228",
+                        "description": "The serum concentration of Rivaroxaban can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "The serum concentration of Ambrisentan can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06670",
+                        "description": "The serum concentration of Odanacatib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06695",
+                        "description": "The serum concentration of Dabigatran etexilate can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08893",
+                        "description": "The serum concentration of Mirabegron can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08930",
+                        "description": "The serum concentration of Dolutegravir can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB08934",
+                        "description": "The serum concentration of Sofosbuvir can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09075",
+                        "description": "The serum concentration of Edoxaban can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The serum concentration of Umeclidinium can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09161",
+                        "description": "The serum concentration of Technetium Tc 99m sestamibi can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "The serum concentration of Selexipag can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11575",
+                        "description": "The serum concentration of Grazoprevir can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The serum concentration of Vinflunine can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11760",
+                        "description": "The serum concentration of Talazoparib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The serum concentration of Talinolol can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "The serum concentration of Revefenacin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11979",
+                        "description": "The serum concentration of Elagolix can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12364",
+                        "description": "The serum concentration of Betrixaban can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12455",
+                        "description": "The serum concentration of Omadacycline can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The serum concentration of Copanlisib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12836",
+                        "description": "The serum concentration of Grapiprant can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14723",
+                        "description": "The serum concentration of Larotrectinib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00950",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Fexofenadine"
+                    },
+                    {
+                        "drugbank-id": "DB13007",
+                        "description": "The serum concentration of Enfortumab vedotin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12941",
+                        "description": "The serum concentration of Darolutamide can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB15328",
+                        "description": "The serum concentration of Ubrogepant can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The serum concentration of Tolvaptan can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11712",
+                        "description": "The serum concentration of Tezacaftor can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The serum concentration of Lemborexant can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00300",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Tenofovir disoproxil"
+                    },
+                    {
+                        "drugbank-id": "DB09039",
+                        "description": "The serum concentration of Eliglustat can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB13125",
+                        "description": "The serum concentration of Lusutrombopag can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The serum concentration of Rimegepant can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11689",
+                        "description": "The serum concentration of Selumetinib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB06605",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Apixaban"
+                    },
+                    {
+                        "drugbank-id": "DB00349",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Clobazam"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Loperamide"
+                    },
+                    {
+                        "drugbank-id": "DB01263",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Posaconazole"
+                    },
+                    {
+                        "drugbank-id": "DB09078",
+                        "description": "The serum concentration of Lenvatinib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The serum concentration of Nintedanib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The serum concentration of Osimertinib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11574",
+                        "description": "The serum concentration of Elbasvir can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11796",
+                        "description": "The serum concentration of Fostemsavir can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The serum concentration of Duvelisib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB11995",
+                        "description": "The serum concentration of Avatrombopag can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The serum concentration of Gilteritinib can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "The serum concentration of Lefamulin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The serum concentration of Tazemetostat can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The serum concentration of Tenofovir can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14761",
+                        "description": "The serum concentration of Remdesivir can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB15982",
+                        "description": "The serum concentration of Berotralstat can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB14631",
+                        "description": "The serum concentration of Prednisolone phosphate can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB15719",
+                        "description": "The serum concentration of Belantamab mafodotin can be increased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "Belinostat may increase the immunosuppressive activities of Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB00115",
+                        "description": "The therapeutic efficacy of Cyanocobalamin can be decreased when used in combination with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB00437",
+                        "description": "The risk or severity of adverse effects can be increased when Allopurinol is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Erdafitinib"
+                    },
+                    {
+                        "drugbank-id": "DB11732",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Lasmiditan"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The serum concentration of Magnesium can be decreased when it is combined with Belinostat"
+                    },
+                    {
+                        "drugbank-id": "DB01601",
+                        "description": "The serum concentration of Belinostat can be increased when it is combined with Lopinavir"
+                    },
+                    {
+                        "drugbank-id": "DB11652",
+                        "description": "Belinostat may decrease the excretion rate of Tucatinib which could result in a higher serum level"
+                    },
+                    {
+                        "drugbank-id": "DB12530",
+                        "description": "The risk or severity of infection can be increased when Belinostat is combined with Inebilizumab"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

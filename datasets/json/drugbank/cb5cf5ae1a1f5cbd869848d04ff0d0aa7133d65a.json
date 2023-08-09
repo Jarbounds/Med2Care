@@ -1,0 +1,41 @@
+{
+    "medicine_id": "cb5cf5ae1a1f5cbd869848d04ff0d0aa7133d65a",
+    "platform_id": "DB13092",
+    "metadata": {
+        "name": "Ytracis 167 MBQ ML Injection suspension",
+        "composition": "167 MBQ ML Meclocycline",
+        "clinical_particulars": {
+            "therapeutic_indications": "Currently under investigation for the topical treatment of ulcerative oral mucositis L797",
+            "contraindications": {
+                "disease": "Oral LD50 of 6443mg kg in rats MSDS",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Tetracyclines such as meclocycline are broad spectrum bacteriostatic agents A19429 Meclocyclin likely inhibits the growth of bacterial species present in the damaged oral mucosa allowing the immune system to more easily eliminate infections",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01028",
+                        "description": "The risk or severity of renal failure can be increased when Methoxyflurane is combined with Meclocycline"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "Magnesium can cause a decrease in the absorption of Meclocycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB14443",
+                        "description": "The therapeutic efficacy of Vibrio cholerae CVD 103 HgR strain live antigen can be decreased when used in combination with Meclocycline"
+                    },
+                    {
+                        "drugbank-id": "DB00900",
+                        "description": "Didanosine can cause a decrease in the absorption of Meclocycline resulting in a reduced serum concentration and potentially a decrease in efficacy"
+                    },
+                    {
+                        "drugbank-id": "DB00048",
+                        "description": "The therapeutic efficacy of Collagenase clostridium histolyticum can be decreased when used in combination with Meclocycline"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

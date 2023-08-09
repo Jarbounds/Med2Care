@@ -1,0 +1,629 @@
+{
+    "medicine_id": "6eade4c0af7c6d0a9dfe83ddd8059936f1d5ce47",
+    "platform_id": "DB13200",
+    "metadata": {
+        "name": "Lonquex 6 mg Injection solution",
+        "composition": "6 mg Lipegfilgrastim",
+        "clinical_particulars": {
+            "therapeutic_indications": "Indicated for the reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy with the exception of chronic myeloid leukaemia and myelodysplastic syndromes L2441",
+            "contraindications": {
+                "disease": "In safety pharmacological studies in rats and dogs lipegfilgrastim was well tolerated at a single subcutaneous dose of 10 mg kg In the renal excretion study in rats an intravenous dose of 250 \u03bcg kg was well tolerated L2449 While mutagenicity and genotoxicity studies have not been conducted with lipegfilgrastim G CSF has been reported to stimulate tumour growth and intratumoural vessel density in animal tumour models L2449",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Mimicking endogenous granulocyte colony stimulating factors lipegfilgrastim enhances the number and function of circulating neutrophils by binding to endogenous G CSF receptors A small increase in monocyte and or lymphocyte counts may also be observed L2441 Following a single subcutaneous dose administration of 100 \u03bcg kg lipegfilgrastim resulted in a significant increase in neutrophilic granulocyte and large unstained cell counts L2449 G CSF also increases the antibacterial activities of neutrophils including the phagocytosis L2441 Due to structural similarity between lipegfilgrastim and pegfilgrastim G CSF receptor binding was equivalent between two molecules A32665 However lipegfilgrastim showed greater time dependent resistance to neutrophil elastase degradation and greater retention of activity than pegfilgrastim A32665",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00019",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00059",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegaspargase"
+                    },
+                    {
+                        "drugbank-id": "DB00061",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegademase"
+                    },
+                    {
+                        "drugbank-id": "DB00082",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegvisomant"
+                    },
+                    {
+                        "drugbank-id": "DB01839",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Propylene glycol"
+                    },
+                    {
+                        "drugbank-id": "DB03394",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Heptaethylene glycol"
+                    },
+                    {
+                        "drugbank-id": "DB04895",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegaptanib"
+                    },
+                    {
+                        "drugbank-id": "DB05202",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Egaptivon pegol"
+                    },
+                    {
+                        "drugbank-id": "DB05321",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with PEG uricase"
+                    },
+                    {
+                        "drugbank-id": "DB05860",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Peginterferon alfacon 1"
+                    },
+                    {
+                        "drugbank-id": "DB06022",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with GlycoPEG GCSF"
+                    },
+                    {
+                        "drugbank-id": "DB06293",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegnivacogin"
+                    },
+                    {
+                        "drugbank-id": "DB06325",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegpleranib"
+                    },
+                    {
+                        "drugbank-id": "DB06611",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegsunercept"
+                    },
+                    {
+                        "drugbank-id": "DB06811",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Polidocanol"
+                    },
+                    {
+                        "drugbank-id": "DB08894",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Peginesatide"
+                    },
+                    {
+                        "drugbank-id": "DB08904",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Certolizumab pegol"
+                    },
+                    {
+                        "drugbank-id": "DB09107",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Methoxy polyethylene glycol epoetin beta"
+                    },
+                    {
+                        "drugbank-id": "DB09208",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegloticase"
+                    },
+                    {
+                        "drugbank-id": "DB09287",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Polyethylene glycol"
+                    },
+                    {
+                        "drugbank-id": "DB09329",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Antihemophilic Factor Recombinant PEGylated"
+                    },
+                    {
+                        "drugbank-id": "DB11077",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Polyethylene glycol 400"
+                    },
+                    {
+                        "drugbank-id": "DB11567",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Insulin peglispro"
+                    },
+                    {
+                        "drugbank-id": "DB11661",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Eptacog alfa pegol activated"
+                    },
+                    {
+                        "drugbank-id": "DB11707",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Olaptesed Pegol"
+                    },
+                    {
+                        "drugbank-id": "DB12258",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Abicipar Pegol"
+                    },
+                    {
+                        "drugbank-id": "DB12578",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Lexaptepid Pegol"
+                    },
+                    {
+                        "drugbank-id": "DB12839",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegvaliase"
+                    },
+                    {
+                        "drugbank-id": "DB12842",
+                        "description": "The therapeutic efficacy of Lipegfilgrastim can be decreased when used in combination with Pegamotecan"
+                    },
+                    {
+                        "drugbank-id": "DB13933",
+                        "description": "The therapeutic efficacy of Nonacog beta pegol can be decreased when used in combination with Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB14700",
+                        "description": "The therapeutic efficacy of Damoctocog alfa pegol can be decreased when used in combination with Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB14712",
+                        "description": "The therapeutic efficacy of Elapegademase can be decreased when used in combination with Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00008",
+                        "description": "Peginterferon alfa 2a may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00011",
+                        "description": "Interferon alfa n1 may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00018",
+                        "description": "Interferon alfa n3 may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00022",
+                        "description": "Peginterferon alfa 2b may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00033",
+                        "description": "Interferon gamma 1b may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00034",
+                        "description": "Interferon alfa 2a Recombinant may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "Aldesleukin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00056",
+                        "description": "Gemtuzumab ozogamicin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00068",
+                        "description": "Interferon beta 1b may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00069",
+                        "description": "Interferon alfacon 1 may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00073",
+                        "description": "Rituximab may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00078",
+                        "description": "Ibritumomab tiuxetan may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00081",
+                        "description": "Tositumomab may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00087",
+                        "description": "Alemtuzumab may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00105",
+                        "description": "Interferon alfa 2b may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00120",
+                        "description": "Phenylalanine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "Bortezomib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00242",
+                        "description": "Cladribine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00262",
+                        "description": "Carmustine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00276",
+                        "description": "Amsacrine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00291",
+                        "description": "Chlorambucil may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00293",
+                        "description": "Raltitrexed may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00305",
+                        "description": "Mitomycin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00307",
+                        "description": "Bexarotene may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "Vindesine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00322",
+                        "description": "Floxuridine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "Indomethacin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00352",
+                        "description": "Tioguanine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "Vinorelbine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00380",
+                        "description": "Dexrazoxane may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "Sorafenib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00428",
+                        "description": "Streptozocin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00441",
+                        "description": "Gemcitabine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "Teniposide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00445",
+                        "description": "Epirubicin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00446",
+                        "description": "Chloramphenicol may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00480",
+                        "description": "Lenalidomide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00488",
+                        "description": "Altretamine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00495",
+                        "description": "Zidovudine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00515",
+                        "description": "Cisplatin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00526",
+                        "description": "Oxaliplatin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "Cyclophosphamide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00544",
+                        "description": "Fluorouracil may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00550",
+                        "description": "Propylthiouracil may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00552",
+                        "description": "Pentostatin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "Methotrexate may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "Carbamazepine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "Vinblastine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "Linezolid may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00619",
+                        "description": "Imatinib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "Clofarabine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00642",
+                        "description": "Pemetrexed may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00694",
+                        "description": "Daunorubicin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "Irinotecan may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00763",
+                        "description": "Methimazole may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "Etoposide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00851",
+                        "description": "Dacarbazine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00853",
+                        "description": "Temozolomide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00859",
+                        "description": "Penicillamine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "Tacrolimus may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "Sirolimus may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00888",
+                        "description": "Mechlorethamine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00928",
+                        "description": "Azacitidine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00958",
+                        "description": "Carboplatin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00970",
+                        "description": "Dactinomycin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00987",
+                        "description": "Cytarabine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "Doxorubicin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01005",
+                        "description": "Hydroxyurea may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "Busulfan may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01030",
+                        "description": "Topotecan may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01033",
+                        "description": "Mercaptopurine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "Thalidomide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01042",
+                        "description": "Melphalan may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01073",
+                        "description": "Fludarabine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01099",
+                        "description": "Flucytosine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01101",
+                        "description": "Capecitabine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "Procarbazine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "Arsenic trioxide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01177",
+                        "description": "Idarubicin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "Ifosfamide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01204",
+                        "description": "Mitoxantrone may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01206",
+                        "description": "Lomustine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "Paclitaxel may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "Docetaxel may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "Dasatinib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01262",
+                        "description": "Decitabine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01280",
+                        "description": "Nelarabine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "Everolimus may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB02546",
+                        "description": "Vorinostat may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "Thiotepa may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "Ixabepilone may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "Nilotinib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB05015",
+                        "description": "Belinostat may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "Trabectedin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB05258",
+                        "description": "Interferon alfa may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB05472",
+                        "description": "Human interferon omega 1 may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "Trastuzumab emtansine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "Temsirolimus may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "Bosutinib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB06769",
+                        "description": "Bendamustine may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "Cabazitaxel may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB08871",
+                        "description": "Eribulin may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "Ruxolitinib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB08889",
+                        "description": "Carfilzomib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB08895",
+                        "description": "Tofacitinib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "Ponatinib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "Pomalidomide may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "Obinutuzumab may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB09042",
+                        "description": "Tedizolid phosphate may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB09052",
+                        "description": "Blinatumomab may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB09053",
+                        "description": "Ibrutinib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "Palbociclib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "Olaparib may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "Dinutuximab may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB09122",
+                        "description": "Peginterferon beta 1a may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB12814",
+                        "description": "Cepeginterferon alfa 2B may increase the myelosuppressive activities of Lipegfilgrastim"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The risk or severity of peripheral neuropathy can be increased when Lipegfilgrastim is combined with Vincristine"
+                    },
+                    {
+                        "drugbank-id": "DB05168",
+                        "description": "The risk or severity of peripheral neuropathy can be increased when Lipegfilgrastim is combined with Vintafolide"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The risk or severity of peripheral neuropathy can be increased when Lipegfilgrastim is combined with Vinflunine"
+                    },
+                    {
+                        "drugbank-id": "DB13374",
+                        "description": "The risk or severity of peripheral neuropathy can be increased when Lipegfilgrastim is combined with Vincamine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

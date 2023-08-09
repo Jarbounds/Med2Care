@@ -1,0 +1,2237 @@
+{
+    "medicine_id": "7dfb12c06357312fe1960b1072a8bc7ff7bbeb4f",
+    "platform_id": "DB08822",
+    "metadata": {
+        "name": "Edarbi 40 mg 1 Tablet",
+        "composition": "40 mg 1 Azilsartan medoxomil",
+        "clinical_particulars": {
+            "therapeutic_indications": "Treatment of hypertension alone or as an adjunct",
+            "contraindications": {
+                "disease": "Hypotension and diarrhea are most common",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Azilsartan medoxomil decreases the pressor effect of angiotensin II In response angiotensin I angiotensin II and renin are increased while aldosterone is decreased",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The risk or severity of orthostatic hypotension and syncope can be increased when Azilsartan medoxomil is combined with Duloxetine"
+                    },
+                    {
+                        "drugbank-id": "DB01235",
+                        "description": "The risk or severity of hypotension and orthostatic hypotension can be increased when Azilsartan medoxomil is combined with Levodopa"
+                    },
+                    {
+                        "drugbank-id": "DB00734",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Risperidone"
+                    },
+                    {
+                        "drugbank-id": "DB09026",
+                        "description": "The risk or severity of hyperkalemia can be increased when Aliskiren is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08907",
+                        "description": "The risk or severity of hypotension hyperkalemia and reduced intravascular volume can be increased when Canagliflozin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Drospirenone"
+                    },
+                    {
+                        "drugbank-id": "DB00700",
+                        "description": "The risk or severity of hyperkalemia can be increased when Eplerenone is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06294",
+                        "description": "The risk or severity of hyperkalemia can be increased when Semuloparin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00232",
+                        "description": "Methyclothiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00436",
+                        "description": "Bendroflumethiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00562",
+                        "description": "Benzthiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00606",
+                        "description": "Cyclothiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00774",
+                        "description": "Hydroflumethiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00880",
+                        "description": "Chlorothiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00999",
+                        "description": "Hydrochlorothiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01021",
+                        "description": "Trichlormethiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01324",
+                        "description": "Polythiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13430",
+                        "description": "Mebutizide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13532",
+                        "description": "Cyclopenthiazide may increase the hypotensive and Electrolyte Disturbance activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14507",
+                        "description": "The serum concentration of Lithium citrate can be increased when it is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14509",
+                        "description": "The serum concentration of Lithium carbonate can be increased when it is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14506",
+                        "description": "The serum concentration of Lithium hydroxide can be increased when it is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The risk or severity of hyperkalemia can be increased when Tolvaptan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00440",
+                        "description": "The risk or severity of hyperkalemia can be increased when Trimethoprim is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "Aripiprazole may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "Aripiprazole lauroxil may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00537",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Ciprofloxacin"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Cyclosporine"
+                    },
+                    {
+                        "drugbank-id": "DB09220",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nicorandil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00159",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Icosapent"
+                    },
+                    {
+                        "drugbank-id": "DB00244",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Mesalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00328",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Indomethacin"
+                    },
+                    {
+                        "drugbank-id": "DB00461",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Nabumetone"
+                    },
+                    {
+                        "drugbank-id": "DB00469",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Tenoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00482",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Celecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00500",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Tolmetin"
+                    },
+                    {
+                        "drugbank-id": "DB00533",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Rofecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00554",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Piroxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00573",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Fenoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00580",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Valdecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB00586",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Diclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB00605",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Sulindac"
+                    },
+                    {
+                        "drugbank-id": "DB00712",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Flurbiprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00749",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Etodolac"
+                    },
+                    {
+                        "drugbank-id": "DB00784",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Mefenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00788",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Naproxen"
+                    },
+                    {
+                        "drugbank-id": "DB00795",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Sulfasalazine"
+                    },
+                    {
+                        "drugbank-id": "DB00812",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Phenylbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB00814",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Meloxicam"
+                    },
+                    {
+                        "drugbank-id": "DB00821",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Carprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00861",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Diflunisal"
+                    },
+                    {
+                        "drugbank-id": "DB00936",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Salicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00939",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Meclofenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00945",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Acetylsalicylic acid"
+                    },
+                    {
+                        "drugbank-id": "DB00991",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Oxaprozin"
+                    },
+                    {
+                        "drugbank-id": "DB01009",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Ketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01014",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Balsalazide"
+                    },
+                    {
+                        "drugbank-id": "DB01050",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Ibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB01250",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Olsalazine"
+                    },
+                    {
+                        "drugbank-id": "DB01283",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Lumiracoxib"
+                    },
+                    {
+                        "drugbank-id": "DB01397",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Magnesium salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01399",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Salsalate"
+                    },
+                    {
+                        "drugbank-id": "DB01401",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Choline magnesium trisalicylate"
+                    },
+                    {
+                        "drugbank-id": "DB01419",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Antrafenine"
+                    },
+                    {
+                        "drugbank-id": "DB01424",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Aminophenazone"
+                    },
+                    {
+                        "drugbank-id": "DB01435",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Antipyrine"
+                    },
+                    {
+                        "drugbank-id": "DB01600",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Tiaprofenic acid"
+                    },
+                    {
+                        "drugbank-id": "DB01628",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Etoricoxib"
+                    },
+                    {
+                        "drugbank-id": "DB02224",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Taxifolin"
+                    },
+                    {
+                        "drugbank-id": "DB03585",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Oxyphenbutazone"
+                    },
+                    {
+                        "drugbank-id": "DB04725",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Licofelone"
+                    },
+                    {
+                        "drugbank-id": "DB04743",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Nimesulide"
+                    },
+                    {
+                        "drugbank-id": "DB04812",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Benoxaprofen"
+                    },
+                    {
+                        "drugbank-id": "DB04817",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Metamizole"
+                    },
+                    {
+                        "drugbank-id": "DB04828",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Zomepirac"
+                    },
+                    {
+                        "drugbank-id": "DB05095",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Cimicoxib"
+                    },
+                    {
+                        "drugbank-id": "DB06725",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Lornoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB06736",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Aceclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB06737",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Zaltoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB07402",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Azapropazone"
+                    },
+                    {
+                        "drugbank-id": "DB08439",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Parecoxib"
+                    },
+                    {
+                        "drugbank-id": "DB08797",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Salicylamide"
+                    },
+                    {
+                        "drugbank-id": "DB08940",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Kebuzone"
+                    },
+                    {
+                        "drugbank-id": "DB08942",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Isoxicam"
+                    },
+                    {
+                        "drugbank-id": "DB08951",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Indoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB08955",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Ibuproxam"
+                    },
+                    {
+                        "drugbank-id": "DB08976",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Floctafenine"
+                    },
+                    {
+                        "drugbank-id": "DB08981",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Fenbufen"
+                    },
+                    {
+                        "drugbank-id": "DB08984",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Etofenamate"
+                    },
+                    {
+                        "drugbank-id": "DB08991",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Epirizole"
+                    },
+                    {
+                        "drugbank-id": "DB09084",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Benzydamine"
+                    },
+                    {
+                        "drugbank-id": "DB09213",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Dexibuprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09214",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Dexketoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB09215",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Droxicam"
+                    },
+                    {
+                        "drugbank-id": "DB09216",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Tolfenamic acid"
+                    },
+                    {
+                        "drugbank-id": "DB09217",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Firocoxib"
+                    },
+                    {
+                        "drugbank-id": "DB09218",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Clonixin"
+                    },
+                    {
+                        "drugbank-id": "DB09285",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Morniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB09288",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Propacetamol"
+                    },
+                    {
+                        "drugbank-id": "DB09295",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Talniflumate"
+                    },
+                    {
+                        "drugbank-id": "DB11455",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Robenacoxib"
+                    },
+                    {
+                        "drugbank-id": "DB11466",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Tepoxalin"
+                    },
+                    {
+                        "drugbank-id": "DB11518",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Flunixin"
+                    },
+                    {
+                        "drugbank-id": "DB12399",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Polmacoxib"
+                    },
+                    {
+                        "drugbank-id": "DB12445",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Nitroaspirin"
+                    },
+                    {
+                        "drugbank-id": "DB12545",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Indobufen"
+                    },
+                    {
+                        "drugbank-id": "DB12610",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Ebselen"
+                    },
+                    {
+                        "drugbank-id": "DB13001",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Tinoridine"
+                    },
+                    {
+                        "drugbank-id": "DB13167",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Alclofenac"
+                    },
+                    {
+                        "drugbank-id": "DB13217",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Fentiazac"
+                    },
+                    {
+                        "drugbank-id": "DB13232",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Suxibuzone"
+                    },
+                    {
+                        "drugbank-id": "DB13286",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Bumadizone"
+                    },
+                    {
+                        "drugbank-id": "DB13314",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Alminoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13371",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Difenpiramide"
+                    },
+                    {
+                        "drugbank-id": "DB13407",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Nifenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13432",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Lonazolac"
+                    },
+                    {
+                        "drugbank-id": "DB13481",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Tenidap"
+                    },
+                    {
+                        "drugbank-id": "DB13524",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Propyphenazone"
+                    },
+                    {
+                        "drugbank-id": "DB13527",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Proglumetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13538",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Guacetisal"
+                    },
+                    {
+                        "drugbank-id": "DB13544",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Ethenzamide"
+                    },
+                    {
+                        "drugbank-id": "DB13612",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Carbaspirin calcium"
+                    },
+                    {
+                        "drugbank-id": "DB13629",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Mofebutazone"
+                    },
+                    {
+                        "drugbank-id": "DB13649",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Proquazone"
+                    },
+                    {
+                        "drugbank-id": "DB13657",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Benorilate"
+                    },
+                    {
+                        "drugbank-id": "DB13722",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Pirprofen"
+                    },
+                    {
+                        "drugbank-id": "DB13783",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Acemetacin"
+                    },
+                    {
+                        "drugbank-id": "DB13860",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Imidazole salicylate"
+                    },
+                    {
+                        "drugbank-id": "DB14059",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with SC 236"
+                    },
+                    {
+                        "drugbank-id": "DB14060",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with NS 398"
+                    },
+                    {
+                        "drugbank-id": "DB14938",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Flurbiprofen axetil"
+                    },
+                    {
+                        "drugbank-id": "DB09212",
+                        "description": "The risk or severity of renal failure hyperkalemia and hypertension can be increased when Azilsartan medoxomil is combined with Loxoprofen"
+                    },
+                    {
+                        "drugbank-id": "DB00182",
+                        "description": "Amphetamine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00601",
+                        "description": "Linezolid may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00614",
+                        "description": "Furazolidone may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "Procaine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00752",
+                        "description": "Tranylcypromine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00780",
+                        "description": "Phenelzine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00805",
+                        "description": "Minaprine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01037",
+                        "description": "Selegiline may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01168",
+                        "description": "Procarbazine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01171",
+                        "description": "Moclobemide may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01247",
+                        "description": "Isocarboxazid may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01367",
+                        "description": "Rasagiline may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01626",
+                        "description": "Pargyline may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04017",
+                        "description": "Clorgiline may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04818",
+                        "description": "Iproniazid may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04820",
+                        "description": "Nialamide may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06654",
+                        "description": "Safinamide may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08550",
+                        "description": "7 8 Dichloro 1 2 3 4 tetrahydroisoquinoline may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09241",
+                        "description": "Methylene blue may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09243",
+                        "description": "Hydracarbazine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09244",
+                        "description": "Pirlindole may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09245",
+                        "description": "Toloxatone may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09246",
+                        "description": "Benmoxin may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09248",
+                        "description": "Mebanazine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09249",
+                        "description": "Octamoxin may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09250",
+                        "description": "Pheniprazine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09251",
+                        "description": "Phenoxypropazine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09252",
+                        "description": "Pivhydrazine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09253",
+                        "description": "Safrazine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09254",
+                        "description": "Caroxazone may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13875",
+                        "description": "Harmaline may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13876",
+                        "description": "Brofaromine may increase the orthostatic hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "Butalbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "Pentobarbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "Secobarbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00474",
+                        "description": "Methohexital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "Thiopental may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "Primidone may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "Methylphenobarbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01154",
+                        "description": "Thiamylal may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "Phenobarbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "Amobarbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "Hexobarbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "Barbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09001",
+                        "description": "Barbexaclone may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00237",
+                        "description": "Butabarbital may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00041",
+                        "description": "The risk or severity of adverse effects can be increased when Aldesleukin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00268",
+                        "description": "The risk or severity of adverse effects can be increased when Ropinirole is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00295",
+                        "description": "The risk or severity of adverse effects can be increased when Morphine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00296",
+                        "description": "The risk or severity of adverse effects can be increased when Ropivacaine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00297",
+                        "description": "The risk or severity of adverse effects can be increased when Bupivacaine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00323",
+                        "description": "The risk or severity of adverse effects can be increased when Tolcapone is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of adverse effects can be increased when Olanzapine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of adverse effects can be increased when Clozapine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00413",
+                        "description": "The risk or severity of adverse effects can be increased when Pramipexole is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00435",
+                        "description": "The risk or severity of adverse effects can be increased when Nitric Oxide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of adverse effects can be increased when Imipramine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of adverse effects can be increased when Chlorpromazine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00486",
+                        "description": "The risk or severity of adverse effects can be increased when Nabilone is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00631",
+                        "description": "The risk or severity of adverse effects can be increased when Clofarabine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00633",
+                        "description": "The risk or severity of adverse effects can be increased when Dexmedetomidine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00679",
+                        "description": "The risk or severity of adverse effects can be increased when Thioridazine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00681",
+                        "description": "The risk or severity of adverse effects can be increased when Amphotericin B is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00697",
+                        "description": "The risk or severity of adverse effects can be increased when Tizanidine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00703",
+                        "description": "The risk or severity of adverse effects can be increased when Methazolamide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00706",
+                        "description": "The risk or severity of adverse effects can be increased when Tamsulosin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00708",
+                        "description": "The risk or severity of adverse effects can be increased when Sufentanil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00714",
+                        "description": "The risk or severity of adverse effects can be increased when Apomorphine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of adverse effects can be increased when Isoflurane is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00755",
+                        "description": "The risk or severity of adverse effects can be increased when Tretinoin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00818",
+                        "description": "The risk or severity of adverse effects can be increased when Propofol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The risk or severity of adverse effects can be increased when Conivaptan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00883",
+                        "description": "The risk or severity of adverse effects can be increased when Isosorbide dinitrate is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00887",
+                        "description": "The risk or severity of adverse effects can be increased when Bumetanide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00899",
+                        "description": "The risk or severity of adverse effects can be increased when Remifentanil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00903",
+                        "description": "The risk or severity of adverse effects can be increased when Etacrynic acid is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00922",
+                        "description": "The risk or severity of adverse effects can be increased when Levosimendan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00975",
+                        "description": "The risk or severity of adverse effects can be increased when Dipyridamole is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01002",
+                        "description": "The risk or severity of adverse effects can be increased when Levobupivacaine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "The risk or severity of adverse effects can be increased when Isosorbide mononitrate is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01041",
+                        "description": "The risk or severity of adverse effects can be increased when Thalidomide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01088",
+                        "description": "The risk or severity of adverse effects can be increased when Iloprost is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01113",
+                        "description": "The risk or severity of adverse effects can be increased when Papaverine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01143",
+                        "description": "The risk or severity of adverse effects can be increased when Amifostine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01144",
+                        "description": "The risk or severity of adverse effects can be increased when Diclofenamide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01159",
+                        "description": "The risk or severity of adverse effects can be increased when Halothane is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01169",
+                        "description": "The risk or severity of adverse effects can be increased when Arsenic trioxide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01189",
+                        "description": "The risk or severity of adverse effects can be increased when Desflurane is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01200",
+                        "description": "The risk or severity of adverse effects can be increased when Bromocriptine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of adverse effects can be increased when Quetiapine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The risk or severity of adverse effects can be increased when Paclitaxel is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01236",
+                        "description": "The risk or severity of adverse effects can be increased when Sevoflurane is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The risk or severity of adverse effects can be increased when Clomipramine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01282",
+                        "description": "The risk or severity of adverse effects can be increased when Carbetocin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01612",
+                        "description": "The risk or severity of adverse effects can be increased when Amyl Nitrite is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04899",
+                        "description": "The risk or severity of adverse effects can be increased when Nesiritide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB05271",
+                        "description": "The risk or severity of adverse effects can be increased when Rotigotine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06292",
+                        "description": "The risk or severity of adverse effects can be increased when Dapagliflozin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08935",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Obinutuzumab"
+                    },
+                    {
+                        "drugbank-id": "DB08941",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Isoxsuprine"
+                    },
+                    {
+                        "drugbank-id": "DB09038",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Empagliflozin"
+                    },
+                    {
+                        "drugbank-id": "DB09077",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Dinutuximab"
+                    },
+                    {
+                        "drugbank-id": "DB09112",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Nitrous acid"
+                    },
+                    {
+                        "drugbank-id": "DB09286",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Pipamperone"
+                    },
+                    {
+                        "drugbank-id": "DB00206",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Reserpine"
+                    },
+                    {
+                        "drugbank-id": "DB00214",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Torasemide"
+                    },
+                    {
+                        "drugbank-id": "DB00325",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Nitroprusside"
+                    },
+                    {
+                        "drugbank-id": "DB00350",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Minoxidil"
+                    },
+                    {
+                        "drugbank-id": "DB00457",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Prazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00524",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Metolazone"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Clonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Doxazosin"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Mecamylamine"
+                    },
+                    {
+                        "drugbank-id": "DB00692",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Phentolamine"
+                    },
+                    {
+                        "drugbank-id": "DB00727",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Nitroglycerin"
+                    },
+                    {
+                        "drugbank-id": "DB00797",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Tolazoline"
+                    },
+                    {
+                        "drugbank-id": "DB00800",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Fenoldopam"
+                    },
+                    {
+                        "drugbank-id": "DB00808",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Indapamide"
+                    },
+                    {
+                        "drugbank-id": "DB00925",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Phenoxybenzamine"
+                    },
+                    {
+                        "drugbank-id": "DB00968",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Methyldopa"
+                    },
+                    {
+                        "drugbank-id": "DB01018",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Guanfacine"
+                    },
+                    {
+                        "drugbank-id": "DB01158",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Bretylium"
+                    },
+                    {
+                        "drugbank-id": "DB01162",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Terazosin"
+                    },
+                    {
+                        "drugbank-id": "DB01240",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Epoprostenol"
+                    },
+                    {
+                        "drugbank-id": "DB01275",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Hydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB04948",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Lofexidine"
+                    },
+                    {
+                        "drugbank-id": "DB08931",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Riociguat"
+                    },
+                    {
+                        "drugbank-id": "DB08950",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Indoramin"
+                    },
+                    {
+                        "drugbank-id": "DB09242",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Moxonidine"
+                    },
+                    {
+                        "drugbank-id": "DB00661",
+                        "description": "The risk or severity of adverse effects can be increased when Verapamil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01119",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Diazoxide"
+                    },
+                    {
+                        "drugbank-id": "DB15565",
+                        "description": "The risk or severity of adverse effects can be increased when Azilsartan medoxomil is combined with Cilazaprilat"
+                    },
+                    {
+                        "drugbank-id": "DB00384",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Triamterene"
+                    },
+                    {
+                        "drugbank-id": "DB00421",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Spironolactone"
+                    },
+                    {
+                        "drugbank-id": "DB00594",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Amiloride"
+                    },
+                    {
+                        "drugbank-id": "DB09015",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Canrenoic acid"
+                    },
+                    {
+                        "drugbank-id": "DB12221",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Canrenone"
+                    },
+                    {
+                        "drugbank-id": "DB00187",
+                        "description": "The risk or severity of hyperkalemia can be increased when Esmolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00195",
+                        "description": "The risk or severity of hyperkalemia can be increased when Betaxolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00196",
+                        "description": "The risk or severity of hyperkalemia can be increased when Fluconazole is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00202",
+                        "description": "The risk or severity of hyperkalemia can be increased when Succinylcholine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The risk or severity of hyperkalemia can be increased when Metoprolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00270",
+                        "description": "The risk or severity of hyperkalemia can be increased when Isradipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00335",
+                        "description": "The risk or severity of hyperkalemia can be increased when Atenolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00343",
+                        "description": "The risk or severity of hyperkalemia can be increased when Diltiazem is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00347",
+                        "description": "The risk or severity of hyperkalemia can be increased when Trimethadione is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00373",
+                        "description": "The risk or severity of hyperkalemia can be increased when Timolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The risk or severity of hyperkalemia can be increased when Amlodipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00390",
+                        "description": "The risk or severity of hyperkalemia can be increased when Digoxin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00393",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nimodipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00401",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nisoldipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00407",
+                        "description": "The risk or severity of hyperkalemia can be increased when Ardeparin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00489",
+                        "description": "The risk or severity of hyperkalemia can be increased when Sotalol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00528",
+                        "description": "The risk or severity of hyperkalemia can be increased when Lercanidipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of hyperkalemia can be increased when Lamotrigine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00568",
+                        "description": "The risk or severity of hyperkalemia can be increased when Cinnarizine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00571",
+                        "description": "The risk or severity of hyperkalemia can be increased when Propranolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00593",
+                        "description": "The risk or severity of hyperkalemia can be increased when Ethosuximide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00598",
+                        "description": "The risk or severity of hyperkalemia can be increased when Labetalol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00612",
+                        "description": "The risk or severity of hyperkalemia can be increased when Bisoprolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nicardipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The risk or severity of hyperkalemia can be increased when Magnesium sulfate is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00698",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nitrofurantoin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00738",
+                        "description": "The risk or severity of hyperkalemia can be increased when Pentamidine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00742",
+                        "description": "The risk or severity of hyperkalemia can be increased when Mannitol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00825",
+                        "description": "The risk or severity of hyperkalemia can be increased when Levomenthol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00836",
+                        "description": "The risk or severity of hyperkalemia can be increased when Loperamide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The risk or severity of hyperkalemia can be increased when Tacrolimus is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00866",
+                        "description": "The risk or severity of hyperkalemia can be increased when Alprenolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00909",
+                        "description": "The risk or severity of hyperkalemia can be increased when Zonisamide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00960",
+                        "description": "The risk or severity of hyperkalemia can be increased when Pindolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01015",
+                        "description": "The risk or severity of hyperkalemia can be increased when Sulfamethoxazole is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01023",
+                        "description": "The risk or severity of hyperkalemia can be increased when Felodipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01026",
+                        "description": "The risk or severity of hyperkalemia can be increased when Ketoconazole is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01054",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nitrendipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01074",
+                        "description": "The risk or severity of hyperkalemia can be increased when Perhexiline is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01109",
+                        "description": "The risk or severity of hyperkalemia can be increased when Heparin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01115",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nifedipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The risk or severity of hyperkalemia can be increased when Amiodarone is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01136",
+                        "description": "The risk or severity of hyperkalemia can be increased when Carvedilol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01167",
+                        "description": "The risk or severity of hyperkalemia can be increased when Itraconazole is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01182",
+                        "description": "The risk or severity of hyperkalemia can be increased when Propafenone is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01193",
+                        "description": "The risk or severity of hyperkalemia can be increased when Acebutolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01203",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nadolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01219",
+                        "description": "The risk or severity of hyperkalemia can be increased when Dantrolene is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01225",
+                        "description": "The risk or severity of hyperkalemia can be increased when Enoxaparin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01244",
+                        "description": "The risk or severity of hyperkalemia can be increased when Bepridil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01295",
+                        "description": "The risk or severity of hyperkalemia can be increased when Bevantolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01297",
+                        "description": "The risk or severity of hyperkalemia can be increased when Practolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01359",
+                        "description": "The risk or severity of hyperkalemia can be increased when Penbutolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01388",
+                        "description": "The risk or severity of hyperkalemia can be increased when Mibefradil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01580",
+                        "description": "The risk or severity of hyperkalemia can be increased when Oxprenolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB02968",
+                        "description": "The risk or severity of hyperkalemia can be increased when Penicillin G Acyl Serine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04825",
+                        "description": "The risk or severity of hyperkalemia can be increased when Prenylamine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04838",
+                        "description": "The risk or severity of hyperkalemia can be increased when Cyclandelate is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04841",
+                        "description": "The risk or severity of hyperkalemia can be increased when Flunarizine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04842",
+                        "description": "The risk or severity of hyperkalemia can be increased when Fluspirilene is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04846",
+                        "description": "The risk or severity of hyperkalemia can be increased when Celiprolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04920",
+                        "description": "The risk or severity of hyperkalemia can be increased when Clevidipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB05246",
+                        "description": "The risk or severity of hyperkalemia can be increased when Methsuximide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB05885",
+                        "description": "The risk or severity of hyperkalemia can be increased when Seletracetam is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06152",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nylidrin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06271",
+                        "description": "The risk or severity of hyperkalemia can be increased when Sulodexide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06446",
+                        "description": "The risk or severity of hyperkalemia can be increased when Dotarizine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06712",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nilvadipine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06726",
+                        "description": "The risk or severity of hyperkalemia can be increased when Bufuralol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06754",
+                        "description": "The risk or severity of hyperkalemia can be increased when Danaparoid is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06767",
+                        "description": "The risk or severity of hyperkalemia can be increased when Ammonium chloride is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06779",
+                        "description": "The risk or severity of hyperkalemia can be increased when Dalteparin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06822",
+                        "description": "The risk or severity of hyperkalemia can be increased when Tinzaparin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB07615",
+                        "description": "The risk or severity of hyperkalemia can be increased when Tranilast is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08807",
+                        "description": "The risk or severity of hyperkalemia can be increased when Bopindolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08808",
+                        "description": "The risk or severity of hyperkalemia can be increased when Bupranolol is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08813",
+                        "description": "The risk or severity of hyperkalemia can be increased when Nadroparin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Agmatine"
+                    },
+                    {
+                        "drugbank-id": "DB08952",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Indenolol"
+                    },
+                    {
+                        "drugbank-id": "DB08980",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Fendiline"
+                    },
+                    {
+                        "drugbank-id": "DB08992",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Eperisone"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Trimebutine"
+                    },
+                    {
+                        "drugbank-id": "DB09090",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Pinaverium"
+                    },
+                    {
+                        "drugbank-id": "DB09204",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Arotinolol"
+                    },
+                    {
+                        "drugbank-id": "DB09227",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Barnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09229",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Aranidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09230",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Azelnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09231",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Benidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09232",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Cilnidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09234",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Darodipine"
+                    },
+                    {
+                        "drugbank-id": "DB09235",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Efonidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09238",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Manidipine"
+                    },
+                    {
+                        "drugbank-id": "DB09239",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Niguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB09240",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Niludipine"
+                    },
+                    {
+                        "drugbank-id": "DB09258",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Bemiparin"
+                    },
+                    {
+                        "drugbank-id": "DB09259",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Reviparin"
+                    },
+                    {
+                        "drugbank-id": "DB09260",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Parnaparin"
+                    },
+                    {
+                        "drugbank-id": "DB09261",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Certoparin"
+                    },
+                    {
+                        "drugbank-id": "DB09351",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Levobetaxolol"
+                    },
+                    {
+                        "drugbank-id": "DB11770",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Talinolol"
+                    },
+                    {
+                        "drugbank-id": "DB11785",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Anisodamine"
+                    },
+                    {
+                        "drugbank-id": "DB11960",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Carboxyamidotriazole"
+                    },
+                    {
+                        "drugbank-id": "DB12092",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Naftopidil"
+                    },
+                    {
+                        "drugbank-id": "DB12093",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Tetrahydropalmatine"
+                    },
+                    {
+                        "drugbank-id": "DB12097",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Mannitol busulfan"
+                    },
+                    {
+                        "drugbank-id": "DB12131",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Vinpocetine"
+                    },
+                    {
+                        "drugbank-id": "DB12212",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Landiolol"
+                    },
+                    {
+                        "drugbank-id": "DB12752",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Bucindolol"
+                    },
+                    {
+                        "drugbank-id": "DB12923",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Gallopamil"
+                    },
+                    {
+                        "drugbank-id": "DB13443",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Esatenolol"
+                    },
+                    {
+                        "drugbank-id": "DB13488",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Bencyclane"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13508",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Cloranolol"
+                    },
+                    {
+                        "drugbank-id": "DB13530",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Mepindolol"
+                    },
+                    {
+                        "drugbank-id": "DB13725",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Terodiline"
+                    },
+                    {
+                        "drugbank-id": "DB13757",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Epanolol"
+                    },
+                    {
+                        "drugbank-id": "DB13766",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Lidoflazine"
+                    },
+                    {
+                        "drugbank-id": "DB13775",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Tertatolol"
+                    },
+                    {
+                        "drugbank-id": "DB13791",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Penfluridol"
+                    },
+                    {
+                        "drugbank-id": "DB13835",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Caroverine"
+                    },
+                    {
+                        "drugbank-id": "DB13950",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with WIN 55212 2"
+                    },
+                    {
+                        "drugbank-id": "DB13961",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Fish oil"
+                    },
+                    {
+                        "drugbank-id": "DB14063",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Dexverapamil"
+                    },
+                    {
+                        "drugbank-id": "DB14064",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Emopamil"
+                    },
+                    {
+                        "drugbank-id": "DB14065",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Lomerizine"
+                    },
+                    {
+                        "drugbank-id": "DB14066",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Tetrandrine"
+                    },
+                    {
+                        "drugbank-id": "DB14068",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Dexniguldipine"
+                    },
+                    {
+                        "drugbank-id": "DB04861",
+                        "description": "The risk or severity of hyperkalemia can be increased when Azilsartan medoxomil is combined with Nebivolol"
+                    },
+                    {
+                        "drugbank-id": "DB09449",
+                        "description": "The risk or severity of nephrotoxicity can be increased when Azilsartan medoxomil is combined with Sodium phosphate monobasic"
+                    },
+                    {
+                        "drugbank-id": "DB00177",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Valsartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00178",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Ramipril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00212",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Remikiren is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00275",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Olmesartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00492",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Fosinopril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00519",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Trandolapril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00542",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Benazepril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00584",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Enalapril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00678",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Losartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00691",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Moexipril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00722",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Lisinopril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00790",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Perindopril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00796",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Candesartan cilexetil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00876",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Eprosartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00881",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Quinapril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00886",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Omapatrilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00966",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Telmisartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01029",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Irbesartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01180",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Rescinnamine is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01197",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Captopril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01340",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Cilazapril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01342",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Forasartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01347",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Saprisartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01348",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Spirapril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01349",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Tasosartan is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB03395",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Enalkiren is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06763",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Saralasin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09279",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Azilsartan medoxomil is combined with Fimasartan"
+                    },
+                    {
+                        "drugbank-id": "DB13919",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Azilsartan medoxomil is combined with Candesartan"
+                    },
+                    {
+                        "drugbank-id": "DB08836",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Temocapril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09477",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Enalaprilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB11783",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Imidapril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB12416",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when VTP 27999 is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13166",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Zofenopril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13312",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Delapril is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14125",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Benazeprilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14207",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Fosinoprilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14208",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Ramiprilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14209",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Trandolaprilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14210",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Moexiprilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14213",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Perindoprilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14217",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Quinaprilat is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14231",
+                        "description": "The risk or severity of renal failure hypotension and hyperkalemia can be increased when Quinoline Yellow WS is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09236",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Lacidipine"
+                    },
+                    {
+                        "drugbank-id": "DB00898",
+                        "description": "Ethanol may increase the hypotensive activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00761",
+                        "description": "Potassium chloride may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06715",
+                        "description": "Potassium Iodide may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09087",
+                        "description": "Potassium alum may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09125",
+                        "description": "Potassium citrate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09413",
+                        "description": "Monopotassium phosphate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09414",
+                        "description": "Dipotassium phosphate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09418",
+                        "description": "Potassium perchlorate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09483",
+                        "description": "Potassium lactate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB11090",
+                        "description": "Potassium nitrate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB11098",
+                        "description": "Potassium bicarbonate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB11107",
+                        "description": "Potassium bitartrate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB11153",
+                        "description": "Potassium hydroxide may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13620",
+                        "description": "Potassium gluconate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13735",
+                        "description": "Potassium guaiacolsulfonate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13831",
+                        "description": "Potassium permanganate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB13977",
+                        "description": "Potassium carbonate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14492",
+                        "description": "Potassium triiodide may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14498",
+                        "description": "Potassium acetate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB14499",
+                        "description": "Potassium sulfate may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01345",
+                        "description": "Potassium cation may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00009",
+                        "description": "The risk or severity of angioedema can be increased when Alteplase is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00013",
+                        "description": "The risk or severity of angioedema can be increased when Urokinase is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00015",
+                        "description": "The risk or severity of angioedema can be increased when Reteplase is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00029",
+                        "description": "The risk or severity of angioedema can be increased when Anistreplase is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00031",
+                        "description": "The risk or severity of angioedema can be increased when Tenecteplase is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00086",
+                        "description": "The risk or severity of angioedema can be increased when Streptokinase is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00230",
+                        "description": "The risk or severity of angioedema can be increased when Pregabalin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00286",
+                        "description": "The risk or severity of angioedema can be increased when Conjugated estrogens is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The risk or severity of angioedema can be increased when Sirolimus is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB01261",
+                        "description": "The risk or severity of angioedema can be increased when Sitagliptin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB04876",
+                        "description": "The risk or severity of angioedema can be increased when Vildagliptin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06011",
+                        "description": "The risk or severity of angioedema can be increased when AMG 222 is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06127",
+                        "description": "The risk or severity of angioedema can be increased when Bisegliptin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06196",
+                        "description": "The risk or severity of angioedema can be increased when Icatibant is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06203",
+                        "description": "The risk or severity of angioedema can be increased when Alogliptin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06245",
+                        "description": "The risk or severity of angioedema can be increased when Lanoteplase is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The risk or severity of angioedema can be increased when Temsirolimus is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06335",
+                        "description": "The risk or severity of angioedema can be increased when Saxagliptin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06679",
+                        "description": "The risk or severity of angioedema can be increased when Amediplase is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08382",
+                        "description": "The risk or severity of angioedema can be increased when Gosogliptin is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Linagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11723",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Dutogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11950",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Teneligliptin"
+                    },
+                    {
+                        "drugbank-id": "DB11992",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Omarigliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12268",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Carmegliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12412",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Gemigliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12417",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Anagliptin"
+                    },
+                    {
+                        "drugbank-id": "DB12625",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Evogliptin"
+                    },
+                    {
+                        "drugbank-id": "DB13646",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Saruplase"
+                    },
+                    {
+                        "drugbank-id": "DB09292",
+                        "description": "The risk or severity of angioedema can be increased when Azilsartan medoxomil is combined with Sacubitril"
+                    },
+                    {
+                        "drugbank-id": "DB00465",
+                        "description": "The therapeutic efficacy of Azilsartan medoxomil can be decreased when used in combination with Ketorolac"
+                    },
+                    {
+                        "drugbank-id": "DB00217",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Bethanidine"
+                    },
+                    {
+                        "drugbank-id": "DB00226",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Guanadrel"
+                    },
+                    {
+                        "drugbank-id": "DB00374",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Treprostinil"
+                    },
+                    {
+                        "drugbank-id": "DB00559",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Bosentan"
+                    },
+                    {
+                        "drugbank-id": "DB00616",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Candoxatril"
+                    },
+                    {
+                        "drugbank-id": "DB00629",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Guanabenz"
+                    },
+                    {
+                        "drugbank-id": "DB00765",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Metyrosine"
+                    },
+                    {
+                        "drugbank-id": "DB00785",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Cryptenamine"
+                    },
+                    {
+                        "drugbank-id": "DB00820",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Tadalafil"
+                    },
+                    {
+                        "drugbank-id": "DB01089",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Deserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Pentolinium"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Trimethaphan"
+                    },
+                    {
+                        "drugbank-id": "DB01170",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Guanethidine"
+                    },
+                    {
+                        "drugbank-id": "DB03322",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Dexpropranolol"
+                    },
+                    {
+                        "drugbank-id": "DB04831",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Tienilic acid"
+                    },
+                    {
+                        "drugbank-id": "DB04840",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Debrisoquine"
+                    },
+                    {
+                        "drugbank-id": "DB06268",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Sitaxentan"
+                    },
+                    {
+                        "drugbank-id": "DB06403",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Ambrisentan"
+                    },
+                    {
+                        "drugbank-id": "DB06445",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Diethylnorspermine"
+                    },
+                    {
+                        "drugbank-id": "DB06762",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Pinacidil"
+                    },
+                    {
+                        "drugbank-id": "DB07767",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Ferulic acid"
+                    },
+                    {
+                        "drugbank-id": "DB08932",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Macitentan"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Hexamethonium"
+                    },
+                    {
+                        "drugbank-id": "DB09206",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Trimazosin"
+                    },
+                    {
+                        "drugbank-id": "DB09363",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Rauwolfia serpentina root"
+                    },
+                    {
+                        "drugbank-id": "DB11362",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Selexipag"
+                    },
+                    {
+                        "drugbank-id": "DB11720",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Angiotensin 1 7"
+                    },
+                    {
+                        "drugbank-id": "DB11738",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Rilmenidine"
+                    },
+                    {
+                        "drugbank-id": "DB12054",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of BQ 123"
+                    },
+                    {
+                        "drugbank-id": "DB12465",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Ketanserin"
+                    },
+                    {
+                        "drugbank-id": "DB12661",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Urapidil"
+                    },
+                    {
+                        "drugbank-id": "DB12766",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Cicletanine"
+                    },
+                    {
+                        "drugbank-id": "DB12945",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Dihydralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13211",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Guanoxan"
+                    },
+                    {
+                        "drugbank-id": "DB13374",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Vincamine"
+                    },
+                    {
+                        "drugbank-id": "DB13400",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Linsidomine"
+                    },
+                    {
+                        "drugbank-id": "DB13410",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Guanoxabenz"
+                    },
+                    {
+                        "drugbank-id": "DB13429",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Tolonidine"
+                    },
+                    {
+                        "drugbank-id": "DB13435",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Endralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13452",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Cadralazine"
+                    },
+                    {
+                        "drugbank-id": "DB13575",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Bietaserpine"
+                    },
+                    {
+                        "drugbank-id": "DB13604",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Guanazodine"
+                    },
+                    {
+                        "drugbank-id": "DB13631",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Methoserpidine"
+                    },
+                    {
+                        "drugbank-id": "DB13779",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Guanoclor"
+                    },
+                    {
+                        "drugbank-id": "DB13801",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Muzolimine"
+                    },
+                    {
+                        "drugbank-id": "DB13803",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Xipamide"
+                    },
+                    {
+                        "drugbank-id": "DB14094",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Tocopherylquinone"
+                    },
+                    {
+                        "drugbank-id": "DB09237",
+                        "description": "Azilsartan medoxomil may increase the hypotensive activities of Levamlodipine"
+                    },
+                    {
+                        "drugbank-id": "DB14500",
+                        "description": "Potassium may increase the hyperkalemic activities of Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00695",
+                        "description": "The risk or severity of renal failure and hypotension can be increased when Furosemide is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00203",
+                        "description": "The risk or severity of hypotension can be increased when Sildenafil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00235",
+                        "description": "The risk or severity of hypotension can be increased when Milrinone is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00806",
+                        "description": "The risk or severity of hypotension can be increased when Pentoxifylline is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB00862",
+                        "description": "The risk or severity of hypotension can be increased when Vardenafil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB05266",
+                        "description": "The risk or severity of hypotension can be increased when Ibudilast is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06237",
+                        "description": "The risk or severity of hypotension can be increased when Avanafil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB06267",
+                        "description": "The risk or severity of hypotension can be increased when Udenafil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB09273",
+                        "description": "The risk or severity of hypotension can be increased when Doxofylline is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB11792",
+                        "description": "The risk or severity of hypotension can be increased when Mirodenafil is combined with Azilsartan medoxomil"
+                    },
+                    {
+                        "drugbank-id": "DB12010",
+                        "description": "The risk or severity of hypotension can be increased when Fostamatinib is combined with Azilsartan medoxomil"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

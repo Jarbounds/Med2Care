@@ -1,0 +1,29 @@
+{
+    "medicine_id": "eb724b54c2bd52987ccd4bd074c11d64ffeeb7ac",
+    "platform_id": "DB06558",
+    "metadata": {
+        "name": "Astaxanthin 1 kg 1kg Powder",
+        "composition": "1 kg 1kg Tezosentan",
+        "clinical_particulars": {
+            "therapeutic_indications": "Investigated for use treatment in congestive heart failure liver disease and heart disease",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "NA",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Tezosentan can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Tezosentan may increase the vasodilatory activities of Isosorbide mononitrate"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

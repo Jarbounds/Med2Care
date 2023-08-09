@@ -1,0 +1,925 @@
+{
+    "medicine_id": "746cccd132ee648ddb1859047a66bb2ddb2f0c06",
+    "platform_id": "DB11181",
+    "metadata": {
+        "name": "Homatropine 50 mg 5mL Solution drops",
+        "composition": "50 mg 5mL Homatropine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Indicated as an overdose rescuing agent in combination with hydrocodone antitussive FDA Label Indicated for the induction of mydriasis in ophthalmic solutions",
+            "contraindications": {
+                "disease": "Acute oral LD50 is 1200 mg kg in rat 1400 mg kg in mouse and 1000 mg kg in guinea pig MSDS Systemic toxicity may occur following topical overdose of structurally related ophthalmic atropine particularly in children It is characterized by flushing and dryness of the skin blurred vision a rapid and irregular pulse fever convulsions and hallucinations and the loss of neuromuscular coordination Abdominal distension may be observed with infants Severe intoxication is manifested by central nervous system depression coma circulatory and respiratory failure and death FDA Label Symptomatic and supportive treatment should be initiated In case of accidental use or overdose in infants and small children the body surface should be kept moist FDA Label",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Homatropine is an anticholinergic drug that produces typical anticholinergic effects inducing mydriasis and cycloplegia Other effects of structurally related atropine that could also apply to homatropine include inhibition of secretions tachycardia relaxation of smooth muscle and central nervous effects including excitation T28",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The risk or severity of adverse effects can be increased when Tramadol is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00209",
+                        "description": "The risk or severity of adverse effects can be increased when Trospium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00219",
+                        "description": "The risk or severity of adverse effects can be increased when Oxyphenonium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00237",
+                        "description": "The risk or severity of adverse effects can be increased when Butabarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00241",
+                        "description": "The risk or severity of adverse effects can be increased when Butalbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00245",
+                        "description": "The risk or severity of adverse effects can be increased when Benzatropine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The risk or severity of adverse effects can be increased when Ziprasidone is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00280",
+                        "description": "The risk or severity of adverse effects can be increased when Disopyramide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00306",
+                        "description": "The risk or severity of adverse effects can be increased when Talbutal is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00312",
+                        "description": "The risk or severity of adverse effects can be increased when Pentobarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00321",
+                        "description": "The risk or severity of adverse effects can be increased when Amitriptyline is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00332",
+                        "description": "The risk or severity of adverse effects can be increased when Ipratropium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00333",
+                        "description": "The risk or severity of adverse effects can be increased when Methadone is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00334",
+                        "description": "The risk or severity of adverse effects can be increased when Olanzapine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00340",
+                        "description": "The risk or severity of adverse effects can be increased when Metixene is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The risk or severity of adverse effects can be increased when Terfenadine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00354",
+                        "description": "The risk or severity of adverse effects can be increased when Buclizine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00363",
+                        "description": "The risk or severity of adverse effects can be increased when Clozapine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00366",
+                        "description": "The risk or severity of adverse effects can be increased when Doxylamine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00376",
+                        "description": "The risk or severity of adverse effects can be increased when Trihexyphenidyl is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00383",
+                        "description": "The risk or severity of adverse effects can be increased when Oxyphencyclimine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00387",
+                        "description": "The risk or severity of adverse effects can be increased when Procyclidine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00392",
+                        "description": "The risk or severity of adverse effects can be increased when Profenamine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00416",
+                        "description": "The risk or severity of adverse effects can be increased when Metocurine iodide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00418",
+                        "description": "The risk or severity of adverse effects can be increased when Secobarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00420",
+                        "description": "The risk or severity of adverse effects can be increased when Promazine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00424",
+                        "description": "The risk or severity of adverse effects can be increased when Hyoscyamine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00434",
+                        "description": "The risk or severity of adverse effects can be increased when Cyproheptadine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00458",
+                        "description": "The risk or severity of adverse effects can be increased when Imipramine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00462",
+                        "description": "The risk or severity of adverse effects can be increased when Methscopolamine bromide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00463",
+                        "description": "The risk or severity of adverse effects can be increased when Metharbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00472",
+                        "description": "The risk or severity of adverse effects can be increased when Fluoxetine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The risk or severity of adverse effects can be increased when Chlorpromazine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00483",
+                        "description": "The risk or severity of adverse effects can be increased when Gallamine triethiodide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00496",
+                        "description": "The risk or severity of adverse effects can be increased when Darifenacin is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00505",
+                        "description": "The risk or severity of adverse effects can be increased when Tridihexethyl is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00508",
+                        "description": "The risk or severity of adverse effects can be increased when Triflupromazine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00514",
+                        "description": "The risk or severity of adverse effects can be increased when Dextromethorphan is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00517",
+                        "description": "The risk or severity of adverse effects can be increased when Anisotropine methylbromide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The risk or severity of adverse effects can be increased when Nortriptyline is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00543",
+                        "description": "The risk or severity of adverse effects can be increased when Amoxapine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00555",
+                        "description": "The risk or severity of adverse effects can be increased when Lamotrigine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00565",
+                        "description": "The risk or severity of adverse effects can be increased when Cisatracurium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00572",
+                        "description": "The risk or severity of adverse effects can be increased when Atropine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00599",
+                        "description": "The risk or severity of adverse effects can be increased when Thiopental is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00622",
+                        "description": "The risk or severity of adverse effects can be increased when Nicardipine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00657",
+                        "description": "The risk or severity of adverse effects can be increased when Mecamylamine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00670",
+                        "description": "The risk or severity of adverse effects can be increased when Pirenzepine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00715",
+                        "description": "The risk or severity of adverse effects can be increased when Paroxetine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00721",
+                        "description": "The risk or severity of adverse effects can be increased when Procaine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00725",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine methylbromide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00728",
+                        "description": "The risk or severity of adverse effects can be increased when Rocuronium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00732",
+                        "description": "The risk or severity of adverse effects can be increased when Atracurium besylate is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00747",
+                        "description": "The risk or severity of adverse effects can be increased when Scopolamine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00753",
+                        "description": "The risk or severity of adverse effects can be increased when Isoflurane is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00767",
+                        "description": "The risk or severity of adverse effects can be increased when Benzquinamide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00771",
+                        "description": "The risk or severity of adverse effects can be increased when Clidinium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00777",
+                        "description": "The risk or severity of adverse effects can be increased when Propiomazine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00782",
+                        "description": "The risk or severity of adverse effects can be increased when Propantheline is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00794",
+                        "description": "The risk or severity of adverse effects can be increased when Primidone is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00804",
+                        "description": "The risk or severity of adverse effects can be increased when Dicyclomine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00809",
+                        "description": "The risk or severity of adverse effects can be increased when Tropicamide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00810",
+                        "description": "The risk or severity of adverse effects can be increased when Biperiden is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00835",
+                        "description": "The risk or severity of adverse effects can be increased when Brompheniramine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00849",
+                        "description": "The risk or severity of adverse effects can be increased when Methylphenobarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00875",
+                        "description": "The risk or severity of adverse effects can be increased when Flupentixol is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00907",
+                        "description": "The risk or severity of adverse effects can be increased when Cocaine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The risk or severity of adverse effects can be increased when Quinidine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00915",
+                        "description": "The risk or severity of adverse effects can be increased when Amantadine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00934",
+                        "description": "The risk or severity of adverse effects can be increased when Maprotiline is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00940",
+                        "description": "The risk or severity of adverse effects can be increased when Methantheline is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00941",
+                        "description": "The risk or severity of adverse effects can be increased when Hexafluronium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00942",
+                        "description": "The risk or severity of adverse effects can be increased when Cycrimine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00967",
+                        "description": "The risk or severity of adverse effects can be increased when Desloratadine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00979",
+                        "description": "The risk or severity of adverse effects can be increased when Cyclopentolate is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00986",
+                        "description": "The risk or severity of adverse effects can be increased when Glycopyrronium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01036",
+                        "description": "The risk or severity of adverse effects can be increased when Tolterodine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01062",
+                        "description": "The risk or severity of adverse effects can be increased when Oxybutynin is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01069",
+                        "description": "The risk or severity of adverse effects can be increased when Promethazine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01075",
+                        "description": "The risk or severity of adverse effects can be increased when Diphenhydramine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01090",
+                        "description": "The risk or severity of adverse effects can be increased when Pentolinium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01116",
+                        "description": "The risk or severity of adverse effects can be increased when Trimethaphan is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01135",
+                        "description": "The risk or severity of adverse effects can be increased when Doxacurium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01142",
+                        "description": "The risk or severity of adverse effects can be increased when Doxepin is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01148",
+                        "description": "The risk or severity of adverse effects can be increased when Flavoxate is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01151",
+                        "description": "The risk or severity of adverse effects can be increased when Desipramine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01161",
+                        "description": "The risk or severity of adverse effects can be increased when Chloroprocaine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01173",
+                        "description": "The risk or severity of adverse effects can be increased when Orphenadrine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01174",
+                        "description": "The risk or severity of adverse effects can be increased when Phenobarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01175",
+                        "description": "The risk or severity of adverse effects can be increased when Escitalopram is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01199",
+                        "description": "The risk or severity of adverse effects can be increased when Tubocurarine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01224",
+                        "description": "The risk or severity of adverse effects can be increased when Quetiapine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01226",
+                        "description": "The risk or severity of adverse effects can be increased when Mivacurium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The risk or severity of adverse effects can be increased when Levacetylmethadol is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01231",
+                        "description": "The risk or severity of adverse effects can be increased when Diphenidol is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The risk or severity of adverse effects can be increased when Aripiprazole is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01239",
+                        "description": "The risk or severity of adverse effects can be increased when Chlorprothixene is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01288",
+                        "description": "The risk or severity of adverse effects can be increased when Fenoterol is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01336",
+                        "description": "The risk or severity of adverse effects can be increased when Metocurine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01337",
+                        "description": "The risk or severity of adverse effects can be increased when Pancuronium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01338",
+                        "description": "The risk or severity of adverse effects can be increased when Pipecuronium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01339",
+                        "description": "The risk or severity of adverse effects can be increased when Vecuronium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01351",
+                        "description": "The risk or severity of adverse effects can be increased when Amobarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01352",
+                        "description": "The risk or severity of adverse effects can be increased when Aprobarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01353",
+                        "description": "The risk or severity of adverse effects can be increased when Butobarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01354",
+                        "description": "The risk or severity of adverse effects can be increased when Heptabarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01355",
+                        "description": "The risk or severity of adverse effects can be increased when Hexobarbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01403",
+                        "description": "The risk or severity of adverse effects can be increased when Methotrimeprazine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01409",
+                        "description": "The risk or severity of adverse effects can be increased when Tiotropium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01483",
+                        "description": "The risk or severity of adverse effects can be increased when Barbital is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01496",
+                        "description": "The risk or severity of adverse effects can be increased when Dihydro 2 thioxo 5 5 2 trifluoromethyl phenyl 2 furanyl methyl 4 6 1H 5H pyrimidinedione is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01591",
+                        "description": "The risk or severity of adverse effects can be increased when Solifenacin is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01625",
+                        "description": "The risk or severity of adverse effects can be increased when Isopropamide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB04834",
+                        "description": "The risk or severity of adverse effects can be increased when Rapacuronium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB04843",
+                        "description": "The risk or severity of adverse effects can be increased when Mepenzolate is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB05710",
+                        "description": "The risk or severity of adverse effects can be increased when Gantacurium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB06153",
+                        "description": "The risk or severity of adverse effects can be increased when Pizotifen is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB06702",
+                        "description": "The risk or severity of adverse effects can be increased when Fesoterodine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB06787",
+                        "description": "The risk or severity of adverse effects can be increased when Hexocyclium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB08801",
+                        "description": "The risk or severity of adverse effects can be increased when Dimetindene is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB08838",
+                        "description": "The risk or severity of adverse effects can be increased when Agmatine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB08897",
+                        "description": "The risk or severity of adverse effects can be increased when Aclidinium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB08960",
+                        "description": "The risk or severity of adverse effects can be increased when Hexamethonium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB08997",
+                        "description": "The risk or severity of adverse effects can be increased when Dexetimide is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09007",
+                        "description": "The risk or severity of adverse effects can be increased when Chlorphenoxamine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09023",
+                        "description": "The risk or severity of adverse effects can be increased when Benactyzine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09076",
+                        "description": "The risk or severity of adverse effects can be increased when Umeclidinium is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09089",
+                        "description": "The risk or severity of adverse effects can be increased when Trimebutine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09167",
+                        "description": "The risk or severity of adverse effects can be increased when Dosulepin is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09262",
+                        "description": "The risk or severity of adverse effects can be increased when Imidafenacin is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09300",
+                        "description": "The risk or severity of adverse effects can be increased when Butylscopolamine is combined with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11235",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Thonzylamine"
+                    },
+                    {
+                        "drugbank-id": "DB11315",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Methscopolamine"
+                    },
+                    {
+                        "drugbank-id": "DB11855",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Revefenacin"
+                    },
+                    {
+                        "drugbank-id": "DB12086",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Oxitropium"
+                    },
+                    {
+                        "drugbank-id": "DB12278",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Propiverine"
+                    },
+                    {
+                        "drugbank-id": "DB12526",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Batefenterol"
+                    },
+                    {
+                        "drugbank-id": "DB12554",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Mebeverine"
+                    },
+                    {
+                        "drugbank-id": "DB13252",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Tropatepine"
+                    },
+                    {
+                        "drugbank-id": "DB13254",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Prifinium"
+                    },
+                    {
+                        "drugbank-id": "DB13295",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Atracurium"
+                    },
+                    {
+                        "drugbank-id": "DB13351",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Piperidolate"
+                    },
+                    {
+                        "drugbank-id": "DB13369",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Benzilone"
+                    },
+                    {
+                        "drugbank-id": "DB13380",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Difemerine"
+                    },
+                    {
+                        "drugbank-id": "DB13413",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Phenglutarimide"
+                    },
+                    {
+                        "drugbank-id": "DB13448",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Mazaticol"
+                    },
+                    {
+                        "drugbank-id": "DB13468",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Etybenzatropine"
+                    },
+                    {
+                        "drugbank-id": "DB13500",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Otilonium"
+                    },
+                    {
+                        "drugbank-id": "DB13505",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Emepronium"
+                    },
+                    {
+                        "drugbank-id": "DB13507",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Poldine"
+                    },
+                    {
+                        "drugbank-id": "DB13542",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Bevonium"
+                    },
+                    {
+                        "drugbank-id": "DB13581",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Rociverine"
+                    },
+                    {
+                        "drugbank-id": "DB13584",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Gallamine"
+                    },
+                    {
+                        "drugbank-id": "DB13619",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Bornaprine"
+                    },
+                    {
+                        "drugbank-id": "DB13636",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Etanautine"
+                    },
+                    {
+                        "drugbank-id": "DB13648",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Alcuronium"
+                    },
+                    {
+                        "drugbank-id": "DB13666",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Tiemonium iodide"
+                    },
+                    {
+                        "drugbank-id": "DB13678",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Dihexyverine"
+                    },
+                    {
+                        "drugbank-id": "DB13695",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Penthienate"
+                    },
+                    {
+                        "drugbank-id": "DB13720",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Diphemanil"
+                    },
+                    {
+                        "drugbank-id": "DB13738",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Camylofin"
+                    },
+                    {
+                        "drugbank-id": "DB13759",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Fenpiverinium"
+                    },
+                    {
+                        "drugbank-id": "DB13769",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Emetonium iodide"
+                    },
+                    {
+                        "drugbank-id": "DB13844",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Pipenzolate"
+                    },
+                    {
+                        "drugbank-id": "DB13850",
+                        "description": "The risk or severity of adverse effects can be increased when Homatropine is combined with Timepidium"
+                    },
+                    {
+                        "drugbank-id": "DB00581",
+                        "description": "The therapeutic efficacy of Lactulose can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00653",
+                        "description": "The therapeutic efficacy of Magnesium sulfate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01046",
+                        "description": "The therapeutic efficacy of Lubiprostone can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01079",
+                        "description": "The therapeutic efficacy of Tegaserod can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01377",
+                        "description": "The therapeutic efficacy of Magnesium oxide can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01378",
+                        "description": "The therapeutic efficacy of Magnesium cation can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01593",
+                        "description": "The therapeutic efficacy of Zinc can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB01638",
+                        "description": "The therapeutic efficacy of Sorbitol can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB04816",
+                        "description": "The therapeutic efficacy of Dantron can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB04823",
+                        "description": "The therapeutic efficacy of Oxyphenisatin can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB04824",
+                        "description": "The therapeutic efficacy of Phenolphthalein can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The therapeutic efficacy of Prucalopride can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB07715",
+                        "description": "The therapeutic efficacy of Emodin can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB08890",
+                        "description": "The therapeutic efficacy of Linaclotide can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09020",
+                        "description": "The therapeutic efficacy of Bisacodyl can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09104",
+                        "description": "The therapeutic efficacy of Magnesium hydroxide can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09219",
+                        "description": "The therapeutic efficacy of Bisoxatin can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09268",
+                        "description": "The therapeutic efficacy of Picosulfuric acid can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09281",
+                        "description": "The therapeutic efficacy of Magnesium trisilicate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09287",
+                        "description": "The therapeutic efficacy of Polyethylene glycol can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09311",
+                        "description": "The therapeutic efficacy of Polycarbophil can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09413",
+                        "description": "The therapeutic efficacy of Monopotassium phosphate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09414",
+                        "description": "The therapeutic efficacy of Dipotassium phosphate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09449",
+                        "description": "The therapeutic efficacy of Sodium phosphate monobasic can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09462",
+                        "description": "The therapeutic efficacy of Glycerin can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09472",
+                        "description": "The therapeutic efficacy of Sodium sulfate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09481",
+                        "description": "The therapeutic efficacy of Magnesium carbonate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB09484",
+                        "description": "The therapeutic efficacy of Sodium fluorophosphate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11057",
+                        "description": "The therapeutic efficacy of Mineral oil can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11059",
+                        "description": "The therapeutic efficacy of Carboxymethylcellulose can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11089",
+                        "description": "The therapeutic efficacy of Docusate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11097",
+                        "description": "The therapeutic efficacy of Plantago seed can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11110",
+                        "description": "The therapeutic efficacy of Magnesium citrate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11113",
+                        "description": "The therapeutic efficacy of Castor oil can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11189",
+                        "description": "The therapeutic efficacy of Magnesium glycinate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11228",
+                        "description": "The therapeutic efficacy of Methylcellulose can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11365",
+                        "description": "The therapeutic efficacy of Sennosides can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB12942",
+                        "description": "The therapeutic efficacy of Lactitol can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB13170",
+                        "description": "The therapeutic efficacy of Plecanatide can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB13486",
+                        "description": "The therapeutic efficacy of Magnesium peroxide can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB13526",
+                        "description": "The therapeutic efficacy of Pentaerithrityl can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB13707",
+                        "description": "The therapeutic efficacy of Sodium tartrate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14232",
+                        "description": "The therapeutic efficacy of Deacetylbisacodyl can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14482",
+                        "description": "The therapeutic efficacy of Sodium ascorbate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14499",
+                        "description": "The therapeutic efficacy of Potassium sulfate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14502",
+                        "description": "The therapeutic efficacy of Sodium phosphate dibasic can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14503",
+                        "description": "The therapeutic efficacy of Sodium phosphate monobasic unspecified form can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14504",
+                        "description": "The therapeutic efficacy of Sodium phosphate dibasic unspecified form can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14513",
+                        "description": "The therapeutic efficacy of Magnesium can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14585",
+                        "description": "The therapeutic efficacy of Plantago ovata seed can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14627",
+                        "description": "The therapeutic efficacy of Oxyphenisatin acetate can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14684",
+                        "description": "The therapeutic efficacy of Calcium polycarbophil can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14963",
+                        "description": "The therapeutic efficacy of Konjac mannan can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB15477",
+                        "description": "The therapeutic efficacy of Alloin can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB15478",
+                        "description": "The therapeutic efficacy of Frangula purshiana bark can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB11622",
+                        "description": "The therapeutic efficacy of Dehydrocholic acid can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14516",
+                        "description": "The therapeutic efficacy of Sodium cation can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14546",
+                        "description": "The therapeutic efficacy of Sulfate ion can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB00843",
+                        "description": "The therapeutic efficacy of Homatropine can be decreased when used in combination with Donepezil"
+                    },
+                    {
+                        "drugbank-id": "DB01233",
+                        "description": "The therapeutic efficacy of Metoclopramide can be decreased when used in combination with Homatropine"
+                    },
+                    {
+                        "drugbank-id": "DB14881",
+                        "description": "The risk or severity of urinary retention reduced gastrointestinal motility and constipation can be increased when Homatropine is combined with Oliceridine"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

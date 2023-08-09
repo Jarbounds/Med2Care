@@ -1,0 +1,909 @@
+{
+    "medicine_id": "13c7639f51a32eb11ed171126259d16ed4f53712",
+    "platform_id": "DB00769",
+    "metadata": {
+        "name": "Act Olopatadine 0 1 2 mg Solution",
+        "composition": "2 mg Hydrocortamate",
+        "clinical_particulars": {
+            "therapeutic_indications": "Used topically as an antiinflammatory in the treatment of steroid responsive dermatoses",
+            "contraindications": {
+                "disease": "Side effects include burning itching irritation dryness folliculitis hypertrichosis acneiform eruptions hypopigmentation perioral dermatitis allergic contact dermatitis maceration of the skin secondary infection skin atrophy striae miliaria",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Hydrocortamate is a synthetic glucocorticoid used for its anti inflammatory or immunosuppressive properties to treat inflammation due to corticosteroid responsive dermatoses Glucocorticoids are a class of steroid hormones characterised by an ability to bind with the cortisol receptor and trigger a variety of important cardiovascular metabolic immunologic and homeostatic effects Glucocorticoids are distinguished from mineralocorticoids and sex steroids by having different receptors target cells and effects Technically the term corticosteroid refers to both glucocorticoids and mineralocorticoids but is often used as a synonym for glucocorticoid Glucocorticoids suppress cell mediated immunity They act by inhibiting genes that code for the cytokines IL 1 IL 2 IL 3 IL 4 IL 5 IL 6 IL 8 and TNF alpha the most important of which is the IL 2 Reduced cytokine production limits T cell proliferation Glucocorticoids also suppress humoral immunity causing B cells to express lower amounts of IL 2 and IL 2 receptors This diminishes both B cell clonal expansion and antibody synthesis The diminished amounts of IL 2 also leads to fewer T lymphocyte cells being activated",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB01238",
+                        "description": "The metabolism of Aripiprazole can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB14185",
+                        "description": "The metabolism of Aripiprazole lauroxil can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01181",
+                        "description": "The metabolism of Ifosfamide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08883",
+                        "description": "The metabolism of Perampanel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00682",
+                        "description": "The metabolism of Warfarin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01418",
+                        "description": "The metabolism of Acenocoumarol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08496",
+                        "description": "The metabolism of R warfarin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08735",
+                        "description": "The metabolism of R S Warfarin alcohol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08736",
+                        "description": "The metabolism of S R Warfarin alcohol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB14055",
+                        "description": "The metabolism of S Warfarin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00530",
+                        "description": "The serum concentration of Erlotinib can be decreased when it is combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB14583",
+                        "description": "The metabolism of Segesterone acetate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00255",
+                        "description": "The metabolism of Diethylstilbestrol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00294",
+                        "description": "The metabolism of Etonogestrel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00304",
+                        "description": "The metabolism of Desogestrel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00351",
+                        "description": "The metabolism of Megestrol acetate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00367",
+                        "description": "The metabolism of Levonorgestrel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00396",
+                        "description": "The metabolism of Progesterone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00603",
+                        "description": "The metabolism of Medroxyprogesterone acetate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00717",
+                        "description": "The metabolism of Norethisterone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00783",
+                        "description": "The metabolism of Estradiol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00823",
+                        "description": "The metabolism of Ethynodiol diacetate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00834",
+                        "description": "The metabolism of Mifepristone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00957",
+                        "description": "The metabolism of Norgestimate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00977",
+                        "description": "The metabolism of Ethinylestradiol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01357",
+                        "description": "The metabolism of Mestranol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01395",
+                        "description": "The metabolism of Drospirenone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04066",
+                        "description": "The metabolism of p Coumaric acid can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04574",
+                        "description": "The metabolism of Estrone sulfate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04682",
+                        "description": "The metabolism of Octylphenoxy polyethoxyethanol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04839",
+                        "description": "The metabolism of Cyproterone acetate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB05830",
+                        "description": "The metabolism of Trestolone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06266",
+                        "description": "The metabolism of Lonidamine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06713",
+                        "description": "The metabolism of Norelgestromin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06730",
+                        "description": "The metabolism of Gestodene can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06789",
+                        "description": "The metabolism of Hydroxyprogesterone caproate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09123",
+                        "description": "The metabolism of Dienogest can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09371",
+                        "description": "The metabolism of Norethynodrel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09389",
+                        "description": "The metabolism of Norgestrel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09401",
+                        "description": "The metabolism of Isosorbide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11507",
+                        "description": "The metabolism of Cloprostenol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11619",
+                        "description": "The metabolism of Gestrinone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11636",
+                        "description": "The metabolism of Nomegestrol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12025",
+                        "description": "The metabolism of Triptolide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12474",
+                        "description": "The metabolism of Lynestrenol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13044",
+                        "description": "The metabolism of Gossypol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13310",
+                        "description": "The metabolism of Ormeloxifene can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13528",
+                        "description": "The metabolism of Chlormadinone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13563",
+                        "description": "The metabolism of Norgestrienone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13685",
+                        "description": "The metabolism of Quingestanol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13857",
+                        "description": "The metabolism of Demegestone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13866",
+                        "description": "The metabolism of Etynodiol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13944",
+                        "description": "The metabolism of Testosterone enanthate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13953",
+                        "description": "The metabolism of Estradiol benzoate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13954",
+                        "description": "The metabolism of Estradiol cypionate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13956",
+                        "description": "The metabolism of Estradiol valerate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13981",
+                        "description": "The metabolism of Nomegestrol acetate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB14678",
+                        "description": "The metabolism of Norethindrone enanthate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08867",
+                        "description": "The metabolism of Ulipristal can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00186",
+                        "description": "The metabolism of Lorazepam can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00191",
+                        "description": "The metabolism of Phentermine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00207",
+                        "description": "The metabolism of Azithromycin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00208",
+                        "description": "The metabolism of Ticlopidine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00246",
+                        "description": "The metabolism of Ziprasidone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00264",
+                        "description": "The metabolism of Metoprolol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00426",
+                        "description": "The metabolism of Famciclovir can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00433",
+                        "description": "The metabolism of Prochlorperazine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00476",
+                        "description": "The metabolism of Duloxetine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00477",
+                        "description": "The metabolism of Chlorpromazine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00518",
+                        "description": "The metabolism of Albendazole can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00567",
+                        "description": "The metabolism of Cephalexin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00590",
+                        "description": "The metabolism of Doxazosin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01039",
+                        "description": "The metabolism of Fenofibrate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01072",
+                        "description": "The metabolism of Atazanavir can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01098",
+                        "description": "The metabolism of Rosuvastatin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01323",
+                        "description": "The metabolism of St John s Wort can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01411",
+                        "description": "The metabolism of Pranlukast can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01431",
+                        "description": "The metabolism of Allylestrenol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01624",
+                        "description": "The metabolism of Zuclopenthixol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01656",
+                        "description": "The metabolism of Roflumilast can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06201",
+                        "description": "The metabolism of Rufinamide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06218",
+                        "description": "The metabolism of Lacosamide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06480",
+                        "description": "The metabolism of Prucalopride can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08882",
+                        "description": "The metabolism of Linagliptin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09030",
+                        "description": "The metabolism of Vorapaxar can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09034",
+                        "description": "The metabolism of Suvorexant can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09048",
+                        "description": "The metabolism of Netupitant can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09071",
+                        "description": "The metabolism of Tasimelteon can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09079",
+                        "description": "The metabolism of Nintedanib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09299",
+                        "description": "The metabolism of Tenofovir alafenamide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11094",
+                        "description": "The metabolism of Vitamin D can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11273",
+                        "description": "The metabolism of Dihydroergocornine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11730",
+                        "description": "The metabolism of Ribociclib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11952",
+                        "description": "The metabolism of Duvelisib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12141",
+                        "description": "The metabolism of Gilteritinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12515",
+                        "description": "The metabolism of 9 aminocamptothecin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12952",
+                        "description": "The metabolism of Methylprednisone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13345",
+                        "description": "The metabolism of Dihydroergocristine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13385",
+                        "description": "The metabolism of Dihydroergocryptine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB14009",
+                        "description": "The metabolism of Medical Cannabis can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB14126",
+                        "description": "The metabolism of Tenofovir can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00549",
+                        "description": "The metabolism of Zafirlukast can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB15444",
+                        "description": "The metabolism of Elexacaftor can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12887",
+                        "description": "The metabolism of Tazemetostat can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06717",
+                        "description": "The metabolism of Fosaprepitant can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12825",
+                        "description": "The metabolism of Lefamulin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00247",
+                        "description": "The metabolism of Methysergide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00454",
+                        "description": "The metabolism of Meperidine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11742",
+                        "description": "The metabolism of Ebastine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00342",
+                        "description": "The metabolism of Terfenadine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00604",
+                        "description": "The metabolism of Cisapride can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11633",
+                        "description": "The metabolism of Isavuconazole can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00091",
+                        "description": "The metabolism of Cyclosporine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00204",
+                        "description": "The metabolism of Dofetilide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00277",
+                        "description": "The metabolism of Theophylline can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00564",
+                        "description": "The metabolism of Carbamazepine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00864",
+                        "description": "The metabolism of Tacrolimus can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00877",
+                        "description": "The metabolism of Sirolimus can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00908",
+                        "description": "The metabolism of Quinidine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00946",
+                        "description": "The metabolism of Phenprocoumon can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01008",
+                        "description": "The metabolism of Busulfan can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01100",
+                        "description": "The metabolism of Pimozide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01118",
+                        "description": "The metabolism of Amiodarone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01223",
+                        "description": "The metabolism of Aminophylline can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01229",
+                        "description": "The metabolism of Paclitaxel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01254",
+                        "description": "The metabolism of Dasatinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01320",
+                        "description": "The metabolism of Fosphenytoin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01396",
+                        "description": "The metabolism of Digitoxin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01590",
+                        "description": "The metabolism of Everolimus can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04855",
+                        "description": "The metabolism of Dronedarone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06287",
+                        "description": "The metabolism of Temsirolimus can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09289",
+                        "description": "The metabolism of Tianeptine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB05239",
+                        "description": "The metabolism of Cobimetinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09054",
+                        "description": "The metabolism of Idelalisib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09063",
+                        "description": "The metabolism of Ceritinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09330",
+                        "description": "The metabolism of Osimertinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11963",
+                        "description": "The metabolism of Dacomitinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12015",
+                        "description": "The metabolism of Alpelisib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00637",
+                        "description": "The metabolism of Astemizole can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08827",
+                        "description": "The metabolism of Lomitapide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12371",
+                        "description": "The metabolism of Siponimod can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00563",
+                        "description": "The metabolism of Methotrexate can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00361",
+                        "description": "The metabolism of Vinorelbine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00541",
+                        "description": "The metabolism of Vincristine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00570",
+                        "description": "The metabolism of Vinblastine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00997",
+                        "description": "The metabolism of Doxorubicin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01248",
+                        "description": "The metabolism of Docetaxel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04572",
+                        "description": "The metabolism of Thiotepa can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB05109",
+                        "description": "The metabolism of Trabectedin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB05294",
+                        "description": "The metabolism of Vandetanib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08881",
+                        "description": "The metabolism of Vemurafenib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11363",
+                        "description": "The metabolism of Alectinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11581",
+                        "description": "The metabolism of Venetoclax can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11641",
+                        "description": "The metabolism of Vinflunine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11703",
+                        "description": "The metabolism of Acalabrutinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB13874",
+                        "description": "The metabolism of Enasidenib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB15035",
+                        "description": "The metabolism of Zanubrutinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00188",
+                        "description": "The metabolism of Bortezomib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00248",
+                        "description": "The metabolism of Cabergoline can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00309",
+                        "description": "The metabolism of Vindesine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00398",
+                        "description": "The metabolism of Sorafenib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00444",
+                        "description": "The metabolism of Teniposide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00675",
+                        "description": "The metabolism of Tamoxifen can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00773",
+                        "description": "The metabolism of Etoposide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01268",
+                        "description": "The metabolism of Sunitinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04845",
+                        "description": "The metabolism of Ixabepilone can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04868",
+                        "description": "The metabolism of Nilotinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06589",
+                        "description": "The metabolism of Pazopanib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06595",
+                        "description": "The metabolism of Midostaurin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06603",
+                        "description": "The metabolism of Panobinostat can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06616",
+                        "description": "The metabolism of Bosutinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06626",
+                        "description": "The metabolism of Axitinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08865",
+                        "description": "The metabolism of Crizotinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08870",
+                        "description": "The metabolism of Brentuximab vedotin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08877",
+                        "description": "The metabolism of Ruxolitinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08901",
+                        "description": "The metabolism of Ponatinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08912",
+                        "description": "The metabolism of Dabrafenib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09073",
+                        "description": "The metabolism of Palbociclib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09143",
+                        "description": "The metabolism of Sonidegib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09570",
+                        "description": "The metabolism of Ixazomib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11828",
+                        "description": "The metabolism of Neratinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12147",
+                        "description": "The metabolism of Erdafitinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12267",
+                        "description": "The metabolism of Brigatinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12483",
+                        "description": "The metabolism of Copanlisib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12978",
+                        "description": "The metabolism of Pexidartinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB14568",
+                        "description": "The metabolism of Ivosidenib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00575",
+                        "description": "The metabolism of Clonidine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00762",
+                        "description": "The metabolism of Irinotecan can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06176",
+                        "description": "The metabolism of Romidepsin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06212",
+                        "description": "The metabolism of Tolvaptan can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08896",
+                        "description": "The metabolism of Regorafenib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08910",
+                        "description": "The metabolism of Pomalidomide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB09074",
+                        "description": "The metabolism of Olaparib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11817",
+                        "description": "The metabolism of Baricitinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12001",
+                        "description": "The metabolism of Abemaciclib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00320",
+                        "description": "The metabolism of Dihydroergotamine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00531",
+                        "description": "The metabolism of Cyclophosphamide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00540",
+                        "description": "The metabolism of Nortriptyline can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00696",
+                        "description": "The metabolism of Ergotamine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00872",
+                        "description": "The metabolism of Conivaptan can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01128",
+                        "description": "The metabolism of Bicalutamide can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01227",
+                        "description": "The metabolism of Levacetylmethadol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01242",
+                        "description": "The metabolism of Clomipramine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB05773",
+                        "description": "The metabolism of Trastuzumab emtansine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06772",
+                        "description": "The metabolism of Cabazitaxel can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB04896",
+                        "description": "The metabolism of Milnacipran can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB08918",
+                        "description": "The metabolism of Levomilnacipran can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01256",
+                        "description": "The metabolism of Retapamulin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00381",
+                        "description": "The metabolism of Amlodipine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01068",
+                        "description": "The metabolism of Clonazepam can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00425",
+                        "description": "The metabolism of Zolpidem can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00402",
+                        "description": "The serum concentration of Eszopiclone can be decreased when it is combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11986",
+                        "description": "The metabolism of Entrectinib can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11951",
+                        "description": "The serum concentration of Lemborexant can be decreased when it is combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB06077",
+                        "description": "The serum concentration of Lumateperone can be decreased when it is combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00243",
+                        "description": "The metabolism of Ranolazine can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB00193",
+                        "description": "The metabolism of Tramadol can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB01190",
+                        "description": "The metabolism of Clindamycin can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB12457",
+                        "description": "The metabolism of Rimegepant can be increased when combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB11791",
+                        "description": "The serum concentration of Capmatinib can be decreased when it is combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB15685",
+                        "description": "The serum concentration of Selpercatinib can be decreased when it is combined with Hydrocortamate"
+                    },
+                    {
+                        "drugbank-id": "DB14881",
+                        "description": "The serum concentration of Oliceridine can be decreased when it is combined with Hydrocortamate"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}

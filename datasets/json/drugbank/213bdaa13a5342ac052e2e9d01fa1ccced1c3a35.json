@@ -1,0 +1,29 @@
+{
+    "medicine_id": "213bdaa13a5342ac052e2e9d01fa1ccced1c3a35",
+    "platform_id": "DB06751",
+    "metadata": {
+        "name": "Clanza CR 200 mg 1 Tablet film coated",
+        "composition": "200 mg 1 Drotaverine",
+        "clinical_particulars": {
+            "therapeutic_indications": "Used in the treatment of functional bowel disorders and alleviating pain in renal colic",
+            "contraindications": {
+                "disease": "NA",
+                "pregnancy": "NA",
+                "machine_ops": "NA",
+                "pharmacodynamics": "Drotaverine is a spasmolytic agent by inhibiting PDE4 in smooth muscle cells",
+                "excipients": "NA",
+                "incompatibilities": [
+                    {
+                        "drugbank-id": "DB13967",
+                        "description": "The therapeutic efficacy of Drotaverine can be decreased when used in combination with Patent Blue"
+                    },
+                    {
+                        "drugbank-id": "DB01020",
+                        "description": "Drotaverine may increase the vasodilatory activities of Isosorbide mononitrate"
+                    }
+                ]
+            }
+        },
+        "revision_date": "2023-05-14"
+    }
+}
